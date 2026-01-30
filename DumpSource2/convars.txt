@@ -2950,7 +2950,7 @@ dota_client_ping_max_allowance 4 (clientdll cheat)
 dota_client_ping_max_allowance_period_seconds 1 (clientdll cheat)
 	<no description>
 
-dota_clientside_wearables false (gamedll clientdll hidden replicated release)
+dota_clientside_wearables true (gamedll clientdll replicated release)
 	<no description>
 
 dota_clip_builder_bitrate 30 (clientdll archive per_user)

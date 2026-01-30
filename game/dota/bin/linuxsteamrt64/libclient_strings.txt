@@ -8342,8 +8342,8 @@ $playerteam
 0:%02d
 0;Q5[
 0<cz
-0HA\t
 0M2~@p
+0MA\t
 0W/5
 0Z@q
 0\r0#0)070;0U0Y0[0g0q0y0}0

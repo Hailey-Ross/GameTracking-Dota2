@@ -8347,13 +8347,13 @@ $playerteam
 0Z@q
 0\r0#0)070;0U0Y0[0g0q0y0}0
 0e\r8
-0p0\t
 0pp@5tqE?|sO541
 0tU+xc:
 0x%4.4x 
 0x%X
 0x%X 
 0x%s
+0y0\t
 0}dV
 1 arguments expected: %s <map name>\n
 1!1'1-191C1E1K1]1a1g1m1s1
@@ -73336,6 +73336,14 @@ fragment_bonus_earned
 fragment_bonus_mult
 fragments
 fragments_owned
+frame_oversleep_time_50th_percentile
+frame_oversleep_time_95th_percentile
+frame_oversleep_time_max
+frame_oversleep_time_sample_count
+frame_sleep_time_50th_percentile
+frame_sleep_time_95th_percentile
+frame_sleep_time_max
+frame_sleep_time_sample_count
 frame_time
 frame_time_50th_percentile
 frame_time_95th_percentile

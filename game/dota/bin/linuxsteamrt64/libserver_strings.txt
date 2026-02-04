@@ -605,7 +605,6 @@ $$%% Null bot mode for unit %s\n
 %d_breakpiece_contents_%d.vsnap
 %f %f %f %f %f %f %f
 %f %f %f, %f %f %f
-%f IN_PROGRESS_LONG_FRAME TOOK %.3fms DURING GAMEPLAY.\n
 %f: Player %s at [%0.2f %0.2f %0.2f] took %f damage from %s, type %s\n
 %g %g %g %g
 %i : %s (ground %i %s)\n
@@ -39992,6 +39991,14 @@ fow_duration
 fow_range
 frac
 fraction
+frame_oversleep_time_50th_percentile
+frame_oversleep_time_95th_percentile
+frame_oversleep_time_max
+frame_oversleep_time_sample_count
+frame_sleep_time_50th_percentile
+frame_sleep_time_95th_percentile
+frame_sleep_time_max
+frame_sleep_time_sample_count
 frame_time_50th_percentile
 frame_time_95th_percentile
 frame_time_max

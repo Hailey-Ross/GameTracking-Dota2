@@ -8353,7 +8353,6 @@ $playerteam
 0x%X
 0x%X 
 0x%s
-0y0\t
 0}dV
 1 arguments expected: %s <map name>\n
 1!1'1-191C1E1K1]1a1g1m1s1
@@ -10423,6 +10422,7 @@ $playerteam
 15CNetworkVarBaseIbN19CQuickBuyController38NetworkVar_m_bBuybackProtectionEnabledEE
 15CNetworkVarBaseIbN19C_DOTA_BaseNPC_Hero27NetworkVar_m_bReincarnatingEE
 15CNetworkVarBaseIbN19C_DOTA_BaseNPC_Hero30NetworkVar_m_bCustomKillEffectEE
+15CNetworkVarBaseIbN19C_DOTA_BaseNPC_Hero30NetworkVar_m_bDisableWearablesEE
 15CNetworkVarBaseIbN19C_DOTA_BaseNPC_Hero35NetworkVar_m_bScriptDisableRespawnsEE
 15CNetworkVarBaseIbN19C_DOTA_Unit_Courier27NetworkVar_m_bFlyingCourierEE
 15CNetworkVarBaseIbN19C_EnvWindController22NetworkVar_m_bIsMasterEE
@@ -42563,6 +42563,7 @@ DisableSpinning
 DisableStatusDisplay
 DisableStencil
 DisableUpdateDisplay
+DisableWearables
 Disabled: %s
 DisabledFgColor1
 DisabledFgColor2

@@ -17,6 +17,7 @@
 // MNetworkVarNames = "PlayerID_t m_iPlayerID"
 // MNetworkVarNames = "HeroFacetKey_t m_iHeroFacetKey"
 // MNetworkVarNames = "CHandle< CDOTA_BaseNPC_Hero> m_hReplicatingOtherHeroModel"
+// MNetworkVarNames = "bool m_bDisableWearables"
 // MNetworkVarNames = "bool m_bReincarnating"
 // MNetworkVarNames = "bool m_bCustomKillEffect"
 // MNetworkVarNames = "GameTime_t m_flSpawnedAt"
@@ -90,6 +91,7 @@ class CDOTA_BaseNPC_Hero : public CDOTA_BaseNPC_Additive
 	CountdownTimer m_MultipleLastHitTimer;
 	int32 m_iMultipleKillCount;
 	float32 m_flKillStreakStartTime;
+	// MNetworkEnable
 	bool m_bDisableWearables;
 	CHandle< CDOTAWearableItem >[103] m_hTogglableWearable;
 	CDOTA_BaseNPC_Hero::KillInfo_t m_KillInfo;

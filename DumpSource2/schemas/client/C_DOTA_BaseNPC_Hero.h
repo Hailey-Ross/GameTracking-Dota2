@@ -1,3 +1,4 @@
+// MNetworkVarNames = "bool m_bDisableWearables"
 // MNetworkVarNames = "int m_iCurrentXP"
 // MNetworkVarNames = "int m_iAbilityPoints"
 // MNetworkVarNames = "int m_iTotalAbilityPoints"
@@ -24,6 +25,8 @@
 // MNetworkIncludeByName = "m_flDeathTime"
 class C_DOTA_BaseNPC_Hero : public C_DOTA_BaseNPC_Additive
 {
+	// MNetworkEnable
+	bool m_bDisableWearables;
 	// MNetworkEnable
 	// MNetworkPriority = 32
 	int32 m_iCurrentXP;

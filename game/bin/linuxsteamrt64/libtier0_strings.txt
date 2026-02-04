@@ -603,7 +603,6 @@ $xmm9
 18CVNullSymbolModule
 18IMemAlloc_Internal
 18IMultipleWorkerJob
-19:35:15
 19CDmSymbolTableLarge
 19CExecMultiWorkerJob
 19CUtlNoEscConversion
@@ -617,6 +616,7 @@ $xmm9
 1icl
 1wsHp
 2,THh
+20:09:39
 20CKeyValuesSystemBase
 20CRefCountServiceBaseI6CRefMTE
 20CThreadedTraverseJob
@@ -2951,6 +2951,7 @@ Failed to parse initial ConVar '%s'[%d] from string '%s'\n
 Failed to select dictionary\n
 Failed to write
 Fatal Error
+Feb  4 2026
 February
 FiYW
 Fiber Job
@@ -3464,7 +3465,6 @@ JArray
 JIxX
 JJK1
 JSON error, unterminated element: 
-Jan 23 2026
 January
 Jjw[Sc
 JmpToAlternateStack
@@ -6418,7 +6418,7 @@ _txnal_logic_error_get_msg(void*)
 _txnal_runtime_error_get_msg(void*)
 _txnal_sso_string_c_str(void const*)
 _wWT+
-`n85,
+`b2d:
 a?y#c?sIe?
 aC.B
 aG0"

@@ -600,6 +600,7 @@ class C_DOTAGamerules : public C_MultiplayRules
 	// MNetworkEnable
 	C_NetworkUtlVectorBase< RegionTriggerBoxes_t > m_RegionTriggerBoxes;
 	float64 m_flLastPerfSampleTime;
+	int32 m_nMultipleTickFrameCount;
 	float64 m_flLastPerfSampleSendTime;
 	bool m_bDidSeeStrategyTime;
 	float64 m_flLastUnfocusedSleepTime;

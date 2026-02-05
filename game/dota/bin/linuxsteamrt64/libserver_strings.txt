@@ -33378,6 +33378,7 @@ Server failed to get reply from the GC\n
 Server game time: %f\n
 Server is shutting down while still trying to setup UGC\n
 Server not running, command ignored.\n
+Server performance summary:\n
 Server received reply from the GC: %s (%u)\n
 Server: Missing precache for effect "%s"!\n
 ServerMVP: Not calculating stats for custom/bot game.\n
@@ -37618,7 +37619,6 @@ c2tnb431r1
 cACertificate
 cColor
 cNAMERecord
-cVKi
 caIssuers
 caRepository
 cable_dynamic

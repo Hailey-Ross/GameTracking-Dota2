@@ -47150,6 +47150,7 @@ multiplekillcount
 multiply_%s
 multishot_movespeed
 multisource
+multitick_frame_count
 murder_all_creeps
 music
 must

@@ -5710,6 +5710,9 @@ dota_monster_hunter_num_investigations 3 (developmentonly gamedll clientdll repl
 dota_monster_hunter_part_highlight_hover_time_s 0.1 (developmentonly clientdll)
 	<no description>
 
+dota_monster_hunter_preview_event_end false (developmentonly clientdll)
+	<no description>
+
 dota_monster_hunter_rare_chance 0.27 (developmentonly gamedll clientdll replicated defensive)
 	The likelihood of seeing an investigation with a rare drop
 

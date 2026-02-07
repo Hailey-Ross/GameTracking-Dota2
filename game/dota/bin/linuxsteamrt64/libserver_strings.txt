@@ -29129,6 +29129,7 @@ Lobby has CMsgBattleCupVictory with %d winners\n
 Lobby has switched into POSTGAME state with match outcome %d.  Terminating game!\n
 Lobby object destroyed, previous lobby_id=%llu, match_id=%llu\n
 Lobby was null when fetching PartID for player %d.\n
+Lobby went away, Quitting server.
 LocToken
 LocTokenEnglish
 LocalEventMsg
@@ -31934,6 +31935,7 @@ ReplaceHeroWith failed as player has no current hero to replace.\n
 ReplaceHeroWith failed as the unit %s is invalid.\n
 ReplaceHeroWithNoTransfer
 ReplaceUnit
+Replay uploaded and dota_quit_after_game set, quitting.
 Replaying from %s (%d) pov\n
 Reporting Cheer State:\n%s
 Reports all extant entities. Optional 2nd arg is a substring of a classname that the list will be filtered by.

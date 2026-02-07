@@ -29783,6 +29783,7 @@ $playerteam
 >yhP
 >ztq
 ?16ILoggingListener
+?8sa
 ???CRR_Response bogus index
 ?HAI\t81\t9dcG'
 ?HP4
@@ -31953,6 +31954,7 @@ BottomAbilityImage
 BottomArrow
 BottomArrowVisible
 BottomBackground
+BottomCell
 BottomContainer
 BottomDire
 BottomGlyph
@@ -43876,6 +43878,7 @@ EventGameModeUpgrade
 EventGameOpen
 EventGiftButton
 EventHUDUpdate
+EventHasEnded
 EventHidesBattleLevel
 EventHudUpdate
 EventID
@@ -51245,6 +51248,7 @@ MonsterHunterCraftingMaterialClicked
 MonsterHunterCraftingUpdateTargetMaterial
 MonsterHunterDemoEconItem
 MonsterHunterEconSetPreviewTooltip
+MonsterHunterEventNotEnded
 MonsterHunterFreePalicoCrafted
 MonsterHunterHeroAtlasProgressionOverlay
 MonsterHunterHeroAtlasTooltip
@@ -56690,6 +56694,7 @@ QuarterResEffectsBloomInputTexture
 QuarterResEffectsBloomSrcViewport
 QuarterResEffectsColor
 QuarterSizeAttrWithBoxFilter
+QuarteroCell
 QuarteroItemRedemption
 QuarteroLogoPortrait
 QuasColor
@@ -59992,6 +59997,7 @@ ShowMiniShowcase
 ShowMinimap
 ShowMiscTab
 ShowMissingHeroes
+ShowMonsterHunter
 ShowMovie
 ShowMovieAdByName
 ShowMultiUnit
@@ -62442,6 +62448,7 @@ TopBarUltimate
 TopBarWatch
 TopBottomFlow
 TopBottomSplitter
+TopCell
 TopContainer
 TopContributor
 TopDire
@@ -74533,7 +74540,6 @@ holdInstructionNone
 holdInstructionReject
 holdout_example
 holdout_scourge_ward
-holiday_material_rewards
 hollow 
 homePostalAddress
 homeTelephoneNumber

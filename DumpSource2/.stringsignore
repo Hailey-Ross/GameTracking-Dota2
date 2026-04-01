@@ -41409,7 +41409,6 @@ m_bOutside
 m_bOututBehindness
 m_bOututBehindness == false
 m_bOverheadEffectOffset
-m_bOverheating
 m_bOverrideArmor
 m_bOverrideBotLateGame
 m_bOverrideDuration
@@ -44643,6 +44642,7 @@ m_flLastEnemyHeroVisibleTime
 m_flLastEntitySteadyState
 m_flLastEventAnimTime
 m_flLastEventCycle
+m_flLastExtraHealth
 m_flLastFierySoulFullStackTime
 m_flLastFireTime
 m_flLastFocusFireAttackTime
@@ -44659,6 +44659,7 @@ m_flLastItemSuggestionRequestTime
 m_flLastKnownActiveTime
 m_flLastLeavingFountainToastTime
 m_flLastMapLineTime
+m_flLastMaxHealth
 m_flLastMaxMovespeed
 m_flLastMissileFiredTime
 m_flLastMoveTime

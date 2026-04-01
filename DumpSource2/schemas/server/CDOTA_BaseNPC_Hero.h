@@ -13,6 +13,8 @@ class CDOTA_BaseNPC_Hero : public CDOTA_BaseNPC_Additive
 	float32 m_flStrengthGain;
 	float32 m_flAgilityGain;
 	float32 m_flIntellectGain;
+	float32 m_flLastExtraHealth;
+	float32 m_flLastMaxHealth;
 	float32 m_flLastSuggestionTime;
 	bool m_bItemsAddedToLoadout;
 	bool m_bPregameItemsAddedToLoadout;

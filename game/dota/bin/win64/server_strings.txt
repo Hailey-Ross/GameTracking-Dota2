@@ -1869,33 +1869,31 @@ $hRh
 (0'yX
 (0.1s interval)
 (0x%08X)'??'
-(1mg
-(58g
 (5Me
-(5Og
-(5eg
 (5jP
-(5kg
-(5rg
-(9Mg
-(9sg
-(A7g
+(5mg
+(98g
+(9Og
+(9eg
+(9kg
+(9rg
+(A2g
+(A3g
 (ACTIVE)
 (BZq
 (D4D
 (DOTA_INVALID_ORDERS nReason) Return the error string of a failed order.
 (Deprecated: use GetNumConnectedHumanPlayers) Players on a valid team (radiant, dire, or custom*) who haven't abandoned the game
-(Elg
+(E7g
 (HSCRIPT hTarget) Determine whether an issued command on a target is valid.
 (HSCRIPT hTarget) Return the error string of a failed command on a target.
 (HSCRIPT hTarget, Vector vLocation) Projectile has collided with a given target or reached its destination (target is invalid).
 (HSCRIPT hTarget, Vector vLocation, int nHandle) Projectile has collided with a given target or reached its destination (target is invalid).
 (HSCRIPT hTarget, Vector vLocation, table kv) Projectile has collided with a given target or reached its destination (target is invalid).
 (Has breakpieces or commands)
-(Idg
-(Ijg
-(MWg
-(Mig
+(Ilg
+(Mdg
+(Mjg
 (NAV IGNORED)
 (NAV_IGNORED)
 (NONE)
@@ -1903,21 +1901,22 @@ $hRh
 (Output drawable)
 (Preview/Unreleased) Gets the player's custom game account record, as it looked at the start of this session
 (Preview/Unreleased) Sets a callback to handle saving custom game account records (callback is passed a Player ID and should return a flat simple table)
-(Q5g
-(Q6g
-(Qtg
+(QWg
+(Qig
 (SERVER) Inventory for account (%d):\n
 (Server) 
 (U1h
-(Uhg
+(U5g
+(U6g
 (Unknown error)
+(Utg
 (Vector vLocation) Determine whether an issued command on a location is valid.
 (Vector vLocation) Projectile is actively moving.
 (Vector vLocation) Return the error string of a failed command on a location.
 (Vector vLocation, table kv ) Projectile is actively moving.
 (Vector vOrigin, float flRadius )
 (WIPE AND EXTRACT)
-(Yog
+(Yhg
 (ZdOt\n&
 (\f"#\n!CDOTABroadcastMsg_LANLobbyRequest"
 (\f";\n%CDOTAUserMsg_CustomHudElement_Destroy
@@ -2516,13 +2515,15 @@ $hRh
 (\v2\v.CMsgVector"l\n
 (\v2\v.CMsgVector"o\n)CDOTAUserMsg_UpdateLinearProjectileCPData
 (\v2\v.CMsgVector*
-(a9g
+(apg
+(aqg
 (b IncludePregameTime b IncludeNegativeTime) Returns the actual DOTA in-game clock time.
 (bSafeToLeave) - Mark this game as safe to leave.
 (bool RemovePositiveBuffs, bool RemoveDebuffs, bool BuffsCreatedThisFrameOnly, bool RemoveStuns, bool RemoveExceptions)
 (bool bInterrupted) Channel finished.
 (d4t8
 (default)
+(e9g
 (fS{ggRcjh
 (flMinimapCreepIconScale) - Scale the creep icons on the minimap.
 (flMinimapHeroIconScale) - Scale the hero minimap icons on the minimap.
@@ -2534,8 +2535,6 @@ $hRh
 (hInflictor, hAttacker, flDamage) - Allocate a damageinfo object, used as an argument to TakeDamage(). Call DestroyDamageInfo( hInfo ) to free the object.
 (h`H1pqA
 (i/Al
-(iLg
-(iTg
 (index, bDestroyImmediately, bStatusEffect, priority, bHeroEffect, bOverheadEffect
 (int iIndex, int iPoint, Vector vecPosition)
 (int index, bool bDestroyImmediately) - Destroy a particle, if bDestroyImmediately destroy it without playing end caps.
@@ -2545,9 +2544,8 @@ $hRh
 (int nProjectileHandle) Projectile is actively moving.
 (int targets [0=all, 1=enemy, 2=ally], bool bNow, bool bPermanent, bool bDeath)
 (jvg;
-(mEg
-(mgg
-(msg
+(mLg
+(mTg
 (nMusicStatus, flIntensity) - Set the music status for this player, note this will only really apply if dota_music_battle_enable is off.
 (nPlayerID)
 (nPlayerID, eEvent, nActionID)
@@ -2559,11 +2557,14 @@ $hRh
 (playerID, heroClassName, gold, XP) - replaces the player's hero with a new one of the specified class, gold and XP
 (playerID, heroClassName, gold, XP) - replaces the player's hero with a new one of the specified class, gold and XP, without transferring items/abilities if same hero
 (position, radius, checkFullTreeRadius?) Checks whether there are any trees overlapping the given point
-(qHg
-(qKg
-(qbg
+(qEg
+(qgg
+(qsg
 (quaternion,quaternion,float) very basic interpolation of v0 to v1 over t on [0,1]
 (quaternion,vector,float) rotates a quaternion by the specified angle around the specified vector axis
+(uHg
+(uKg
+(ubg
 (update disabled)
 (vQF
 (vector,float) constructs a quaternion representing a rotation by angle around the specified vector axis
@@ -24313,7 +24314,8 @@ $hRh
 7sAP'
 7wKR
 7zRQ
-8!Hg
+8!Jg
+8%Hg
 8+Qw
 80F2<
 82\n:XPH
@@ -24323,12 +24325,12 @@ $hRh
 8A6j
 8DemoFile
 8GZS
-8IIg
-8IZg
-8QAg
+8MIg
+8MZg
 8SIffK5W
 8TZvrv<
-8UNg
+8UAg
+8YNg
 8\n0series_current_selection_priority_used_coin_toss
 8\n0ultimate_scepter_consumed_alchemist_bonus_health
 8\n3kKillEaterEventType_Broodmother_SpiderlingHeroKills
@@ -24382,8 +24384,8 @@ $hRh
 8]Vc2
 8ca1
 8dS2
-8eJg
-8e[g
+8iJg
+8i[g
 8pe7?
 8q-S*]X
 8sOy
@@ -47313,7 +47315,7 @@ _}eOk
 `fPw.\vM
 `h9T~
 `htP
-`iwg
+`mwg
 `o_je
 `yNT
 a null shared library handle was used
@@ -53051,16 +53053,15 @@ gyroshell
 g{syW*
 g|FeW\v
 g|MT
-h!vg
+h%vg
 h&eC
 h*Ax
 h0XB
 h2Wl
 h2n_\
-h5Eg
 h5N.
-h5bg
-h9@g
+h9Eg
+h9bg
 hActivator
 hAggroTarget
 hAttackTarget
@@ -53118,17 +53119,15 @@ hTeleportOwner
 hThinkFunc
 hUnit
 hUpgradeAbility
-hUyg
 hW*m
 hW1M
 hW_z
 hX@e
+hYyg
 h\n"unlocked_chat_wheel_message_ranges
 h\n"unlocked_ping_wheel_message_ranges
 h\n\vHeroAbility
 h`Zr
-ha@g
-haCg
 haha
 hairball
 half_extent_xy
@@ -53187,12 +53186,13 @@ hawk_base_max_health
 hawk_base_movespeed
 hawk_base_vision_range
 hawk_base_xp_bounty
-ha{g
 hb`V
 hbar
 hbvc
 hc[N
 hc\raF
+he@g
+heCg
 header
 header too long
 header_expr
@@ -53371,6 +53371,7 @@ hex_model
 hex_to_string
 hexed
 hexkey
+he{g
 hhwi
 hidden_modifier
 hide_debug_complaints
@@ -53556,8 +53557,8 @@ huskar_life_break
 hvL&
 hype_loc
 hypnotized
-hyyg
 h|gg
+h}yg
 i <= EVP_MAX_MD_SIZE
 i%YR
 i%|kB

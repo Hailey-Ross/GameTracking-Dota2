@@ -46845,6 +46845,7 @@ m_hSoundSource
 m_hSoundscape
 m_hSource
 m_hSourceAbility
+m_hSourceAbilityForStolen
 m_hSourceCaster
 m_hSourceItem
 m_hSpawnParticleEffect

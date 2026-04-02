@@ -1,6 +1,6 @@
 class CDOTA_Ability_FacelessVoid_TimeWalk : public CDOTABaseAbility, public CHorizontalMotionController
 {
-	CHandle< CDOTABaseAbility > m_hSourceAbility;
+	CHandle< CDOTABaseAbility > m_hSourceAbilityForStolen;
 	int32 speed;
 	int32 range;
 	float32 radius;

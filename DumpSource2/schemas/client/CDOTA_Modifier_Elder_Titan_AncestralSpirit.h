@@ -9,5 +9,4 @@ class CDOTA_Modifier_Elder_Titan_AncestralSpirit : public CDOTA_Buff
 	CUtlVector< CHandle< C_BaseEntity > > m_hHitUnits;
 	Vector m_vCasterStartPosition;
 	Vector m_vSpiritStartPosition;
-	int32 m_nBonusMoveSpeed;
 };

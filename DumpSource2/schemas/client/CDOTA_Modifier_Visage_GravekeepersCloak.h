@@ -3,6 +3,7 @@ class CDOTA_Modifier_Visage_GravekeepersCloak : public CDOTA_Buff
 	float32 damage_reduction;
 	int32 max_layers;
 	float32 minimum_damage;
+	float32 minimum_damage_familiars;
 	int32 recovery_time;
 	float32 radius;
 	float32 max_damage_reduction;

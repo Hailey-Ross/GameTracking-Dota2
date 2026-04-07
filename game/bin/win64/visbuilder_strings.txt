@@ -195,7 +195,7 @@ PivotPaint
 Pj0p
 Pre-merged nodes %.2f seconds\n
 PropWorldOrigin
-RSDS^;
+RSDSu
 R\vpP
 RandomRays
 RayProcessJob

@@ -45,6 +45,7 @@ Looking up breakpad interfaces from steamclient\n
 No %s
 No appID found.  Either launch the game from Steam, or put the file steam_appid.txt containing the correct appID in your game folder.
 P6C;
+RSDS
 RegOpenKeyExW
 RegQueryValueExW
 SHELL32.dll

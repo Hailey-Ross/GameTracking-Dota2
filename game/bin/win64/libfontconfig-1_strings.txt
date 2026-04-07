@@ -485,6 +485,7 @@ R@\tScanning file %s...
 RELATIVE_SETWIDTH
 REQUIRED
 RICO
+RSDS
 Raw pattern:\n
 Read-only file system
 Resource deadlock avoided

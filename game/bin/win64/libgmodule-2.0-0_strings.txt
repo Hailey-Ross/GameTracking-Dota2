@@ -17,6 +17,7 @@ LoadLibraryW
 Module32First
 Module32Next
 NKeb
+RSDS
 SetDefaultDllDirectories
 SetFileInformationByHandleW
 SetThreadStackGuarantee

@@ -50,6 +50,7 @@ class CModifierParams
 	bool bSuppressDamage;
 	bool bRangedAttack;
 	bool bProcessProcs;
+	bool bWrapsTested;
 	bool bBloodstoneRegenApplied;
 	bool bShroudManaRestoreApplied;
 	bool bPhylacteryApplied;

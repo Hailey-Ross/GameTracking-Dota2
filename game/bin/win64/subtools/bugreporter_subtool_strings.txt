@@ -777,6 +777,7 @@ Description:
 EnumWindows
 Failed to read '%s'\n
 FileSelectionChanged
+Ftd2
 GetWindowTextA
 I\n?compare@QString@@QEBAHAEBV1@W4CaseSensitivity@Qt@@@Z
 I\r?hitButton@QCheckBox@@MEBA_NAEBVQPoint@@@Z
@@ -852,6 +853,7 @@ Q\v?event@QMenu@@MEAA_NPEAVQEvent@@@Z
 Qt5Widgets.dll
 R?metric@QPixmap@@MEBAHW4PaintDeviceMetric@QPaintDevice@@@Z
 R?mimeData@QClipboard@@QEBAPEBVQMimeData@@W4Mode@1@@Z
+RSDS\r
 Refresh
 Refresh Log Capture
 Remove File

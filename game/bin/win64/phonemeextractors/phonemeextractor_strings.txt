@@ -50,6 +50,7 @@ PhonemeExtractor
 Phrase Start\n
 Processing...\n
 Put; voiceless alveolar stop
+RSDS
 R\fp(o
 Red : voiced alveolar approximant
 Red : voiced alveolar trill

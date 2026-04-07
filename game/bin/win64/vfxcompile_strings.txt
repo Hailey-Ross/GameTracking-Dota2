@@ -509,6 +509,7 @@ QueueMergeProgramData() -> MergeProgramDataJob()
 QueueWriteProgramData() -> WriteProgramDataJob()
 RD11<
 RDEFH
+RSDS
 Raytracing Shader
 ReadManifest
 Received all work units for %s (%s), starting .vcs writes.\n

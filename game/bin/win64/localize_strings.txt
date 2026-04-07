@@ -160,7 +160,6 @@ $1.23
 %s: :g loc tokens are no longer supported, use a MessageFormat string instead (token '%s')\n
 %s: unexpected language '%s'\n
 %s_pw
-'N\rYI
 (%s from %u files; %s not file-based)\n
 *.txt
 +Inf
@@ -370,6 +369,7 @@ PERF WARNING: '%s' is in UTF-16 format, converting to UTF-8 will allow faster lo
 Plural context: %s\n
 Polish
 Portuguese
+RSDS#
 Romanian
 Russian
 Simplified_Chinese
@@ -656,6 +656,7 @@ x {s:str} x
 x {s:u:str} {s:extstr} {d:r:i64} {u:u64} {f:3:f64} {m:money} {g:test:ab:gen} x
 x {s:u:str} {s:extstr} {d:r:i64} {u:u64} {f:3:f64} {m:money} {g:test:gen} x
 x {{s:one} x
+zfAO
 zh_CN
 zh_TW
 {D:o:r:foo}

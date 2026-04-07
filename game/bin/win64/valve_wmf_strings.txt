@@ -30,6 +30,7 @@ MFSetAttributeSize( pVideoTypeIn.Get(), MF_MT_FRAME_SIZE, params.m_nWidth, param
 MFSetAttributeSize( pVideoTypeOut.Get(), MF_MT_FRAME_SIZE, params.m_nWidth, params.m_nHeight )
 MFShutdown
 MFStartup
+RSDS;
 R\fp0
 YUY2
 p6auds

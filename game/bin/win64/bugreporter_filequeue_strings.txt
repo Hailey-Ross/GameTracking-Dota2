@@ -19,7 +19,7 @@ Names
 OptionsFile
 Owner
 Position
-RSDSz
+RSDS
 R\fph
 Savegame
 Screenshot

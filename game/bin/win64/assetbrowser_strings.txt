@@ -4902,6 +4902,7 @@ REVERT
 RGBA\t%1\t%2\t%3\t%4
 RMouse
 RMouseDoubleClick
+RSDSy
 RW?restore@QPainter@@QEAAXXZ
 R\f?font@QTreeWidgetItem@@QEBA?AVQFont@@H@Z
 R\fpH.

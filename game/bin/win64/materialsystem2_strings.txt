@@ -527,6 +527,7 @@ Programmer Error! Static combo not loaded!\n
 RD11<
 RDEFH
 RESOURCE_TYPE_MATERIAL
+RSDS\r
 RayTrace
 Raytracing Shader
 Remap01ScaleOffset

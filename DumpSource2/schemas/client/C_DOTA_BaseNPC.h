@@ -180,6 +180,7 @@ class C_DOTA_BaseNPC : public C_NextBotCombatCharacter
 	bool m_bHasCostume;
 	bool m_bRecreateParticleSystemsOnModifiersChange;
 	bool m_bWasRevealedFromFOWAsDead;
+	GameTick_t m_nMostRecentTickWeAwokeFromDormancy;
 	float32 m_flAdditionalSinkDelay;
 	uint32 m_nScepterUpgradeID;
 	uint32 m_nShardUpgradeID;

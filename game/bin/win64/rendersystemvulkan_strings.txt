@@ -151,7 +151,6 @@
 %s_PerMipLevelUAVCompressedBlockView
 %s_s_PerMipLevelImageViewSrgb
 %suncompressed data
-&N>2l
 ( ( uint32 ) pImmutableSamplersBlob->GetBinaryBlobSize() ) == ( pipelineLayoutHash.m_nNumImmutableSamplers * sizeof( PipelineLayoutImmutableSampler_t ) )
 ( ( uint32 ) pLayoutBindingFlagsBlob->GetBinaryBlobSize() ) == ( pipelineLayoutHash.m_numLayoutBindingsPerSet[ nDescriptorSet ] * sizeof( VkDescriptorBindingFlags ) )
 ( ( uint32 ) pLayoutBindingsBlob->GetBinaryBlobSize() ) == ( pipelineLayoutHash.m_numLayoutBindingsPerSet[ nDescriptorSet ] * sizeof( VkDescriptorSetLayoutBinding ) )
@@ -1557,6 +1556,7 @@ QueryServiceStatus
 RENDERDOC_GetAPI
 RESOURCE_TYPE_TEXTURE
 RJqn
+RSDS
 RTX\n
 R\vph
 R_T5Y

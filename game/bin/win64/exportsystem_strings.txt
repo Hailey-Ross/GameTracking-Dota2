@@ -1627,7 +1627,7 @@ Preset File
 Procedural
 PropWorldOrigin
 QAngle
-RSDS_
+RSDS
 Radius Random
 Random Cull
 Randomly Flip Yaw

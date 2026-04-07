@@ -9152,6 +9152,7 @@ CDOTA_Modifier_Tiny_CraggyExterior
 CDOTA_Modifier_Tiny_CraggyExterior_Debuff
 CDOTA_Modifier_Tiny_Grow
 CDOTA_Modifier_Tiny_Insurmountable
+CDOTA_Modifier_Tiny_No_Cleave
 CDOTA_Modifier_Tiny_Rocksteady
 CDOTA_Modifier_Tiny_Toss
 CDOTA_Modifier_Tiny_TossTree_Bonus
@@ -19815,6 +19816,7 @@ GetModifierPropertyConsumableUseSpeed
 GetModifierPropertyForbidIllusions
 GetModifierPropertyHealingAmplificationUnique
 GetModifierPropertyManacostOverride
+GetModifierPropertyRedirectHealthGain
 GetModifierPropertyRestorationAmplification
 GetModifierPropertyRestorationAmplificationUnique
 GetModifierPropertySuppressInvalidMoveAttackOrders
@@ -21325,6 +21327,7 @@ MODIFIER_EVENT_ON_PROJECTILE_DODGE
 MODIFIER_EVENT_ON_PROJECTILE_OBSTRUCTION_HIT
 MODIFIER_EVENT_ON_PURE_DAMAGE_CALCULATED
 MODIFIER_EVENT_ON_PURGE
+MODIFIER_EVENT_ON_REDIRECT_HEALTH_GAIN
 MODIFIER_EVENT_ON_REFRESH
 MODIFIER_EVENT_ON_RESPAWN
 MODIFIER_EVENT_ON_RUNE_SPAWN
@@ -21606,6 +21609,7 @@ MODIFIER_PROPERTY_PROJECTILE_SPEED_TARGET
 MODIFIER_PROPERTY_PROVIDES_FOW_POSITION
 MODIFIER_PROPERTY_PSEUDORANDOM_BONUS
 MODIFIER_PROPERTY_RADAR_COOLDOWN_REDUCTION
+MODIFIER_PROPERTY_REDIRECT_HEALTH_GAIN
 MODIFIER_PROPERTY_REDIRECT_SPELL
 MODIFIER_PROPERTY_REFLECT_SPELL
 MODIFIER_PROPERTY_REINCARNATION
@@ -22885,6 +22889,7 @@ OnProjectileDodge
 OnProjectileObstructionHit
 OnPureDamageCalculated
 OnPurged
+OnRedirectHealthGain
 OnReset
 OnResetOrCycleEnd
 OnRespawn
@@ -28307,6 +28312,7 @@ attribute to read from
 attribute to use for normal
 attribute to use for rope segment id
 attribute to write to
+attribute_penalty_pct
 attribute_share_pct
 attributeprovidertypes_t
 audioHardMinVelocity
@@ -28493,8 +28499,8 @@ bViewFocusStealing
 bWasAnObservableComputation
 bWasSaved
 bWhiteOnBlack
+bWrapsTested
 bYashaAndKayaApplied
-b_HasReachedMaxStacks
 b_has_path
 back
 back dash
@@ -28520,7 +28526,6 @@ barrier_amt
 barrier_block
 barrier_block_creep
 barrier_bonus
-barrier_cd
 barrier_decay_pct
 barrier_duration
 barrier_flat
@@ -28963,6 +28968,7 @@ building_damage
 building_damage_pct
 building_dmg_pct
 building_healing_pct
+building_pct_damage
 buildsparseshadowtree
 bulge control 0=random 1=orientation of start pnt 2=orientation of end point
 bulletimpact
@@ -33460,11 +33466,11 @@ effective_distance
 effectiveness_pct
 eidelon_base_damage
 eidelon_base_movespeed
-eidelon_damage_spread
 eidelon_max_health
 eidolon_attack_range
 eidolon_bonus_attack_speed
 eidolon_bonus_damage
+eidolon_damage_spread
 eidolon_gold_bounty_max
 eidolon_gold_bounty_min
 eidolon_magic_resist
@@ -39879,6 +39885,7 @@ m_bBattleBonusActive
 m_bBattleCup
 m_bBeatEnvelopes
 m_bBeenEnabled
+m_bBittenThisFrame
 m_bBlasted
 m_bBlendFramesSeq0
 m_bBlockFoW
@@ -40270,6 +40277,7 @@ m_bEnableAngleBetweenNormalAndGravityRange
 m_bEnableAngleBetweenNormalAndGravityRange == 0
 m_bEnableAngularConstraint
 m_bEnableAngularMotor
+m_bEnableChargeDisplayOverride
 m_bEnableClothSimulation
 m_bEnableClustering
 m_bEnableCollision
@@ -41968,6 +41976,7 @@ m_bSpeechUseSpawnInsteadOfRespawnConcept
 m_bSpeedBonus
 m_bSpellDamageField
 m_bSpellImmunity
+m_bSpent
 m_bSphericalCookie
 m_bSpiritBear
 m_bSpiritsExplode
@@ -45312,9 +45321,12 @@ m_flPathingMixLevel
 m_flPauseDuration
 m_flPauseTime
 m_flPeakStrength
+m_flPenaltyAgility
 m_flPenaltyHPRegen
 m_flPenaltyHPRegenPct
+m_flPenaltyIntelligence
 m_flPenaltyMPRegen
+m_flPenaltyStrength
 m_flPendingRespawnTime
 m_flPercent
 m_flPercentHealthAbsorbed
@@ -48728,6 +48740,7 @@ m_nDireSilverCheers
 m_nDirectLight
 m_nDirection
 m_nDisableMode
+m_nDisableOverheatUntil
 m_nDisableTagIndex
 m_nDisableTakePhysicsDamageSpawnFlag
 m_nDisadvantage
@@ -49471,6 +49484,7 @@ m_nMoonlightFXIndex
 m_nMorphBlock
 m_nMorphCount
 m_nMostRecentMulticastCount
+m_nMostRecentTickWeAwokeFromDormancy
 m_nMotion
 m_nMotionDisabledSpawnFlag
 m_nMotionIndex
@@ -49723,6 +49737,8 @@ m_nPeakStrengthFieldOverride
 m_nPelvisJointIndex
 m_nPenaltyAS
 m_nPenaltyDamage
+m_nPenaltyHealth
+m_nPenaltyMana
 m_nPendingCombinedModelIndex
 m_nPenetrate
 m_nPerParticleAlphaRefWindow
@@ -52572,6 +52588,7 @@ m_vTargetHorizontalDirection
 m_vTargetLastKnownPosition
 m_vTargetLoc
 m_vTargetLocation
+m_vTargetOrigin
 m_vTargetPos
 m_vTargetPosition
 m_vTargetPositions
@@ -53771,6 +53788,7 @@ minimum visual screen size
 minimum visual screen-size
 minimum visual size
 minimum_damage
+minimum_damage_familiars
 minimum_mana
 minimum_purge_duration
 ministun

@@ -10872,6 +10872,7 @@ RGBA\t
 RGBA\t%1\t%2\t%3\t%4
 RMouse
 RMouseDoubleClick
+RSDSQ${
 RW?restore@QPainter@@QEAAXXZ
 R\f?font@QTreeWidgetItem@@QEBA?AVQFont@@H@Z
 R\fpTIu

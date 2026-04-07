@@ -2618,9 +2618,9 @@ $tI(knN
 1#QNAN
 1#SNAN
 1.2.11
-11:09:43
 11Y@
 127.0.0.1
+14:12:03
 16777215"R\n\nCMsg_CVars
 16777215B$
 1:1: Tokens : ( T__40 | T__41 | T__42 | T__43 | T__44 | T__45 | T__46 | T__47 | T__48 | T__49 | T__50 | T__51 | T__52 | TOK_COLON | OPEN_BRACE | CLOSE_BRACE | OPEN_PAREN | CLOSE_PAREN | OPEN_BRACKET | CLOSE_BRACKET | SEMICOLON | OP_EQUAL | COMMA | DOUBLE_AND | NEGATIVE_TOK | DOUBLE_OR | LITERAL_TRUE | LITERAL_FALSE | POS_INTLITERAL | POS_FLOATLITERAL | SCOPE_QUALIFIER | ID | DOUBLE_QUOTED_STRING | SINGLE_QUOTED_STRING | SINGLE_LINE_COMMENT | ML_COMMENT | WS | UNRECOGNIZED );
@@ -3337,6 +3337,7 @@ Application transferred too few scanlines
 Application transferred too many scanlines
 Application unable to load gameinfo.gi file from directory "%s"\n%s
 ApplicationInfo
+Apr  7 2026
 April
 Arabic
 AreFileApisANSI
@@ -6162,7 +6163,6 @@ MapValueRef::SetStringValue
 MapValueRef::SetUInt32Value
 MapValueRef::SetUInt64Value
 MapViewOfFile
-Mar 24 2026
 March
 Marked tick %u in '%s'\n
 Marker,GPUTimeAvgMS,GPUTimeRangeMS,GPUTimeMinMS,GPUTimeMaxMS\n
@@ -7024,7 +7024,7 @@ RGS"W
 RJO_m
 RP_PAUSE
 RP_TOGGLEPAUSE
-RSDS)
+RSDSFm
 RST%d
 R\fpP
 R\tV_log2_uint

@@ -380,7 +380,7 @@ RESOURCE_TYPE_MODEL
 RESOURCE_TYPE_MORPHSET_INTERNAL
 RESOURCE_TYPE_RENDERMESH_INTERNAL
 ROTATION
-RSDS(
+RSDS
 RayTracingEnvironment::RefineNode
 RayTracingEnvironment::RefineNodeJob
 Rejecting load for legacy model: '%s'\n

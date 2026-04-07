@@ -2278,6 +2278,7 @@ RESOURCE_MANIPULATION
 RIFF form type is not WAVE (not a Waveform file)
 RIFF size truncates chunk
 ROTATION
+RSDS
 RTS0
 RTS0$
 RTS0H

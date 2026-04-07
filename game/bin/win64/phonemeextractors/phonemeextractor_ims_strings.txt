@@ -13,7 +13,7 @@ PATH
 PHONEME_EXTRACTOR_001
 PhonemeExtractorIMS
 Process exited cleanly\n
-RSDSR5V
+RSDS
 R\fpH
 SetEnvironmentVariableA
 TIMES

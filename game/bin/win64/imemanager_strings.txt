@@ -23,7 +23,6 @@
 ) - New ChangJie
 ) - New Phonetic
 ) - Phonetic
-*\fLkD
 .?AUITfCompartmentEventSink@@
 .?AUITfInputProcessorProfileActivationSink@@
 .?AUITfThreadMgrEventSink@@
@@ -233,7 +232,7 @@ QQPinyin
 Quan Pin
 Quan Pin 6.0
 Quick
-RSDSV
+RSDSU
 RegEnumKeyExA
 RegOpenKeyExW
 RegQueryInfoKeyW
@@ -306,6 +305,7 @@ ZhengMa
 \nP4f
 \tV_wcsicmp
 `5Sf
+c7z>N
 c\t4
 chajei.ime
 dayi.ime

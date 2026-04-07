@@ -116,4 +116,5 @@ class DOTAAbilityDefinition_t
 	bitfield:1 m_bPassiveNeutral;
 	bitfield:1 m_bShowGiveIndicatorOnTargetCast;
 	bitfield:1 m_bImbueRequiresAOE;
+	bitfield:1 m_bEnableChargeDisplayOverride;
 };

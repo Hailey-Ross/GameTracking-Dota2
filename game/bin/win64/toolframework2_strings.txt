@@ -12442,6 +12442,7 @@ RBF Based Anim Constraint
 RMouse
 RMouseDoubleClick
 ROTATION
+RSDSo
 R\f?font@QTreeWidgetItem@@QEBA?AVQFont@@H@Z
 R\n@Z*oG8
 R\r?hitTestComplexControl@QProxyStyle@@UEBA?AW4SubControl@QStyle@@W4ComplexControl@3@PEBVQStyleOptionComplex@@AEBVQPoint@@PEBVQWidget@@@Z

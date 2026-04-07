@@ -1153,7 +1153,6 @@ NoseV
 NostrilFlare
 Num Keys Buffer
 Num Threads: %d\n
-OGI(yA
 OIDN Filter (lg) %s 
 OIDN Filter (lg) SH irradiance
 OIDN Filter (sm) %s 
@@ -1201,6 +1200,7 @@ Procedural
 Qu?GS
 R channel not found!\n
 R<Xb
+RSDS
 RTLightmap
 Radius Random
 Random Cull
@@ -1910,7 +1910,7 @@ path_trace_triangles_gpu_init
 path_trace_triangles_gpu_shutdown
 path_trajectory
 pattern
-pc64 Mar 24 2026 11:03:50
+pc64 Apr  7 2026 14:00:36
 physicsSimplificationError
 physicsSimplificationOverride
 pinEnabled

@@ -9,7 +9,7 @@ class CDOTA_Modifier_Enigma_DemonicConversion : public CDOTA_Modifier_Kill
 	int32 eidelon_max_health;
 	int32 eidolon_magic_resist;
 	int32 eidelon_base_damage;
-	int32 eidelon_damage_spread;
+	int32 eidolon_damage_spread;
 	int32 eidelon_base_movespeed;
 	int32 eidolon_xp_bounty;
 	int32 eidolon_gold_bounty_min;

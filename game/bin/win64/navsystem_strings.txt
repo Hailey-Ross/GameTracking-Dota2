@@ -345,7 +345,7 @@ Polyclip : Generating connections...
 Polyclip : Optimising to Quads...
 Polyclip pipeline: \n
 PropWorldOrigin
-RSDS;x
+RSDS
 Raw Contours
 Recast
 Recast: 

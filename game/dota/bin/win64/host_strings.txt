@@ -146,6 +146,7 @@ Physics
 PivotPaint
 PredictionDiffManager001
 PropWorldOrigin
+RSDS
 R\vpDO\r
 ResponseRulesCache001
 SaveRestoreDataVersion001

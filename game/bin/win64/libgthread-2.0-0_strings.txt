@@ -15,6 +15,7 @@ GetFileInformationByHandleExW
 GetTickCount64
 HMXB
 NKeb
+RSDS
 SetDefaultDllDirectories
 SetFileInformationByHandleW
 SetThreadStackGuarantee

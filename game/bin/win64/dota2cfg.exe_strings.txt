@@ -237,7 +237,7 @@ $\f?focusNextPrevChild@QWidget@@MEAA_N_N@Z
 .CRT$XIAC
 .fgd
 /e,/select,"
-11:04:19
+14:02:32
 1AcceptIfItemPicked()
 1BotScriptComboBoxSelectionChanged( int )
 1BotScriptComboBoxTextChanged(QString)
@@ -1291,7 +1291,7 @@ QWidget*
 Qt5Widgets.dll
 R?metaObject@QRegExpValidator@@UEBAPEBUQMetaObject@@XZ
 R?metaObject@QTextDocument@@UEBAPEBUQMetaObject@@XZ
-RSDS\6
+RSDS
 R\f?font@QTreeWidgetItem@@QEBA?AVQFont@@H@Z
 R\r?hitTestComplexControl@QProxyStyle@@UEBA?AW4SubControl@QStyle@@W4ComplexControl@3@PEBVQStyleOptionComplex@@AEBVQPoint@@PEBVQWidget@@@Z
 Reset to Default

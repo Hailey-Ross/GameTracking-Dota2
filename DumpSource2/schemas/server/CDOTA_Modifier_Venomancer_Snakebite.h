@@ -9,4 +9,5 @@ class CDOTA_Modifier_Venomancer_Snakebite : public CDOTA_Buff
 	float32 m_flPositionAngle;
 	float32 m_flTargetPreviousYaw;
 	ParticleIndex_t m_nFXIndex;
+	bool m_bBittenThisFrame;
 };

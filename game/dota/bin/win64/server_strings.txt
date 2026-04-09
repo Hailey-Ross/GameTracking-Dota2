@@ -173,7 +173,6 @@
  <-- Arg '%s'
  <-- Retval '%s'
  ACTIVE GROUP
- AXt5
  Ability: %s\n
  Averge time per path: %lluus\n
  Avg Iterations: %d\n
@@ -834,6 +833,7 @@ $d`D-laM
 $f;Zv9l\r
 $g#8lu#
 $hRh 
+$pjt
 %% 4d=[%%%d.%ds] at cycle %%6.4f weight %%5.3f
 %%%d.%ds [%%3.3s] (%%5d) %%%d.%ds:
 %%%d.%ds [%%s::%%s] 
@@ -1867,22 +1867,24 @@ $hRh
 (0'yX
 (0.1s interval)
 (0x%08X)'??'
-(1Fg
-(1Xg
+(1Zg
+(1ig
+(4pjt
+(59g
 (5Me
+(5ag
 (5jP
-(5kg
-(5rg
-(5xg
-(9sg
-(A0g
+(90g
+(98g
+(9yg
+(9zg
 (ACTIVE)
-(Aig
+(AIg
 (BZq
 (D4D
 (DOTA_INVALID_ORDERS nReason) Return the error string of a failed order.
 (Deprecated: use GetNumConnectedHumanPlayers) Players on a valid team (radiant, dire, or custom*) who haven't abandoned the game
-(E1g
+(EYg
 (Emg
 (HSCRIPT hTarget) Determine whether an issued command on a target is valid.
 (HSCRIPT hTarget) Return the error string of a failed command on a target.
@@ -1890,10 +1892,9 @@ $hRh
 (HSCRIPT hTarget, Vector vLocation, int nHandle) Projectile has collided with a given target or reached its destination (target is invalid).
 (HSCRIPT hTarget, Vector vLocation, table kv) Projectile has collided with a given target or reached its destination (target is invalid).
 (Has breakpieces or commands)
-(IKg
-(Ipg
-(MSg
-(Mjg
+(Ikg
+(M1g
+(Mbg
 (NAV IGNORED)
 (NAV_IGNORED)
 (NONE)
@@ -1901,24 +1902,21 @@ $hRh
 (Output drawable)
 (Preview/Unreleased) Gets the player's custom game account record, as it looked at the start of this session
 (Preview/Unreleased) Sets a callback to handle saving custom game account records (callback is passed a Player ID and should return a flat simple table)
-(QJg
-(QQg
-(QRg
-(QWg
-(Qeg
-(Qlg
+(Qdg
+(Qpg
 (SERVER) Inventory for account (%d):\n
 (Server) 
 (U1h
-(U2g
-(UPg
+(UDg
 (Unknown error)
+(Uog
 (Vector vLocation) Determine whether an issued command on a location is valid.
 (Vector vLocation) Projectile is actively moving.
 (Vector vLocation) Return the error string of a failed command on a location.
 (Vector vLocation, table kv ) Projectile is actively moving.
 (Vector vOrigin, float flRadius )
 (WIPE AND EXTRACT)
+(Y5g
 (ZdOt\n&
 (\f"#\n!CDOTABroadcastMsg_LANLobbyRequest"
 (\f";\n%CDOTAUserMsg_CustomHudElement_Destroy
@@ -2517,13 +2515,18 @@ $hRh
 (\v2\v.CMsgVector"l\n
 (\v2\v.CMsgVector"o\n)CDOTAUserMsg_UpdateLinearProjectileCPData
 (\v2\v.CMsgVector*
+(a2g
+(aAg
+(aRg
+(ajg
 (b IncludePregameTime b IncludeNegativeTime) Returns the actual DOTA in-game clock time.
 (bSafeToLeave) - Mark this game as safe to leave.
 (bool RemovePositiveBuffs, bool RemoveDebuffs, bool BuffsCreatedThisFrameOnly, bool RemoveStuns, bool RemoveExceptions)
 (bool bInterrupted) Channel finished.
 (d4t8
 (default)
-(ezg
+(e9g
+(eVg
 (fS{ggRcjh
 (flMinimapCreepIconScale) - Scale the creep icons on the minimap.
 (flMinimapHeroIconScale) - Scale the hero minimap icons on the minimap.
@@ -2535,7 +2538,7 @@ $hRh
 (hInflictor, hAttacker, flDamage) - Allocate a damageinfo object, used as an argument to TakeDamage(). Call DestroyDamageInfo( hInfo ) to free the object.
 (h`H1pqA
 (i/Al
-(iUg
+(iWg
 (index, bDestroyImmediately, bStatusEffect, priority, bHeroEffect, bOverheadEffect
 (int iIndex, int iPoint, Vector vecPosition)
 (int index, bool bDestroyImmediately) - Destroy a particle, if bDestroyImmediately destroy it without playing end caps.
@@ -2545,7 +2548,9 @@ $hRh
 (int nProjectileHandle) Projectile is actively moving.
 (int targets [0=all, 1=enemy, 2=ally], bool bNow, bool bPermanent, bool bDeath)
 (jvg;
-(mbg
+(m7g
+(mlg
+(mxg
 (nMusicStatus, flIntensity) - Set the music status for this player, note this will only really apply if dota_music_battle_enable is off.
 (nPlayerID)
 (nPlayerID, eEvent, nActionID)
@@ -2557,10 +2562,10 @@ $hRh
 (playerID, heroClassName, gold, XP) - replaces the player's hero with a new one of the specified class, gold and XP
 (playerID, heroClassName, gold, XP) - replaces the player's hero with a new one of the specified class, gold and XP, without transferring items/abilities if same hero
 (position, radius, checkFullTreeRadius?) Checks whether there are any trees overlapping the given point
-(qFg
+(qGg
+(qag
 (quaternion,quaternion,float) very basic interpolation of v0 to v1 over t on [0,1]
 (quaternion,vector,float) rotates a quaternion by the specified angle around the specified vector axis
-(ukg
 (update disabled)
 (vQF
 (vector,float) constructs a quaternion representing a rotation by angle around the specified vector axis
@@ -2568,7 +2573,8 @@ $hRh
 (vector,vector,float) lerp between two vectors by a float factor returning new vector
 (vector,vector,float) very basic interpolation of v0 to v1 over t on [0,1]
 (wMww
-(y3g
+(yZg
+(ywg
 )!)#)?)G)])e)i)o)u)
 ).CMsgSteamLearn_InferenceMetadata_Request
 )Ck?B
@@ -23464,7 +23470,7 @@ $hRh
 05=k
 08bX
 09,h
-0: bl
+0:pql
 0;Q5[
 0<cz
 0M2~@p
@@ -23570,7 +23576,6 @@ $hRh
 0e\r8
 0pp@5tqE?|sO541
 0tU+xc:
-0vDI
 0x%s
 0}dV
 1!1'1-191C1E1K1]1a1g1m1s1
@@ -23696,6 +23701,8 @@ $hRh
 2 .CMsgBattleReport_CompareContext"
 2 .CMsgConnectedPlayers.SendReason
 2 .CMsgGCRoutingInfo.RoutingMethod:
+2 Ep
+2 ql
 2!.CMsgAddSocketResponse.EAddSocket"
 2!.CMsgBattleReport_HighlightRarity
 2!.CMsgDevModifyCodexAction.EAction"#\n
@@ -23733,7 +23740,7 @@ $hRh
 2..CDOTAUserMsg_MadstoneAlert.EMadstoneAlertType
 2..CMvpData.MvpDatum.MvpAccolade.MvpAccoladeType
 20.CMsgClientToGCGetBattleReportResponse.EResponse
-20bl
+20Fp
 20t\f
 21.CMsgClientToGCDotaLabsFeedbackResponse.EResponse"
 21.CMsgClientToGCUnpackBundleResponse.EUnpackBundle
@@ -23801,13 +23808,15 @@ $hRh
 2?.CMsgClientToGCMonsterHunterDevGrantMaterialsResponse.EResponse"u\n\tEResponse
 2?.CMsgClientToGCRemoveItemAttributeResponse.ERemoveItemAttribute
 2@.CMsgClientToGCMonsterHunterDevModifyHeroCodexResponse.EResponse"u\n\tEResponse
+2@9o
+2@Hp
+2@Rp
 2C.CMsgClientToGCOverworldGetDynamicImageResponse.EDynamicImageFormat
 2C.CMsgServerToGCRequestPlayerRecentAccomplishmentsResponse.EResponse
 2E.CMsgClientToGCOverworldRequestTokensNeededByFriendResponse.EResponse
 2I y)
 2J.CMsgClientToGCMonsterHunterDevClaimInvestigationRewardsResponse.EResponse"u\n\tEResponse
 2L.CMsgClientToGCMonsterHunterRequestMaterialsNeededByFriendResponse.EResponse
-2PGp
 2Tm=#
 2Uiwp"9
 2Zq)
@@ -23917,11 +23926,11 @@ $hRh
 2\r.DOTA_GC_TEAM:
 2\r.ELeaguePhase
 2\rlhp
+2\vpD[
 2^pV
 2_bot
 2_mid
 2_top
-2`Qu
 2a"l
 2bT~
 2cb:RO
@@ -24319,11 +24328,9 @@ $hRh
 80F2<
 82\n:XPH
 851Pe
-85~g
 8<pl
 8= zp
 8A6j
-8Atg
 8DemoFile
 8GZS
 8SIffK5W
@@ -24379,7 +24386,6 @@ $hRh
 8\n\rsubscribe_msg
 8\v8!83858A8G8K8S8W8_8e8o8q8}8
 8]Vc2
-8a{g
 8ca1
 8dS2
 8pe7?
@@ -24438,8 +24444,7 @@ $hRh
 9r#xV
 : unrecognized parent "%s"\n
 :':+:1:K:Q:[:c:g:m:y:
-:0Wt
-:0bl
+:01p
 :4\n\vdescription
 :9\n\tkey_field
 :BAD OBJECT
@@ -24488,6 +24493,7 @@ $hRh
 :eaI
 :gN(dq
 :mIR
+:p1p
 :parsed on tick %d of %d got %d new commands through command number %d [%s]\n
 :w4v
 ;!;#;-;9;E;S;Y;_;q;{;
@@ -24705,6 +24711,7 @@ $hRh
 ?\n\vPartyMember
 ?d86L
 ?debug_visibility_monitor
+?dota_last_hit_multiple_kill_time
 ?dt]X
 ?ents
 ?expf
@@ -24717,13 +24724,13 @@ $hRh
 ?uWS
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
-@08NDI
+@08N
 @0pp
 @333?
+@:prv
 @@CDOTA_Item
 @BH]f
 @BoneSetup
-@HPX`hv0
 @Invalid attach type specified for particle effect anim event. Trying to spawn effect '%s' on model %s\n
 @MfKZ
 @Pgl
@@ -24749,12 +24756,11 @@ $hRh
 @\n\vserver_type
 @dKb]
 @end_camera
-@fDI
 @fff>fff>fff>fff>
 @fff@
+@htpjt
 @i1V
 @n2w
-@nDI
 @player_start_teleport_destination
 A Dota Bot Team Commander
 A Dota Custom Game Announcer
@@ -25913,6 +25919,7 @@ AwardAchievement
 AwardEventPoints failed as no lobby found!\n
 Axis
 AxisAngleToQuaternion
+B Qp
 B!rA
 B#B)B/BCBSBUB[BaBsB}B
 B*k@5
@@ -26150,6 +26157,7 @@ B\np\t0
 B\vP\n0
 B\vp\n0
 B`4I
+B`ol
 Back compat: Is this entity a player pawn *or* controller?
 BackpackCooldownOverride
 Backswing interrupted, action locked.
@@ -31853,6 +31861,7 @@ Download files with result code %d
 Download has stalled.  (Was at %llu bytes downloaded %.1fs ago, now is at %llu/%llu bytes downloaded)
 Downloaded %llu of %llu bytes.  %.1fs elapsed
 Downloading item
+Dpjt
 Dq;n
 DraftPool
 Drag during mouse down required.
@@ -38511,8 +38520,8 @@ Missing ability: %s\n
 Missing cell class '%s', replacing with 'CPulseCell_Unknown'\n
 Missing command string
 Missing goal area, Finding a new goal
+Missing gold amount
 Missing item name in recipe component
-Missing level count
 Missing lootlist name in lootlist recipe component
 Missing or invalid '%s' for %s event %s.\n
 Missing or invalid 'time_block' for timeblock_accumulate event %s.\n
@@ -39743,11 +39752,13 @@ P-224
 P-256
 P-384
 P-521
-P08NDI
+P08J0
+P08N
 P1\t98"
 P5[1
+P6`f
 PAGN_4
-PAMissing gold amount
+PAMissing level count
 PARALYZE
 PARAMETERS
 PARSE_BAG
@@ -40123,7 +40134,6 @@ Persona
 PersonaNameReplacementToken
 Pet NPC Script Override:
 Pet failed to pickup item because there was no attachment name specified.\n
-Pfp^
 PhysDisableEntityCollisions called on entities in two different scene worlds (%s - %u vs %s - %u)\n
 PhysEnableEntityCollisions called on entities in two different scene worlds (%s - %u vs %s - %u)\n
 PhysEntityCollisionsAreDisabled called on entities in two different scene worlds (%s - %u vs %s - %u)\n
@@ -40240,8 +40250,6 @@ Please specify the filename containing your stats definition.\n
 Please wait for broadcast to start ...
 Pm8A?
 PmR"H?
-PnDI
-Pnp_
 Point entity.
 PointToLineDistance
 Policy Qualifier CPS
@@ -40581,7 +40589,6 @@ ROAM
 ROCKETFLARE
 ROSHAN
 RP;e!
-RPGp
 RR: could not apply operator %s to prior value %s\n
 RSA Data Security, Inc.
 RSA Data Security, Inc. PKCS
@@ -40684,6 +40691,7 @@ RUNE_STATUS_MISSING
 RUNE_STATUS_UNKNOWN
 RUNE_WATER
 RUNE_XP
+R\fpD[
 R\n\fActivityInfo
 R\r1>Vp
 R\vp!y
@@ -45492,6 +45500,7 @@ ZXF,`i
 Z\n\fPositionPair
 Z\n\fSubChallenge
 Z\n\nmap_values
+Z`ol
 Zd[w
 Ze2Zh@
 Zero Pose Task
@@ -45599,11 +45608,13 @@ Z~wl
 \f<<0A1pq
 \fCEntityIndex"
 \fKS1
+\fPVp
 \fW9c
 \fXu"L
 \f]ne3
 \fdhWTh
 \fiaR
+\fpjt
 \ful2
 \fy&3Gl
 \l:ArR
@@ -45812,12 +45823,14 @@ Z~wl
 \n.steammessages_unified_base.steamworkssdk.proto
 \n/CMsgServerToGCCompendiumChosenInGamePredictions
 \n/CMsgServerToGCCompendiumInGamePredictionResults
+\n00p
 \n0CMsgClientToGCMonsterHunterGiftMaterialsResponse
 \n0CMsgClientToGCOverworldDevClearInventoryResponse
 \n0CMsgClientToGCSurvivorsGameTelemetryDataResponse
 \n0CMsgGCtoGCAssociatedExploiterAccountInfoResponse
 \n0CMsgServerToGCMatchPlayerNeutralItemEquipHistory
-\n0Wt
+\n0Kp
+\n0nl
 \n1CDOTAClientMsg_AbilitySpecificChannelRequiresHalt
 \n1CDOTAUserMsg_MonsterHunter_InvestigationGameState
 \n1CMsgClientToGCFightingGameAnswerChallengeResponse
@@ -45884,9 +45897,12 @@ Z~wl
 \nLeagueID_t"
 \nLeagueID_t"M\n;CMsgServerToGCCloseCompendiumInGamePredictionVotingResponse
 \nLeagueID_t"N\n$CMsgServerToGCGetCheerConfigResponse
-\nPGp
+\nP0p
+\nP1p
+\nPDL
 \nPlayerID_t
 \nPlayerID_t"
+\nPnl
 \nSimulating Entities:\n\n
 \nUnknown reward type '%s' for action '%s' at score '%s'
 \nVisMon: Polling now. (Frequency: %f)\n
@@ -47098,7 +47114,7 @@ Z~wl
 \n\vwin_percent
 \n\vzoom_amount
 \ngrant_periodic_action '%s' doesn't specify an action to grant
-\npEp
+\np0p
 \nqYu
 \ntM(ie-V
 \r!\r+\r-\r=\r?\rO\rU\ri\ry\r
@@ -47175,6 +47191,7 @@ Z~wl
 \tMatchID_t"L\n
 \tNo client, finding a random bot to use for the player ID instead.\n
 \tNone\n
+\tP84
 \tPrivate script scope:
 \tPublic script scope:
 \tRETURNING DUE TO BEING ABLE TO RETURN.\n
@@ -47224,6 +47241,7 @@ Z~wl
 \vGt5
 \vHCK/
 \vNCE\v
+\vP84
 \vUY6[E
 \v\n\tRemoveFan
 \v\vTSG
@@ -47305,7 +47323,9 @@ _tools_event_desc
 _turbo
 _xU`u
 _}eOk
+`2 Ep
 `28)fk
+`2@Hp
 `:zQF
 `D$daM-l
 `DZG
@@ -47313,11 +47333,10 @@ _}eOk
 `ITS
 `VX:H
 `\n\rvector_values
-`fDI
 `fPw.\vM
 `h9T~
-`nDI
 `o_je
+`y0g
 `yNT
 a null shared library handle was used
 a trigger_changelevel doesn't have a map
@@ -47335,7 +47354,6 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBvDI
 aD/x
 aDSS
 aECDH
@@ -53057,7 +53075,6 @@ g{syW*
 g|FeW\v
 g|MT
 h&eC
-h)ug
 h*Ax
 h0XB
 h2Wl
@@ -53124,6 +53141,7 @@ hW*m
 hW1M
 hW_z
 hX@e
+hY6g
 h\n"unlocked_chat_wheel_message_ranges
 h\n"unlocked_ping_wheel_message_ranges
 h\n\vHeroAbility
@@ -53550,11 +53568,9 @@ huskar_burning_spear
 huskar_inner_fire
 huskar_inner_vitality
 huskar_life_break
-huxg
 hvL&
 hype_loc
 hypnotized
-hysg
 h|gg
 i <= EVP_MAX_MD_SIZE
 i%YR
@@ -62287,13 +62303,13 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^DI
+p08@H^
 p2{l
 p4Z3
 p5Z3
 p5\nL,
 p618
-p>DI
+p6@i
 p@0pqE5tsO?|1
 pAbilityName1
 pAbilityName2
@@ -62313,7 +62329,6 @@ pData->GetDataDescMap() == pTemplateDataMap
 pDefault
 pDescription
 pEntity
-pF`b
 pField
 pFilter
 pG_*h
@@ -65582,7 +65597,6 @@ plus_high_five
 plus_original_start_date
 plus_player_guild_banner
 plus_prediction_streak
-pnDI
 point
 point arithmetic failure
 point at infinity
@@ -66134,6 +66148,7 @@ r184
 r3A~
 r<\rND
 r@33
+r@vv
 rAGW
 rB2pBB
 rC3rp
@@ -66148,6 +66163,7 @@ rZ1VwGf5
 rZPM
 r\n\nHuntReward
 r\vDi
+r\vpD[
 rad2deg
 radar_cooldown
 radial_count
@@ -71416,6 +71432,7 @@ zG2m8
 zNear
 zPos
 zRXU 
+z`ol
 zealots
 zero_value
 zfriction

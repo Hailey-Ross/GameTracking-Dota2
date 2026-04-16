@@ -158,9 +158,6 @@
  %s%lu (%s0x%lx)\n
  ' ) - 3 G M Q _ c e i w } 
  (%ld unused bits)\n
- (08@HPX`jp6
- (08@HPZp6
- (08@Jp6
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -2855,6 +2852,7 @@ $hRh
 *kf[R
 *laM-\SO
 *o\n\teRollType
+*psp
 *v\n\vEPingSource
 +'+1+3+=+?+K+O+U+i+m+o+{+
 +(#\v&dbF:xrJ'$#
@@ -23465,8 +23463,6 @@ $hRh
 0123456789
 02V8[
 05=k
-08@HRp6
-08Bp6
 08bX
 09,h
 0;Q5[
@@ -23699,7 +23695,7 @@ $hRh
 2 .CMsgBattleReport_CompareContext"
 2 .CMsgConnectedPlayers.SendReason
 2 .CMsgGCRoutingInfo.RoutingMethod:
-2 op
+2 vm
 2!.CMsgAddSocketResponse.EAddSocket"
 2!.CMsgBattleReport_HighlightRarity
 2!.CMsgDevModifyCodexAction.EAction"#\n
@@ -23737,7 +23733,6 @@ $hRh
 2..CDOTAUserMsg_MadstoneAlert.EMadstoneAlertType
 2..CMvpData.MvpDatum.MvpAccolade.MvpAccoladeType
 20.CMsgClientToGCGetBattleReportResponse.EResponse
-20pp
 20t\f
 21.CMsgClientToGCDotaLabsFeedbackResponse.EResponse"
 21.CMsgClientToGCUnpackBundleResponse.EUnpackBundle
@@ -23805,8 +23800,7 @@ $hRh
 2?.CMsgClientToGCMonsterHunterDevGrantMaterialsResponse.EResponse"u\n\tEResponse
 2?.CMsgClientToGCRemoveItemAttributeResponse.ERemoveItemAttribute
 2@.CMsgClientToGCMonsterHunterDevModifyHeroCodexResponse.EResponse"u\n\tEResponse
-2@co
-2@rp
+2@1l
 2C.CMsgClientToGCOverworldGetDynamicImageResponse.EDynamicImageFormat
 2C.CMsgServerToGCRequestPlayerRecentAccomplishmentsResponse.EResponse
 2E.CMsgClientToGCOverworldRequestTokensNeededByFriendResponse.EResponse
@@ -23922,7 +23916,7 @@ $hRh
 2\r.DOTA_GC_TEAM:
 2\r.ELeaguePhase
 2\rlhp
-2\vpD
+2\vp\w
 2^pV
 2_bot
 2_mid
@@ -23936,6 +23930,7 @@ $hRh
 2ndry
 2p"6
 2prB
+2psp
 3%3+3/353A3G3[3_3g3k3s3y3
 31tPR
 32:B\n
@@ -24326,9 +24321,8 @@ $hRh
 851Pe
 8<pl
 8= zp
-8@Jp6
 8A6j
-8Bp6
+8Bpsp
 8DemoFile
 8GZS
 8SIffK5W
@@ -24382,7 +24376,6 @@ $hRh
 8\n\rneutral_items
 8\n\rready_members
 8\n\rsubscribe_msg
-8\np6
 8\v8!83858A8G8K8S8W8_8e8o8q8}8
 8]Vc2
 8ca1
@@ -24443,7 +24436,8 @@ $hRh
 9r#xV
 : unrecognized parent "%s"\n
 :':+:1:K:Q:[:c:g:m:y:
-:00l
+:0xp
+:0zp
 :4\n\vdescription
 :9\n\tkey_field
 :BAD OBJECT
@@ -24493,6 +24487,7 @@ $hRh
 :gN(dq
 :mIR
 :parsed on tick %d of %d got %d new commands through command number %d [%s]\n
+:psp
 :w4v
 ;!;#;-;9;E;S;Y;_;q;{;
 ;"lY7
@@ -24721,12 +24716,10 @@ $hRh
 ?uWS
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
-@08N
 @0pp
-@2p6
 @333?
-@:0hp
-@:Php
+@:0zp
+@:pgp
 @@CDOTA_Item
 @BH]f
 @BoneSetup
@@ -24757,7 +24750,6 @@ $hRh
 @end_camera
 @fff>fff>fff>fff>
 @fff@
-@htp
 @i1V
 @n2w
 @player_start_teleport_destination
@@ -24809,6 +24801,7 @@ A<fP
 A>x8
 A@d0I
 AA Compromise
+AA:p
 AABBDirection
 AACompromise
 ABILITY
@@ -32762,7 +32755,6 @@ F\n\fstat_buckets
 F\n\trow_range
 F\n\vanswer_type
 F\n\vxp_received
-F\np6
 F\rH'4
 Face %s
 Face Actor
@@ -39751,10 +39743,7 @@ P-224
 P-256
 P-384
 P-521
-P08J00l
-P08N
 P1\t98"
-P2p6
 P5[1
 PAGN_4
 PARALYZE
@@ -40167,7 +40156,6 @@ PingWheelMessageRange
 PitchShift
 PitchYawRoll
 PivotPaint
-Pjp6
 Place a rune in the bottle.
 Place a unit somewhere not already occupied.
 PlaceDecalEvent_t
@@ -40691,10 +40679,10 @@ RUNE_STATUS_MISSING
 RUNE_STATUS_UNKNOWN
 RUNE_WATER
 RUNE_XP
-R\fpD
 R\n\fActivityInfo
 R\r1>Vp
 R\vp!y
+R\vp\w
 R]Di
 Rad2 Deg
 Radiant
@@ -45434,7 +45422,6 @@ XYD%
 X\n summary_description_embed_values
 X\n\rkilling_blows
 X\tQo
-X`hrp6
 Xbox VDP is not supported on this platform.
 Xd3h
 XfJ7
@@ -45821,14 +45808,12 @@ Z~wl
 \n.steammessages_unified_base.steamworkssdk.proto
 \n/CMsgServerToGCCompendiumChosenInGamePredictions
 \n/CMsgServerToGCCompendiumInGamePredictionResults
-\n00l
 \n0CMsgClientToGCMonsterHunterGiftMaterialsResponse
 \n0CMsgClientToGCOverworldDevClearInventoryResponse
 \n0CMsgClientToGCSurvivorsGameTelemetryDataResponse
 \n0CMsgGCtoGCAssociatedExploiterAccountInfoResponse
 \n0CMsgServerToGCMatchPlayerNeutralItemEquipHistory
-\n0Zp
-\n0up
+\n0zp
 \n1CDOTAClientMsg_AbilitySpecificChannelRequiresHalt
 \n1CDOTAUserMsg_MonsterHunter_InvestigationGameState
 \n1CMsgClientToGCFightingGameAnswerChallengeResponse
@@ -45895,8 +45880,6 @@ Z~wl
 \nLeagueID_t"
 \nLeagueID_t"M\n;CMsgServerToGCCloseCompendiumInGamePredictionVotingResponse
 \nLeagueID_t"N\n$CMsgServerToGCGetCheerConfigResponse
-\nPDv
-\nPZp
 \nPlayerID_t
 \nPlayerID_t"
 \nSimulating Entities:\n\n
@@ -47110,7 +47093,7 @@ Z~wl
 \n\vwin_percent
 \n\vzoom_amount
 \ngrant_periodic_action '%s' doesn't specify an action to grant
-\npZp
+\npsp
 \nqYu
 \ntM(ie-V
 \r!\r+\r-\r=\r?\rO\rU\ri\ry\r
@@ -47228,6 +47211,7 @@ Z~wl
 \t}BzJ88
 \v"w\n2CMsgClientToGCOverworldRequestTokensNeededByFriend
 \v#\v)\v-\v?\vG\vQ\vW\v]\ve\vo\v{\v
+\v:psp
 \vAbilityID_t
 \vAbilityID_t"
 \vAbilityID_t"8\n
@@ -47241,6 +47225,7 @@ Z~wl
 \v\vTSG
 \vj0k
 \vjC7
+\vpPa
 ]1h=bfz
 ]FhSD}
 ]GT7]
@@ -47317,11 +47302,9 @@ _tools_event_desc
 _turbo
 _xU`u
 _}eOk
-`2 op
 `28)fk
-`2@rp
-`2p6
 `:0fp
+`:Pgp
 `:zQF
 `D$daM-l
 `DZG
@@ -47331,8 +47314,6 @@ _}eOk
 `QOg
 `VX:H
 `\n\rvector_values
-`bp6
-`dp6
 `ePg
 `fPw.\vM
 `h9T~
@@ -48308,6 +48289,7 @@ a|gj(
 a|w9i
 b <= sizeof ctx->buf
 b <= sizeof ctx->final
+b vm
 b0M%
 b2i_PVK_bio
 b5o-
@@ -48934,6 +48916,7 @@ box_outer_mins
 box_self_cast
 box_size
 bpFh
+bpsp
 brain_sap
 brainpoolP160r1
 brainpoolP160t1
@@ -62304,8 +62287,7 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^
-p2p6
+p2psp
 p2{l
 p4Z3
 p5Z3
@@ -65216,7 +65198,6 @@ pbeWithSHA1And40BitRC2-CBC
 pbeWithSHA1And40BitRC4
 pbeWithSHA1AndDES-CBC
 pbeWithSHA1AndRC2-CBC
-pbp6
 pcPathLengthConstraint
 peaktailend
 pedestal
@@ -66150,6 +66131,7 @@ r-IE
 r184
 r3A~
 r<\rND
+r@1l
 r@33
 rAGW
 rB2pBB
@@ -66165,7 +66147,6 @@ rZ1VwGf5
 rZPM
 r\n\nHuntReward
 r\vDi
-r\vpD
 rad2deg
 radar_cooldown
 radial_count

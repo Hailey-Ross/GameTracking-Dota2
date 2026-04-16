@@ -158,6 +158,9 @@
  %s%lu (%s0x%lx)\n
  ' ) - 3 G M Q _ c e i w } 
  (%ld unused bits)\n
+ (08@HPX`jp6
+ (08@HPZp6
+ (08@Jp6
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -1866,36 +1869,30 @@ $hRh
 (0'yX
 (0.1s interval)
 (0x%08X)'??'
-(1Fg
-(1Zg
-(1gg
-(1lg
-(50h
-(5Ag
-(5Dg
+(14g
+(1Cg
+(1Yg
 (5Me
-(5Og
-(5dg
 (5jP
-(97g
-(9Jg
-(9eg
+(9Qg
+(9cg
 (ACTIVE)
+(Azg
 (BZq
 (D4D
 (DOTA_INVALID_ORDERS nReason) Return the error string of a failed order.
 (Deprecated: use GetNumConnectedHumanPlayers) Players on a valid team (radiant, dire, or custom*) who haven't abandoned the game
-(Etg
+(EDg
 (HSCRIPT hTarget) Determine whether an issued command on a target is valid.
 (HSCRIPT hTarget) Return the error string of a failed command on a target.
 (HSCRIPT hTarget, Vector vLocation) Projectile has collided with a given target or reached its destination (target is invalid).
 (HSCRIPT hTarget, Vector vLocation, int nHandle) Projectile has collided with a given target or reached its destination (target is invalid).
 (HSCRIPT hTarget, Vector vLocation, table kv) Projectile has collided with a given target or reached its destination (target is invalid).
 (Has breakpieces or commands)
-(I3g
-(IPg
-(Ifg
-(MEg
+(Igg
+(M7g
+(MRg
+(Mjg
 (NAV IGNORED)
 (NAV_IGNORED)
 (NONE)
@@ -1903,12 +1900,16 @@ $hRh
 (Output drawable)
 (Preview/Unreleased) Gets the player's custom game account record, as it looked at the start of this session
 (Preview/Unreleased) Sets a callback to handle saving custom game account records (callback is passed a Player ID and should return a flat simple table)
+(Q0h
+(QBg
+(QLg
+(Qdg
+(Qhg
+(Qkg
 (SERVER) Inventory for account (%d):\n
 (Server) 
 (U1h
-(U4g
-(UCg
-(UYg
+(UGg
 (Unknown error)
 (Vector vLocation) Determine whether an issued command on a location is valid.
 (Vector vLocation) Projectile is actively moving.
@@ -1916,6 +1917,8 @@ $hRh
 (Vector vLocation, table kv ) Projectile is actively moving.
 (Vector vOrigin, float flRadius )
 (WIPE AND EXTRACT)
+(YAg
+(Ybg
 (ZdOt\n&
 (\f"#\n!CDOTABroadcastMsg_LANLobbyRequest"
 (\f";\n%CDOTAUserMsg_CustomHudElement_Destroy
@@ -2514,14 +2517,19 @@ $hRh
 (\v2\v.CMsgVector"l\n
 (\v2\v.CMsgVector"o\n)CDOTAUserMsg_UpdateLinearProjectileCPData
 (\v2\v.CMsgVector*
-(ang
+(aEg
+(aFg
+(aSg
 (b IncludePregameTime b IncludeNegativeTime) Returns the actual DOTA in-game clock time.
 (bSafeToLeave) - Mark this game as safe to leave.
 (bool RemovePositiveBuffs, bool RemoveDebuffs, bool BuffsCreatedThisFrameOnly, bool RemoveStuns, bool RemoveExceptions)
 (bool bInterrupted) Channel finished.
 (d4t8
 (default)
-(ezg
+(e4g
+(e6g
+(eJg
+(eig
 (fS{ggRcjh
 (flMinimapCreepIconScale) - Scale the creep icons on the minimap.
 (flMinimapHeroIconScale) - Scale the hero minimap icons on the minimap.
@@ -2533,7 +2541,8 @@ $hRh
 (hInflictor, hAttacker, flDamage) - Allocate a damageinfo object, used as an argument to TakeDamage(). Call DestroyDamageInfo( hInfo ) to free the object.
 (h`H1pqA
 (i/Al
-(iDg
+(iCg
+(ilg
 (index, bDestroyImmediately, bStatusEffect, priority, bHeroEffect, bOverheadEffect
 (int iIndex, int iPoint, Vector vecPosition)
 (int index, bool bDestroyImmediately) - Destroy a particle, if bDestroyImmediately destroy it without playing end caps.
@@ -2543,7 +2552,6 @@ $hRh
 (int nProjectileHandle) Projectile is actively moving.
 (int targets [0=all, 1=enemy, 2=ally], bool bNow, bool bPermanent, bool bDeath)
 (jvg;
-(mgg
 (nMusicStatus, flIntensity) - Set the music status for this player, note this will only really apply if dota_music_battle_enable is off.
 (nPlayerID)
 (nPlayerID, eEvent, nActionID)
@@ -2555,17 +2563,10 @@ $hRh
 (playerID, heroClassName, gold, XP) - replaces the player's hero with a new one of the specified class, gold and XP
 (playerID, heroClassName, gold, XP) - replaces the player's hero with a new one of the specified class, gold and XP, without transferring items/abilities if same hero
 (position, radius, checkFullTreeRadius?) Checks whether there are any trees overlapping the given point
-(q7g
-(qRg
-(qjg
 (quaternion,quaternion,float) very basic interpolation of v0 to v1 over t on [0,1]
 (quaternion,vector,float) rotates a quaternion by the specified angle around the specified vector axis
-(u0h
-(uBg
-(uLg
-(udg
-(uhg
-(ukg
+(u5g
+(uTg
 (update disabled)
 (vQF
 (vector,float) constructs a quaternion representing a rotation by angle around the specified vector axis
@@ -2573,7 +2574,6 @@ $hRh
 (vector,vector,float) lerp between two vectors by a float factor returning new vector
 (vector,vector,float) very basic interpolation of v0 to v1 over t on [0,1]
 (wMww
-(yGg
 )!)#)?)G)])e)i)o)u)
 ).CMsgSteamLearn_InferenceMetadata_Request
 )Ck?B
@@ -2712,7 +2712,6 @@ $hRh
 *.CMsgSteamLearn_InferenceMetadata_Response"D
 *.CMsgSteamLearn_RegisterDataSource_Request
 *0fT
-*0op
 *1~Pt
 *5\n\rESourceEngine
 *5pB
@@ -2991,7 +2990,6 @@ $hRh
 , retcode=
 , value=
 ,#,/,5,9,A,W,Y,i,w,
-,00l
 ,3g4
 ,7~5d
 ,ARu@y6
@@ -23467,6 +23465,8 @@ $hRh
 0123456789
 02V8[
 05=k
+08@HRp6
+08Bp6
 08bX
 09,h
 0;Q5[
@@ -23699,6 +23699,7 @@ $hRh
 2 .CMsgBattleReport_CompareContext"
 2 .CMsgConnectedPlayers.SendReason
 2 .CMsgGCRoutingInfo.RoutingMethod:
+2 op
 2!.CMsgAddSocketResponse.EAddSocket"
 2!.CMsgBattleReport_HighlightRarity
 2!.CMsgDevModifyCodexAction.EAction"#\n
@@ -23736,7 +23737,7 @@ $hRh
 2..CDOTAUserMsg_MadstoneAlert.EMadstoneAlertType
 2..CMvpData.MvpDatum.MvpAccolade.MvpAccoladeType
 20.CMsgClientToGCGetBattleReportResponse.EResponse
-20op
+20pp
 20t\f
 21.CMsgClientToGCDotaLabsFeedbackResponse.EResponse"
 21.CMsgClientToGCUnpackBundleResponse.EUnpackBundle
@@ -23804,17 +23805,14 @@ $hRh
 2?.CMsgClientToGCMonsterHunterDevGrantMaterialsResponse.EResponse"u\n\tEResponse
 2?.CMsgClientToGCRemoveItemAttributeResponse.ERemoveItemAttribute
 2@.CMsgClientToGCMonsterHunterDevModifyHeroCodexResponse.EResponse"u\n\tEResponse
-2@pp
+2@co
+2@rp
 2C.CMsgClientToGCOverworldGetDynamicImageResponse.EDynamicImageFormat
 2C.CMsgServerToGCRequestPlayerRecentAccomplishmentsResponse.EResponse
 2E.CMsgClientToGCOverworldRequestTokensNeededByFriendResponse.EResponse
 2I y)
 2J.CMsgClientToGCMonsterHunterDevClaimInvestigationRewardsResponse.EResponse"u\n\tEResponse
 2L.CMsgClientToGCMonsterHunterRequestMaterialsNeededByFriendResponse.EResponse
-2P/l
-2Pco
-2Prp
-2P|p
 2Tm=#
 2Uiwp"9
 2Zq)
@@ -23924,7 +23922,7 @@ $hRh
 2\r.DOTA_GC_TEAM:
 2\r.ELeaguePhase
 2\rlhp
-2\vpT
+2\vpD
 2^pV
 2_bot
 2_mid
@@ -24321,20 +24319,20 @@ $hRh
 7sAP'
 7wKR
 7zRQ
-8%8g
 8+Qw
 80F2<
+81;g
 82\n:XPH
 851Pe
 8<pl
 8= zp
+8@Jp6
 8A6j
+8Bp6
 8DemoFile
-8E(g
 8GZS
 8SIffK5W
 8TZvrv<
-8U;g
 8\n0series_current_selection_priority_used_coin_toss
 8\n0ultimate_scepter_consumed_alchemist_bonus_health
 8\n3kKillEaterEventType_Broodmother_SpiderlingHeroKills
@@ -24384,6 +24382,7 @@ $hRh
 8\n\rneutral_items
 8\n\rready_members
 8\n\rsubscribe_msg
+8\np6
 8\v8!83858A8G8K8S8W8_8e8o8q8}8
 8]Vc2
 8ca1
@@ -24403,7 +24402,6 @@ $hRh
 9J9;6
 9N1=@
 9QTA
-9R)g
 9Y@nJM
 9Zr4
 9\n4kKillEaterEventType_Magnus_HeroesSlowedWithShockwave
@@ -24445,7 +24443,7 @@ $hRh
 9r#xV
 : unrecognized parent "%s"\n
 :':+:1:K:Q:[:c:g:m:y:
-:0op
+:00l
 :4\n\vdescription
 :9\n\tkey_field
 :BAD OBJECT
@@ -24725,7 +24723,10 @@ $hRh
 @!@%@+@1@?@C@E@]@a@g@m@
 @08N
 @0pp
+@2p6
 @333?
+@:0hp
+@:Php
 @@CDOTA_Item
 @BH]f
 @BoneSetup
@@ -24756,6 +24757,7 @@ $hRh
 @end_camera
 @fff>fff>fff>fff>
 @fff@
+@htp
 @i1V
 @n2w
 @player_start_teleport_destination
@@ -25928,7 +25930,6 @@ B-409
 B-571
 B-Spline
 B.z\85p
-B0{p
 B2I_DSS
 B2I_RSA
 B2pr
@@ -32761,6 +32762,7 @@ F\n\fstat_buckets
 F\n\trow_range
 F\n\vanswer_type
 F\n\vxp_received
+F\np6
 F\rH'4
 Face %s
 Face Actor
@@ -36336,6 +36338,7 @@ Hero_razor.lightning
 Heroes will use the basic NPC functionality for determining their bounty, rather than DOTA specific formulas.
 Hg>?S
 Hhr+g
+Hi)o
 Hidden
 Hidden: %s\n
 Hide the sticky item in the quickbuy.
@@ -37988,7 +37991,6 @@ LOTUS_POOL
 LT[N
 LXKQ
 LY\r5
-L\fP/l
 L\n\rcontributions
 LabelledDebugHelperDebug
 LadderConnect
@@ -39749,9 +39751,10 @@ P-224
 P-256
 P-384
 P-521
-P08J@0l
+P08J00l
 P08N
 P1\t98"
+P2p6
 P5[1
 PAGN_4
 PARALYZE
@@ -40164,6 +40167,7 @@ PingWheelMessageRange
 PitchShift
 PitchYawRoll
 PivotPaint
+Pjp6
 Place a rune in the bottle.
 Place a unit somewhere not already occupied.
 PlaceDecalEvent_t
@@ -40687,7 +40691,7 @@ RUNE_STATUS_MISSING
 RUNE_STATUS_UNKNOWN
 RUNE_WATER
 RUNE_XP
-R\fpT
+R\fpD
 R\n\fActivityInfo
 R\r1>Vp
 R\vp!y
@@ -45430,6 +45434,7 @@ XYD%
 X\n summary_description_embed_values
 X\n\rkilling_blows
 X\tQo
+X`hrp6
 Xbox VDP is not supported on this platform.
 Xd3h
 XfJ7
@@ -45599,8 +45604,6 @@ Z~wl
 \\n\vCheerRemaps
 \f%\f/\f1\fA\f[\f_\fa\fm\fs\fw\f
 \f*t\n ESteamLearnGetAccessTokensResult
-\f00l
-\f01v
 \f7ig
 \f<<0A1pq
 \fCEntityIndex"
@@ -45818,11 +45821,14 @@ Z~wl
 \n.steammessages_unified_base.steamworkssdk.proto
 \n/CMsgServerToGCCompendiumChosenInGamePredictions
 \n/CMsgServerToGCCompendiumInGamePredictionResults
+\n00l
 \n0CMsgClientToGCMonsterHunterGiftMaterialsResponse
 \n0CMsgClientToGCOverworldDevClearInventoryResponse
 \n0CMsgClientToGCSurvivorsGameTelemetryDataResponse
 \n0CMsgGCtoGCAssociatedExploiterAccountInfoResponse
 \n0CMsgServerToGCMatchPlayerNeutralItemEquipHistory
+\n0Zp
+\n0up
 \n1CDOTAClientMsg_AbilitySpecificChannelRequiresHalt
 \n1CDOTAUserMsg_MonsterHunter_InvestigationGameState
 \n1CMsgClientToGCFightingGameAnswerChallengeResponse
@@ -45889,7 +45895,8 @@ Z~wl
 \nLeagueID_t"
 \nLeagueID_t"M\n;CMsgServerToGCCloseCompendiumInGamePredictionVotingResponse
 \nLeagueID_t"N\n$CMsgServerToGCGetCheerConfigResponse
-\nPTv
+\nPDv
+\nPZp
 \nPlayerID_t
 \nPlayerID_t"
 \nSimulating Entities:\n\n
@@ -47103,8 +47110,7 @@ Z~wl
 \n\vwin_percent
 \n\vzoom_amount
 \ngrant_periodic_action '%s' doesn't specify an action to grant
-\npmc
-\npqv
+\npZp
 \nqYu
 \ntM(ie-V
 \r!\r+\r-\r=\r?\rO\rU\ri\ry\r
@@ -47311,25 +47317,29 @@ _tools_event_desc
 _turbo
 _xU`u
 _}eOk
-`20op
+`2 op
 `28)fk
-`2Prp
+`2@rp
+`2p6
+`:0fp
 `:zQF
 `D$daM-l
 `DZG
 `H(hqA1p
+`IMg
 `ITS
+`QOg
 `VX:H
 `\n\rvector_values
-`aNg
-`apg
+`bp6
+`dp6
+`ePg
 `fPw.\vM
 `h9T~
 `htP
-`mMg
 `o_je
-`uOg
 `yNT
+`yQg
 a null shared library handle was used
 a trigger_changelevel doesn't have a map
 a world layer in a dota map
@@ -62295,6 +62305,7 @@ p.ppBasis
 p.prime
 p.tpBasis
 p08@H^
+p2p6
 p2{l
 p4Z3
 p5Z3
@@ -65205,6 +65216,7 @@ pbeWithSHA1And40BitRC2-CBC
 pbeWithSHA1And40BitRC4
 pbeWithSHA1AndDES-CBC
 pbeWithSHA1AndRC2-CBC
+pbp6
 pcPathLengthConstraint
 peaktailend
 pedestal
@@ -66133,7 +66145,6 @@ quill_stack_damage
 quill_stack_duration
 quill_stacks
 qx(q
-r hp
 r$0I
 r-IE
 r184
@@ -66148,14 +66159,13 @@ rF6t
 rFC822localPart
 rFur`7\t
 rL[i+
-rP/l
 rRfKR
 rX&O0
 rZ1VwGf5
 rZPM
 r\n\nHuntReward
 r\vDi
-r\vpT
+r\vpD
 rad2deg
 radar_cooldown
 radial_count

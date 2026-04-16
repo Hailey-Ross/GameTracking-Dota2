@@ -6602,7 +6602,6 @@ CDOTA_Modifier_Clinkz_WindWalk
 CDOTA_Modifier_Cloak_Of_Flames_Debuff
 CDOTA_Modifier_Clockwerk_RocketFlare_Thinker
 CDOTA_Modifier_Clumsy_Net_Ensnare
-CDOTA_Modifier_ConjuersCatalyst_Overheat
 CDOTA_Modifier_ContextualTips
 CDOTA_Modifier_Corpselord_Revive
 CDOTA_Modifier_Courier_Burst
@@ -39055,6 +39054,7 @@ m_OutputVariableMinY
 m_OutputVariableMinZ
 m_OutputVariableName
 m_Outputs
+m_OverheatTimer
 m_OverlaidEnd
 m_OverlaidStart
 m_OverrideFogColor
@@ -48740,7 +48740,6 @@ m_nDireSilverCheers
 m_nDirectLight
 m_nDirection
 m_nDisableMode
-m_nDisableOverheatUntil
 m_nDisableTagIndex
 m_nDisableTakePhysicsDamageSpawnFlag
 m_nDisadvantage

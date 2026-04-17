@@ -19743,7 +19743,7 @@ GetModifierMoveSpeedBonus_Special_Boots
 GetModifierMoveSpeedBonus_Special_Boots_2
 GetModifierMoveSpeedMax_BonusConstant
 GetModifierMoveSpeedOverride
-GetModifierMoveSpeedPostMultiplierBonus_Constant 
+GetModifierMoveSpeedPostMultiplierBonus_Constant
 GetModifierMoveSpeedReductionPercentage
 GetModifierMoveSpeed_Absolute
 GetModifierMoveSpeed_AbsoluteMax
@@ -21308,7 +21308,6 @@ MODIFIER_EVENT_ON_HERO_BEGIN_DYING
 MODIFIER_EVENT_ON_HERO_KILLED
 MODIFIER_EVENT_ON_ILLUSION_CREATED
 MODIFIER_EVENT_ON_KILL
-MODIFIER_EVENT_ON_KNOCKBACK_ATTEMPTED
 MODIFIER_EVENT_ON_MAGIC_DAMAGE_CALCULATED
 MODIFIER_EVENT_ON_MANA_GAINED
 MODIFIER_EVENT_ON_MODEL_CHANGED
@@ -22872,7 +22871,6 @@ OnHeroBeginDying
 OnHeroKilled
 OnIllusionCreated
 OnKill
-OnKnockbackAttempted
 OnMagicDamageCalculated
 OnManaGained
 OnModelChanged

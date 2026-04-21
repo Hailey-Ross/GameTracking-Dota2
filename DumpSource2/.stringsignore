@@ -15688,6 +15688,7 @@ DOTA_BOT_MODE_DEFEND_ALLY
 DOTA_BOT_MODE_DEFEND_TOWER_BOT
 DOTA_BOT_MODE_DEFEND_TOWER_MID
 DOTA_BOT_MODE_DEFEND_TOWER_TOP
+DOTA_BOT_MODE_DEWARD
 DOTA_BOT_MODE_EVASIVE_MANEUVERS
 DOTA_BOT_MODE_FARM
 DOTA_BOT_MODE_ITEM
@@ -30629,6 +30630,7 @@ dota_bot_debug_pathing
 dota_bot_debug_potential_location
 dota_bot_debug_team
 dota_bot_debug_team_power
+dota_bot_debug_team_ward_spots
 dota_bot_debug_ward_spots
 dota_bot_difficulty_mask
 dota_bot_disable
@@ -39487,6 +39489,8 @@ m_WaitComplete
 m_WakeCancel
 m_WakeFail
 m_WakeResume
+m_WardCalculationTimer
+m_WardPlacementTimer
 m_WeatherEffect
 m_Weight
 m_WeightedList
@@ -52521,6 +52525,7 @@ m_vRemnantData
 m_vRenderOrigin
 m_vRepeatOffset
 m_vRequestedBlinkLoc
+m_vRequestedWardLocation
 m_vRespawnPosition
 m_vResumePreviousMovementRequestLocation
 m_vRicochetDir

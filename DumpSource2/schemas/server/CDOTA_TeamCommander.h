@@ -45,6 +45,8 @@ class CDOTA_TeamCommander
 	CHandle< CBaseEntity > m_hTeamRoamLeader;
 	CUtlVector< CHandle< CBaseEntity > > m_hTeamRoamCamps;
 	GameTime_t m_fTeamRoamStartTime;
+	CountdownTimer m_WardCalculationTimer;
+	CountdownTimer m_WardPlacementTimer;
 	float32[24] m_fHeroSelectionTimes;
 	Vector m_vBaseLocation;
 	Vector m_vPregameGatherLocation;

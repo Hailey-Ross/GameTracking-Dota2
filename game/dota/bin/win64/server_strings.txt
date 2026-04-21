@@ -158,11 +158,8 @@
  %s%lu (%s0x%lx)\n
  ' ) - 3 G M Q _ c e i w } 
  (%ld unused bits)\n
- (08@HPXbP2t
- (08@HRP2t
- (08@JP2t
- (0X`hpzP2t
- (2P2t
+ (08@HPX`j@H
+ (08@HPZ@H
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -426,7 +423,6 @@
 "O\n"CDOTAClientMsg_ChooseDeityBlessing
 "O\n%CMsgClientToGCOverworldRequestFortune
 "O\n0CDOTAClientMsg_MonsterHunter_SelectInvestigation
-"P2t
 "Q\n!CClientMsg_ListenForResponseFound
 "R\n(CMsgClientToGCOverworldDevClearInventory
 "T\n#CMsgGCStorePurchaseFinalizeResponse
@@ -583,7 +579,7 @@
 #DOTA_ContextualTips_DeathSavingItems_Healing_Text
 #DOTA_ContextualTips_DeathSavingItems_MagicResist_Annotation
 #DOTA_ContextualTips_DeathSavingItems_MagicResist_Text
-#DOTA_ContextualTips_DeathSavingItems_Stick_Annotation
+#DOTA_ContextualTips_DeathSavingItems_Stick_Annotation:f
 #DOTA_ContextualTips_DeathSavingItems_Stick_Text
 #DOTA_ContextualTips_MegaCreeps_Allies_Annotation
 #DOTA_ContextualTips_MegaCreeps_Allies_Text
@@ -1872,34 +1868,39 @@ $hRh
 (0'yX
 (0.1s interval)
 (0x%08X)'??'
-(1Ng
-(56h
-(58g
-(5Gg
+(1fg
+(5Fg
 (5Me
-(5fg
 (5jP
+(5xg
+(91h
+(93h
+(9Mg
+(9bh
 (ACTIVE)
-(AVg
-(Ajg
+(Ang
 (BZq
 (D4D
 (DOTA_INVALID_ORDERS nReason) Return the error string of a failed order.
 (Deprecated: use GetNumConnectedHumanPlayers) Players on a valid team (radiant, dire, or custom*) who haven't abandoned the game
-(Eqg
+(E0h
+(EGg
+(EIg
+(Eah
 (HSCRIPT hTarget) Determine whether an issued command on a target is valid.
 (HSCRIPT hTarget) Return the error string of a failed command on a target.
 (HSCRIPT hTarget, Vector vLocation) Projectile has collided with a given target or reached its destination (target is invalid).
 (HSCRIPT hTarget, Vector vLocation, int nHandle) Projectile has collided with a given target or reached its destination (target is invalid).
 (HSCRIPT hTarget, Vector vLocation, table kv) Projectile has collided with a given target or reached its destination (target is invalid).
 (Has breakpieces or commands)
-(Igg
-(Isg
-(Ivg
-(M2g
-(MIg
-(MLg
-(Mng
+(IQg
+(IYg
+(Ieh
+(MEg
+(MUg
+(Mfh
+(Mog
+(Mph
 (NAV IGNORED)
 (NAV_IGNORED)
 (NONE)
@@ -1907,22 +1908,22 @@ $hRh
 (Output drawable)
 (Preview/Unreleased) Gets the player's custom game account record, as it looked at the start of this session
 (Preview/Unreleased) Sets a callback to handle saving custom game account records (callback is passed a Player ID and should return a flat simple table)
-(Qrg
+(Qwh
 (SERVER) Inventory for account (%d):\n
 (Server) 
 (U1h
-(U9g
-(Ulg
 (Unknown error)
+(Upg
 (Vector vLocation) Determine whether an issued command on a location is valid.
 (Vector vLocation) Projectile is actively moving.
 (Vector vLocation) Return the error string of a failed command on a location.
 (Vector vLocation, table kv ) Projectile is actively moving.
 (Vector vOrigin, float flRadius )
 (WIPE AND EXTRACT)
-(YDg
-(YSg
-(YWg
+(YNg
+(YTg
+(YXg
+(Ybg
 (ZdOt\n&
 (\f"#\n!CDOTABroadcastMsg_LANLobbyRequest"
 (\f";\n%CDOTAUserMsg_CustomHudElement_Destroy
@@ -2521,17 +2522,19 @@ $hRh
 (\v2\v.CMsgVector"l\n
 (\v2\v.CMsgVector"o\n)CDOTAUserMsg_UpdateLinearProjectileCPData
 (\v2\v.CMsgVector*
-(aHg
-(aUg
+(amg
 (b IncludePregameTime b IncludeNegativeTime) Returns the actual DOTA in-game clock time.
 (bSafeToLeave) - Mark this game as safe to leave.
 (bool RemovePositiveBuffs, bool RemoveDebuffs, bool BuffsCreatedThisFrameOnly, bool RemoveStuns, bool RemoveExceptions)
 (bool bInterrupted) Channel finished.
 (d4t8
 (default)
-(e8g
-(eRg
-(etg
+(e2h
+(e3h
+(ech
+(edh
+(enh
+(ezg
 (fS{ggRcjh
 (flMinimapCreepIconScale) - Scale the creep icons on the minimap.
 (flMinimapHeroIconScale) - Scale the hero minimap icons on the minimap.
@@ -2543,7 +2546,7 @@ $hRh
 (hInflictor, hAttacker, flDamage) - Allocate a damageinfo object, used as an argument to TakeDamage(). Call DestroyDamageInfo( hInfo ) to free the object.
 (h`H1pqA
 (i/Al
-(i1h
+(iag
 (index, bDestroyImmediately, bStatusEffect, priority, bHeroEffect, bOverheadEffect
 (int iIndex, int iPoint, Vector vecPosition)
 (int index, bool bDestroyImmediately) - Destroy a particle, if bDestroyImmediately destroy it without playing end caps.
@@ -2553,8 +2556,8 @@ $hRh
 (int nProjectileHandle) Projectile is actively moving.
 (int targets [0=all, 1=enemy, 2=ally], bool bNow, bool bPermanent, bool bDeath)
 (jvg;
-(mAh
-(mXg
+(mSg
+(moh
 (nMusicStatus, flIntensity) - Set the music status for this player, note this will only really apply if dota_music_battle_enable is off.
 (nPlayerID)
 (nPlayerID, eEvent, nActionID)
@@ -2566,13 +2569,14 @@ $hRh
 (playerID, heroClassName, gold, XP) - replaces the player's hero with a new one of the specified class, gold and XP
 (playerID, heroClassName, gold, XP) - replaces the player's hero with a new one of the specified class, gold and XP, without transferring items/abilities if same hero
 (position, radius, checkFullTreeRadius?) Checks whether there are any trees overlapping the given point
-(qNg
+(qWg
 (quaternion,quaternion,float) very basic interpolation of v0 to v1 over t on [0,1]
 (quaternion,vector,float) rotates a quaternion by the specified angle around the specified vector axis
-(u0g
 (u0h
-(u7g
-(uog
+(uRg
+(uYg
+(ubh
+(ucg
 (update disabled)
 (vQF
 (vector,float) constructs a quaternion representing a rotation by angle around the specified vector axis
@@ -2580,7 +2584,10 @@ $hRh
 (vector,vector,float) lerp between two vectors by a float factor returning new vector
 (vector,vector,float) very basic interpolation of v0 to v1 over t on [0,1]
 (wMww
-(yVg
+(y1h
+(yJh
+(yLg
+(yrh
 )!)#)?)G)])e)i)o)u)
 ).CMsgSteamLearn_InferenceMetadata_Request
 )Ck?B
@@ -14763,6 +14770,7 @@ $hRh
 .?AVCDOTA_BotMode_DefendAlly_Human@@
 .?AVCDOTA_BotMode_DefendTower@@
 .?AVCDOTA_BotMode_DefendTower_Human@@
+.?AVCDOTA_BotMode_Deward@@
 .?AVCDOTA_BotMode_EvasiveManeuvers@@
 .?AVCDOTA_BotMode_Farm@@
 .?AVCDOTA_BotMode_Farm_Human@@
@@ -14793,6 +14801,7 @@ $hRh
 .?AVCDOTA_BotMode_Trial_Roshan@@
 .?AVCDOTA_BotMode_Trial_Rune@@
 .?AVCDOTA_BotMode_Trial_SecretShop@@
+.?AVCDOTA_BotMode_Trial_Ward@@
 .?AVCDOTA_BotMode_TutorialBoss@@
 .?AVCDOTA_BotMode_Ward@@
 .?AVCDOTA_BotMode_Watcher@@
@@ -14998,6 +15007,7 @@ $hRh
 .?AVCDOTA_Bot_AbilityUsage_SandKing_ScorpionStrike@@
 .?AVCDOTA_Bot_AbilityUsage_Satanic@@
 .?AVCDOTA_Bot_AbilityUsage_Seasonal_Party_Hat@@
+.?AVCDOTA_Bot_AbilityUsage_SentryWard@@
 .?AVCDOTA_Bot_AbilityUsage_Sheepstick@@
 .?AVCDOTA_Bot_AbilityUsage_ShivasGuard@@
 .?AVCDOTA_Bot_AbilityUsage_SkeletonKing_BoneGuard@@
@@ -23364,7 +23374,7 @@ $hRh
 /'/)/A/E/K/M/Q/W/o/u/}/
 /2x1
 /5dJ
-/Cmodifier_item_robe_of_magi
+/Citem_robe
 /RIv
 /\*<>{}[]() 
 /\n eligible_for_periodic_adjustment
@@ -23472,7 +23482,8 @@ $hRh
 0123456789
 02V8[
 05=k
-08@JP2t
+08@HR@H
+08B@H
 08bX
 09,h
 0;Q5[
@@ -23741,6 +23752,7 @@ $hRh
 2-.CMsgInGamePrediction.ERandomSelectionGroup_t
 2..CDOTAUserMsg_MadstoneAlert.EMadstoneAlertType
 2..CMvpData.MvpDatum.MvpAccolade.MvpAccoladeType
+20-o
 20.CMsgClientToGCGetBattleReportResponse.EResponse
 20t\f
 21.CMsgClientToGCDotaLabsFeedbackResponse.EResponse"
@@ -23815,7 +23827,6 @@ $hRh
 2I y)
 2J.CMsgClientToGCMonsterHunterDevClaimInvestigationRewardsResponse.EResponse"u\n\tEResponse
 2L.CMsgClientToGCMonsterHunterRequestMaterialsNeededByFriendResponse.EResponse
-2P2t
 2Tm=#
 2Uiwp"9
 2Zq)
@@ -23925,6 +23936,7 @@ $hRh
 2\r.DOTA_GC_TEAM:
 2\r.ELeaguePhase
 2\rlhp
+2\vpT
 2^pV
 2_bot
 2_mid
@@ -23938,7 +23950,6 @@ $hRh
 2ndry
 2p"6
 2prB
-2p}p
 3%3+3/353A3G3[3_3g3k3s3y3
 31tPR
 32:B\n
@@ -24191,7 +24202,7 @@ $hRh
 65535"j\n
 65535B$
 666666666666666666666666666666666666666666666666\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\.\ssl\s3_enc.c
-6666666666666666CDOTA_Modifier_Aghsfort_Aziyog_Underlord_Portal_Warp_Channel
+6666666666666666modifier_aghsfort_torrent_effect_potion_thinker
 67-s
 6H,N
 6O|T%
@@ -24324,20 +24335,20 @@ $hRh
 7zRQ
 8+Qw
 80F2<
-81"g
 82\n:XPH
 851Pe
 8<pl
 8= zp
-8=Mg
+8@J@H
 8A6j
+8B@H
 8DemoFile
-8E@h
+8F@9
+8FP8
 8GZS
-8M:g
 8SIffK5W
 8TZvrv<
-8YTg
+8Y\rh
 8\n0series_current_selection_priority_used_coin_toss
 8\n0ultimate_scepter_consumed_alchemist_bonus_health
 8\n3kKillEaterEventType_Broodmother_SpiderlingHeroKills
@@ -24391,10 +24402,12 @@ $hRh
 8]Vc2
 8ca1
 8dS2
+8e\th
+8ehg
+8iZg
 8pe7?
 8q-S*]X
 8sOy
-8uYg
 9#9%9)9/9=9A9M9[9k9y9}9
 9)PF
 9)jx
@@ -24448,6 +24461,7 @@ $hRh
 9r#xV
 : unrecognized parent "%s"\n
 :':+:1:K:Q:[:c:g:m:y:
+:0Rw
 :4\n\vdescription
 :9\n\tkey_field
 :BAD OBJECT
@@ -24455,7 +24469,6 @@ $hRh
 :EXTERNAL TYPE %s\n
 :LBN
 :NAy
-:P2t
 :QYJ
 :Vlq
 :\n5kKillEaterEventType_Brewmaster_KillsDuringPrimalSplit
@@ -24687,7 +24700,7 @@ $hRh
 >fN46R^
 >l\rur
 >p00<
->special_bonus_cleave_140
+>special_bonus_attack_range_300
 >yhP
 >ztq
 ???CRR_Response bogus index
@@ -24715,7 +24728,6 @@ $hRh
 ?d86L
 ?debug_visibility_monitor
 ?dt]X
-?ents
 ?expf
 ?fff?
 ?ffffff
@@ -24729,7 +24741,7 @@ $hRh
 @08N
 @0pp
 @333?
-@:0up
+@:PRw
 @@CDOTA_Item
 @BH]f
 @BoneSetup
@@ -24811,7 +24823,6 @@ A<fP
 A>x8
 A@d0I
 AA Compromise
-AA:0
 AABBDirection
 AACompromise
 ABILITY
@@ -26297,7 +26308,8 @@ Bot Script
 Bot querying nearby trees with a distance greater than cached!\n
 Bot scripts do not check CRC, cache miss.\n
 Bot scripts reloaded.\n
-Bot ward spot %s in an invalid location, this may cause bots to get stuck
+Bot ward spot %s in an invalid location, this may cause bots to get stuck.\n
+Bot ward spot %s not found in map; falling back to hardcoded location.\n
 BotBaseScriptScope
 BotBuilds
 BotImplemented
@@ -26422,6 +26434,7 @@ C:\buildworker\source2_dota_rel_2019_win64\build\src\game\server\dota\bot\dota_b
 C:\buildworker\source2_dota_rel_2019_win64\build\src\game\server\dota\bot\dota_bot_mode_companion.cpp
 C:\buildworker\source2_dota_rel_2019_win64\build\src\game\server\dota\bot\dota_bot_mode_defend_ally.cpp
 C:\buildworker\source2_dota_rel_2019_win64\build\src\game\server\dota\bot\dota_bot_mode_defend_tower.cpp
+C:\buildworker\source2_dota_rel_2019_win64\build\src\game\server\dota\bot\dota_bot_mode_deward.cpp
 C:\buildworker\source2_dota_rel_2019_win64\build\src\game\server\dota\bot\dota_bot_mode_evasive_maneuvers.cpp
 C:\buildworker\source2_dota_rel_2019_win64\build\src\game\server\dota\bot\dota_bot_mode_farm.cpp
 C:\buildworker\source2_dota_rel_2019_win64\build\src\game\server\dota\bot\dota_bot_mode_item.cpp
@@ -26452,6 +26465,7 @@ C:\buildworker\source2_dota_rel_2019_win64\build\src\game\server\dota\bot\trial\
 C:\buildworker\source2_dota_rel_2019_win64\build\src\game\server\dota\bot\trial\dota_bot_mode_trial_roshan.cpp
 C:\buildworker\source2_dota_rel_2019_win64\build\src\game\server\dota\bot\trial\dota_bot_mode_trial_rune.cpp
 C:\buildworker\source2_dota_rel_2019_win64\build\src\game\server\dota\bot\trial\dota_bot_mode_trial_secret_shop.cpp
+C:\buildworker\source2_dota_rel_2019_win64\build\src\game\server\dota\bot\trial\dota_bot_mode_trial_ward.cpp
 C:\buildworker\source2_dota_rel_2019_win64\build\src\game\server\dota\dota_base_ability.cpp
 C:\buildworker\source2_dota_rel_2019_win64\build\src\game\server\dota\dota_base_ability.h
 C:\buildworker\source2_dota_rel_2019_win64\build\src\game\server\dota\dota_client.cpp
@@ -27594,6 +27608,8 @@ CDOTA_BotMode_DefendAlly::GetDesire
 CDOTA_BotMode_DefendAlly::Think
 CDOTA_BotMode_DefendTower::GetDesire
 CDOTA_BotMode_DefendTower::Think
+CDOTA_BotMode_Deward::GetDesire
+CDOTA_BotMode_Deward::Think
 CDOTA_BotMode_EvasiveManeuvers::GetDesire
 CDOTA_BotMode_EvasiveManeuvers::Think
 CDOTA_BotMode_Farm::GetDesire
@@ -27640,6 +27656,8 @@ CDOTA_BotMode_Trial_Rune::GetDesire
 CDOTA_BotMode_Trial_Rune::Think
 CDOTA_BotMode_Trial_SecretShop::GetDesire
 CDOTA_BotMode_Trial_SecretShop::Think
+CDOTA_BotMode_Trial_Ward::GetDesire
+CDOTA_BotMode_Trial_Ward::Think
 CDOTA_BotMode_Ward::GetDesire
 CDOTA_BotMode_Ward::Think
 CDOTA_BotMode_Watcher::Think
@@ -27929,6 +27947,7 @@ CDOTA_TeamCommander::UpdateRoshanDesire
 CDOTA_TeamCommander::UpdateRuneVision
 CDOTA_TeamCommander::UpdateTeamRoamDesire
 CDOTA_TeamCommander::UpdateUnitLists
+CDOTA_TeamCommander::UpdateWardLocations
 CDOTA_TeleportTimerManager
 CDOTA_Tutorial
 CDOTA_UnitFilterCache
@@ -31073,6 +31092,7 @@ DES-OFB
 DES3
 DESX
 DESX-CBC
+DEWARD
 DGRAM_SCTP_READ
 DGRAM_SCTP_WRITE
 DH PARAMETERS
@@ -31195,6 +31215,7 @@ DOTAHLTVDirector
 DOTAHeroes
 DOTAInGamePredictionGameSystem
 DOTALobby: ID:%llu  %d member(s) allow_spectators: %d\n
+DOTAMinimapGrid
 DOTAMusic.Death
 DOTAMusic_Hero.Reincarnate
 DOTAMusic_Stinger.009
@@ -31669,6 +31690,7 @@ Determine whether an issued command with no target is valid.
 Determines whether response criteria is matched on server or client
 Devour adds '%s'\n
 Devour removes '%s'\n
+Dewarding
 Dhq0\ri
 Did not find any close death events!\n
 Did not find both an input and ouput field within root components block
@@ -34655,7 +34677,7 @@ H8,2
 H8xp
 H=`HY
 H@H9xqI
-H@T\tKdota_idle_neutral_think_always
+H@T\tK
 HAC K  Unused Binding
 HARDSUPPORT
 HAS_LADDERS
@@ -34757,7 +34779,6 @@ HParticleSystemDefinition
 HParticleSystemDefinitionStrong
 HPostProcessing
 HPostProcessingStrong
-HQ;o
 HRegisters a data desc (or finds a data desc if it's already registered).
 HRenderTexture
 HRenderTextureStrong
@@ -36394,7 +36415,6 @@ Hp)X?
 Hq,r/f
 HqI9x
 Ht4qw
-Hu;o
 HullDesc_tiny
 HullDesc_tiny_centered
 HullParams
@@ -39753,13 +39773,12 @@ P-224
 P-256
 P-384
 P-521
-P08@JP2t
+P08J@
 P08N
 P1\t98"
-P2P2t
+P2@H
 P5[1
-P:P2t
-PADotA dev commands
+PACDOTA_Modifier_Furbolg_Enrage_AttackSpeed_OnDeath
 PAGN_4
 PARALYZE
 PARAMETERS
@@ -40170,6 +40189,7 @@ PingWheelMessageRange
 PitchShift
 PitchYawRoll
 PivotPaint
+Pj@H
 Place a rune in the bottle.
 Place a unit somewhere not already occupied.
 PlaceDecalEvent_t
@@ -40693,6 +40713,7 @@ RUNE_STATUS_MISSING
 RUNE_STATUS_UNKNOWN
 RUNE_WATER
 RUNE_XP
+R\fpT
 R\n\fActivityInfo
 R\r1>Vp
 R\vp!y
@@ -44845,6 +44866,7 @@ UpdateTeamSlot
 UpdateUnitLists
 UpdateVerticalMotion
 UpdateViewerSize
+UpdateWardLocations
 Updates a cached data entry.
 Updates custom hero, unit and ability KeyValues in memory with the latest values from disk
 Updating custom hero, unit, ability and item KeyValues with latest values from disk...\n
@@ -45435,9 +45457,12 @@ XYD%
 X\n summary_description_embed_values
 X\n\rkilling_blows
 X\tQo
+X`hr@H
 Xbox VDP is not supported on this platform.
 Xd3h
 XfJ7
+XfP;
+Xfp<
 XjfR
 XqgA+
 Xuub
@@ -45496,7 +45521,6 @@ ZH^r
 ZL9L
 ZLIB
 ZLONG
-ZP2t
 ZSz@
 ZXF,`i
 Z\n\fPositionPair
@@ -45614,6 +45638,7 @@ Z~wl
 \f]ne3
 \fdhWTh
 \fiaR
+\fpuG
 \ful2
 \fy&3Gl
 \l:ArR
@@ -45827,6 +45852,7 @@ Z~wl
 \n0CMsgClientToGCSurvivorsGameTelemetryDataResponse
 \n0CMsgGCtoGCAssociatedExploiterAccountInfoResponse
 \n0CMsgServerToGCMatchPlayerNeutralItemEquipHistory
+\n0Tw
 \n1CDOTAClientMsg_AbilitySpecificChannelRequiresHalt
 \n1CDOTAUserMsg_MonsterHunter_InvestigationGameState
 \n1CMsgClientToGCFightingGameAnswerChallengeResponse
@@ -45893,7 +45919,7 @@ Z~wl
 \nLeagueID_t"
 \nLeagueID_t"M\n;CMsgServerToGCCloseCompendiumInGamePredictionVotingResponse
 \nLeagueID_t"N\n$CMsgServerToGCGetCheerConfigResponse
-\nP2t
+\nPTw
 \nPlayerID_t
 \nPlayerID_t"
 \nSimulating Entities:\n\n
@@ -47107,6 +47133,7 @@ Z~wl
 \n\vwin_percent
 \n\vzoom_amount
 \ngrant_periodic_action '%s' doesn't specify an action to grant
+\npTw
 \nqYu
 \ntM(ie-V
 \r!\r+\r-\r=\r?\rO\rU\ri\ry\r
@@ -47314,24 +47341,21 @@ _turbo
 _xU`u
 _}eOk
 `28)fk
-`2P2t
-`2p}p
-`9cg
-`:Pup
+`6Pe
+`96h
 `:zQF
 `D$daM-l
 `DZG
 `H(hqA1p
 `ITS
-`Mdg
+`Q6h
 `VX:H
 `\n\rvector_values
-`aeg
+`aQh
 `fPw.\vM
 `h9T~
-`htP
+`i6h
 `o_je
-`ufg
 `yNT
 a null shared library handle was used
 a trigger_changelevel doesn't have a map
@@ -53069,15 +53093,19 @@ gyroshell
 g{syW*
 g|FeW\v
 g|MT
+h%Dh
 h&eC
 h*Ax
+h-Gh
 h0XB
+h18h
+h1Rh
 h2Wl
 h2n_\
 h5N.
+hAPh
 hActivator
 hAggroTarget
-hAkg
 hAttackTarget
 hAttacker
 hBlocker
@@ -53104,7 +53132,8 @@ hFcg
 hFunction
 hGoal
 hHero
-hI\fh
+hI$h
+hI:h
 hInflictor
 hInfo
 hItem
@@ -53132,16 +53161,17 @@ hSystem
 hTable
 hTeleportOwner
 hThinkFunc
+hULh
 hUnit
 hUpgradeAbility
 hW*m
 hW1M
 hW_z
 hX@e
-hY\nh
 h\n"unlocked_chat_wheel_message_ranges
 h\n"unlocked_ping_wheel_message_ranges
 h\n\vHeroAbility
+h\r8h
 h`Zr
 haha
 hairball
@@ -53543,7 +53573,6 @@ hoverposeposition
 howl_duration
 hp_cost
 hp_missing_per_extra_illusion_pct
-hpzP2t
 hr_H
 http request
 http://%s
@@ -54451,7 +54480,6 @@ invuln_duration
 invuln_vision_radius
 invulnerability_on_creation
 ioctlsocket
-ip>c
 ipsec3
 ipsec4
 ipsecEndSystem
@@ -55298,7 +55326,6 @@ item_river_painter4
 item_river_painter5
 item_river_painter6
 item_river_painter7
-item_robe
 item_rod_of_atos
 item_roshans_banner
 item_royal_jelly
@@ -55470,14 +55497,12 @@ j&LQ
 j0ksJ
 j2ty
 j3kg
-j@ip
 jA(U
 jB#W
 jHLy
 jLTKTz
 jNXcA
 jOJw"
-jP2t
 jTuf
 jV*d9O
 j[6Z
@@ -57346,7 +57371,6 @@ modifier_aghsfort_stonehall_general_overwhelming_odds_thinker
 modifier_aghsfort_swamp_sickness
 modifier_aghsfort_tempbuff_corpse_explosion_aura
 modifier_aghsfort_tempbuff_corpse_explosion_debuff
-modifier_aghsfort_torrent_effect_potion_thinker
 modifier_aghsfort_torrent_effect_potion_torrent
 modifier_aghsfort_torrent_effect_potion_torrent_slow
 modifier_aghsfort_tower_blast_wave_thinker
@@ -58776,6 +58800,7 @@ modifier_item_ring_of_protection
 modifier_item_ring_of_regeneration
 modifier_item_ring_of_tarrasque
 modifier_item_rippers_lash
+modifier_item_robe_of_magi
 modifier_item_rod_of_atos
 modifier_item_royal_jelly
 modifier_item_royale_with_cheese
@@ -62304,8 +62329,7 @@ p.ppBasis
 p.prime
 p.tpBasis
 p08@H^
-p0jPro
-p2P2t
+p2@H
 p2{l
 p4Z3
 p5Z3
@@ -62320,7 +62344,6 @@ pAttachment
 pAttachmentName
 pAttachmentname
 pAttributeName
-pBCDOTA_Ability_Twin_Gate_Portal_Warp
 pBodyGroupName
 pCheckpointName
 pClassName
@@ -65203,6 +65226,7 @@ payload + padding <= 16381
 payment gateway capabilities
 payment_row_usd
 payment_us_usd
+pb@H
 pbeWithMD2AndDES-CBC
 pbeWithMD2AndRC2-CBC
 pbeWithMD5AndCast5CBC
@@ -66150,7 +66174,6 @@ r184
 r3A~
 r<\rND
 r@33
-r@vp
 rAGW
 rB2pBB
 rC3rp
@@ -66165,8 +66188,7 @@ rZ1VwGf5
 rZPM
 r\n\nHuntReward
 r\vDi
-r`jp
-r`vp
+r\vpT
 rad2deg
 radar_cooldown
 radial_count
@@ -68259,7 +68281,6 @@ special_bonus_attack_range_175
 special_bonus_attack_range_200
 special_bonus_attack_range_250
 special_bonus_attack_range_275
-special_bonus_attack_range_300
 special_bonus_attack_range_325
 special_bonus_attack_range_400
 special_bonus_attack_range_50
@@ -68309,6 +68330,7 @@ special_bonus_cast_range_75
 special_bonus_cast_speed_30
 special_bonus_cleave_100
 special_bonus_cleave_130
+special_bonus_cleave_140
 special_bonus_cleave_15
 special_bonus_cleave_150
 special_bonus_cleave_175
@@ -71429,12 +71451,10 @@ z(ov
 z/B,9d
 z<d2
 z>Hz
-z>PO7
 zF):O4
 zFar
 zG2m8
 zNear
-zP2t
 zPos
 zRXU 
 zealots

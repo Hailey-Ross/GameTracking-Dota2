@@ -974,7 +974,6 @@ panorama/localization/core_tools_greek.txt
 panorama/localization/core_tools_hungarian.txt
 panorama/localization/core_tools_italian.txt
 panorama/localization/core_tools_japanese.txt
-panorama/localization/core_tools_korean.txt
 panorama/localization/core_tools_koreana.txt
 panorama/localization/core_tools_latam.txt
 panorama/localization/core_tools_norwegian.txt
@@ -1003,7 +1002,6 @@ panorama/localization/panorama_greek.txt
 panorama/localization/panorama_hungarian.txt
 panorama/localization/panorama_italian.txt
 panorama/localization/panorama_japanese.txt
-panorama/localization/panorama_korean.txt
 panorama/localization/panorama_koreana.txt
 panorama/localization/panorama_latam.txt
 panorama/localization/panorama_norwegian.txt
@@ -1104,7 +1102,6 @@ resource/countries_greek.txt
 resource/countries_hungarian.txt
 resource/countries_italian.txt
 resource/countries_japanese.txt
-resource/countries_korean.txt
 resource/countries_koreana.txt
 resource/countries_latam.txt
 resource/countries_norwegian.txt

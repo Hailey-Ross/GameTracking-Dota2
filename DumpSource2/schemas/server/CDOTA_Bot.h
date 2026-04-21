@@ -61,9 +61,10 @@ class CDOTA_Bot
 	Vector m_vRequestedBlinkLoc;
 	GameTime_t m_fRequestedBlinkStart;
 	GameTime_t m_fRequestedBlinkExpire;
+	Vector m_vRequestedWardLocation;
 	CUtlVector< CHandle< CBaseEntity > > m_hMinions;
 	CUtlVector< CDOTABaseAbility* > m_Build;
-	float32[31] m_fModeDesires;
+	float32[32] m_fModeDesires;
 	int32 m_iPreviousBotModeType;
 	GameTime_t m_fPendingActionExecuteTime;
 	bool m_bPendingActionBypass;

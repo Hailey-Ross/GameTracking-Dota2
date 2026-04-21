@@ -2281,6 +2281,9 @@ dota_bot_debug_team 0 (developmentonly gamedll clientdll replicated defensive)
 dota_bot_debug_team_power true (developmentonly clientdll defensive)
 	<no description>
 
+dota_bot_debug_team_ward_spots 0 (developmentonly gamedll)
+	<no description>
+
 dota_bot_debug_ward_spots 0 (developmentonly gamedll defensive)
 	<no description>
 

@@ -40120,6 +40120,7 @@ m_bDeathEventsDispatched
 m_bDeathFxTriggered
 m_bDeathTipsDisabled
 m_bDebuff
+m_bDebuffImmune
 m_bDebugAbsOriginChanges
 m_bDebugCommandline
 m_bDebugOrientation

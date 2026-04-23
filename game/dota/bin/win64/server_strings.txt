@@ -158,8 +158,10 @@
  %s%lu (%s0x%lx)\n
  ' ) - 3 G M Q _ c e i w } 
  (%ld unused bits)\n
- (08@HPX`j@H
- (08@HPZ@H
+ (08@HPXb`xt
+ (08@HR`xt
+ (08@J`xt
+ (0X`hpz`xt
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -382,6 +384,7 @@
 ".CMsgSteamLearn_CacheData_Response" 
 ".CMsgSteamLearn_Inference_Response"N
 ".\n,CMsgClientToGCMonsterHunterDevClearInventory"
+"0pn
 "2MR
 "3\n!CDOTAUserMsg_TE_DestroyProjectile
 "3\n!CMsgGCStorePurchaseCancelResponse
@@ -1868,39 +1871,38 @@ $hRh
 (0'yX
 (0.1s interval)
 (0x%08X)'??'
+(11h
+(1bg
+(1cg
 (1fg
-(5Fg
+(1sh
+(1wh
 (5Me
 (5jP
-(5xg
-(91h
-(93h
-(9Mg
-(9bh
+(9vg
+(AAh
 (ACTIVE)
-(Ang
+(ACh
+(Akh
+(Arh
 (BZq
 (D4D
 (DOTA_INVALID_ORDERS nReason) Return the error string of a failed order.
 (Deprecated: use GetNumConnectedHumanPlayers) Players on a valid team (radiant, dire, or custom*) who haven't abandoned the game
-(E0h
-(EGg
-(EIg
-(Eah
+(Egg
+(Ewg
 (HSCRIPT hTarget) Determine whether an issued command on a target is valid.
 (HSCRIPT hTarget) Return the error string of a failed command on a target.
 (HSCRIPT hTarget, Vector vLocation) Projectile has collided with a given target or reached its destination (target is invalid).
 (HSCRIPT hTarget, Vector vLocation, int nHandle) Projectile has collided with a given target or reached its destination (target is invalid).
 (HSCRIPT hTarget, Vector vLocation, table kv) Projectile has collided with a given target or reached its destination (target is invalid).
 (Has breakpieces or commands)
-(IQg
-(IYg
-(Ieh
-(MEg
-(MUg
-(Mfh
-(Mog
-(Mph
+(Ikg
+(Iog
+(M7h
+(MWg
+(MYg
+(Mqh
 (NAV IGNORED)
 (NAV_IGNORED)
 (NONE)
@@ -1908,22 +1910,22 @@ $hRh
 (Output drawable)
 (Preview/Unreleased) Gets the player's custom game account record, as it looked at the start of this session
 (Preview/Unreleased) Sets a callback to handle saving custom game account records (callback is passed a Player ID and should return a flat simple table)
-(Qwh
+(Qag
+(Qig
+(Quh
 (SERVER) Inventory for account (%d):\n
 (Server) 
 (U1h
+(UUg
+(Ueg
 (Unknown error)
-(Upg
+(Uvh
 (Vector vLocation) Determine whether an issued command on a location is valid.
 (Vector vLocation) Projectile is actively moving.
 (Vector vLocation) Return the error string of a failed command on a location.
 (Vector vLocation, table kv ) Projectile is actively moving.
 (Vector vOrigin, float flRadius )
 (WIPE AND EXTRACT)
-(YNg
-(YTg
-(YXg
-(Ybg
 (ZdOt\n&
 (\f"#\n!CDOTABroadcastMsg_LANLobbyRequest"
 (\f";\n%CDOTAUserMsg_CustomHudElement_Destroy
@@ -2522,19 +2524,18 @@ $hRh
 (\v2\v.CMsgVector"l\n
 (\v2\v.CMsgVector"o\n)CDOTAUserMsg_UpdateLinearProjectileCPData
 (\v2\v.CMsgVector*
-(amg
+(a3h
+(adg
+(ahg
+(arg
 (b IncludePregameTime b IncludeNegativeTime) Returns the actual DOTA in-game clock time.
 (bSafeToLeave) - Mark this game as safe to leave.
 (bool RemovePositiveBuffs, bool RemoveDebuffs, bool BuffsCreatedThisFrameOnly, bool RemoveStuns, bool RemoveExceptions)
 (bool bInterrupted) Channel finished.
+(bool bSpent) Runs when item's charge count changes. bSpent is true when the charge count change is coming from SpendCharge.
 (d4t8
 (default)
-(e2h
-(e3h
-(ech
-(edh
-(enh
-(ezg
+(efh
 (fS{ggRcjh
 (flMinimapCreepIconScale) - Scale the creep icons on the minimap.
 (flMinimapHeroIconScale) - Scale the hero minimap icons on the minimap.
@@ -2546,7 +2547,6 @@ $hRh
 (hInflictor, hAttacker, flDamage) - Allocate a damageinfo object, used as an argument to TakeDamage(). Call DestroyDamageInfo( hInfo ) to free the object.
 (h`H1pqA
 (i/Al
-(iag
 (index, bDestroyImmediately, bStatusEffect, priority, bHeroEffect, bOverheadEffect
 (int iIndex, int iPoint, Vector vecPosition)
 (int index, bool bDestroyImmediately) - Destroy a particle, if bDestroyImmediately destroy it without playing end caps.
@@ -2555,9 +2555,12 @@ $hRh
 (int nPct)
 (int nProjectileHandle) Projectile is actively moving.
 (int targets [0=all, 1=enemy, 2=ally], bool bNow, bool bPermanent, bool bDeath)
+(ioh
 (jvg;
-(mSg
-(moh
+(mBh
+(mCh
+(msh
+(mth
 (nMusicStatus, flIntensity) - Set the music status for this player, note this will only really apply if dota_music_battle_enable is off.
 (nPlayerID)
 (nPlayerID, eEvent, nActionID)
@@ -2569,13 +2572,9 @@ $hRh
 (playerID, heroClassName, gold, XP) - replaces the player's hero with a new one of the specified class, gold and XP
 (playerID, heroClassName, gold, XP) - replaces the player's hero with a new one of the specified class, gold and XP, without transferring items/abilities if same hero
 (position, radius, checkFullTreeRadius?) Checks whether there are any trees overlapping the given point
-(qWg
+(qqg
 (quaternion,quaternion,float) very basic interpolation of v0 to v1 over t on [0,1]
 (quaternion,vector,float) rotates a quaternion by the specified angle around the specified vector axis
-(u0h
-(uRg
-(uYg
-(ubh
 (ucg
 (update disabled)
 (vQF
@@ -2584,10 +2583,8 @@ $hRh
 (vector,vector,float) lerp between two vectors by a float factor returning new vector
 (vector,vector,float) very basic interpolation of v0 to v1 over t on [0,1]
 (wMww
-(y1h
-(yJh
-(yLg
-(yrh
+(ygg
+(ynh
 )!)#)?)G)])e)i)o)u)
 ).CMsgSteamLearn_InferenceMetadata_Request
 )Ck?B
@@ -3116,6 +3113,7 @@ $hRh
 ,kj8\te
 ,name:
 ,oYR
+,pXw
 ,section=
 ,steammessages_steamlearn.steamworkssdk.proto"
 ,steammessages_steamlearn.steamworkssdk.proto"b\n
@@ -23374,7 +23372,6 @@ $hRh
 /'/)/A/E/K/M/Q/W/o/u/}/
 /2x1
 /5dJ
-/Citem_robe
 /RIv
 /\*<>{}[]() 
 /\n eligible_for_periodic_adjustment
@@ -23482,8 +23479,7 @@ $hRh
 0123456789
 02V8[
 05=k
-08@HR@H
-08B@H
+08@J`xt
 08bX
 09,h
 0;Q5[
@@ -23752,7 +23748,6 @@ $hRh
 2-.CMsgInGamePrediction.ERandomSelectionGroup_t
 2..CDOTAUserMsg_MadstoneAlert.EMadstoneAlertType
 2..CMvpData.MvpDatum.MvpAccolade.MvpAccoladeType
-20-o
 20.CMsgClientToGCGetBattleReportResponse.EResponse
 20t\f
 21.CMsgClientToGCDotaLabsFeedbackResponse.EResponse"
@@ -23936,11 +23931,11 @@ $hRh
 2\r.DOTA_GC_TEAM:
 2\r.ELeaguePhase
 2\rlhp
-2\vpT
 2^pV
 2_bot
 2_mid
 2_top
+2`xt
 2a"l
 2bT~
 2cb:RO
@@ -24333,22 +24328,20 @@ $hRh
 7sAP'
 7wKR
 7zRQ
+8!xg
 8+Qw
 80F2<
 82\n:XPH
 851Pe
 8<pl
 8= zp
-8@J@H
 8A6j
-8B@H
 8DemoFile
-8F@9
-8FP8
+8E,h
 8GZS
+8M)h
 8SIffK5W
 8TZvrv<
-8Y\rh
 8\n0series_current_selection_priority_used_coin_toss
 8\n0ultimate_scepter_consumed_alchemist_bonus_health
 8\n3kKillEaterEventType_Broodmother_SpiderlingHeroKills
@@ -24400,13 +24393,13 @@ $hRh
 8\n\rsubscribe_msg
 8\v8!83858A8G8K8S8W8_8e8o8q8}8
 8]Vc2
+8a+h
 8ca1
 8dS2
-8e\th
-8ehg
-8iZg
+8mxg
 8pe7?
 8q-S*]X
+8qjg
 8sOy
 9#9%9)9/9=9A9M9[9k9y9}9
 9)PF
@@ -24461,7 +24454,6 @@ $hRh
 9r#xV
 : unrecognized parent "%s"\n
 :':+:1:K:Q:[:c:g:m:y:
-:0Rw
 :4\n\vdescription
 :9\n\tkey_field
 :BAD OBJECT
@@ -24700,7 +24692,7 @@ $hRh
 >fN46R^
 >l\rur
 >p00<
->special_bonus_attack_range_300
+>quest_hud_types_t
 >yhP
 >ztq
 ???CRR_Response bogus index
@@ -24741,10 +24733,10 @@ $hRh
 @08N
 @0pp
 @333?
-@:PRw
 @@CDOTA_Item
 @BH]f
 @BoneSetup
+@HVP7
 @Invalid attach type specified for particle effect anim event. Trying to spawn effect '%s' on model %s\n
 @MfKZ
 @Pgl
@@ -33777,6 +33769,7 @@ GetAgilityGain
 GetAllHeroes
 GetAllTrees
 GetAllTreesAroundPoint
+GetAltCastState
 GetAlwaysShowPlayerInventory
 GetAlwaysShowPlayerNames
 GetAmmoType
@@ -34499,6 +34492,7 @@ Gets the cast range of the ability, taking modifiers into account.
 Gets the cast range of the ability.
 Gets the cast range of this Ability.
 Gets the curren time of day (0.0 is midnight, 0.5 is noon).
+Gets the current Alt Cast State
 Gets the current phase of hero picking.
 Gets the current state of the game.
 Gets the current unspent ability points.
@@ -39773,11 +39767,13 @@ P-224
 P-256
 P-384
 P-521
-P08J@
+P08@J`xt
 P08N
 P1\t98"
-P2@H
+P2`xt
 P5[1
+P6@U
+P:`xt
 PACDOTA_Modifier_Furbolg_Enrage_AttackSpeed_OnDeath
 PAGN_4
 PARALYZE
@@ -40182,6 +40178,7 @@ Pickup Item:
 PickupDroppedItem
 PickupRadius
 PickupRune
+PiercesDebuffImmunity
 Pin or Unpin the overlay to the Entity's location
 PineCone.ShieldBash.Warmup
 PingOverrideText
@@ -40189,7 +40186,6 @@ PingWheelMessageRange
 PitchShift
 PitchYawRoll
 PivotPaint
-Pj@H
 Place a rune in the bottle.
 Place a unit somewhere not already occupied.
 PlaceDecalEvent_t
@@ -40554,6 +40550,7 @@ RC5-CFB
 RC5-ECB
 RC5-OFB
 RC5_CTRL
+RCdota_contextual_tips_dust_search_radius
 RD6O
 RDNS
 RE!r
@@ -40713,7 +40710,6 @@ RUNE_STATUS_MISSING
 RUNE_STATUS_UNKNOWN
 RUNE_WATER
 RUNE_XP
-R\fpT
 R\n\fActivityInfo
 R\r1>Vp
 R\vp!y
@@ -41032,6 +41028,7 @@ Return float value for the amount of time left on cooldown for this hero's buyba
 Return gold cost at the given level (-1 is current).
 Return health cost at the given level (-1 is current).
 Return health cost per second of channeling at the given level (-1 is current).
+Return if an ability and its modifiers should pierce debuff immunity.
 Return integer value for the gold cost of a buyback.
 Return mana cost at the given level (-1 is current).
 Return mana cost at the given level per second while channeling (-1 is current).
@@ -41165,6 +41162,7 @@ Returns true if this is lua running from the server.dll.
 Returns true if this is lua running within tools mode.
 Returns true if this item can be picked up by the target unit.
 Returns true if this server is a dedicated server.
+Returns true or false on if the effects of this modifier should pierce debuff immunity. By default uses the setting from the ability
 Returns up to the maximum requested elements. Never grows the array (unlike SetCount).
 Returns whether Dota Plus ability suggestions are enabled or disabled
 Returns whether Dota Plus item suggestions are enabled or disabled
@@ -41260,7 +41258,6 @@ RunePosition
 RuneSpawnData
 RuneTeam
 Running command %d.\n{ %s }\n
-Runs when item's charge count changes.
 Runs when stack count changes (param is old count).
 Runs when the modifier is created.
 Runs when the modifier is destroyed (after unit loses modifier).
@@ -42260,6 +42257,7 @@ Script_PayManaCost
 Script_PerformAttack
 Script_PickupDroppedItem
 Script_PickupRune
+Script_PiercesDebuffImmunity
 Script_PlayVCD
 Script_PlayerHasCustomGameHostPrivileges
 Script_PointToLineDistance
@@ -42583,6 +42581,7 @@ Set %s to %x.\n
 Set Abs Angles
 Set Abs Origin
 Set Abs Scale
+Set Alt Cast State to a specific value (true for on, false for off)
 Set Angular Velocity for VPHYS or normal object, from a vector of the axis of rotation, multiplied by the degrees of rotation per second.
 Set Body Group Value
 Set Effect Control Ent
@@ -42805,6 +42804,7 @@ SetAllowHeroTargets
 SetAllowNeutralItemDrops
 SetAllowOutpostBonuses
 SetAllowRelaxation
+SetAltCastState
 SetAlwaysShowPlayerInventory
 SetAlwaysShowPlayerNames
 SetAmmoType
@@ -43534,6 +43534,7 @@ ShopSlot
 Should blacklisted heroes be hidden, or just dimmed, in hero picking?
 Should have already been loaded via CModel_Imp::RegisterAdditionalExtRefs
 Should have already been loaded via CVDataTypeManager::RegisterExtRefs
+ShouldAltCast
 ShouldClientReceiveStringTableUserData called with nullptr GameRules() on table %s, string %d\n
 ShouldDoFlyHeightVisual
 ShouldGiveFreeTPOnDeath
@@ -44348,6 +44349,7 @@ Thinking Entities:\n\n
 Thinking: %s
 This Mana regen is derived from constant bonuses like Basilius.
 This is an S/MIME signed message%s%s
+This is what the Alt Cast State of the ability was when it was initially cast. Updated during Execute Orders
 This item has already been purchased and cannot be purchased again.
 This unit will be set to face the target point.
 This upgrades the passed ability if it exists and the hero has enough ability points.
@@ -44389,10 +44391,12 @@ Tiny.Grow
 TipDefinitions
 Toggle
 Toggle an ability.
+Toggle the Alt Cast State of an Ability
 Toggle the autocast state of this Ability.
 Toggle the relay between enabled and disabled.
 Toggle the visibility of an existing custom hud element ( PlayerID_t PlayerID /*-1 means everyone*/, string ElementID, bool Visible )
 ToggleAbility
+ToggleAltCast
 ToggleAlternatePath
 ToggleAmbientSound
 ToggleAutoCast
@@ -45457,12 +45461,10 @@ XYD%
 X\n summary_description_embed_values
 X\n\rkilling_blows
 X\tQo
-X`hr@H
 Xbox VDP is not supported on this platform.
 Xd3h
+Xf0@
 XfJ7
-XfP;
-Xfp<
 XjfR
 XqgA+
 Xuub
@@ -45526,6 +45528,7 @@ ZXF,`i
 Z\n\fPositionPair
 Z\n\fSubChallenge
 Z\n\nmap_values
+Z`xt
 Zd[w
 Ze2Zh@
 Zero Pose Task
@@ -45852,7 +45855,6 @@ Z~wl
 \n0CMsgClientToGCSurvivorsGameTelemetryDataResponse
 \n0CMsgGCtoGCAssociatedExploiterAccountInfoResponse
 \n0CMsgServerToGCMatchPlayerNeutralItemEquipHistory
-\n0Tw
 \n1CDOTAClientMsg_AbilitySpecificChannelRequiresHalt
 \n1CDOTAUserMsg_MonsterHunter_InvestigationGameState
 \n1CMsgClientToGCFightingGameAnswerChallengeResponse
@@ -45919,7 +45921,6 @@ Z~wl
 \nLeagueID_t"
 \nLeagueID_t"M\n;CMsgServerToGCCloseCompendiumInGamePredictionVotingResponse
 \nLeagueID_t"N\n$CMsgServerToGCGetCheerConfigResponse
-\nPTw
 \nPlayerID_t
 \nPlayerID_t"
 \nSimulating Entities:\n\n
@@ -47133,7 +47134,6 @@ Z~wl
 \n\vwin_percent
 \n\vzoom_amount
 \ngrant_periodic_action '%s' doesn't specify an action to grant
-\npTw
 \nqYu
 \ntM(ie-V
 \r!\r+\r-\r=\r?\rO\rU\ri\ry\r
@@ -47341,21 +47341,22 @@ _turbo
 _xU`u
 _}eOk
 `28)fk
-`6Pe
-`96h
+`2`xt
 `:zQF
+`AFh
 `D$daM-l
 `DZG
 `H(hqA1p
 `ITS
-`Q6h
+`QOh
 `VX:H
+`YFh
 `\n\rvector_values
-`aQh
 `fPw.\vM
 `h9T~
-`i6h
+`iah
 `o_je
+`qFh
 `yNT
 a null shared library handle was used
 a trigger_changelevel doesn't have a map
@@ -48333,6 +48334,7 @@ bAggro
 bAllChat
 bAllow
 bAllowSelling
+bAltCastEnabled
 bAlwaysPush
 bAlwaysShow
 bAmplify
@@ -48454,6 +48456,7 @@ bSkipCooldown
 bSkipImpactLogic
 bSkipNoConsume
 bSpellLifesteal
+bSpent
 bStacksWithOtherOwners
 bState
 bStatusEffect
@@ -53093,17 +53096,18 @@ gyroshell
 g{syW*
 g|FeW\v
 g|MT
-h%Dh
+h!Jh
+h%Oh
 h&eC
 h*Ax
-h-Gh
+h-Th
 h0XB
-h18h
-h1Rh
 h2Wl
 h2n_\
 h5N.
-hAPh
+h5Wh
+h9Hh
+h9bh
 hActivator
 hAggroTarget
 hAttackTarget
@@ -53132,8 +53136,7 @@ hFcg
 hFunction
 hGoal
 hHero
-hI$h
-hI:h
+hI`h
 hInflictor
 hInfo
 hItem
@@ -53148,6 +53151,8 @@ hPathTable
 hPlayer
 hProjectileID
 hPurchaser
+hQ4h
+hQJh
 hQuery != k_UGCQueryHandleInvalid
 hQueryTable
 hRB.
@@ -53161,7 +53166,6 @@ hSystem
 hTable
 hTeleportOwner
 hThinkFunc
-hULh
 hUnit
 hUpgradeAbility
 hW*m
@@ -53171,7 +53175,6 @@ hX@e
 h\n"unlocked_chat_wheel_message_ranges
 h\n"unlocked_ping_wheel_message_ranges
 h\n\vHeroAbility
-h\r8h
 h`Zr
 haha
 hairball
@@ -53573,6 +53576,7 @@ hoverposeposition
 howl_duration
 hp_cost
 hp_missing_per_extra_illusion_pct
+hpz`xt
 hr_H
 http request
 http://%s
@@ -55326,6 +55330,7 @@ item_river_painter4
 item_river_painter5
 item_river_painter6
 item_river_painter7
+item_robe
 item_rod_of_atos
 item_roshans_banner
 item_royal_jelly
@@ -55508,6 +55513,7 @@ jV*d9O
 j[6Z
 j\n\nOutputItem
 j\vIP{s
+j`xt
 jackpots
 jaja
 jakiro_double_trouble
@@ -62329,7 +62335,8 @@ p.ppBasis
 p.prime
 p.tpBasis
 p08@H^
-p2@H
+p0j`
+p2`xt
 p2{l
 p4Z3
 p5Z3
@@ -65226,7 +65233,6 @@ payload + padding <= 16381
 payment gateway capabilities
 payment_row_usd
 payment_us_usd
-pb@H
 pbeWithMD2AndDES-CBC
 pbeWithMD2AndRC2-CBC
 pbeWithMD5AndCast5CBC
@@ -66188,7 +66194,7 @@ rZ1VwGf5
 rZPM
 r\n\nHuntReward
 r\vDi
-r\vpT
+r`Vw
 rad2deg
 radar_cooldown
 radial_count
@@ -68281,6 +68287,7 @@ special_bonus_attack_range_175
 special_bonus_attack_range_200
 special_bonus_attack_range_250
 special_bonus_attack_range_275
+special_bonus_attack_range_300
 special_bonus_attack_range_325
 special_bonus_attack_range_400
 special_bonus_attack_range_50
@@ -71457,6 +71464,7 @@ zG2m8
 zNear
 zPos
 zRXU 
+z`xt
 zealots
 zero_value
 zfriction

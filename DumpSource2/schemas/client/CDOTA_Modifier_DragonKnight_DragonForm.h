@@ -8,6 +8,7 @@ class CDOTA_Modifier_DragonKnight_DragonForm : public CDOTA_Buff
 	int32 iLevel;
 	int32 m_iOriginalAttackCapabilities;
 	int32 attack_projectile_speed_bonus;
+	int32 flying_movement;
 	CUtlSymbolLarge m_iszRangedAttackEffect;
 	int32 bonus_slow_resistance;
 	int32 bonus_ability_cast_range;

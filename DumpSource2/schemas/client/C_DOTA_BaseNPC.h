@@ -196,6 +196,7 @@ class C_DOTA_BaseNPC : public C_NextBotCombatCharacter
 	CUtlVector< CUtlStringToken > m_hOldWearableSkins;
 	char[256] m_CustomHealthLabel;
 	Color m_CustomHealthLabelColor;
+	OriginalModelFlags_t m_nIsOriginalModel;
 	item_definition_index_t m_nWearableDefIndex;
 	Color m_gibTintColor;
 	bool m_bForceMaterialCombine;

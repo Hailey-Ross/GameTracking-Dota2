@@ -22707,6 +22707,9 @@ ORIENTATION_FORWARD_PATH
 ORIENTATION_FORWARD_PATH_AND_FIXED_PITCH
 ORIENTATION_FORWARD_PATH_AND_UP_CONTROL_POINT
 ORIENTATION_MATCH_CONTROL_POINT
+ORIGINAL_MODEL_FLAGS_NOT_SET
+ORIGINAL_MODEL_IS_NOT_ORIGINAL_MODEL
+ORIGINAL_MODEL_IS_ORIGINAL_MODEL
 OS type the engine is running on.
 OUTSIDE_PARENT
 OVAL_AROUND_PLAYER
@@ -22985,6 +22988,7 @@ OrientationWarpTargetOffsetMode_t
 Origin
 Original Material
 Original material to replace. This is the material specified in the model, including any material group asignment within the model. Does not consider any existing material overrides specified within the smart prop.
+OriginalModelFlags_t
 Other hitgroups to destroy when this one is fully destroyed.  Useful for chaining destructibles like blowing up the lower arm when the upper arm dies.
 OutCirc
 OutCubic
@@ -49215,6 +49219,7 @@ m_nInvulnerabilityDuration
 m_nInvulnerabilityFlags
 m_nInvulnerabilityStart
 m_nIsActive
+m_nIsOriginalModel
 m_nIssuerPlayerIndex
 m_nItemAbilityID
 m_nItemCount

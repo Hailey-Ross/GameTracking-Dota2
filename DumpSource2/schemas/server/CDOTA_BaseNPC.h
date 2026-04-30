@@ -252,6 +252,7 @@ class CDOTA_BaseNPC : public NextBotCombatCharacter
 	float32 m_flRun;
 	char[256] m_CustomHealthLabel;
 	Color m_CustomHealthLabelColor;
+	OriginalModelFlags_t m_nIsOriginalModel;
 	item_definition_index_t m_nWearableDefIndex;
 	int8 m_nArcanaLevel;
 	int8 m_nDefaultArcanaLevel;

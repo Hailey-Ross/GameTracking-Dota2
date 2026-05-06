@@ -965,7 +965,6 @@ $worldspacetype
 (\v?enterEvent@QToolButton@@MEAAXPEAVQEvent@@@Z
 (d4t8
 (fS{ggRcjh
-(f`3P
 (fixed)
 (h`H1pqA
 (higher) +4
@@ -1056,6 +1055,7 @@ $worldspacetype
 *it%2
 *kf[R
 *laM-\SO
+*xKC
 + ?timerEvent@QToolButton@@MEAAXPEAVQTimerEvent@@@Z
 +"?updateGeometries@QListView@@MEAAXXZ
 +'+1+3+=+?+K+O+U+i+m+o+{+
@@ -14608,6 +14608,7 @@ $worldspacetype
 .?AVStockSpike@@
 .APARTICLE_EHANDLE__
 .HCK\v
+.P5P
 .P6AXPEAVCQBindableCommandPushButton@@AEBUInitContext_t@CBaseDynamicWidgetFactory@@@Z
 .P6AXPEAVCQBindableCommandToolButton@@AEBUInitContext_t@CBaseDynamicWidgetFactory@@@Z
 .P6AXPEAVGameData@@@Z
@@ -14621,7 +14622,6 @@ $worldspacetype
 .P6AXPEAVQTableWidget@@AEBUInitContext_t@CBaseDynamicWidgetFactory@@@Z
 .P6AXPEAVQToolBar@@AEBUInitContext_t@CBaseDynamicWidgetFactory@@@Z
 .P6AXPEAVQToolButton@@AEBUInitContext_t@CBaseDynamicWidgetFactory@@@Z
-.P7P
 .Q.Ol
 .R?matches@QKeyEvent@@QEBA_NW4StandardKey@QKeySequence@@@Z
 .[?setRed@QColor@@QEAAXH@Z
@@ -14896,7 +14896,8 @@ $worldspacetype
 .mp3
 .nav
 .navdbg
-.p6P
+.p1P
+.p2P
 .pfm
 .png
 .pp@0
@@ -14948,10 +14949,10 @@ $worldspacetype
 02V8[
 05=k
 08bX
-08}C
 09,h
 0;Q5[
 0<cz
+0>iQP
 0M2~@p
 0W/5
 0Z@q
@@ -15691,7 +15692,6 @@ $worldspacetype
 1xT$
 1}oP
 2(?SetFrame@FbxTime@fbxsdk@@QEAAX_JW4EMode@12@@Z
-2(PC
 2)252Y2]2c2k2o2u2w2{2
 2)Ab`
 2+~,@\r;Zj09
@@ -15885,6 +15885,7 @@ $worldspacetype
 2valueChangedBySlider( float )
 2valueEdited()
 2visibilityChanged( bool )
+2xKC
 3%3+3/353A3G3[3_3g3k3s3y3
 30.0
 31tPR
@@ -15980,23 +15981,23 @@ $worldspacetype
 6%vi
 6,2K
 6-zeZ
-603P
+60)P
 62$|S)6f
 64 283 0
 64CK\vH
 666666666666666666666666666666666666666666666666\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\.\ssl\s3_enc.c
 6666666666666666jjjjjjjjjjjjjjjj[
 67-s
+6CQP
 6FaceSkyBox
 6H,N
 6O|T%
-6P&P
-6P>P
 6Qd=
 6[?setRenderHint@QPainter@@QEAAXW4RenderHint@1@_N@Z
 6\v?createNode@QMapDataBase@@QEAAPEAUQMapNodeBase@@HHPEAU2@_N@Z
 6\v?event@QComboBox@@UEAA_NPEAVQEvent@@@Z
 6_wEX
+6`9P
 6afD
 6bX+
 6c&0|vvX
@@ -16047,7 +16048,6 @@ $worldspacetype
 8<pl
 8= zp
 8A6j
-8F`/P
 8GZS
 8SIffK5W
 8TZvrv<
@@ -16202,7 +16202,6 @@ $worldspacetype
 > (After)
 >"?IsValid@FbxProperty@fbxsdk@@QEBA_NXZ
 >#>)>/>3>A>W>c>e>w>
->02P
 >4|6eXg_e
 >7^0g
 >>> Reading bsp from path %s\n
@@ -18640,7 +18639,9 @@ $worldspacetype
 @%s_lookFrame_2
 @08N
 @0pp
+@>p4P
 @BH]f
+@HPX`hv0
 @Integer overflow in %s
 @MfKZ
 @Pgl
@@ -25090,7 +25091,6 @@ F\v?event@QGroupBox@@MEAA_NPEAVQEvent@@@Z
 F_BLOOD_USE_UV2
 F_TEXTURE_FORMAT
 F_TEXTURE_FORMAT2
-F`2P
 Face
 Face %d
 Face Fit
@@ -25516,7 +25516,6 @@ Four-View Quad
 Fourth Control Point Location
 Fourth Control Point Number
 Fourth Control Point Parent
-Fp$P
 Frac
 Fractal
 Fractional component (ie. returns 0.34 for 12.34)
@@ -29222,7 +29221,8 @@ P4CopyFile
 P4CopyFile: Couldn't copy "%s" to "%s"\n
 P4CopyFile: Couldn't deduce depot path for source file "%s"\n
 P5[1
-P8}C
+P604P
+P6P9P
 P?isValid@QColor@@QEBA_NXZ
 P?isValid@QTextCharFormat@@QEBA_NXZ
 P?item@QStandardItemModel@@QEBAPEAVQStandardItem@@HH@Z
@@ -29638,6 +29638,7 @@ Permission denied
 Permitted
 Persistent
 Perturb vertex positions using sine waves.
+Pf 5P
 Pf\n%d %d\n-1.000000\n
 PgDn
 PgUp
@@ -30435,6 +30436,7 @@ R\r1>Vp
 R\t?canFetchMore@QAbstractItemModel@@UEBA_NAEBVQModelIndex@@@Z
 R\v?event@QMenuBar@@MEAA_NPEAVQEvent@@@Z
 R\vp!6
+R\vpD
 R]Di
 R^?supportedDropActions@QStandardItemModel@@UEBA?AV?$QFlags@W4DropAction@Qt@@@@XZ
 R_T5Y
@@ -34123,6 +34125,7 @@ V Axis Repeats
 V Offset
 V Repeats
 V07;m
+V08P
 V2I_ASIDENTIFIERS
 V2I_AUTHORITY_INFO_ACCESS
 V2I_AUTHORITY_KEYID
@@ -34200,7 +34203,6 @@ VZ#-DLU[3=h
 V\rKk
 V\v?event@QProgressBar@@MEAA_NPEAVQEvent@@@Z
 V_a|I
-V`6P
 Va?width@QPixmap@@QEBAHXZ
 Valid Content Absolute Path
 Valid External Path
@@ -34861,8 +34863,8 @@ X\r?horizontalHeader@QTableView@@QEBAPEAVQHeaderView@@XZ
 X\tQo
 X\v?event@QPushButton@@MEAA_NPEAVQEvent@@@Z
 Xd3h
-Xf 0P
 XfJ7
+Xfp+P
 XjfR
 XqgA+
 Xuub
@@ -35275,6 +35277,7 @@ Z~wl
 \ng default\n
 \nqYu
 \ntM(ie-V
+\nxKC
 \particles
 \prefabs
 \prefabs\
@@ -35338,6 +35341,7 @@ Z~wl
 \ri1I
 \rjwB\t
 \roKK
+\rp3P
 \rp\f`\v0\nP!'\f
 \rrCj
 \rtext
@@ -35391,7 +35395,6 @@ Z~wl
 \tP4 WARNING calling g_pP4->OpenFileForCopy( "%s", "%s" )!\n
 \tP4 WARNING: %s
 \tP4ERROR: %s
-\tP8}C
 \tRecommend delete and force sync the offending dirs/files to correct the path case.\n
 \tT?parent@QWindow@@QEBAPEAV1@XZ
 \tThe file you have in source 1 has the old (mixed?) case path and is still on your disk.\n
@@ -35476,7 +35479,6 @@ Z~wl
 \vGt5
 \vHCK/
 \vNCE\v
-\vP8}C
 \vUY6[E
 \v\f?focusInEvent@QGroupBox@@MEAAXPEAVQFocusEvent@@@Z
 \v\vTSG
@@ -35649,6 +35651,8 @@ _zero_percent_distance
 _}eOk
 `28)fk
 `2p5>
+`6 1P
+`6p\vP
 `:zQF
 `?validate@QDoubleValidator@@UEBA?AW4State@QValidator@@AEAVQString@@AEAH@Z
 `?validate@QIntValidator@@UEBA?AW4State@QValidator@@AEAVQString@@AEAH@Z
@@ -38164,7 +38168,6 @@ f ?topLevelItemCount@QTreeWidget@@QEBAHXZ
 f#9i\n
 f%wyLmX:
 f&dy
-f0"P
 f1cK%
 f45\r
 fBB\fy
@@ -39141,6 +39144,7 @@ g|FeW\v
 g|MT
 h&eC
 h*Ax
+h+\n0a
 h0XB
 h2Wl
 h2n_\
@@ -41921,10 +41925,6 @@ p4Z3
 p5Z3
 p5\nL,
 p618
-p6P9P
-p8}C
-p>EUP
-p>dUP
 p@0pqE5tsO?|1
 pAction
 pAsset
@@ -42543,6 +42543,7 @@ rRfKR
 rX&O0
 rZ1VwGf5
 rZPM
+r\fpD
 r\n?dragLeaveEvent@QGraphicsItem@@MEAAXPEAVQGraphicsSceneDragDropEvent@@@Z
 r\tV_sinhf
 r\vDi
@@ -45461,7 +45462,6 @@ zz2K
 }\n?dragMoveEvent@QAbstractItemView@@MEAAXPEAVQDragMoveEvent@@@Z
 }\r?erase@QListData@@QEAAPEAPEAXPEAPEAX@Z
 }\r?hoverMoveEvent@QGraphicsWidget@@MEAAXPEAVQGraphicsSceneHoverEvent@@@Z
-}\rP8P
 }gE3
 }n2W
 ~9ob

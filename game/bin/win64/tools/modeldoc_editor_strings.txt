@@ -26,7 +26,7 @@
   R%d: %15s %25s %s\n
   Top-level Mesh Op '%s' returning a cached result.\n
   V%d: '%s' (%s)\n
- !"#$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$(
+ !"#$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ 
  !"#$%%&'()*+,-../0123456789:;<=>?@ABCDEFGHIJKLLMNOPQRSTUVWXY[]_`bdefhjlnprtvz|~
  #%d: %d Faces, %d Verts, %d Edges\n
  %dw %dl %dh @(%.0f %.0f %.0f)
@@ -555,32 +555,29 @@ $prefix_element$
 (%.2f, %.2f, %.2f)
 (%1 clips)
 (%d tracks)
-(16O
-(1AO
-(1EO
-(1NO
-(1RO
-(5SO
-(9QO
+(1HO
+(1oO
+(1xO
+(5UO
+(9YO
+(9rO
 (? Queued)
 (?!\d)[\w_]*
 (@8hA
-(AUO
 (Advanced Feature) Used to specify special interaction rules or exclusions. References a name in scripts/collision_properties.txt.
+(AjO
 (Anonymous)
 (Cannot dynamically spawn a prop_static)
 (Custom Colors Disabled)
 (Debug Feature) Used to draw collision with the same material in Physics Debugger as in Hammer.
-(EBO
 (Edges to Faces)
 (Edges to Vertices)
 (Error)
+(EvO
 (Faces to Edges)
 (Faces to Vertices)
 (Filter)
-(IFO
-(IOO
-(M1O
+(I8O
 (Mesh Substring Filter)
 (Multiple)
 (No Active Session)
@@ -590,33 +587,35 @@ $prefix_element$
 (No class selected)
 (Outliner Filter)
 (Preview Outliner Filter)
-(QaO
-(QlO
+(Q6O
+(QAO
+(QEO
+(QNO
+(QRO
 (Specified in project's gameinfo.gi)
 (Steam Audio) Update physics surface property of VMDL files. They are used for picking acoustic material property for Steam Audio.
-(U3O
-(UMO
-(UVO
-(UZO
+(USO
 (Vertices to Edges)
 (Vertices to Faces)
+(YQO
 (\f?focusOutEvent@QAbstractButton@@MEAAXPEAVQFocusEvent@@@Z
 (\r?hideEvent@QAbstractSpinBox@@MEAAXPEAVQHideEvent@@@Z
 (\v?enterEvent@QToolButton@@MEAAXPEAVQEvent@@@Z
-(a9O
-(agO
+(aUO
+(eBO
 (export) %d %s %d %s %s\n
 (export) %d %s %d %s\n
-(i0O
-(ibO
-(inO
+(iFO
+(iOO
 (layer %d)
+(m1O
 (no-compile)
-(qQO
-(qvO
-(uJO
-(uRO
-(uuO
+(qaO
+(qlO
+(u3O
+(uMO
+(uVO
+(uZO
 ) ?timerEvent@QTableView@@MEAAXPEAVQTimerEvent@@@Z
 )\f?focusOutEvent@QAbstractItemView@@MEAAXPEAVQFocusEvent@@@Z
 )\n?displayText@QStyledItemDelegate@@UEBA?AVQString@@AEBVQVariant@@AEBVQLocale@@@Z
@@ -12002,6 +12001,7 @@ $prefix_element$
 /animgraphs/
 0.000
 0000``
+0>YG
 0\r%0h
 0\r%0t
 0\tV_frexpf
@@ -12647,8 +12647,7 @@ $prefix_element$
 2\r?hideEvent@QWidget@@MEAAXPEAVQHideEvent@@@Z
 2\tV_fseek
 2\v?event@QAction@@MEAA_NPEAVQEvent@@@Z
-2\vp4E
-2\vpTB
+2\vptD
 2_BONE_IK
 2aboutToShow()
 2accepted()
@@ -12760,12 +12759,13 @@ $prefix_element$
 8&Kx
 8-byte data pool
 8\f?focusOutEvent@QTextBrowser@@MEAAXPEAVQFocusEvent@@@Z
+8\t7O
 8\v?event@QCompleter@@MEAA_NPEAVQEvent@@@Z
 8]?size@QPixmap@@QEBA?AVQSize@@XZ
 8m_CtrlHash
 969p
-9Z/O
 9\f?focusOutEvent@QTextEdit@@MEAAXPEAVQFocusEvent@@@Z
+9z/O
 : Add
 :: <NO TARGET BONE>
 :IKSOLVER_Perlin
@@ -14731,6 +14731,8 @@ $prefix_element$
 @%s_lookFrame_1
 @%s_lookFrame_2
 @08N
+@HPX`hv`
+@HVp
 @Integer overflow in %s
 @Invalid
 @\tV_isinfd
@@ -18925,7 +18927,6 @@ How much to consider facing angle in occlusion.
 How quickly the elasticity target pose changes to match the current pose
 How sensitive the setting thresholds for 'stationary' should be - a value of 1 means use the vdata settings directly.
 How the end effector should be rotated after the solve.
-Hq*O
 Hud Settings
 Hull
 Hull Per Element
@@ -21228,7 +21229,7 @@ Overwrite all bone data
 Overwrite existing flags only
 Overwriting existing wrinkle map data on mesh
 P08N
-P604
+P6p\t
 P?isValid@QColor@@QEBA_NXZ
 P?isValid@QTextCharFormat@@QEBA_NXZ
 P?item@QStandardItemModel@@QEBAPEAVQStandardItem@@HH@Z
@@ -21331,6 +21332,7 @@ Persistent
 Persona
 Perspective
 Perturb vertex positions using sine waves.
+PfP+
 Pf\n%d %d\n-1.000000\n
 PgDn
 PgUp
@@ -21803,10 +21805,10 @@ RMouseDoubleClick
 ROTATION
 RSDS
 R\f?font@QTreeWidgetItem@@QEBA?AVQFont@@H@Z
-R\fp4E
+R\fptD
 R\t?canFetchMore@QAbstractItemModel@@UEBA_NAEBVQModelIndex@@@Z
 R\v?event@QMenuBar@@MEAA_NPEAVQEvent@@@Z
-R\vpTB
+R\vp\fA
 R^?supportedDropActions@QStandardItemModel@@UEBA?AV?$QFlags@W4DropAction@Qt@@@@XZ
 R_T5Y
 Rad2 Deg
@@ -23888,7 +23890,6 @@ XResolution
 XYZ, Luv
 X\r?horizontalHeader@QTableView@@QEBAPEAVQHeaderView@@XZ
 X\v?event@QPushButton@@MEAA_NPEAVQEvent@@@Z
-XfP&
 Y (Green / Left)
 Y - Left
 Y0 Node Name
@@ -24094,7 +24095,6 @@ ZoomOut
 \f\n?cmp@QVariant@@QEBA_NAEBV1@@Z
 \f\n?deselect@QLineEdit@@QEAAXXZ
 \f\r?heightForWidth@QFormLayout@@UEBAHH@Z
-\fpTB
 \n   Size: L: <%i, %i>   A: <%i, %i>   Scale: %0.2f\n   Geometry: %s\n   Virtual Geometry: %s\n   Available Geometry: %s\n   Orientation: %s\n
 \n?appendRow@QStandardItemModel@@QEAAXPEAVQStandardItem@@@Z
 \n?bits@QImage@@QEAAPEAEXZ
@@ -24280,8 +24280,7 @@ ZoomOut
 \v?flags@QTreeWidgetItem@@QEBA?AV?$QFlags@W4ItemFlag@Qt@@@@XZ
 \v?focusChanged@QApplication@@QEAAXPEAVQWidget@@0@Z
 \v\f?focusInEvent@QGroupBox@@MEAAXPEAVQFocusEvent@@@Z
-\vp4E
-\vpTB
+\vptD
 ]?sharedPainter@QPaintDevice@@MEBAPEAVQPainter@@XZ
 ]?start@QMovie@@QEAAXXZ
 ]?staticMetaObject@QTextDocument@@2UQMetaObject@@B
@@ -24405,7 +24404,6 @@ _zero
 `V?queryKeyboardModifiers@QGuiApplication@@SA?AV?$QFlags@W4KeyboardModifier@Qt@@@@XZ
 `\r?entryInfoList@QDir@@QEBA?AV?$QList@VQFileInfo@@@@V?$QFlags@W4Filter@QDir@@@@V?$QFlags@W4SortFlag@QDir@@@@@Z
 `\v?event@QSpinBox@@MEAA_NPEAVQEvent@@@Z
-`u4O
 a:fulltype
 a:typeparam
 a?windowText@QPalette@@QEBAAEBVQBrush@@XZ
@@ -26562,8 +26560,6 @@ overwrite_existing_flags_only
 owns_polymorphic_data
 p"?value@QSpinBox@@QEBAHXZ
 p08@H^
-p>5K
-p>TK
 pAction
 pActionObject
 pAsset
@@ -26600,7 +26596,6 @@ pVoidStep
 pVoidWizard
 pWidget
 p\n?dragLeaveEvent@QAbstractItemView@@MEAAXPEAVQDragLeaveEvent@@@Z
-p\r`\fPTB
 p\v?event@QWidget@@MEAA_NPEAVQEvent@@@Z
 p`?type@QStandardItem@@UEBAHXZ
 panorama_image
@@ -26801,7 +26796,8 @@ quad_bend_tolerance
 quadratic
 quaternion_array
 quiet
-r\vp4E
+r\fp\fA
+r\vptD
 rad2deg
 radiant
 radius0_key

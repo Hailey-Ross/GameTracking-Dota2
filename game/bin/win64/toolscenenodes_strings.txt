@@ -10454,7 +10454,6 @@ R\r1>Vp
 R\t?canFetchMore@QAbstractItemModel@@UEBA_NAEBVQModelIndex@@@Z
 R\v?event@QMenuBar@@MEAA_NPEAVQEvent@@@Z
 R\vp!6
-R\vpL 
 R]Di
 R^?supportedDropActions@QStandardItemModel@@UEBA?AV?$QFlags@W4DropAction@Qt@@@@XZ
 R_T5Y
@@ -16438,7 +16437,6 @@ rRfKR
 rX&O0
 rZ1VwGf5
 rZPM
-r\fpL 
 r\tV_sinhf
 r\vDi
 rad2deg

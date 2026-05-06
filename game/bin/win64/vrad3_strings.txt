@@ -559,6 +559,8 @@ $timer
 16-byte data pool
 1Pl\v1
 2RD\n2
+2\vpd2
+2\vpl"
 4-byte data pool
 4CReport RTX perf stats at N bounces. -1 means no report
 4F=3
@@ -1202,6 +1204,7 @@ R channel not found!\n
 R<Xb
 RSDS
 RTLightmap
+R\fpl"
 Radius Random
 Random Cull
 Randomly Flip Yaw
@@ -1889,6 +1892,8 @@ oscillate_scalar
 oscillate_vector
 outerconeangle
 ownerlog
+p>Pw
+p>ow
 pEnd->x <= g_LightProbeGrid.NumCellsX()
 pEnd->y <= g_LightProbeGrid.NumCellsY()
 pEnd->z <= g_LightProbeGrid.NumCellsZ()
@@ -1910,7 +1915,7 @@ path_trace_triangles_gpu_init
 path_trace_triangles_gpu_shutdown
 path_trajectory
 pattern
-pc64 Apr  7 2026 14:00:36
+pc64 May  6 2026 13:58:26
 physicsSimplificationError
 physicsSimplificationOverride
 pinEnabled
@@ -1944,6 +1949,7 @@ prop_physics_respawnable
 propdataname
 qangle_array
 quaternion_array
+r\vpl"
 radiusScale
 radius_random
 radius_scale

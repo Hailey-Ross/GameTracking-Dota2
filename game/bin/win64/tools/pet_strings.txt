@@ -367,6 +367,7 @@ $\f?focusNextPrevChild@QWidget@@MEAA_N_N@Z
 '%s' is not a known output
 '%s' is not a valid variable type
 'OverrideClass' was specified but class '%s' has not been previously defined.\n
+'\f099
 '\v?enterEvent@QMenu@@MEAAXPEAVQEvent@@@Z
 ( %1, %2, %3, %4% )
 (#?windowModality@QWidget@@QEBA?AW4WindowModality@Qt@@XZ
@@ -2462,7 +2463,7 @@ $\f?focusNextPrevChild@QWidget@@MEAA_N_N@Z
 /]?size@QImage@@QEBA?AVQSize@@XZ
 /y?YL
 0?TVS>
-0@0Fm
+0@@Fm
 0x%1
 0x%p = %s '%s'
 1.5x
@@ -2850,6 +2851,7 @@ $\f?focusNextPrevChild@QWidget@@MEAA_N_N@Z
 2\nP!E
 2\r?hideEvent@QWidget@@MEAAXPEAVQHideEvent@@@Z
 2\v?event@QAction@@MEAA_NPEAVQEvent@@@Z
+2\vpl
 2_BONE_IK
 2aboutToShow()
 2accepted()
@@ -3309,7 +3311,6 @@ $\f?focusNextPrevChild@QWidget@@MEAA_N_N@Z
 ??YQString@@QEAAAEAV0@AEBV0@@Z
 ??YQString@@QEAAAEAV0@PEBD@Z
 ?RGBA8888
-?Xbr
 ?\f?debug@QMessageLogger@@QEBA?AVQDebug@@XZ
 ?\n?availableGeometry@QScreen@@QEBA?AVQRect@@XZ
 ?absoluteFilePath@QFileInfo@@QEBA?AVQString@@XZ
@@ -7679,9 +7680,9 @@ ROTATION
 RSDS@\t
 RW?restore@QPainter@@QEAAXXZ
 R\f?font@QTreeWidgetItem@@QEBA?AVQFont@@H@Z
-R\fpd
 R\t?canFetchMore@QAbstractItemModel@@UEBA_NAEBVQModelIndex@@@Z
 R\v?event@QMenuBar@@MEAA_NPEAVQEvent@@@Z
+R\vpl
 R^?supportedDropActions@QStandardItemModel@@UEBA?AV?$QFlags@W4DropAction@Qt@@@@XZ
 R_T5Y
 Rad2 Deg
@@ -10074,7 +10075,6 @@ q\v?event@QWidgetAction@@MEAA_NPEAVQEvent@@@Z
 quX?
 quiet
 r?GZf?
-r\vpd
 rad2deg
 random_position
 randomizable
@@ -10208,6 +10208,7 @@ subclass_choice
 suggestions
 suppressed_field
 system_state
+t)\f099
 t\n?beginEditBlock@QTextCursor@@QEAAXXZ
 t\n?connect@QObject@@SA?AVConnection@QMetaObject@@PEBV1@AEBVQMetaMethod@@01W4ConnectionType@Qt@@@Z
 t\t?addFile@QIcon@@QEAAXAEBVQString@@AEBVQSize@@W4Mode@1@W4State@1@@Z

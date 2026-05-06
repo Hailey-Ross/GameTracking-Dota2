@@ -8358,7 +8358,6 @@ $prefix_element$
 .?AVQValidator@@
 .?AVQWidget@@
 .?AVQWidgetAction@@
-.ALx
 .HCK\v
 .P6AXPEAVCQBindableCommandPushButton@@AEBUInitContext_t@CBaseDynamicWidgetFactory@@@Z
 .P6AXPEAVCQBindableCommandToolButton@@AEBUInitContext_t@CBaseDynamicWidgetFactory@@@Z
@@ -11699,6 +11698,7 @@ BN_to_ASN1_INTEGER
 BN_usub
 BOOL ABSENT
 BOOLEAN
+BPnB
 BT5f
 BUF lib
 BUFFER_CTRL

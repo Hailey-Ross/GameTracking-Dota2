@@ -22,7 +22,7 @@
   w/ large threshold: %d,
   w/ zero threshold: %d,
   w/ zero threshold: (%.1f, %.1f)
- !"#$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$8
+ !"#$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
  %i fog-only.
  %s | Flags %lld \n
  (EXTERN)
@@ -449,67 +449,71 @@ $tIP
 (%6.1f,%6.1f) (%6.1f,%6.1f) Size (%6.1f,%6.1f) %s
 (%6.1f,%6.1f) (%6.1f,%6.1f) Size (%6.1f,%6.1f) Col %d %s
 (%d,%d,%d,%d)
-(1db
+(1Fb
 (2) Or right-click this text
 (3) Or click this button
-(9Pb
-(9eb
-(9kb
+(5Qb
+(9Lb
+(9ab
 (<-- right-click here)
-(ACb
+(A4b
+(A6b
 (ActiveIdUsing: AllKeyboardKeys: %d, NavDirMask: 0x%X)
 (Click and drag to scroll)
 (Context Name: "%s")
 (Debug Log: Auto-disabled some ImGuiDebugLogFlags after 2 frames)\n
 (Dock node)
-(ENb
+(Elb
+(Eub
 (Hex)
 (Hold Ctrl to: 
 (Hold Ctrl to: use 
 (Hold Shift to display a dummy viewport)
-(ISb
 (Internal Buffer: TextA Size: %d, Capacity: %d)
+(Ixb
 (Left) Using ImGui::PushClipRect():\nWill alter ImGui hit-testing logic + ImDrawList rendering.\n(use this if you want your clipping rectangle to affect interactions)\n\n(Center) Using ImDrawList::PushClipRect():\nWill alter ImDrawList rendering only.\n(use this as a shortcut if you are only using ImDrawList calls)\n\n(Right) Using ImDrawList::AddText() with a fine ClipRect:\nWill alter only this specific ImDrawList::AddText() rendering.\nThis is often used internally to avoid altering the clipping rectangle and minimize draw calls.
 (Main menu bar)
 (Popup)
-(QVb
-(QZb
-(Qnb
-(Qrb
+(QIb
 (R = radius, N = approx number of segments)
 (SceneWorld 3D Dump contains %d large objects - they are scaled down and will render red.)\n
-(UKb
+(UGb
+(UNb
 (Untitled)
 (Use ImGui::SameLine() to keep adding items to the right of the preceding item)
-(Y7b
-(YYb
+(YBb
+(Ybb
+(Ysb
 (Z(^(b(f(j(n(r(v(z1
 (\?=\nW>=\nW>=\nW>
-(afb
 (also access from 'Examples->Assets Browser' in menu)
 (and more errors)
 (c) 2014-2025 Omar Cornut
 (demo menu)
 (dump)
 (dump3d)
-(ewb
+(eWb
 (except InputRouting which is spammy)
-(imb
+(i9b
+(iHb
+(iJb
 (in ChildD: not using same Shortcut)
 (in ChildE: using same Shortcut)
 (in PopupF)
 (in WindowA)
-(mXb
+(mOb
 (no material)
 (no model)
 (note: some platform backends may not reflect a change of this value for existing viewports, and may need the viewport to be recreated)
-(qDb
-(qJb
+(q2b
 (see Demo->Configuration for details & more)
-(uHb
+(u6b
+(ufb
+(umb
 (unnamed)
+(uqb
 (void*)0x%p
-(yGb
+(yZb
 ** %d instances of same table! Some data below will refer to last instance.
 **DebugBreak**
 *COPIED*
@@ -853,8 +857,8 @@ $tIP
 001.003
 04e/
 050s0
-0:0R%
 0?333?333?333?333?
+0v\\fL
 0x%02X
 0x%04X
 0x%08X
@@ -880,6 +884,7 @@ $tIP
 2. I am selectable
 24 Hour Clock
 2C2L
+2\vph
 2d arr
 2q2z2
 3 (tab skip)
@@ -921,12 +926,11 @@ $tIP
 8C3F
 8\f58
 8\foQS
-8\tIb
+8i@b
 8n8y
 9>powf
 9@9Y9`9y9
 9F9O
-9bIb
 9g9p
 : DrawCmd: +%d (in child window), Scroll: (%.f/%.f) (%.f/%.f)
 : DrawCmd: +%d (in same window)
@@ -1031,10 +1035,10 @@ $tIP
 ?333?
 ?333?333?fff?
 ?Bxt>
-?ESceneObjectVisualization
 ?JA7=
 ?Label1
 ?PUNCTUAL
+?SCENEOBJECT_VIS_TEXTURE_SIZE
 ?The "Tools" menu above gives access to: Style Editors (ImPlot/ImGui)\nand Metrics (general purpose Dear ImGui debugging tool).
 ?VertexPos_t
 ?VertexUVPos_t
@@ -1047,7 +1051,7 @@ $tIP
 ?fff?fff?fff?
 ?ffffff
 ?sqrt
-@08N
+@08N\\fL
 @33333
 @33333#
 @33333'
@@ -1086,8 +1090,9 @@ $tIP
 @33333{
 @33333}
 @33SA
+@HPX`hv`
+@HVp\tV
 @OS/2
-@T3Y
 @fff>fff>fff>fff>
 @fffff
 @fffff"
@@ -1130,7 +1135,6 @@ $tIP
 @fffffx
 @fffffz
 @fffff|
-@sc_setclassflags %s %d
 A Rather Long Title
 A#4A\v
 A*A3
@@ -1143,6 +1147,7 @@ A8_UNORM
 A:%0.3f
 A:%3d
 A;AAA[
+AA:P\
 AAAA
 AABB
 ABOUT THIS DEMO:
@@ -1377,7 +1382,6 @@ BLAS builds: %u (%s triangles); Dynamic builds: %u (%s triangles); %u compaction
 BRDFLookup
 BU\vS
 BVH::Build( void (*customGetAABB)( .. ), instCount ), instCount == 0.
-B`4X
 Bachman
 Backend Flags
 Backend does not support ImGuiBackendFlags_RendererHasTextures, and font atlas is not built! Update backend OR make sure you called ImGui_ImplXXXX_NewFrame() function for renderer backend, which should call io.Fonts->GetTexDataAsRGBA32() / GetTexDataAsAlpha8().
@@ -2920,7 +2924,6 @@ HoveredWindow->Root: '%s'
 HoveredWindow: '%s'
 HoveredWindowUnderMovingWindow: '%s'
 Hovering the colored canvas will override io.WantCaptureXXX fields.\nNotice how normally (when set to none), the value of io.WantCaptureKeyboard would be false when hovering and true when clicking.
-HqDb
 Hs\vH
 Hsmall
 HuaTianKaiTi?
@@ -4053,8 +4056,7 @@ Override ChildBg color
 Override Streaming GPU Memory
 P+\fGj
 P.P5
-P08J0
-P08N
+P08N\\fL
 P3\rA
 P8\nD
 PAPU
@@ -4347,7 +4349,6 @@ RGBA32
 RSDS5
 RTProxy Layout
 RTProxyBLAS
-R\fpd
 Rand Paul
 Range: [%f,%f]
 RangeSrcItem = %I64d (0x%I64X), RangeSelected = %d
@@ -5861,12 +5862,10 @@ Zsmall
 \fG7+B
 \fPy\vE
 \fT>M-+?#gy?
-\fp\vPh
 \n Render %d specific objects
 \n Render world : %s\n
 \n"\n)\n7\nA\nH\nS\nc\np\n|\n
 \n%s SST (%d x %d):\n
-\n4Ib
 \n<i>Not using PerViewConstantBuffer_t</i>
 \n<i>PerViewConstantBuffer_t</i>
 \n<i>Procedural Layer</i>
@@ -5938,8 +5937,11 @@ _WidthFixed
 _WidthStretch
 _XFREE86_GLYPH_RANGES
 _atlas
+`AOb
+`iFb
 a'aCaYb"b8b
 a-a8
+aBv\\fL
 aJ!\vA
 aJaP
 a\ft/tOtet
@@ -6363,7 +6365,6 @@ guillemotright
 guilsinglleft
 guilsinglright
 h>4hp?
-hM!b
 hair
 hairdensityaccumvolume
 hairdummybuffer
@@ -6406,7 +6407,6 @@ https://github.com/ocornut/imgui/wiki/Funding
 https://github.com/ocornut/imgui/wiki/Multi-Select
 https://github.com/ocornut/imgui/wiki/Useful-Extensions
 https://www.dearimgui.com/faq/
-hu'b
 hungarumlaut
 hyphen
 hypheninferior
@@ -6798,8 +6798,7 @@ outer_size
 overlaps
 p q g j y
 p#p7pP
-p08@H^
-p0j0
+p08@H^\\fL
 pCRF
 paragraph
 parallel
@@ -6831,6 +6830,7 @@ picker
 plots
 plus
 plusminus
+pn\\fL
 pos2Dtex2D
 post
 postscript-cmaps
@@ -6861,9 +6861,7 @@ quoteright
 quotesinglbase
 quotesingle
 r*r4r;
-rP6'
 rQr\
-r\vpd
 radical
 radio a
 radio b
@@ -6916,6 +6914,7 @@ s1s:sHsX
 s_hScrambledHalton != GENERIC_DATA_HANDLE_INVALID
 sc_dumpworld %d
 sc_dumpworld3d %d
+sc_setclassflags %s %d
 scaron
 scedilla
 scene_quadindexbuffer

@@ -804,6 +804,7 @@ $prefix_element$
 16-byte data pool
 2(?SetFrame@FbxTime@fbxsdk@@QEAAX_JW4EMode@12@@Z
 2\nP!E
+2\vpd
 4-byte data pool
 4C~CGenericFilter
 5sfm_v8
@@ -1480,17 +1481,18 @@ GenericType
 GetClipboardData
 GetProfile_ultrafast
 GlobalSize
-HU\2
+H1[2
+HM\2
 Hammer temp export
 HemiOctAnisoRoughness_RG_BA
 HemiOctIsoRoughness_RG_B
 HemiOctNormal
 Hold
+Hu\2
 I(?SetGlobalTimeMode@FbxTime@fbxsdk@@SAXW4EMode@12@N@Z
 IExportSystem
 IKV3TransferInterface_ResourceSave
 IOSRoot
-Ij]2
 Inherit Velocity
 Initial Repulsion Velocity
 Initial Scalar Noise
@@ -1789,7 +1791,6 @@ _selfillummask_
 _specexp_
 _specmask_
 _texcoordNames
-`ea2
 activeBookmarkSet
 adding layer %d to stack\n
 addlayer: log %p lc[%d], layer %p

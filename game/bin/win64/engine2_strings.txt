@@ -170,7 +170,7 @@
  -component "%s"
  -noscreenshot
  -product "%s"
- .09G
+ .0gG
  2r6
  3CQ`p
  7Me}
@@ -930,6 +930,7 @@ $tI(knN
 (channel = 
 (dump took %.1fms)\n
 (end of input).\n\t This indicates a poorly specified lexer RULE\n\t or unterminated input element such as: "STRING["]\n
+(fpWG
 (merge 
 (no landmark)
 (no reason given)
@@ -979,7 +980,6 @@ $tI(knN
 *\n&Source2PlayStats_SteamIDTrustBucketMin
 *\tV_fprintf
 *h\n\vDIALOG_TYPE
-*xIB
 *zvC
 ++CBaseSpawnGroup
 ++CNetworkGameClientBase
@@ -1078,9 +1078,9 @@ $tI(knN
 ../src/shaders
 ..\content
 .00cfg
-.0hG
-.0mG
-.0oG
+.06G
+.0UG
+.0bG
 .9GXdx
 .>\rfJBGo
 .?AU?$Container@VUnknownFieldSet@protobuf@google@@@InternalMetadata@internal@protobuf@google@@
@@ -2473,9 +2473,9 @@ $tI(knN
 .ESource2PlayStatsFieldType
 .ESplitScreenMessageType
 .P6AXPEBD@Z
+.P6G
 .PEAVCEntityIdentity@@
 .PLACEHOLDER_VALUE
-.PLG
 .ProtoFlattenedSerializer_t
 .RequestPause_t
 .SignonState_t
@@ -2514,15 +2514,9 @@ $tI(knN
 .log
 .los
 .lzh
-.p0G
-.p9G
-.pCG
-.pPG
+.pZG
 .pdata
-.peG
-.pgG
-.phG
-.piG
+.pjG
 .placeholder.proto
 .rdata
 .rdata$00
@@ -2586,7 +2580,6 @@ $tI(knN
 0 0 0 255
 0"$\n\rCSVCMsg_Print
 0$2z4
-0$wB
 0(D7
 00000000-0000-0000-0000-000000000000
 00010203040506070809101112131415161718192021222324252627282930313233343536373839404142434445464748495051525354555657585960616263646566676869707172737475767778798081828384858687888990919293949596979899
@@ -2601,6 +2594,7 @@ $tI(knN
 0:<\n\fdelta_ignore
 0=Off, 1=Surface Wireframe, 2=Transparent Wireframe
 0=Off, 1=Visualize trace from camera, 2=Visualize occlusion, 3=Visualize far field trace from camera
+0><zG
 0B_u
 0C&C
 0E>X
@@ -2608,6 +2602,7 @@ $tI(knN
 0X8b?~
 0\n\vserializers
 0iN>/
+0trB
 0x%x,
 0|t?L
 0|t?uj
@@ -2620,7 +2615,7 @@ $tI(knN
 1.2.11
 11Y@
 127.0.0.1
-14:40:14
+14:03:32
 16777215"R\n\nCMsg_CVars
 16777215B$
 1:1: Tokens : ( T__40 | T__41 | T__42 | T__43 | T__44 | T__45 | T__46 | T__47 | T__48 | T__49 | T__50 | T__51 | T__52 | TOK_COLON | OPEN_BRACE | CLOSE_BRACE | OPEN_PAREN | CLOSE_PAREN | OPEN_BRACKET | CLOSE_BRACKET | SEMICOLON | OP_EQUAL | COMMA | DOUBLE_AND | NEGATIVE_TOK | DOUBLE_OR | LITERAL_TRUE | LITERAL_FALSE | POS_INTLITERAL | POS_FLOATLITERAL | SCOPE_QUALIFIER | ID | DOUBLE_QUOTED_STRING | SINGLE_QUOTED_STRING | SINGLE_LINE_COMMENT | ML_COMMENT | WS | UNRECOGNIZED );
@@ -2660,10 +2655,7 @@ $tI(knN
 2\r%2t
 2\r.PrefetchType"h\n
 2\rU2t
-2\vpP
-2\vpd
 2i0/
-2xIB
 3$EE\f
 3'F^7
 30000
@@ -2704,23 +2696,29 @@ $tI(knN
 5c;3E
 5y?4
 6 6G
-6 VG
-60EG
-60LG
-60UG
+6 fG
+6 jG
+603G
 64-bit
 6?k 6?t
-6@2G
+6@IG
+6@WG
 6GQ^h~
 6KT3c7
 6NK>
-6P]G
+6P5G
+6PJG
+6PNG
+6P[G
+6PjG
 6\fXO>\ntA
 6\n\fmessage_type
 6\r56t
 6\tV_fwrite
-6`OG
-6`PG
+6`AG
+6`fG
+6p1G
+6pQG
 6s?fBbEcJYG[I[NYVP\B]@f;g<h<u4{,
 6tmT
 6uu?>
@@ -2741,6 +2739,7 @@ $tI(knN
 8@HP:
 8A3b
 8Csinf
+8FPSG
 8Smt
 8W?i
 8\n\textension
@@ -2750,7 +2749,6 @@ $tI(knN
 8ke?;
 8}WW`
 9*ubC'
-92K^
 9=aA\E
 9>70
 9?\rm4?2
@@ -2811,6 +2809,7 @@ $tI(knN
 =e2m
 =imb;D
 =rF`JXKXWJYB[Cd;l2x(z%a+N2SNTQXKVJWGZI]J]Jm(r$u"u"
+>0KG
 >0|t?z7
 >5dK
 >6uu
@@ -2819,13 +2818,13 @@ $tI(knN
 >>> %s: %s\n
 >K7z6
 >O-p?A6
+>POG
+>PVG
 >Rdx
 >\tV_isdigit_str
 >cQ6
 >fff?fff?fff?fff?invalid_hitbox
 >jtm}S
->p8G
->pSG
 >qxs
 >qxs?
 >qxs?z7
@@ -3179,12 +3178,13 @@ $tI(knN
 ?qBJ
 ?rAj
 ?rJRTS\Rg>`H`CeIkHq7v4}4v4u7
+?xmW
 ?ysB
 @ Current  :  %s\n
 @08@HPX`hpx
-@08N$
-@60eG
-@60gG
+@08Nt
+@6PMG
+@6PbG
 @GetProfile_ultrafast
 @HPX
 @HPX&I
@@ -3338,7 +3338,6 @@ Application transferred too many scanlines
 Application unable to load gameinfo.gi file from directory "%s"\n%s
 ApplicationInfo
 Apr  7 2026
-Apr 21 2026
 April
 Arabic
 AreFileApisANSI
@@ -5167,10 +5166,7 @@ Extensions to non-lite types can only be declared in non-lite files.  Note that 
 Extra arguments given after name\n
 ExtractModuleMetadata
 Extraneous token
-F MG
-F0[G
 F>qUxv
-F@KG
 FAIL
 FALSE
 FATAL
@@ -5358,6 +5354,7 @@ Found %d lines of sight!\n
 Found existing value when inserting into dict - replacing existing value with new value. If this is intended behavior, use InsertOrReplace. If leaving existing values alone is intended, use InsertIfNotFound.
 Found existing value when inserting into tree - replacing existing value with new value. If this is intended behavior, use InsertOrReplace. If leaving existing values alone is intended, use InsertIfNotFound. If duplicate entries are intended, use InsertWithDupes.
 Found invalid proto option data for: 
+FpHG
 Fractional sampling not implemented yet
 Frame
 Frame %d has corrupted snip @%u(%u,%u) in %u byte stream\n
@@ -6195,6 +6192,7 @@ Maximum queries per second to respond to from a single IP address.
 Maximum queries per second to respond to from anywhere.
 Maximum replay time in seconds
 Maximum supported image dimension is %u pixels
+May  6 2026
 MbP?
 Meetei_Mayek
 MemAlloc_AllocFunc
@@ -6558,12 +6556,11 @@ Override Fog color: %f %f %f\n
 Overrides the SourceTV master root address.
 Overrides the max players reported to prospective clients
 Overriding minidump handler with Engine2MinidumpFunction\n
-P$wB
 P08@J
 P08J
-P08N$
+P08Nt
 P4File
-P6`eG
+P6 .G
 P:S;A
 P?fff?33s?{
 P@HPX`hpx\f
@@ -6626,10 +6623,10 @@ PVAL_VOID
 PVS cluster %d\n
 PVS origin %s\n
 PX`hpx
-P\fzB
 P\n#NETWORK_DISCONNECT_BADRELAYPASSWORD
 P\n#NETWORK_DISCONNECT_RELIABLEOVERFLOW
 P\n#NETWORK_DISCONNECT_SNAPSHOTOVERFLOW
+P\uB
 PackEntities_Normal EnsureInstanceBaseline
 PackEntity: SnagChangeFrameList returned null
 PackEntity: ent(%d) at tick %d Encountered field '%s' %s in incremental change that was not in the diff change. This can lead to slight network inefficiency\n
@@ -6689,7 +6686,6 @@ PerFrameSleepChanged
 PerFrameSleepMS
 Perf stats buffer full, no more data will be collected.\n
 Performs a bind <key> "increment var <cvar> 0 1 1".
-Pfp4G
 Phags_Pa
 Phoenician
 PhysicsBuilderMgr001
@@ -6843,7 +6839,6 @@ Playing Broadcast (%s)
 Playing Demo (%s)
 Playing back demo: '%s' at tick %u\n
 PmNk
-PnP6G
 Pointers cannot be used as numeric values
 PollAndProcessInput
 Poor man's restart: reload the current map from disk.
@@ -6933,6 +6928,7 @@ Protobuf: %s(%d): %s\n
 Protocol Buffer map usage error:\n
 Protocol Buffer reflection usage error:\n  Method      : google::protobuf::Reflection::
 Psapi.dll
+PtrB
 Public :  %s\n
 Pulse
 PulseCursorCancelPriority_t
@@ -7027,7 +7023,6 @@ RP_PAUSE
 RP_TOGGLEPAUSE
 RSDSFm
 RST%d
-R\fpP
 R\tV_log2_uint
 RaiseException
 Random Float
@@ -8330,6 +8325,7 @@ UtlVectorMemory_FailedAllocation
 U}JK
 U}g7x~
 V/?[w8rV
+V0[G
 V<@ss
 V?wm\v
 VApplication001
@@ -8425,6 +8421,7 @@ V_TryAndMakeFriendlyNameFromCppName
 V_UInt32ToString_Unsafe
 V_UInt64ToString_Unsafe
 V_UnqualifiedFileName
+V`ZG
 Validate each StateChanged against known offsets.
 Validation stalled\n
 Value must be "true" or "false" for boolean option "
@@ -8643,6 +8640,7 @@ X\n'NETWORK_DISCONNECT_DIFFERENTCLASSTABLES
 X\n'NETWORK_DISCONNECT_KICKED_NOSTEAMTICKET
 X\n(NETWORK_DISCONNECT_INVALID_MESSAGE_ERROR
 X`hr
+Xf@TG
 Xn1G
 Xr?9
 XsBI
@@ -8745,6 +8743,7 @@ Zq",9\fB
 \fV4U
 \fX\fm\vH\vH\vm\v
 \f\tV_atofloat32
+\fp\v`trB
 \g is not followed by a braced, angle-bracketed, or quoted name/number or by a plain number
 \n    Actual    : 
 \n    Field type: 
@@ -8785,7 +8784,6 @@ Zq",9\fB
 \nStartup HasInsufficientPagefile() detection: %s\nStartup HasLowAvailableVirtualMemory() detection: %s\n
 \nSys_Error( 
 \nSystem Memory:\n
-\nTTB
 \nUsage: blink [convar] [blinkDuration=1.0] [offValue=0.0 onValue=1.0]\n       (no arguments stops current blinking convar)\n\nExample: blink r_ssao           - toggles between 0 and 1 every second\n         blink r_ssao 0.5       - toggles between 0 and 1 every 0.5 seconds\n         blink r_ssao 4 16      - toggles between 4 and 16 every second\n         blink r_ssao 2.0 4 16  - toggles between 4 and 16 every 2 seconds\n\n
 \nYr&5
 \n\fCLC_Messages
@@ -9055,7 +9053,6 @@ Zq",9\fB
 \nlit tree: sent %ld
 \nopt %lu(%lu) stat %lu(%lu) stored %lu lit %u dist %u 
 \nvtune
-\nxIB
 \p{Xan}
 \p{Xps}
 \p{Xsp}
@@ -9142,7 +9139,7 @@ Zq",9\fB
 \vH\vm\vm\vm\vm\vH\vH\vH\vH\vH\v
 \vIG]h
 \vInterp
-\vP$wB
+\vPtrB
 \vSimulationTicks
 \vSource
 \vVyC
@@ -9215,8 +9212,8 @@ _spawngroup_logging/log_%s_group_%s.txt
 _temp_mapcycle.txt
 `-uRQg
 `3Q"X
-`6PgG
-`6PhG
+`6P(G
+`6PdG
 `?m'_?&~]?(
 `RTTI
 `adjustor{
@@ -9274,7 +9271,7 @@ a numbered reference must not be zero
 a&M-=Z]<i*k)n-t&q&p&|
 a6>r
 a?wSa?\
-aBv$
+aBvt
 a\v4+Wk
 abcdefghijklmnopqrstuvwxyz
 abortflag
@@ -9967,6 +9964,8 @@ extendee
 extension_range
 extern "C" 
 f#kI3\t
+f0'G
+f0FG
 f5J5J5J5J5J5J5J5J5J5J5J5J5J5J5J5Jx
 f9U\n
 f?3Jf?6
@@ -9989,7 +9988,6 @@ false:=\n
 false:=\n\rvalve_map_key
 false:?\n
 fast path %d at %d\n
-fb~G
 field
 field_serializer_name_sym
 field_serializer_version
@@ -10021,7 +10019,6 @@ float32
 float64
 floor
 fmod
-fn~G
 fog_enable
 fog_override_color
 fog_override_enable
@@ -10715,13 +10712,10 @@ multvar
 multvar: cvar "%s" not found\n
 multvar: no varname specified!\n
 mx=E
-n 7G
 n03>Pu
-n0XG
 n>sak><
 n?A6
 n?SZn?
-n@TG
 nBits != 32
 nGh>
 nI9>h
@@ -10833,8 +10827,7 @@ not started
 not supported
 notes
 nothing to repeat
-npKG
-npZG
+np2G
 null
 nullptr
 num_bits
@@ -10946,14 +10939,12 @@ overwatch
 owM&
 owner dead
 oz>!km>
-p$wB
-p08@H^$
+p08@H^t
 p0p@
 p2p_listpeers
 p2p_ping "%s"
 p4edit
-p6@RG
-p>7~G
+p>hyG
 p?ff
 p@HPX`h\f
 pClass
@@ -10964,9 +10955,9 @@ pH\fy
 pMessage
 pServerClass
 pYa(bu
-p\fzB
 p\r0\fP
 p\tV_sinf
+p\uB
 package
 packed
 packet
@@ -11078,6 +11069,7 @@ protocol
 protocol error
 protocol not supported
 proxies
+ptrB
 public
 public: 
 public_dependency
@@ -11118,7 +11110,6 @@ rA?7
 rEy5
 rFg7
 r\tVr.>T
-r\vpP
 r_add_views_in_pre_output
 r_always_render_all_windows
 r_aspectratio
@@ -11985,8 +11976,8 @@ utcdatetime_vals
 utl_vector, 
 utlstringtoken
 uzKs@>
-v0lG
 v2!L.2
+v@CG
 vE-2
 vQO+t
 vWewe

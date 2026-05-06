@@ -44,9 +44,7 @@
  (%lu = 0x%lx)\n
  (%u = 0x%x)\n
  (08@HPX`j@
- (08@HPXb 
  (08@HPZ@
- (0X`hpz 
  (repeat)
  (x2 - stereoscopic)
  * Animation Stack %s Layer %s - %s\n
@@ -3567,15 +3565,10 @@ $prefix_element$
 00000000
 000000000
 0123456789
-04?u
 08@HR@
-08@J 
 08B@
-0:p\n1
 0L6?
-0TIu
 0\fE04_
-0h"u
 0x%1
 0x%llx
 0x%p = %s '%s'
@@ -3955,6 +3948,7 @@ $prefix_element$
 2048 x 1536
 2048 x 2048
 2048 x 858 (2K)
+20\n1
 23.976
 24 fps
 256 (override)
@@ -4005,8 +3999,7 @@ $prefix_element$
 2\n?doItemsLayout@QListView@@UEAAXXZ
 2\r?hideEvent@QWidget@@MEAAXPEAVQHideEvent@@@Z
 2\v?event@QAction@@MEAA_NPEAVQEvent@@@Z
-2\vp4?u
-2\vpTIu
+2\vp8
 2aboutToHide()
 2aboutToShow()
 2accepted()
@@ -10495,11 +10488,9 @@ OverridingFrameRate
 Overwrite
 Overwrite With Current
 P'?SetBoolProp@FbxIOSettings@fbxsdk@@QEAAXPEBD_N@Z
-P08@J 
-P08Jp
+P08J 
 P08N
 P4 Operation failed
-P4?u
 P4InteractionDialog
 P4OpenFilesDialog
 P?isValid@QColor@@QEBA_NXZ
@@ -10599,7 +10590,6 @@ PerforceViewInP4Win
 Permit Responses
 PgDn
 PgUp
-Ph"u
 PhonemeExtractionSettings
 Photometric tag is missing, assuming data is YCbCr
 Photometric tag value assumed incorrect, assuming data is YCbCr instead of RGB
@@ -10737,6 +10727,7 @@ Pulse domain which enables particle content to query leaf code to introspect gam
 Pulse: %s 
 PulseRequirementName
 Put; voiceless alveolar stop
+Px$u
 Python (*.py);;All Files (*.*)
 Q?load@QPixmap@@QEAA_NAEBVQString@@PEBDV?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
 QAbstractButton*
@@ -10875,11 +10866,8 @@ RMouseDoubleClick
 RSDSQ${
 RW?restore@QPainter@@QEAAXXZ
 R\f?font@QTreeWidgetItem@@QEBA?AVQFont@@H@Z
-R\fpTIu
-R\n04?u
 R\t?canFetchMore@QAbstractItemModel@@UEBA_NAEBVQModelIndex@@@Z
 R\v?event@QMenuBar@@MEAA_NPEAVQEvent@@@Z
-R\vp4?u
 R^?supportedDropActions@QStandardItemModel@@UEBA?AV?$QFlags@W4DropAction@Qt@@@@XZ
 R_T5Y
 Rad2 Deg
@@ -12725,9 +12713,6 @@ ZoomOutFromClip
 \f\n?deselect@QLineEdit@@QEAAXXZ
 \f\r?heightForWidth@QFormLayout@@UEBAHH@Z
 \f\t?beginReadArray@QSettings@@QEAAHAEBVQString@@@Z
-\fp4?u
-\fp\vPh"u
-\fp\v`TIu
 \game\
 \n ?textValue@QInputDialog@@QEBA?AVQString@@XZ
 \n,?sReflection@FbxSurfaceMaterial@fbxsdk@@2PEBDEB
@@ -12931,9 +12916,6 @@ ZoomOutFromClip
 \vFu?6
 \vS?moveTo@QPainterPath@@QEAAXNN@Z
 \v\f?focusInEvent@QGroupBox@@MEAAXPEAVQFocusEvent@@@Z
-\vp4?u
-\vpTIu
-\vph"u
 ]?sharedPainter@QPaintDevice@@MEBAPEAVQPainter@@XZ
 ]?staticMetaObject@QWindow@@2UQMetaObject@@B
 ]\r?horizontalOffset@QListView@@MEBAHXZ
@@ -12991,7 +12973,6 @@ _wjb
 `?value@QColor@@QEBAHXZ
 `?valueF@QColor@@QEBANXZ
 `Q?lightnessF@QColor@@QEBANXZ
-`TIu
 `\v?event@QSpinBox@@MEAA_NPEAVQEvent@@@Z
 `ht0
 a1?I.
@@ -14076,7 +14057,7 @@ groupComboBox
 groupFile
 groupLabel
 group_title
-h+\n0wg
+h+\npVg
 hSD_NO_ZTEST
 hSequence
 h\r?horizontalScrollbarAction@QTreeView@@MEAAXH@Z
@@ -14136,7 +14117,6 @@ horizontal_header_labels
 host_syncfps
 houdini
 hours
-hpz 
 http://beta.steamcommunity.com
 http://localhost/community
 http://steamcommunity.com
@@ -14757,8 +14737,6 @@ ownerelement
 ownerlog
 p"?value@QSpinBox@@QEBAHXZ
 p08@H^
-p0jp]+
-p4?u
 p4win
 p?L7
 p?X94<
@@ -14779,7 +14757,6 @@ pMenu
 pNewWidget
 pOldWidget
 pPrevFocusWidget
-pTIu
 pTagName
 pToolButton
 pToolsVisModeButton
@@ -14820,7 +14797,6 @@ per-camera settings
 permitresponses
 pet_preview_gravity
 pet_preview_underwater
-ph"u
 phoneme
 phonemeextractors/%s
 phonemeextractors/*.dll
@@ -14916,6 +14892,7 @@ pulse_node_custom_attributes
 pulse_open_graph_id %u %u
 pulse_runtime_lib
 pvTarget
+px$u
 python
 q\n?dragLeaveEvent@QAbstractScrollArea@@MEAAXPEAVQDragLeaveEvent@@@Z
 q\v?currentTime@QTime@@SA?AV1@XZ
@@ -14928,8 +14905,6 @@ quaternion_array
 quiet
 r>TR'>O
 rQ?lineTo@QPainterPath@@QEAAXNN@Z
-r\vp4?u
-r\vpTIu
 rad2deg
 radius of the sfm skeleton display
 radiusScale
@@ -15680,6 +15655,7 @@ znear
 {\n?connectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
 {\n?dragLeaveEvent@QWidget@@MEAAXPEAVQDragLeaveEvent@@@Z
 |"?verticalHeader@QTableView@@QEBAPEAVQHeaderView@@XZ
+|P?Shape
 }\n?connectOutputInterface@QFutureWatcherBase@@IEAAXXZ
 }\n?dragMoveEvent@QAbstractItemView@@MEAAXPEAVQDragMoveEvent@@@Z
 }\r?erase@QListData@@QEAAPEAPEAXPEAPEAX@Z

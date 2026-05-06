@@ -1012,7 +1012,6 @@ $t5\tEi\fo
 0r6@
 0s7@
 0t6@
-0tq"
 0u5@
 0u6@
 0u7@
@@ -1030,7 +1029,7 @@ $t5\tEi\fo
 1&im*
 127.0.0.0
 127.0.0.1:%d
-14:06:20
+13:57:50
 14:38:29
 16];h
 16yd
@@ -1301,7 +1300,6 @@ $t5\tEi\fo
 2\nmg
 2\r?hideEvent@QWidget@@MEAAXPEAVQHideEvent@@@Z
 2\v?event@QAction@@MEAA_NPEAVQEvent@@@Z
-2\vptq"
 2aboutToShow()
 2accepted()
 2actionTriggered( int )
@@ -3293,6 +3291,7 @@ Apple Mobile Syslog
 Apple Mobile device syslog tab link => "
 AppleDeviceInterface
 Apply filter to log line only, excluding the channel header.
+Apr 21 2026
 Arc Cos
 Arc Cosine of input value. Input must be -1.0, 1.0 range. Output in radians, from 0 to 
 Arc Sin
@@ -5090,6 +5089,7 @@ PfH@
 PgDn
 PgUp
 Ph2@
+PhV"
 Photometric tag is missing, assuming data is YCbCr
 Photometric tag value assumed incorrect, assuming data is YCbCr instead of RGB
 PhotometricInterpretation
@@ -5241,7 +5241,6 @@ R\r?hitTestComplexControl@QProxyStyle@@UEBA?AW4SubControl@QStyle@@W4ComplexContr
 R\rBe
 R\t?canFetchMore@QAbstractItemModel@@UEBA_NAEBVQModelIndex@@@Z
 R\v?event@QMenuBar@@MEAA_NPEAVQEvent@@@Z
-R\vptq"
 R^?supportedDropActions@QStandardItemModel@@UEBA?AV?$QFlags@W4DropAction@Qt@@@@XZ
 R_T5Y
 Rad2 Deg
@@ -7091,6 +7090,7 @@ pet_preview_gravity
 pet_preview_underwater
 pf2@
 ph2@
+phV"
 pi\nH%
 pickedColor
 pixelAspectRatio
@@ -7111,7 +7111,6 @@ pseudo-
 pt2@
 pt6@
 pt7@
-ptq"
 pu5@
 pu6@
 puG@

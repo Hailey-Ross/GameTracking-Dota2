@@ -7362,6 +7362,7 @@ CDOTA_Modifier_Item_Flicker_Damaged
 CDOTA_Modifier_Item_Fluffy_Hat
 CDOTA_Modifier_Item_ForagersHealth
 CDOTA_Modifier_Item_Foragers_Mana
+CDOTA_Modifier_Item_Foragers_Nuts_Consumed
 CDOTA_Modifier_Item_Foragers_Stats
 CDOTA_Modifier_Item_ForceStaff
 CDOTA_Modifier_Item_Force_Boots
@@ -33010,6 +33011,7 @@ dota_ui_armory_is_category_view
 dota_ui_armory_item_duplicate
 dota_ui_force_custom_games_players
 dota_ui_give_item_indicator_max_range
+dota_ui_give_item_indicator_min_ping_distance
 dota_ui_give_item_indicator_no_destroy
 dota_ui_give_item_indicator_receiver_animation_duration
 dota_ui_give_item_indicator_receiver_animation_offset
@@ -45858,6 +45860,7 @@ m_flStartScatterTime
 m_flStartScattering
 m_flStartSequenceCycle
 m_flStartSpeed
+m_flStartSpiritRadius
 m_flStartTangent
 m_flStartTime
 m_flStartTimeInCommentary
@@ -46042,6 +46045,7 @@ m_flTormentorPhaseEndTime
 m_flTormentorPhaseStartTime
 m_flTorqueScale
 m_flTotalAppliedDamage
+m_flTotalBonusTime
 m_flTotalCreepDamageTaken
 m_flTotalDamage
 m_flTotalDistance

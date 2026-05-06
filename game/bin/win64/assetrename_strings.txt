@@ -314,6 +314,7 @@ $x(<*L(^$*.d$40.2Z$D6@$Q
 %s will be DELETED
 %s%s: FGD Parse error: %s %s\n
 %s(%d) : %s\n
+%s(%d): error: %s
 %s(%s) = %s
 %s/%s.vmdl
 %s2-d encoding
@@ -14137,13 +14138,15 @@ $x(<*L(^$*.d$40.2Z$D6@$Q
 08@HPX`h
 08@HRpj\t
 08@J0
-08@N
+08@N4-#
 08Bpj\t
+0>M4?
 0L.x
 0\f?focusOutEvent@QGraphicsView@@MEAAXPEAVQFocusEvent@@@Z
 0\fU04i
 0\r%0t
 0\tV_frexpf
+0v4-#
 0x%llx
 1 additional asset reference to a moved asset was found:<br>
 1 component
@@ -14278,7 +14281,6 @@ $x(<*L(^$*.d$40.2Z$D6@$Q
 488.
 4:2<l
 4>2@l
-4N1\r
 4N6~8
 4T0h6
 4\n?doItemsLayout@QTreeView@@UEAAXXZ
@@ -14288,21 +14290,15 @@ $x(<*L(^$*.d$40.2Z$D6@$Q
 5;FJ$,XEK4<
 5\v?event@QCheckBox@@MEAA_NPEAVQEvent@@@Z
 5sfm_v8
-602>
-603>
-604>
 64 283 0
 6L8N6t0$:
-6Pm>
+6P0>
+6P1>
+6P2>
 6[?setRenderHint@QPainter@@QEAAXW4RenderHint@1@_N@Z
 6f:bF
-6p1>
-6p2>
-6p3>
-6p4>
-6pE>
-6pS>
-6pt>
+6pA>
+6pf>
 7&F|If
 7T2,
 7\f?focusOutEvent@QPushButton@@MEAAXPEAVQFocusEvent@@@Z
@@ -14314,11 +14310,12 @@ $x(<*L(^$*.d$40.2Z$D6@$Q
 8@:@<0>V4v6:00
 8@HP
 8@HPX
-8@HPX`hp~
-8@HV
+8@HPX`hp~4-#
+8@HV4-#
 8@Jpj\t
 8BlHFL
 8Bpj\t
+8F4-#
 8H:88
 8\npj\t
 8]?size@QPixmap@@QEBA?AVQSize@@XZ
@@ -14465,6 +14462,7 @@ $x(<*L(^$*.d$40.2Z$D6@$Q
 <font color=red>&nbsp;&nbsp;ERROR: Failed to read VTEX file.</font><br>\n
 <font color=red>&nbsp;&nbsp;ERROR: Failed to read file.</font><br>\n
 <font color=red>&nbsp;&nbsp;ERROR: Failed to save kv1: %s.</font><br>\n
+<font color=red>&nbsp;&nbsp;ERROR: Failed to save kv3 to buffer: %s.</font><br>\n
 <font color=red>&nbsp;&nbsp;ERROR: Failed to save kv3: %s.</font><br>\n
 <font color=red>&nbsp;&nbsp;ERROR: Failed to write fixed-up data %s</font><br>\n
 <font color=red>ERROR: Failed to load file %s.</font><br>\n
@@ -15399,19 +15397,16 @@ $x(<*L(^$*.d$40.2Z$D6@$Q
 @%s_lookFrame_2
 @&*(**&,b*t
 @&*(**&,b*~
-@08@HV
-@08N
+@08@HV4-#
+@08N4-#
 @2pj\t
 @4pj\t
-@8@HV
-@HPX`hvp
 @Integer overflow in %s
 @V@const char *__cdecl Reflection::Internal::GetFuncName<class CAnimNodeInstanceBase>(void)
 @\*^*`&bl`p
 @\v?event@QFrame@@MEAA_NPEAVQEvent@@@Z
 @`hpx
 @bPS\f
-@f0o>
 @fff>fff>fff>fff>
 @jPS\f
 @m_VertexPositions
@@ -15465,6 +15460,7 @@ A transform which was the parent of a mesh without explicit skinning defined in 
 A8_UNORM
 ACTIVITY WEIGHTS
 AE_ENTITY_FACING_MODE_USE_PATH
+AJv4-#
 ALWAYS
 ALpx
 ANDROID_VULKAN
@@ -15477,8 +15473,8 @@ ARRAY_PARENT_ONLY
 ATTACHMENT_INFLUENCE_FLAGS_NONE
 ATTR_NAME__ADD_CUSTOM_TAG
 A\fBPS\f
+A\fBr
 A\r@H1
-A\rv0
 A\tz0
 AbcGeom_FaceSet_v1
 AbcGeom_PolyMesh_v1
@@ -16323,6 +16319,7 @@ CDmeDag::GetParentWorldMatrix called on a dag that has different rotation and tr
 CDmeDotaTileGrid
 CDmeDrawCallSnapshot
 CDmeImageProcessor
+CDmeInputTexture
 CDmeLog: interpolable type %s doesn't have an interpolation function!
 CDmeNavData
 CDmeNodeInstanceData
@@ -18307,7 +18304,6 @@ Duplicate Faces Reset Pivot
 Duplicate a UV Map texcoord channel
 Duplicate and transform current face selection
 Duplicate attribute name %s encountered!\n
-Duplicate bone %d renamed :: "%s" -> "%s"\n
 Duplicate child mesh name
 Duplicate hit group (%s) specified in destructible parts system data.  Please fix.
 Duplicate model config '%s'
@@ -19045,6 +19041,7 @@ Floor Float
 Flow Node ID
 FlowMap_Enabled
 FlowMap_NodeMaxRadius
+Fn4-#
 Fog Indirect Lighting %s
 FogEnabled
 FogFlowMap.vtex
@@ -19767,7 +19764,6 @@ J\v?event@QLabel@@MEAA_NPEAVQEvent@@@Z
 JawD
 JawH
 JawV
-JhBp
 Jiggle Bone node (%s): No items defined; node will do nothing 
 Jiggle Root Bone
 Jiggle Type
@@ -19780,6 +19776,7 @@ Joint Weight Attribute Simplification Weight
 Joint to Joint Simple
 Jump Down
 Jump to Instr I%d
+Jv4-#
 KV3 save transfer failed: %s
 KV3 syntax error: %s
 KV3 syntax error: %s while parsing @entitygroup %s
@@ -20859,7 +20856,7 @@ Overwriting existing wrinkle map data on mesh
 P'?SetBoolProp@FbxIOSettings@fbxsdk@@QEAAXPEBD_N@Z
 P."0$.p2:4&6"8>6
 P08@J0
-P08~
+P08~4-#
 P2Pv
 P2pj\t
 P4 Delete of GAME file
@@ -20872,6 +20869,7 @@ P4 delete of source successful
 P4 edit successful
 P4 integrate (overwrite) and edit
 P4 revert and delete of CONTENT file successful
+P64-#
 P?isValid@QColor@@QEBA_NXZ
 P?jumpToNextImage@QImageReader@@QEAA_NXZ
 PARENT
@@ -23018,6 +23016,7 @@ VolumetricFog
 Voronoi Plane Primitive
 Vortices
 Voxel volume (%i components)
+VpA>
 W?scaled@QPixmap@@QEBA?AV1@AEBVQSize@@W4AspectRatioMode@Qt@@W4TransformationMode@4@@Z
 WARNING content and game files are in different mods:
 WARNING: %d Assets have references to this asset that will be broken.
@@ -23155,7 +23154,6 @@ XPosition
 XResolution
 XYZ, Luv
 X\v?event@QPushButton@@MEAA_NPEAVQEvent@@@Z
-X`hM\f
 X`hrpj\t
 X`hu
 Y (Green / Left)
@@ -23313,8 +23311,6 @@ Zpj\t
 \n\tV_atanf
 \ndummyfilename.tif
 \ng default\n
-\r%s(%d): error: %s
-\r<font color=red>&nbsp;&nbsp;ERROR: Failed to save kv3 to buffer: %s.</font><br>\n
 \r?darker@QColor@@QEBA?AV1@H@Z
 \r?event@QObject@@UEAA_NPEAVQEvent@@@Z
 \r?eventFilter@QObject@@UEAA_NPEAV1@PEAVQEvent@@@Z
@@ -23329,13 +23325,12 @@ Zpj\t
 \r?information@QMessageBox@@SA?AW4StandardButton@1@PEAVQWidget@@AEBVQString@@1V?$QFlags@W4StandardButton@QMessageBox@@@@W421@@Z
 \r?information@QMessageBox@@SA?AW4StandardButton@1@PEAVQWidget@@AEBVQString@@1W421@2@Z
 \r?initPainter@QWidget@@MEBAXPEAVQPainter@@@Z
-\rCDmeInputTexture
+\rDuplicate bone %d renamed :: "%s" -> "%s"\n
 \rGraph Object is null
 \rModelDoc
 \r\f?focusInEvent@QLineEdit@@MEAAXPEAVQFocusEvent@@@Z
 \r\r?heightForWidth@QGridLayout@@UEBAHH@Z
 \rp\f`\v0\nP!'\f
-\rvsmart
 \src\shaders\
 \t2t4J6$"$
 \t?addPixmap@QIcon@@QEAAXAEBVQPixmap@@W4Mode@1@W4State@1@@Z
@@ -23488,20 +23483,18 @@ _temp_tangent
 _volumeatlas_
 _wjb
 _z%%0%dd.%s
-_z00.
 _z000.
 _zero
 `0bb``*Ff6h
 `2Pv
 `2pj\t
-`60L>
-`6pF>
 `\f?defaultTypeFor@QTimer@@CA?AW4TimerType@Qt@@H@Z
 `dpj\t
 `jPS\f
 a7Bz
 a:fulltype
 a:typeparam
+aBv4-#
 a\tV_powd
 aaaaaaaazzzzzzzz
 abcdefghijklmnopqrrqponmlkjihgfedcba
@@ -25153,6 +25146,8 @@ eyeOffset
 eyelid
 eyes
 f$&&$$f(***,&.b,~0F
+f0k>
+fP6>
 fSpeedScale
 f\n?dragEnterEvent@QAbstractScrollArea@@MEAAXPEAVQDragEnterEvent@@@Z
 f_movement_current_speed
@@ -25344,6 +25339,7 @@ force_world_collision_on_all_nodes
 forcemultitrack
 forever
 forwardParity
+fpn>
 fr\nDh.j\lhh
 frac
 frame %s{r=0},%s{g=a},%s{b=0},%s{a=a} %s
@@ -25367,7 +25363,6 @@ fromAttribute
 fromElement
 fromIndex
 from_name
-fs8?
 full_frame_range
 func_combined_light_probe_volume
 func_nav_markup
@@ -25660,6 +25655,7 @@ hullIvr-0.obj
 hullIvr-1.obj
 hullIvr-2.obj
 hull_vertices
+hv4-#
 iOS SM 4.0 (VULKAN)
 iOS SM 4.1 (VULKAN)
 iOS SM 5.0 (VULKAN)
@@ -26809,10 +26805,13 @@ overwrite_existing
 overwrite_existing_flags_only
 ownerlog
 owns_polymorphic_data
-p08@H^
+p08@H^4-#
+p2L$\r
+p2h \r
+p2n \r
 p2pj\t
-p60}>
-p6Pk>
+p2t \r
+p64-#
 pAsset
 pBd@>B@HdF>H"LVNTPHT`RTTr
 pBx@
@@ -26905,7 +26904,9 @@ per_material_options
 per_tile
 permissive
 pervertexlighting
+pf4-#
 phonememap
+phv4-#
 phys
 physicsCollisionProperty
 physicsGroup
@@ -26960,6 +26961,7 @@ plastic
 plasticity
 playerclip
 plugTypes
+pn4-#
 point
 point0_key
 point1_key
@@ -28222,7 +28224,6 @@ usesLaggedValues
 uses_range
 uvmapcylinder
 v %f %f %f\n#%d ComponentIndex %d, queue %d, angle %.1f; ring:
-v0t>
 vAlignDirection
 vHandleOffset
 vIK \f3

@@ -158,8 +158,6 @@
  %s%lu (%s0x%lx)\n
  ' ) - 3 G M Q _ c e i w } 
  (%ld unused bits)\n
- (08@HPXb 
- (0X`hpz 
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -2990,7 +2988,6 @@ $hRh
 , retcode=
 , value=
 ,#,/,5,9,A,W,Y,i,w,
-,0nw
 ,3g4
 ,7~5d
 ,ARu@y6
@@ -23472,7 +23469,6 @@ $hRh
 0123456789
 02V8[
 05=k
-08@J 
 08bX
 09,h
 0;Q5[
@@ -23809,7 +23805,6 @@ $hRh
 2?.CMsgClientToGCMonsterHunterDevGrantMaterialsResponse.EResponse"u\n\tEResponse
 2?.CMsgClientToGCRemoveItemAttributeResponse.ERemoveItemAttribute
 2@.CMsgClientToGCMonsterHunterDevModifyHeroCodexResponse.EResponse"u\n\tEResponse
-2@Go
 2C.CMsgClientToGCOverworldGetDynamicImageResponse.EDynamicImageFormat
 2C.CMsgServerToGCRequestPlayerRecentAccomplishmentsResponse.EResponse
 2E.CMsgClientToGCOverworldRequestTokensNeededByFriendResponse.EResponse
@@ -23925,6 +23920,7 @@ $hRh
 2\r.DOTA_GC_TEAM:
 2\r.ELeaguePhase
 2\rlhp
+2\vpl
 2^pV
 2_bot
 2_mid
@@ -24331,6 +24327,7 @@ $hRh
 8A6j
 8DemoFile
 8E>h
+8F N
 8GZS
 8M;h
 8Q*h
@@ -24727,13 +24724,13 @@ $hRh
 ?uWS
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
-@08N
 @0pp
 @333?
+@60h
 @@CDOTA_Item
 @BH]f
 @BoneSetup
-@HV`H
+@HPX`hv`1
 @Invalid attach type specified for particle effect anim event. Trying to spawn effect '%s' on model %s\n
 @MfKZ
 @Pgl
@@ -24812,6 +24809,7 @@ A<fP
 A>x8
 A@d0I
 AA Compromise
+AA:p
 AABBDirection
 AACompromise
 ABILITY
@@ -35492,6 +35490,7 @@ Hero_Largo.CroakOfGenius.DamageTrigger
 Hero_Largo.CroakOfGenius.Target
 Hero_Largo.Frogstomp.Cast
 Hero_Largo.Frogstomp.Stomp
+Hero_Largo.Frogstomp.Stomp.x2
 Hero_Largo.Frogstomp.Stun
 Hero_LegionCommander.Bellow.Cast
 Hero_LegionCommander.Courage
@@ -39763,12 +39762,9 @@ P-224
 P-256
 P-384
 P-521
-P08@J 
-P08JP
-P08N
 P1\t98"
 P5[1
-P6Pf
+P6`h
 PAGN_4
 PARALYZE
 PARAMETERS
@@ -40708,6 +40704,7 @@ RUNE_XP
 R\n\fActivityInfo
 R\r1>Vp
 R\vp!y
+R\vpl
 R]Di
 Rad2 Deg
 Radiant
@@ -45458,8 +45455,8 @@ X\n\rkilling_blows
 X\tQo
 Xbox VDP is not supported on this platform.
 Xd3h
-Xf P
-Xf@Q
+Xf Q
+Xf@R
 XfJ7
 XjfR
 XqgA+
@@ -45636,7 +45633,6 @@ Z~wl
 \f]ne3
 \fdhWTh
 \fiaR
-\fpnw
 \ful2
 \fy&3Gl
 \l:ArR
@@ -45918,7 +45914,7 @@ Z~wl
 \nLeagueID_t"N\n$CMsgServerToGCGetCheerConfigResponse
 \nPlayerID_t
 \nPlayerID_t"
-\nPnw
+\nPlw
 \nSimulating Entities:\n\n
 \nUnknown reward type '%s' for action '%s' at score '%s'
 \nVisMon: Polling now. (Frequency: %f)\n
@@ -47130,6 +47126,7 @@ Z~wl
 \n\vwin_percent
 \n\vzoom_amount
 \ngrant_periodic_action '%s' doesn't specify an action to grant
+\nplw
 \nqYu
 \ntM(ie-V
 \r!\r+\r-\r=\r?\rO\rU\ri\ry\r
@@ -47337,7 +47334,7 @@ _turbo
 _xU`u
 _}eOk
 `28)fk
-`60p
+`60a
 `:zQF
 `AXh
 `D$daM-l
@@ -53573,7 +53570,6 @@ hoverposeposition
 howl_duration
 hp_cost
 hp_missing_per_extra_illusion_pct
-hpz 
 hr_H
 http request
 http://%s
@@ -62334,13 +62330,12 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^
-p0j 
 p2{l
 p4Z3
 p5Z3
 p5\nL,
 p618
+p6pE
 p@0pqE5tsO?|1
 pAbilityName1
 pAbilityName2
@@ -66173,7 +66168,6 @@ quill_stack_damage
 quill_stack_duration
 quill_stacks
 qx(q
-r lw
 r$0I
 r-IE
 r184

@@ -8293,7 +8293,7 @@ dota_ui_force_custom_games_players false (developmentonly clientdll cheat)
 dota_ui_give_item_indicator_max_range 1200 (developmentonly clientdll defensive)
 	<no description>
 
-dota_ui_give_item_indicator_min_ping_distance 150 (developmentonly clientdll defensive)
+dota_ui_give_item_indicator_min_ping_distance 300 (developmentonly clientdll defensive)
 	<no description>
 
 dota_ui_give_item_indicator_no_destroy false (developmentonly clientdll defensive)

@@ -12001,7 +12001,7 @@ $prefix_element$
 /animgraphs/
 0.000
 0000``
-0>YG
+0>iH
 0\r%0h
 0\r%0t
 0\tV_frexpf
@@ -14731,8 +14731,7 @@ $prefix_element$
 @%s_lookFrame_1
 @%s_lookFrame_2
 @08N
-@HPX`hv`
-@HVp
+@HPX`hvp
 @Integer overflow in %s
 @Invalid
 @\tV_isinfd
@@ -21229,7 +21228,7 @@ Overwrite all bone data
 Overwrite existing flags only
 Overwriting existing wrinkle map data on mesh
 P08N
-P6p\t
+P6p+
 P?isValid@QColor@@QEBA_NXZ
 P?isValid@QTextCharFormat@@QEBA_NXZ
 P?item@QStandardItemModel@@QEBAPEAVQStandardItem@@HH@Z
@@ -21332,7 +21331,6 @@ Persistent
 Persona
 Perspective
 Perturb vertex positions using sine waves.
-PfP+
 Pf\n%d %d\n-1.000000\n
 PgDn
 PgUp

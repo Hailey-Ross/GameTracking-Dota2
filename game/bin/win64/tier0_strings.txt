@@ -796,7 +796,6 @@ $xmm9
 3\r53h&
 3o=q
 3wl'
-420p
 4JpI?=
 4\tgA
 4^K\fOI
@@ -2617,6 +2616,7 @@ BREAKPAD: reopen cached file '%s'\n
 BREAKPAD: search for '%s'\n
 BREAKPAD: try and open '%s'\n
 BTcq
+B\r5Bh
 Bad Shortcut
 Bad exponent in floating point number
 Bad expression operator: '%c%c', expected C style boolean expression operator.

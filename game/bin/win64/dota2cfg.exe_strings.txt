@@ -237,7 +237,7 @@ $\f?focusNextPrevChild@QWidget@@MEAA_N_N@Z
 .CRT$XIAC
 .fgd
 /e,/select,"
-14:36:48
+16:31:56
 1AcceptIfItemPicked()
 1BotScriptComboBoxSelectionChanged( int )
 1BotScriptComboBoxTextChanged(QString)
@@ -1040,7 +1040,6 @@ Applies ONLY if the item is a member of an array
 Applies ONLY if the item is the parent of an array
 Applies to any attributes
 Applies to array parents or non-array items (just not array members)
-Apr 21 2026
 AssetBrowse( %s )
 AssetBrowse( vnmclip )
 AssetBrowse( vnmgraph )

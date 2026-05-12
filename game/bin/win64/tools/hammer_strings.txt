@@ -1055,7 +1055,6 @@ $worldspacetype
 *it%2
 *kf[R
 *laM-\SO
-*xKC
 + ?timerEvent@QToolButton@@MEAAXPEAVQTimerEvent@@@Z
 +"?updateGeometries@QListView@@MEAAXXZ
 +'+1+3+=+?+K+O+U+i+m+o+{+
@@ -1162,6 +1161,7 @@ $worldspacetype
 ....................
 ../src/devtools/bin/certificates/game/
 ..uR5&m
+.02P
 .4bb
 .97yY
 .?AUBufferedImpulseResponse_t@@
@@ -14608,7 +14608,7 @@ $worldspacetype
 .?AVStockSpike@@
 .APARTICLE_EHANDLE__
 .HCK\v
-.P5P
+.P2P
 .P6AXPEAVCQBindableCommandPushButton@@AEBUInitContext_t@CBaseDynamicWidgetFactory@@@Z
 .P6AXPEAVCQBindableCommandToolButton@@AEBUInitContext_t@CBaseDynamicWidgetFactory@@@Z
 .P6AXPEAVGameData@@@Z
@@ -14896,8 +14896,7 @@ $worldspacetype
 .mp3
 .nav
 .navdbg
-.p1P
-.p2P
+.p8P
 .pfm
 .png
 .pp@0
@@ -14952,7 +14951,6 @@ $worldspacetype
 09,h
 0;Q5[
 0<cz
-0>iQP
 0M2~@p
 0W/5
 0Z@q
@@ -14964,6 +14962,7 @@ $worldspacetype
 0e\r8
 0pp@5tqE?|sO541
 0tU+xc:
+0tyC
 0x%1
 0x%llx
 0x%p = %s '%s'
@@ -15885,7 +15884,6 @@ $worldspacetype
 2valueChangedBySlider( float )
 2valueEdited()
 2visibilityChanged( bool )
-2xKC
 3%3+3/353A3G3[3_3g3k3s3y3
 30.0
 31tPR
@@ -15976,28 +15974,30 @@ $worldspacetype
 5sfm_v8
 5t?F
 5~EW
+6 7P
 6#6165676;6M6O6S6Y6a6k6m6
 6#RDP#
 6%vi
 6,2K
 6-zeZ
-60)P
 62$|S)6f
 64 283 0
 64CK\vH
 666666666666666666666666666666666666666666666666\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\.\ssl\s3_enc.c
 6666666666666666jjjjjjjjjjjjjjjj[
 67-s
-6CQP
+6@4P
 6FaceSkyBox
 6H,N
 6O|T%
+6P(P
+6P\rP
 6Qd=
 6[?setRenderHint@QPainter@@QEAAXW4RenderHint@1@_N@Z
 6\v?createNode@QMapDataBase@@QEAAPEAUQMapNodeBase@@HHPEAU2@_N@Z
 6\v?event@QComboBox@@UEAA_NPEAVQEvent@@@Z
 6_wEX
-6`9P
+6`0P
 6afD
 6bX+
 6c&0|vvX
@@ -16005,6 +16005,7 @@ $worldspacetype
 6l13
 6lkc
 6myY;
+6p"P
 6qo~
 6r-m_v
 6r1ij
@@ -16048,6 +16049,7 @@ $worldspacetype
 8<pl
 8= zp
 8A6j
+8F +P
 8GZS
 8SIffK5W
 8TZvrv<
@@ -18639,9 +18641,7 @@ $worldspacetype
 @%s_lookFrame_2
 @08N
 @0pp
-@>p4P
 @BH]f
-@HPX`hv0
 @Integer overflow in %s
 @MfKZ
 @Pgl
@@ -25044,6 +25044,7 @@ F'pY
 F+Zb
 F,mZq
 F/o4
+F0 P
 F2M+
 F6tr
 F7!z
@@ -29221,8 +29222,6 @@ P4CopyFile
 P4CopyFile: Couldn't copy "%s" to "%s"\n
 P4CopyFile: Couldn't deduce depot path for source file "%s"\n
 P5[1
-P604P
-P6P9P
 P?isValid@QColor@@QEBA_NXZ
 P?isValid@QTextCharFormat@@QEBA_NXZ
 P?item@QStandardItemModel@@QEBAPEAVQStandardItem@@HH@Z
@@ -29638,7 +29637,6 @@ Permission denied
 Permitted
 Persistent
 Perturb vertex positions using sine waves.
-Pf 5P
 Pf\n%d %d\n-1.000000\n
 PgDn
 PgUp
@@ -29822,6 +29820,7 @@ Please make sure you deleted history on the mesh before exporting.\nThe mesh app
 Please move your current gameinfo.gi agent settings to a %s file and create a %s file with a 'default' entry containing all the nav nulls. Then add "NavHullsPreset" "default" to your gameinfo.gi file. For now we'll continue to load the agent settings but this path is deprecated ( antonioc@ ).
 Pm8A?
 PmR"H?
+PnP7P
 Point 0
 Point 1
 Point Bones At
@@ -30072,6 +30071,7 @@ Proxy Instance
 Proxy Name
 Proxy Target Cylce
 Prune pieces < error threshold
+PtyC
 Public Key
 Public-Key
 Public-Key: (%d bit)\n
@@ -30436,7 +30436,6 @@ R\r1>Vp
 R\t?canFetchMore@QAbstractItemModel@@UEBA_NAEBVQModelIndex@@@Z
 R\v?event@QMenuBar@@MEAA_NPEAVQEvent@@@Z
 R\vp!6
-R\vpD
 R]Di
 R^?supportedDropActions@QStandardItemModel@@UEBA?AV?$QFlags@W4DropAction@Qt@@@@XZ
 R_T5Y
@@ -34119,13 +34118,13 @@ UsingAnimgraph
 Ut]<E
 Uv1t
 Uz_G3=
+V 2P
 V ?toolTip@QAction@@QEBA?AVQString@@XZ
 V Axis
 V Axis Repeats
 V Offset
 V Repeats
 V07;m
-V08P
 V2I_ASIDENTIFIERS
 V2I_AUTHORITY_INFO_ACCESS
 V2I_AUTHORITY_KEYID
@@ -34412,6 +34411,7 @@ VolumetricFog
 Voronoi Plane Primitive
 Vortices
 Voxel volume (%i components)
+Vp2P
 Vp>u
 Vrad3_Init_SearchPath
 Vt_9
@@ -34864,7 +34864,6 @@ X\tQo
 X\v?event@QPushButton@@MEAA_NPEAVQEvent@@@Z
 Xd3h
 XfJ7
-Xfp+P
 XjfR
 XqgA+
 Xuub
@@ -35171,6 +35170,8 @@ Z~wl
 \f]ne3
 \fdhWTh
 \fiaR
+\fp\vPtyC
+\fp\v`tyC
 \ful2
 \fy&3Gl
 \game
@@ -35277,7 +35278,6 @@ Z~wl
 \ng default\n
 \nqYu
 \ntM(ie-V
-\nxKC
 \particles
 \prefabs
 \prefabs\
@@ -35341,7 +35341,6 @@ Z~wl
 \ri1I
 \rjwB\t
 \roKK
-\rp3P
 \rp\f`\v0\nP!'\f
 \rrCj
 \rtext
@@ -35484,6 +35483,8 @@ Z~wl
 \v\vTSG
 \vj0k
 \vjC7
+\vpl|C
+\vptyC
 ]1h=bfz
 ]?sharedPainter@QPaintDevice@@MEBAPEAVQPainter@@XZ
 ]?staticMetaObject@QTextDocument@@2UQMetaObject@@B
@@ -35651,8 +35652,7 @@ _zero_percent_distance
 _}eOk
 `28)fk
 `2p5>
-`6 1P
-`6p\vP
+`6P\vP
 `:zQF
 `?validate@QDoubleValidator@@UEBA?AW4State@QValidator@@AEAVQString@@AEAH@Z
 `?validate@QIntValidator@@UEBA?AW4State@QValidator@@AEAVQString@@AEAH@Z
@@ -35671,6 +35671,7 @@ _}eOk
 `fPw.\vM
 `h9T~
 `o_je
+`tyC
 `yNT
 a null shared library handle was used
 a(hq
@@ -38173,9 +38174,11 @@ f45\r
 fBB\fy
 fC\tc
 fL\ri
+fOQP
 fP;y
 fUnh\
 fX?setBlockCharFormat@QTextCursor@@QEAAXAEBVQTextCharFormat@@@Z
+f[QP
 f\n?dragEnterEvent@QAbstractScrollArea@@MEAAXPEAVQDragEnterEvent@@@Z
 f\r?horizontalScrollbarAction@QAbstractItemView@@MEAAXH@Z
 f\trixZ
@@ -39144,7 +39147,6 @@ g|FeW\v
 g|MT
 h&eC
 h*Ax
-h+\n0a
 h0XB
 h2Wl
 h2n_\
@@ -41372,6 +41374,7 @@ nNumerator
 nOption
 nOptionIndex
 nOriginSpace
+nP+P
 nPathSpace
 nPickMode
 nPlacementMode
@@ -41925,6 +41928,8 @@ p4Z3
 p5Z3
 p5\nL,
 p618
+p6`%P
+p>$QP
 p@0pqE5tsO?|1
 pAction
 pAsset
@@ -42462,6 +42467,7 @@ pseudonym
 psk identity not found
 psk no client cb
 psk no server cb
+ptyC
 pub: 
 pub_key
 pubkey
@@ -42543,7 +42549,6 @@ rRfKR
 rX&O0
 rZ1VwGf5
 rZPM
-r\fpD
 r\n?dragLeaveEvent@QGraphicsItem@@MEAAXPEAVQGraphicsSceneDragDropEvent@@@Z
 r\tV_sinhf
 r\vDi

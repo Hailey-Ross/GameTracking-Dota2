@@ -158,9 +158,12 @@
  %s%lu (%s0x%lx)\n
  ' ) - 3 G M Q _ c e i w } 
  (%ld unused bits)\n
- (08@HPX`j`\
- (08@HPXb`
- (0X`hpz`
+ (08@HPX`jp\
+ (08@HPXbP
+ (08@HPZp\
+ (08@HRP
+ (08@JP
+ (0X`hpzP
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -2526,6 +2529,7 @@ $hRh
 (d4t8
 (default)
 (eug
+(fPe
 (fS{ggRcjh
 (flMinimapCreepIconScale) - Scale the creep icons on the minimap.
 (flMinimapHeroIconScale) - Scale the hero minimap icons on the minimap.
@@ -2854,6 +2858,7 @@ $hRh
 *kf[R
 *laM-\SO
 *o\n\teRollType
+*pQo
 *v\n\vEPingSource
 +'+1+3+=+?+K+O+U+i+m+o+{+
 +(#\v&dbF:xrJ'$#
@@ -3101,7 +3106,6 @@ $hRh
 ,kj8\te
 ,name:
 ,oYR
-,pww
 ,section=
 ,steammessages_steamlearn.steamworkssdk.proto"
 ,steammessages_steamlearn.steamworkssdk.proto"b\n
@@ -23471,9 +23475,9 @@ $hRh
 0123456789
 02V8[
 05=k
-08@HR`\
-08@J`
-08B`\
+08@HRp\
+08@JP
+08Bp\
 08bX
 09,h
 0;Q5[
@@ -23925,7 +23929,6 @@ $hRh
 2\r.DOTA_GC_TEAM:
 2\r.ELeaguePhase
 2\rlhp
-2\vpL
 2^pV
 2_bot
 2_mid
@@ -23938,6 +23941,7 @@ $hRh
 2nIg
 2ndry
 2p"6
+2pQo
 2prB
 3%3+3/353A3G3[3_3g3k3s3y3
 31tPR
@@ -24332,7 +24336,9 @@ $hRh
 89;h
 8<pl
 8= zp
+8@Jp\
 8A6j
+8Bp\
 8DemoFile
 8E)h
 8GZS
@@ -24498,6 +24504,7 @@ $hRh
 :gN(dq
 :mIR
 :parsed on tick %d of %d got %d new commands through command number %d [%s]\n
+:pvw
 :w4v
 ;!;#;-;9;E;S;Y;_;q;{;
 ;"lY7
@@ -24726,15 +24733,14 @@ $hRh
 ?uWS
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
-@08NT
+@08ND
 @0pp
 @333?
-@6Pi
-@6pw
+@60y
 @@CDOTA_Item
 @BH]f
 @BoneSetup
-@HPX`hv@;
+@HPX`hv0<
 @Invalid attach type specified for particle effect anim event. Trying to spawn effect '%s' on model %s\n
 @MfKZ
 @Pgl
@@ -24813,6 +24819,7 @@ A<fP
 A>x8
 A@d0I
 AA Compromise
+AA:0
 AABBDirection
 AACompromise
 ABILITY
@@ -39765,11 +39772,12 @@ P-224
 P-256
 P-384
 P-521
-P08@J`
-P08NT
+P08@JP
+P08ND
 P1\t98"
+P2p\
 P5[1
-P6@r
+P60s
 PAGN_4
 PARALYZE
 PARAMETERS
@@ -40182,6 +40190,7 @@ PingWheelMessageRange
 PitchShift
 PitchYawRoll
 PivotPaint
+Pjp\
 Place a rune in the bottle.
 Place a unit somewhere not already occupied.
 PlaceDecalEvent_t
@@ -40264,6 +40273,7 @@ Please specify the filename containing your stats definition.\n
 Please wait for broadcast to start ...
 Pm8A?
 PmR"H?
+Pnp\t
 Point entity.
 PointToLineDistance
 Policy Qualifier CPS
@@ -40709,7 +40719,6 @@ RUNE_XP
 R\n\fActivityInfo
 R\r1>Vp
 R\vp!y
-R\vpL
 R]Di
 Rad2 Deg
 Radiant
@@ -45458,10 +45467,10 @@ XYD%
 X\n summary_description_embed_values
 X\n\rkilling_blows
 X\tQo
+X`hrp\
 Xbox VDP is not supported on this platform.
 Xd3h
 XfJ7
-XfpZ
 XjfR
 XqgA+
 Xuub
@@ -45637,7 +45646,7 @@ Z~wl
 \f]ne3
 \fdhWTh
 \fiaR
-\fp\vPt
+\fp\vPd
 \ful2
 \fy&3Gl
 \l:ArR
@@ -45846,11 +45855,13 @@ Z~wl
 \n.steammessages_unified_base.steamworkssdk.proto
 \n/CMsgServerToGCCompendiumChosenInGamePredictions
 \n/CMsgServerToGCCompendiumInGamePredictionResults
+\n04t
 \n0CMsgClientToGCMonsterHunterGiftMaterialsResponse
 \n0CMsgClientToGCOverworldDevClearInventoryResponse
 \n0CMsgClientToGCSurvivorsGameTelemetryDataResponse
 \n0CMsgGCtoGCAssociatedExploiterAccountInfoResponse
 \n0CMsgServerToGCMatchPlayerNeutralItemEquipHistory
+\n0vw
 \n1CDOTAClientMsg_AbilitySpecificChannelRequiresHalt
 \n1CDOTAUserMsg_MonsterHunter_InvestigationGameState
 \n1CMsgClientToGCFightingGameAnswerChallengeResponse
@@ -47130,6 +47141,7 @@ Z~wl
 \n\vwin_percent
 \n\vzoom_amount
 \ngrant_periodic_action '%s' doesn't specify an action to grant
+\npxw
 \nqYu
 \ntM(ie-V
 \r!\r+\r-\r=\r?\rO\rU\ri\ry\r
@@ -47338,8 +47350,7 @@ _xU`u
 _}eOk
 `1Vh
 `28)fk
-`600
-`6px
+`6Pz
 `:zQF
 `Aqh
 `D$daM-l
@@ -47372,7 +47383,7 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBvT
+aBvD
 aD/x
 aDSS
 aECDH
@@ -53572,7 +53583,7 @@ hoverposeposition
 howl_duration
 hp_cost
 hp_missing_per_extra_illusion_pct
-hpz`
+hpzP
 hr_H
 http request
 http://%s
@@ -62335,14 +62346,15 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^T
-p0j`
+p08@H^D
+p0jP
+p2p\
 p2{l
 p4Z3
 p5Z3
 p5\nL,
 p618
-p6PO
+p6@P
 p@0pqE5tsO?|1
 pAbilityName1
 pAbilityName2
@@ -62364,7 +62376,6 @@ pDescription
 pEntity
 pField
 pFilter
-pFp\v
 pG_*h
 pHeroFilename
 pHeroName
@@ -65248,6 +65259,7 @@ pbeWithSHA1And40BitRC2-CBC
 pbeWithSHA1And40BitRC4
 pbeWithSHA1AndDES-CBC
 pbeWithSHA1AndRC2-CBC
+pbp\
 pcPathLengthConstraint
 peaktailend
 pedestal
@@ -66190,13 +66202,13 @@ rF6t
 rFC822localPart
 rFur`7\t
 rL[i+
+rPvw
 rRfKR
 rX&O0
 rZ1VwGf5
 rZPM
 r\n\nHuntReward
 r\vDi
-r`uw
 rad2deg
 radar_cooldown
 radial_count

@@ -1867,34 +1867,28 @@ $hRh
 (0'yX
 (0.1s interval)
 (0x%08X)'??'
-(1Gh
-(1Lh
-(1Vh
-(1ph
-(1th
+(1yh
 (5Me
 (5jP
-(A8h
+(5ph
 (ACTIVE)
-(AOh
-(Aeh
-(Akh
-(Arh
 (BZq
 (D4D
 (DOTA_INVALID_ORDERS nReason) Return the error string of a failed order.
 (Deprecated: use GetNumConnectedHumanPlayers) Players on a valid team (radiant, dire, or custom*) who haven't abandoned the game
-(EMh
-(Esh
+(E1h
+(ENh
+(Eeh
 (HSCRIPT hTarget) Determine whether an issued command on a target is valid.
 (HSCRIPT hTarget) Return the error string of a failed command on a target.
 (HSCRIPT hTarget, Vector vLocation) Projectile has collided with a given target or reached its destination (target is invalid).
 (HSCRIPT hTarget, Vector vLocation, int nHandle) Projectile has collided with a given target or reached its destination (target is invalid).
 (HSCRIPT hTarget, Vector vLocation, table kv) Projectile has collided with a given target or reached its destination (target is invalid).
 (Has breakpieces or commands)
-(I2h
-(I3h
-(M7h
+(IVh
+(Ixh
+(MYh
+(Msh
 (NAV IGNORED)
 (NAV_IGNORED)
 (NONE)
@@ -1902,12 +1896,11 @@ $hRh
 (Output drawable)
 (Preview/Unreleased) Gets the player's custom game account record, as it looked at the start of this session
 (Preview/Unreleased) Sets a callback to handle saving custom game account records (callback is passed a Player ID and should return a flat simple table)
-(Qlh
+(Q3h
 (SERVER) Inventory for account (%d):\n
 (Server) 
 (U1h
-(Udh
-(Ujh
+(U7h
 (Unknown error)
 (Vector vLocation) Determine whether an issued command on a location is valid.
 (Vector vLocation) Projectile is actively moving.
@@ -1915,8 +1908,8 @@ $hRh
 (Vector vLocation, table kv ) Projectile is actively moving.
 (Vector vOrigin, float flRadius )
 (WIPE AND EXTRACT)
-(YWh
-(Yih
+(YHh
+(Yth
 (ZdOt\n&
 (\f"#\n!CDOTABroadcastMsg_LANLobbyRequest"
 (\f";\n%CDOTAUserMsg_CustomHudElement_Destroy
@@ -2515,7 +2508,9 @@ $hRh
 (\v2\v.CMsgVector"l\n
 (\v2\v.CMsgVector"o\n)CDOTAUserMsg_UpdateLinearProjectileCPData
 (\v2\v.CMsgVector*
-(ahh
+(a9h
+(aEh
+(aIh
 (b IncludePregameTime b IncludeNegativeTime) Returns the actual DOTA in-game clock time.
 (bSafeToLeave) - Mark this game as safe to leave.
 (bool RemovePositiveBuffs, bool RemoveDebuffs, bool BuffsCreatedThisFrameOnly, bool RemoveStuns, bool RemoveExceptions)
@@ -2523,7 +2518,8 @@ $hRh
 (bool bSpent) Runs when item's charge count changes. bSpent is true when the charge count change is coming from SpendCharge.
 (d4t8
 (default)
-(eoh
+(eWh
+(eXh
 (fS{ggRcjh
 (flMinimapCreepIconScale) - Scale the creep icons on the minimap.
 (flMinimapHeroIconScale) - Scale the hero minimap icons on the minimap.
@@ -2543,10 +2539,13 @@ $hRh
 (int nPct)
 (int nProjectileHandle) Projectile is actively moving.
 (int targets [0=all, 1=enemy, 2=ally], bool bNow, bool bPermanent, bool bDeath)
-(iph
-(iqh
+(iyh
 (jvg;
-(m9h
+(mDh
+(mKh
+(mOh
+(mQh
+(mfh
 (nMusicStatus, flIntensity) - Set the music status for this player, note this will only really apply if dota_music_battle_enable is off.
 (nPlayerID)
 (nPlayerID, eEvent, nActionID)
@@ -2560,8 +2559,8 @@ $hRh
 (position, radius, checkFullTreeRadius?) Checks whether there are any trees overlapping the given point
 (quaternion,quaternion,float) very basic interpolation of v0 to v1 over t on [0,1]
 (quaternion,vector,float) rotates a quaternion by the specified angle around the specified vector axis
-(uLh
-(uTh
+(u6h
+(udh
 (update disabled)
 (vQF
 (vector,float) constructs a quaternion representing a rotation by angle around the specified vector axis
@@ -2569,9 +2568,7 @@ $hRh
 (vector,vector,float) lerp between two vectors by a float factor returning new vector
 (vector,vector,float) very basic interpolation of v0 to v1 over t on [0,1]
 (wMww
-(yEh
-(ygh
-(ysh
+(yqh
 )!)#)?)G)])e)i)o)u)
 ).CMsgSteamLearn_InferenceMetadata_Request
 )Ck?B
@@ -11079,6 +11076,7 @@ $hRh
 .?AV?$GCClientJobLambda@V<lambda_1>@?1???$RegisterDataSource@VCMsgSteamLearnMatchInfoTeam@@@CSteamLearnManager@@QEAAXPEBD0II@Z@@GCSDK@@
 .?AV?$GCClientJobLambda@V<lambda_1>@?1???$RegisterDataSource@VCMsgSteamLearnMatchStateV5@@@CSteamLearnManager@@QEAAXPEBD0II@Z@@GCSDK@@
 .?AV?$GCClientJobLambda@V<lambda_1>@?1???$RegisterDataSource@VCMsgSteamLearnNeutralItemPurchaseV4@@@CSteamLearnManager@@QEAAXPEBD0II@Z@@GCSDK@@
+.?AV?$GCClientJobLambda@V<lambda_1>@?1???$RegisterDataSource@VCMsgSteamLearnNeutralItemPurchaseV6@@@CSteamLearnManager@@QEAAXPEBD0II@Z@@GCSDK@@
 .?AV?$GCClientJobLambda@V<lambda_1>@?1???$RegisterDataSource@VCMsgSteamLearnPlayerMatchState@@@CSteamLearnManager@@QEAAXPEBD0II@Z@@GCSDK@@
 .?AV?$GCClientJobLambda@V<lambda_1>@?1???$RegisterDataSource@VCMsgSteamLearnPlayerTimedStats@@@CSteamLearnManager@@QEAAXPEBD0II@Z@@GCSDK@@
 .?AV?$GCClientJobLambda@V<lambda_1>@?1???$RegisterDataSource@VCMsgSteamLearnPreGameItemPurchase@@@CSteamLearnManager@@QEAAXPEBD0II@Z@@GCSDK@@
@@ -11092,7 +11090,7 @@ $hRh
 .?AV?$GCClientJobLambda@V<lambda_1>@?1???$SubmitToDataSource@VCMsgSteamLearnMatchInfoPlayer@@@CSteamLearnManager@@QEAAXAEBV?$CUtlVector@_KHV?$CUtlVectorMemory_Growable@_KH$0A@@@@@AEBVCMsgSteamLearnMatchInfoPlayer@@_N@Z@@GCSDK@@
 .?AV?$GCClientJobLambda@V<lambda_1>@?1???$SubmitToDataSource@VCMsgSteamLearnMatchInfoTeam@@@CSteamLearnManager@@QEAAXAEBV?$CUtlVector@_KHV?$CUtlVectorMemory_Growable@_KH$0A@@@@@AEBVCMsgSteamLearnMatchInfoTeam@@_N@Z@@GCSDK@@
 .?AV?$GCClientJobLambda@V<lambda_1>@?1???$SubmitToDataSource@VCMsgSteamLearnMatchStateV5@@@CSteamLearnManager@@QEAAXAEBV?$CUtlVector@_KHV?$CUtlVectorMemory_Growable@_KH$0A@@@@@AEBVCMsgSteamLearnMatchStateV5@@_N@Z@@GCSDK@@
-.?AV?$GCClientJobLambda@V<lambda_1>@?1???$SubmitToDataSource@VCMsgSteamLearnNeutralItemPurchaseV5@@@CSteamLearnManager@@QEAAXAEBV?$CUtlVector@_KHV?$CUtlVectorMemory_Growable@_KH$0A@@@@@AEBVCMsgSteamLearnNeutralItemPurchaseV5@@_N@Z@@GCSDK@@
+.?AV?$GCClientJobLambda@V<lambda_1>@?1???$SubmitToDataSource@VCMsgSteamLearnNeutralItemPurchaseV6@@@CSteamLearnManager@@QEAAXAEBV?$CUtlVector@_KHV?$CUtlVectorMemory_Growable@_KH$0A@@@@@AEBVCMsgSteamLearnNeutralItemPurchaseV6@@_N@Z@@GCSDK@@
 .?AV?$GCClientJobLambda@V<lambda_1>@?1???$SubmitToDataSource@VCMsgSteamLearnPlayerTimedStats@@@CSteamLearnManager@@QEAAXAEBV?$CUtlVector@_KHV?$CUtlVectorMemory_Growable@_KH$0A@@@@@AEBVCMsgSteamLearnPlayerTimedStats@@_N@Z@@GCSDK@@
 .?AV?$GCClientJobLambda@V<lambda_1>@?1???$SubmitToDataSource@VCMsgSteamLearnPreGameItemPurchases@@@CSteamLearnManager@@QEAAXAEBV?$CUtlVector@_KHV?$CUtlVectorMemory_Growable@_KH$0A@@@@@AEBVCMsgSteamLearnPreGameItemPurchases@@_N@Z@@GCSDK@@
 .?AV?$GCClientJobLambda@V<lambda_1>@?1???$SubmitToDataSource@VCMsgSteamLearnWardPlacement@@@CSteamLearnManager@@QEAAXAEBV?$CUtlVector@_KHV?$CUtlVectorMemory_Growable@_KH$0A@@@@@AEBVCMsgSteamLearnWardPlacement@@_N@Z@@GCSDK@@
@@ -20896,7 +20894,7 @@ $hRh
 .?AVCMsgSteamLearnMatchStateV5_PlayerState@@
 .?AVCMsgSteamLearnMatchStateV5_TeamState@@
 .?AVCMsgSteamLearnNeutralItemPurchaseV4@@
-.?AVCMsgSteamLearnNeutralItemPurchaseV5@@
+.?AVCMsgSteamLearnNeutralItemPurchaseV6@@
 .?AVCMsgSteamLearnPlayerMatchState@@
 .?AVCMsgSteamLearnPlayerTimedStats@@
 .?AVCMsgSteamLearnPlayerTimedStats_StatBucket@@
@@ -23476,7 +23474,7 @@ $hRh
 09,h
 0;Q5[
 0<cz
-0>0i
+0>po
 0M2~@p
 0W/5
 0Z@q
@@ -23924,7 +23922,6 @@ $hRh
 2\r.DOTA_GC_TEAM:
 2\r.ELeaguePhase
 2\rlhp
-2\vpT
 2^pV
 2_bot
 2_mid
@@ -23937,6 +23934,7 @@ $hRh
 2nIg
 2ndry
 2p"6
+2p$m
 2prB
 3%3+3/353A3G3[3_3g3k3s3y3
 31tPR
@@ -24322,25 +24320,25 @@ $hRh
 7sAP'
 7wKR
 7zRQ
-8)Jh
+8%Zh
+8%kh
 8+Qw
-8-Hh
+8-Rh
 80F2<
+81_h
 82\n:XPH
 851Pe
 8<pl
 8= zp
 8@J`h
 8A6j
+8A[h
+8Alh
 8B`h
 8DemoFile
-8F@h
-8FPg
 8GZS
 8SIffK5W
 8TZvrv<
-8UIh
-8UZh
 8\n0series_current_selection_priority_used_coin_toss
 8\n0ultimate_scepter_consumed_alchemist_bonus_health
 8\n3kKillEaterEventType_Broodmother_SpiderlingHeroKills
@@ -24390,18 +24388,18 @@ $hRh
 8\n\rneutral_items
 8\n\rready_members
 8\n\rsubscribe_msg
-8\rAh
 8\v8!83858A8G8K8S8W8_8e8o8q8}8
-8]Ah
 8]Vc2
-8aNh
+8anh
 8ca1
 8dS2
+8ikh
+8mZh
 8pe7?
 8q-S*]X
-8qJh
-8q[h
+8qTh
 8sOy
+8}mh
 9#9%9)9/9=9A9M9[9k9y9}9
 9)PF
 9)jx
@@ -24738,6 +24736,7 @@ $hRh
 @@CDOTA_Item
 @BH]f
 @BoneSetup
+@HV@h
 @Invalid attach type specified for particle effect anim event. Trying to spawn effect '%s' on model %s\n
 @MfKZ
 @Pgl
@@ -26124,6 +26123,7 @@ BOT_MODE_SIDE_SHOP
 BOT_MODE_TEAM_ROAM
 BOT_MODE_WARD
 BOUNDARY
+BP"m
 BRouteMsgToJob
 BT5f
 BUCKSHOT
@@ -26393,7 +26393,7 @@ ButtonBitMask_t
 Buyback
 BuybackUsageThink
 BvVlZ\
-Bx8.
+BxH.
 B{Y.w
 C q'O
 C!OFtq74
@@ -30410,7 +30410,7 @@ Certificate Hold
 Certificate Sign
 Certificate:\n
 Cessation Of Operation
-Ch 4
+Ch04
 ChGg
 Chain Lookat
 Chain Solver
@@ -37886,6 +37886,7 @@ Jungler
 Jvp)
 Jy).A
 Jy;B`]A
+K(R5
 K-163
 K-233
 K-283
@@ -39773,10 +39774,12 @@ P-224
 P-256
 P-384
 P-521
+P08J 
 P08N
 P1\t98"
 P2`h
 P5[1
+P6`F
 PAGN_4
 PARALYZE
 PARAMETERS
@@ -40712,7 +40715,6 @@ RUNE_STATUS_MISSING
 RUNE_STATUS_UNKNOWN
 RUNE_WATER
 RUNE_XP
-R\fpT
 R\n\fActivityInfo
 R\r1>Vp
 R\vp!y
@@ -45467,9 +45469,8 @@ X\tQo
 X`hr`h
 Xbox VDP is not supported on this platform.
 Xd3h
+Xf q
 XfJ7
-XfPj
-Xfpk
 XjfR
 XqgA+
 Xuub
@@ -45528,6 +45529,7 @@ ZH^r
 ZL9L
 ZLIB
 ZLONG
+ZP"m
 ZSz@
 ZXF,`i
 Z\n\fPositionPair
@@ -45641,7 +45643,6 @@ Z~wl
 \fKS1
 \fW9c
 \fXu"L
-\f\nPBt
 \f]ne3
 \fdhWTh
 \fiaR
@@ -45721,7 +45722,7 @@ Z~wl
 \n#CMsgPlayerHeroRecentAccomplishments
 \n#CMsgSteamLearnDataSourceDescElement
 \n#CMsgSteamLearnNeutralItemPurchaseV4
-\n#CMsgSteamLearnNeutralItemPurchaseV5
+\n#CMsgSteamLearnNeutralItemPurchaseV6
 \n#CUserMessageCloseCaptionPlaceholder
 \n#CWorkshop_AddSpecialPayment_Request
 \n#dota_gcmessages_common_league.proto
@@ -45925,6 +45926,7 @@ Z~wl
 \nLeagueID_t"
 \nLeagueID_t"M\n;CMsgServerToGCCloseCompendiumInGamePredictionVotingResponse
 \nLeagueID_t"N\n$CMsgServerToGCGetCheerConfigResponse
+\nPfo
 \nPlayerID_t
 \nPlayerID_t"
 \nSimulating Entities:\n\n
@@ -47355,7 +47357,6 @@ _}eOk
 `fPw.\vM
 `h9T~
 `o_je
-`uwh
 `yNT
 a null shared library handle was used
 a trigger_changelevel doesn't have a map
@@ -53096,13 +53097,12 @@ g|FeW\v
 g|MT
 h&eC
 h*Ax
-h-vh
 h0XB
 h2Wl
 h2n_\
 h5N.
-hAEh
-hAbh
+h=Qh
+h=Th
 hActivator
 hAggroTarget
 hAttackTarget
@@ -53119,7 +53119,6 @@ hContext
 hCourier
 hCriteriaTable
 hDropData
-hE@h
 hEM&!
 hEnt
 hEntity to follow, bool bBoneMerge
@@ -53227,7 +53226,6 @@ hawk_base_max_health
 hawk_base_movespeed
 hawk_base_vision_range
 hawk_base_xp_bounty
-hayh
 hb`V
 hbar
 hbvc
@@ -53509,8 +53507,6 @@ hltv_rank_entity
 hltv_title
 hltv_versioninfo
 hlvr
-hm@h
-hmCh
 hmac
 hmac-md5
 hmac-sha1
@@ -53520,7 +53516,7 @@ hmacWithSHA224
 hmacWithSHA256
 hmacWithSHA384
 hmacWithSHA512
-hm{h
+hmvh
 hnM<
 hold
 holdInstructionCallIssuer
@@ -66173,6 +66169,7 @@ quill_stacks
 qx(q
 r$0I
 r-IE
+r0)w
 r184
 r3A~
 r<\rND
@@ -66191,7 +66188,6 @@ rZ1VwGf5
 rZPM
 r\n\nHuntReward
 r\vDi
-r\vpT
 rad2deg
 radar_cooldown
 radial_count
@@ -71457,6 +71453,7 @@ zF):O4
 zFar
 zG2m8
 zNear
+zP"m
 zPos
 zRXU 
 zealots

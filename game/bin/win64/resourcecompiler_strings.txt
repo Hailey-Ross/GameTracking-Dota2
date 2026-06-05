@@ -169,10 +169,9 @@
  (%ld unused bits)\n
  (%lu = 0x%lx)\n
  (%u = 0x%x)\n
- (08@HPXbp
- (08@HRp
- (08@Jp
- (0X`hpzp
+ (08@HPX`j`}
+ (08@HPXb0 <
+ (0X`hpz0 <
  (Bad Remap %d)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -971,6 +970,7 @@ $prefix_element$
 *.webp
 */actors/*/expressions/*
 */autograph/icon_path
+*/dialogue/*/_popupimage/image
 */image_inventory
 */image_inventory_overlay
 */portrait_image
@@ -20884,7 +20884,9 @@ $prefix_element$
 0123456789)"
 02V8[
 05=k
-08@Jp
+08@HR`}
+08@J0 <
+08B`}
 08bX
 09,h
 0;Q5[
@@ -20965,7 +20967,6 @@ $prefix_element$
 2\fWQx
 2\rE2h
 2\rlhp
-2\vp4H
 2^pV
 2_BONE_IK
 2a"l
@@ -20977,10 +20978,11 @@ $prefix_element$
 2nd most active material around a probe.
 2p"6
 2prB
+2pv?
 3%3+3/353A3G3[3_3g3k3s3y3
 31tPR
+333?
 333?+
-333?P
 33s?+
 35-w
 37LQ
@@ -21275,7 +21277,6 @@ $prefix_element$
 ??1HandleScope@v8@@QEAA@XZ
 ??1TryCatch@v8@@QEAA@XZ
 ??1Utf8Value@String@v8@@QEAA@XZ
-?Animation node must have a name!
 ?CAnimGraphDoc_SelectorNode
 ?CChoreoObjectBase
 ?Compile@Script@v8@@SA?AV?$MaybeLocal@VScript@v8@@@2@V?$Local@VContext@v8@@@2@V?$Local@VString@v8@@@2@PEAVScriptOrigin@2@@Z
@@ -21297,6 +21298,7 @@ $prefix_element$
 ?HasCaught@TryCatch@v8@@QEBA_NXZ
 ?VBH;
 ?\tV_isfinited
+?clip_raw_size
 ?d86L
 ?dt]X
 ?func_ladder
@@ -21317,14 +21319,12 @@ $prefix_element$
 @%s_lookFrame_2
 @08N
 @0pp
-@6pz
+@6pp
 @?CFootAdjustmentInstanceData
-@AHk
 @BH]f
 @CMapLocator
 @CMixControlAutomatic
 @CNmSkeleton
-@HPX`hv 
 @Integer overflow in %s
 @MfKZ
 @Pgl
@@ -21409,6 +21409,7 @@ A9ur
 A<fP
 A>x8
 AA Compromise
+AA:p
 AACompromise
 AC2,h
 ACCESS_DESCRIPTION
@@ -21971,6 +21972,7 @@ Animation Pose
 Animation Skeleton Compiler Version
 Animation Skeleton Name
 Animation Source
+Animation node must have a name!
 Animation references itself as blend target
 Animation references itself as the source animation
 Animation/AccumulatePose
@@ -22876,7 +22878,6 @@ C:\buildworker\source2_dota_rel_2019_win64\build\src\utils\resourcecompiler\comp
 C:\buildworker\source2_dota_rel_2019_win64\build\src\utils\resourcecompiler\compilematerial.cpp
 C:\buildworker\source2_dota_rel_2019_win64\build\src\utils\resourcecompiler\compilepanorama.cpp
 C:\buildworker\source2_dota_rel_2019_win64\build\src\utils\resourcecompiler\compileparticle.cpp
-C:\buildworker\source2_dota_rel_2019_win64\build\src\utils\resourcecompiler\compilepostprocessing.cpp
 C:\buildworker\source2_dota_rel_2019_win64\build\src\utils\resourcecompiler\compilesound.cpp
 C:\buildworker\source2_dota_rel_2019_win64\build\src\utils\resourcecompiler\compilesoundcontainer.cpp
 C:\buildworker\source2_dota_rel_2019_win64\build\src\utils\resourcecompiler\compilesoundstackscript.cpp
@@ -31384,9 +31385,11 @@ P-224
 P-256
 P-384
 P-521
-P08@Jp
+P08@J0 <
+P08J@_=
 P08N
 P1\t98"
+P20 <
 P5[1
 PAGN_4
 PARAMETERS
@@ -32428,8 +32431,6 @@ RT60 for low, mid, and high frequency bands for the probe.
 R\r1>Vp
 R\vp!6
 R\vp!y
-R\vp4H
-R\vpT
 R]Di
 R_T5Y
 Rad2 Deg
@@ -32937,6 +32938,7 @@ S8#w
 S<Fb
 S<hN-AO
 SAXPY2
+SC:\buildworker\source2_dota_rel_2019_win64\build\src\utils\resourcecompiler\compilepostprocessing.cpp
 SCENE
 SECG curve over a 112 bit prime field
 SECG curve over a 113 bit binary field
@@ -35894,7 +35896,8 @@ Z~wl
 \f]ne3
 \fdhWTh
 \fiaR
-\fp9A
+\fpRE
+\fp\vPlf
 \ful2
 \fy&3Gl
 \l:ArR
@@ -35983,7 +35986,8 @@ Z~wl
 \n//\n// Fog Irradiance Volume\n//\n
 \n//\n// Light Probe Volumes\n//\n
 \n//\n// Lightmap\n//\n
-\n0ID
+\n03A
+\n3dX
 \n5a=Z
 \n:82H
 \n==============================================================================================\n
@@ -35992,6 +35996,7 @@ Z~wl
 \nCreating World\n
 \nMS,\nVS_MS_RTX
 \nNo game entities will be available for creation.\n
+\nPRE
 \nPS_RENDER_STATE
 \nRTX
 \nRay Tracing Environment\n
@@ -36013,7 +36018,6 @@ Z~wl
 \ndummyfilename.tif
 \nfog_irradiance_volume:\n
 \ng default\n
-\np1A
 \nqYu
 \nrun compute_all_lightmap_blocks\n
 \nrun fog_irradiance_volume\n
@@ -36077,7 +36081,6 @@ Z~wl
 \tMean Edge Length: %.2f\n
 \tNAN encountered in element '%s' guid %s attribute '%s'!\n
 \tNode %s, Vert Count: %u (%s)\n
-\tP0d
 \tRemoved Degenerate Triangle Count: %i\n
 \tTriangle Count: %i\n
 \tUnique Geometry: %s unique meshes w/ %s tris, %s verts\n
@@ -36145,11 +36148,11 @@ Z~wl
 \vGt5
 \vHCK/
 \vNCE\v
-\vP0d
 \vUY6[E
 \v\vTSG
 \vj0k
 \vjC7
+\vplf
 ] Done (%.2f seconds)
 ]1h=bfz
 ]>jkT>Q3
@@ -36337,7 +36340,7 @@ _zero
 _}eOk
 `28)fk
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
-`6pv
+`60x
 `:zQF
 `=IhC?zm6>
 `D$daM-l
@@ -37537,7 +37540,6 @@ clip_compressed_size
 clip_compression_ratio
 clip_compression_time
 clip_name
-clip_raw_size
 clipmap_levels
 close_outline_at_hard_edges
 closed
@@ -40246,7 +40248,7 @@ horizontal differencing
 horizontal_pose_param_name
 houdini
 houseIdentifier
-hpzp
+hpz0 <
 hr_H
 hsequence
 http request
@@ -40927,7 +40929,6 @@ j <= sizeof(c->iv)
 j"MRX
 j&LQ
 j0ksJ
-j0x=
 j2ty
 j3kg
 jA(U
@@ -43143,7 +43144,7 @@ p.ppBasis
 p.prime
 p.tpBasis
 p08@H^
-p0jPM=
+p20 <
 p2{l
 p4Z3
 p4lib
@@ -43157,6 +43158,7 @@ pD4t
 pDescription
 pEnumInfo
 pEvent != nullptr
+pFPl
 pG_*h
 pIp 
 pMaterialGroupName
@@ -43790,6 +43792,7 @@ quiet
 qx(q
 r$0I
 r-IE
+r0%A
 r184
 r3A~
 r<\rND
@@ -43805,7 +43808,6 @@ rRfKR
 rX&O0
 rZ1VwGf5
 rZPM
-r\fpT
 r\tV_sinhf
 r\vDi
 rad2deg
@@ -44144,7 +44146,6 @@ round
 row_fixed_blend_val
 row_pose_param_name
 row_weight_list
-rp#A
 rr_test_%u_%n
 rsa not implemented
 rsa operations not supported

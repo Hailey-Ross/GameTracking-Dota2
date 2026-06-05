@@ -3317,7 +3317,6 @@ AsShotICCProfile
 AsShotNeutral
 AsShotPreProfileMatrix
 AsShotWhiteXY
-Assert
 Assert Messages Color
 Assert True
 Asserts/Errors Only

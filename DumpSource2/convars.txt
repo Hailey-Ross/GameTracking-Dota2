@@ -6160,6 +6160,9 @@ dota_particle_off_camera_simrate 0.3333 (clientdll cheat)
 dota_particle_parallel_prerender true (developmentonly clientdll defensive)
 	<no description>
 
+dota_particles_force_no_asset_modifiers false (developmentonly gamedll clientdll replicated cheat)
+	<no description>
+
 dota_path_disable_skip_ahead false (developmentonly gamedll cheat)
 	<no description>
 
@@ -8275,9 +8278,6 @@ dota_tutorial_usemodifierforanim true (developmentonly gamedll defensive)
 dota_twitch_top_streams_data_cache_duration 300 (developmentonly clientdll defensive)
 	<no description>
 
-dota_type_writer_text_use_split_label 1 (developmentonly clientdll)
-	<0:no|1:yes|2:show both>
-
 dota_ui_armory_build_on_demand true (developmentonly clientdll defensive)
 	<no description>
 
@@ -8572,7 +8572,16 @@ dota_victory_timer 0 (developmentonly gamedll cheat)
 dota_visual_novel_disable_auto_advance false (developmentonly clientdll)
 	<no description>
 
+dota_visual_novel_max_wait_for_images_seconds 5 (developmentonly clientdll)
+	<no description>
+
+dota_visual_novel_minimum_dialogue_finished_wait_time 0.2 (developmentonly clientdll)
+	<no description>
+
 dota_visual_novel_vo_auto_advance_delay 0.15 (developmentonly clientdll)
+	<no description>
+
+dota_visual_novel_wait_for_images_loaded true (developmentonly clientdll)
 	<no description>
 
 dota_wagering_info_cache_duration 600 (developmentonly clientdll defensive)

@@ -2850,7 +2850,6 @@ $\f?focusNextPrevChild@QWidget@@MEAA_N_N@Z
 2\nP!E
 2\r?hideEvent@QWidget@@MEAAXPEAVQHideEvent@@@Z
 2\v?event@QAction@@MEAA_NPEAVQEvent@@@Z
-2\vpL
 2_BONE_IK
 2aboutToShow()
 2accepted()
@@ -7681,7 +7680,6 @@ RW?restore@QPainter@@QEAAXXZ
 R\f?font@QTreeWidgetItem@@QEBA?AVQFont@@H@Z
 R\t?canFetchMore@QAbstractItemModel@@UEBA_NAEBVQModelIndex@@@Z
 R\v?event@QMenuBar@@MEAA_NPEAVQEvent@@@Z
-R\vpL
 R^?supportedDropActions@QStandardItemModel@@UEBA?AV?$QFlags@W4DropAction@Qt@@@@XZ
 R_T5Y
 Rad2 Deg
@@ -8159,6 +8157,7 @@ Subtract two numbers.<br>Represented in expressions as <tt>VALUE1 - VALUE2</tt>
 Supports newlines and limited HTML markup
 SupportsActivities
 SurfacePropPicker()
+Svpcf66
 Switch Branch ( int )
 Switch Branch ( schema enum )
 Switch Branch ( string )

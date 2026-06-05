@@ -158,6 +158,8 @@
  %s%lu (%s0x%lx)\n
  ' ) - 3 G M Q _ c e i w } 
  (%ld unused bits)\n
+ (08@HPXb 
+ (0X`hpz 
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -561,6 +563,7 @@
 #DOTA_Chat_SecretShop
 #DOTA_Chat_SentryWardKilled
 #DOTA_Chat_ShrineKilled
+#DOTA_Chat_SmokeActivated
 #DOTA_Chat_StoneOfRecallUsed
 #DOTA_Chat_Taunt
 #DOTA_Chat_TowerDenied
@@ -1865,28 +1868,29 @@ $hRh
 (0'yX
 (0.1s interval)
 (0x%08X)'??'
-(51h
+(53h
+(5Eh
 (5Me
-(5Nh
-(5eh
 (5jP
-(9Vh
-(9xh
-(A3h
+(A6h
 (ACTIVE)
+(Aph
 (BZq
 (D4D
 (DOTA_INVALID_ORDERS nReason) Return the error string of a failed order.
 (Deprecated: use GetNumConnectedHumanPlayers) Players on a valid team (radiant, dire, or custom*) who haven't abandoned the game
-(E7h
+(EIh
+(EPh
+(EVh
 (HSCRIPT hTarget) Determine whether an issued command on a target is valid.
 (HSCRIPT hTarget) Return the error string of a failed command on a target.
 (HSCRIPT hTarget, Vector vLocation) Projectile has collided with a given target or reached its destination (target is invalid).
 (HSCRIPT hTarget, Vector vLocation, int nHandle) Projectile has collided with a given target or reached its destination (target is invalid).
 (HSCRIPT hTarget, Vector vLocation, table kv) Projectile has collided with a given target or reached its destination (target is invalid).
 (Has breakpieces or commands)
-(IHh
-(Ith
+(IQh
+(IZh
+(Mfh
 (NAV IGNORED)
 (NAV_IGNORED)
 (NONE)
@@ -1894,14 +1898,12 @@ $hRh
 (Output drawable)
 (Preview/Unreleased) Gets the player's custom game account record, as it looked at the start of this session
 (Preview/Unreleased) Sets a callback to handle saving custom game account records (callback is passed a Player ID and should return a flat simple table)
-(Q9h
-(QEh
-(QIh
+(QGh
+(Qvh
 (SERVER) Inventory for account (%d):\n
 (Server) 
 (U1h
-(UWh
-(UXh
+(UKh
 (Unknown error)
 (Vector vLocation) Determine whether an issued command on a location is valid.
 (Vector vLocation) Projectile is actively moving.
@@ -1909,7 +1911,7 @@ $hRh
 (Vector vLocation, table kv ) Projectile is actively moving.
 (Vector vOrigin, float flRadius )
 (WIPE AND EXTRACT)
-(Yyh
+(YNh
 (ZdOt\n&
 (\f"#\n!CDOTABroadcastMsg_LANLobbyRequest"
 (\f";\n%CDOTAUserMsg_CustomHudElement_Destroy
@@ -2508,6 +2510,10 @@ $hRh
 (\v2\v.CMsgVector"l\n
 (\v2\v.CMsgVector"o\n)CDOTAUserMsg_UpdateLinearProjectileCPData
 (\v2\v.CMsgVector*
+(a0h
+(a5h
+(aCh
+(aJh
 (b IncludePregameTime b IncludeNegativeTime) Returns the actual DOTA in-game clock time.
 (bSafeToLeave) - Mark this game as safe to leave.
 (bool RemovePositiveBuffs, bool RemoveDebuffs, bool BuffsCreatedThisFrameOnly, bool RemoveStuns, bool RemoveExceptions)
@@ -2515,8 +2521,7 @@ $hRh
 (bool bSpent) Runs when item's charge count changes. bSpent is true when the charge count change is coming from SpendCharge.
 (d4t8
 (default)
-(e6h
-(edh
+(ewh
 (fS{ggRcjh
 (flMinimapCreepIconScale) - Scale the creep icons on the minimap.
 (flMinimapHeroIconScale) - Scale the hero minimap icons on the minimap.
@@ -2536,9 +2541,10 @@ $hRh
 (int nPct)
 (int nProjectileHandle) Projectile is actively moving.
 (int targets [0=all, 1=enemy, 2=ally], bool bNow, bool bPermanent, bool bDeath)
-(iqh
 (jvg;
-(muh
+(m9h
+(mBh
+(mMh
 (nMusicStatus, flIntensity) - Set the music status for this player, note this will only really apply if dota_music_battle_enable is off.
 (nPlayerID)
 (nPlayerID, eEvent, nActionID)
@@ -2550,9 +2556,10 @@ $hRh
 (playerID, heroClassName, gold, XP) - replaces the player's hero with a new one of the specified class, gold and XP
 (playerID, heroClassName, gold, XP) - replaces the player's hero with a new one of the specified class, gold and XP, without transferring items/abilities if same hero
 (position, radius, checkFullTreeRadius?) Checks whether there are any trees overlapping the given point
-(qMh
 (quaternion,quaternion,float) very basic interpolation of v0 to v1 over t on [0,1]
 (quaternion,vector,float) rotates a quaternion by the specified angle around the specified vector axis
+(uXh
+(ugh
 (update disabled)
 (vQF
 (vector,float) constructs a quaternion representing a rotation by angle around the specified vector axis
@@ -2560,6 +2567,7 @@ $hRh
 (vector,vector,float) lerp between two vectors by a float factor returning new vector
 (vector,vector,float) very basic interpolation of v0 to v1 over t on [0,1]
 (wMww
+(y3h
 )!)#)?)G)])e)i)o)u)
 ).CMsgSteamLearn_InferenceMetadata_Request
 )Ck?B
@@ -3802,7 +3810,6 @@ $hRh
 .?AV<lambda_1>@?7??AddOverlaps@CNavSplitBlockMgr@@MEAAXAEBV?$CUtlVector@_KHV?$CUtlVectorMemory_Growable@_KH$0A@@@@@@Z@
 .?AV<lambda_1>@?7??FilterUnwalkableVoxelsByAgentClimb@CNavOrientedMesh@@QEAAXXZ@
 .?AV<lambda_1>@?7??FindAreas@CDynamicNavConnectionsVolume@@QEAAXXZ@
-.?AV<lambda_1>@?7??OnUpgrade@CDOTABaseAbility@@UEAAXXZ@
 .?AV<lambda_1>@?8??OnNavAreaSplit@CNavTacticalSearchAnnotationMgr@@UEAAXAEBVCNavArea@@AEBV?$CUtlVector@PEAVCNavArea@@HV?$CUtlVectorMemory_Growable@PEAVCNavArea@@H$0A@@@@@@Z@
 .?AV<lambda_1>@?9???R0?1??AddOverlaps@CNavObstacleSplitMgr@@UEAAXAEBV?$CUtlVector@_KHV?$CUtlVectorMemory_Growable@_KH$0A@@@@@@Z@QEBA@H@Z@
 .?AV<lambda_1>@?9??BuildAssetModifierContainer@CItemGeneration@@QEAAXPEAVCAssetModifierContainer@@HPEAPEAVCEconItemView@@@Z@
@@ -3821,6 +3828,7 @@ $hRh
 .?AV<lambda_1>@?FB@??UpdateSelection@CNavEditor@@QEAA_NXZ@
 .?AV<lambda_1>@?L@??Activate@CFuncMover@@UEAAXW4ActivateType_t@@@Z@
 .?AV<lambda_1>@?L@??FireEventsOnBodyMovementAsync@CPathSimple@@UEAAXIAEBV?$Vec3D@M@@0AEAV?$CUtlLeanVector@V?$function@$$A6AXXZ@std@@HVCMemAllocAllocator@@@@@Z@
+.?AV<lambda_1>@?L@??OnUpgrade@CDOTABaseAbility@@UEAAXXZ@
 .?AV<lambda_1>@?L@??UpdateArcanaKillstreak@CDOTA_Unit_Hero_Spectre@@QEAAXPEAVCDOTA_BaseNPC_Hero@@H@Z@
 .?AV<lambda_1>@?M@??DispatchStartSpeak@CSceneEntity@@UEAAXPEAVCChoreoScene@@PEAVCBaseModelEntity@@PEAVCChoreoEvent_SPEAK@@@Z@
 .?AV<lambda_1>@?M@??SaveGame_Start@CEntity2SaveRestore@@UEAAPEAUSaveRestoreDataHandle_t__@@AEBUSaveGameParams_t@@@Z@
@@ -11441,7 +11449,6 @@ $hRh
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?7??AddOverlaps@CNavSplitBlockMgr@@MEAAXAEBV?$CUtlVector@_KHV?$CUtlVectorMemory_Growable@_KH$0A@@@@@@Z@W4NavSearchResult_t@@AEAVCNavBlock@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?7??FilterUnwalkableVoxelsByAgentClimb@CNavOrientedMesh@@QEAAXXZ@_NAEBV?$Vec3D@H@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?7??FindAreas@CDynamicNavConnectionsVolume@@QEAAXXZ@W4NavSearchResult_t@@AEAVCNavArea@@@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_1>@?7??OnUpgrade@CDOTABaseAbility@@UEAAXXZ@XPEAV3@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?8??OnNavAreaSplit@CNavTacticalSearchAnnotationMgr@@UEAAXAEBVCNavArea@@AEBV?$CUtlVector@PEAVCNavArea@@HV?$CUtlVectorMemory_Growable@PEAVCNavArea@@H$0A@@@@@@Z@XAEBQEAUTS_Annotation_t@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?9???R1?1??AddOverlaps@CNavObstacleSplitMgr@@UEAAXAEBV?$CUtlVector@_KHV?$CUtlVectorMemory_Growable@_KH$0A@@@@@@Z@QEBA@H@Z@W4NavSearchResult_t@@AEAVCNavArea@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?9??BuildAssetModifierContainer@CItemGeneration@@QEAAXPEAVCAssetModifierContainer@@HPEAPEAVCEconItemView@@@Z@XPEBVCAssetModifier@@@std@@
@@ -11460,6 +11467,7 @@ $hRh
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?FB@??UpdateSelection@CNavEditor@@QEAA_NXZ@W4NavSearchResult_t@@AEAVCNavArea@@PEBU?$NavSearchInfo_t@VCNavArea@@@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?L@??Activate@CFuncMover@@UEAAXW4ActivateType_t@@@Z@XAEAVCNavArea@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?L@??FireEventsOnBodyMovementAsync@CPathSimple@@UEAAXIAEBV?$Vec3D@M@@0AEAV?$CUtlLeanVector@V?$function@$$A6AXXZ@std@@HVCMemAllocAllocator@@@@@Z@X$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?L@??OnUpgrade@CDOTABaseAbility@@UEAAXXZ@XPEAV3@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?L@??UpdateArcanaKillstreak@CDOTA_Unit_Hero_Spectre@@QEAAXPEAVCDOTA_BaseNPC_Hero@@H@Z@XPEAVCItemSocket_Strange@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?M@??DispatchStartSpeak@CSceneEntity@@UEAAXPEAVCChoreoScene@@PEAVCBaseModelEntity@@PEAVCChoreoEvent_SPEAK@@@Z@_NAEBVCPlayerSlot@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?M@??SaveGame_Start@CEntity2SaveRestore@@UEAAPEAUSaveRestoreDataHandle_t__@@AEBUSaveGameParams_t@@@Z@X$$V@std@@
@@ -23459,6 +23467,7 @@ $hRh
 0123456789
 02V8[
 05=k
+08@J 
 08bX
 09,h
 0;Q5[
@@ -23795,6 +23804,8 @@ $hRh
 2?.CMsgClientToGCMonsterHunterDevGrantMaterialsResponse.EResponse"u\n\tEResponse
 2?.CMsgClientToGCRemoveItemAttributeResponse.ERemoveItemAttribute
 2@.CMsgClientToGCMonsterHunterDevModifyHeroCodexResponse.EResponse"u\n\tEResponse
+2@0m
+2@ro
 2C.CMsgClientToGCOverworldGetDynamicImageResponse.EDynamicImageFormat
 2C.CMsgServerToGCRequestPlayerRecentAccomplishmentsResponse.EResponse
 2E.CMsgClientToGCOverworldRequestTokensNeededByFriendResponse.EResponse
@@ -23910,7 +23921,6 @@ $hRh
 2\r.DOTA_GC_TEAM:
 2\r.ELeaguePhase
 2\rlhp
-2\vpl
 2^pV
 2_bot
 2_mid
@@ -24018,14 +24028,15 @@ $hRh
 3w2URu
 3wQ]
 3|rN>
+4'$pMc
 4)#bH
 4)m1
+4,Ac
 474E4U4W4c4i4m4
 4<Td
 4@AA
 4Ch;
 4F0I
-4F\v0
 4Mv8
 4Zis
 4\fPl
@@ -24177,7 +24188,7 @@ $hRh
 65535"j\n
 65535B$
 666666666666666666666666666666666666666666666666\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\.\ssl\s3_enc.c
-6666666666666666CDOTA_Ability_AghsFort_EchoSlamPotion
+6666666666666666aghsfort_echo_slam_potion
 67-s
 6H,N
 6O|T%
@@ -24308,22 +24319,21 @@ $hRh
 7sAP'
 7wKR
 7zRQ
+8!lh
 8+Qw
 80F2<
-81[h
-81lh
 82\n:XPH
 851Pe
 8<pl
 8= zp
 8A6j
 8DemoFile
-8F n
+8E\h
+8Eih
 8GZS
-8Qnh
+8QRh
 8SIffK5W
 8TZvrv<
-8Ykh
 8\n0series_current_selection_priority_used_coin_toss
 8\n0ultimate_scepter_consumed_alchemist_bonus_health
 8\n3kKillEaterEventType_Broodmother_SpiderlingHeroKills
@@ -24375,16 +24385,14 @@ $hRh
 8\n\rsubscribe_msg
 8\v8!83858A8G8K8S8W8_8e8o8q8}8
 8]Vc2
-8]Zh
-8aTh
 8ca1
 8dS2
-8m_h
-8mmh
+8ilh
+8m[h
 8pe7?
 8q-S*]X
+8qYh
 8sOy
-8y[h
 9#9%9)9/9=9A9M9[9k9y9}9
 9)PF
 9)jx
@@ -24715,12 +24723,13 @@ $hRh
 ?usage:  %s <classnamestring>\n
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
+@08N
 @0pp
 @333?
 @@CDOTA_Item
 @BH]f
 @BoneSetup
-@HPX`hv`Q
+@HVpt
 @Invalid attach type specified for particle effect anim event. Trying to spawn effect '%s' on model %s\n
 @MfKZ
 @Pgl
@@ -25588,7 +25597,7 @@ Amplitude
 An RR_Concept couldn't find its string in the symbol table!\n
 An ability
 An outpost.
-Anav_smooth_constrain_spring_relax
+Anav_smooth_constrain_spring
 Anchor
 Anchor Actor
 Anchor Is External
@@ -32756,7 +32765,6 @@ FRIENDSGRIP
 FU\n-XP
 FV|FgUV
 FXIndex
-F[-1] -> gsn(empty)
 F\fEF4
 F\n ParticleFreezeTransitionOverride
 F\nAk_EMsgClientToGCMonsterHunterDevClaimInvestigationRewardsResponse
@@ -39757,6 +39765,9 @@ P-224
 P-256
 P-384
 P-521
+P08@J 
+P08JP
+P08N
 P1\t98"
 P5[1
 PAGN_4
@@ -40696,7 +40707,6 @@ RUNE_XP
 R\n\fActivityInfo
 R\r1>Vp
 R\vp!y
-R\vpl
 R]Di
 Rad2 Deg
 Radiant
@@ -45447,9 +45457,9 @@ X\n\rkilling_blows
 X\tQo
 Xbox VDP is not supported on this platform.
 Xd3h
-Xf q
-Xf@r
+Xf0|
 XfJ7
+XfP}
 XjfR
 XqgA+
 Xuub
@@ -45561,6 +45571,7 @@ Z~wl
 [+%d identical]
 [+%d skipped]
 [-1] -> empty
+[-1] -> gsn(empty)
 [-1] -> gsn(null)
 [Ability Schema]: %s\n
 [Additional text in debugoverlay_dashboard]
@@ -45624,6 +45635,7 @@ Z~wl
 \f]ne3
 \fdhWTh
 \fiaR
+\fp\vP4
 \ful2
 \fy&3Gl
 \l:ArR
@@ -45900,7 +45912,6 @@ Z~wl
 \nGameTime_t"V\n*CDOTAClientMsg_SelectOverworldTokenRewards
 \nGameTime_t"u\n
 \nGameTime_t:
-\nKRh
 \nLeagueID_t
 \nLeagueID_t"
 \nLeagueID_t"M\n;CMsgServerToGCCloseCompendiumInGamePredictionVotingResponse
@@ -47325,7 +47336,6 @@ _turbo
 _xU`u
 _}eOk
 `28)fk
-`6PF
 `:zQF
 `D$daM-l
 `DZG
@@ -47671,7 +47681,6 @@ aghsfort_crystal_maiden_crystal_nova
 aghsfort_crystal_maiden_freezing_field
 aghsfort_dragon_knight_breathe_fire
 aghsfort_dragon_potion
-aghsfort_echo_slam_potion
 aghsfort_explosive_barrel
 aghsfort_hoodwink_hunters_boomerang
 aghsfort_lifestealer_enraged_pulse
@@ -53075,13 +53084,13 @@ g{syW*
 g|FeW\v
 g|MT
 h&eC
+h)Rh
 h*Ax
-h-Qh
-h-Th
 h0XB
 h2Wl
 h2n_\
 h5N.
+h9Sh
 hActivator
 hAggroTarget
 hAttackTarget
@@ -53146,7 +53155,6 @@ hX@e
 h\n"unlocked_chat_wheel_message_ranges
 h\n"unlocked_ping_wheel_message_ranges
 h\n\vHeroAbility
-h]vh
 h`Zr
 haha
 hairball
@@ -53548,6 +53556,7 @@ hoverposeposition
 howl_duration
 hp_cost
 hp_missing_per_extra_illusion_pct
+hpz 
 hr_H
 http request
 http://%s
@@ -54448,6 +54457,8 @@ invoker_sun_strike_ad
 invoker_tornado
 invoker_tornado_ad
 invoker_wex;invoker_quas;invoker_exort
+invoker_wex;invoker_quas;invoker_exort;invoker_forge_spirit
+invoker_wex;invoker_quas;invoker_exort;invoker_ice_wall
 invokesuccess
 invul
 invuln_count
@@ -62306,12 +62317,13 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
+p08@H^
+p0j 
 p2{l
 p4Z3
 p5Z3
 p5\nL,
 p618
-p6pe
 p@0pqE5tsO?|1
 pAbilityName1
 pAbilityName2
@@ -62331,6 +62343,7 @@ pData->GetDataDescMap() == pTemplateDataMap
 pDefault
 pDescription
 pEntity
+pF0-
 pField
 pFilter
 pG_*h
@@ -62859,6 +62872,7 @@ particles/items2_fx/skadi_projectile.vpcf
 particles/items2_fx/smoke_of_deceit.vpcf
 particles/items2_fx/smoke_of_deceit_buff.vpcf
 particles/items2_fx/teleport_end.vpcf
+particles/items2_fx/teleport_origin.vpcf
 particles/items2_fx/teleport_start.vpcf
 particles/items2_fx/terror_mask_effect.vpcf
 particles/items2_fx/urn_of_shadows.vpcf
@@ -66164,6 +66178,7 @@ rZ1VwGf5
 rZPM
 r\n\nHuntReward
 r\vDi
+r`5w
 rad2deg
 radar_cooldown
 radial_count

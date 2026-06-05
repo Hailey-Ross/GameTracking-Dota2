@@ -5,6 +5,7 @@ class C_DOTA_Ability_Tinker_Keen_Teleport : public C_DOTABaseAbility
 	float32 outpost_channel_time;
 	float32 jungle_outpost_channel_time;
 	CHandle< C_BaseEntity > m_hTeleportTarget;
+	ParticleIndex_t m_nFXCaster;
 	ParticleIndex_t m_nFXOrigin;
 	ParticleIndex_t m_nFXDestination;
 	VectorWS m_vDestination;

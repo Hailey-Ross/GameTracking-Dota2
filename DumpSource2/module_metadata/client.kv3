@@ -1015,7 +1015,7 @@
 		"@lib:client.dll!CPulseCursorFuncs" = 109602028
 		"@lib:client.dll!CPulseGraphInstance_PanoramaPanel" = 648503777
 		"@lib:client.dll!CPulseMathlib" = 1084168616
-		"@lib:client.dll!CPulsePanoramaFuncs" = 2262768715
+		"@lib:client.dll!CPulsePanoramaFuncs" = 313680741
 		"@lib:client.dll!CPulseTestScriptLib" = 1396807546
 		"@lib:client.dll!CShmupPanoramaFuncs" = 2813453482
 		"@lib:client.dll!CTakeDamageResultAPI" = 2646435844
@@ -13908,10 +13908,10 @@
 					m_Outputs = [  ]
 					m_Helpers = [  ]
 				}
-				"CPulsePanoramaFuncs::IsUISoundScriptPlaying" = 
+				"CPulsePanoramaFuncs::IsUISoundEventPlaying" = 
 				{
 					m_BaseClasses = [  ]
-					m_FriendlyName = "Is UI Sound Script Playing"
+					m_FriendlyName = "Is UI Sound Event Playing"
 					m_Description = ""
 					m_MetaData = 
 					{
@@ -13953,7 +13953,7 @@
 									"PVAL_VOID",
 								]
 								associated_outflow_name = "OutDefault"
-								direct_return_value_for = "CPulsePanoramaFuncs::IsUISoundScriptPlaying"
+								direct_return_value_for = "CPulsePanoramaFuncs::IsUISoundEventPlaying"
 							}
 						}
 						pulse_feature_tag = 2
@@ -13988,10 +13988,10 @@
 					m_Outputs = [  ]
 					m_Helpers = [  ]
 				}
-				"CPulsePanoramaFuncs::PlayUISoundScript" = 
+				"CPulsePanoramaFuncs::PlayUISoundEvent" = 
 				{
 					m_BaseClasses = [  ]
-					m_FriendlyName = "Play UI Sound Script"
+					m_FriendlyName = "Play UI Sound Event"
 					m_Description = "Helper that plays a soundevent in the UI"
 					m_MetaData = 
 					{
@@ -14033,7 +14033,7 @@
 									"PVAL_VOID",
 								]
 								associated_outflow_name = "OutDefault"
-								direct_return_value_for = "CPulsePanoramaFuncs::PlayUISoundScript"
+								direct_return_value_for = "CPulsePanoramaFuncs::PlayUISoundEvent"
 							}
 						}
 						pulse_feature_tag = 2
@@ -14068,11 +14068,11 @@
 					m_Outputs = [  ]
 					m_Helpers = [  ]
 				}
-				"CPulsePanoramaFuncs::StopUISoundScript" = 
+				"CPulsePanoramaFuncs::StopUISoundEvent" = 
 				{
 					m_BaseClasses = [  ]
-					m_FriendlyName = "Stop UI Sound Script"
-					m_Description = "Stop a sound returned from PlayUISoundScript"
+					m_FriendlyName = "Stop UI Sound Event"
+					m_Description = "Stop a sound returned from PlayUISoundEvent"
 					m_MetaData = 
 					{
 						supported_domains = 

@@ -2052,6 +2052,9 @@ dota_show_set_portrait_generator (developmentonly clientdll)
 dota_show_sideshop (developmentonly clientdll defensive)
 	Show Sideshop
 
+dota_show_splash_ad_by_name (developmentonly clientdll)
+	Show a specific splash ad
+
 dota_show_splash_ads (developmentonly clientdll)
 	Show splash ads
 

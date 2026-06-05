@@ -331,7 +331,6 @@ $SPECULARSCALE
 3D
 7 Segment
 <
-<0:no|1:yes|2:show both>
 <=
 <ESymbolType> Dump all of the symbols in the Panorama symbol table
 <account id> <showcase type> - show the report dialog for a given showcase
@@ -10041,6 +10040,7 @@ CHAT_MESSAGE_SCAN_USED
 CHAT_MESSAGE_SECRETSHOP
 CHAT_MESSAGE_SENTRY_WARD_KILLED
 CHAT_MESSAGE_SHRINE_KILLED
+CHAT_MESSAGE_SMOKE_ACTIVATED
 CHAT_MESSAGE_SPECTATORS_WATCHING_THIS_GAME
 CHAT_MESSAGE_STONE_OF_RECALL_USED
 CHAT_MESSAGE_STREAK_KILL
@@ -15580,7 +15580,9 @@ DOTATeleportInfo_t
 DOTAThreatLevelInfo_t
 DOTAUnitAttackCapability_t
 DOTAUnitMoveCapability_t
+DOTAVisualNovelDialogueActorOverlayEffect_t
 DOTAVisualNovelDialogueEffect_t
+DOTAVisualNovelDialogueTextEffect_t
 DOTAVisualNovelTextColor_t
 DOTA_2013PassportSelectionIndices
 DOTA_ABILITY_BEHAVIOR
@@ -18188,6 +18190,7 @@ EVENT_ID_INTERNATIONAL_2022
 EVENT_ID_INTERNATIONAL_2023
 EVENT_ID_INTERNATIONAL_2024
 EVENT_ID_INTERNATIONAL_2025
+EVENT_ID_INTERNATIONAL_2026
 EVENT_ID_MONSTER_HUNTER
 EVENT_ID_MUERTA_RELEASE_SPRING2023
 EVENT_ID_NEW_BLOOM_2015
@@ -25635,6 +25638,7 @@ Show LPV bounding box when debug grid is on, 0: off, 1: on
 Show LPV debug grid, 0: off, 1: closest only 2: closest and keep 3: all
 Show Sideshop
 Show SourceTV server status.
+Show a specific splash ad
 Show ability videos in tooltips while not in game.
 Show additional lobbies in the lobby list
 Show alien gib entities
@@ -27298,8 +27302,23 @@ VMixSubgraphSwitchInterpolationType_t
 VMixUtilityDesc_t
 VMixVocoderDesc_t
 VN_DIALOGUE_EFFECT_ACTOR_ANGER
+VN_DIALOGUE_EFFECT_ACTOR_ANNOYED
 VN_DIALOGUE_EFFECT_ACTOR_ANXIETY
+VN_DIALOGUE_EFFECT_ACTOR_ASLEEP
+VN_DIALOGUE_EFFECT_ACTOR_CONFUSED
+VN_DIALOGUE_EFFECT_ACTOR_DAZED
+VN_DIALOGUE_EFFECT_ACTOR_DEPRESSED
+VN_DIALOGUE_EFFECT_ACTOR_HEART
+VN_DIALOGUE_EFFECT_ACTOR_HUFF
+VN_DIALOGUE_EFFECT_ACTOR_NOISY
+VN_DIALOGUE_EFFECT_ACTOR_NONE
+VN_DIALOGUE_EFFECT_ACTOR_POWER
+VN_DIALOGUE_EFFECT_ACTOR_POWERDOWN
+VN_DIALOGUE_EFFECT_ACTOR_SMOKE
+VN_DIALOGUE_EFFECT_ACTOR_SPARKLE
+VN_DIALOGUE_EFFECT_ACTOR_SURPRISE
 VN_DIALOGUE_EFFECT_ACTOR_SWEATDROP
+VN_DIALOGUE_EFFECT_AUTO_ADVANCE
 VN_DIALOGUE_EFFECT_CLEAR_STAGE
 VN_DIALOGUE_EFFECT_ENTRANCE_FALLING
 VN_DIALOGUE_EFFECT_ENTRANCE_LEFT
@@ -27322,12 +27341,16 @@ VN_DIALOGUE_EFFECT_PORTRAIT_BORDER_FROZEN
 VN_DIALOGUE_EFFECT_PORTRAIT_FLIP
 VN_DIALOGUE_EFFECT_PORTRAIT_JITTER
 VN_DIALOGUE_EFFECT_PORTRAIT_NO_BLUR_OTHER
+VN_DIALOGUE_EFFECT_PORTRAIT_NO_OIMBLUR_OTHER
 VN_DIALOGUE_EFFECT_PORTRAIT_SHAKE
 VN_DIALOGUE_EFFECT_PORTRAIT_SMALL
 VN_DIALOGUE_EFFECT_PORTRAIT_WEAVE
 VN_DIALOGUE_EFFECT_TEXT_BOLD
 VN_DIALOGUE_EFFECT_TEXT_FAST
 VN_DIALOGUE_EFFECT_TEXT_INSTANT
+VN_DIALOGUE_EFFECT_TEXT_NONE
+VN_DIALOGUE_EFFECT_TEXT_NO_NAMEPLATE
+VN_DIALOGUE_EFFECT_TEXT_NO_TEXT
 VN_DIALOGUE_EFFECT_TEXT_SMALL
 VN_DIALOGUE_EFFECT_WINDOW_SHAKE
 VN_TEXT_COLOR_BLUE
@@ -27337,6 +27360,7 @@ VN_TEXT_COLOR_DEFAULT
 VN_TEXT_COLOR_GRAY
 VN_TEXT_COLOR_GREEN
 VN_TEXT_COLOR_LIGHT_BLUE
+VN_TEXT_COLOR_LIGHT_BROWN
 VN_TEXT_COLOR_LIGHT_GRAY
 VN_TEXT_COLOR_ORANGE
 VN_TEXT_COLOR_PURPLE
@@ -32129,6 +32153,7 @@ dota_particle_fow_debug
 dota_particle_off_camera_freeze
 dota_particle_off_camera_simrate
 dota_particle_parallel_prerender
+dota_particles_force_no_asset_modifiers
 dota_party_debug
 dota_path_disable_skip_ahead
 dota_path_disable_straightener
@@ -32619,6 +32644,7 @@ dota_show_set_portrait_generator
 dota_show_sideshop
 dota_show_spectated_unit_orders
 dota_show_spectator_tournament_drops
+dota_show_splash_ad_by_name
 dota_show_splash_ads
 dota_show_state_transitions
 dota_show_teams_page
@@ -33005,7 +33031,6 @@ dota_tutorial_state_change_delay
 dota_tutorial_stop_daynightcycle
 dota_tutorial_usemodifierforanim
 dota_twitch_top_streams_data_cache_duration
-dota_type_writer_text_use_split_label
 dota_ui_armory_build_on_demand
 dota_ui_armory_is_category_view
 dota_ui_armory_item_duplicate
@@ -33109,7 +33134,10 @@ dota_versus_screen_show_debug
 dota_victory_timer
 dota_view_store_item_details
 dota_visual_novel_disable_auto_advance
+dota_visual_novel_max_wait_for_images_seconds
+dota_visual_novel_minimum_dialogue_finished_wait_time
 dota_visual_novel_vo_auto_advance_delay
+dota_visual_novel_wait_for_images_loaded
 dota_wagering_info_cache_duration
 dota_wait_for_players_battle_cup_present_time
 dota_wait_for_players_completed_delay
@@ -37611,12 +37639,16 @@ k_eTypeUI
 k_eUnit
 k_eUnknownLaneOutcome
 k_eUnknownRole
+k_eVisualNovelDialogueLineType_ActionSwipe
 k_eVisualNovelDialogueLineType_Comic
 k_eVisualNovelDialogueLineType_ConditionalElse
 k_eVisualNovelDialogueLineType_ConditionalIf
 k_eVisualNovelDialogueLineType_ExternalComic
 k_eVisualNovelDialogueLineType_Invalid
+k_eVisualNovelDialogueLineType_MotionComic
+k_eVisualNovelDialogueLineType_PopupImage
 k_eVisualNovelDialogueLineType_PopupText
+k_eVisualNovelDialogueLineType_PortraitSwap
 k_eVisualNovelDialogueLineType_Text
 k_eVisualNovelDialogueLineType_Video
 k_eWin
@@ -48867,6 +48899,7 @@ m_nFXAmbient
 m_nFXAmbientSpirits
 m_nFXAttackIndex
 m_nFXCast
+m_nFXCaster
 m_nFXDeath
 m_nFXDeathIndex
 m_nFXDeniableIndex
@@ -49696,8 +49729,6 @@ m_nOverlayRenderOrder
 m_nOverrideAnim
 m_nOverrideAnimation
 m_nOverrideBlockLOS
-m_nOverrideCP
-m_nOverrideCPField
 m_nOverrideFlinchHitGroup
 m_nOverrideInitialAngles
 m_nOverrideStyle
@@ -54773,8 +54804,6 @@ overprotective_damage_threshold
 overprotective_max_wisps
 overprotective_wisp_count
 overprotective_wisp_duration
-override CP field
-override max velocity from this CP
 override translucent materials
 override_badge_level
 override_trophy_badge_points
@@ -55700,7 +55729,6 @@ radius_increase
 radius_max
 radius_min
 radius_scepter
-radius_treant
 ragdoll_cleanup_all
 ragdoll_debug_item_detachment
 ragdoll_fixup_joint_limits

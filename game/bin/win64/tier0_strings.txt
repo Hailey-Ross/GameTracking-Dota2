@@ -761,6 +761,7 @@ $xmm9
 0123456789abcdefghijklmnopqrstuvwxyz
 0;FALSE;NO;OFF
 0E>X
+0H2*
 0U@H
 0X8b?~
 0iN>/
@@ -784,6 +785,8 @@ $xmm9
 1wsHp
 2,THh
 28~v
+2\vpH2*
+2\vpL
 2aNuE
 3 FB
 3+5<t
@@ -796,6 +799,7 @@ $xmm9
 3\r53h&
 3o=q
 3wl'
+4200
 4JpI?=
 4\tgA
 4^K\fOI
@@ -1703,7 +1707,7 @@ $xmm9
 ?GetWinLevelRevision@CPUInformation@@SA_NPEAG0@Z
 ?GrowByChunks@CBufferString@@QEAAHHH@Z
 ?GrowPool@CPoolAllocator@@QEAAXI@Z
-?HEAP WARNING: memory block at %p is unexpectedly allocated\n
+?HEAP WARNING: memory block at %p appears to be corrupt\n
 ?HandleFirstWriteLockTransition@CEventRWLock@@IEAAXAEAVCEventListNode@@@Z
 ?HandleToString@CCountedStringPool_CI@@QEBAPEBDG@Z
 ?HandlerQueueHeartBeat@MiniDumpStandardData_t@@QEBAXXZ
@@ -2434,7 +2438,6 @@ $xmm9
 ?rAj
 ?s_iCurrentUniqueNodeID@CVProfNode@@1HA
 ?ysB
-@"pS2
 @^8U)zj
 @aQY
 @pn>6
@@ -2562,6 +2565,7 @@ ApplyDiffs
 Apr  7 2026
 April
 AreFileApisANSI
+Assert
 AssertDlgThread
 Assertion Dialog could not be created. Breaking in debugger.\n
 Assertion Dialog could not be created. Ignoring assertion. Run under the debugger to break instead.\n
@@ -3427,6 +3431,7 @@ C_OP_InstantaneousEmitter
 C_OP_LockToBone
 C_OP_LockToSavedSequentialPath
 C_OP_MaintainEmitter
+C_OP_MaxVelocity
 C_OP_MoveToHitbox
 C_OP_MovementPlaceOnGround
 C_OP_MovementRotateParticleAroundAxis
@@ -3560,7 +3565,6 @@ ConfigAttachedModel
 Conflicting range base values given for compile_unit\n
 Connection_Inparam
 Connection_Outflow
-Console
 Constructor/destructor index ('%c%c') out of range\n
 Constructor/destructor name extraction failed\n
 Content Assertion Failed
@@ -4122,7 +4126,7 @@ H$BQ
 H(VVH
 H*0"ZOW
 H>r1
-HEAP WARNING: memory block at %p appears to be corrupt\n
+HEAP WARNING: memory block at %p is unexpectedly allocated\n
 HEAP WARNING: memory block at %p is unexpectedly free\n
 HEAP WARNING: memory block at %p is unexpectedly unrecognized\n
 HEAP WARNING: memory pointer %p is invalid\n
@@ -4841,7 +4845,7 @@ Outflow_NPCScriptedMoveTo
 Outflow_NPCUseScriptedAbility
 Outflow_Simultaneous
 OutputDebugStringA
-P(YX8S2
+P(YX
 P4_EXTRACT_CMD=p4.exe print -o %srcsrvtrg% -q "//%var3%#%var4%"\n
 P4_EXTRACT_TARGET=%targ%\%var2%\%fnbksl%(%var3%)\%var4%\%fnfile%(%var1%)\n
 PARTICLE_DEPTH_FEATHERING_OFF
@@ -5300,6 +5304,10 @@ RPCRT4.dll
 RSDSp
 RUSSIAN
 RVfQp
+R\fpH2*
+R\fpL
+R\vpH2*
+R\vpL
 RaiseException
 RandomFloat
 RandomFloatExp
@@ -6132,6 +6140,7 @@ Unable to create thread in %s\n
 Unable to determine CPU Frequency\n
 Unable to determine ELF default base address\n
 Unable to determine Mach-O default base address\n
+Unable to determine buffer encoding.
 Unable to load COM\n
 Unable to load SDL\n
 Unable to load oleaut32\n
@@ -6162,7 +6171,6 @@ Unable to seek to ELF shoff\n
 Unable to seek to Mach-O load commands\n
 Unable to seek to Macho-O slice base\n
 Unable to seek to module section at file offset 0x%x\n
-Unable to write file '%s'\n
 Unaccounted
 Unexpected EOF while parsing number
 Unexpected augmentation string byte 0x%x (shouldn't have augmentation data)\n
@@ -6874,7 +6882,7 @@ ZwSetTimerResolution
 \nk>oB
 \ntier0.dll
 \r00000000-0000-0000-0000-000000000000
-\rAssert
+\rConsole
 \rEnd of input was reached and '{' was not matched by '}'
 \r\f\v\v\n\n\t\t\t\t\t
 \rmj>zjZ
@@ -6900,6 +6908,7 @@ ZwSetTimerResolution
 \v_dbghelp_home_linked
 \v_dbghelp_home_unlinked
 \veBV
+\vpH2*
 ]P4H
 ]u9g
 ]xEc
@@ -7945,6 +7954,7 @@ m_flLiteralValue
 m_flMax
 m_flMaxLength
 m_flMaxPitchAngle
+m_flMaxVelocity
 m_flMaxYawAngle
 m_flMin
 m_flMinLength
@@ -8093,6 +8103,7 @@ m_nOutputBlendMode
 m_nOutputField
 m_nOverrideCP
 m_nOverrideCP2
+m_nOverrideCPField
 m_nParamInterruptability
 m_nParticleNumber
 m_nParticleSelection
@@ -8284,9 +8295,11 @@ nInterruptability
 nMax
 nMin
 nOffset < m_nAllocationSize
+nOverrideCPField
 nSwitchValue
 nTries < 10000000
-nUnable to determine buffer encoding.
+nUnable to write file '%s'\n
+nXAO
 n\f"pA3Q
 n]?iJ
 name
@@ -8381,6 +8394,7 @@ p>Y3
 pAbilityName
 pClass
 pFrameBottom > m_pStackHigh || pFrameTop < m_pStackLow
+pH2*
 pKp\nZ
 pMessage
 pName
@@ -8459,6 +8473,7 @@ r9T6
 rNm>)
 rT+6ZNw
 r\tVr.>T
+r\vpH2*
 radius
 radius0
 radius1
@@ -8796,6 +8811,7 @@ vpcf62
 vpcf63
 vpcf64
 vpcf65
+vpcf66
 vpcf7
 vpcf8
 vpcf9
@@ -8873,7 +8889,6 @@ z3zr
 z8ji
 z>h4
 zN,W
-zPS2
 zQ3W
 z\r8Pf
 z]5T

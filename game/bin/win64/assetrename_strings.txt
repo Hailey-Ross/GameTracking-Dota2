@@ -314,7 +314,6 @@ $x(<*L(^$*.d$40.2Z$D6@$Q
 %s will be DELETED
 %s%s: FGD Parse error: %s %s\n
 %s(%d) : %s\n
-%s(%d): error: %s
 %s(%s) = %s
 %s/%s.vmdl
 %s2-d encoding
@@ -16319,7 +16318,6 @@ CDmeDag::GetParentWorldMatrix called on a dag that has different rotation and tr
 CDmeDotaTileGrid
 CDmeDrawCallSnapshot
 CDmeImageProcessor
-CDmeInputTexture
 CDmeLog: interpolable type %s doesn't have an interpolation function!
 CDmeNavData
 CDmeNodeInstanceData
@@ -18304,6 +18302,7 @@ Duplicate Faces Reset Pivot
 Duplicate a UV Map texcoord channel
 Duplicate and transform current face selection
 Duplicate attribute name %s encountered!\n
+Duplicate bone %d renamed :: "%s" -> "%s"\n
 Duplicate child mesh name
 Duplicate hit group (%s) specified in destructible parts system data.  Please fix.
 Duplicate model config '%s'
@@ -23311,6 +23310,7 @@ Zpj\t
 \n\tV_atanf
 \ndummyfilename.tif
 \ng default\n
+\r%s(%d): error: %s
 \r?darker@QColor@@QEBA?AV1@H@Z
 \r?event@QObject@@UEAA_NPEAVQEvent@@@Z
 \r?eventFilter@QObject@@UEAA_NPEAV1@PEAVQEvent@@@Z
@@ -23325,9 +23325,10 @@ Zpj\t
 \r?information@QMessageBox@@SA?AW4StandardButton@1@PEAVQWidget@@AEBVQString@@1V?$QFlags@W4StandardButton@QMessageBox@@@@W421@@Z
 \r?information@QMessageBox@@SA?AW4StandardButton@1@PEAVQWidget@@AEBVQString@@1W421@2@Z
 \r?initPainter@QWidget@@MEBAXPEAVQPainter@@@Z
-\rDuplicate bone %d renamed :: "%s" -> "%s"\n
+\rCDmeInputTexture
 \rGraph Object is null
 \rModelDoc
+\rVFileSystem017
 \r\f?focusInEvent@QLineEdit@@MEAAXPEAVQFocusEvent@@@Z
 \r\r?heightForWidth@QGridLayout@@UEBAHH@Z
 \rp\f`\v0\nP!'\f
@@ -23483,6 +23484,7 @@ _temp_tangent
 _volumeatlas_
 _wjb
 _z%%0%dd.%s
+_z00.
 _z000.
 _zero
 `0bb``*Ff6h

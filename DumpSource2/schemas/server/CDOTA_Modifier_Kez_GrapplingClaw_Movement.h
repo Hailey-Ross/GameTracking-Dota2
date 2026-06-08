@@ -26,5 +26,5 @@ class CDOTA_Modifier_Kez_GrapplingClaw_Movement : public CDOTA_Buff
 	GameActivity_t m_Activity;
 	float32 m_flTimeLeftForActivity;
 	AttackRecord_t m_nGrappleAttackRecord;
-	CDOTA_Tree* m_pTree;
+	CHandle< CBaseEntity > m_hTree;
 };

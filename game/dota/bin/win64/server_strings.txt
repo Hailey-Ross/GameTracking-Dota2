@@ -158,6 +158,8 @@
  %s%lu (%s0x%lx)\n
  ' ) - 3 G M Q _ c e i w } 
  (%ld unused bits)\n
+ (08@HPXb@@t
+ (0X`hpz@@t
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -3015,7 +3017,6 @@ $hRh
 , retcode=
 , value=
 ,#,/,5,9,A,W,Y,i,w,
-,0Ll
 ,3g4
 ,7~5d
 ,ARu@y6
@@ -23499,6 +23500,7 @@ $hRh
 0123456789
 02V8[
 05=k
+08@J@@t
 08bX
 09,h
 0;Q5[
@@ -23841,7 +23843,6 @@ $hRh
 2I y)
 2J.CMsgClientToGCMonsterHunterDevClaimInvestigationRewardsResponse.EResponse"u\n\tEResponse
 2L.CMsgClientToGCMonsterHunterRequestMaterialsNeededByFriendResponse.EResponse
-2PKl
 2Tm=#
 2Uiwp"9
 2Zq)
@@ -23951,6 +23952,8 @@ $hRh
 2\r.DOTA_GC_TEAM:
 2\r.ELeaguePhase
 2\rlhp
+2\vp,u
+2\vpl
 2^pV
 2_bot
 2_mid
@@ -24482,7 +24485,7 @@ $hRh
 :EXTERNAL TYPE %s\n
 :LBN
 :NAy
-:PKl
+:Pxp
 :QYJ
 :Vlq
 :\n5kKillEaterEventType_Brewmaster_KillsDuringPrimalSplit
@@ -24524,7 +24527,9 @@ $hRh
 :eaI
 :gN(dq
 :mIR
+:pLl
 :parsed on tick %d of %d got %d new commands through command number %d [%s]\n
+:pwp
 :w4v
 ;!;#;-;9;E;S;Y;_;q;{;
 ;"lY7
@@ -24751,12 +24756,13 @@ $hRh
 ?uWS
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
-@08N
+@08N4
 @0pp
 @333?
 @@CDOTA_Item
 @BH]f
 @BoneSetup
+@HPX`hv 
 @Invalid attach type specified for particle effect anim event. Trying to spawn effect '%s' on model %s\n
 @MfKZ
 @Pgl
@@ -38031,7 +38037,6 @@ LOTUS_POOL
 LT[N
 LXKQ
 LY\r5
-L\fPKl
 L\n\rcontributions
 LabelledDebugHelperDebug
 LadderConnect
@@ -39791,9 +39796,11 @@ P-224
 P-256
 P-384
 P-521
-P08J@Ll
-P08N
+P08@J@@t
+P08JpLl
+P08N4
 P1\t98"
+P2@@t
 P5[1
 PAGN_4
 PARALYZE
@@ -40733,6 +40740,8 @@ RUNE_XP
 R\n\fActivityInfo
 R\r1>Vp
 R\vp!y
+R\vp,u
+R\vpl
 R]Di
 Rad2 Deg
 Radiant
@@ -45650,18 +45659,16 @@ Z~wl
 \\n\vCheerRemaps
 \f%\f/\f1\fA\f[\f_\fa\fm\fs\fw\f
 \f*t\n ESteamLearnGetAccessTokensResult
-\f0Ll
-\f0Mv
 \f7ig
 \f<<0A1pq
 \fCEntityIndex"
 \fKS1
-\fLBd
 \fW9c
 \fXu"L
 \f]ne3
 \fdhWTh
 \fiaR
+\fp\vPTw
 \ful2
 \fy&3Gl
 \l:ArR
@@ -45876,6 +45883,9 @@ Z~wl
 \n0CMsgClientToGCSurvivorsGameTelemetryDataResponse
 \n0CMsgGCtoGCAssociatedExploiterAccountInfoResponse
 \n0CMsgServerToGCMatchPlayerNeutralItemEquipHistory
+\n0Hl
+\n0vp
+\n0xp
 \n1CDOTAClientMsg_AbilitySpecificChannelRequiresHalt
 \n1CDOTAUserMsg_MonsterHunter_InvestigationGameState
 \n1CMsgClientToGCFightingGameAnswerChallengeResponse
@@ -45942,9 +45952,10 @@ Z~wl
 \nLeagueID_t"
 \nLeagueID_t"M\n;CMsgServerToGCCloseCompendiumInGamePredictionVotingResponse
 \nLeagueID_t"N\n$CMsgServerToGCGetCheerConfigResponse
-\nPKl
 \nPlayerID_t
 \nPlayerID_t"
+\nPvp
+\nPwp
 \nSimulating Entities:\n\n
 \nUnknown reward type '%s' for action '%s' at score '%s'
 \nVisMon: Polling now. (Frequency: %f)\n
@@ -46384,6 +46395,7 @@ Z~wl
 \n\nnpc_dialog
 \n\norder_type
 \n\nother_gold
+\n\np8n
 \n\npackage_id
 \n\nparty_game
 \n\npersona_id
@@ -47156,6 +47168,9 @@ Z~wl
 \n\vwin_percent
 \n\vzoom_amount
 \ngrant_periodic_action '%s' doesn't specify an action to grant
+\np8n
+\npLl
+\npvp
 \nqYu
 \ntM(ie-V
 \nxcg
@@ -47287,7 +47302,7 @@ Z~wl
 \v\vTSG
 \vj0k
 \vjC7
-\vp0y
+\vpTw
 ]1h=bfz
 ]FhSD}
 ]GT7]
@@ -47366,6 +47381,7 @@ _xU`u
 _}eOk
 `28)fk
 `54g
+`:pJl
 `:zQF
 `D$daM-l
 `DZG
@@ -47394,6 +47410,7 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
+aBv4
 aD/x
 aDSS
 aECDH
@@ -53589,6 +53606,7 @@ hoverposeposition
 howl_duration
 hp_cost
 hp_missing_per_extra_illusion_pct
+hpz@@t
 hr_H
 http request
 http://%s
@@ -55514,6 +55532,7 @@ j <= sizeof(c->iv)
 j"MRX
 j&LQ
 j0ksJ
+j0wp
 j2ty
 j3kg
 jA(U
@@ -62350,7 +62369,9 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^
+p08@H^4
+p0j@
+p2@@t
 p2{l
 p4Z3
 p5Z3
@@ -66189,7 +66210,6 @@ quill_stack_damage
 quill_stack_duration
 quill_stacks
 qx(q
-r xp
 r$0I
 r-IE
 r184
@@ -66204,7 +66224,7 @@ rF6t
 rFC822localPart
 rFur`7\t
 rL[i+
-rPKl
+rPxp
 rRfKR
 rX&O0
 rZ1VwGf5

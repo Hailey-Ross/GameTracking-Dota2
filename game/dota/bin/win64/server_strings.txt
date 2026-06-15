@@ -158,8 +158,6 @@
  %s%lu (%s0x%lx)\n
  ' ) - 3 G M Q _ c e i w } 
  (%ld unused bits)\n
- (08@HPXb@@t
- (0X`hpz@@t
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -2722,7 +2720,6 @@ $hRh
 )\n\tvictim_id
 )\n\vAbilityList
 )\n\vcontract_id
-)binary_zstd
 )fuG
 )haI
 *%*/*O*U*_*e*k*m*s*
@@ -2881,6 +2878,7 @@ $hRh
 *it%2
 *kf[R
 *laM-\SO
+*o0j
 *o\n\teRollType
 *v\n\vEPingSource
 +'+1+3+=+?+K+O+U+i+m+o+{+
@@ -23500,7 +23498,6 @@ $hRh
 0123456789
 02V8[
 05=k
-08@J@@t
 08bX
 09,h
 0;Q5[
@@ -23770,6 +23767,7 @@ $hRh
 2..CDOTAUserMsg_MadstoneAlert.EMadstoneAlertType
 2..CMvpData.MvpDatum.MvpAccolade.MvpAccoladeType
 20.CMsgClientToGCGetBattleReportResponse.EResponse
+20Ll
 20t\f
 21.CMsgClientToGCDotaLabsFeedbackResponse.EResponse"
 21.CMsgClientToGCUnpackBundleResponse.EUnpackBundle
@@ -23952,8 +23950,6 @@ $hRh
 2\r.DOTA_GC_TEAM:
 2\r.ELeaguePhase
 2\rlhp
-2\vp,u
-2\vpl
 2^pV
 2_bot
 2_mid
@@ -24478,6 +24474,7 @@ $hRh
 9r#xV
 : unrecognized parent "%s"\n
 :':+:1:K:Q:[:c:g:m:y:
+:0Ll
 :4\n\vdescription
 :9\n\tkey_field
 :BAD OBJECT
@@ -24485,7 +24482,6 @@ $hRh
 :EXTERNAL TYPE %s\n
 :LBN
 :NAy
-:Pxp
 :QYJ
 :Vlq
 :\n5kKillEaterEventType_Brewmaster_KillsDuringPrimalSplit
@@ -24527,9 +24523,7 @@ $hRh
 :eaI
 :gN(dq
 :mIR
-:pLl
 :parsed on tick %d of %d got %d new commands through command number %d [%s]\n
-:pwp
 :w4v
 ;!;#;-;9;E;S;Y;_;q;{;
 ;"lY7
@@ -24674,6 +24668,7 @@ $hRh
 >>NAVGEN: pass %d/%d: orig tris %d\n
 >>NAVGEN: stage %02d / %02d: 
 >>NAVGEN: stage %02d / %02d: %s, disabled\n
+>CDOTA_Ability_Special_Bonus_Attack_Base_Damage_15
 >FPct Games With Roshan Advantage (Player team killed Roshan more times)
 >HTotal Games With Roshan Advantage (Player team killed Roshan more times)
 >Sem
@@ -24756,13 +24751,12 @@ $hRh
 ?uWS
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
-@08N4
+@08N
 @0pp
 @333?
 @@CDOTA_Item
 @BH]f
 @BoneSetup
-@HPX`hv 
 @Invalid attach type specified for particle effect anim event. Trying to spawn effect '%s' on model %s\n
 @MfKZ
 @Pgl
@@ -38037,6 +38031,7 @@ LOTUS_POOL
 LT[N
 LXKQ
 LY\r5
+L\f0Ll
 L\n\rcontributions
 LabelledDebugHelperDebug
 LadderConnect
@@ -39796,11 +39791,9 @@ P-224
 P-256
 P-384
 P-521
-P08@J@@t
-P08JpLl
-P08N4
+P08J Ml
+P08N
 P1\t98"
-P2@@t
 P5[1
 PAGN_4
 PARALYZE
@@ -39817,7 +39810,7 @@ PARTICLE_REPLACE_SPELL_EFFECT
 PASSABLE
 PATH
 PATHBYADDR
-PAcentaur_khan_war_stomp
+PAmodifier_black_drake_magic_amplification
 PBE-MD2-DES
 PBE-MD2-RC2-64
 PBE-MD5-DES
@@ -40740,8 +40733,6 @@ RUNE_XP
 R\n\fActivityInfo
 R\r1>Vp
 R\vp!y
-R\vp,u
-R\vpl
 R]Di
 Rad2 Deg
 Radiant
@@ -45668,7 +45659,6 @@ Z~wl
 \f]ne3
 \fdhWTh
 \fiaR
-\fp\vPTw
 \ful2
 \fy&3Gl
 \l:ArR
@@ -45883,9 +45873,7 @@ Z~wl
 \n0CMsgClientToGCSurvivorsGameTelemetryDataResponse
 \n0CMsgGCtoGCAssociatedExploiterAccountInfoResponse
 \n0CMsgServerToGCMatchPlayerNeutralItemEquipHistory
-\n0Hl
-\n0vp
-\n0xp
+\n0Ll
 \n1CDOTAClientMsg_AbilitySpecificChannelRequiresHalt
 \n1CDOTAUserMsg_MonsterHunter_InvestigationGameState
 \n1CMsgClientToGCFightingGameAnswerChallengeResponse
@@ -45954,8 +45942,6 @@ Z~wl
 \nLeagueID_t"N\n$CMsgServerToGCGetCheerConfigResponse
 \nPlayerID_t
 \nPlayerID_t"
-\nPvp
-\nPwp
 \nSimulating Entities:\n\n
 \nUnknown reward type '%s' for action '%s' at score '%s'
 \nVisMon: Polling now. (Frequency: %f)\n
@@ -46395,7 +46381,6 @@ Z~wl
 \n\nnpc_dialog
 \n\norder_type
 \n\nother_gold
-\n\np8n
 \n\npackage_id
 \n\nparty_game
 \n\npersona_id
@@ -47168,9 +47153,6 @@ Z~wl
 \n\vwin_percent
 \n\vzoom_amount
 \ngrant_periodic_action '%s' doesn't specify an action to grant
-\np8n
-\npLl
-\npvp
 \nqYu
 \ntM(ie-V
 \nxcg
@@ -47302,7 +47284,6 @@ Z~wl
 \v\vTSG
 \vj0k
 \vjC7
-\vpTw
 ]1h=bfz
 ]FhSD}
 ]GT7]
@@ -47381,7 +47362,6 @@ _xU`u
 _}eOk
 `28)fk
 `54g
-`:pJl
 `:zQF
 `D$daM-l
 `DZG
@@ -47410,7 +47390,6 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBv4
 aD/x
 aDSS
 aECDH
@@ -49408,6 +49387,7 @@ centaur_double_edge
 centaur_hoof_stomp
 centaur_horsepower
 centaur_khan_endurance_aura
+centaur_khan_war_stomp
 centaur_mount
 centaur_rawhide
 centaur_return
@@ -53606,7 +53586,6 @@ hoverposeposition
 howl_duration
 hp_cost
 hp_missing_per_extra_illusion_pct
-hpz@@t
 hr_H
 http request
 http://%s
@@ -55532,7 +55511,6 @@ j <= sizeof(c->iv)
 j"MRX
 j&LQ
 j0ksJ
-j0wp
 j2ty
 j3kg
 jA(U
@@ -57580,7 +57558,6 @@ modifier_black_dragon_dragonhide_aura
 modifier_black_dragon_dragonhide_aura_bonus
 modifier_black_dragon_fireball
 modifier_black_dragon_splash_attack
-modifier_black_drake_magic_amplification
 modifier_black_drake_magic_amplification_aura
 modifier_black_king_bar_immune
 modifier_blessing_potion_dragon
@@ -62369,9 +62346,7 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^4
-p0j@
-p2@@t
+p08@H^
 p2{l
 p4Z3
 p5Z3
@@ -66212,6 +66187,7 @@ quill_stacks
 qx(q
 r$0I
 r-IE
+r0Ll
 r184
 r3A~
 r<\rND
@@ -66224,7 +66200,6 @@ rF6t
 rFC822localPart
 rFur`7\t
 rL[i+
-rPxp
 rRfKR
 rX&O0
 rZ1VwGf5

@@ -158,6 +158,11 @@
  %s%lu (%s0x%lx)\n
  ' ) - 3 G M Q _ c e i w } 
  (%ld unused bits)\n
+ (08@HPXb0It
+ (08@HR0It
+ (08@J0It
+ (0X`hpz0It
+ (20It
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -379,6 +384,7 @@
 ".CMsgSteamLearn_CacheData_Response" 
 ".CMsgSteamLearn_Inference_Response"N
 ".\n,CMsgClientToGCMonsterHunterDevClearInventory"
+"0It
 "2MR
 "3\n!CDOTAUserMsg_TE_DestroyProjectile
 "3\n!CMsgGCStorePurchaseCancelResponse
@@ -1866,38 +1872,39 @@ $hRh
 (0'yX
 (0.1s interval)
 (0x%08X)'??'
-(1Jg
-(50g
+(14g
+(1Hg
+(1Oh
+(1hg
+(56h
 (5Me
 (5jP
-(5og
-(5wg
-(9Ch
-(9Gh
-(9Uh
+(99g
+(9Fh
+(9Jh
+(9dg
 (9yg
 (ACTIVE)
-(AEg
-(AVh
-(Aeh
+(ANg
+(AVg
+(Apg
+(Asg
 (BZq
 (D4D
 (DOTA_INVALID_ORDERS nReason) Return the error string of a failed order.
 (Deprecated: use GetNumConnectedHumanPlayers) Players on a valid team (radiant, dire, or custom*) who haven't abandoned the game
-(E3g
-(E8g
-(EBg
-(EBh
-(EUg
-(Ezg
+(EEh
+(EWg
+(EYh
 (HSCRIPT hTarget) Determine whether an issued command on a target is valid.
 (HSCRIPT hTarget) Return the error string of a failed command on a target.
 (HSCRIPT hTarget, Vector vLocation) Projectile has collided with a given target or reached its destination (target is invalid).
 (HSCRIPT hTarget, Vector vLocation, int nHandle) Projectile has collided with a given target or reached its destination (target is invalid).
 (HSCRIPT hTarget, Vector vLocation, table kv) Projectile has collided with a given target or reached its destination (target is invalid).
 (Has breakpieces or commands)
-(IFh
-(M5h
+(IIh
+(MIg
+(MYg
 (NAV IGNORED)
 (NAV_IGNORED)
 (NONE)
@@ -1905,27 +1912,28 @@ $hRh
 (Output drawable)
 (Preview/Unreleased) Gets the player's custom game account record, as it looked at the start of this session
 (Preview/Unreleased) Sets a callback to handle saving custom game account records (callback is passed a Player ID and should return a flat simple table)
-(Q5g
-(QIg
-(QXh
-(QZh
-(Qrg
+(Qnh
 (SERVER) Inventory for account (%d):\n
 (Server) 
-(U1g
 (U1h
-(U6g
-(UAh
-(Ubh
-(Ukh
+(UBg
+(UCh
+(UDh
+(UHh
+(UUh
+(Uho
 (Unknown error)
+(Uug
 (Vector vLocation) Determine whether an issued command on a location is valid.
 (Vector vLocation) Projectile is actively moving.
 (Vector vLocation) Return the error string of a failed command on a location.
 (Vector vLocation, table kv ) Projectile is actively moving.
 (Vector vOrigin, float flRadius )
 (WIPE AND EXTRACT)
-(YEh
+(YTh
+(YVh
+(Yih
+(Yng
 (ZdOt\n&
 (\f"#\n!CDOTABroadcastMsg_LANLobbyRequest"
 (\f";\n%CDOTAUserMsg_CustomHudElement_Destroy
@@ -2524,8 +2532,9 @@ $hRh
 (\v2\v.CMsgVector"l\n
 (\v2\v.CMsgVector"o\n)CDOTAUserMsg_UpdateLinearProjectileCPData
 (\v2\v.CMsgVector*
-(aTh
-(aYh
+(aAg
+(aSh
+(ahg
 (b IncludePregameTime b IncludeNegativeTime) Returns the actual DOTA in-game clock time.
 (bSafeToLeave) - Mark this game as safe to leave.
 (bool RemovePositiveBuffs, bool RemoveDebuffs, bool BuffsCreatedThisFrameOnly, bool RemoveStuns, bool RemoveExceptions)
@@ -2533,11 +2542,12 @@ $hRh
 (bool bSpent) Runs when item's charge count changes. bSpent is true when the charge count change is coming from SpendCharge.
 (d4t8
 (default)
-(eAg
-(eDh
-(eNh
-(eRg
-(ebg
+(e9g
+(eGh
+(eKg
+(eQh
+(eZh
+(eqg
 (fS{ggRcjh
 (flMinimapCreepIconScale) - Scale the creep icons on the minimap.
 (flMinimapHeroIconScale) - Scale the hero minimap icons on the minimap.
@@ -2549,8 +2559,12 @@ $hRh
 (hInflictor, hAttacker, flDamage) - Allocate a damageinfo object, used as an argument to TakeDamage(). Call DestroyDamageInfo( hInfo ) to free the object.
 (h`H1pqA
 (i/Al
-(iSh
-(iZg
+(i4h
+(iGg
+(iMh
+(iPg
+(iUg
+(idg
 (index, bDestroyImmediately, bStatusEffect, priority, bHeroEffect, bOverheadEffect
 (int iIndex, int iPoint, Vector vecPosition)
 (int index, bool bDestroyImmediately) - Destroy a particle, if bDestroyImmediately destroy it without playing end caps.
@@ -2559,12 +2573,9 @@ $hRh
 (int nPct)
 (int nProjectileHandle) Projectile is actively moving.
 (int targets [0=all, 1=enemy, 2=ally], bool bNow, bool bPermanent, bool bDeath)
-(iog
-(iqg
 (jvg;
-(mFg
-(mSg
-(mjh
+(mAh
+(mMg
 (nMusicStatus, flIntensity) - Set the music status for this player, note this will only really apply if dota_music_battle_enable is off.
 (nPlayerID)
 (nPlayerID, eEvent, nActionID)
@@ -2576,29 +2587,25 @@ $hRh
 (playerID, heroClassName, gold, XP) - replaces the player's hero with a new one of the specified class, gold and XP
 (playerID, heroClassName, gold, XP) - replaces the player's hero with a new one of the specified class, gold and XP, without transferring items/abilities if same hero
 (position, radius, checkFullTreeRadius?) Checks whether there are any trees overlapping the given point
-(q9h
-(qCg
-(qPh
+(q3g
+(qrg
 (quaternion,quaternion,float) very basic interpolation of v0 to v1 over t on [0,1]
 (quaternion,vector,float) rotates a quaternion by the specified angle around the specified vector axis
-(qyg
-(uCh
-(uDg
-(uEg
-(uGh
-(uWh
+(qzg
+(uFh
+(uJh
+(uXh
+(ubh
 (update disabled)
-(uwg
 (vQF
 (vector,float) constructs a quaternion representing a rotation by angle around the specified vector axis
 (vector,vector) cross product between two vectors
 (vector,vector,float) lerp between two vectors by a float factor returning new vector
 (vector,vector,float) very basic interpolation of v0 to v1 over t on [0,1]
 (wMww
-(yQh
-(yVh
-(yag
-(ypg
+(y7g
+(yVg
+(yjg
 )!)#)?)G)])e)i)o)u)
 ).CMsgSteamLearn_InferenceMetadata_Request
 )Ck?B
@@ -3018,6 +3025,7 @@ $hRh
 ,3g4
 ,7~5d
 ,ARu@y6
+,PUl
 ,Reason=
 ,ShfPQ
 ,ZFDGn
@@ -5670,6 +5678,8 @@ $hRh
 .?AV?$CModifierFactory@VCDOTA_Modifier_Foragers_Kit_Thinker@@@@
 .?AV?$CModifierFactory@VCDOTA_Modifier_ForceStaff@@@@
 .?AV?$CModifierFactory@VCDOTA_Modifier_Force_Boots@@@@
+.?AV?$CModifierFactory@VCDOTA_Modifier_Foreboding2@@@@
+.?AV?$CModifierFactory@VCDOTA_Modifier_Foreboding@@@@
 .?AV?$CModifierFactory@VCDOTA_Modifier_ForestTrollHighPriest_HealAmp@@@@
 .?AV?$CModifierFactory@VCDOTA_Modifier_ForestTrollHighPriest_HealAmp_Bonus@@@@
 .?AV?$CModifierFactory@VCDOTA_Modifier_ForestTrollHighPriest_HealAutocast@@@@
@@ -16662,6 +16672,8 @@ $hRh
 .?AVCDOTA_Modifier_Foragers_Kit_Thinker@@
 .?AVCDOTA_Modifier_ForceStaff@@
 .?AVCDOTA_Modifier_Force_Boots@@
+.?AVCDOTA_Modifier_Foreboding2@@
+.?AVCDOTA_Modifier_Foreboding@@
 .?AVCDOTA_Modifier_ForestTrollHighPriest_HealAmp@@
 .?AVCDOTA_Modifier_ForestTrollHighPriest_HealAmp_Bonus@@
 .?AVCDOTA_Modifier_ForestTrollHighPriest_HealAutocast@@
@@ -23498,6 +23510,7 @@ $hRh
 0123456789
 02V8[
 05=k
+08@J0It
 08bX
 09,h
 0;Q5[
@@ -23767,6 +23780,7 @@ $hRh
 2..CDOTAUserMsg_MadstoneAlert.EMadstoneAlertType
 2..CMvpData.MvpDatum.MvpAccolade.MvpAccoladeType
 20.CMsgClientToGCGetBattleReportResponse.EResponse
+20It
 20t\f
 21.CMsgClientToGCDotaLabsFeedbackResponse.EResponse"
 21.CMsgClientToGCUnpackBundleResponse.EUnpackBundle
@@ -23834,7 +23848,6 @@ $hRh
 2?.CMsgClientToGCMonsterHunterDevGrantMaterialsResponse.EResponse"u\n\tEResponse
 2?.CMsgClientToGCRemoveItemAttributeResponse.ERemoveItemAttribute
 2@.CMsgClientToGCMonsterHunterDevModifyHeroCodexResponse.EResponse"u\n\tEResponse
-2@Ol
 2C.CMsgClientToGCOverworldGetDynamicImageResponse.EDynamicImageFormat
 2C.CMsgServerToGCRequestPlayerRecentAccomplishmentsResponse.EResponse
 2E.CMsgClientToGCOverworldRequestTokensNeededByFriendResponse.EResponse
@@ -23950,8 +23963,6 @@ $hRh
 2\r.DOTA_GC_TEAM:
 2\r.ELeaguePhase
 2\rlhp
-2\vp4
-2\vp|w
 2^pV
 2_bot
 2_mid
@@ -23964,6 +23975,7 @@ $hRh
 2nIg
 2ndry
 2p"6
+2pTl
 2prB
 3%3+3/353A3G3[3_3g3k3s3y3
 31tPR
@@ -24061,7 +24073,6 @@ $hRh
 3|rN>
 4)#bH
 4)m1
-4,Ac
 474E4U4W4c4i4m4
 4<Td
 4@AA
@@ -24349,21 +24360,21 @@ $hRh
 7sAP'
 7wKR
 7zRQ
-8%cg
+8%eg
 8+Qw
 80F2<
 82\n:XPH
 851Pe
-85vg
 8<pl
 8= zp
 8A6j
+8Avg
 8DemoFile
 8GZS
-8MTg
+8IOg
 8SIffK5W
 8TZvrv<
-8ULg
+8Ymh
 8\n0series_current_selection_priority_used_coin_toss
 8\n0ultimate_scepter_consumed_alchemist_bonus_health
 8\n3kKillEaterEventType_Broodmother_SpiderlingHeroKills
@@ -24413,20 +24424,20 @@ $hRh
 8\n\rneutral_items
 8\n\rready_members
 8\n\rsubscribe_msg
-8\rLg
 8\v8!83858A8G8K8S8W8_8e8o8q8}8
 8]Vc2
+8afg
 8ca1
 8dS2
 8pe7?
 8q-S*]X
+8qyg
 8sOy
-8uKg
 9#9%9)9/9=9A9M9[9k9y9}9
 9)PF
 9)jx
 9*VU
-92dg
+9.gg
 95\r9{
 9966
 9:dzGN
@@ -24470,12 +24481,14 @@ $hRh
 9dYeiJ
 9fkj
 9g3|3\rX
+9ngg
 9o!5
 9oB#
 9q6\r#m
 9r#xV
 : unrecognized parent "%s"\n
 :':+:1:K:Q:[:c:g:m:y:
+:0It
 :4\n\vdescription
 :9\n\tkey_field
 :BAD OBJECT
@@ -24524,6 +24537,7 @@ $hRh
 :eaI
 :gN(dq
 :mIR
+:pTl
 :parsed on tick %d of %d got %d new commands through command number %d [%s]\n
 :w4v
 ;!;#;-;9;E;S;Y;_;q;{;
@@ -24752,13 +24766,12 @@ $hRh
 ?uWS
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
-@08N
+@08N$
 @0pp
 @333?
 @@CDOTA_Item
 @BH]f
 @BoneSetup
-@HPX`hvp
 @Invalid attach type specified for particle effect anim event. Trying to spawn effect '%s' on model %s\n
 @MfKZ
 @Pgl
@@ -24837,7 +24850,6 @@ A<fP
 A>x8
 A@d0I
 AA Compromise
-AA:p
 AABBDirection
 AACompromise
 ABILITY
@@ -34686,7 +34698,6 @@ GuildContractID_t
 GuildTagDecoration
 Gz,J
 G{Ol
-H)do
 H.aR
 H0+G+R
 H5gRR-
@@ -34797,7 +34808,6 @@ HParticleSystemDefinition
 HParticleSystemDefinitionStrong
 HPostProcessing
 HPostProcessingStrong
-HQdo
 HRegisters a data desc (or finds a data desc if it's already registered).
 HRenderTexture
 HRenderTextureStrong
@@ -36394,6 +36404,7 @@ HideWorldLayerAndDestroyEntities
 Hides this layer
 Hierarchically spawn an entity group from a set of spawn tables.
 HighlightGeneral
+Higo
 Hit %s with iRecord=%u\n
 Hit %s\nposition %.2f, %.2f, %.2f\nangles %.2f, %.2f, %.2f\n
 Hit Trace: %s
@@ -36435,7 +36446,6 @@ Hp)X?
 Hq,r/f
 HqI9x
 Ht4qw
-Hudo
 HullDesc_tiny
 HullDesc_tiny_centered
 HullParams
@@ -38035,6 +38045,7 @@ LOTUS_POOL
 LT[N
 LXKQ
 LY\r5
+L\fpTl
 L\n\rcontributions
 LabelledDebugHelperDebug
 LadderConnect
@@ -39794,9 +39805,14 @@ P-224
 P-256
 P-384
 P-521
-P08N
+P08@J0It
+P08J`Ul
+P08N$
 P1\t98"
+P20It
 P5[1
+P6p"
+P:0It
 PACDOTA_Modifier_BlackDrake_MagicAmplification_Aura
 PAGN_4
 PARALYZE
@@ -40732,11 +40748,9 @@ RUNE_STATUS_MISSING
 RUNE_STATUS_UNKNOWN
 RUNE_WATER
 RUNE_XP
-R\fp4
 R\n\fActivityInfo
 R\r1>Vp
 R\vp!y
-R\vp|w
 R]Di
 Rad2 Deg
 Radiant
@@ -45185,7 +45199,7 @@ WATCHER
 WAVEFORM
 WAVEOFTERROR
 WD%g"0Q-)
-WDm_bHasShard
+WDm_vecTalents
 WEBAPI_PARAM_STEAMID_ACCOUNTID
 WEEKEND_TOURNEY
 WHEELOFWONDER
@@ -45539,6 +45553,7 @@ Z"T-47\f8
 Z#Pe
 Z+5AS
 Z0000
+Z0It
 Z0zd
 Z7"c
 Z72\v
@@ -45658,11 +45673,16 @@ Z~wl
 \f<<0A1pq
 \fCEntityIndex"
 \fKS1
+\fNJd
+\fPUl
+\fPVv
 \fW9c
 \fXu"L
 \f]ne3
 \fdhWTh
 \fiaR
+\flKd
+\fp\vPD
 \ful2
 \fy&3Gl
 \l:ArR
@@ -45877,6 +45897,7 @@ Z~wl
 \n0CMsgClientToGCSurvivorsGameTelemetryDataResponse
 \n0CMsgGCtoGCAssociatedExploiterAccountInfoResponse
 \n0CMsgServerToGCMatchPlayerNeutralItemEquipHistory
+\n0It
 \n1CDOTAClientMsg_AbilitySpecificChannelRequiresHalt
 \n1CDOTAUserMsg_MonsterHunter_InvestigationGameState
 \n1CMsgClientToGCFightingGameAnswerChallengeResponse
@@ -47156,6 +47177,7 @@ Z~wl
 \n\vwin_percent
 \n\vzoom_amount
 \ngrant_periodic_action '%s' doesn't specify an action to grant
+\npTl
 \nqYu
 \ntM(ie-V
 \r!\r+\r-\r=\r?\rO\rU\ri\ry\r
@@ -47362,21 +47384,22 @@ _tools_event_desc
 _turbo
 _xU`u
 _}eOk
+`20It
 `28)fk
-`600
 `:zQF
+`AXg
 `D$daM-l
 `DZG
-`EQh
+`EKg
 `H(hqA1p
 `ITS
+`Igo
 `VX:H
 `\n\rvector_values
-`efo
+`a6h
 `fPw.\vM
 `h9T~
 `o_je
-`y4g
 `yNT
 a null shared library handle was used
 a trigger_changelevel doesn't have a map
@@ -47394,6 +47417,7 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
+aBv$
 aD/x
 aDSS
 aECDH
@@ -50961,6 +50985,8 @@ dota_empty_ability
 dota_enemy_bonus
 dota_fogofwartempviewers
 dota_force_portrait_update
+dota_foreboding_modifier
+dota_foreboding_modifier2
 dota_game_state_change
 dota_gamemanager
 dota_gamerules
@@ -53120,9 +53146,8 @@ h*Ax
 h0XB
 h2Wl
 h2n_\
-h5!h
 h5N.
-h9,h
+hA1h
 hActivator
 hAggroTarget
 hAttackTarget
@@ -53140,6 +53165,7 @@ hCourier
 hCriteriaTable
 hDropData
 hEM&!
+hE`h
 hEnt
 hEntity to follow, bool bBoneMerge
 hEntity to follow, string BoneOrAttachName
@@ -53151,10 +53177,13 @@ hFcg
 hFunction
 hGoal
 hHero
+hILg
 hInflictor
 hInfo
 hItem
 hJxRX@_
+hM$h
+hM)h
 hModel
 hModifierTable
 hN2D
@@ -53165,7 +53194,6 @@ hPathTable
 hPlayer
 hProjectileID
 hPurchaser
-hQ)h
 hQuery != k_UGCQueryHandleInvalid
 hQueryTable
 hRB.
@@ -53188,8 +53216,6 @@ hX@e
 h\n"unlocked_chat_wheel_message_ranges
 h\n"unlocked_ping_wheel_message_ranges
 h\n\vHeroAbility
-h\rIg
-h]1h
 h`Zr
 haha
 hairball
@@ -53591,6 +53617,8 @@ hoverposeposition
 howl_duration
 hp_cost
 hp_missing_per_extra_illusion_pct
+hpz0It
+hq$h
 hr_H
 http request
 http://%s
@@ -53598,6 +53626,7 @@ http://localhost%s
 https proxy request
 https://api.steampowered.com/I%sService/%s/v%u
 https://cdn.beta.steampowered.com/apps/dota2/images/crownfall/comic_part1/english
+hu/h
 hud_ping
 hud_timer_show_tutorial_timer
 hull
@@ -53615,7 +53644,6 @@ huskar_inner_fire
 huskar_inner_vitality
 huskar_life_break
 hvL&
-hy"h
 hype_loc
 hypnotized
 h|gg
@@ -54501,6 +54529,7 @@ invuln_duration
 invuln_vision_radius
 invulnerability_on_creation
 ioctlsocket
+ip@c
 ipsec3
 ipsec4
 ipsecEndSystem
@@ -55516,6 +55545,7 @@ j <= (int)sizeof(ctx->key)
 j <= sizeof(c->iv)
 j"MRX
 j&LQ
+j0It
 j0ksJ
 j2ty
 j3kg
@@ -62353,7 +62383,9 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^
+p08@H^$
+p0j0
+p20It
 p2{l
 p4Z3
 p5Z3
@@ -66194,11 +66226,11 @@ quill_stacks
 qx(q
 r$0I
 r-IE
+r0'w
 r184
 r3A~
 r<\rND
 r@33
-r@Ol
 rAGW
 rB2pBB
 rC3rp
@@ -66213,7 +66245,6 @@ rZ1VwGf5
 rZPM
 r\n\nHuntReward
 r\vDi
-r\vp4
 rad2deg
 radar_cooldown
 radial_count
@@ -66909,6 +66940,7 @@ round_end
 round_start
 routing
 routing_app_id
+rpTl
 rsa not implemented
 rsa operations not supported
 rsa routines
@@ -71473,9 +71505,9 @@ ynormal
 yyen
 z(ov
 z/B,9d
+z0It
 z<d2
 z>Hz
-z>Ps7
 zF):O4
 zFar
 zG2m8

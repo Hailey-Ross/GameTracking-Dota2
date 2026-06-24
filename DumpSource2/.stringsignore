@@ -28888,6 +28888,7 @@ bonus_spell_lifesteal
 bonus_spell_resist
 bonus_stack_damage
 bonus_stat
+bonus_stat_uni
 bonus_stats
 bonus_status_resist_night
 bonus_status_resistance
@@ -52736,6 +52737,7 @@ m_vecActionDefinitions
 m_vecActionIDSlots
 m_vecActivityModifiers
 m_vecActorMap
+m_vecAdditionalClientsideWearables
 m_vecAdditionalEnemyEvents
 m_vecAdditionalEnemySpawners
 m_vecAdditionalMinimapLayers

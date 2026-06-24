@@ -158,13 +158,13 @@
  %s%lu (%s0x%lx)\n
  ' ) - 3 G M Q _ c e i w } 
  (%ld unused bits)\n
- (08@HPX`j 
- (08@HPXb0Tt
- (08@HPZ 
- (08@HR0Tt
- (08@J0Tt
- (0X`hpz0Tt
- (20Tt
+ (08@HPX`j0
+ (08@HPXb@Tt
+ (08@HPZ0
+ (08@HR@Tt
+ (08@J0
+ (08@J@Tt
+ (0X`hpz@Tt
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -386,7 +386,6 @@
 ".CMsgSteamLearn_CacheData_Response" 
 ".CMsgSteamLearn_Inference_Response"N
 ".\n,CMsgClientToGCMonsterHunterDevClearInventory"
-"0Tt
 "2MR
 "3\n!CDOTAUserMsg_TE_DestroyProjectile
 "3\n!CMsgGCStorePurchaseCancelResponse
@@ -3013,6 +3012,7 @@ $hRh
 ,3g4
 ,7~5d
 ,ARu@y6
+,P4w
 ,Reason=
 ,ShfPQ
 ,ZFDGn
@@ -23498,9 +23498,9 @@ $hRh
 0123456789
 02V8[
 05=k
-08@HR 
-08@J0Tt
-08B 
+08@HR0
+08@J@Tt
+08B0
 08bX
 09,h
 0;Q5[
@@ -23770,7 +23770,6 @@ $hRh
 2..CDOTAUserMsg_MadstoneAlert.EMadstoneAlertType
 2..CMvpData.MvpDatum.MvpAccolade.MvpAccoladeType
 20.CMsgClientToGCGetBattleReportResponse.EResponse
-20Tt
 20t\f
 21.CMsgClientToGCDotaLabsFeedbackResponse.EResponse"
 21.CMsgClientToGCUnpackBundleResponse.EUnpackBundle
@@ -23838,13 +23837,13 @@ $hRh
 2?.CMsgClientToGCMonsterHunterDevGrantMaterialsResponse.EResponse"u\n\tEResponse
 2?.CMsgClientToGCRemoveItemAttributeResponse.ERemoveItemAttribute
 2@.CMsgClientToGCMonsterHunterDevModifyHeroCodexResponse.EResponse"u\n\tEResponse
+2@Tt
 2C.CMsgClientToGCOverworldGetDynamicImageResponse.EDynamicImageFormat
 2C.CMsgServerToGCRequestPlayerRecentAccomplishmentsResponse.EResponse
 2E.CMsgClientToGCOverworldRequestTokensNeededByFriendResponse.EResponse
 2I y)
 2J.CMsgClientToGCMonsterHunterDevClaimInvestigationRewardsResponse.EResponse"u\n\tEResponse
 2L.CMsgClientToGCMonsterHunterRequestMaterialsNeededByFriendResponse.EResponse
-2P\ro
 2Tm=#
 2Uiwp"9
 2Zq)
@@ -23954,6 +23953,7 @@ $hRh
 2\r.DOTA_GC_TEAM:
 2\r.ELeaguePhase
 2\rlhp
+2\vpl
 2^pV
 2_bot
 2_mid
@@ -23966,7 +23966,6 @@ $hRh
 2nIg
 2ndry
 2p"6
-2p_l
 2prB
 3%3+3/353A3G3[3_3g3k3s3y3
 31tPR
@@ -24357,6 +24356,7 @@ $hRh
 851Pe
 8<pl
 8= zp
+8@J0
 8A6j
 8DemoFile
 8Eig
@@ -24475,7 +24475,6 @@ $hRh
 9r#xV
 : unrecognized parent "%s"\n
 :':+:1:K:Q:[:c:g:m:y:
-:0Tt
 :4\n\vdescription
 :9\n\tkey_field
 :BAD OBJECT
@@ -24483,7 +24482,6 @@ $hRh
 :EXTERNAL TYPE %s\n
 :LBN
 :NAy
-:P2w
 :QYJ
 :Vlq
 :\n5kKillEaterEventType_Brewmaster_KillsDuringPrimalSplit
@@ -24753,13 +24751,15 @@ $hRh
 ?uWS
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
-@08N$
+@08N4
 @0pp
 @333?
-@:p2w
+@6P4
+@6p3
 @@CDOTA_Item
 @BH]f
 @BoneSetup
+@HPX`hv 
 @Invalid attach type specified for particle effect anim event. Trying to spawn effect '%s' on model %s\n
 @MfKZ
 @Pgl
@@ -38035,7 +38035,6 @@ LOTUS_POOL
 LT[N
 LXKQ
 LY\r5
-L\fp_l
 L\n\rcontributions
 LabelledDebugHelperDebug
 LadderConnect
@@ -39794,14 +39793,13 @@ P-224
 P-256
 P-384
 P-521
-P08@J0Tt
-P08J``l
-P08N$
+P08@J@Tt
+P08Jp`l
+P08N4
 P1\t98"
-P20Tt
+P2@Tt
 P5[1
-P6p-
-P:0Tt
+P:@Tt
 PAGN_4
 PARALYZE
 PARAMETERS
@@ -40472,7 +40470,6 @@ Q*hd
 Q/xtJ2
 Q4EX
 Q6p]
-Q7<j
 Q8>q=
 Q?33s?
 QAngle
@@ -40741,6 +40738,7 @@ RUNE_XP
 R\n\fActivityInfo
 R\r1>Vp
 R\vp!y
+R\vpl
 R]Di
 Rad2 Deg
 Radiant
@@ -45490,7 +45488,7 @@ XYD%
 X\n summary_description_embed_values
 X\n\rkilling_blows
 X\tQo
-X`hr 
+X`hr0
 Xbox VDP is not supported on this platform.
 Xd3h
 XfJ7
@@ -45545,10 +45543,10 @@ Z"T-47\f8
 Z#Pe
 Z+5AS
 Z0000
-Z0Tt
 Z0zd
 Z7"c
 Z72\v
+Z@Tt
 ZH^r
 ZL9L
 ZLIB
@@ -45665,15 +45663,12 @@ Z~wl
 \f<<0A1pq
 \fCEntityIndex"
 \fKS1
-\fNUd
-\fPav
 \fW9c
 \fXu"L
 \f]ne3
 \fdhWTh
 \fiaR
-\flVd
-\fp\vPD
+\fp\vPT
 \ful2
 \fy&3Gl
 \l:ArR
@@ -45888,7 +45883,6 @@ Z~wl
 \n0CMsgClientToGCSurvivorsGameTelemetryDataResponse
 \n0CMsgGCtoGCAssociatedExploiterAccountInfoResponse
 \n0CMsgServerToGCMatchPlayerNeutralItemEquipHistory
-\n0Tt
 \n1CDOTAClientMsg_AbilitySpecificChannelRequiresHalt
 \n1CDOTAUserMsg_MonsterHunter_InvestigationGameState
 \n1CMsgClientToGCFightingGameAnswerChallengeResponse
@@ -45955,7 +45949,6 @@ Z~wl
 \nLeagueID_t"
 \nLeagueID_t"M\n;CMsgServerToGCCloseCompendiumInGamePredictionVotingResponse
 \nLeagueID_t"N\n$CMsgServerToGCGetCheerConfigResponse
-\nP4w
 \nPlayerID_t
 \nPlayerID_t"
 \nSimulating Entities:\n\n
@@ -46397,6 +46390,7 @@ Z~wl
 \n\nnpc_dialog
 \n\norder_type
 \n\nother_gold
+\n\npLn
 \n\npackage_id
 \n\nparty_game
 \n\npersona_id
@@ -47170,6 +47164,7 @@ Z~wl
 \n\vzoom_amount
 \ngrant_periodic_action '%s' doesn't specify an action to grant
 \np4w
+\npLn
 \nqYu
 \ntM(ie-V
 \r!\r+\r-\r=\r?\rO\rU\ri\ry\r
@@ -47376,10 +47371,9 @@ _tools_event_desc
 _turbo
 _xU`u
 _}eOk
-`20Tt
 `28)fk
-`606
-`6P7
+`2@Tt
+`6P5
 `92h
 `:zQF
 `D$daM-l
@@ -47412,7 +47406,7 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBv$
+aBv4
 aD/x
 aDSS
 aECDH
@@ -53616,7 +53610,7 @@ hoverposeposition
 howl_duration
 hp_cost
 hp_missing_per_extra_illusion_pct
-hpz0Tt
+hpz@Tt
 hq7h
 hr_H
 http request
@@ -55543,10 +55537,10 @@ j <= (int)sizeof(ctx->key)
 j <= sizeof(c->iv)
 j"MRX
 j&LQ
-j0Tt
 j0ksJ
 j2ty
 j3kg
+j@Tt
 jA(U
 jB#W
 jHLy
@@ -62380,13 +62374,14 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^$
-p0j0
-p20Tt
+p08@H^4
+p0j@
+p2@Tt
 p2{l
 p4Z3
 p5Z3
 p5\nL,
+p60\f
 p618
 p@0pqE5tsO?|1
 pAbilityName1
@@ -66223,10 +66218,10 @@ quill_stacks
 qx(q
 r$0I
 r-IE
-r02w
 r184
 r3A~
 r<\rND
+r@2w
 r@33
 rAGW
 rB2pBB
@@ -66937,7 +66932,6 @@ round_end
 round_start
 routing
 routing_app_id
-rp_l
 rsa not implemented
 rsa operations not supported
 rsa routines
@@ -71502,9 +71496,9 @@ ynormal
 yyen
 z(ov
 z/B,9d
-z0Tt
 z<d2
 z>Hz
+z@Tt
 zF):O4
 zFar
 zG2m8

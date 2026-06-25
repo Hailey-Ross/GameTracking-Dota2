@@ -167,8 +167,8 @@
  (%lu = 0x%lx)\n
  (%u = 0x%x)\n
  (+%d more due to usercommand delivery)
- (08@HPX`j@
- (08@HPZ@
+ (08@HPXb 
+ (0X`hpz 
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -1949,9 +1949,11 @@
 #DOTA_DarkCarnival_Checkout_InsufficientCoins
 #DOTA_DarkCarnival_EncounterStatus_Lockpicking
 #DOTA_DarkCarnival_EncounterStatus_SlarkBreakout
+#DOTA_DarkCarnival_EventTitle
 #DOTA_DarkCarnival_FortuneTeller_TokensReceived
 #DOTA_DarkCarnival_InventoryPicker_Title
 #DOTA_DarkCarnival_ItemRecieved_SeeingStone:f
+#DOTA_DarkCarnival_MidnightRun
 #DOTA_DarkCarnival_OverworldMap_Act1_StagesComplete
 #DOTA_DarkCarnival_Overworld_Active
 #DOTA_DarkCarnival_Overworld_SetActive
@@ -1977,9 +1979,11 @@
 #DOTA_DarkCarnival_Store_BuyTogether_Pack_4
 #DOTA_DarkCarnival_Store_BuyTogether_Pack_All
 #DOTA_DarkCarnival_Tarot_%s
+#DOTA_DarkCarnival_TicketsReceived
 #DOTA_DarkCarnival_TooltipOverworldHero_Heading_%d
 #DOTA_DarkCarnival_TooltipOverworldPath_Requirement_Token:f
 #DOTA_Dark_Carnival_CandyworksDisabled
+#DOTA_Dark_Carnival_Encounter_Generic_TokensReceivedPopupDesc
 #DOTA_Dark_Carnival_FortuneTellerDisabled
 #DOTA_DemoModeInvite
 #DOTA_DemoModeInvite_Party
@@ -7029,57 +7033,60 @@ $hRh
 (0'yX
 (0.1s interval)
 (0x%08X)'??'
-(1Cp
-(1do
-(1hp
+(16p
+(1Bo
+(1Mo
+(1Qo
+(1Wp
+(1dp
+(1io
 (1ip
-(1xo
-(1xp
-(4@27
-(51p
+(1no
 (56o
-(58o
 (5Me
+(5do
+(5fo
 (5jP
-(92p
-(9Io
-(9Qo
-(9so
+(5vp
+(91p
+(9Ap
+(9Dp
+(9Oo
+(9go
+(9gp
 (?333?DOTAFrostivus2024RecipeSelected
-(A7o
+(AAo
 (ACTIVE)
-(AEo
-(AUo
-(Adp
-(Aep
-(Alp
+(ACp
+(ATp
+(Ajp
 (App Id to retrieve published files from.
-(Auo
-(Awp
 (BZq
 (CLIENT) Inventory:\n
 (Client) 
 (D4D
 (DOTA_INVALID_ORDERS nReason) Return the error string of a failed order.
-(EJp
-(EWp
-(Ebo
+(EOp
+(ERo
+(EUo
+(Ebp
+(Ehp
+(Eop
+(Evo
+(Ezp
 (Fade Removed: [%d,%d,%d,%d])\n
 (HSCRIPT hTarget) Determine whether an issued command on a target is valid.
 (HSCRIPT hTarget) Return the error string of a failed command on a target.
-(I6p
 (I?Value@External@v8@@QEBAPEAXXZ
 (ID of the Cloud file to get details for.
 (IImageSource)
-(IKp
-(Igo
+(IXp
+(Iho
 (Interp Ready=%s)
-(Iyo
-(MDp
-(Mqo
+(Iwp
 (NONE)
-(Qpo
-(Qwo
+(QPo
+(Qtp
 (SST) Disconnecting for the purpose of editing %s\n
 (SST) Disconnecting for the purpose of removing all SST data from vpk\n
 (SST) Moving %s to %s\n
@@ -7087,19 +7094,15 @@ $hRh
 (SST) Zipping %s (%d files)\n
 (Text description for the published file.
 (U1h
-(U5o
-(Ujp
+(UWo
+(UXo
 (Unknown error)
-(Uvp
-(Uyp
 (VectorWS vLocation) Determine whether an issued command on a location is valid.
 (VectorWS vLocation) Return the error string of a failed command on a location.
 (WIPE AND EXTRACT)
-(Y8p
-(YIp
-(Ybp
-(Ytp
-(Yup
+(YCo
+(YFo
+(Yap
 (ZdOt\n&
 (\f"#\n!CDOTABroadcastMsg_LANLobbyRequest"
 (\f"#\n!CMsgClientToGCEmoticonDataRequest"Q\n
@@ -7941,55 +7944,65 @@ $hRh
 (\v2\v.CMsgVector"l\n
 (\v2\v.CMsgVector"o\n)CDOTAUserMsg_UpdateLinearProjectileCPData
 (\v2\v.CMsgVector*
-(azp
+(apo
 (b IncludePregameTime b IncludeNegativeTime) Returns the actual DOTA in-game clock time.
 (connected)
 (d4t8
 (default)
-(e1p
-(eVp
-(eao
-(ejo
+(e6o
+(epp
 (fS{ggRcjh
 (flTime, bInformClients)
 (from angle, to angle, time) - Spherical lerp of angle from->to based on time
 (h`H1pqA
 (i/Al
-(ihp
+(iCp
 (index, bDestroyImmediately, bStatusEffect, priority, bHeroEffect, bOverheadEffect
 (int iIndex, int iPoint, Vector vecPosition)
 (int index, bool bDestroyImmediately) - Destroy a particle, if bDestroyImmediately destroy it without playing end caps.
 (int nFXIndex, int nPoint, vOrigin, qAngles)
 (int nFXIndex, int nPoint, vOrigin, vForward)
+(iup
 (jvg;
-(m2p
-(map
+(m2o
+(mBo
+(mQp
+(mRp
+(mYp
+(mbo
+(mdp
 (memory)
+(mio
+(mnp
+(mrp
 (needs match)
 (no controller?)
 (parent %d)
 (partial match ok)
-(qGo
-(qeo
-(qmo
-(qsp
+(q7p
+(qDp
+(qOo
+(qlo
 (quaternion,quaternion,float) very basic interpolation of v0 to v1 over t on [0,1]
 (quaternion,vector,float) rotates a quaternion by the specified angle around the specified vector axis
-(uQo
-(uUp
+(qvp
+(u8p
+(uTo
+(ufo
+(uip
+(ujo
+(ukp
+(umo
 (update disabled)
-(uto
-(uxo
 (vQF
 (vector,float) constructs a quaternion representing a rotation by angle around the specified vector axis
 (vector,vector) cross product between two vectors
 (vector,vector,float) lerp between two vectors by a float factor returning new vector
 (vector,vector,float) very basic interpolation of v0 to v1 over t on [0,1]
 (wMww
-(y8o
-(yFo
-(ydo
-(yvo
+(y1p
+(yMo
+(yzp
 ) == false\n
 )!)#)?)G)])e)i)o)u)
 )#DOTA_Hero_Selection_CaptainsMode_TheyBan
@@ -12666,8 +12679,6 @@ $hRh
 .?AV?$CModifierFactory@VCDOTA_Modifier_Foragers_Kit_Thinker@@@@
 .?AV?$CModifierFactory@VCDOTA_Modifier_ForceStaff@@@@
 .?AV?$CModifierFactory@VCDOTA_Modifier_Force_Boots@@@@
-.?AV?$CModifierFactory@VCDOTA_Modifier_Foreboding2@@@@
-.?AV?$CModifierFactory@VCDOTA_Modifier_Foreboding@@@@
 .?AV?$CModifierFactory@VCDOTA_Modifier_ForestTrollHighPriest_HealAmp@@@@
 .?AV?$CModifierFactory@VCDOTA_Modifier_ForestTrollHighPriest_HealAmp_Bonus@@@@
 .?AV?$CModifierFactory@VCDOTA_Modifier_ForestTrollHighPriest_HealAutocast@@@@
@@ -25417,8 +25428,6 @@ $hRh
 .?AVCDOTA_Modifier_Foragers_Kit_Thinker@@
 .?AVCDOTA_Modifier_ForceStaff@@
 .?AVCDOTA_Modifier_Force_Boots@@
-.?AVCDOTA_Modifier_Foreboding2@@
-.?AVCDOTA_Modifier_Foreboding@@
 .?AVCDOTA_Modifier_ForestTrollHighPriest_HealAmp@@
 .?AVCDOTA_Modifier_ForestTrollHighPriest_HealAmp_Bonus@@
 .?AVCDOTA_Modifier_ForestTrollHighPriest_HealAutocast@@
@@ -37118,8 +37127,7 @@ $hRh
 0234
 02V8[
 05=k
-08@HR@
-08B@
+08@J 
 08bX
 09,h
 0:%02d
@@ -37706,6 +37714,7 @@ $hRh
 2@.CMsgClientToGCFantasyCraftingPerformOperationResponse.EResponse
 2@.CMsgClientToGCJoinPrivateCoachingSessionLobbyResponse.EResponse"
 2@.CMsgClientToGCMonsterHunterDevModifyHeroCodexResponse.EResponse"u\n\tEResponse
+2@I0
 2A.CMsgClientToGCGetCurrentPrivateCoachingSessionResponse.EResponse
 2Array of text tags to apply to the published file.
 2B.CMsgClientToGCFantasyCraftingSelectGlobalPrefixResponse.EResponse
@@ -37730,6 +37739,7 @@ $hRh
 2J.CMsgClientToGCMonsterHunterDevClaimInvestigationRewardsResponse.EResponse"u\n\tEResponse
 2K.CMsgClientToGCGetAvailablePrivateCoachingSessionsSummaryResponse.EResponse
 2L.CMsgClientToGCMonsterHunterRequestMaterialsNeededByFriendResponse.EResponse
+2Pn/
 2Set of published file Ids to retrieve details for.
 2Tm=#
 2Uiwp"9
@@ -37862,6 +37872,7 @@ $hRh
 2\r.ELeaguePhase
 2\rlhp
 2\vp!d
+2\vpH
 2^pV
 2_bot
 2_mid
@@ -37875,7 +37886,6 @@ $hRh
 2nIg
 2ndry
 2p"6
-2pK:
 2prB
 3#DOTA_Hero_Selection_AllDraft_YouPicking_LosingGold
 3%3+3/353A3G3[3_3g3k3s3y3
@@ -38008,6 +38018,7 @@ $hRh
 3w2URu
 3wQ]
 3|rN>
+4"(pz
 4#DOTA_Hero_Selection_AllDraft_TheyPicking_LosingGold
 4(Optional) Sorting method to use on returned values.
 4)#bH
@@ -38015,13 +38026,11 @@ $hRh
 4.CPlayer_GetMutualFriendsForIncomingInvites_Response"^
 40 40 40 196
 400.0 -400.0 -50.0
-40G:
 46936
 474E4U4W4c4i4m4
 4<Td
 4@AA
 4Ch;
-4E(P
 4F0I
 4Mv8
 4Redirection URI provided during client registration.2
@@ -38098,6 +38107,7 @@ $hRh
 4_top
 4_week_streak
 4f h
+4pFQ
 4sdvk_DbH6U
 4tpD
 4x3Button
@@ -38376,31 +38386,34 @@ $hRh
 7sAP'
 7wKR
 7zRQ
-8!fo
 8"3hrf
 8&Kx
+8)3o
 8+Qw
 80F2<
+81No
 82\n:XPH
 851Pe
 89 89 89
-89Go
-89^p
+895p
 8<pl
 8= zp
-8@HPZ@
-8@HPZ`F:
+8@HPZ
+8A&o
 8A6j
 8Client ID for which to count the number of issued tokens"
+8F N
+8F0M
 8GZS
 8Gets the list of nicknames this user has for other users
+8IGo
 8If set, remove from ignore/block list instead of adding "\\n
 8If true, return tag information in the returned details.
+8MSo
 8Name of the file to use as the published file's preview.
 8SIffK5W
 8TZvrv<
 8TopArrow
-8Y0o
 8\n0series_current_selection_priority_used_coin_toss
 8\n0ultimate_scepter_consumed_alchemist_bonus_health
 8\n3kKillEaterEventType_Broodmother_SpiderlingHeroKills
@@ -38455,35 +38468,34 @@ $hRh
 8\n\rnotifications
 8\n\rready_members
 8\n\rsubscribe_msg
-8\r0o
-8\rHp
 8\v8!83858A8G8K8S8W8_8e8o8q8}8
 8]Vc2
 8ca1
 8dS2
+8e4o
+8eKp
 8oYSBkqnngo
 8pe7?
 8q-S*]X
 8sOy
-8yGp
 9#9%9)9/9=9A9M9[9k9y9}9
 9#DOTA_Hero_Selection_CaptainsMode_WaitingForChooseCaptain
 9)PF
 9)jx
 9*VU
+925o
 95\r9{
 969p
+96Mp
 9966
 9:dzGN
 9@DOTASurvivorsMinimap
 9@Xp&
 9B2C1229
-9FHo
 9IGv
 9J9;6
 9N1=@
 9QTA
-9R`p
 9Y@nJM
 9Zr4
 9\n4kKillEaterEventType_Magnus_HeroesSlowedWithShockwave
@@ -38535,6 +38547,8 @@ $hRh
 9oB#
 9q6\r#m
 9r#xV
+9r5o
+9~Mp
 :    %i/%i (%d) full repredict\n
 :    %i/%i (%d) skip to %i restore from slot %i\n
 :    %i/%i (%i) Prediction slot %d holds command %d instead of %d!  Deleting all predictions, will full repredict\n
@@ -38968,7 +38982,6 @@ $hRh
 >ztq
 ?%10.5f
 ?(Optional) Video Id of a YouTube video for this published file.
-?0Ep
 ?333@
 ?33s?
 ??0EscapableHandleScope@v8@@QEAA@PEAVIsolate@1@@Z
@@ -39044,27 +39057,25 @@ $hRh
 ?gwL
 ?jOb
 ?open
-?pDp
 ?srJO
 ?streamonly=1
 ?t=0m5s
 ?tya
 ?uWS
 ?x29
-?xEp
 @!@%@+@1@?@C@E@]@a@g@m@
+@08NT
 @0pp
 @333333)@R
-@60a
-@6Po
-@6pn
+@60D
+@6pm
 @888
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @BH]f
 @BoneSetup
 @DebugIndividualStyle
-@HPX`hv 3
-@HPXf@
+@HPX`hvp0
+@HPXf
 @Integer overflow in %s
 @MfKZ
 @Pgl
@@ -39093,13 +39104,11 @@ $hRh
 @\n\venum_result
 @dKb]
 @fff>fff>fff>fff>
-@ht@27
 @i1V
 @keyframes 
 @keyframes '%s'\r\n{\r\n
 @merged
 @n2w
-@pDp
 @setlocal\n
 @type
 A Dota NPC Hero
@@ -39129,6 +39138,7 @@ A9ur
 A<fP
 A>x8
 AA Compromise
+AA:Pn/
 AABB
 AABBDirection
 AACompromise
@@ -40717,7 +40727,7 @@ B-409
 B-571
 B-Spline
 B.z\85p
-B0F:
+B0D:
 B2I_DSS
 B2I_RSA
 B2pr
@@ -40867,6 +40877,7 @@ BN_usub
 BOGUS
 BOOL ABSENT
 BOOLEAN
+BPD:
 BPEventLevelIcon
 BPIN_txt
 BPLevel
@@ -40892,7 +40903,6 @@ BULLET
 BUMP_WITH_TIMEOUT_WHEN_LEARNED
 BURN
 BUSY
-BXy$
 BY_FILE_CTRL
 BY_Lq)
 BYieldingShowEncounter_VisitEncounter
@@ -41407,7 +41417,7 @@ BoxFinished
 BoxFocused
 BoxIdle
 BoxOpening
-BpJ:
+BpC:
 Bracket
 Bracket%d
 BracketBoxContainer
@@ -48158,7 +48168,6 @@ D2Lb!
 D4tp
 D514p
 D:/generated_set_portraits.txt
-D@27
 D@D/lcO+hcK
 DAE!
 DAL\fL@
@@ -55497,6 +55506,7 @@ EXTERNAL
 EXTRA
 E[3M
 E\n!matching_subscription_def_indexes
+E\nPD:
 E\nQc
 E\n\fcavern_crawl
 E\n\finput_sample
@@ -62259,7 +62269,6 @@ L0fO*'
 L4Eud
 L4uGv~;6
 L5^x|S
-L=x3x
 L@4T
 LAM\rhaI)|pL<
 LANLobby
@@ -65634,6 +65643,9 @@ P-224
 P-256
 P-384
 P-521
+P08@J 
+P08J0
+P08NT
 P0WonMatch
 P1Avatar
 P1WonMatch
@@ -65641,10 +65653,9 @@ P1\t98"
 P2Avatar
 P2P ping to "%s". Timed out after %.2fms\n
 P5[1
-P6 j
+P6pg
 PAGN_4
 PAGrave
-PAH4
 PAIN: %2.2f\n
 PANORAMA_LAYOUTFILE
 PARALYZE
@@ -67980,6 +67991,7 @@ RTTIPredictionsUnlocked
 RTTISelected
 RTTIState
 RT_txt
+R\fpH
 R\n\fActivityInfo
 R\n\fmap_variants
 R\n\fplayer_cards
@@ -67987,6 +67999,7 @@ R\n\rincludekvtags
 R\n\vpredictions
 R\r1>Vp
 R\vp!y
+R\vpt
 R]Di
 R_T5Y
 Rad Guys
@@ -75835,12 +75848,11 @@ X\n\fSearchResult
 X\n\rkilling_blows
 X\n\tGraphData
 X\tQo
-X`hr@
 Xd3h
 Xdota
+Xf0P
 XfJ7
-XfPR
-XfpS
+XfPQ
 Xin \t
 XjfR
 XqgA+
@@ -75951,6 +75963,7 @@ ZL9L
 ZLIB
 ZLONG
 ZOffset
+ZPn/
 ZSz@
 ZXF,`i
 Z\n(k_EHeroSelectionText_CaptainsMode_YouBan
@@ -76127,6 +76140,7 @@ Z~wl
 \fevents.proto
 \fevents.proto"
 \fiaR
+\fpFQ
 \ful2
 \fy&3Gl
 \l:ArR
@@ -78350,7 +78364,6 @@ Z~wl
 \tMatchID_t"b\n$CMsgClientToGCMatchesMinimalResponse
 \tMatchID_t"i\n
 \tNone\n
-\tPHy
 \tParam BasePlayerWeapon returned NULL!\n
 \tParam selecting string is out of range!\n
 \tPlayer param "%s" returned NULL.\n
@@ -78564,7 +78577,6 @@ Z~wl
 \vGt5
 \vHCK/
 \vNCE\v
-\vPHy
 \vUY6[E
 \v\n\tRemoveFan
 \v\tV_atan2d
@@ -78742,13 +78754,10 @@ _video
 _wjb
 _xU`u
 _}eOk
-`1Mp
 `28)fk
-`2PF:
+`2Pn/
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
-`40F:
-`6Pp
-`9ao
+`5up
 `:zQF
 `D$daM-l
 `DZG
@@ -78759,10 +78768,12 @@ _}eOk
 `\n+k_EHeroSelectionText_CaptainsMode_YouSelect
 `\n+k_EHeroSelectionText_RandomDraft_HeroReview
 `\n\rvector_values
+`aro
+`eNo
 `fPw.\vM
 `h9T~
+`htp
 `o_je
-`rPF:
 `yNT
 a moment...
 a null shared library handle was used
@@ -78781,6 +78792,7 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
+aBvT
 aD/x
 aDSS
 aECDH
@@ -78978,6 +78990,7 @@ act4_intro
 act_name
 act_number
 act_selector_state
+act_title
 actionID
 action_attack
 action_attackbuilding
@@ -80117,7 +80130,6 @@ axe_battle_hunger
 axe_berserkers_call
 axe_counter_helix
 axe_culling_blade
-axe_foreboding
 axe_one_man_army
 axe_slow_duration
 axes
@@ -80133,6 +80145,7 @@ b0M%
 b2i_PVK_bio
 b5o-
 b=G3
+b@I0
 bAddToGroup
 bAlert
 bAlertable
@@ -84099,8 +84112,6 @@ dota_filtered_string
 dota_fogofwartempviewers
 dota_force_portrait_update
 dota_force_treasure_page_oversized
-dota_foreboding_modifier
-dota_foreboding_modifier2
 dota_game_state_change
 dota_gamemanager
 dota_gameplay_version
@@ -88706,6 +88717,7 @@ g|MT
 h&eC
 h*Ax
 h0XB
+h1~p
 h2Wl
 h2n_\
 h5N.
@@ -88717,14 +88729,12 @@ hCaller
 hCamera
 hCaster
 hEM&!
-hEPp
 hEntityA
 hEntityB
 hF\rDz
 hFcg
 hJxRX@_
 hN2D
-hQ\vp
 hRB.
 hRenderTexture != RENDER_TEXTURE_HANDLE_INVALID && m_image.IsValid()
 hThinkFunc
@@ -89266,7 +89276,8 @@ hours_remaining
 houseIdentifier
 hover
 how_to_play
-hqno
+hpz 
+hq=p
 hr_H
 href="
 hscroll
@@ -91355,7 +91366,6 @@ j <= (int)sizeof(ctx->key)
 j <= sizeof(c->iv)
 j"MRX
 j&LQ
-j0F:
 j0ksJ
 j2ty
 j3kg
@@ -99405,7 +99415,9 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p0j 
+p08@H^T
+p0J@
+p0jp
 p2p_ping could not convert "%s" to a CPeerToPeerAddress\n
 p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n
@@ -99418,7 +99430,6 @@ p4 edit ..\panorama\videos\heroes\%s.webm\n
 p4Z3
 p5Z3
 p5\nL,
-p60G
 p618
 p>?Set@Template@v8@@QEAAXV?$Local@VName@v8@@@2@V?$Local@VData@v8@@@2@W4PropertyAttribute@2@@Z
 p@0pqE5tsO?|1
@@ -102421,10 +102432,12 @@ rRfKR
 rX&O0
 rZ1VwGf5
 rZPM
+r\fpt
 r\n4k_EHeroSelectionText_AllDraft_TheyPicking_LosingGold
 r\n\nHuntReward
 r\n\vstart_index
 r\vDi
+r\vpH
 r_cleardecals
 r_deferred_additive_pass 1
 r_deferred_height_fog 1

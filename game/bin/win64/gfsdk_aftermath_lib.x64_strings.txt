@@ -1088,7 +1088,6 @@ $@(2.(0f6(:b@
 =5au
 >global
 @08B
-@08N
 @20z\n
 @HJP~
 @HPV
@@ -3893,7 +3892,6 @@ RND_CONV_ODD
 RND_INF
 RND_MIN_INF
 RND_ZERO
-RSDS
 RTVDSVTEXTUREHEAP
 RT_INTERNAL_FUNC_LABEL
 RT_INTERNAL_FUNC_TYPE
@@ -5481,6 +5479,7 @@ bdver3
 bdver4
 beginc
 bg.declare
+binary
 bitcast
 bitselect
 bitwidth for integer type out of range!

@@ -1271,7 +1271,6 @@ QMap<Phonon::AudioDataOutput::Channel, QVector<qint16> >
 QSize
 QString
 Qt::Orientation
-RSDS
 Revert back to device '%1'
 RightChannel
 RightSurroundChannel

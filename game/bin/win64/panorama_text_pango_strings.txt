@@ -13,12 +13,9 @@
  %s%lu (%s0x%lx)\n
  ' ) - 3 G M Q _ c e i w } 
  (%ld unused bits)\n
- (08@HPX`j`
- (08@HPXbpj
- (08@HPZ`
- (08@HRpj
- (08@Jpj
- (0X`hpzpj
+ (08@HPXb`k
+ (08@HR`k
+ (0X`hpz`k
  (INVALID PSS PARAMETERS)\n
  (Negative)
  8f\ff
@@ -631,9 +628,7 @@ $hRh
 0123456789
 02V8[
 05=k
-08@HR`
-08@Jpj
-08B`
+08@J`k
 08bX
 09,h
 0;Q5[
@@ -684,7 +679,7 @@ $hRh
 2Zq)
 2\fWQx
 2\rlhp
-2\vpx\f
+2\vp8\r
 2^pV
 2a"l
 2bT~
@@ -795,7 +790,7 @@ $hRh
 8<pl
 8= zp
 8A6j
-8F@3
+8AU%
 8GZS
 8SIffK5W
 8TZvrv<
@@ -814,7 +809,6 @@ $hRh
 9966
 9:dzGN
 9@Xp&
-9BX%
 9IGv
 9J9;6
 9N1=@
@@ -904,9 +898,10 @@ $hRh
 ?uWS
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
-@08N
+@08NX
 @0pp
 @BH]f
+@HPX`hv
 @MfKZ
 @Pgl
 @Pu\rm
@@ -1481,10 +1476,10 @@ CUITextLayoutPango::DrawRun
 CUITextLayoutPango::DrawRun - Glyph render
 CUITextLayoutPango::GetCharacterCoordinates
 CUITextLayoutPango::GetCharacterRangeCoordinates
+CUITextLayoutPango::GetLineRangeCoordinates
 CUITextLayoutPango::HitTestPoint
 CUITextLayoutPango::Initialize
 CUtlLeanVectorImpl<class CUtlLeanVectorBase<struct CUtlHashMap<unsigned int,struct panorama::CUIFontLoaderLinux::FontMemory_t *,class CDefEquals<unsigned int>,struct DefaultHashFunctor<unsigned int>,int>::HashBucket_t,int,class CMemAllocAllocator>,struct CUtlHashMap<unsigned int,struct panorama::CUIFontLoaderLinux::FontMemory_t *,class CDefEquals<unsigned int>,struct DefaultHashFunctor<unsigned int>,int>::HashBucket_t,int>::AddMultipleToTail
-CUtlRBTree<struct CUtlOrderedMapBase<struct panorama::UITextLayoutProperties_t *,struct panorama::UITextOpacityMaskData_t,class CDefLessPtr<struct panorama::UITextLayoutProperties_t>,int>::Node_t,class CUtlOrderedMapBase<struct panorama::UITextLayoutProperties_t *,struct panorama::UITextOpacityMaskData_t,class CDefLessPtr<struct panorama::UITextLayoutProperties_t>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<struct panorama::UITextLayoutProperties_t *,struct panorama::UITextOpacityMaskData_t,class CDefLessPtr<struct panorama::UITextLayoutProperties_t>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
 CVcn
 C[L6
 C\lVQ
@@ -2184,6 +2179,7 @@ GetCharacterCoordinates
 GetCharacterRangeCoordinates
 GetConsoleCP
 GetCursorInfo
+GetLineRangeCoordinates
 GetQueueStatus
 GetSystemTime
 Gew}
@@ -2625,12 +2621,11 @@ P-224
 P-256
 P-384
 P-521
-P08@Jpj
-P08N
+P08@J`k
+P08NX
 P1\t98"
-P2pj
+P2`k
 P5[1
-P:pj
 PAGN_4
 PANGO_LIBDIR
 PANGO_SYSCONFDIR
@@ -2834,9 +2829,10 @@ Parameters
 Peer haven't sent GOST certificate, required for selected ciphersuite
 Permanent Identifier
 Permitted
+Pfp>
 Pm8A?
 PmR"H?
-Pnp?
+Pn0@
 Policy Qualifier CPS
 Policy Qualifier User Notice
 Polish
@@ -3000,9 +2996,8 @@ RSA_verify
 RSA_verify_ASN1_OCTET_STRING
 RSA_verify_PKCS1_PSS
 RSA_verify_PKCS1_PSS_mgf1
-RSDS
 R\r1>Vp
-R\vpx\f
+R\vp8\r
 R]Di
 Rbg.E
 ReadConsoleInputW
@@ -3590,7 +3585,6 @@ XRJ2
 XWY]
 XYD%
 X\tQo
-X`hr`
 Xd3h
 XfJ7
 XjfR
@@ -3747,7 +3741,6 @@ _jPo
 _xU`u
 _}eOk
 `28)fk
-`2pj
 `:zQF
 `D$daM-l
 `DZG
@@ -3770,6 +3763,7 @@ a5<p
 a;Tg
 a@XZ
 aA0k
+aBvX
 aD/x
 aDSS
 aECDH
@@ -4842,6 +4836,7 @@ h0XB
 h2Wl
 h2n_\
 h5N.
+hAP%
 hEM&!
 hF\rDz
 hFcg
@@ -4885,7 +4880,7 @@ holdInstructionReject
 homePostalAddress
 homeTelephoneNumber
 houseIdentifier
-hpzpj
+hpz`k
 hr_H
 http request
 https proxy request
@@ -5903,13 +5898,12 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^
-p2pj
+p08@H^X
+p2`k
 p2{l
 p4Z3
 p5Z3
 p5\nL,
-p60=
 p618
 p@0pqE5tsO?|1
 pD4t

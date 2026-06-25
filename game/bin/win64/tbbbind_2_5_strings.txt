@@ -4,7 +4,6 @@ C:\temp\onetbb-ci\msvc_19.16_cxx14_64_md_relwithdebinfo\tbbbind_2_5.pdb
 Detailed description: %s\n
 DisableThreadLibraryCalls
 MSVCP140.dll
-RSDS
 TBB Warning: %s\n
 VCRUNTIME140.dll
 _CxxThrowException

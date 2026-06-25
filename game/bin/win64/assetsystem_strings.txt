@@ -188,7 +188,6 @@
 #P0_?G0
 #Q7z
 #\t#\v#'#)#/#3#5#E#Q#S#Y#c#k#
-#\tV_fgets
 #\v+(bF&drJ:x#
 #k+ka\T
 #lyj
@@ -387,6 +386,7 @@ $prefix_element$
 'DAE
 'O6n
 'Z9t%
+'\tV_fgets
 'g0dW
 'id' or 'name' missing
 'pSN.F
@@ -509,7 +509,6 @@ $prefix_element$
 -l34
 -mB:t
 -readonlyexceptleafiest
--restricted_write_include
 -saveonlyleafiestassets
 -savereadonlyassets
 -~T\viMOb
@@ -740,6 +739,7 @@ $prefix_element$
 .?AVCAssetNameFilterDef@@
 .?AVCAssetReferencedByCountFilter@@
 .?AVCAssetReferencedByFilter@@
+.?AVCAssetReferencedByTypeFilter@@
 .?AVCAssetReferencingFilter@@
 .?AVCAssetSystem@@
 .?AVCAssetSystemTest@@
@@ -868,7 +868,6 @@ $prefix_element$
 .?AVIUndoElement@@
 .?AVIVDataResourceListener@@
 .?AVIWorkingSet@@
-.?AVVisitor@CDirTreeWatchManager@@
 .HCK\v
 .Q.Ol
 .\crypto\asn1\a_bitstr.c
@@ -1155,7 +1154,6 @@ $prefix_element$
 09,h
 0;Q5[
 0<cz
-0D14
 0M2~@p
 0W/5
 0Z@q
@@ -1205,8 +1203,7 @@ $prefix_element$
 2\fWQx
 2\nP!E
 2\rlhp
-2\vpD14
-2\vpd
+2\vpt
 2^pV
 2a"l
 2bT~
@@ -1239,7 +1236,6 @@ $prefix_element$
 474E4U4W4c4i4m4
 4<Td
 4@AA
-4CC:\buildworker\source2_dota_rel_2019_win64\build\src\public\vpklib\packedstore.h
 4Ch;
 4F0I
 4Mv8
@@ -1330,6 +1326,7 @@ $prefix_element$
 8GZS
 8SIffK5W
 8TZvrv<
+8XPI
 8\v8!83858A8G8K8S8W8_8e8o8q8}8
 8]Vc2
 8ca1
@@ -1410,6 +1407,7 @@ $prefix_element$
 <YGr+
 <YVtV&
 <multi-typed>
+<non-RTTI type>
 <unsupported>
 =!=-=3=7=?=C=o=s=u=y={=
 =&sf9
@@ -1742,6 +1740,7 @@ AssetTags
 AssetTagsManifest
 AssetTypes
 Assets in asset system: %d
+Assets that are referenced by an asset of the specified type
 Assetsystem Table "%s" (%d entries)\n
 Assetsystem cannot start: %s\n
 Assetsystem resource replacement buffer
@@ -2003,7 +2002,7 @@ CAssetSystem::InitializeAssetSystem
 CAssetSystem::NotifyResourceStatusChange( %s ) - %s\n
 CAssetSystem::ProcessFileChanges unable to acquire the file change suspension cross-process mutex.
 CAssetSystem::Test_PreRecompileResourceAsset
-CAssetSystem::UpdateAllAssetFileCRCs(), C:\buildworker\source2_dota_rel_2019_win64\build\src\assetsystem\assetsystem.cpp:4584
+CAssetSystem::UpdateAllAssetFileCRCs(), C:\buildworker\source2_dota_rel_2019_win64\build\src\assetsystem\assetsystem.cpp:4455
 CAssetSystemTest::RunTests
 CAssetSystemTestSetup::DiscardInMemoryReplacement
 CAssetSystemTestSetup::EnsureAssetIsUpToDate
@@ -2012,6 +2011,7 @@ CAsyncLoadResourceHeaderPromise::IsHeaderValid
 CAsyncLoadResourceHeaderPromise::StartNewReadRequest
 CBI]6
 CBufferString
+CC:\buildworker\source2_dota_rel_2019_win64\build\src\public\vpklib\packedstore.h
 CCITT Group 3
 CCITT Group 4
 CCITT RLE
@@ -2298,14 +2298,6 @@ CUtlLeanVectorImpl<class CUtlLeanVectorBase<struct CUtlMemoryBlockAllocator<stru
 CUtlLeanVectorImpl<class CUtlLeanVectorFixedGrowableBase<unsigned char,64,int,class CMemAllocAllocator>,unsigned char,int>::AddMultipleToTail
 CUtlMemoryBlockAllocator<struct FileHandleTracker_t,class CMemAllocAllocator>::AddPage
 CUtlMemoryBlockAllocator<struct UtlRBTreeNode_t<struct CDmElementSerializationDictionary::ElementInfo_t,int>,class CMemAllocAllocator>::AddPage
-CUtlRBTree<class CDmAttribute *,class CDefLess<class CDmAttribute *>,int,class CUtlLeanVector<struct UtlRBTreeNode_t<class CDmAttribute *,int>,int,class CMemAllocAllocator> >::Insert
-CUtlRBTree<class CDmElement *,class CDefLess<class CDmElement *>,int,class CUtlLeanVector<struct UtlRBTreeNode_t<class CDmElement *,int>,int,class CMemAllocAllocator> >::Insert
-CUtlRBTree<class IDmeOperator *,class CDefLess<class IDmeOperator *>,unsigned short,class CUtlLeanVector<struct UtlRBTreeNode_t<class IDmeOperator *,unsigned short>,unsigned short,class CMemAllocAllocator> >::Insert
-CUtlRBTree<struct CDmElementSerializationDictionary::ElementInfo_t,class CLessFunc<&private: static bool __cdecl CDmElementSerializationDictionary::LessFunc(struct CDmElementSerializationDictionary::ElementInfo_t const &,struct CDmElementSerializationDictionary::ElementInfo_t const &)>,int,class CUtlBlockVector<struct UtlRBTreeNode_t<struct CDmElementSerializationDictionary::ElementInfo_t,int>,int,class CMemAllocAllocator> >::Insert
-CUtlRBTree<struct CUtlOrderedMapBase<class CUtlSymbolLarge,struct DmMemoryInfo_t,class CDefLess<class CUtlSymbolLarge>,unsigned short>::Node_t,class CUtlOrderedMapBase<class CUtlSymbolLarge,struct DmMemoryInfo_t,class CDefLess<class CUtlSymbolLarge>,unsigned short>::CKeyLess,unsigned short,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class CUtlSymbolLarge,struct DmMemoryInfo_t,class CDefLess<class CUtlSymbolLarge>,unsigned short>::Node_t,unsigned short>,unsigned short,class CMemAllocAllocator> >::Insert
-CUtlRBTree<struct CUtlOrderedMapBase<class VDataEntryKey_t,class CAssetTagInfo *,class CDefLess<class VDataEntryKey_t>,int>::Node_t,class CUtlOrderedMapBase<class VDataEntryKey_t,class CAssetTagInfo *,class CDefLess<class VDataEntryKey_t>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class VDataEntryKey_t,class CAssetTagInfo *,class CDefLess<class VDataEntryKey_t>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
-CUtlRBTree<struct CUtlOrderedMapBase<enum DmElementHandle_t,enum DmElementHandle_t,class CDefLess<enum DmElementHandle_t>,int>::Node_t,class CUtlOrderedMapBase<enum DmElementHandle_t,enum DmElementHandle_t,class CDefLess<enum DmElementHandle_t>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<enum DmElementHandle_t,enum DmElementHandle_t,class CDefLess<enum DmElementHandle_t>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
-CUtlRBTree<struct CUtlOrderedMapBase<int,class CUtlSymbolLarge,class CDefLess<int>,int>::Node_t,class CUtlOrderedMapBase<int,class CUtlSymbolLarge,class CDefLess<int>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<int,class CUtlSymbolLarge,class CDefLess<int>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
 CUtlSortVector<struct ChunkHashFraction_t,class CUtlSortVectorDefaultLess<struct ChunkHashFraction_t::SortKey_t>,class CUtlVector<struct ChunkHashFraction_t,int,class CUtlVectorMemory_Growable<struct ChunkHashFraction_t,int,0> > >::Find
 CUtlStreamBuffer does not support TEXT_BUFFER's use CUtlBuffer\n
 CVDataAutoTagger
@@ -2313,6 +2305,7 @@ CVcn
 CVisibilityMgr
 CWeakHandle
 C[L6
+C\3A
 C\lVQ
 C\tD\vD
 C\tr9rW
@@ -3188,8 +3181,8 @@ FV|FgUV
 F\rH'4
 Facial Animation File
 Factory for element type '%s' already exists (Check your IMPLEMENT_ELEMENT_FACTORY macros for duplicate lookupNames)\n
-Failed to allocate an instance of a class
-Failed to allocate an instance of class '%s'
+Failed to allocate an instance of a class of type '%s'
+Failed to allocate an instance of class '%s' (type '%s')
 Failed to allocate field info array
 Failed to allocate memory for %s (%ld elements of %ld bytes each)
 Failed to compute channel layout.\n
@@ -3309,9 +3302,7 @@ GRAPHICSTRING
 GTsW
 GXqN
 GXy{
-Game 
 Game (%s)
-GameOther 
 GeneralNames
 GeneralString
 Generator (compressed):
@@ -3441,6 +3432,7 @@ ISSUING_DIST_POINT
 ITU-T
 IV block
 I\tHA\t981G'dc
+If enabled, the up direction will be evaluated in world space, such that the object orientation does not affect the surface slope filtering. Additionally if Orient To Surface is 0, then and world space up is enabled, then the object orientation will not affect the rotation of detail model.
 IgnoreCompiledState set for type (%s)
 Ignoring already-handled file change: %s\n
 Ignoring failure to traverse directory and/or watch for changes: %s\n
@@ -4402,9 +4394,9 @@ RSA_verify
 RSA_verify_ASN1_OCTET_STRING
 RSA_verify_PKCS1_PSS
 RSA_verify_PKCS1_PSS_mgf1
-RSDS
 R\r1>Vp
-R\vpd
+R\vpl
+R\vpt
 R]Di
 R_T5Y
 Radius Random
@@ -4429,7 +4421,10 @@ Recompiling resource asset: '%s'\n
 Redo\n======\n
 ReductionMatrix1
 ReductionMatrix2
+RefbyTypes
 ReferenceBlackWhite
+Referenced by type
+Referenced by type: %s
 RegisterEventSourceW
 Registered ID
 Registering anonymous field with tag %d (0x%x) failed
@@ -4760,7 +4755,6 @@ TLSv1.1
 TLSv1.2
 TLSv1/SSLv3
 TM=U*
-TODO: remove IAssetSystem::GetAssetInfo before checkin!\n
 TPD2
 TPS'
 TPk+L
@@ -4815,7 +4809,6 @@ TS_VERIFY_CERT
 TS_VERIFY_CTX_new
 TXJw^{
 TYPE=
-T\tV_log2f
 Tag 
 Tag %d
 Tag Update Failed
@@ -4922,7 +4915,6 @@ UTF8String
 UUUUUUUUUUUUUU<o(
 UUUUUUUUUUUa\f\v
 U\8h(
-U\tV_logd
 U^Pg
 Ugi<
 Unable to create unknown element %s!\n
@@ -4963,6 +4955,7 @@ Updating asset dependency information...
 Updating dependencies: %d%% (%s/%s) - %s
 Usage: "assetsystem_dump_table <table_name>" where table_name is either * (for all) or one of:\n
 Usage: assetsystem_check_compile_state <asset_name>\n
+Use World Space Up
 Use old behavior of calling ProcessFileChanges() immediately after recompiling a resource
 Using rule file '%s'\n
 Ut]<E
@@ -5052,8 +5045,6 @@ W3fp
 W3i+,
 W>peSp>9
 WARN: Discarding tags for unknown asset '%s'\n
-WARNING: -AssetTargetGameRoot directory '%s' does not exist\n
-WARNING: -assetmergegameother directory '%s' does not exist\n
 WARNING: Asset '%s' refers to dependency '%s' from nonexistent mod '%s' (file '%s')\n
 WARNING: Asset database '%s' - FindOrCreateAssetByAssetCanonicalPathSymbols failed for '%s'.\n
 WARNING: Asset database '%s' - LoadPersistentInfo failed for '%s'.\n
@@ -5086,7 +5077,6 @@ WARNING: Reading dependencies from very old VPK: %s\n
 WARNING: Suppressing on-demand recompile of asset %s - already tried with this fingerprint.\n
 WARNING: VNotify abandoned after too many attempts:\n%s\n
 WARNING: drive-relative paths like '%s' are not allowed\n
-WARNING: unrecognized extension '%s' used with -restricted_write_include\n
 WD%g"0Q-)
 WDG,r3
 WIN32_BIND_FUNC
@@ -5347,6 +5337,7 @@ ZLIB
 ZLONG
 ZSz@
 ZXF,`i
+Z\tV_log2f
 Zd[w
 Ze2Zh@
 ZjLS
@@ -5366,6 +5357,7 @@ Z~wl
 [HTiW
 [Not a resource]
 [OdP
+[\tV_logd
 [cached: %d][%d req]%s
 [f7@7F
 [fo@e
@@ -5392,7 +5384,6 @@ Z~wl
 \f]ne3
 \fdhWTh
 \fiaR
-\fp\v`D14
 \ful2
 \fy&3Gl
 \l:ArR
@@ -5409,12 +5400,14 @@ Z~wl
 \n%12s%s
 \n5a=Z
 \n:82H
+\nPt4
 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
 \n\tIPSec/IKE/Oakley curve #3 over a 155 bit binary field.\n\tNot suitable for ECDSA.\n\tQuestionable extension field!
 \n\tIPSec/IKE/Oakley curve #4 over a 185 bit binary field.\n\tNot suitable for ECDSA.\n\tQuestionable extension field!
 \ndummyfilename.tif
 \nqYu
 \ntM(ie-V
+\nti4
 \r!\r+\r-\r=\r?\rO\rU\ri\ry\r
 \r@h!Aq8
 \rB6uZ
@@ -5423,13 +5416,12 @@ Z~wl
 \rMinghuaQu\f
 \rTxL
 \rUHz4Z}\r
-\rUnknown exception
 \rWhO
 \rY=QX
 \rYYHl
 \r\vpL1
 \r^mX
-\rgame:tools/images/assettypes/generic_lg.png
+\rgame:tools/images/assettypes/generic_sm.png
 \ri1I
 \rjwB\t
 \roKK
@@ -5446,8 +5438,8 @@ Z~wl
 \tJm_9
 \tLa0+
 \tNAN encountered in element '%s' guid %s attribute '%s'!\n
-\tV_atan2d
 \tV_expd
+\tV_sscanf_s
 \t\n\v\n\v\n\v\n\v\n\v\n\v\n\v\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \t_V_StrSubst
 \t_V_StringAfterPrefixCaseSensitive
@@ -5460,6 +5452,7 @@ Z~wl
 \vHCK/
 \vNCE\v
 \vUY6[E
+\v\tV_atan2d
 \v\vTSG
 \vj0k
 \vjC7
@@ -5483,6 +5476,7 @@ _TIFFSetupFieldInfo
 _TIFFVGetField
 _TIFFVSetField
 _YWL
+__IN_MEMORY
 __injected_test_value
 _bakeresourcecache
 _buildcubemaps
@@ -5502,7 +5496,6 @@ _}eOk
 `28)fk
 `:zQF
 `D$daM-l
-`D14
 `DZG
 `H(hqA1p
 `ITS
@@ -5543,7 +5536,6 @@ aRWZ5
 aRecord
 aSRP
 aXvC
-a\tV_powd
 a]?xG
 aaControls
 ac-auditEntity
@@ -5665,7 +5657,6 @@ asset_diagnostic: HandleFileChange -> UpdateRelatedFile\n
 asset_diagnostic: HandleNewPossibleAssetFileSymbolParts "%s" "%s"\n
 asset_diagnostic: HandleNewPossibleAssetFileSymbolParts -> AddAsset\n
 asset_diagnostic: HandleNewPossibleAssetFileSymbolParts -> IgnoreAssetDirectory\n
-asset_diagnostic: HandleNewPossibleAssetFileSymbolParts -> IgnoreByRestrictedWrite\n
 asset_diagnostic: HandleNewPossibleAssetFileSymbolParts -> IgnoreNewPossibleAssetFile\n
 asset_diagnostic: LoadPersistentInfo "%s"\n
 asset_diagnostic: LoadPersistentInfo -> Assigning new slot (%d)\n
@@ -5869,6 +5860,7 @@ bie.+
 bignum out of range
 bignum routines
 bignum too long
+binary
 binary_array
 binary_seqids
 binary_v
@@ -6855,12 +6847,13 @@ gF{A
 gHAx
 gTH.M
 gXC.nT\v
+g\tV_powd
 g]i/H
 g_Cov_DetermineCompileState
 g_pAsyncFileSystem2
 g_pToolsSplashScreen->showMessage
 game/
-game:tools/images/assettypes/generic_sm.png
+game:tools/images/assettypes/generic_lg.png
 game_only.vtest
 gameitemclass
 gameunitclass
@@ -7685,13 +7678,19 @@ m_SpecialInputDependencies
 m_String
 m_SubassetDefinitions
 m_SubassetReferences
+m_UnrecognizedOutboundRefsErrorTypeExceptions
 m_UserData
 m_WeakReferenceList
+m_bAllowDefinitions
+m_bAllowReferences
+m_bErrorOnUnrecognizedOutboundRefs
 m_bFileExists
 m_bIsGameFile
 m_bOptional
+m_bWorldSpaceOrientation
 m_ePromiseState != EPromiseState::Unresolved
 m_fMoveTo
+m_nAssetThumbnailVersion
 m_nFileCRC
 m_nFingerprint
 m_nFingerprintDefault
@@ -7718,6 +7717,9 @@ manipulatorSettings
 mapNodeName
 mapUsageType
 map_asset_references
+map_subasset_reference_counts
+map_subasset_reference_names
+map_subasset_reference_types
 maskGenAlgorithm
 maskGenFunc
 master secret
@@ -8216,7 +8218,6 @@ pContentOnlyWAV->HasFileInLocation( ASSET_LOCATION_CONTENT )
 pContentWAVAndGame != nullptr
 pContentWAVAndGame->HasFileInLocation( ASSET_LOCATION_CONTENT )
 pContentWAVAndGame->HasFileInLocation( ASSET_LOCATION_GAME )
-pD14
 pD4t
 pEnabledState->m_Enabled[ iPathID ].Count() == nCount
 pFromFile
@@ -8519,6 +8520,7 @@ rRfKR
 rX&O0
 rZ1VwGf5
 rZPM
+r\fpl
 r\vDi
 radiusScale
 radius_random
@@ -8566,6 +8568,7 @@ ref:%s
 refOrientation
 refby
 refby_count
+refby_type
 referenced_soundevent_
 referenced_surface_property_
 registeredAddress
@@ -9453,6 +9456,9 @@ too large
 too long
 too many iterations
 too many temporary variables
+tool_request_args
+tool_request_text
+tool_request_tool
 tools/assettags
 tools/images/assetbrowser/filter_tags_empty.png
 tools/images/common/document_sm.png
@@ -9894,7 +9900,6 @@ z>Hz
 zF):O4
 zG2m8
 zRXU 
-z\tV_sscanf_s
 zlVO
 zlib compression
 zone

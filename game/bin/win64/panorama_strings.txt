@@ -10,12 +10,14 @@
     Signature Algorithm: 
    %60s: %6d (pending %6d)\n
   ##%%&&))**,,//1122447788;;==>>@@CCEEFFIIJJLLOOQQRRTTWWXX[[]]^^aabbddgghhkkmmnnppssuuvvyyzz||
- !"#$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$8
+ !"#$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
  !"#$%%&'()*+,-../0123456789:;<=>?@ABCDEFGHIJKLLMNOPQRSTUVWXY[]_`bdefhjlnprtvz|~
  %4hf
  %s%lu (%s0x%lx)\n
  ' ) - 3 G M Q _ c e i w } 
  (%ld unused bits)\n
+ (08@HPXb`H#
+ (0X`hpz`H#
  (INVALID PSS PARAMETERS)\n
  (Negative)
  (derived from %s)
@@ -260,56 +262,54 @@ $hRh
 (!(1(=(?(I(Q([(](a(g(u(
 ((long)msg_hdr->msg_len) > 0
 (0'yX
-(1VI
-(1XI
+(1BJ
+(1QJ
+(1dJ
+(1kJ
 (4?NewFromUnsigned@Integer@v8@@SA?AV?$Local@VInteger@v8@@@2@PEAVIsolate@2@I@Z
-(58I
+(55J
 (5Me
+(5RJ
 (5jP
-(9GI
-(9jI
-(9uI
-(AcI
+(90J
+(9nJ
+(9zJ
 (BZq
 (D4D
-(ESI
-(EiI
+(EgJ
+(EiJ
+(EwJ
 (I?Value@External@v8@@QEBAPEAXXZ
-(IEI
-(IpI
-(M0I
 (NONE)
-(QkI
-(QwI
+(QNJ
 (U1h
-(YTI
-(YZI
+(Y1J
+(YaJ
 (ZdOt\n&
 (_Assert)
+(aOJ
 (anonymous)
 (d4t8
 (down)
-(eMI
-(etI
-(ezI
+(e7J
 (fS{ggRcjh
 (h`H1pqA
 (i/Al
+(iCJ
+(ihJ
+(itJ
+(izJ
 (jvg;
 (memory)
-(mrI
-(qlI
-(qnI
-(qvI
-(uGI
-(uaI
+(qFJ
+(uQJ
 (undefined)
 (unset)
 (unset) w/parent: %s
 (vQF
 (wMww
-(yKI
-(yQI
+(yjJ
+(yvJ
 )!)#)?)G)])e)i)o)u)
 )4?NewFromUtf8@String@v8@@SA?AV?$MaybeLocal@VString@v8@@@2@PEAVIsolate@2@PEBDW4NewStringType@2@H@Z
 )Ck?B
@@ -430,10 +430,10 @@ $hRh
 .?AV?$CMultipleCallResults@VCLoadFileURLTask@panorama@@UHTTPRequestCompleted_t@@@@
 .?AV?$CPanelPtr@VIUIPanel@panorama@@@panorama@@
 .?AV?$CRefCounted1@VIUIDoubleBufferedTexture@panorama@@V?$CRefCountServiceBase@VCRefMT@@@@@@
-.?AV?$CRefCounted1@VIUIDoubleBufferedYUVA420Texture@panorama@@V?$CRefCountServiceBase@VCRefMT@@@@@@
 .?AV?$CRefCounted1@VIUIPanelImageSourceTexture@panorama@@V?$CRefCountServiceBase@VCRefMT@@@@@@
 .?AV?$CRefCounted1@VIUIStyleFileSet@panorama@@V?$CRefCountServiceBase@VCRefMT@@@@@@
 .?AV?$CRefCounted1@VIUITexture@panorama@@V?$CRefCountServiceBase@VCRefMT@@@@@@
+.?AV?$CRefCounted1@VIUIYUVA420Texture@panorama@@V?$CRefCountServiceBase@VCRefMT@@@@@@
 .?AV?$CRefCounted1@VIVideoPlayer@@V?$CRefCountServiceBase@VCRefMT@@@@@@
 .?AV?$CStylePropertyDimensionsBase@VCStylePropertyMargin@panorama@@@panorama@@
 .?AV?$CStylePropertyDimensionsBase@VCStylePropertyPadding@panorama@@@panorama@@
@@ -528,11 +528,11 @@ $hRh
 .?AVCSchemaRegistration_panorama_content@@
 .?AVCSimpleErrorListener@@
 .?AVCSource2DoubleBufferedTexture@panorama@@
-.?AVCSource2DoubleBufferedYUVA420Texture@panorama@@
 .?AVCSource2PanelImageSourceTexture@panorama@@
 .?AVCSource2Surface@panorama@@
 .?AVCSource2UIFileSystem@panorama@@
 .?AVCSource2UITexture@panorama@@
+.?AVCSource2YUVA420Texture@panorama@@
 .?AVCStyleFactoryWrapper@panorama@@
 .?AVCStyleFile@panorama@@
 .?AVCStyleFileSet@panorama@@
@@ -622,14 +622,12 @@ $hRh
 .?AVCTransformScale3D@panorama@@
 .?AVCTransformSkew3D@panorama@@
 .?AVCTransformTranslate3D@panorama@@
-.?AVCUIAnimationThread@CUIRenderEngine@panorama@@
 .?AVCUIEngine@panorama@@
 .?AVCUIEngineSource2@panorama@@
 .?AVCUIInputEngine@panorama@@
 .?AVCUIPanel@panorama@@
 .?AVCUIRenderDeviceSource2@panorama@@
 .?AVCUIRenderEngine@panorama@@
-.?AVCUIRenderThread@CUIRenderEngine@panorama@@
 .?AVCUISoundSystem@panorama@@
 .?AVCUIWindowInput@panorama@@
 .?AVCVectorGraphic@@
@@ -651,10 +649,9 @@ $hRh
 .?AVIPanoramaUIEngine@@
 .?AVIResourceTypeManager@@
 .?AVIShaderReloadListener@@
+.?AVISource2Surface@panorama@@
 .?AVITextureResidencyListener@@
-.?AVIUI3DSurface@panorama@@
 .?AVIUIDoubleBufferedTexture@panorama@@
-.?AVIUIDoubleBufferedYUVA420Texture@panorama@@
 .?AVIUIEngine@panorama@@
 .?AVIUIEvent@panorama@@
 .?AVIUIFileSystem@panorama@@
@@ -678,6 +675,7 @@ $hRh
 .?AVIUITexture@panorama@@
 .?AVIUIWindow@panorama@@
 .?AVIUIWindowInput@panorama@@
+.?AVIUIYUVA420Texture@panorama@@
 .?AVIVectorGraphic@@
 .?AVIVideoPlayer@@
 .?AVIVideoPlayerAudioCallback@@
@@ -968,6 +966,7 @@ $hRh
 .tga
 .vjs_c
 .vsvg
+.vtex
 .vts_c
 .webp
 .x7B
@@ -987,6 +986,7 @@ $hRh
 0123456789
 02V8[
 05=k
+08@J`H#
 08bX
 09,h
 0;Q5[
@@ -995,6 +995,7 @@ $hRh
 0W/5
 0Z@q
 0\r0#0)070;0U0Y0[0g0q0y0}0
+0\rP!p
 0e\r8
 0pp@5tqE?|sO541
 0tU+xc:
@@ -1039,6 +1040,7 @@ $hRh
 2Zq)
 2\fWQx
 2\rlhp
+2\vp0
 2^pV
 2a"l
 2bT~
@@ -1047,6 +1049,7 @@ $hRh
 2f)l=
 2nIg
 2p"6
+2pK 
 2prB
 3%3+3/353A3G3[3_3g3k3s3y3
 31tPR
@@ -1103,7 +1106,8 @@ $hRh
 6%vi
 6,2K
 6-zeZ
-60d<
+60b=
+60w=
 62$|S)6f
 64CK\vH
 666666666666666666666666666666666666666666666666\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\.\ssl\s3_enc.c
@@ -1112,7 +1116,6 @@ $hRh
 6?NumberValue@Value@v8@@QEBA?AV?$Maybe@N@2@V?$Local@VContext@v8@@@2@@Z
 6H,N
 6O|T%
-6Pv<
 6Qd=
 6_wEX
 6afD
@@ -1171,6 +1174,7 @@ $hRh
 8pe7?
 8q-S*]X
 8sOy
+8uKJ
 9#9%9)9/9=9A9M9[9k9y9}9
 9)PF
 9)jx
@@ -1220,7 +1224,6 @@ $hRh
 ;`Fzc
 ;bwP*
 ;xsK
-;{}:fill-opacity
 <)<5<C<O<S<[<e<k<q<
 <0\f<pqA1
 <3AC|[sqb
@@ -1336,10 +1339,10 @@ $hRh
 ?uWS
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
-@08Np
 @0pp
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @BH]f
+@HPX`hv
 @MfKZ
 @Pgl
 @Pu\rm
@@ -1353,6 +1356,7 @@ $hRh
 @define missing semicolon
 @define name is invalid (use A-Z,a-z,_-): %s
 @fff>fff>fff>fff>
+@htp\n
 @i1V
 @import
 @import missing semicolon
@@ -1551,7 +1555,6 @@ AUTHORITY_KEYID
 AW:S
 AWt.
 A\rjW
-A\v:pq
 AbW_
 AcG\nt
 Acceptable OCSP Responses
@@ -1738,7 +1741,6 @@ BUF_strndup
 BY_FILE_CTRL
 BY_Lq)
 BZZn\rN]#8f'
-B\tV_isstrlower_fast
 B\vP\n0
 B`4I
 Bad boolean\n
@@ -2092,7 +2094,12 @@ CUIWindowInput::ProcessMouseTrackingResults - Recalculate handles
 CUIWindowInput::SetInputFocus
 CUtlDict<class CLocVariableValue const *,class CDefFastCaselessStringLess>::Insert
 CUtlDict<class CUtlString,class CDefFastCaselessStringLess>::Insert
+CUtlDict<class v8::Global<class v8::ObjectTemplate> *,class CDefFastCaselessStringLess>::Insert
+CUtlDict<class v8::Global<class v8::String> *,class CDefStringLess>::Insert
+CUtlDict<class v8::Global<class v8::Value> *,class CDefStringLess>::Insert
+CUtlDict<short,class CDefFastCaselessStringLess>::Insert
 CUtlDict<struct ImageInfo_t,class CDefFastCaselessStringLess>::Insert
+CUtlDict<struct panorama::PanelDescription_t *,class CDefStringLess>::Insert
 CUtlLeanVectorBase<struct UtlLinkedListElem_t<class CUtlString,unsigned short>,unsigned short,class CMemAllocAllocator>::EnsureCapacity
 CUtlLeanVectorBase<struct UtlLinkedListElem_t<class panorama::CUIPanel *,unsigned short>,unsigned short,class CMemAllocAllocator>::EnsureCapacity
 CUtlLeanVectorBase<struct UtlLinkedListElem_t<struct panorama::CUIWindowInput::TopMostFocus_t,unsigned short>,unsigned short,class CMemAllocAllocator>::EnsureCapacity
@@ -2109,45 +2116,6 @@ CUtlLeanVectorImpl<class CUtlLeanVectorBase<struct CUtlHashMap<class panorama::C
 CUtlLeanVectorImpl<class CUtlLeanVectorBase<struct CUtlHashMap<class panorama::CStyleSymbol,class panorama::CStyleProperty *,class CDefEquals<class panorama::CStyleSymbol>,struct DefaultHashFunctor<class panorama::CStyleSymbol>,int>::HashBucket_t,int,class CMemAllocAllocator>,struct CUtlHashMap<class panorama::CStyleSymbol,class panorama::CStyleProperty *,class CDefEquals<class panorama::CStyleSymbol>,struct DefaultHashFunctor<class panorama::CStyleSymbol>,int>::HashBucket_t,int>::AddMultipleToTail
 CUtlLeanVectorImpl<class CUtlLeanVectorBase<struct CUtlHashMap<struct panorama::ActionInput_t,struct panorama::InputAction_t,class CDefEquals<struct panorama::ActionInput_t>,struct ActionInputHashFunctor_t,int>::HashBucket_t,int,class CMemAllocAllocator>,struct CUtlHashMap<struct panorama::ActionInput_t,struct panorama::InputAction_t,class CDefEquals<struct panorama::ActionInput_t>,struct ActionInputHashFunctor_t,int>::HashBucket_t,int>::AddMultipleToTail
 CUtlLeanVectorImpl<class CUtlLeanVectorBase<struct CUtlHashMap<void *,class CUtlVector<class panorama::CPanoramaSymbol,int,class CUtlVectorMemory_Growable<class panorama::CPanoramaSymbol,int,0> > *,class CDefEquals<void *>,struct DefaultHashFunctor<void *>,int>::HashBucket_t,int,class CMemAllocAllocator>,struct CUtlHashMap<void *,class CUtlVector<class panorama::CPanoramaSymbol,int,class CUtlVectorMemory_Growable<class panorama::CPanoramaSymbol,int,0> > *,class CDefEquals<void *>,struct DefaultHashFunctor<void *>,int>::HashBucket_t,int>::AddMultipleToTail
-CUtlRBTree<class panorama::CImageLoaderTask *,class CDefLess<class panorama::CImageLoaderTask *>,int,class CUtlLeanVector<struct UtlRBTreeNode_t<class panorama::CImageLoaderTask *,int>,int,class CMemAllocAllocator> >::Insert
-CUtlRBTree<struct CUtlOrderedMapBase<char const *,class panorama::CStyleDefine,class CDefFastCaselessStringLess,int>::Node_t,class CUtlOrderedMapBase<char const *,class panorama::CStyleDefine,class CDefFastCaselessStringLess,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<char const *,class panorama::CStyleDefine,class CDefFastCaselessStringLess,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
-CUtlRBTree<struct CUtlOrderedMapBase<class CUtlString,class v8::Global<class v8::ObjectTemplate> *,class CDefFastCaselessStringLess,int>::Node_t,class CUtlOrderedMapBase<class CUtlString,class v8::Global<class v8::ObjectTemplate> *,class CDefFastCaselessStringLess,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class CUtlString,class v8::Global<class v8::ObjectTemplate> *,class CDefFastCaselessStringLess,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
-CUtlRBTree<struct CUtlOrderedMapBase<class CUtlString,class v8::Global<class v8::String> *,class CDefLess<class CUtlString>,int>::Node_t,class CUtlOrderedMapBase<class CUtlString,class v8::Global<class v8::String> *,class CDefLess<class CUtlString>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class CUtlString,class v8::Global<class v8::String> *,class CDefLess<class CUtlString>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
-CUtlRBTree<struct CUtlOrderedMapBase<class CUtlString,class v8::Global<class v8::Value> *,class CDefLess<class CUtlString>,int>::Node_t,class CUtlOrderedMapBase<class CUtlString,class v8::Global<class v8::Value> *,class CDefLess<class CUtlString>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class CUtlString,class v8::Global<class v8::Value> *,class CDefLess<class CUtlString>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
-CUtlRBTree<struct CUtlOrderedMapBase<class CUtlString,short,class CDefFastCaselessStringLess,int>::Node_t,class CUtlOrderedMapBase<class CUtlString,short,class CDefFastCaselessStringLess,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class CUtlString,short,class CDefFastCaselessStringLess,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
-CUtlRBTree<struct CUtlOrderedMapBase<class CUtlString,struct panorama::PanelDescription_t *,class CDefLess<class CUtlString>,int>::Node_t,class CUtlOrderedMapBase<class CUtlString,struct panorama::PanelDescription_t *,class CDefLess<class CUtlString>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class CUtlString,struct panorama::PanelDescription_t *,class CDefLess<class CUtlString>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
-CUtlRBTree<struct CUtlOrderedMapBase<class CUtlSymbol,int,class CDefLess<class CUtlSymbol>,int>::Node_t,class CUtlOrderedMapBase<class CUtlSymbol,int,class CDefLess<class CUtlSymbol>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class CUtlSymbol,int,class CDefLess<class CUtlSymbol>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
-CUtlRBTree<struct CUtlOrderedMapBase<class CUtlSymbol,struct LocalRegistration_t,class CDefLess<class CUtlSymbol>,int>::Node_t,class CUtlOrderedMapBase<class CUtlSymbol,struct LocalRegistration_t,class CDefLess<class CUtlSymbol>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class CUtlSymbol,struct LocalRegistration_t,class CDefLess<class CUtlSymbol>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
-CUtlRBTree<struct CUtlOrderedMapBase<class CWeakHandle<struct InfoForResourceTypeCTextureBase>,class panorama::CImageProxySource *,class CDefLess<class CWeakHandle<struct InfoForResourceTypeCTextureBase> >,int>::Node_t,class CUtlOrderedMapBase<class CWeakHandle<struct InfoForResourceTypeCTextureBase>,class panorama::CImageProxySource *,class CDefLess<class CWeakHandle<struct InfoForResourceTypeCTextureBase> >,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class CWeakHandle<struct InfoForResourceTypeCTextureBase>,class panorama::CImageProxySource *,class CDefLess<class CWeakHandle<struct InfoForResourceTypeCTextureBase> >,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
-CUtlRBTree<struct CUtlOrderedMapBase<class panorama::CBaseSymbol<1>,class CSmartPtr<class panorama::CJSFile,class CRefCountAccessor>,class CDefLess<class panorama::CBaseSymbol<1> >,int>::Node_t,class CUtlOrderedMapBase<class panorama::CBaseSymbol<1>,class CSmartPtr<class panorama::CJSFile,class CRefCountAccessor>,class CDefLess<class panorama::CBaseSymbol<1> >,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class panorama::CBaseSymbol<1>,class CSmartPtr<class panorama::CJSFile,class CRefCountAccessor>,class CDefLess<class panorama::CBaseSymbol<1> >,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
-CUtlRBTree<struct CUtlOrderedMapBase<class panorama::CBaseSymbol<1>,class CSmartPtr<class panorama::CLayoutFile,class CRefCountAccessor>,class CDefLess<class panorama::CBaseSymbol<1> >,int>::Node_t,class CUtlOrderedMapBase<class panorama::CBaseSymbol<1>,class CSmartPtr<class panorama::CLayoutFile,class CRefCountAccessor>,class CDefLess<class panorama::CBaseSymbol<1> >,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class panorama::CBaseSymbol<1>,class CSmartPtr<class panorama::CLayoutFile,class CRefCountAccessor>,class CDefLess<class panorama::CBaseSymbol<1> >,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
-CUtlRBTree<struct CUtlOrderedMapBase<class panorama::CBaseSymbol<1>,struct panorama::CLayoutManager::InMemoryFile_t,class CDefLess<class panorama::CBaseSymbol<1> >,int>::Node_t,class CUtlOrderedMapBase<class panorama::CBaseSymbol<1>,struct panorama::CLayoutManager::InMemoryFile_t,class CDefLess<class panorama::CBaseSymbol<1> >,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class panorama::CBaseSymbol<1>,struct panorama::CLayoutManager::InMemoryFile_t,class CDefLess<class panorama::CBaseSymbol<1> >,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
-CUtlRBTree<struct CUtlOrderedMapBase<class panorama::CPanoramaSymbol,bool,class CDefLess<class panorama::CPanoramaSymbol>,int>::Node_t,class CUtlOrderedMapBase<class panorama::CPanoramaSymbol,bool,class CDefLess<class panorama::CPanoramaSymbol>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class panorama::CPanoramaSymbol,bool,class CDefLess<class panorama::CPanoramaSymbol>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
-CUtlRBTree<struct CUtlOrderedMapBase<class panorama::CPanoramaSymbol,class CUtlString,class CDefLess<class panorama::CPanoramaSymbol>,short>::Node_t,class CUtlOrderedMapBase<class panorama::CPanoramaSymbol,class CUtlString,class CDefLess<class panorama::CPanoramaSymbol>,short>::CKeyLess,short,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class panorama::CPanoramaSymbol,class CUtlString,class CDefLess<class panorama::CPanoramaSymbol>,short>::Node_t,short>,short,class CMemAllocAllocator> >::Insert
-CUtlRBTree<struct CUtlOrderedMapBase<class panorama::CPanoramaSymbol,class panorama::CPanel2DFactory *,class CDefLess<class panorama::CPanoramaSymbol>,int>::Node_t,class CUtlOrderedMapBase<class panorama::CPanoramaSymbol,class panorama::CPanel2DFactory *,class CDefLess<class panorama::CPanoramaSymbol>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class panorama::CPanoramaSymbol,class panorama::CPanel2DFactory *,class CDefLess<class panorama::CPanoramaSymbol>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
-CUtlRBTree<struct CUtlOrderedMapBase<class panorama::CPanoramaSymbol,class panorama::CStyleAnimation *,class CDefLess<class panorama::CPanoramaSymbol>,short>::Node_t,class CUtlOrderedMapBase<class panorama::CPanoramaSymbol,class panorama::CStyleAnimation *,class CDefLess<class panorama::CPanoramaSymbol>,short>::CKeyLess,short,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class panorama::CPanoramaSymbol,class panorama::CStyleAnimation *,class CDefLess<class panorama::CPanoramaSymbol>,short>::Node_t,short>,short,class CMemAllocAllocator> >::Insert
-CUtlRBTree<struct CUtlOrderedMapBase<class panorama::CPanoramaSymbol,class v8::Global<class v8::ObjectTemplate> *,class CDefLess<class panorama::CPanoramaSymbol>,int>::Node_t,class CUtlOrderedMapBase<class panorama::CPanoramaSymbol,class v8::Global<class v8::ObjectTemplate> *,class CDefLess<class panorama::CPanoramaSymbol>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class panorama::CPanoramaSymbol,class v8::Global<class v8::ObjectTemplate> *,class CDefLess<class panorama::CPanoramaSymbol>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
-CUtlRBTree<struct CUtlOrderedMapBase<class panorama::CPanoramaSymbol,struct panorama::UIEventFactory,class CDefLess<class panorama::CPanoramaSymbol>,int>::Node_t,class CUtlOrderedMapBase<class panorama::CPanoramaSymbol,struct panorama::UIEventFactory,class CDefLess<class panorama::CPanoramaSymbol>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class panorama::CPanoramaSymbol,struct panorama::UIEventFactory,class CDefLess<class panorama::CPanoramaSymbol>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
-CUtlRBTree<struct CUtlOrderedMapBase<class panorama::CStyleFileKey,class CSmartPtr<class panorama::CStyleFile,class CRefCountAccessor>,class CDefLess<class panorama::CStyleFileKey>,int>::Node_t,class CUtlOrderedMapBase<class panorama::CStyleFileKey,class CSmartPtr<class panorama::CStyleFile,class CRefCountAccessor>,class CDefLess<class panorama::CStyleFileKey>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class panorama::CStyleFileKey,class CSmartPtr<class panorama::CStyleFile,class CRefCountAccessor>,class CDefLess<class panorama::CStyleFileKey>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
-CUtlRBTree<struct CUtlOrderedMapBase<class panorama::CStyleSymbol,class CUtlVector<struct panorama::CActiveAnimation::PropertyFrameData_t,int,class CUtlVectorMemory_Growable<struct panorama::CActiveAnimation::PropertyFrameData_t,int,0> > *,class CDefLess<class panorama::CStyleSymbol>,short>::Node_t,class CUtlOrderedMapBase<class panorama::CStyleSymbol,class CUtlVector<struct panorama::CActiveAnimation::PropertyFrameData_t,int,class CUtlVectorMemory_Growable<struct panorama::CActiveAnimation::PropertyFrameData_t,int,0> > *,class CDefLess<class panorama::CStyleSymbol>,short>::CKeyLess,short,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class panorama::CStyleSymbol,class CUtlVector<struct panorama::CActiveAnimation::PropertyFrameData_t,int,class CUtlVectorMemory_Growable<struct panorama::CActiveAnimation::PropertyFrameData_t,int,0> > *,class CDefLess<class panorama::CStyleSymbol>,short>::Node_t,short>,short,class CMemAllocAllocator> >::Insert
-CUtlRBTree<struct CUtlOrderedMapBase<class panorama::IImageSource *,struct panorama::CImageResourceManager::UrlImageKey_t,class CDefLess<class panorama::IImageSource *>,int>::Node_t,class CUtlOrderedMapBase<class panorama::IImageSource *,struct panorama::CImageResourceManager::UrlImageKey_t,class CDefLess<class panorama::IImageSource *>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class panorama::IImageSource *,struct panorama::CImageResourceManager::UrlImageKey_t,class CDefLess<class panorama::IImageSource *>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
-CUtlRBTree<struct CUtlOrderedMapBase<class panorama::IUIPanel *,class CUtlString,class CDefLess<class panorama::IUIPanel *>,int>::Node_t,class CUtlOrderedMapBase<class panorama::IUIPanel *,class CUtlString,class CDefLess<class panorama::IUIPanel *>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class panorama::IUIPanel *,class CUtlString,class CDefLess<class panorama::IUIPanel *>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
-CUtlRBTree<struct CUtlOrderedMapBase<class panorama::IUIPanel *,class CUtlVector<struct panorama::EventHandler_t,int,class CUtlVectorMemory_Growable<struct panorama::EventHandler_t,int,0> > *,class CDefLess<class panorama::IUIPanel *>,int>::Node_t,class CUtlOrderedMapBase<class panorama::IUIPanel *,class CUtlVector<struct panorama::EventHandler_t,int,class CUtlVectorMemory_Growable<struct panorama::EventHandler_t,int,0> > *,class CDefLess<class panorama::IUIPanel *>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class panorama::IUIPanel *,class CUtlVector<struct panorama::EventHandler_t,int,class CUtlVectorMemory_Growable<struct panorama::EventHandler_t,int,0> > *,class CDefLess<class panorama::IUIPanel *>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
-CUtlRBTree<struct CUtlOrderedMapBase<class panorama::IUIPanel *,class CUtlVector<struct panorama::JSGenericCallback_t *,int,class CUtlVectorMemory_Growable<struct panorama::JSGenericCallback_t *,int,0> > *,class CDefLess<class panorama::IUIPanel *>,int>::Node_t,class CUtlOrderedMapBase<class panorama::IUIPanel *,class CUtlVector<struct panorama::JSGenericCallback_t *,int,class CUtlVectorMemory_Growable<struct panorama::JSGenericCallback_t *,int,0> > *,class CDefLess<class panorama::IUIPanel *>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class panorama::IUIPanel *,class CUtlVector<struct panorama::JSGenericCallback_t *,int,class CUtlVectorMemory_Growable<struct panorama::JSGenericCallback_t *,int,0> > *,class CDefLess<class panorama::IUIPanel *>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
-CUtlRBTree<struct CUtlOrderedMapBase<class panorama::IUIPanel *,class v8::Global<class v8::Context> *,class CDefLess<class panorama::IUIPanel *>,int>::Node_t,class CUtlOrderedMapBase<class panorama::IUIPanel *,class v8::Global<class v8::Context> *,class CDefLess<class panorama::IUIPanel *>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class panorama::IUIPanel *,class v8::Global<class v8::Context> *,class CDefLess<class panorama::IUIPanel *>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
-CUtlRBTree<struct CUtlOrderedMapBase<class panorama::IUIPanel *,class v8::Global<class v8::Object> *,class CDefLess<class panorama::IUIPanel *>,int>::Node_t,class CUtlOrderedMapBase<class panorama::IUIPanel *,class v8::Global<class v8::Object> *,class CDefLess<class panorama::IUIPanel *>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class panorama::IUIPanel *,class v8::Global<class v8::Object> *,class CDefLess<class panorama::IUIPanel *>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
-CUtlRBTree<struct CUtlOrderedMapBase<class panorama::IUIPanel *,unsigned int,class CDefLess<class panorama::IUIPanel *>,int>::Node_t,class CUtlOrderedMapBase<class panorama::IUIPanel *,unsigned int,class CDefLess<class panorama::IUIPanel *>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class panorama::IUIPanel *,unsigned int,class CDefLess<class panorama::IUIPanel *>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
-CUtlRBTree<struct CUtlOrderedMapBase<class panorama::IUIWindow *,class v8::Global<class v8::Object> *,class CDefLess<class panorama::IUIWindow *>,int>::Node_t,class CUtlOrderedMapBase<class panorama::IUIWindow *,class v8::Global<class v8::Object> *,class CDefLess<class panorama::IUIWindow *>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class panorama::IUIWindow *,class v8::Global<class v8::Object> *,class CDefLess<class panorama::IUIWindow *>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
-CUtlRBTree<struct CUtlOrderedMapBase<enum panorama::GamePadCode,struct panorama::CUIInputEngine::AnalogData_t,class CDefLess<enum panorama::GamePadCode>,int>::Node_t,class CUtlOrderedMapBase<enum panorama::GamePadCode,struct panorama::CUIInputEngine::AnalogData_t,class CDefLess<enum panorama::GamePadCode>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<enum panorama::GamePadCode,struct panorama::CUIInputEngine::AnalogData_t,class CDefLess<enum panorama::GamePadCode>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
-CUtlRBTree<struct CUtlOrderedMapBase<enum panorama::KeyCode,int,class CDefLess<enum panorama::KeyCode>,int>::Node_t,class CUtlOrderedMapBase<enum panorama::KeyCode,int,class CDefLess<enum panorama::KeyCode>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<enum panorama::KeyCode,int,class CDefLess<enum panorama::KeyCode>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
-CUtlRBTree<struct CUtlOrderedMapBase<int,struct panorama::JSGenericCallback_t *,class CDefLess<int>,int>::Node_t,class CUtlOrderedMapBase<int,struct panorama::JSGenericCallback_t *,class CDefLess<int>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<int,struct panorama::JSGenericCallback_t *,class CDefLess<int>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
-CUtlRBTree<struct CUtlOrderedMapBase<struct ResourceBindingBase_t const *,struct ResourceMonitor_t *,class CDefLess<struct ResourceBindingBase_t const *>,int>::Node_t,class CUtlOrderedMapBase<struct ResourceBindingBase_t const *,struct ResourceMonitor_t *,class CDefLess<struct ResourceBindingBase_t const *>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<struct ResourceBindingBase_t const *,struct ResourceMonitor_t *,class CDefLess<struct ResourceBindingBase_t const *>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
-CUtlRBTree<struct CUtlOrderedMapBase<struct panorama::CImageResourceManager::UrlImageKey_t,class panorama::CImageProxySource *,class CDefLess<struct panorama::CImageResourceManager::UrlImageKey_t>,int>::Node_t,class CUtlOrderedMapBase<struct panorama::CImageResourceManager::UrlImageKey_t,class panorama::CImageProxySource *,class CDefLess<struct panorama::CImageResourceManager::UrlImageKey_t>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<struct panorama::CImageResourceManager::UrlImageKey_t,class panorama::CImageProxySource *,class CDefLess<struct panorama::CImageResourceManager::UrlImageKey_t>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
-CUtlRBTree<struct CUtlOrderedMapBase<unsigned __int64,class CUtlVector<struct panorama::CUIAnimationEngine::StoppedTransitionProperty_t,int,class CUtlVectorMemory_Growable<struct panorama::CUIAnimationEngine::StoppedTransitionProperty_t,int,0> > *,class CDefLess<unsigned __int64>,int>::Node_t,class CUtlOrderedMapBase<unsigned __int64,class CUtlVector<struct panorama::CUIAnimationEngine::StoppedTransitionProperty_t,int,class CUtlVectorMemory_Growable<struct panorama::CUIAnimationEngine::StoppedTransitionProperty_t,int,0> > *,class CDefLess<unsigned __int64>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<unsigned __int64,class CUtlVector<struct panorama::CUIAnimationEngine::StoppedTransitionProperty_t,int,class CUtlVectorMemory_Growable<struct panorama::CUIAnimationEngine::StoppedTransitionProperty_t,int,0> > *,class CDefLess<unsigned __int64>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
-CUtlRBTree<struct CUtlOrderedMapBase<unsigned __int64,struct panorama::CCompositionLayerCache<unsigned __int64,class panorama::CSource2CompositionLayer,class CDefLess<unsigned __int64>,0>::Layer_t,class CDefLess<unsigned __int64>,int>::Node_t,class CUtlOrderedMapBase<unsigned __int64,struct panorama::CCompositionLayerCache<unsigned __int64,class panorama::CSource2CompositionLayer,class CDefLess<unsigned __int64>,0>::Layer_t,class CDefLess<unsigned __int64>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<unsigned __int64,struct panorama::CCompositionLayerCache<unsigned __int64,class panorama::CSource2CompositionLayer,class CDefLess<unsigned __int64>,0>::Layer_t,class CDefLess<unsigned __int64>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
-CUtlRBTree<struct CUtlOrderedMapBase<unsigned __int64,struct panorama::CUIEngine::PanelPaintCount_t,class CDefLess<unsigned __int64>,int>::Node_t,class CUtlOrderedMapBase<unsigned __int64,struct panorama::CUIEngine::PanelPaintCount_t,class CDefLess<unsigned __int64>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<unsigned __int64,struct panorama::CUIEngine::PanelPaintCount_t,class CDefLess<unsigned __int64>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
-CUtlRBTree<struct CUtlOrderedMapBase<void *,class v8::Global<class v8::Object> *,class CDefLess<void *>,int>::Node_t,class CUtlOrderedMapBase<void *,class v8::Global<class v8::Object> *,class CDefLess<void *>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<void *,class v8::Global<class v8::Object> *,class CDefLess<void *>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
-CUtlRBTree<unsigned __int64,class CDefLess<unsigned __int64>,int,class CUtlLeanVector<struct UtlRBTreeNode_t<unsigned __int64,int>,int,class CMemAllocAllocator> >::Insert
 CUtlSortVector<class CUtlString,class panorama::FontNameListSort_t,class CUtlVector<class CUtlString,int,class CUtlVectorMemory_Growable<class CUtlString,int,0> > >::FindLessOrEqual
 CUtlSortVector<class panorama::CStyleKeyFrame *,class panorama::CUtlSortVectorCStyleKeyFramePtrLess,class CUtlVector<class panorama::CStyleKeyFrame *,int,class CUtlVectorMemory_Growable<class panorama::CStyleKeyFrame *,int,0> > >::Find
 CUtlSortVector<class panorama::CStyleKeyFrame *,class panorama::CUtlSortVectorCStyleKeyFramePtrLess,class CUtlVector<class panorama::CStyleKeyFrame *,int,class CUtlVectorMemory_Growable<class panorama::CStyleKeyFrame *,int,0> > >::Insert
@@ -2208,7 +2176,7 @@ Content-Type: application/ocsp-request\r\nContent-Length: %d\r\n\r\n
 Content-Type: multipart/signed;
 Content-Type: text/plain\r\n\r\n
 ContextMenu
-Controls blending mode for the panel.  See CSS mix-blend-mode docs on web, except normal for us is with alpha blending.<br><br><b>Examples:</b><pre>-s2-mix-blend-mode: normal;\n-s2-mix-blend-mode: multiply;\n-s2-mix-blend-mode: screen;\n-s2-mix-blend-mode: additive\n;-s2-mix-blend-mode: opaque;</pre>
+Controls blending mode for the panel.  See CSS mix-blend-mode docs on web, except normal for us is with alpha blending.<br><br><b>Examples:</b><pre>-s2-mix-blend-mode: normal;\n-s2-mix-blend-mode: multiply;\n-s2-mix-blend-mode: screen;\n-s2-mix-blend-mode: additive\n;-s2-mix-blend-mode: opaque;-s2-mix-blend-mode: overlay\n;-s2-mix-blend-mode: hardlight\n;-s2-mix-blend-mode: linearburn\n;-s2-mix-blend-mode: darken\n;-s2-mix-blend-mode: lighten\n;-s2-mix-blend-mode: colordodge\n;-s2-mix-blend-mode: colorburn\n;-s2-mix-blend-mode: hue\n;</pre>
 Controls if the background should be repeated in the horizontal and vertical directions.<br><br>Possible values per direction:<br>"repeat" - (default) Repeated in the specified direction until it fills the panel<br>"space" - Repeated as many times as required to fill the panel w/o being clipped. Space is added between images to to align first and last image with panel edges.<br>"round" - Repeated as many times as required to fill the panel w/o being clipped. The image is resized to align first and last image with panel edges.<br>"no-repeat" - Not repeated<br><br>Possible single values:<br>"repeat-x" - equals "repeat no-repeat"<br>"repeat-y" - equals "no-repeat repeat"<br><br><b>Examples:</b><pre>background-repeat: repeat; // equals "repeat repeat" (default)\nbackground-repeat: repeat space; // repeats horizontally, spaces vertically \nbackground-repeat: no-repeat round; // 1 column of images, scaled to fit evenly</pre>
 Controls if the panel is visible and is included in panel layout. Possible values:<br>"visible" - panel is visible and included in layout (default)<br>"collapse" - panel is invisible and not included in layout
 Controls texture sampling mode for the panel. Set to alpha-only to use the textures alpha data across all 3 color channels, or point for point sampling.<br><br><b>Examples:</b><pre>texture-sampling: normal;\ntexture-sampling: alpha-only;\ntexture-sampling: point;</pre>
@@ -2478,11 +2446,6 @@ DYNAMIC_CTRL
 DYNAMIC_GET_DATA_CTX
 DYNAMIC_LOAD
 DYNAMIC_SET_DATA_CTX
-D\tV_isvalidhex
-D_BORDER_DASH
-D_TEXTURETYPE
-D_USEBORDERCLIP
-D_USERADIALCLIP
 Data Encipherment
 DbgIsReloadingScript
 DcO/lcK+hSK
@@ -2830,6 +2793,10 @@ Error in layout file %s.\n - Incorrect file extension for script file. Use %s in
 Error loading %s: Addons can only add layouts in the %s subdirectory.
 Error loading %s: Addons cannot add layouts.
 Error loading %s: Addons cannot add ui scripts.
+Error loading %s: not in a signed vpk.
+Error loading %s: paths to css files cannot contain '..'\n
+Error loading %s: paths to layout files cannot contain '..'\n
+Error loading %s: paths to ui script files cannot contain '..'\n
 Error parsing @define
 Error parsing @define value
 Error parsing @import url '%s'
@@ -2910,7 +2877,8 @@ FV|FgUV
 F\rH'4
 Failed to KV3 transfer block: %d\n
 Failed to add include for file: %s
-Failed to allocate an instance of a class
+Failed to allocate an instance of a class of type '%s'
+Failed to create '%s': client disallowing panorama script file creation\n
 Failed to load a layout that is required.
 Failed to load image data from %s\n
 Failed to normalize @import url '%s'
@@ -3058,6 +3026,7 @@ H8,2
 H8xp
 H=`HY
 H@H9xqI
+HA\J
 HB=\nHB
 HBJ\nTRF
 HEAD 
@@ -3073,6 +3042,7 @@ HO8?
 HTMLEscape
 HU>mA$_E*
 HWyn
+H\tV_isstrlower_fast
 Hash Algorithm: 
 HbAta
 Hc S
@@ -3229,6 +3199,7 @@ JSScheduledFunction
 JS_!0
 JZIX
 J\nHBF
+J\tV_isvalidhex
 J`KL
 Javascript
 Jq;v
@@ -3602,10 +3573,11 @@ P-224
 P-256
 P-384
 P-521
-P08Np
+P08@J`H#
 P1\t98"
+P2`H#
 P5[1
-P6Pj<
+P6`r=
 PAGN_4
 PARAMETERS
 PARSE_BAG
@@ -3833,6 +3805,7 @@ Panorama context panel stack overflow. Increase PANEL_STACK_SIZE in uiengine.cpp
 Panorama requires a full rendersystem, please check your launch options\n
 Panorama texture %s not already loaded/invalid.  Resource should have already loaded before this call.\n
 Panorama/AllowCustomGameUI
+Panorama/RequireUIInSignedVPK
 PanoramaBasicQuad
 PanoramaBlurOutputTexture%dx%d
 PanoramaContent
@@ -3842,9 +3815,6 @@ PanoramaMovie.Default
 PanoramaScript
 PanoramaUI
 PanoramaVideoPlayer
-Panorama_OutputColor
-Panorama_OutputDepth
-Panorama_OutputIntermediate
 Parameters
 Peer haven't sent GOST certificate, required for selected ciphersuite
 PerformLayout
@@ -4028,8 +3998,9 @@ RSA_verify
 RSA_verify_ASN1_OCTET_STRING
 RSA_verify_PKCS1_PSS
 RSA_verify_PKCS1_PSS_mgf1
-RSDS
+RSDSqq
 R\r1>Vp
+R\vp0
 R]Di
 R_T5Y
 Rbg.E
@@ -4081,6 +4052,7 @@ Return the position of the mouse in the parent window.
 Return true if a file exists.  Path will usually start with 'file://{images}'
 Rg4I
 Root node must be named 'root', found '%s'.
+RpK 
 Rq[R
 RrBoN
 RtIF
@@ -5029,7 +5001,6 @@ Z~wl
 \f]ne3
 \fdhWTh
 \fiaR
-\fp\vPl
 \ful2
 \fy&3Gl
 \l:ArR
@@ -5124,6 +5095,8 @@ _xU`u
 _}eOk
 `28)fk
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
+`6Pg=
+`6Pj=
 `:zQF
 `D$daM-l
 `DZG
@@ -5133,6 +5106,7 @@ _}eOk
 `VX:H
 `fPw.\vM
 `h9T~
+`htp\n
 `o_je
 `yNT
 a null shared library handle was used
@@ -5147,7 +5121,6 @@ a5<p
 a;Tg
 a@XZ
 aA0k
-aBvp
 aD/x
 aDSS
 aECDH
@@ -5168,7 +5141,6 @@ aRWZ5
 aRecord
 aSRP
 aXvC
-a\tV_powd
 a]?xG
 aaControls
 ac-auditEntity
@@ -5420,6 +5392,7 @@ bie.+
 bignum out of range
 bignum routines
 bignum too long
+binary
 bio not set
 bio write failure
 biometricInfo
@@ -6011,6 +5984,8 @@ col-resize
 collapse
 color-stop
 color-stop( %s, 
+colorburn
+colordodge
 command not supported
 command takes input
 command takes no input
@@ -6199,6 +6174,7 @@ d[kHy
 d_r_0
 darkblue
 darkcyan
+darken
 darkgoldenrod
 darkgray
 darkgreen
@@ -6634,8 +6610,8 @@ file://{resources}/default_keybinds.cfg
 file://{resources}/keybinds.cfg
 file://{resources}/window_keybinds.cfg
 filename too big
-fill
 fill 
+fill-opacity
 fill-parent-flow
 fill-parent-flow( %s )
 fill-rule
@@ -6697,6 +6673,7 @@ gF{A
 gHAx
 gTH.M
 gXC.nT\v
+g\tV_powd
 g]i/H
 g_iStylePropertyIndexNextFree < 255
 gainsboro
@@ -6754,7 +6731,6 @@ h0XB
 h2Wl
 h2n_\
 h5N.
-hE+I
 hEM&!
 hF\rDz
 hFcg
@@ -6766,6 +6742,7 @@ hW1M
 hW_z
 hX@e
 h`Zr
+hardlight
 hash
 hashAlgorithm
 hashFunc
@@ -6808,6 +6785,7 @@ horizontal-align
 hotpink
 houseIdentifier
 hover
+hpz`H#
 hr_H
 hscroll
 hsv-transform
@@ -6819,7 +6797,6 @@ https proxy request
 https://
 hue-rotation
 hvL&
-hy1I
 h|gg
 i <= EVP_MAX_MD_SIZE
 i%YR
@@ -7599,6 +7576,7 @@ light
 lightblue
 lightcoral
 lightcyan
+lighten
 lightgoldenrodyellow
 lightgray
 lightgreen
@@ -7617,6 +7595,7 @@ line
 line-height
 line-through
 linearGradient
+linearburn
 linen
 list cannot be null
 list error
@@ -8146,7 +8125,8 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^p
+p0j0N$
+p2`H#
 p2{l
 p4Z3
 p5Z3
@@ -8227,6 +8207,7 @@ panorama::CSource2Surface::DrawBasicQuads
 panorama::CSource2Surface::DrawFancyQuad
 panorama::CStyleSymbol::CStyleSymbol
 panorama::CUIEngine::PanelDestroyed
+panorama::CUIEngine::UpdateVideoTextures(7514): 
 panorama::CUIPanel::AttachChild
 panorama::CUIPanel::DetachChild
 panorama::CUIPanel::~CUIPanel
@@ -8245,10 +8226,7 @@ panorama_rt_ds_%s.vtex
 panorama_rt_pp_%s.vtex
 panorama_text_pango
 panorama_texture.vtex
-panorama_texture_a.vtex
-panorama_texture_u.vtex
-panorama_texture_v.vtex
-panorama_texture_y.vtex
+panorama_video_tex_%s_%d_%d.vtex
 panoramasymbol
 panorma_vertex_texturedlayout
 papayawhip
@@ -9250,6 +9228,9 @@ too large
 too long
 too many iterations
 too many temporary variables
+tool_request_args
+tool_request_text
+tool_request_tool
 tooltip-arrow-position
 tooltip-body-position
 tooltip-position

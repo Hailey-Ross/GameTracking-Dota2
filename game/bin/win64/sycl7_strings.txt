@@ -6080,7 +6080,6 @@ Queue compute index must be a non-negative number less than device's number of a
 Queue create using make_queue cannot have compute_index property.
 Queue operation cannot depend on discarded event.
 RELEASE ON 
-RSDS
 R\vpP
 Re-definition of key 
 Recompiling AOT image is not supported

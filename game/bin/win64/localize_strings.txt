@@ -3,14 +3,13 @@
   %s tokens; %s instances 
   from file '%s'\n
   has gender\n
+  has plural quantity\n
   in hash as '%s'\n
   language '%s'\n
   no language associated\n
   not from a file\n
   string data: %s bytes in %s blocks\n
   total memory allocated: %s bytes\n
-  valid for gender lookup\n
-  valid for plural lookup\n
   value '%s'\n
 !plural: handler %s for %s does not have quantity handling
 !plural: loc token %s does not have a plural quantity
@@ -149,7 +148,6 @@ $1.23
 %s: :p loc tokens are no longer supported, use a MessageFormat string instead (token '%s')\n
 %s: contexts on loc tokens are no longer supported, use a MessageFormat string instead (token '%s')\n
 %s: invalid usage char in '%s'\n
-%s: unexpected language '%s'\n
 %s_pw
 (%s from %u files; %s not file-based)\n
 *.txt
@@ -215,7 +213,6 @@ Bulgarian
 C:\buildworker\source2_dota_rel_2019_win64\build\_build_\localize\_vpc_localize\default\win64\_msvc_\Retail\localize.pdb
 C:\buildworker\source2_dota_rel_2019_win64\build\src\localize\loc_add.cpp
 C:\buildworker\source2_dota_rel_2019_win64\build\src\localize\loc_variables.cpp
-C:\buildworker\source2_dota_rel_2019_win64\build\src\localize\loc_variants.cpp
 C:\buildworker\source2_dota_rel_2019_win64\build\src\localize\localize_imp.cpp
 CLP$
 CLocalize::AddFileImpl
@@ -226,7 +223,6 @@ CLocalize::ConstructString
 CLocalize::FindSafe
 CLocalize::InstallChangeCallback: Attempted to add the same callback twice!\n
 CLocalize::RunInternalTest_LocVariableResolve
-CLocalize::RunInternalTest_PluralGender
 COL$
 CUtlLeanVectorImpl<class CUtlLeanVectorBase<struct CUtlHashMap<char const *,class LocalizeStringID_t,struct StringEqualFunctor,struct StringHashFunctor,int>::HashBucket_t,int,class CMemAllocAllocator>,struct CUtlHashMap<char const *,class LocalizeStringID_t,struct StringEqualFunctor,struct StringHashFunctor,int>::HashBucket_t,int>::AddMultipleToTail
 CUtlLeanVectorImpl<class CUtlLeanVectorBase<struct CUtlHashMap<char const *,struct CLocalize::LocTokenInfo_t,struct FastCaselessStringEqualFunctor,struct FastCaselessStringHashFunctor,class LocalizeStringIndex_t>::HashBucket_t,int,class CMemAllocAllocator>,struct CUtlHashMap<char const *,struct CLocalize::LocTokenInfo_t,struct FastCaselessStringEqualFunctor,struct FastCaselessStringHashFunctor,class LocalizeStringIndex_t>::HashBucket_t,int>::AddMultipleToTail
@@ -277,28 +273,17 @@ Italian
 Japanese
 Korean
 LOCFAIL %s: '%s' combines :f with other flags\n
-LOCFAIL %s: '%s' gives multiple variants for :l\n
-LOCFAIL %s: '%s' gives multiple variants for :n\n
+LOCFAIL %s: '%s' has multiple parts\n
 LOCFAIL %s: '%s' has variants but does not have any token name variant flags (:g, :n, :p, etc.)\n
-LOCFAIL %s: '%s' indicates %u %s but needs %u valid %s\n
-LOCFAIL %s: '%s' indicates 1 plural but needs %u valid plural variants\n
 LOCFAIL %s: '%s' indicates a gender specifier but doesn't provide one\n
-LOCFAIL %s: '%s' indicates a plural specifier but doesn't provide one\n
-LOCFAIL %s: '%s' indicates gender but doesn't have valid gender flags\n
-LOCFAIL %s: '%s' indicates genders but doesn't have valid gender variants\n
-LOCFAIL %s: Too many variant values for '%s'\n
 LOCFAIL %s: Value for '%s' does not have required gender\n
-LOCFAIL %s: Value for '%s' does not have required plural form\n
-LOCFAIL %s: Value for '%s' has a plural form but the token doesn't have :l\n
+LOCFAIL %s: Value for '%s' has a plural quantity but the token doesn't have :l\n
 LOCFAIL %s: Value for '%s' has gendered variants but the token doesn't have :g or :n\n
-LOCFAIL %s: Value for '%s' has multiple variants with the same gender\n
-LOCFAIL %s: Value for '%s' must have all language-defined gender variants\n
 LOCFAIL %s: Value for '%s' must have the same gender for each variant\n
 LOCFAIL %s: Value for '%s' uses a gender not valid for the value language\n
 LOCFAIL: Ignoring unsupported encoding in localization file '%s'\n
 LOCFAIL: Tried to add a loc token with '#' starting the token name ('%s')\n
 LOCFAIL: Tried to add empty loc token\n
-LOCFAIL: the explicit plural flag 'l' can't be specified with the plural set flag 'p' (token %s in file %s)\n
 LOCFAIL: the explicit plural flag 'l' can't be specified without the gender flag 'n' (token %s in file %s)\n
 LOCWARN %s: value of '%s' matches English, possible unlocalized token\n
 LOC_Date_Today
@@ -344,7 +329,6 @@ Not expecting to find any loc var refs in '%s'\n
 PERF WARNING: '%s' is in UTF-16 format, converting to UTF-8 will allow faster loading of it\n
 Polish
 Portuguese
-RSDS#
 Romanian
 Russian
 Simplified_Chinese
@@ -371,7 +355,6 @@ WARNING: Duplicate string token '%s' found in %s (original in %s) - new value '%
 \t_V_StringAfterPrefixCaseSensitive
 \{s:foo} {s:bar}
 \{s:foo} {} {,:} {s:} {s:bar} extra
-a\tV_powd
 bg_BG
 brazilian
 bulgarian
@@ -386,6 +369,7 @@ duplicate selector case
 dutch
 el_GR
 en_US
+ends_with_000
 english]
 es-419
 es_419
@@ -398,6 +382,7 @@ finnish
 foo}
 fr_FR
 french
+g\tV_powd
 gen test
 gen test mod A
 gen test mod AB
@@ -410,6 +395,7 @@ hungarian
 id_ID
 indonesian
 instance %d:\n
+invalid plural predicate after '='
 it_IT
 italian
 ja_JP
@@ -431,7 +417,7 @@ missing required '}' for plural match
 missing required '}' for select
 missing required comparison value for select
 missing required gender category
-missing required integer after '='
+missing required integer or predicate after '='
 missing required selection type (ie., 'plural') after comma
 missing required substitution variable name
 money
@@ -449,8 +435,6 @@ pLocalize->FindLocVariableReferenceText( pString ) == pFound
 parse error: %s at position %lld (context: "%s>>>%s<<<%s")
 pl_PL
 plural
-plurals
-plurals*genders
 polish
 portuguese
 pt_BR
@@ -511,7 +495,6 @@ x {s:str} x
 x {s:u:str} {s:extstr} {d:r:i64} {u:u64} {f:3:f64} {m:money} {g:test:ab:gen} x
 x {s:u:str} {s:extstr} {d:r:i64} {u:u64} {f:3:f64} {m:money} {g:test:gen} x
 x {{s:one} x
-zfAO
 zh_CN
 zh_TW
 {D:o:r:foo}

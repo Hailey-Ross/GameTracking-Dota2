@@ -3,7 +3,7 @@
   Bad Fax Lines: %lu\n
   Brightness Offset
   Brightness Scale
-  C%d:I%-2d {F=%-10d,V=%-10d} 
+  C%d:I%-2d {F=%-10d,V=%-10d,S=%-20.20s} 
   CallInfo%d: %s\n
   Cell%d - NULL\n
   Cell%d EditorID:%d [%s]: %s\n
@@ -19,11 +19,11 @@
   Fax SubAddress: %s\n
   Group 3 Options:
   Group 4 Options:
+  Independent Alpha Compression (BC3)
   Invoke%d: Cell%d %s\n
   Invoke%d: LibraryFunc %s\n
   Legacy Source1 Inverted Normals
   Location
-  Max Mobile Resolution
   Max Output Resolution
   Minimum Encoding Quality
   Mip Filter Strength [0..1]
@@ -199,6 +199,7 @@ $\f?focusNextPrevChild@QWidget@@MEAA_N_N@Z
 %s (%s,%s,%s)
 %s <small>( from %s )</small>
 %s compression support is not configured
+%s%02d:%02d
 %s%s "%s"%s\n
 %s%s: DynamicWidget: %s\n
 %s() isn't a known function.
@@ -306,9 +307,9 @@ $\f?focusNextPrevChild@QWidget@@MEAA_N_N@Z
 * Rehandling active codes
 * { font-size: 10px }
 *"?updateGeometries@QHeaderView@@MEAAXXZ
-*** CVfx::GenerateUiFeatureHiddenRuleErrorIndices(8325): Programmer Error! NULL pointer passed into function!\n
-*** CVfx::GenerateUiFeatureHiddenRuleErrorIndices(8351): Programmer Error! Non feature rule found in feature rule array!\n
-*** CVfx::StartupSanityCheck(7115): Programmer Error! The order of VfxVariableSourceType_t does not match s_shaderVariableSource!\n
+*** CVfx::GenerateUiFeatureHiddenRuleErrorIndices(8241): Programmer Error! NULL pointer passed into function!\n
+*** CVfx::GenerateUiFeatureHiddenRuleErrorIndices(8267): Programmer Error! Non feature rule found in feature rule array!\n
+*** CVfx::StartupSanityCheck(7031): Programmer Error! The order of VfxVariableSourceType_t does not match s_shaderVariableSource!\n
 *** Error adding variable to array!\n
 *** Error masking unused parts! Equal sign not found after token "%s"! (line %d)\n
 *** Error! Multiple dynamic combos are putting the same constant (%s) in different descriptor sets. This won't work correctly.\n
@@ -317,10 +318,10 @@ $\f?focusNextPrevChild@QWidget@@MEAA_N_N@Z
 *** Error! Multiple dynamic combos are putting the same texure (%s) in different descriptor set slots. This won't work correctly.\n
 *** Problem remapping texture reference!\n
 *** Test failure: "%s"
-*** VfxPopulateSourceCache(1137): Error opening file "%s"!\n\n
-*** VfxPopulateSourceCache(1145): Error opening file "%s"!\n\n
-*** VfxReadAndPrepForCrc(1295): Source cache incomplete, file "%s" missing!\n\n
-*** VfxReadAndPrepForCrc(1307): Error masking unused parts for "%s"!\n\n
+*** VfxPopulateSourceCache(1097): Error opening file "%s"!\n\n
+*** VfxPopulateSourceCache(1105): Error opening file "%s"!\n\n
+*** VfxReadAndPrepForCrc(1255): Source cache incomplete, file "%s" missing!\n\n
+*** VfxReadAndPrepForCrc(1267): Error masking unused parts for "%s"!\n\n
 *.vfx
 *.vmat
 *NONE*VALID*
@@ -342,6 +343,7 @@ $\f?focusNextPrevChild@QWidget@@MEAA_N_N@Z
 -]?size@QFontMetrics@@QEBA?AVQSize@@HAEBVQString@@HPEAH@Z
 .#?windowTitle@QWidget@@QEBA?AVQString@@XZ
 .?AUCPulseCell_BooleanSwitchState_DebugInfo_t@@
+.?AUCPulseCell_IntervalTimer_DebugInfo_t@@
 .?AUCPulseCell_Timeline_DebugInfo_t@@
 .?AV<lambda_10>@?M@???0CBindableTargetDescriptorInstance@?1??StaticBindableTargetDescriptor@CGlobalHotkeyCommands@@SAPEAVCBindTargetDescriptorBase@@XZ@QEAA@XZ@
 .?AV<lambda_11>@?N@???0CBindableTargetDescriptorInstance@?1??StaticBindableTargetDescriptor@CGlobalHotkeyCommands@@SAPEAVCBindTargetDescriptorBase@@XZ@QEAA@XZ@
@@ -349,8 +351,10 @@ $\f?focusNextPrevChild@QWidget@@MEAA_N_N@Z
 .?AV<lambda_13>@?P@???0CBindableTargetDescriptorInstance@?1??StaticBindableTargetDescriptor@CGlobalHotkeyCommands@@SAPEAVCBindTargetDescriptorBase@@XZ@QEAA@XZ@
 .?AV<lambda_14>@?BA@???0CBindableTargetDescriptorInstance@?1??StaticBindableTargetDescriptor@CGlobalHotkeyCommands@@SAPEAVCBindTargetDescriptorBase@@XZ@QEAA@XZ@
 .?AV<lambda_15>@?BB@???0CBindableTargetDescriptorInstance@?1??StaticBindableTargetDescriptor@CGlobalHotkeyCommands@@SAPEAVCBindTargetDescriptorBase@@XZ@QEAA@XZ@
+.?AV<lambda_1>@?$PulseBindingSchemaEnumTraits_t@W4PulseDurationStringFormat_t@@@@
 .?AV<lambda_1>@?2???0CBindableTargetDescriptorInstance@?1??StaticBindableTargetDescriptor@CGlobalHotkeyCommands@@SAPEAVCBindTargetDescriptorBase@@XZ@QEAA@XZ@
 .?AV<lambda_1>@?8??SrgbLinearToGamma@CSOAContainer@@QEAAXH@Z@
+.?AV<lambda_2>@?$PulseBindingSchemaEnumTraits_t@W4PulseDurationStringFormat_t@@@@
 .?AV<lambda_2>@?3???0CBindableTargetDescriptorInstance@?1??StaticBindableTargetDescriptor@CGlobalHotkeyCommands@@SAPEAVCBindTargetDescriptorBase@@XZ@QEAA@XZ@
 .?AV<lambda_2_>@?0???0CAssetSelectionListenerHelper@@QEAA@PEAVIAssetSelectionListener@@@Z@
 .?AV<lambda_3>@?4???0CBindableTargetDescriptorInstance@?1??StaticBindableTargetDescriptor@CGlobalHotkeyCommands@@SAPEAVCBindTargetDescriptorBase@@XZ@QEAA@XZ@
@@ -433,8 +437,10 @@ $\f?focusNextPrevChild@QWidget@@MEAA_N_N@Z
 .?AV?$_Func_impl_no_alloc@V<lambda_13>@?P@???0CBindableTargetDescriptorInstance@?1??StaticBindableTargetDescriptor@CGlobalHotkeyCommands@@SAPEAVCBindTargetDescriptorBase@@XZ@QEAA@XZ@XPEAV4@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_14>@?BA@???0CBindableTargetDescriptorInstance@?1??StaticBindableTargetDescriptor@CGlobalHotkeyCommands@@SAPEAVCBindTargetDescriptorBase@@XZ@QEAA@XZ@XPEAV4@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_15>@?BB@???0CBindableTargetDescriptorInstance@?1??StaticBindableTargetDescriptor@CGlobalHotkeyCommands@@SAPEAVCBindTargetDescriptorBase@@XZ@QEAA@XZ@XPEAV4@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?$PulseBindingSchemaEnumTraits_t@W4PulseDurationStringFormat_t@@@@VCPulseValueFullType@@$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?2???0CBindableTargetDescriptorInstance@?1??StaticBindableTargetDescriptor@CGlobalHotkeyCommands@@SAPEAVCBindTargetDescriptorBase@@XZ@QEAA@XZ@XPEAV4@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?8??SrgbLinearToGamma@CSOAContainer@@QEAAXH@Z@X$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_2>@?$PulseBindingSchemaEnumTraits_t@W4PulseDurationStringFormat_t@@@@I$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_2>@?3???0CBindableTargetDescriptorInstance@?1??StaticBindableTargetDescriptor@CGlobalHotkeyCommands@@SAPEAVCBindTargetDescriptorBase@@XZ@QEAA@XZ@XPEAV4@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_2_>@?0???0CAssetSelectionListenerHelper@@QEAA@PEAVIAssetSelectionListener@@@Z@XAEBUAssetSelectionInfo_t@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_3>@?4???0CBindableTargetDescriptorInstance@?1??StaticBindableTargetDescriptor@CGlobalHotkeyCommands@@SAPEAVCBindTargetDescriptorBase@@XZ@QEAA@XZ@XPEAV4@@std@@
@@ -718,6 +724,7 @@ $\f?focusNextPrevChild@QWidget@@MEAA_N_N@Z
 .[?setRed@QColor@@QEAAXH@Z
 .\r?hideEvent@QMenu@@MEAAXPEAVQHideEvent@@@Z
 .\v?event@QAbstractItemView@@MEAA_NPEAVQEvent@@@Z
+.eBVfx
 .exr
 .ini
 .pfm
@@ -738,13 +745,12 @@ $\f?focusNextPrevChild@QWidget@@MEAA_N_N@Z
 /]?size@QImage@@QEBA?AVQSize@@XZ
 0123456789
 0123456789)"
+04D#
 0=Wrap,1=Mirror,2=Clamp,3=Border,4=MirrorOnce
-0>Yi.
 0x%1
 0x%p = %s '%s'
 1/2/3
 128 x 128
-14:23:39
 1:1: Tokens : ( T__18 | T__19 | T__20 | T__21 | T__22 | T__23 | T__24 | T__25 | T__26 | T__27 | T__28 | T__29 | T__30 | T__31 | T__32 | T__33 | T__34 | T__35 | T__36 | T__37 | T__38 | T__39 | T__40 | T__41 | BOOLLITERAL | ID | INTEGERLITERAL | HEXINTEGERLITERAL | FLOATLITERAL | COMMENT | WS );
 1AboutAction()
 1AcceptColorInternal(FatColor_t)
@@ -970,6 +976,7 @@ $\f?focusNextPrevChild@QWidget@@MEAA_N_N@Z
 1setFilterWildcard(QString)
 1trigger()
 222222
+23:20:42
 256 x 256
 2ColorPicked( QColor )
 2ColorPicked(QColor)
@@ -1057,7 +1064,6 @@ $\f?focusNextPrevChild@QWidget@@MEAA_N_N@Z
 5;FJ$,XEK4<
 5\f?focusOutEvent@QMenuBar@@MEAAXPEAVQFocusEvent@@@Z
 5\v?event@QCheckBox@@MEAA_NPEAVQEvent@@@Z
-63i.
 6[?setRenderHint@QPainter@@QEAAXW4RenderHint@1@_N@Z
 6\f?focusOutEvent@QPlainTextEdit@@MEAAXPEAVQFocusEvent@@@Z
 6\v?createNode@QMapDataBase@@QEAAPEAUQMapNodeBase@@HHPEAU2@_N@Z
@@ -2640,10 +2646,6 @@ A string associated with this Cursor, to use later for remote Kill or Wait reque
 A#?write@QTreeWidgetItem@@UEBAXAEAVQDataStream@@@Z
 A%mB,
 ACTIVITY WEIGHTS
-ANDROID_VULKAN
-ANDROID_VULKAN_4_0
-ANDROID_VULKAN_4_1
-ANDROID_VULKAN_5_0
 About &Material Editor
 About Material Editor Tool
 About...
@@ -2658,13 +2660,16 @@ Active Window Widget
 ActiveArea
 ActiveTabName
 Add Dynamic Expression...
+Add Flags
 Add New Attribute. Click Attribute Cells To Modify
 Add R%d <- R%d + R%d
+Add flags to the given value.
 Add the array 'b' to the end of 'a'.
 AddColor
 Addr
 Address
 AdobeDeflate
+After the real remainder, how many additional digits should we continue to append to create additional visual movement?
 Align With Gravity Factor: 
 All Images (
 All Variables!
@@ -2678,12 +2683,8 @@ AllowOverwriteOfReadOnlyMaterials
 Alpha decoder initialization failed.
 Alpha:
 AlternateInput
-Always
 AnalogBalance
 And R%d <- R%d && R%d
-Android SM 4.0 (VULKAN)
-Android SM 4.1 (VULKAN)
-Android SM 5.0 (VULKAN)
 AngularSpan
 Annotate Favorite...
 AntiAliasStrength
@@ -2716,12 +2717,13 @@ AsShotWhiteXY
 Assert True
 Asset Browser
 Assets
-Async Fire C%d:I%d
-AtlasToVolumeTextureConversion(3093): Error! Unable to parse grid/slice count from volume atlas filename: %s\n
+Async Call Method (Child Cursor) C%d:I%d
+Async Outflow (Child Cursor) C%d:I%d
+Asynchronous - This node executes independently using a new Cursor. Formerly 'Fire and Forget'. Equivalent to scheduling using an additional 'Fire Child Cursors' node.
+AtlasToVolumeTextureConversion(3537): Error! Unable to parse grid/slice count from volume atlas filename: %s\n
 Attempting to register the command %s for context %s multiple times\n
 Attributes Used:
 Auto (%dx%d)
-Auto (128x128)
 Auto (No Limit)
 Auto Fill Group Using Me
 Auto Fill Texture Resolution Using Me
@@ -2797,6 +2799,7 @@ C:\buildworker\source2_dota_rel_2019_win64\build\src\tools\toolutils2\toolrender
 C:\buildworker\source2_dota_rel_2019_win64\build\src\vfx\compiletargetexpr.g
 C:\buildworker\source2_dota_rel_2019_win64\build\src\vfx\vfx_common.cpp
 C:\buildworker\source2_dota_rel_2019_win64\build\src\vfx\vfxexpr.g
+C<c2
 CBufferString
 CCITT Group 3
 CCITT Group 4
@@ -2831,9 +2834,9 @@ CPulseArraylib::ArrayRemoveIndex
 CPulseArraylib::ArrayRemoveInvalidElements
 CPulseArraylib::ArraySetCount
 CPulseArraylib::ArrayShuffle
+CPulseBreakpointLocation
 CPulseCell_BooleanSwitchState::Activate
 CPulseCell_CursorQueue::Wait
-CPulseCell_FireCursors::Cancel
 CPulseCell_FireCursors::Start
 CPulseCell_FireCursors::StopWaiting
 CPulseCell_Inflow_EntOutputHandler '%s'.'%s' --> Chunk%d: %s
@@ -2843,26 +2846,28 @@ CPulseCell_Inflow_ObservableVariableListener '%s'.'%s (%u)' --> Chunk%d: %s
 CPulseCell_InlineNodeSkipSelector::ProcessSelector
 CPulseCell_IntervalTimer::OnInterval
 CPulseCell_IntervalTimer::Start
-CPulseCell_IntervalTimer::StopTimer
 CPulseCell_IsRequirementValid::CheckRequirement
 CPulseCell_LimitCount::CheckRequirement
 CPulseCell_LimitCount::CommitStep
 CPulseCell_PickBestOutflowSelector::ProcessSelector
 CPulseCell_Step_CallExternalMethod '%s'
 CPulseCell_Timeline::Start
-CPulseCell_Timeline::Stop
 CPulseCell_Value_Curve::Eval
 CPulseCell_Value_Gradient::Eval
 CPulseCell_WaitForCursorsWithTag::Wait
-CPulseCell_WaitForObservable::Cancel
 CPulseCell_WaitForObservable::Start
 CPulseCursorFuncs::AnyOtherCursorsHaveTag
 CPulseCursorFuncs::CursorHasTag
 CPulseCursorFuncs::KillAllOtherCursors
 CPulseCursorFuncs::KillCursorsWithTag
-CPulseCursorFuncs::KillThisCursorAndCancel
 CPulseCursorFuncs::RemoveTagFromCursor
 CPulseCursorFuncs::TagCursor
+CPulseCursorFuncs::WakeCursorsWithTag
+CPulseEnumlib
+CPulseEnumlib::AddFlags
+CPulseEnumlib::HasAllFlags
+CPulseEnumlib::HasAnyFlags
+CPulseEnumlib::RemoveFlags
 CPulseMathlib::AbsFloat
 CPulseMathlib::AbsInt
 CPulseMathlib::ArcCos
@@ -2899,6 +2904,7 @@ CPulseMathlib::MakeTransform
 CPulseMathlib::MakeVector
 CPulseMathlib::MakeVector2D
 CPulseMathlib::MakeVector4D
+CPulseMathlib::MakeVectorFromAngle
 CPulseMathlib::MakeWorldTransform
 CPulseMathlib::MakeWorldVector
 CPulseMathlib::MaxFloat
@@ -2928,11 +2934,15 @@ CPulseMathlib::SplitWorldVector
 CPulseMathlib::SqrFloat
 CPulseMathlib::SqrInt
 CPulseMathlib::Sqrt
-CPulseMathlib::StringLength
 CPulseMathlib::StringsAreEqualCaseSensitive
 CPulseMathlib::Tan
 CPulseMathlib::VectorToWorldVector
 CPulseMathlib::WorldVectorToVector
+CPulseObservableExpression
+CPulseStringlib
+CPulseStringlib::FormatDurationStringFromSeconds
+CPulseStringlib::StringLength
+CPulseStringlib::StringsAreEqualCaseSensitive
 CPulseTestScriptLib::AssertTrue
 CPulseTestScriptLib::IndicateTestFailure
 CPulseTestScriptLib::IsInTestMode
@@ -3077,12 +3087,15 @@ CQWidgetDebugHighlight
 CQWidgetDebugger
 CQWidgetList
 CQWorldMappingWidget
+CREATE_CHILD_CURSOR_OUTFLOW
 CStrongHandle
 CURVE_TANGENT_FREE
 CURVE_TANGENT_MIRROR
 CURVE_TANGENT_SINE
 CURVE_TANGENT_SPLINE
 CUtlBlockVector<class CVfxStaticComboData,int,class CMemAllocAllocator>::GrowCount
+CUtlDict<class CQTitledGroupBox *,class CDefFastCaselessStringLess>::Insert
+CUtlDict<class QVBoxLayout *,class CDefFastCaselessStringLess>::Insert
 CUtlDict<struct CQInputBindEditor::BindingContextInfo_t *,class CDefFastCaselessStringLess>::Insert
 CUtlLeanVectorBase<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class CUtlString,bool,class CDefFastCaselessStringLess,unsigned short>::Node_t,unsigned short>,unsigned short,class CMemAllocAllocator>::EnsureCapacity
 CUtlLeanVectorBase<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<unsigned __int64,bool,class CDefLess<unsigned __int64>,unsigned int>::Node_t,unsigned int>,unsigned int,class CMemAllocAllocator>::EnsureCapacity
@@ -3092,22 +3105,15 @@ CUtlLeanVectorImpl<class CUtlLeanVectorBase<struct CUtlMemoryBlockAllocator<clas
 CUtlLeanVectorImpl<class CUtlLeanVectorBase<struct PGDInstruction_t,int,class CMemAllocAllocator>,struct PGDInstruction_t,int>::InsertBeforeGetPtr
 CUtlLeanVectorImpl<class CUtlLeanVectorFixedGrowableBase<unsigned char,12,short,class CMemAllocAllocator>,unsigned char,short>::AddMultipleToTail
 CUtlMemoryBlockAllocator<class CVfxStaticComboData,class CMemAllocAllocator>::AddPage
-CUtlRBTree<struct CUtlOrderedMapBase<class CUtlString,class CQTitledGroupBox *,class CDefFastCaselessStringLess,int>::Node_t,class CUtlOrderedMapBase<class CUtlString,class CQTitledGroupBox *,class CDefFastCaselessStringLess,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class CUtlString,class CQTitledGroupBox *,class CDefFastCaselessStringLess,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
-CUtlRBTree<struct CUtlOrderedMapBase<class CUtlString,class QVBoxLayout *,class CDefFastCaselessStringLess,int>::Node_t,class CUtlOrderedMapBase<class CUtlString,class QVBoxLayout *,class CDefFastCaselessStringLess,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class CUtlString,class QVBoxLayout *,class CDefFastCaselessStringLess,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
-CUtlRBTree<struct CUtlOrderedMapBase<class IAsset *,class CUtlRBTree<struct MaterialReference_t *,class CDefLess<struct MaterialReference_t *>,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct MaterialReference_t *,int>,int,class CMemAllocAllocator> > *,class CDefLess<class IAsset *>,int>::Node_t,class CUtlOrderedMapBase<class IAsset *,class CUtlRBTree<struct MaterialReference_t *,class CDefLess<struct MaterialReference_t *>,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct MaterialReference_t *,int>,int,class CMemAllocAllocator> > *,class CDefLess<class IAsset *>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<class IAsset *,class CUtlRBTree<struct MaterialReference_t *,class CDefLess<struct MaterialReference_t *>,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct MaterialReference_t *,int>,int,class CMemAllocAllocator> > *,class CDefLess<class IAsset *>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
-CUtlRBTree<struct CUtlOrderedMapBase<unsigned __int64,bool,class CDefLess<unsigned __int64>,unsigned int>::Node_t,class CUtlOrderedMapBase<unsigned __int64,bool,class CDefLess<unsigned __int64>,unsigned int>::CKeyLess,unsigned int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<unsigned __int64,bool,class CDefLess<unsigned __int64>,unsigned int>::Node_t,unsigned int>,unsigned int,class CMemAllocAllocator> >::Insert
-CUtlRBTree<struct CUtlOrderedMapBase<unsigned int,struct `public: void __cdecl CVfxStaticComboData::ComputeVariablesUsedInStaticCombo(class CVfxProgramData const *)'::`2'::BindInfo_t,class CDefLess<unsigned int>,int>::Node_t,class CUtlOrderedMapBase<unsigned int,struct `public: void __cdecl CVfxStaticComboData::ComputeVariablesUsedInStaticCombo(class CVfxProgramData const *)'::`2'::BindInfo_t,class CDefLess<unsigned int>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<unsigned int,struct `public: void __cdecl CVfxStaticComboData::ComputeVariablesUsedInStaticCombo(class CVfxProgramData const *)'::`2'::BindInfo_t,class CDefLess<unsigned int>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
-CUtlRBTree<struct CUtlOrderedMapBase<unsigned int,unsigned int,class CDefLess<unsigned int>,int>::Node_t,class CUtlOrderedMapBase<unsigned int,unsigned int,class CDefLess<unsigned int>,int>::CKeyLess,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct CUtlOrderedMapBase<unsigned int,unsigned int,class CDefLess<unsigned int>,int>::Node_t,int>,int,class CMemAllocAllocator> >::Insert
-CUtlRBTree<struct MaterialReference_t *,class CDefLess<struct MaterialReference_t *>,int,class CUtlLeanVector<struct UtlRBTreeNode_t<struct MaterialReference_t *,int>,int,class CMemAllocAllocator> >::Insert
 CUtlStreamBuffer does not support TEXT_BUFFER's use CUtlBuffer\n
 CUtlVectorFixedGrowable
-CVfx::CreateFromVcs(7834): Error opening file %s\n
-CVfx::CreateFromVcs(7867): VCS3 %s Load Failure: %s\n
-CVfx::CreateFromVcs(7880): VCS3 %s Load Failure: %s\n
-CVfx::CreateFromVcs(7909): VCS %s Unserialize hit EOF\n
+CVfx::CreateFromVcs(7750): Error opening file %s\n
+CVfx::CreateFromVcs(7783): VCS3 %s Load Failure: %s\n
+CVfx::CreateFromVcs(7796): VCS3 %s Load Failure: %s\n
+CVfx::CreateFromVcs(7825): VCS %s Unserialize hit EOF\n
 CVfx::ParseResourceFileHeader
 CVfxProgramData::CalcStaticComboIdFromValues
-CVfxProgramData::FindOrCreateStaticComboDataInCache(4448): Error! Ref count !=0 for static combo data cache entry!\n
+CVfxProgramData::FindOrCreateStaticComboDataInCache(4364): Error! Ref count !=0 for static combo data cache entry!\n
 CVfxStaticComboData::Decompress
 Cache Status Changed
 CalibrationIlluminant1
@@ -3118,7 +3124,6 @@ CameraCalibration2
 CameraSerialNumber
 Can not read scanlines from a tiled image
 Cancel
-Cancel observing.
 Cannot Debug
 Cannot add multiple root layouts to the same widget
 Cannot break - no debugger attached!
@@ -3192,7 +3197,7 @@ Command Filter
 Command Name
 Command.%s.%s
 Commit Step
-Compare strings with case sensitivity, in contrast to normal string equality which is case-insensitive
+Compare strings with case sensitivity, in contrast to normal string equality which is case-insensitive.
 Compile Target Expression
 CompileMaterial: %s, %s%s\n\n
 CompileShadersForFeatureCombo
@@ -3206,7 +3211,7 @@ Compression / Streaming
 Compression algorithm does not support random access
 Compression scheme %u %s decoding is not implemented
 Compression scheme %u %s encoding is not implemented
-Computes 2 ( 2.71...) raised to a power
+Computes 2 raised to a power
 Computes e ( 2.71...) raised to a power
 Configure Material Editor Options.
 Configure history settings.
@@ -3350,6 +3355,7 @@ DragOffsetRelativeStart
 DragOffsetRelativeUpdate
 DragStarted
 DragUpdated
+DualHull
 DummyNoOp
 DumpModeDecode: Not enough data for scanline %d
 Dynamic Expression
@@ -3502,9 +3508,11 @@ File Not Found!
 File not open for reading
 FillOrder
 Filter:
+FilterApplied
 Filtered Magnification
 Find all the yielded cursors on this graph and cancel them.
 Find all the yielded cursors on this graph with the matching tag and cancel them.
+Find all the yielded cursors on this graph with the matching tag and wake them.
 Find first element 'a' which compare equal to 'element' and return its index.
 Find:
 Fixed
@@ -3513,9 +3521,9 @@ Float To Game Time
 Float2 (expression) = 
 Float3 (expression) = 
 Float4 (expression) = 
-FloatBitMap_t::ConvertLinearToGamma(409): Conversion not supported yet!\n
-FloatBitMap_t::LoadFromFile(3285): Error! Slice %d format %dx%dx%d Attr(%d) != previous slices of %dx%d Attr(%d) for %s\n
-FloatBitMap_t::LoadFromTGA(2234): Error loading %s\n
+FloatBitMap_t::ConvertLinearToGamma(607): Conversion not supported yet!\n
+FloatBitMap_t::LoadFromFile(3729): Error! Slice %d format %dx%dx%d Attr(%d) != previous slices of %dx%d Attr(%d) for %s\n
+FloatBitMap_t::LoadFromTGA(2678): Error loading %s\n
 Floating point "Predictor" not supported with %d data format
 Floor - round float down to nearest integer
 Floor Float
@@ -3536,6 +3544,7 @@ FocusOut
 FoliageAnimation
 Follow user preference
 Force Compile To Disk
+Format Duration String From Seconds
 Found infinite loop to %s when resolving material layer %i
 Frac
 Fractional component (ie. returns 0.34 for 12.34)
@@ -3586,6 +3595,8 @@ HEX_DIGIT
 HalftoneHints
 Hammer Surface Properties
 Hammer Texturing
+Has All Flags
+Has Any Flags
 Height Variance: 
 Height texture is constant-valued
 HeightBlend
@@ -3594,7 +3605,7 @@ Help - %1
 Help for Dynamic Expressions
 HelpIdPrefix_Default
 HelpIdPrefix_LayeredProperty
-HelperLoadFbmByFileExtension(3065): Error! Unknown file type for %s\n
+HelperLoadFbmByFileExtension(3509): Error! Unknown file type for %s\n
 Hex:
 Hide unless error/warning occurs
 Highest
@@ -3609,6 +3620,7 @@ Hotspot Mode:
 HoverItemChanged
 I ?toggleViewAction@QDockWidget@@QEBAPEAVQAction@@XZ
 I/O Failure! Could Not Read File.
+I@Tz<
 IAssetSelectionListener
 ICC Profile
 ICON
@@ -3616,14 +3628,9 @@ IHelpChangeListener
 IKV3TransferInterface_ResourceSave
 IND)ind)sqrtf
 INTEGERLITERAL
-IOS_VULKAN
-IOS_VULKAN_4_0
-IOS_VULKAN_4_1
-IOS_VULKAN_5_0
 ISGN
 ISO JBIG
 IS_DIRECTX
-IS_MOBILE
 IS_PC
 IS_SM_
 IS_VULKAN
@@ -3637,7 +3644,6 @@ I\r?endsWith@QString@@QEBA_NVQChar@@W4CaseSensitivity@Qt@@@Z
 I\r?hitButton@QCheckBox@@MEBA_NAEBVQPoint@@@Z
 If (R%d) Jump to Instr I%d
 If (R%d) Leap to Chunk C%d
-If -1 timer will continue forever
 If specified, each wait interval will vary randomly between WaitInterval this value
 If this cursor spawns other work via Fire And Forget, should this Tag be inherited?
 IgnoreConsoleKeypress
@@ -3735,7 +3741,6 @@ KeyState[%1]
 KeyValues3
 Kill All Other Cursors
 Kill Cursors With Tag
-Kill This Cursor And Cancel
 LMouse
 LMouseDoubleClick
 LT?pixel@QImage@@QEBAIHH@Z
@@ -3814,12 +3819,15 @@ MENU
 MET_Assets
 MET_History
 MET_Preview
+MM:SS with leading zeros
+MM_SS_LEADING_ZERO
 MMouse
 MMouseDoubleClick
 MODES
 MPropertyFlattenIntoParentRow
 MPulseExpressionAlias
 MPulseFunctionHiddenInTool
+MPulseTypeRestriction
 MVDataOutlinerLeafNameFn
 MWheelDn
 MWheelLeft
@@ -3836,12 +3844,14 @@ Make Angle From Forward Vector
 Make Color
 Make Transform
 Make Vector
+Make Vector From Angle
 Make Vector2 D
 Make Vector4 D
 Make World Transform
 Make World Vector
 Make a Color from component parts
 Make a Transform from component parts.
+Make a Vector from an Angle
 Make a Vector from component parts.
 Make a Vector2D from component parts.
 Make a World Vector from component parts.
@@ -3935,6 +3945,7 @@ N?height@QPixmap@@QEBAHXZ
 N?horizontalAdvance@QFontMetrics@@QEBAHAEBVQString@@H@Z
 N?horizontalAdvance@QFontMetrics@@QEBAHVQChar@@@Z
 N?index@QStandardItemModel@@UEBA?AVQModelIndex@@HHAEBV2@@Z
+N@__FireCursorsParent__
 NO COMMAND TARGET
 NT?pixelColor@QImage@@QEBA?AVQColor@@HH@Z
 NULL CELL 
@@ -4229,7 +4240,6 @@ OpenAssetBrowser
 OpenBuildWatch
 OpenMutexA
 OpenVConsole
-Optional. After taking an OnCanceled outflow, signal to any observers that this cursor is now canceled. Equivalent to not handling the original cancel outflow. If you don't use this, handling OnCanceled will be treated as success.
 Optional. Type 'Any'. An associated value, e.g. the Entity Handle which is responsible for this Cursor. The Tag is defined by the unique combination of Name and Value.
 Options...
 Or R%d <- R%d || R%d
@@ -4247,20 +4257,13 @@ OverlayProjectionDirection
 Override Inherited Variable...
 Overwrite
 Overwrite With Current
+P4D#
 P?isValid@QColor@@QEBA_NXZ
 P?itemData@QStandardItemModel@@UEBA?AV?$QMap@HVQVariant@@@@AEBVQModelIndex@@@Z
 P?jumpToNextImage@QImageReader@@QEAA_NXZ
-PC SM 4.0 (D3D10)
-PC SM 4.0 (VULKAN)
-PC SM 4.1 (D3D10.1)
-PC SM 4.1 (VULKAN)
 PC SM 5.0 (D3D11)
 PC SM 5.0 (VULKAN)
 PC SM 6.0 (VULKAN)
-PC_SM_4_0
-PC_SM_4_0_VULKAN
-PC_SM_4_1
-PC_SM_4_1_VULKAN
 PC_SM_5_0
 PC_SM_5_0_VULKAN
 PC_SM_6_0_VULKAN
@@ -4274,11 +4277,11 @@ P\f?font@QTableWidgetItem@@QEBA?AVQFont@@XZ
 PackBits
 PackBitsDecode: Not enough data for scanline %ld
 PackBitsDecode: discarding %ld bytes to avoid buffer overrun
-PackedBlobNormal
 PageName
 PageNumber
 PanelID
 Parent Map: %s\n
+Parent VData
 ParseEXRHeaderFromMemory failed! Error message: %s\n
 Parser encountered %i errors parsing compile targets expression "%s"\n
 Particle Binding
@@ -4332,6 +4335,7 @@ Previous
 Primary
 PrimaryChromaticities
 PrimaryToolBar
+Proceed Immediately
 Process Selector
 Program MD5 is out of date with features! %s\n
 Programmer Error! Static combo not loaded!\n
@@ -4343,6 +4347,7 @@ Property For Wet Areas:
 Pull From Global Browser
 PullSelectionFromGlobalBrowser
 Pulse domain which enables particle content to query leaf code to introspect game state.
+PulseDurationStringFormat_t
 Push To Global Browser
 PushSelectionToGlobalBrowser
 Q?loadFromData@QPixmap@@QEAA_NAEBVQByteArray@@PEBDV?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
@@ -4411,11 +4416,10 @@ RGB: #%02X%02X%02X
 RGBA\t%1\t%2\t%3\t%4
 RMouse
 RMouseDoubleClick
-RSDS}o
 R\f?font@QTreeWidgetItem@@QEBA?AVQFont@@H@Z
 R\t?canFetchMore@QAbstractItemModel@@UEBA_NAEBVQModelIndex@@@Z
 R\v?event@QMenuBar@@MEAA_NPEAVQEvent@@@Z
-R\vpt
+R\vp4D#
 R^?supportedDropActions@QStandardItemModel@@UEBA?AV?$QFlags@W4DropAction@Qt@@@@XZ
 R_T5Y
 Rad2 Deg
@@ -4456,9 +4460,11 @@ Remap01ScaleOffset
 RemapVal
 RemapValClamped
 Remove
+Remove Flags
 Remove Tag From Cursor
 Remove all elements from 'a' which are invalid instances.
 Remove all elements from 'a' which compare equal to 'element'.
+Remove flags from the given value.
 Remove the element at the given index in 'a', decreasing its count by one and moving the elements after index.
 Remove the given tag from this cursor. If other cursors are waiting on us, they will resume.
 RemoveColor
@@ -4567,9 +4573,7 @@ SUPPORTS_GS
 SV_ClipDistance
 SV_Position
 SV_Target
-S_BINDLESS_RUNTIME
 S_EXECUTION_REORDERING
-S_MOBILE
 S_MOLTEN_VK
 S_REVERSE_DEPTH_BUFFER
 S_SHADER_QUALITY
@@ -4759,8 +4763,7 @@ Static combo %s referenced in expression doesn't exist.
 StaticCombo
 StaticComboRule
 StoNits
-Stop Timer
-Stop any active timers - the completed outflow will still fire
+Stop Waiting
 String Length
 Strings Are Equal Case Sensitive
 StripByteCounts
@@ -4785,6 +4788,7 @@ Swap
 SwapLayers
 SwitchToEngineWindow
 Swizzle operation only supports up to four channels.
+Synchronous - Wait for this node to fully complete before proceeding.
 System Material Attributes
 SystemAttributes
 T?parent@QStandardItemModel@@UEBA?AVQModelIndex@@AEBV2@@Z
@@ -4816,7 +4820,6 @@ TIFFVStripSize
 TIFFVTileSize
 TW?restoreOverrideCursor@QGuiApplication@@SAXXZ
 T\t?canFetchMore@QSortFilterProxyModel@@UEBA_NAEBVQModelIndex@@@Z
-T\tV_log2f
 TabName%d
 TabOrder
 TabStyle_t
@@ -4848,6 +4851,7 @@ TextureSize
 TextureWrapModes
 The filename may only contain lower case alphanumeric characters, dashes, and underscores.
 This is a BigTIFF file.  This format not supported\nby this version of libtiff.
+This is the overall duration. If -1 timer will continue forever. During this duration, we will fire a new child cursor at each Interval.
 This shader (%s) is Bad! - No VFX Header is available.\n
 This shader (%s) is Bad! - No VFX Header is available.\nSend an e-mail to GraphicsDev.\n
 This texture (%s) will be %s from (%ix%i) to (%ix%i) when compiled into: %s
@@ -4880,6 +4884,7 @@ Track Mouse & Focus
 TransferFunction
 Truncated header.
 TrySendVNotify - SendKV3 failed\n
+Turn a time in seconds into a display string. NOT localized.
 U?qt_metacall@QIntValidator@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 U?qt_metacall@QRegularExpressionValidator@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 U?qt_metacall@QStandardItemModel@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
@@ -4895,7 +4900,6 @@ UVSet1FastTextureOp
 UVSet2FastTextureOp
 U\8h(
 U\r?home@QTextBrowser@@UEAAXXZ
-U\tV_logd
 U\v?event@QPlainTextEdit@@MEAA_NPEAVQEvent@@@Z
 Unable to load shader config: %s\n
 Unable to load tooltips: %s\n
@@ -4917,6 +4921,7 @@ Unknown change type\n
 Unknown compression type.
 Unknown data format %d for LogLuv compression
 Unknown encoding %d for LogLuv compression
+Unknown format type
 Unknown variable name %s.
 Unlimited
 Unrecognized VFX UI Type (%d).
@@ -4950,6 +4955,7 @@ V?removeColumns@QStandardItemModel@@UEAA_NHHAEBVQModelIndex@@@Z
 V?removeRows@QStandardItemModel@@UEAA_NHHAEBVQModelIndex@@@Z
 VCS3 %s Load Failure: Could not find DATA block\n
 VConsole
+VDATA
 VFX_COMBO_ALIAS
 VFX_COMBO_DYNAMIC
 VFX_COMBO_STATIC
@@ -5040,11 +5046,14 @@ WDG,r3
 WIDGET DEBUGGER DELETING widget: 0x%p\n
 WW:9999WWW
 Wait Complete
+Wake Cursors With Tag
 WarnTrailingWhitespace
 Warning (problem that doesn't prevent forward progress)
 Warning: This text ends with whitespace
-When False
-When True
+Whether value has ALL of the specified flags set (it may have other flags.)
+Whether value has ANY of the specified flags set (it may have other flags.)
+While False
+While True
 WhiteLevel
 WhitePoint
 Widget Debugger
@@ -5120,7 +5129,7 @@ ZIPSetupDecode
 ZIPSetupEncode
 ZIPVSetField
 Z\f?convertFromImage@QPixmap@@QEAA_NAEBVQImage@@V?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
-Z\tV_modfd
+Z\tV_log2f
 Z]?sort@QStandardItemModel@@UEAAXHW4SortOrder@Qt@@@Z
 [ Chunk%d ]
 [ written at chunk start last-read I%d ]
@@ -5141,6 +5150,7 @@ Z]?sort@QStandardItemModel@@UEAAXHW4SortOrder@Qt@@@Z
 [NoWidget]
 [RETURN R%d]
 [RETURN]
+[\tV_logd
 [\v?event@QScrollArea@@MEAA_NPEAVQEvent@@@Z
 \ ?toolTip@QWidget@@QEBA?AVQString@@XZ
 \?setWidth@QPen@@QEAAXH@Z
@@ -5217,13 +5227,13 @@ Z]?sort@QStandardItemModel@@UEAAXHW4SortOrder@Qt@@@Z
 \n*** A feature in %s doesn't start with "F_"! Aborting shader compile!\n\n
 \n*** A static combo in %s doesn't start with "S_"! Aborting shader compile!\n\n
 \n*** CMaterialEditorTool::InitDynamicShaderCompileDLL(449): ERROR! Can't load %s, dynamic shader compile unavailable\n
-\n*** CVfx::ParseBoolFromFile(6414): Error opening file "%s"!\n\n
-\n*** CVfx::ParseCombosAndRulesFromFileHelper(6603): Error opening file "%s"!\n\n
-\n*** CVfx::ParseDescriptionFromFile(6499): Error opening file "%s"!\n\n
-\n*** CVfx::ParseFeaturesFromFile(6100): Error opening file "%s"!\n\n
-\n*** CVfx::ParseIncludeFiles(6059): Error opening include file in features list"%s"!\n\n
-\n*** CVfx::ParseModesFromFile(5909): Error opening file "%s"!\n\n
-\n*** CVfx::ParseVersionFromFile(6460): Error opening file "%s"!\n\n
+\n*** CVfx::ParseBoolFromFile(6330): Error opening file "%s"!\n\n
+\n*** CVfx::ParseCombosAndRulesFromFileHelper(6519): Error opening file "%s"!\n\n
+\n*** CVfx::ParseDescriptionFromFile(6415): Error opening file "%s"!\n\n
+\n*** CVfx::ParseFeaturesFromFile(6016): Error opening file "%s"!\n\n
+\n*** CVfx::ParseIncludeFiles(5975): Error opening include file in features list"%s"!\n\n
+\n*** CVfx::ParseModesFromFile(5825): Error opening file "%s"!\n\n
+\n*** CVfx::ParseVersionFromFile(6376): Error opening file "%s"!\n\n
 \n*** Combo "%s" in %s doesn't match a known combo source!\n\n
 \n*** Combo "%s" in %s either does not follow the 0..N format, is not a valid dynamic combo name, or doesn't match an existing feature or mode argument!\n\n
 \n*** Combo "%s" in %s has arg %s that doesn't match an existing feature!\n\n
@@ -5276,8 +5286,8 @@ Z]?sort@QStandardItemModel@@UEAAXHW4SortOrder@Qt@@@Z
 \n*** Unable to parse Version in HEADER section of %s!\n\n
 \n*** Unknown rule "%s" in %s!\n\n
 \n*** Unknown text found in FEATURES section in %s: "%s"\n\n
-\n*** VfxGetCompileTargetsFromVfxFile(1451): Error opening file "%s"!\n\n
-\n*** VfxGetUsedShaderProgramsFromVfxFile(1528): Error opening file "%s"!\n\n
+\n*** VfxGetCompileTargetsFromVfxFile(1369): Error opening file "%s"!\n\n
+\n*** VfxGetUsedShaderProgramsFromVfxFile(1446): Error opening file "%s"!\n\n
 \n?blue@QColor@@QEBAHXZ
 \n?blueF@QColor@@QEBANXZ
 \n?boundingRect@QFontMetrics@@QEBA?AVQRect@@AEBVQString@@@Z
@@ -5352,6 +5362,7 @@ Z]?sort@QStandardItemModel@@UEAAXHW4SortOrder@Qt@@@Z
 \nNo valid attributes to paste.\n
 \nNo variables changed during import.\n
 \nNothing to import. Clipboard contents are empty.\n
+\nP4D#
 \nPS_RENDER_STATE
 \nRTX
 \nSuccess! All %1 materials processed.\n
@@ -5386,6 +5397,7 @@ Z]?sort@QStandardItemModel@@UEAAXHW4SortOrder@Qt@@@Z
 \rO?initPainter@QPaintDevice@@MEBAXPEAVQPainter@@@Z
 \r\f?focusInEvent@QLineEdit@@MEAAXPEAVQFocusEvent@@@Z
 \r\r?heightForWidth@QGridLayout@@UEBAHH@Z
+\r\tV_atand
 \src\shaders\
 \t//---- %s ----\n
 \t//-----------------------\n
@@ -5421,10 +5433,11 @@ Z]?sort@QStandardItemModel@@UEAAXHW4SortOrder@Qt@@@Z
 \tUiGroupName = %s\n
 \tUiName = %s\n
 \tUnusedVariables\n
+\tV_ZSTD_freeDCtx
+\tV_ZSTD_getDictID_fromDDict
+\tV_ZSTD_getDictID_fromFrame
 \tV_ZSTD_getFrameContentSize
 \tV_acosd
-\tV_asind
-\tV_atan2d
 \tV_cosd
 \tV_exp2f
 \tV_expd
@@ -5436,7 +5449,7 @@ Z]?sort@QStandardItemModel@@UEAAXHW4SortOrder@Qt@@@Z
 \t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\n\v\n\v\n\v\n\v\n\v\n\v\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \t\t"%s" "%s"\n
 \t\tName = %s, Rule = %i, Enabled = %s\n
-\t\tV_atand
+\t\tV_asind
 \t\t\t"%s" "%s"\n
 \t\t\t"%s" %i\n
 \t_V_StringAfterPrefixCaseSensitive
@@ -5471,6 +5484,8 @@ Z]?sort@QStandardItemModel@@UEAAXHW4SortOrder@Qt@@@Z
 \v?focusChanged@QApplication@@QEAAXPEAVQWidget@@0@Z
 \vS?moveTo@QPainterPath@@QEAAXNN@Z
 \v\f?focusInEvent@QGroupBox@@MEAAXPEAVQFocusEvent@@@Z
+\v\tV_atan2d
+\vp4D#
 ]?sharedPainter@QPaintDevice@@MEBAPEAVQPainter@@XZ
 ]?staticMetaObject@QWindow@@2UQMetaObject@@B
 ]\r?horizontalOffset@QListView@@MEBAHXZ
@@ -5498,7 +5513,6 @@ __FROM_ATTRIBUTE__
 __FeatureToBool__
 __FeatureToFloat__
 __FeatureToInt__
-__FireCursorsParent__
 __GroupName
 __IsValveCQTabbedStyle
 __OperationName
@@ -5510,7 +5524,6 @@ __SetByArtistAndExpression__
 __SetByArtist__
 __StateCaptureWidget
 __State_Child_Condition__
-__State_Child_Subgraph__
 __TimelineParent__
 ______<INVALID>______
 __feature
@@ -5527,17 +5540,19 @@ _wjb
 `?validate@QDoubleValidator@@UEBA?AW4State@QValidator@@AEAVQString@@AEAH@Z
 `?validate@QIntValidator@@UEBA?AW4State@QValidator@@AEAVQString@@AEAH@Z
 `?validate@QRegularExpressionValidator@@UEBA?AW4State@QValidator@@AEAVQString@@AEAH@Z
+`\tV_modfd
 `\v?event@QSpinBox@@MEAA_NPEAVQEvent@@@Z
 a:fulltype
 a:typeparam
 a?windowText@QPalette@@QEBAAEBVQBrush@@XZ
 a?write@QStandardItem@@UEBAXAEAVQDataStream@@@Z
-a\tV_powd
 acceptedColor
 actions
 align
+allflags
 allowed_api_features
 allowed_requirements
+anyflags
 aoB>"
 appendstructuredbuffer
 area
@@ -5559,6 +5574,7 @@ backgroundFill
 backgroundStyle
 bad partition length
 bentnormal
+binary
 black
 blendStateDesc
 blendindices
@@ -5652,6 +5668,7 @@ environmentmapped
 exclusive
 exp2
 export
+expression_type
 externaldescriptorset
 fValue
 f\n?dragEnterEvent@QAbstractScrollArea@@MEAAXPEAVQDragEnterEvent@@@Z
@@ -5684,6 +5701,7 @@ flPitch
 flRadians
 flRoll
 flScale
+flSeconds
 flTime
 flVal
 flValue
@@ -5712,11 +5730,13 @@ for chopped "StripByteCounts" array
 for chopped "StripOffsets" array
 for field info array
 for strip array
+forcebc3
 foreground
 forever
 frac
 g\r?enumerator@QMetaObject@@QEBA?AVQMetaEnum@@H@Z
 g\r?horizontalScrollbarAction@QTableView@@MEAAXH@Z
+g\tV_powd
 g_bFogTypeEnabled
 g_bLayerBlendEnable
 g_bLayerBlendEnable%i
@@ -5916,8 +5936,6 @@ group_expand_button
 group_label
 group_options_button
 group_title
-gs_4_0
-gs_4_1
 gs_5_0
 gs_6_0
 hMaterial
@@ -5933,9 +5951,6 @@ horizontal_header
 horizontal_header_labels
 i ?topLevelWidgets@QApplication@@SA?AV?$QList@PEAVQWidget@@@@XZ
 iEJA+
-iOS SM 4.0 (VULKAN)
-iOS SM 4.1 (VULKAN)
-iOS SM 5.0 (VULKAN)
 iValueIn
 i\f?forward@QTextBrowser@@UEAAXXZ
 i\r?enumerator@QMetaProperty@@QEBA?AVQMetaEnum@@XZ
@@ -5984,6 +5999,8 @@ m\n?dragEnterEvent@QPlainTextEdit@@MEAAXPEAVQDragEnterEvent@@@Z
 m_Bindings
 m_Context
 m_InputMacros
+m_Metadata
+m_SequencePoint
 m_Stops
 m_TagValue
 m_allVars
@@ -5993,23 +6010,13 @@ m_argValueArray
 m_attribIdx
 m_attributes
 m_bAllowLayerOverride
-m_bBakedTwoSided
-m_bCanBatchWithDynamicShaderConstants
 m_bConditionValue
 m_bDevShader
-m_bDrawLast
 m_bFirstEvaluate
 m_bGlobalsBDA
-m_bHasBakedLightingFromLightMap
-m_bHasBakedLightingFromVertexStream
 m_bHasShaderProgram
 m_bIsLayerConstant
-m_bIsNotMatchedToMaterial
-m_bNoShadow
-m_bOnlyShadow
 m_bStaticCB
-m_bUseCompressedNormalTangent
-m_bUseShadowFastPath
 m_byteCodeData
 m_byteCodeIndex
 m_comboType
@@ -6022,12 +6029,12 @@ m_dynamicComboRuleArray
 m_dynamicComboVars
 m_dynamicComboVarsRef
 m_expr
-m_externalMethodTargetGraph
 m_fl
 m_flDefault
 m_flSlopeIncoming
 m_flSlopeOutgoing
 m_flUiStep
+m_hCursorOnOtherGraph
 m_hash
 m_iFeatureIndex
 m_indexAndRegisterOffsetArray
@@ -6048,6 +6055,7 @@ m_nCompareValue
 m_nConstantBufferSize
 m_nContextStateAffectedByVariable
 m_nCurrentWakeIndex
+m_nCursorID
 m_nDescriptorSet
 m_nExtraRuleData
 m_nFirstConstantElement
@@ -6064,6 +6072,7 @@ m_nSize
 m_nTypeSpecificBits
 m_nVariableBinding
 m_nVariableSourceMax
+m_nYieldToken
 m_offs
 m_outputColorSpace
 m_outputTextureFormat
@@ -6135,7 +6144,6 @@ materials/tools/wireframe_vertex_color_translucent.vmat
 materials\default\default
 maxValue
 maxres
-maxresmobile
 medium
 menu
 menuAction
@@ -6159,16 +6167,20 @@ nColumn
 nDelayInMS
 nDenominator
 nFirst
+nFormat
 nKillPriority
 nMaxElements
 nMode
 nNumerator
 nQuality
+nRemainderDigits
+nRemainderNoiseDigits
 nRow
 nSecond
 nSliderAction
 nTabIndex
 nToolId
+nWakePriority
 nX?setBold@QFont@@QEAAX_N@Z
 n\n?dragEnterEvent@QTextEdit@@MEAAXPEAVQDragEnterEvent@@@Z
 n\v?event@QToolButton@@MEAA_NPEAVQEvent@@@Z
@@ -6186,13 +6198,13 @@ null VP8Io passed to VP8GetHeaders()
 o KPBf
 oY.o<
 o\n?dragEnterEvent@QWidget@@MEAAXPEAVQDragEnterEvent@@@Z
-o\tV_sind
 o\v?event@QTreeWidget@@MEAA_NPEAVQEvent@@@Z
 offsetDelta
 opqMU
 optionallycompressedtangentframe
 orientation
 originalColor
+p4D#
 pAction
 pCheckpointName
 pCurrentFocusWidget
@@ -6211,13 +6223,12 @@ p`?type@QStandardItem@@UEBAHXZ
 paste
 pet_preview_gravity
 pet_preview_underwater
+pet_preview_wind
 pickedColor
 pixelAspectRatio
 polymorphic_arg
 posxyz
 propattr_flatten_into_parent_row
-ps_4_0
-ps_4_1
 ps_5_0
 ps_6_0
 pseudo-
@@ -6229,7 +6240,7 @@ q\n?dragLeaveEvent@QAbstractScrollArea@@MEAAXPEAVQDragLeaveEvent@@@Z
 q\v?event@QWidgetAction@@MEAA_NPEAVQEvent@@@Z
 quiet
 rQ?lineTo@QPainterPath@@QEAAXNN@Z
-r\fpt
+r\fp4D#
 rad2deg
 radians
 random
@@ -6338,6 +6349,9 @@ to fetch tag value
 to read "TransferFunction" tag
 to read TIFF directory
 toggleViewAction
+tool_request_args
+tool_request_text
+tool_request_tool
 toolbarArea
 toolhud_enable
 tools/colors/shared_colors.txt
@@ -6349,9 +6363,11 @@ tools/met/met_shaderconfig.kv3
 tools/met/met_tooltips.kv3
 tools_preview
 transparency
+type_restriction_is_enum_flags
 t|AO
 uV?read@QStandardItem@@UEAAXAEAVQDataStream@@@Z
 u\n?connect@QObject@@SA?AVConnection@QMetaObject@@PEBV1@PEBD01W4ConnectionType@Qt@@@Z
+u\tV_sind
 u\v?eventFilter@QAbstractItemView@@MEAA_NPEAVQObject@@PEAVQEvent@@@Z
 underline
 unexpected count for field "%s", %u, expected 2; ignored
@@ -6363,6 +6379,7 @@ userEdit
 v$G2
 vIK \f3
 v\v?eventFilter@QAbstractScrollArea@@MEAA_NPEAVQObject@@PEAVQEvent@@@Z
+value:fulltype
 valueChanged
 valueChangedByEdit
 valueChangedBySlider
@@ -6383,8 +6400,6 @@ vfx_vulkan
 vfxc
 vmat_prefab
 vnotify_ui
-vs_4_0
-vs_4_1
 vs_5_0
 vs_6_0
 vtex
@@ -6408,6 +6423,7 @@ zD(knN
 z\n?dragLeaveEvent@QTextEdit@@MEAAXPEAVQDragLeaveEvent@@@Z
 z\v?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
 z\v?eventFilter@QDialog@@MEAA_NPEAVQObject@@PEAVQEvent@@@Z
+{ item_factory = 'IntervalTimer' }
 {Y?setFixedPitch@QFont@@QEAAX_N@Z
 {\n?connectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
 {\n?dragLeaveEvent@QWidget@@MEAAXPEAVQDragLeaveEvent@@@Z

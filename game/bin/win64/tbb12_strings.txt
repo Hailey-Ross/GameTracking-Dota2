@@ -188,7 +188,6 @@ KMP_FOR_TPROFILE
 MSVCP140.dll
 Processor groups
 RML might limit the number of workers to %u while %u is requested.\n
-RSDS
 Stack size is limited to unsigned int range
 Step must be positive
 SwitchToFiber

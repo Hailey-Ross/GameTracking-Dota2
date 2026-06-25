@@ -3383,7 +3383,6 @@ RGI_Emoji_Modifier_Sequence
 RGI_Emoji_Tag_Sequence
 RGI_Emoji_ZWJ_Sequence
 RG_KEY_VALUE
-RSDS
 Radical
 Regional_Indicator
 Register_Shifter
@@ -4108,6 +4107,7 @@ bg_BG
 bic8
 biguous#$
 bin_NG
+binary
 biningmark
 block!
 blt_Latn

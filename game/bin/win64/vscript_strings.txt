@@ -84,7 +84,6 @@
 2\nP!E
 4\f%44
 8@HPX
-8Cp,
 8Csin
 9>pow
 <?xml version="1.0" encoding="UTF-8"?>\n
@@ -306,7 +305,6 @@ RRRRRRQRQ
 RRRRRRRR
 RRRRRRRR4Q5QQQQQ
 RRRRRRRREEGRQQQQ
-RSDS
 RandomFloatWrapper
 Read-only file system
 Receive buffer overflow for %s\n
@@ -847,7 +845,6 @@ object
 objectId
 on\f3
 open
-p2`C
 page
 pagesize
 pairs
@@ -857,6 +854,7 @@ path too long
 pattern too complex
 perform arithmetic on
 permessage-deflate
+pl`J
 popen
 preload
 printf

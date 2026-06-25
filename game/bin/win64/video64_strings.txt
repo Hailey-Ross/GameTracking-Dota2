@@ -4965,7 +4965,6 @@ RSA_sign_ASN1_OCTET_STRING
 RSA_verify
 RSA_verify_ASN1_OCTET_STRING
 RSA_verify_PKCS1_PSS_mgf1
-RSDS
 RUNASADMIN
 RX\r
 R\vpP
@@ -12816,6 +12815,7 @@ steamclient
 steamcmd
 steamcmd.exe
 steamglobal
+steamhdl
 steammessages_base.proto
 steampipe
 steampipepeering

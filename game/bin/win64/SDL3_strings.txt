@@ -575,11 +575,13 @@ $E4A(
 03000000fa1900000706000000000000,Team 5,a:b2,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b3,y:b0,
 03000000fa190000f0ff000000000000,Acteck AGJ-3200,a:b2,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b3,y:b0,
 03000000fa2d00000100000000000000,3DRUDDER,leftx:a0,lefty:a1,rightx:a5,righty:a2,
+03000000ff1100003133000000000000,Oklick W-2,crc:2004,a:b2,b:b3,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:+a1,leftx:a0,paddle1:b7,paddle2:b6,rightshoulder:b5,rightstick:b11,righttrigger:-a1,start:b9,x:b0,y:b1,
+03000000ff1100003133000000000000,Oklick W-2,crc:faf6,a:b2,b:b3,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:+a1,leftx:a0,paddle1:b7,paddle2:b6,rightshoulder:b5,rightstick:b11,righttrigger:-a1,start:b9,x:b0,y:b1,
 03000000ff1100003133000000000000,SVEN X-PAD,a:b2,b:b3,back:b4,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b6,lefttrigger:b8,leftx:a0,lefty:a1,rightshoulder:b7,righttrigger:b9,rightx:a2,righty:a4,start:b5,x:b0,y:b1,
 03000000ff1100004133000000000000,USB Gamepad,a:b2,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b6,leftstick:b10,lefttrigger:b4,leftx:a0,lefty:a1,rightshoulder:b7,rightstick:b11,righttrigger:b5,rightx:a4,righty:a2,start:b9,x:b3,y:b0,
 03000000ffff00000000000000000000,GameStop Gamepad,a:b0,b:b1,back:b8,dpdown:h0.4,dpleft:h0.8,dpright:h0.2,dpup:h0.1,leftshoulder:b4,leftstick:b10,lefttrigger:b6,leftx:a0,lefty:a1,rightshoulder:b5,rightstick:b11,righttrigger:b7,rightx:a2,righty:a3,start:b9,x:b2,y:b3,
 0>3n
-0@OPENGL32.DLL
+0@SDL_OPENGL_ES_DRIVER
 0KP\rG
 0KP\rG z
 0P18
@@ -597,8 +599,7 @@ $E4A(
 28O0b`
 2>X94>
 2@Q0b
-2\vp0F
-2\vpx
+2\vpH
 2scRGB_output
 3-bit IMA ADPCM currently not supported
 3333
@@ -910,6 +911,7 @@ Corrupt JPEG
 Corrupt PNG
 Could not acquire swapchain!
 Could not allocate space to read DB into memory
+Could not bind EGL API
 Could not create D3D12CommandQueue
 Could not create D3D12Device
 Could not create DXGIFactory
@@ -1293,6 +1295,7 @@ F7A
 F>64
 FConstants_Yoffset
 FFc.
+FHIDAPI Rumble
 FW&77%
 FW6%
 Failed loading %s
@@ -1446,7 +1449,6 @@ GL 3.x is not supported
 GLES2_CreatePalette
 GLES2_CreateRenderer
 GLES2_CreateTexture
-GLES2_DestroyRenderer
 GLES2_RenderReadPixels
 GLES2_RunCommandQueue
 GLES2_UpdatePalette
@@ -1482,6 +1484,7 @@ GL_INVALID_VALUE
 GL_NO_ERROR
 GL_OES_EGL_image_external
 GL_OES_surfaceless_context
+GL_OES_texture_npot
 GL_OUT_OF_MEMORY
 GL_RenderReadPixels
 GL_RunCommandQueue
@@ -1592,7 +1595,6 @@ HASH
 HHL GC Ultimate
 HHL ProGCC
 HID.DLL
-HIDAPI Rumble
 HIDAPI Wii: Motion Plus CONNECTED (stage %d)
 HIDAPI Wii: Motion Plus DISCONNECTED (stage %d)
 HIDAPI Wii: Resetting report mode to %d
@@ -2125,6 +2127,7 @@ Null surface in frame %i
 Number of buttons exceeds limit of %d
 Numlock
 OLEAUT32.dll
+OPENGL32.DLL
 OSG1
 OSG12
 OSG14
@@ -2278,11 +2281,10 @@ RESOURCE_MANIPULATION
 RIFF form type is not WAVE (not a Waveform file)
 RIFF size truncates chunk
 ROTATION
-RSDS
 RTS0
 RTS0$
 RTS0H
-R\fp0F
+Raw input thread exiting, unexpected wait result: %lu
 Rcoeff
 Read timed out
 Reading from
@@ -2481,7 +2483,7 @@ SDL generic title storage driver
 SDL generic user storage driver
 SDL offscreen video driver
 SDL revision: %s
-SDL-release-3.4.0-442-gb9c227e07
+SDL-release-3.4.0-675-gf8c364ae7
 SDL.app.metadata.copyright
 SDL.app.metadata.creator
 SDL.app.metadata.identifier
@@ -2727,6 +2729,7 @@ SDL.window.create.win32.pixel_format_hwnd
 SDL.window.shape
 SDL.window.win32.hdc
 SDL.window.win32.instance
+SDL2_COMPAT
 SDL3_DYNAMIC_API
 SDLAudio%c%d
 SDLCamera%d
@@ -3561,6 +3564,7 @@ SDL_IsJoystickHaptic
 SDL_IsJoystickVirtual
 SDL_IsMainThread
 SDL_IsMouseHaptic
+SDL_IsPhone
 SDL_IsTV
 SDL_IsTablet
 SDL_JOYSTICK_ALLOW_BACKGROUND_EVENTS
@@ -3695,7 +3699,6 @@ SDL_Metal_GetLayer
 SDL_MixAudio
 SDL_MixAudio(): unknown audio format
 SDL_NO_SIGNAL_HANDLERS
-SDL_OPENGL_ES_DRIVER
 SDL_OPENGL_FORCE_SRGB_FRAMEBUFFER
 SDL_OPENGL_LIBRARY
 SDL_OPENXR_LIBRARY
@@ -3911,6 +3914,7 @@ SDL_RunHapticEffect
 SDL_RunOnMainThread
 SDL_STORAGE_TITLE_DRIVER
 SDL_STORAGE_USER_DRIVER
+SDL_SURFACE_MALLOC
 SDL_SaveBMP
 SDL_SaveBMP_IO
 SDL_SaveFile
@@ -4140,7 +4144,6 @@ SDL_WAVE_FACT_CHUNK
 SDL_WAVE_RIFF_CHUNK_SIZE
 SDL_WAVE_TRUNCATION
 SDL_WINDOWS_CLOSE_ON_ALT_F4
-SDL_WINDOWS_DETECT_DEVICE_HOTPLUG
 SDL_WINDOWS_DPI_AWARENESS
 SDL_WINDOWS_ENABLE_MENU_MNEMONICS
 SDL_WINDOWS_ENABLE_MESSAGELOOP
@@ -4434,7 +4437,6 @@ SetLED failed, device disconnected
 SetLayeredWindowAttributes
 SetLayeredWindowAttributes()
 SetMenuItemInfoW
-SetNamedPipeHandleState
 SetNamedPipeHandleState()
 SetParent
 SetPixel
@@ -4557,6 +4559,7 @@ Texture format %s not supported by SDL_GPU
 Texture format must be NV12, NV21, or P010
 Texture format must be YV12 or IYUV
 Texture format not supported
+Texture framebuffer was incomplete
 Texture has no default usage mode!
 Texture is not currently available
 Texture isn't palettized format
@@ -4985,9 +4988,9 @@ ZvfkJ
 \fB0bp
 \fCC8
 \fc=Ac
+\fp\vPh
 \fzP\nqa
 \n%.2d:      
-\nPTR
 \n\nSDL assertion report.\n
 \nlC@L
 \rA5A
@@ -4999,7 +5002,6 @@ ZvfkJ
 \t\t\t\t\n\n\n\n\n\n\n\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
 \v60JA
-\vp0F
 _SDL_WAKEUP
 ` aCcY
 `0mF
@@ -5092,7 +5094,7 @@ d3dcompiler_47.dll
 desc missing sensor descriptions
 desc missing touchpad descriptions
 destination
-dialogg
+dialog
 direct-to-disk audio
 direct3d
 direct3d11
@@ -5233,7 +5235,6 @@ glEnableVertexAttribArray
 glEnd
 glFinish
 glFramebufferTexture2D
-glFramebufferTexture2D() failed
 glFramebufferTexture2DEXT
 glFramebufferTexture2DEXT() failed
 glGenBuffers
@@ -5490,7 +5491,6 @@ qYVYU
 queue
 quiet
 r,s,d
-r\vp0F
 raw mouse input
 read size overflow
 realloc_func

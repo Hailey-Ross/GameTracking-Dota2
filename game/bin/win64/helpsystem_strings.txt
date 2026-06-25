@@ -370,6 +370,8 @@ $\f?focusNextPrevChild@QWidget@@MEAA_N_N@Z
 2\n?doItemsLayout@QListView@@UEAAXXZ
 2\r?hideEvent@QWidget@@MEAAXPEAVQHideEvent@@@Z
 2\v?event@QAction@@MEAA_NPEAVQEvent@@@Z
+2\vp E
+2\vp(C
 2aboutToShow()
 2anchorClicked(QUrl)
 2changed()
@@ -1528,6 +1530,7 @@ COMMAND_TEXT_MODE_BUTTON
 COMMAND_TEXT_MODE_ICON
 COMMAND_TEXT_MODE_MENU
 COMMAND_TEXT_MODE_NONE
+CPLATFORM
 CQBindNameFilterWidget
 CQBindableCommandAction
 CQBindableCommandPushButton
@@ -1632,6 +1635,7 @@ Failed to load '%s': %s
 Failed to load bindings (%s)\n
 Failed to load help file '%s'.\n
 Filter:
+FilterApplied
 Find:
 Fixed
 Foc:N 
@@ -1837,10 +1841,11 @@ R?mimeTypes@QStandardItemModel@@UEBA?AVQStringList@@XZ
 R?modifiers@QKeyEvent@@QEBA?AV?$QFlags@W4KeyboardModifier@Qt@@@@XZ
 RMouse
 RMouseDoubleClick
-RSDSxW
 R\f?font@QTreeWidgetItem@@QEBA?AVQFont@@H@Z
+R\fp E
 R\t?canFetchMore@QAbstractItemModel@@UEBA_NAEBVQModelIndex@@@Z
 R\v?event@QMenuBar@@MEAA_NPEAVQEvent@@@Z
+R\vp(C
 R^?supportedDropActions@QStandardItemModel@@UEBA?AV?$QFlags@W4DropAction@Qt@@@@XZ
 Really delete this widget?<br><br>***THIS MAY CRASH THE PROGRAM***<br>
 Reloading...
@@ -2096,6 +2101,7 @@ asset
 asset:dev/helper/testgrid.vmat
 b\v?event@QSplitter@@MEAA_NPEAVQEvent@@@Z
 background
+binary
 bold
 bold text
 bottom
@@ -2220,6 +2226,7 @@ p`?type@QStandardItem@@UEBAHXZ
 q\n?dragLeaveEvent@QAbstractScrollArea@@MEAAXPEAVQDragLeaveEvent@@@Z
 q\v?event@QWidgetAction@@MEAA_NPEAVQEvent@@@Z
 quiet
+r\vp E
 resource/toolhelp_%s_%s.txt
 right
 rowspan
@@ -2246,6 +2253,9 @@ tabs
 testgrid.vmat
 toggleViewAction
 tokens
+tool_request_args
+tool_request_text
+tool_request_tool
 toolbarArea
 tools/keybindings/global_key_bindings.txt
 tools/keybindings/helpsystem_key_bindings.txt

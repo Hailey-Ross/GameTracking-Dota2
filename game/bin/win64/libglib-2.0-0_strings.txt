@@ -1130,6 +1130,7 @@ bad options
 be@latin
 begin != NULL
 big5
+binary
 block_source
 bookmark
 bookmark != NULL

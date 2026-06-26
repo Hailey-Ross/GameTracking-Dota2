@@ -167,10 +167,6 @@
  (%lu = 0x%lx)\n
  (%u = 0x%x)\n
  (+%d more due to usercommand delivery)
- (08@HPXbp
- (08@HRp
- (08@Jp
- (0X`hpzp
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -5666,6 +5662,7 @@ $f;Zv9l\r
 $g#8lu#
 $google/protobuf/source_context.proto"
 $hRh 
+$p07
 %#DOTA_Hero_Selection_AllDraft_Waiting
 %% 4d=[%%%d.%ds] at cycle %%6.4f weight %%5.3f
 %%%d.%ds %%%d.%ds
@@ -7035,66 +7032,52 @@ $hRh
 (0'yX
 (0.1s interval)
 (0x%08X)'??'
-(14o
-(18o
+(1Wp
+(1cp
+(1fp
+(1jp
+(4p07
+(56p
 (5Me
-(5Yp
+(5Op
 (5ap
-(5fp
+(5bp
 (5jP
 (5mp
-(5xp
-(96p
-(9Bo
-(9Mo
-(9Qo
-(9Wp
-(9dp
-(9io
-(9ip
-(9no
+(95p
+(9Po
+(9ko
+(9qp
 (?333?DOTAFrostivus2024RecipeSelected
-(A1p
-(AAp
 (ACTIVE)
-(ADp
-(AOo
-(Ago
-(Agp
+(ACp
+(ANo
+(AWo
 (App Id to retrieve published files from.
 (BZq
 (CLIENT) Inventory:\n
 (Client) 
 (D4D
 (DOTA_INVALID_ORDERS nReason) Return the error string of a failed order.
-(E2o
-(E8p
-(EHo
-(ELo
-(Eqp
+(EUp
+(Ewp
 (Fade Removed: [%d,%d,%d,%d])\n
 (HSCRIPT hTarget) Determine whether an issued command on a target is valid.
 (HSCRIPT hTarget) Return the error string of a failed command on a target.
 (I?Value@External@v8@@QEBAPEAXXZ
-(IAo
-(ICp
 (ID of the Cloud file to get details for.
 (IImageSource)
-(ITp
-(Ijp
+(INp
+(Ihp
 (Interp Ready=%s)
-(MOp
+(M4o
 (MRo
-(MUo
-(Mbp
-(Mhp
-(Mop
-(Mvo
-(Mzp
+(MZo
 (NONE)
-(QXp
-(Qho
-(Qwp
+(QBp
+(Qao
+(Qeo
+(Qio
 (SST) Disconnecting for the purpose of editing %s\n
 (SST) Disconnecting for the purpose of removing all SST data from vpk\n
 (SST) Moving %s to %s\n
@@ -7102,12 +7085,18 @@ $hRh
 (SST) Zipping %s (%d files)\n
 (Text description for the published file.
 (U1h
+(U3o
+(UQo
+(Uco
 (Unknown error)
 (VectorWS vLocation) Determine whether an issued command on a location is valid.
 (VectorWS vLocation) Return the error string of a failed command on a location.
 (WIPE AND EXTRACT)
-(YPo
-(Ytp
+(YBo
+(YLo
+(YOo
+(Ydp
+(Ysp
 (ZdOt\n&
 (\f"#\n!CDOTABroadcastMsg_LANLobbyRequest"
 (\f"#\n!CMsgClientToGCEmoticonDataRequest"Q\n
@@ -7949,65 +7938,59 @@ $hRh
 (\v2\v.CMsgVector"l\n
 (\v2\v.CMsgVector"o\n)CDOTAUserMsg_UpdateLinearProjectileCPData
 (\v2\v.CMsgVector*
-(aCo
-(aFo
-(aap
+(a0p
+(aHp
+(aep
 (b IncludePregameTime b IncludeNegativeTime) Returns the actual DOTA in-game clock time.
 (connected)
 (d4t8
 (default)
-(e0p
-(eQo
-(eUp
-(eVp
-(eeo
-(eep
-(esp
+(enp
 (fS{ggRcjh
 (flTime, bInformClients)
+(fpZ
 (from angle, to angle, time) - Spherical lerp of angle from->to based on time
 (h`H1pqA
 (i/Al
+(i1p
+(i2o
+(i7p
+(icp
 (index, bDestroyImmediately, bStatusEffect, priority, bHeroEffect, bOverheadEffect
 (int iIndex, int iPoint, Vector vecPosition)
 (int index, bool bDestroyImmediately) - Destroy a particle, if bDestroyImmediately destroy it without playing end caps.
 (int nFXIndex, int nPoint, vOrigin, qAngles)
 (int nFXIndex, int nPoint, vOrigin, vForward)
-(ipo
 (jvg;
-(m6o
+(mFp
 (memory)
-(mpp
+(mfp
+(mlo
 (needs match)
 (no controller?)
 (parent %d)
 (partial match ok)
 (qCp
+(qPo
 (quaternion,quaternion,float) very basic interpolation of v0 to v1 over t on [0,1]
 (quaternion,vector,float) rotates a quaternion by the specified angle around the specified vector axis
-(qup
-(u2o
-(uBo
-(uQp
-(uRp
-(uYp
-(ubo
-(udp
-(uio
-(unp
+(u6p
+(uFo
+(uSp
 (update disabled)
 (urp
+(uzp
 (vQF
 (vector,float) constructs a quaternion representing a rotation by angle around the specified vector axis
 (vector,vector) cross product between two vectors
 (vector,vector,float) lerp between two vectors by a float factor returning new vector
 (vector,vector,float) very basic interpolation of v0 to v1 over t on [0,1]
 (wMww
-(y7p
-(yDp
-(yOo
-(ylo
-(yvp
+(yBp
+(yNo
+(ydo
+(ygp
+(yip
 ) == false\n
 )!)#)?)G)])e)i)o)u)
 )#DOTA_Hero_Selection_CaptainsMode_TheyBan
@@ -37132,11 +37115,9 @@ $hRh
 0234
 02V8[
 05=k
-08@Jp
 08bX
 09,h
 0:%02d
-0:0p/
 0;Q5[
 0<cz
 0M2~@p
@@ -37429,6 +37410,7 @@ $hRh
 1}oP
 2 .CMsgBattleReport_CompareContext"
 2 .CMsgGCRoutingInfo.RoutingMethod:
+2 J0
 2 arguments expected: %s <map name> <override map name>\n
 2!.CMsgAddSocketResponse.EAddSocket"
 2!.CMsgBattleReport_HighlightRarity
@@ -37551,7 +37533,7 @@ $hRh
 2013-01-01
 2022_diretide_collectors_cache
 2025_cta_collectors_cache_voting
-20p/
+20o/
 20t\f
 20x9
 21.CMsgClientToGCBingoGetUserDataResponse.EResponse
@@ -37745,7 +37727,6 @@ $hRh
 2J.CMsgClientToGCMonsterHunterDevClaimInvestigationRewardsResponse.EResponse"u\n\tEResponse
 2K.CMsgClientToGCGetAvailablePrivateCoachingSessionsSummaryResponse.EResponse
 2L.CMsgClientToGCMonsterHunterRequestMaterialsNeededByFriendResponse.EResponse
-2P\v3
 2Set of published file Ids to retrieve details for.
 2Tm=#
 2Uiwp"9
@@ -37878,8 +37859,6 @@ $hRh
 2\r.ELeaguePhase
 2\rlhp
 2\vp!d
-2\vpD
-2\vpL
 2^pV
 2_bot
 2_mid
@@ -37893,6 +37872,7 @@ $hRh
 2nIg
 2ndry
 2p"6
+2po/
 2prB
 3#DOTA_Hero_Selection_AllDraft_YouPicking_LosingGold
 3%3+3/353A3G3[3_3g3k3s3y3
@@ -38037,7 +38017,6 @@ $hRh
 4<Td
 4@AA
 4Ch;
-4E(0
 4F0I
 4Mv8
 4Redirection URI provided during client registration.2
@@ -38397,29 +38376,23 @@ $hRh
 8&Kx
 8+Qw
 80F2<
-813o
 82\n:XPH
 851Pe
 89 89 89
-89No
 8<pl
 8= zp
 8@HPZ
-8A5p
 8A6j
 8Client ID for which to count the number of issued tokens"
-8FpO
 8GZS
 8Gets the list of nicknames this user has for other users
-8I&o
 8If set, remove from ignore/block list instead of adding "\\n
 8If true, return tag information in the returned details.
 8Name of the file to use as the published file's preview.
-8QGo
 8SIffK5W
 8TZvrv<
 8TopArrow
-8USo
+8U4p
 8\n0series_current_selection_priority_used_coin_toss
 8\n0ultimate_scepter_consumed_alchemist_bonus_health
 8\n3kKillEaterEventType_Broodmother_SpiderlingHeroKills
@@ -38475,26 +38448,27 @@ $hRh
 8\n\rready_members
 8\n\rsubscribe_msg
 8\v8!83858A8G8K8S8W8_8e8o8q8}8
+8]Kp
 8]Vc2
+8aLp
 8ca1
 8dS2
-8m4o
-8mKp
 8oYSBkqnngo
 8pe7?
 8q-S*]X
 8sOy
+8}Co
+9"5o
 9#9%9)9/9=9A9M9[9k9y9}9
 9#DOTA_Hero_Selection_CaptainsMode_WaitingForChooseCaptain
 9)PF
 9)jx
 9*VU
+9.Mp
 95\r9{
 969p
 9966
-9:5o
 9:dzGN
-9>Mp
 9@DOTASurvivorsMinimap
 9@Xp&
 9B2C1229
@@ -38553,7 +38527,6 @@ $hRh
 9oB#
 9q6\r#m
 9r#xV
-9z5o
 :    %i/%i (%d) full repredict\n
 :    %i/%i (%d) skip to %i restore from slot %i\n
 :    %i/%i (%i) Prediction slot %d holds command %d instead of %d!  Deleting all predictions, will full repredict\n
@@ -38620,6 +38593,7 @@ $hRh
 :gN(dq
 :mIR
 :m_vecAbsVelocity
+:pJ0
 :w4v
 ;!;#;-;9;E;S;Y;_;q;{;
 ;"lY7
@@ -39069,19 +39043,19 @@ $hRh
 ?uWS
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
+@08N4
 @0pp
 @333333)@R
+@6Pn
 @888
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @BH]f
 @BoneSetup
 @DebugIndividualStyle
-@HPX`hv
-@HPXf
-@HV0I
+@HPX`hvP1
+@HPXfp
 @Integer overflow in %s
 @MfKZ
-@NP4
 @Pgl
 @Pu\rm
 @Requests the metadata that was generated from a specified fetch.
@@ -39108,6 +39082,7 @@ $hRh
 @\n\venum_result
 @dKb]
 @fff>fff>fff>fff>
+@htp07
 @i1V
 @keyframes 
 @keyframes '%s'\r\n{\r\n
@@ -39142,6 +39117,7 @@ A9ur
 A<fP
 A>x8
 AA Compromise
+AA:0o/
 AABB
 AABBDirection
 AACompromise
@@ -40730,6 +40706,7 @@ B-409
 B-571
 B-Spline
 B.z\85p
+B0E:
 B2I_DSS
 B2I_RSA
 B2pr
@@ -40879,6 +40856,7 @@ BN_usub
 BOGUS
 BOOL ABSENT
 BOOLEAN
+BPD:
 BPEventLevelIcon
 BPIN_txt
 BPLevel
@@ -54861,6 +54839,7 @@ DownloadingSpinnerContainer
 DownloadsInfo
 DownvoteButton
 Downvoted
+Dp07
 Dq;n
 Draft Trivia Returned an invalid matchID
 Draft Trivia failed to load a match. GC could be down?
@@ -55506,6 +55485,7 @@ EXTERNAL
 EXTRA
 E[3M
 E\n!matching_subscription_def_indexes
+E\n0E:
 E\nQc
 E\n\fcavern_crawl
 E\n\finput_sample
@@ -65642,7 +65622,7 @@ P-224
 P-256
 P-384
 P-521
-P08@Jp
+P08N4
 P0WonMatch
 P1Avatar
 P1WonMatch
@@ -65650,8 +65630,7 @@ P1\t98"
 P2Avatar
 P2P ping to "%s". Timed out after %.2fms\n
 P5[1
-P6 g
-P6P'
+P6Ph
 PAGN_4
 PAGrave
 PAIN: %2.2f\n
@@ -67996,8 +67975,7 @@ R\n\rincludekvtags
 R\n\vpredictions
 R\r1>Vp
 R\vp!y
-R\vpD
-R\vpL
+R\vpT
 R]Di
 R_T5Y
 Rad Guys
@@ -75848,6 +75826,7 @@ X\n\tGraphData
 X\tQo
 Xd3h
 Xdota
+Xf0R
 XfJ7
 Xin \t
 XjfR
@@ -75938,6 +75917,7 @@ Z+5AS
 Z,google.golang.org/protobuf/types/known/anypb
 Z-google.golang.org/protobuf/types/known/typepb
 Z0000
+Z0o/
 Z0zd
 Z1google.golang.org/protobuf/types/known/wrapperspb
 Z6google.golang.org/protobuf/types/known/sourcecontextpb
@@ -76135,8 +76115,8 @@ Z~wl
 \fevents.proto
 \fevents.proto"
 \fiaR
+\fp07
 \fpFQ
-\fp\vPdx
 \ful2
 \fy&3Gl
 \l:ArR
@@ -78366,6 +78346,7 @@ Z~wl
 \tPrevious element returned false.\n
 \tPrivate script scope:
 \tPublic script scope:
+\tPxw
 \tRead %s\t%s%s%s,\tOffs 0x%04x\n
 \tReceived P2P ping reply %d/4 from "%s". Round trip time %.2fms. %s\n
 \tRule %d/%d: %s\n
@@ -78573,14 +78554,14 @@ Z~wl
 \vGt5
 \vHCK/
 \vNCE\v
-\vPdx
+\vPxw
 \vUY6[E
 \v\n\tRemoveFan
 \v\tV_atan2d
 \v\vTSG
 \vj0k
 \vjC7
-\vpdx
+\vppz
 ]1h=bfz
 ]FhSD}
 ]GT7]
@@ -78752,11 +78733,10 @@ _video
 _wjb
 _xU`u
 _}eOk
+`20o/
 `28)fk
-`2P\v3
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
-`60p
-`60q
+`6po
 `:zQF
 `D$daM-l
 `DZG
@@ -78770,8 +78750,6 @@ _}eOk
 `fPw.\vM
 `h9T~
 `htp
-`iro
-`mNo
 `o_je
 `yNT
 a moment...
@@ -78791,6 +78769,7 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
+aBv4
 aD/x
 aDSS
 aECDH
@@ -80138,6 +80117,7 @@ a|gj(
 a|w9i
 b <= sizeof ctx->buf
 b <= sizeof ctx->final
+b J0
 b0FCLlvCRJw
 b0M%
 b2i_PVK_bio
@@ -83073,7 +83053,6 @@ dHHp
 dITRedirect
 dNSDomain
 dOj\f,
-dPH:
 dSAQuality
 dWry
 dZ!2.
@@ -88719,7 +88698,6 @@ h0XB
 h2Wl
 h2n_\
 h5N.
-h9~p
 hActivator
 hAttacker
 hCallbackFunc
@@ -88733,6 +88711,7 @@ hEntityB
 hF\rDz
 hFcg
 hJxRX@_
+hM[o
 hN2D
 hRB.
 hRenderTexture != RENDER_TEXTURE_HANDLE_INVALID && m_image.IsValid()
@@ -88741,6 +88720,7 @@ hW*m
 hW1M
 hW_z
 hX@e
+hY~p
 h\n"unlocked_chat_wheel_message_ranges
 h\n"unlocked_ping_wheel_message_ranges
 h\n/k_EHeroSelectionText_AllDraft_Planning_YouFirst
@@ -89276,7 +89256,6 @@ hours_remaining
 houseIdentifier
 hover
 how_to_play
-hpzp
 hr_H
 href="
 hscroll
@@ -89367,6 +89346,7 @@ https://www.youtube.com/watch?v=vem9TLjyrkg
 https://www.youtube.com/watch?v=wWoW9-HBIwI
 https://www.youtube.com/watch?v=xZnB5t8h2Xo
 https://www.youtube.com/watch?v=yIeu0x_v2tE
+hu8p
 hu_HU
 hud.equip.agh_scepter
 hud.equip.agh_shard
@@ -89420,7 +89400,6 @@ huskar_inner_fire
 huskar_inner_vitality
 huskar_life_break
 hvL&
-hy=p
 hydras_breath_single
 hype
 hype_loc
@@ -99416,6 +99395,9 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
+p08@H^4
+p0J 
+p0jP
 p2p_ping could not convert "%s" to a CPeerToPeerAddress\n
 p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n
@@ -99429,6 +99411,7 @@ p4Z3
 p5Z3
 p5\nL,
 p618
+p6`E
 p>?Set@Template@v8@@QEAAXV?$Local@VName@v8@@@2@V?$Local@VData@v8@@@2@W4PropertyAttribute@2@@Z
 p@0pqE5tsO?|1
 pCheckpointName
@@ -102430,6 +102413,7 @@ rRfKR
 rX&O0
 rZ1VwGf5
 rZPM
+r\fpT
 r\n4k_EHeroSelectionText_AllDraft_TheyPicking_LosingGold
 r\n\nHuntReward
 r\n\vstart_index
@@ -102448,7 +102432,6 @@ r_dota_normal_maps 1
 r_dota_shadows 1
 r_printdecalinfo
 r_ssao 1
-r`a9
 rad2deg
 radar_cooldown
 radar_icon

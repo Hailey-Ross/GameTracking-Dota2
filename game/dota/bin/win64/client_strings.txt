@@ -167,8 +167,10 @@
  (%lu = 0x%lx)\n
  (%u = 0x%x)\n
  (+%d more due to usercommand delivery)
- (08@HPX`j`
- (08@HPZ`
+ (08@HPXbp
+ (08@HRp
+ (08@Jp
+ (0X`hpzp
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -5664,7 +5666,6 @@ $f;Zv9l\r
 $g#8lu#
 $google/protobuf/source_context.proto"
 $hRh 
-$p07
 %#DOTA_Hero_Selection_AllDraft_Waiting
 %% 4d=[%%%d.%ds] at cycle %%6.4f weight %%5.3f
 %%%d.%ds %%%d.%ds
@@ -7036,7 +7037,6 @@ $p07
 (0x%08X)'??'
 (14o
 (18o
-(4p07
 (5Me
 (5Yp
 (5ap
@@ -7965,7 +7965,6 @@ $p07
 (esp
 (fS{ggRcjh
 (flTime, bInformClients)
-(fpZ
 (from angle, to angle, time) - Spherical lerp of angle from->to based on time
 (h`H1pqA
 (i/Al
@@ -37133,11 +37132,11 @@ $p07
 0234
 02V8[
 05=k
-08@HR`
-08B`
+08@Jp
 08bX
 09,h
 0:%02d
+0:0p/
 0;Q5[
 0<cz
 0M2~@p
@@ -37430,7 +37429,6 @@ $p07
 1}oP
 2 .CMsgBattleReport_CompareContext"
 2 .CMsgGCRoutingInfo.RoutingMethod:
-2 J0
 2 arguments expected: %s <map name> <override map name>\n
 2!.CMsgAddSocketResponse.EAddSocket"
 2!.CMsgBattleReport_HighlightRarity
@@ -37553,7 +37551,7 @@ $p07
 2013-01-01
 2022_diretide_collectors_cache
 2025_cta_collectors_cache_voting
-20o/
+20p/
 20t\f
 20x9
 21.CMsgClientToGCBingoGetUserDataResponse.EResponse
@@ -37747,6 +37745,7 @@ $p07
 2J.CMsgClientToGCMonsterHunterDevClaimInvestigationRewardsResponse.EResponse"u\n\tEResponse
 2K.CMsgClientToGCGetAvailablePrivateCoachingSessionsSummaryResponse.EResponse
 2L.CMsgClientToGCMonsterHunterRequestMaterialsNeededByFriendResponse.EResponse
+2P\v3
 2Set of published file Ids to retrieve details for.
 2Tm=#
 2Uiwp"9
@@ -37879,6 +37878,8 @@ $p07
 2\r.ELeaguePhase
 2\rlhp
 2\vp!d
+2\vpD
+2\vpL
 2^pV
 2_bot
 2_mid
@@ -37892,7 +37893,6 @@ $p07
 2nIg
 2ndry
 2p"6
-2po/
 2prB
 3#DOTA_Hero_Selection_AllDraft_YouPicking_LosingGold
 3%3+3/353A3G3[3_3g3k3s3y3
@@ -38037,6 +38037,7 @@ $p07
 4<Td
 4@AA
 4Ch;
+4E(0
 4F0I
 4Mv8
 4Redirection URI provided during client registration.2
@@ -38404,10 +38405,10 @@ $p07
 8<pl
 8= zp
 8@HPZ
-8@HPZ`
 8A5p
 8A6j
 8Client ID for which to count the number of issued tokens"
+8FpO
 8GZS
 8Gets the list of nicknames this user has for other users
 8I&o
@@ -38619,7 +38620,6 @@ $p07
 :gN(dq
 :mIR
 :m_vecAbsVelocity
-:pJ0
 :w4v
 ;!;#;-;9;E;S;Y;_;q;{;
 ;"lY7
@@ -39069,19 +39069,19 @@ $p07
 ?uWS
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
-@08N4
 @0pp
 @333333)@R
-@6Pn
 @888
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @BH]f
 @BoneSetup
 @DebugIndividualStyle
-@HPX`hvP1
-@HPXfp
+@HPX`hv
+@HPXf
+@HV0I
 @Integer overflow in %s
 @MfKZ
+@NP4
 @Pgl
 @Pu\rm
 @Requests the metadata that was generated from a specified fetch.
@@ -39108,7 +39108,6 @@ $p07
 @\n\venum_result
 @dKb]
 @fff>fff>fff>fff>
-@htp07
 @i1V
 @keyframes 
 @keyframes '%s'\r\n{\r\n
@@ -39143,7 +39142,6 @@ A9ur
 A<fP
 A>x8
 AA Compromise
-AA:0o/
 AABB
 AABBDirection
 AACompromise
@@ -40732,7 +40730,6 @@ B-409
 B-571
 B-Spline
 B.z\85p
-B0E:
 B2I_DSS
 B2I_RSA
 B2pr
@@ -40882,7 +40879,6 @@ BN_usub
 BOGUS
 BOOL ABSENT
 BOOLEAN
-BPD:
 BPEventLevelIcon
 BPIN_txt
 BPLevel
@@ -54865,7 +54861,6 @@ DownloadingSpinnerContainer
 DownloadsInfo
 DownvoteButton
 Downvoted
-Dp07
 Dq;n
 Draft Trivia Returned an invalid matchID
 Draft Trivia failed to load a match. GC could be down?
@@ -55511,7 +55506,6 @@ EXTERNAL
 EXTRA
 E[3M
 E\n!matching_subscription_def_indexes
-E\n0E:
 E\nQc
 E\n\fcavern_crawl
 E\n\finput_sample
@@ -65648,7 +65642,7 @@ P-224
 P-256
 P-384
 P-521
-P08N4
+P08@Jp
 P0WonMatch
 P1Avatar
 P1WonMatch
@@ -65656,7 +65650,8 @@ P1\t98"
 P2Avatar
 P2P ping to "%s". Timed out after %.2fms\n
 P5[1
-P6Ph
+P6 g
+P6P'
 PAGN_4
 PAGrave
 PAIN: %2.2f\n
@@ -68001,7 +67996,8 @@ R\n\rincludekvtags
 R\n\vpredictions
 R\r1>Vp
 R\vp!y
-R\vpT
+R\vpD
+R\vpL
 R]Di
 R_T5Y
 Rad Guys
@@ -75850,10 +75846,8 @@ X\n\fSearchResult
 X\n\rkilling_blows
 X\n\tGraphData
 X\tQo
-X`hr`
 Xd3h
 Xdota
-Xf0R
 XfJ7
 Xin \t
 XjfR
@@ -75944,7 +75938,6 @@ Z+5AS
 Z,google.golang.org/protobuf/types/known/anypb
 Z-google.golang.org/protobuf/types/known/typepb
 Z0000
-Z0o/
 Z0zd
 Z1google.golang.org/protobuf/types/known/wrapperspb
 Z6google.golang.org/protobuf/types/known/sourcecontextpb
@@ -76142,8 +76135,8 @@ Z~wl
 \fevents.proto
 \fevents.proto"
 \fiaR
-\fp07
 \fpFQ
+\fp\vPdx
 \ful2
 \fy&3Gl
 \l:ArR
@@ -78373,7 +78366,6 @@ Z~wl
 \tPrevious element returned false.\n
 \tPrivate script scope:
 \tPublic script scope:
-\tPxw
 \tRead %s\t%s%s%s,\tOffs 0x%04x\n
 \tReceived P2P ping reply %d/4 from "%s". Round trip time %.2fms. %s\n
 \tRule %d/%d: %s\n
@@ -78581,14 +78573,14 @@ Z~wl
 \vGt5
 \vHCK/
 \vNCE\v
-\vPxw
+\vPdx
 \vUY6[E
 \v\n\tRemoveFan
 \v\tV_atan2d
 \v\vTSG
 \vj0k
 \vjC7
-\vppz
+\vpdx
 ]1h=bfz
 ]FhSD}
 ]GT7]
@@ -78760,10 +78752,11 @@ _video
 _wjb
 _xU`u
 _}eOk
-`20o/
 `28)fk
+`2P\v3
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
-`6po
+`60p
+`60q
 `:zQF
 `D$daM-l
 `DZG
@@ -78798,7 +78791,6 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBv4
 aD/x
 aDSS
 aECDH
@@ -80146,7 +80138,6 @@ a|gj(
 a|w9i
 b <= sizeof ctx->buf
 b <= sizeof ctx->final
-b J0
 b0FCLlvCRJw
 b0M%
 b2i_PVK_bio
@@ -83082,6 +83073,7 @@ dHHp
 dITRedirect
 dNSDomain
 dOj\f,
+dPH:
 dSAQuality
 dWry
 dZ!2.
@@ -88853,6 +88845,7 @@ headings
 headless
 headline
 heal_ally
+heal_amp_pct
 heal_from_lifesteal
 heal_from_regen
 heal_reduction_percent
@@ -89283,6 +89276,7 @@ hours_remaining
 houseIdentifier
 hover
 how_to_play
+hpzp
 hr_H
 href="
 hscroll
@@ -92895,6 +92889,7 @@ m_flCrowSpeed
 m_flDefaultMinimumTimePerFrame
 m_flDelayedShow
 m_flEncodedController
+m_flExpectedFinalHeal
 m_flIntroPlaybackRate
 m_flLastAccumulatedTime
 m_flLastJumpFromTime
@@ -99421,9 +99416,6 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^4
-p0J 
-p0jP
 p2p_ping could not convert "%s" to a CPeerToPeerAddress\n
 p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n
@@ -99437,7 +99429,6 @@ p4Z3
 p5Z3
 p5\nL,
 p618
-p6`E
 p>?Set@Template@v8@@QEAAXV?$Local@VName@v8@@@2@V?$Local@VData@v8@@@2@W4PropertyAttribute@2@@Z
 p@0pqE5tsO?|1
 pCheckpointName
@@ -102439,7 +102430,6 @@ rRfKR
 rX&O0
 rZ1VwGf5
 rZPM
-r\fpT
 r\n4k_EHeroSelectionText_AllDraft_TheyPicking_LosingGold
 r\n\nHuntReward
 r\n\vstart_index
@@ -102458,6 +102448,7 @@ r_dota_normal_maps 1
 r_dota_shadows 1
 r_printdecalinfo
 r_ssao 1
+r`a9
 rad2deg
 radar_cooldown
 radar_icon

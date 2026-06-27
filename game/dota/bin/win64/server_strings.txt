@@ -154,10 +154,8 @@
  %s%lu (%s0x%lx)\n
  ' ) - 3 G M Q _ c e i w } 
  (%ld unused bits)\n
- (08@HPXb0
- (08@HR0
- (08@J0
- (0X`hpz0
+ (08@HPXb@
+ (0X`hpz@
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -2706,7 +2704,6 @@ $hRh
 *DEAD*(TEAM)
 *DISABLED*
 *O\n\fDOTA_CM_PICK
-*PTm
 *UlS
 *Y$ve
 *\fhsD
@@ -3090,6 +3087,7 @@ $hRh
 ,kj8\te
 ,name:
 ,oYR
+,pSm
 ,section=
 ,steammessages_steamlearn.steamworkssdk.proto"
 ,steammessages_steamlearn.steamworkssdk.proto"b\n
@@ -23550,7 +23548,7 @@ $hRh
 0123456789
 02V8[
 05=k
-08@J0
+08@J@
 08bX
 09,h
 0;Q5[
@@ -23899,7 +23897,6 @@ $hRh
 2I y)
 2J.CMsgClientToGCMonsterHunterDevClaimInvestigationRewardsResponse.EResponse"u\n\tEResponse
 2L.CMsgClientToGCMonsterHunterRequestMaterialsNeededByFriendResponse.EResponse
-2PTm
 2Tm=#
 2Uiwp"9
 2Zq)
@@ -24013,6 +24010,7 @@ $hRh
 2_bot
 2_mid
 2_top
+2`Um
 2a"l
 2bT~
 2cb:RO
@@ -24186,7 +24184,7 @@ $hRh
 4_bot
 4_top
 4f h
-4q\nb>e
+4q\nr?e
 4tpD
 4zj@1;IJ
 5'0v2ZP
@@ -24547,7 +24545,7 @@ $hRh
 9r#xV
 : unrecognized parent "%s"\n
 :':+:1:K:Q:[:c:g:m:y:
-:0xq
+:0Um
 :4\n\vdescription
 :9\n\tkey_field
 :BAD OBJECT
@@ -24556,7 +24554,7 @@ $hRh
 :EXTERNAL TYPE %s\n
 :LBN
 :NAy
-:PTm
+:PVm
 :QYJ
 :Vlq
 :\n5kKillEaterEventType_Brewmaster_KillsDuringPrimalSplit
@@ -24599,7 +24597,6 @@ $hRh
 :gN(dq
 :mIR
 :parsed on tick %d of %d got %d new commands through command number %d [%s]\n
-:pxq
 :w4v
 ;!;#;-;9;E;S;Y;_;q;{;
 ;"lY7
@@ -24832,13 +24829,10 @@ $hRh
 @!@%@+@1@?@C@E@]@a@g@m@
 @0pp
 @333?
-@6PY
-@:0Iw
 @@map tree
 @BH]f
 @BoneSetup
 @HPX`hv
-@HVP<
 @Invalid attach type specified for particle effect anim event. Trying to spawn effect '%s' on model %s\n
 @MfKZ
 @Pgl
@@ -24918,7 +24912,7 @@ A<fP
 A>x8
 A@d0I
 AA Compromise
-AA:PTm
+AA:`Um
 AABB
 AABBDirection
 AACompromise
@@ -40012,7 +40006,7 @@ P-224
 P-256
 P-384
 P-521
-P08@J0
+P08@J@
 P1\t98"
 P5[1
 PAGN_4
@@ -45828,7 +45822,8 @@ X\n\rkilling_blows
 X\tQo
 Xbox VDP is not supported on this platform.
 Xd3h
-Xf0E
+Xf E
+Xf@F
 XfJ7
 XjfR
 XqgA+
@@ -45888,13 +45883,13 @@ ZH^r
 ZL9L
 ZLIB
 ZLONG
-ZPTm
 ZSz@
 ZXF,`i
 Z\n\fPositionPair
 Z\n\fSubChallenge
 Z\n\nmap_values
 Z\tV_log2f
+Z`Um
 Zd[w
 Ze2Zh@
 Zero Pose Task
@@ -46217,8 +46212,7 @@ Z~wl
 \n0CMsgClientToGCSurvivorsGameTelemetryDataResponse
 \n0CMsgGCtoGCAssociatedExploiterAccountInfoResponse
 \n0CMsgServerToGCMatchPlayerNeutralItemEquipHistory
-\n0Sm
-\n0wq
+\n0Um
 \n1CDOTAClientMsg_AbilitySpecificChannelRequiresHalt
 \n1CDOTAUserMsg_MonsterHunter_InvestigationGameState
 \n1CMsgClientToGCFightingGameAnswerChallengeResponse
@@ -46291,10 +46285,10 @@ Z~wl
 \nLeagueID_t"
 \nLeagueID_t"M\n;CMsgServerToGCCloseCompendiumInGamePredictionVotingResponse
 \nLeagueID_t"N\n$CMsgServerToGCGetCheerConfigResponse
+\nPAp
+\nPVm
 \nPlayerID_t
 \nPlayerID_t"
-\nPwq
-\nPxq
 \nSimulating Entities:\n\n
 \nUnknown reward type '%s' for action '%s' at score '%s'
 \nVisMon: Polling now. (Frequency: %f)\n
@@ -46575,7 +46569,7 @@ Z~wl
 \n\nLANE_CREEP
 \n\nMapResults
 \n\nMatchState
-\n\nPTm
+\n\nPVm
 \n\nPrediction
 \n\nROLL_STATS
 \n\nResultCode
@@ -47507,7 +47501,6 @@ Z~wl
 \ng_flConfigMaxCoord
 \ngrant_periodic_action '%s' doesn't specify an action to grant
 \nnexttoken
-\npwq
 \nqYu
 \ntM(ie-V
 \r!\r+\r-\r=\r?\rO\rU\ri\ry\r
@@ -47714,7 +47707,7 @@ _turbo
 _xU`u
 _}eOk
 `28)fk
-`2PTm
+`2`Um
 `:zQF
 `D$daM-l
 `DZG
@@ -54143,7 +54136,7 @@ hoverposeposition
 howl_duration
 hp_cost
 hp_missing_per_extra_illusion_pct
-hpz0
+hpz@
 hr_H
 http request
 http://%s
@@ -56079,6 +56072,7 @@ jTuf
 jV*d9O
 j[6Z
 j\n\nOutputItem
+j\nn@e
 j\vIP{s
 jackpots
 jaja
@@ -63044,7 +63038,6 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p0j0
 p2{l
 p4Z3
 p5Z3
@@ -66898,6 +66891,7 @@ quill_stack_damage
 quill_stack_duration
 quill_stacks
 qx(q
+r zq
 r$0I
 r-IE
 r184
@@ -70783,6 +70777,7 @@ tips_received
 tips_received_leaderboard_name
 title
 title_loc_token
+tl\nP?e
 tls client cert req with anon cipher
 tls illegal exporter label
 tls invalid ecpointformat list

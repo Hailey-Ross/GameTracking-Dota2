@@ -238,6 +238,7 @@ $\f?focusNextPrevChild@QWidget@@MEAA_N_N@Z
 .CRT$XIAC
 .fgd
 /e,/select,"
+16:44:43
 1AcceptIfItemPicked()
 1BotScriptComboBoxSelectionChanged( int )
 1BotScriptComboBoxTextChanged(QString)
@@ -274,7 +275,6 @@ $\f?focusNextPrevChild@QWidget@@MEAA_N_N@Z
 1accept()
 1map()
 1reject()
-23:18:35
 2DownArrowPressed()
 2UpArrowPressed()
 2\f?focusOutEvent@QLabel@@MEAAXPEAVQFocusEvent@@@Z

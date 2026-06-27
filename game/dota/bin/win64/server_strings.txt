@@ -631,35 +631,6 @@
 #DOTA_VoiceTextBanned_Reports_Avoid_Overflow
 #EntFire:Generate and entity i/o event
 #EntFireByHandle:Generate and entity i/o event
-#GameUI_Language_Brazilian
-#GameUI_Language_Bulgarian
-#GameUI_Language_Czech
-#GameUI_Language_Danish
-#GameUI_Language_Dutch
-#GameUI_Language_English
-#GameUI_Language_Finnish
-#GameUI_Language_French
-#GameUI_Language_German
-#GameUI_Language_Greek
-#GameUI_Language_Hungarian
-#GameUI_Language_Indonesian
-#GameUI_Language_Italian
-#GameUI_Language_Japanese
-#GameUI_Language_Korean
-#GameUI_Language_Latam_Spanish
-#GameUI_Language_Norwegian
-#GameUI_Language_Polish
-#GameUI_Language_Portuguese
-#GameUI_Language_Romanian
-#GameUI_Language_Russian
-#GameUI_Language_Simplified_Chinese
-#GameUI_Language_Spanish
-#GameUI_Language_Swedish
-#GameUI_Language_Thai
-#GameUI_Language_Traditional_Chinese
-#GameUI_Language_Turkish
-#GameUI_Language_Ukrainian
-#GameUI_Language_Vietnamese
 #Ignore_Broadcast_Messages
 #Ignore_Broadcast_Team_Messages
 #InvalidTeam
@@ -674,35 +645,6 @@
 #TF_UnknownStyle
 #Unassigned
 #UniqueString:Generate a string guaranteed to be unique across the life of the script VM, with an optional root string. Useful for adding data to tables when not sure what keys are already in use in that table.
-#Valve_SelectLanguage_Brazilian
-#Valve_SelectLanguage_Bulgarian
-#Valve_SelectLanguage_Czech
-#Valve_SelectLanguage_Danish
-#Valve_SelectLanguage_Dutch
-#Valve_SelectLanguage_English
-#Valve_SelectLanguage_Finnish
-#Valve_SelectLanguage_French
-#Valve_SelectLanguage_German
-#Valve_SelectLanguage_Greek
-#Valve_SelectLanguage_Hungarian
-#Valve_SelectLanguage_Indonesian
-#Valve_SelectLanguage_Italian
-#Valve_SelectLanguage_Japanese
-#Valve_SelectLanguage_Korean
-#Valve_SelectLanguage_Latam_Spanish
-#Valve_SelectLanguage_Norwegian
-#Valve_SelectLanguage_Polish
-#Valve_SelectLanguage_Portuguese
-#Valve_SelectLanguage_Romanian
-#Valve_SelectLanguage_Russian
-#Valve_SelectLanguage_Simplified_Chinese
-#Valve_SelectLanguage_Spanish
-#Valve_SelectLanguage_Swedish
-#Valve_SelectLanguage_Thai
-#Valve_SelectLanguage_Traditional_Chinese
-#Valve_SelectLanguage_Turkish
-#Valve_SelectLanguage_Ukrainian
-#Valve_SelectLanguage_Vietnamese
 #\n\facceleration
 #\n\fparticipants
 #\n\freclaim_time
@@ -1912,25 +1854,31 @@ $hRh
 (0'yX
 (0.1s interval)
 (0x%08X)'??'
+(1bi
+(1gi
+(1qi
+(5Hi
 (5Me
-(5Yi
 (5jP
-(9zi
+(9Ji
 (ACTIVE)
-(Adi
+(ASi
+(Aji
 (BZq
 (D4D
 (DOTA_INVALID_ORDERS nReason) Return the error string of a failed order.
 (Deprecated: use GetNumConnectedHumanPlayers) Players on a valid team (radiant, dire, or custom*) who haven't abandoned the game
-(Epi
+(Ehi
 (HSCRIPT hTarget) Determine whether an issued command on a target is valid.
 (HSCRIPT hTarget) Return the error string of a failed command on a target.
 (HSCRIPT hTarget, VectorWS vLocation) Projectile has collided with a given target or reached its destination (target is invalid).
 (HSCRIPT hTarget, VectorWS vLocation, int nHandle) Projectile has collided with a given target or reached its destination (target is invalid).
 (HSCRIPT hTarget, VectorWS vLocation, table kv) Projectile has collided with a given target or reached its destination (target is invalid).
 (Has breakpieces or commands)
-(IQi
-(MUi
+(IMi
+(INi
+(MRi
+(MYi
 (NAV IGNORED)
 (NAV_IGNORED)
 (NONE)
@@ -1938,12 +1886,11 @@ $hRh
 (Output drawable)
 (Preview/Unreleased) Gets the player's custom game account record, as it looked at the start of this session
 (Preview/Unreleased) Sets a callback to handle saving custom game account records (callback is passed a Player ID and should return a flat simple table)
-(Q3i
-(QXi
 (SERVER) Inventory for account (%d):\n
 (Server) 
 (U1h
-(URi
+(U1i
+(UZi
 (Unknown error)
 (VectorWS vLocation) Determine whether an issued command on a location is valid.
 (VectorWS vLocation) Projectile is actively moving.
@@ -1951,10 +1898,8 @@ $hRh
 (VectorWS vLocation, table kv ) Projectile is actively moving.
 (VectorWS vOrigin, float flRadius )
 (WIPE AND EXTRACT)
-(Y2i
-(Y9i
-(YMi
-(YTi
+(Y8i
+(Yri
 (ZdOt\n&
 (\f"#\n!CDOTABroadcastMsg_LANLobbyRequest"
 (\f";\n%CDOTAUserMsg_CustomHudElement_Destroy
@@ -2560,21 +2505,20 @@ $hRh
 (bool bSpent) Runs when item's charge count changes. bSpent is true when the charge count change is coming from SpendCharge.
 (d4t8
 (default)
-(eCi
-(eLi
-(eWi
+(ezi
 (fS{ggRcjh
 (flMinimapCreepIconScale) - Scale the creep icons on the minimap.
 (flMinimapHeroIconScale) - Scale the hero minimap icons on the minimap.
 (flMinimapRuneIconScale) - Scale the rune icons on the minimap.
 (flTime, bInformClients)
 (float flInterval) Channeling is taking place.
-(fpP
 (from angle, to angle, time) - Spherical lerp of angle from->to based on time
 (hAttacker, hTarget, hAbility, fDamage, fRadius, effectName)
 (hInflictor, hAttacker, flDamage) - Allocate a damageinfo object, used as an argument to TakeDamage(). Call DestroyDamageInfo( hInfo ) to free the object.
 (h`H1pqA
 (i/Al
+(i0i
+(iDi
 (index, bDestroyImmediately, bStatusEffect, priority, bHeroEffect, bOverheadEffect
 (int iIndex, int iPoint, Vector vecPosition)
 (int index, bool bDestroyImmediately) - Destroy a particle, if bDestroyImmediately destroy it without playing end caps.
@@ -2584,9 +2528,9 @@ $hRh
 (int nProjectileHandle) Projectile is actively moving.
 (int targets [0=all, 1=enemy, 2=ally], bool bNow, bool bPermanent, bool bDeath)
 (jvg;
-(mbi
-(mgi
-(mqi
+(mBi
+(mTi
+(mVi
 (nMusicStatus, flIntensity) - Set the music status for this player, note this will only really apply if dota_music_battle_enable is off.
 (nPlayerID)
 (nPlayerID, eEvent, nActionID)
@@ -2598,13 +2542,16 @@ $hRh
 (playerID, heroClassName, gold, XP) - replaces the player's hero with a new one of the specified class, gold and XP
 (playerID, heroClassName, gold, XP) - replaces the player's hero with a new one of the specified class, gold and XP, without transferring items/abilities if same hero
 (position, radius, checkFullTreeRadius?) Checks whether there are any trees overlapping the given point
-(qHi
+(q9i
 (quaternion,quaternion,float) very basic interpolation of v0 to v1 over t on [0,1]
 (quaternion,vector,float) rotates a quaternion by the specified angle around the specified vector axis
 (test) brawl
 (test) flee
 (test) pursue
-(uJi
+(uGi
+(uXi
+(ugi
+(uoi
 (update disabled)
 (vQF
 (vector,float) constructs a quaternion representing a rotation by angle around the specified vector axis
@@ -2612,6 +2559,7 @@ $hRh
 (vector,vector,float) lerp between two vectors by a float factor returning new vector
 (vector,vector,float) very basic interpolation of v0 to v1 over t on [0,1]
 (wMww
+(yFi
 )!)#)?)G)])e)i)o)u)
 ).CMsgSteamLearn_InferenceMetadata_Request
 )Ck?B
@@ -2758,7 +2706,7 @@ $hRh
 *DEAD*(TEAM)
 *DISABLED*
 *O\n\fDOTA_CM_PICK
-*PVm
+*PTm
 *UlS
 *Y$ve
 *\fhsD
@@ -23951,7 +23899,7 @@ $hRh
 2I y)
 2J.CMsgClientToGCMonsterHunterDevClaimInvestigationRewardsResponse.EResponse"u\n\tEResponse
 2L.CMsgClientToGCMonsterHunterRequestMaterialsNeededByFriendResponse.EResponse
-2PVm
+2PTm
 2Tm=#
 2Uiwp"9
 2Zq)
@@ -24238,6 +24186,7 @@ $hRh
 4_bot
 4_top
 4f h
+4q\nb>e
 4tpD
 4zj@1;IJ
 5'0v2ZP
@@ -24330,8 +24279,8 @@ $hRh
 65535"
 65535"j\n
 65535B$
+6666666666666666
 666666666666666666666666666666666666666666666666\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\.\ssl\s3_enc.c
-6666666666666666CDOTA_Modifier_PudgeMiniboss_ArmorCorruptionStack
 67-s
 6H,N
 6O|T%
@@ -24467,20 +24416,22 @@ $hRh
 7sAP'
 7wKR
 7zRQ
+8%vi
+8)ei
 8+Qw
+8-ci
 80F2<
 82\n:XPH
 851Pe
 8<pl
 8= zp
-8=fi
-8=si
 8A6j
 8DemoFile
 8GZS
-8I\i
 8SIffK5W
 8TZvrv<
+8Udi
+8Uui
 8\n0series_current_selection_priority_used_coin_toss
 8\n0ultimate_scepter_consumed_alchemist_bonus_health
 8\n3kKillEaterEventType_Broodmother_SpiderlingHeroKills
@@ -24533,13 +24484,13 @@ $hRh
 8\n\rsubscribe_msg
 8\v8!83858A8G8K8S8W8_8e8o8q8}8
 8]Vc2
-8avi
+8aii
 8ca1
 8dS2
-8eei
-8ici
 8pe7?
 8q-S*]X
+8qei
+8qvi
 8sOy
 9#9%9)9/9=9A9M9[9k9y9}9
 9)PF
@@ -24596,7 +24547,7 @@ $hRh
 9r#xV
 : unrecognized parent "%s"\n
 :':+:1:K:Q:[:c:g:m:y:
-:0zq
+:0xq
 :4\n\vdescription
 :9\n\tkey_field
 :BAD OBJECT
@@ -24605,7 +24556,7 @@ $hRh
 :EXTERNAL TYPE %s\n
 :LBN
 :NAy
-:PVm
+:PTm
 :QYJ
 :Vlq
 :\n5kKillEaterEventType_Brewmaster_KillsDuringPrimalSplit
@@ -24648,7 +24599,7 @@ $hRh
 :gN(dq
 :mIR
 :parsed on tick %d of %d got %d new commands through command number %d [%s]\n
-:pzq
+:pxq
 :w4v
 ;!;#;-;9;E;S;Y;_;q;{;
 ;"lY7
@@ -24841,11 +24792,9 @@ $hRh
 >fN46R^
 >l\rur
 >p00<
->special_bonus_hp_regen_6
 >yhP
 >ztq
 ?CColorGradient
-?CLocalNPCObstructionsCache
 ?HAI\t81\t9dcG'
 ?HP4
 ?Jun 24 2026
@@ -24881,14 +24830,15 @@ $hRh
 ?uWS
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
-@08NT
 @0pp
 @333?
-@:0Kw
+@6PY
+@:0Iw
 @@map tree
 @BH]f
 @BoneSetup
-@HPX`hvP'
+@HPX`hv
+@HVP<
 @Invalid attach type specified for particle effect anim event. Trying to spawn effect '%s' on model %s\n
 @MfKZ
 @Pgl
@@ -24968,7 +24918,7 @@ A<fP
 A>x8
 A@d0I
 AA Compromise
-AA:PVm
+AA:PTm
 AABB
 AABBDirection
 AACompromise
@@ -25304,6 +25254,7 @@ ASN1_unpack_string
 ASN1_verify
 ASSEMBLE
 ASSEMBLE_WITH_HUMANS
+ASaveRestoreTableFlags_t
 ATTACK
 ATTACKCOMBO_A
 ATTACKCOMBO_B
@@ -25325,7 +25276,6 @@ AUTHORITY_KEYID
 AUTOMATED_BOT_ONLY_MATCH
 AVOID
 AW:S
-AWeaponSound_t
 AWt.
 A\n!secondary_advancing_node_group_id
 A\n<k_EMsgClientToGCOverworldClaimFortunePermanentRewardResponse
@@ -26515,7 +26465,6 @@ BoxAngles
 Branch (%s): %s
 Branch value: %s
 Branch%02d
-Brazilian
 Break Joint By Name
 BreakCreateParticle
 BreakOnFirstImpact
@@ -26570,7 +26519,6 @@ Building: %s destroyed at %f.\n
 BuildingAggressive
 BuildingDetails
 Building_Tombstone.Destruction
-Bulgarian
 BulletProof
 Bundle has circular reference: 
 BurstLocation
@@ -31303,7 +31251,6 @@ CutDownRegrowAfter
 Cuts down this tree. Parameters: float flRegrowAfter (-1 = never regrow), int nTeamNumberKnownTo (-1 = invalid team)
 Cuts down this tree. Parameters: int nTeamNumberKnownTo (-1 = invalid team)
 Cycle: %.5f (%.5f)
-Czech
 D"bu
 D#D)D;D?DEDKDQDSDYDeDoD
 D(n%6
@@ -31860,7 +31807,6 @@ Damagetype
 DangerousTime
 DangerousTimer
 Dangling
-Danish
 Data Encipherment
 DataBit
 Data_Branch1xy
@@ -32295,7 +32241,6 @@ Duplicate team stat id %u (%s and %s)
 Duplicate team stat name %s (%u and %u)
 Durable
 DurationValue
-Dutch
 Dynamic - Asleep
 Dynamic - Awake
 Dynamic Actor
@@ -32841,7 +32786,6 @@ EndY
 EnemiesOnly
 Engine2/LightmapUVQuery
 Engine2/NetworkEncoderOverrides
-English
 EnrageTimer.Enrage.Target
 EnsureCapacity
 Ent %5d: class %s name "%s"\n
@@ -33381,7 +33325,6 @@ FinishTutorial
 Finished a tutorial with no valid set_location_id\n
 Finished cache/install of UGC %llu OK at '%s'.\n
 Finished dumping CPhysAggregateData
-Finnish
 Fire Entity's Action Input w/no data
 Fire Entity's Action Input with passed String - you own the memory
 Fire Entity's Action Input with passed Vector - you own the memory
@@ -33543,7 +33486,6 @@ Free a damageinfo object that was created with CreateDamageInfo().
 Frees the specified particle index
 Freeze
 FreezeParticleInvolving
-French
 Frequency
 FriendPermission
 Frog Rock offense %d, utility %d, defense %d\n
@@ -33649,7 +33591,6 @@ GET_SERVER_HELLO
 GET_SERVER_STATIC_DH_KEY
 GET_SERVER_VERIFY
 GHOSTSHIP
-GHow far is the trace we shoot when using NPC Go
 GL.n
 GLIMPSE
 GLOBAL
@@ -33688,6 +33629,7 @@ GOST94-NULL-GOST94
 GRAPHICSTRING
 GREEVIL_CAMP
 GService for submitting data, training, and inferencing with SteamLearn.
+GSet whether should run on NPC go
 GTsW
 GUSH
 GXqN
@@ -33770,7 +33712,6 @@ GeneratingEconItem
 Generator (compressed):
 Generator (hybrid):
 Generator (uncompressed):
-German
 Gesture
 Gesture Slot %d(%s): %s %s(A:%s, C:%2.3f P:%2.1f W:%2.3f)\n
 Gesture Slot %d(%s): NOT ACTIVE!\n
@@ -36778,7 +36719,6 @@ HullDesc_tiny
 HullDesc_tiny_centered
 HullParams
 Hulls are convex point clouds in body space
-Hungarian
 HuntedBy
 H{1S
 I died
@@ -36994,7 +36934,6 @@ IndirectVoxelDimX
 IndirectVoxelDimY
 IndirectVoxelDimZ
 IndividualProgress
-Indonesian
 Inference
 InferenceAccessToken
 InferenceMetadata
@@ -37947,7 +37886,6 @@ Issue a Patrol-To command.
 Issue an Attack-Move-To command.
 Issue an order from a script table
 Issuer certificate lookup error
-Italian
 Item %d contains both a team + corporation brand which is illegal!
 Item %s fell out of level at %f,%f,%f\n
 Item %s has a ID of zero.\n
@@ -38154,7 +38092,6 @@ J\n\rgold_received
 J\n\rresolved_type
 J`KL
 Jackpot
-Japanese
 Job %s has EXCEEDED TIMEOUT THRESHOLD exclusive time: %ums >= %ums\n
 Job %s has EXCEEDED TIMEOUT THRESHOLD yield time: %ums >= %ums\n
 Job %s has spent >%2.3fms without yielding: %2.3fms\n
@@ -38256,7 +38193,6 @@ Knockback
 Kochanek-Bartels
 Kochanek-Bartels Early
 Kochanek-Bartels Late
-Korean
 KsF8
 Kscripts/comics.vdata
 Ksg4X
@@ -38318,7 +38254,6 @@ LastChanceTeam
 LastHitChallengeRival
 LastRemainingQuery
 LastToPassQuery
-Latam_Spanish
 LateGame
 Launch Spear to a target position from a source position
 LaunchDistance
@@ -39374,7 +39309,6 @@ Nonce
 None 
 None       
 Normalize Vector a
-Norwegian
 Not 
 Not After: 
 Not Before: 
@@ -40079,10 +40013,8 @@ P-256
 P-384
 P-521
 P08@J0
-P08NT
 P1\t98"
 P5[1
-P6PZ
 PAGN_4
 PARALYZE
 PARAMETER NAME: %s | OPTIONAL: %s, TYPE: %s, BOUND: %s\n
@@ -40102,7 +40034,7 @@ PATHBYADDR
 PATH_REBUILD_DONT_MOVE
 PATH_REBUILD_MAINTAIN_T
 PATH_REBUILD_USE_CURRENT_NODE_T
-PAmodifier_satyr_hellcaller_unholy_aura
+PAsatyr_hellcaller_unholy_aura
 PBE-MD2-DES
 PBE-MD2-RC2-64
 PBE-MD5-DES
@@ -40598,7 +40530,6 @@ Point entity.
 PointToLineDistance
 Policy Qualifier CPS
 Policy Qualifier User Notice
-Polish
 Polyclip : Adding Jumps...
 Polyclip : Generating connections...
 Polyclip : Optimising to Quads...
@@ -40626,7 +40557,6 @@ Portal.Loop_Disappear
 PortraitBackgroundModel
 PortraitBackgroundTexture
 PortraitParticle
-Portuguese
 Pose Evaluation Report:\n
 Position
 Position: %0.3f, %0.3f, %0.3f\n
@@ -40887,7 +40817,7 @@ RC5-CFB
 RC5-ECB
 RC5-OFB
 RC5_CTRL
-RCdota_music_enable_spectator_mode
+RCdota_tutorial_heroselection
 RD6O
 RDNS
 RE!r
@@ -41541,7 +41471,6 @@ RollOutroCredits
 RollPercentage
 RollPseudoRandomPercentage
 Rolls a number from 1 to 100 and returns true if the roll is less than or equal to the number specified
-Romanian
 Root class of all server-side entities
 RopeMaterial
 RopeShader
@@ -41614,7 +41543,6 @@ Runs when the modifier is destroyed (after unit loses modifier).
 Runs when the modifier is destroyed (before unit loses modifier).
 Runs when the modifier is refreshed.
 Runs when the think interval occurs.
-Russian
 RxT\f0<1
 Rxy3
 RzQU
@@ -43970,7 +43898,6 @@ Simple Cubic
 Simple obstruction
 SimplePlaybackRate
 Simplified Contours
-Simplified_Chinese
 SimulateUserCommands
 Simulated GC communications failure is active.\n
 Simulated GC communications failure is not active.\n
@@ -44036,7 +43963,6 @@ SourceTV camera switched to auto-director mode.
 SourceTV reconnecting ...
 Space - CalcBlocks
 Space - building %d\n
-Spanish
 SparkOnce
 SparkType
 Sparse voxels
@@ -44415,7 +44341,6 @@ Swap the contents of two item slots (slot1, slot2)
 SwapAbilities
 SwapItems
 Swaps the slots of the two passed abilities and sets them enabled/disabled.
-Swedish
 SweptBox
 Switches visible econ item group.
 Sync Cycle To Time
@@ -44860,7 +44785,6 @@ TrackTrain %s arrived at %s, speed to %4.2f\n
 TrackedStatValue_t"
 TrackingProjectile
 TrackingProjectileData
-Traditional_Chinese
 TrailLength
 Trailer Field: 0x
 Train %s speed to %4.2f\n
@@ -44959,7 +44883,6 @@ Trying to set an offset on an unset node!
 Trying to set event data for inactive event: %s for PlayerID: %d
 Tu\t(OR
 Turbo Pick Rules: Resolving Draft Collision. firstPlayer=%d:%s, secondPlayer=%d:%s, heroID=%d\n
-Turkish
 Turn Off
 Turn On
 Turn a time in seconds into a display string. NOT localized.
@@ -45077,7 +45000,6 @@ U\n\vActionGrant
 U\tV_localeconv
 U^Pg
 Ugi<
-Ukrainian
 UltimateDisableResistance
 UnHideAbilityToSlot
 UnHideAbilityToSlot %s and %s, duplicate %s exists in stored abilities.\n
@@ -45534,7 +45456,6 @@ VguiScreen
 VictimHeroID
 VictimPlayerID
 VictoryPrediction
-Vietnamese
 ViewerCount:%d / %d  DirtyViewerCount:%d  %s
 Viewers: %d  DirtyViewerCount:%d\n
 Viewkick
@@ -45907,7 +45828,7 @@ X\n\rkilling_blows
 X\tQo
 Xbox VDP is not supported on this platform.
 Xd3h
-Xf0H
+Xf0E
 XfJ7
 XjfR
 XqgA+
@@ -45967,7 +45888,7 @@ ZH^r
 ZL9L
 ZLIB
 ZLONG
-ZPVm
+ZPTm
 ZSz@
 ZXF,`i
 Z\n\fPositionPair
@@ -46082,7 +46003,6 @@ Z~wl
 \fdhWTh
 \fevents.proto"
 \fiaR
-\fp\vPt
 \ful2
 \fy&3Gl
 \l:ArR
@@ -46297,8 +46217,8 @@ Z~wl
 \n0CMsgClientToGCSurvivorsGameTelemetryDataResponse
 \n0CMsgGCtoGCAssociatedExploiterAccountInfoResponse
 \n0CMsgServerToGCMatchPlayerNeutralItemEquipHistory
-\n0Um
-\n0yq
+\n0Sm
+\n0wq
 \n1CDOTAClientMsg_AbilitySpecificChannelRequiresHalt
 \n1CDOTAUserMsg_MonsterHunter_InvestigationGameState
 \n1CMsgClientToGCFightingGameAnswerChallengeResponse
@@ -46373,8 +46293,8 @@ Z~wl
 \nLeagueID_t"N\n$CMsgServerToGCGetCheerConfigResponse
 \nPlayerID_t
 \nPlayerID_t"
-\nPyq
-\nPzq
+\nPwq
+\nPxq
 \nSimulating Entities:\n\n
 \nUnknown reward type '%s' for action '%s' at score '%s'
 \nVisMon: Polling now. (Frequency: %f)\n
@@ -46655,7 +46575,7 @@ Z~wl
 \n\nLANE_CREEP
 \n\nMapResults
 \n\nMatchState
-\n\nPVm
+\n\nPTm
 \n\nPrediction
 \n\nROLL_STATS
 \n\nResultCode
@@ -47587,7 +47507,7 @@ Z~wl
 \ng_flConfigMaxCoord
 \ngrant_periodic_action '%s' doesn't specify an action to grant
 \nnexttoken
-\npyq
+\npwq
 \nqYu
 \ntM(ie-V
 \r!\r+\r-\r=\r?\rO\rU\ri\ry\r
@@ -47794,9 +47714,7 @@ _turbo
 _xU`u
 _}eOk
 `28)fk
-`2PVm
-`60d
-`6Pn
+`2PTm
 `:zQF
 `D$daM-l
 `DZG
@@ -47824,7 +47742,6 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBvT
 aD/x
 aDSS
 aECDH
@@ -48735,7 +48652,6 @@ autograph_score
 autokick is disabled for %s\n
 automate
 automatic_surrender
-automaton
 autosave\n
 autosavedangerous\n
 autosavedangerousissafe\n
@@ -49193,7 +49109,6 @@ bf-cfb
 bf-ecb
 bf-ofb
 bgD$
-bg_BG
 bh.b|C
 bie.+
 big_hand
@@ -49434,7 +49349,6 @@ brainpoolP512r1
 brainpoolP512t1
 bramble_maze
 branding
-brazilian
 break_breakable
 break_change_material_group
 break_command
@@ -49555,7 +49469,6 @@ buildingName
 building_duration_limit
 building_state
 building_type
-bulgarian
 bulletPenetrationDamageModifier
 bulletPenetrationDistanceModifier
 bulletspenetrate
@@ -50490,7 +50403,6 @@ crystal_maiden_glacial_guard
 crystal_maiden_ice_rink
 crystal_maiden_let_it_go
 crystal_nova
-cs_CZ
 css_class
 ct_cert_scts
 ct_precert_poison
@@ -50644,7 +50556,6 @@ cyclone_duration
 cyclone_enemy
 cyclone_friendly
 cz>Sp
-czech
 d e not congruent to 1
 d.allOrFirstTier
 d.authenticatedData
@@ -50725,7 +50636,6 @@ dZ!2.
 d[kHy 
 d\n\vDroppedItem
 d_r_0
-da_DK
 dac_dof_far_blurry
 dac_dof_far_crisp
 dac_dof_tilt_to_ground
@@ -50812,7 +50722,6 @@ damagetype_const
 dampAllRotation
 damping
 damping_override
-danish
 dark_seer_aggrandize
 dark_seer_heart_of_battle
 dark_seer_ion_shell
@@ -50890,7 +50799,6 @@ dcobject
 dd_ability_id
 dd_index
 dd_modifier_index
-de_DE
 dead
 dead_hero
 deadlock_retries
@@ -51740,7 +51648,6 @@ duration_reduced
 duration_seconds
 duration_tooltip
 duration_unit
-dutch
 dvcs
 dynamic
 dynamicEntityName
@@ -52056,7 +51963,6 @@ egg_essence
 ehandle_values
 eidolon_spawns_per_tick
 eidolons
-el_GR
 elapsed_duration
 elapsed_jump_time
 elder_titan_ancestral_spirit
@@ -52111,7 +52017,6 @@ empowered_max_burn_pct
 empowered_state
 empty file structure
 empty srtp protection profile list
-en_US
 enable_collision_with_parent_breakable
 enable_crouch_speeds
 enable_offscreen_indicator
@@ -52417,9 +52322,6 @@ error setting recipientinfo
 error with the srp params
 error:%08lX:%s:%s:%s
 errors
-es-419
-es_419
-es_ES
 escalating_chance_drop
 escalating_chance_drop_by_rarity
 escalating_pitch
@@ -52816,7 +52718,6 @@ feop(
 fetch_id
 fff?
 ffffff
-fi_FI
 field missing
 field too large
 fieldID
@@ -52867,7 +52768,6 @@ finger
 finish failed
 finish_text
 finish_timestamp
-finnish
 fips
 fips mode not supported
 fips2
@@ -53190,7 +53090,6 @@ fow_duration
 fow_range
 fow_server_vis_flags
 fpnS
-fr_FR
 frac
 fraction
 frame_oversleep_time_50th_percentile
@@ -53215,7 +53114,6 @@ freeze_transition_override
 freezing_field
 freezing_field_shard
 freezing_field_spinwheel
-french
 freshestCRL
 friend_account_id
 friend_permissions
@@ -53435,7 +53333,6 @@ generic2d
 generic_challenge_instances
 generic_hidden
 generic_stunned
-german
 gesture
 get_hits
 gethostbyname
@@ -53671,7 +53568,6 @@ graph_win_probability
 graph_xp
 graveyard_aura
 gray
-greek
 green
 greevil_miniboss_black_brain_sap
 greevil_miniboss_black_nightmare
@@ -53772,10 +53668,10 @@ g|MT
 h&eC
 h*Ax
 h0XB
-h1]i
 h2Wl
 h2n_\
 h5N.
+hA`i
 hActivator
 hAggroTarget
 hAttackTarget
@@ -53793,6 +53689,7 @@ hCourier
 hCriteriaTable
 hDropData
 hEM&!
+hE[i
 hEnt
 hEntity to follow, bool bBoneMerge
 hEntity to follow, string BoneOrAttachName
@@ -54183,6 +54080,8 @@ hltv_rank_entity
 hltv_title
 hltv_versioninfo
 hlvr
+hm[i
+hm^i
 hmac
 hmac-md5
 hmac-sha1
@@ -54252,14 +54151,12 @@ http://localhost%s
 https proxy request
 https://api.steampowered.com/I%sService/%s/v%u
 https://cdn.beta.steampowered.com/apps/dota2/images/crownfall/comic_part1/english
-hu_HU
 hud_ping
 hud_timer_show_tutorial_timer
 hull
 hull index %d
 hull_index
 hulls
-hungarian
 hunt_alert_type
 hunt_status_type
 hunter_night
@@ -54620,7 +54517,6 @@ id-smime-mod-oid
 id-smime-spq
 id-smime-spq-ets-sqt-unotice
 id-smime-spq-ets-sqt-uri
-id_ID
 idea-cbc
 idea-cfb
 idea-ecb
@@ -54800,7 +54696,6 @@ index,length,type,name,parent,index,creation,duration\n
 indirect %s missing valid serializer\n
 indirectCRL
 individual_progress
-indonesian
 indoor_outdoor_level
 inertiafactor
 ineye
@@ -55347,8 +55242,6 @@ issuer_player_id_const
 issuer_player_index
 issuingDistributionPoint
 istechiesminitaunt
-it_IT
-italian
 item != NULL
 item redemption option 1
 item redemption option 2
@@ -56187,7 +56080,6 @@ jV*d9O
 j[6Z
 j\n\nOutputItem
 j\vIP{s
-ja_JP
 jackpots
 jaja
 jakiro_double_trouble
@@ -56198,7 +56090,6 @@ jakiro_liquid_fire
 jakiro_liquid_ice
 jakiro_macropyre
 janetMailbox
-japanese
 jb:5
 jcn,T,>
 jetpack
@@ -56561,7 +56452,6 @@ knockback_target_x
 knockback_target_y
 knockback_target_z
 knockdown
-ko_KR
 kobold_disarm
 kobold_duration
 kobold_taskmaster_speed_aura
@@ -56569,7 +56459,6 @@ kobold_tunneler_prospecting
 kochanek
 kochanek_early
 kochanek_late
-koreana
 kp3/y*U
 kpEKI
 krb5
@@ -56706,7 +56595,6 @@ last_valid_item_slot
 last_waypoint_pos
 lasthit_ui_mode
 lasthitcount
-latam
 latch_radius
 latch_slot
 latch_speed
@@ -60765,6 +60653,7 @@ modifier_sandking_sand_storm_invisibility
 modifier_sandking_sand_storm_slow
 modifier_sandking_sand_storm_slow_aura_thinker
 modifier_sandking_sandstorm_blind
+modifier_satyr_hellcaller_unholy_aura
 modifier_satyr_hellcaller_unholy_aura_bonus
 modifier_satyr_soulstealer_mana_burn
 modifier_satyr_trickster_purge
@@ -62074,7 +61963,6 @@ nightmare_invuln_time
 nighttime_increase
 niv <= EVP_MAX_IV_LENGTH
 nkey <= EVP_MAX_KEY_LENGTH
-nl_NL
 nmI\n8
 nmvos^\n
 no accept port specified
@@ -62178,7 +62066,6 @@ no verify function configured
 no:7
 noCheck
 noRevAvail
-no_NO
 no_attack_cooldown
 no_cooldown_hp_threshold
 no_dupe_loot_list_override
@@ -62244,7 +62131,6 @@ normal_pts
 normal_punch
 normal_punch_illusion_delay
 normalized_win_probability_diff
-norwegian
 nostack_protection
 not a NIST prime
 not a signed receipt
@@ -63158,7 +63044,6 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^T
 p0j0
 p2{l
 p4Z3
@@ -66293,7 +66178,6 @@ pkeyalg
 pkix
 pkparameters2group failure
 pkvFantasyDayTimestamps->Count() <= kCardMaxFantasyPeriods
-pl_PL
 place_anchors_at_constraint_transform
 place_event_action
 place_event_id
@@ -66527,7 +66411,6 @@ policyIdentifier
 policyLanguage
 policyMappings
 policyid
-polish
 poll_id
 polymorphic_arg
 polymorphic_class
@@ -66549,7 +66432,6 @@ portrait_background_particle
 portrait_game
 portrait_image
 portraits
-portuguese
 pos-Vector
 pos-cellorigin
 pos: (%f, %f, %f)\n
@@ -66857,8 +66739,6 @@ pszSpeech
 pszString
 pszTagName
 pszTalentName
-pt_BR
-pt_PT
 pub: 
 pub_key
 pubkey
@@ -67665,7 +67545,6 @@ river_paint_item_defs
 rjg\v
 rkqg
 rmhD
-ro_RO
 roaming_duration
 roar
 roar_duration
@@ -67686,7 +67565,6 @@ roll_min
 rolls
 rolltype
 rollup_bounce_duration
-romanian
 room
 roomNumber
 room_gate
@@ -67759,7 +67637,6 @@ rt_identity_linked
 rtime32_gc_welcome_timestamp
 rtime_oldest_date
 rtime_vacban_starts
-ru_RU
 rubick_arcana
 rubick_arcana_follower
 rubick_arcane_supremacy
@@ -67796,7 +67673,6 @@ rune_shield
 rune_type
 runes_collected
 runes_denied
-russian
 rw4rs
 r~s-v7
 s%95
@@ -67864,7 +67740,6 @@ sanguivore_multiplier
 sao5
 saturate
 satyr_hellcaller_shockwave
-satyr_hellcaller_unholy_aura
 satyr_soulstealer_mana_burn
 satyr_trickster_purge
 save %s
@@ -69011,7 +68886,6 @@ source_tv_public_addr
 source_tv_steamid
 source_unit_index
 space not built
-spanish
 spark_damage_base
 spark_shower
 spawn
@@ -69302,6 +69176,7 @@ special_bonus_hp_regen_4
 special_bonus_hp_regen_40
 special_bonus_hp_regen_5
 special_bonus_hp_regen_50
+special_bonus_hp_regen_6
 special_bonus_hp_regen_7
 special_bonus_hp_regen_8
 special_bonus_hp_regen_80
@@ -70465,7 +70340,6 @@ suspension_damping_ratio
 suspension_end_time
 suspension_frequency
 suspension_height_offset
-sv_SE
 sv_cheats must be set to 1\n
 sv_cloth_interp_rot
 sv_cq_delta_encode_svc_usercmds
@@ -70484,7 +70358,6 @@ sven_wrath_of_god
 swag_bag_matches
 swapImageAndOriginal
 swarm_bug
-swedish
 sweetSpotAngle
 swell_duration
 swing_limit
@@ -70634,7 +70507,6 @@ taunting_player_id
 taunts_used
 tbsRequest
 tbsResponseData
-tchinese
 td5)
 tdAW
 tdYv
@@ -70779,8 +70651,6 @@ texture_based_animation_rotation_keys
 texturename
 tfjgvmfv
 tgtpath
-th_TH
-thai
 thanks
 the asn1 object identifier is not known for this md
 the meth_data stack is corrupt
@@ -71047,7 +70917,6 @@ tp_scrolls_purchased_4
 tp_scrolls_purchased_5
 tps_used
 tq}a
-tr_TR
 track_caster_only
 track_failure
 tracked_stat_id
@@ -71223,7 +71092,6 @@ tst info setup error
 turbo
 turbo_madstone_primary
 turbo_madstone_secondary
-turkish
 turn
 turn_to_ash
 turret
@@ -71300,8 +71168,6 @@ uint64[k_nVersusDisplayedAccoladeCount]
 uint8[20]
 uint8[DOTA_DEFAULT_MAX_TEAM_PLAYERS]
 uint8[kSERVERCONTROLLEDPOINTS]
-uk_UA
-ukrainian
 ultimate_always_applies
 ultimate_cooldown
 ultimate_scepter
@@ -71829,7 +71695,6 @@ vertex_set_hash
 vertical_align
 vertical_offset
 very_fast
-vi_VN
 victim
 victim_account_id
 victim_ent_index
@@ -71846,7 +71711,6 @@ victim_userid
 victimid
 victory_prediction
 video
-vietnamese
 view_ofs
 viewer_id
 viewer_team
@@ -72369,8 +72233,6 @@ zRXU
 zealots
 zero_value
 zfriction
-zh_CN
-zh_TW
 zlVO
 zlib compression
 zmax

@@ -2130,8 +2130,8 @@
 @const char *__cdecl Reflection::Internal::GetFuncName<class IPairedSequenceComponentInstance>(void)
 @fff>fff>fff>fff>
 @ht0
+A Aq
 A string associated with this Cursor, to use later for remote Kill or Wait requests. Cursors can have any number of Tags associated with them.
-A0Aq
 AE_ACTION_ALLOW_COMBO
 AE_ACTION_PREVENT_COMBO
 AE_ALYX_EMPTOOL_ATTACHMENT
@@ -3305,8 +3305,8 @@ Zero input vector for info node!
 [RETURN]
 \nnexttoken
 \rRESOURCE_TYPE_ANIMGRAPH
+\rXCq
 \r\tV_atand
-\rhCq
 \t%d (%d) : %s %s %s %s\n
 \t%d:%d - %s (agrp vs agrp flag mismatch) %s:%s (promoted to match existing) %s:%s\n
 \t%d:%d - %s (match)\n

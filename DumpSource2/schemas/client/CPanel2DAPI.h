@@ -1,3 +1,0 @@
-class CPanel2DAPI
-{
-};

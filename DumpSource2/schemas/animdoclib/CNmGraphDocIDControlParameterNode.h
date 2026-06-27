@@ -36,5 +36,6 @@ class CNmGraphDocIDControlParameterNode : public CNmGraphDocControlParameterNode
 	CGlobalSymbol m_previewStartValue;
 	// MPropertyAttributeEditor = "AnimGraphID()"
 	// MPropertyAutoExpandSelf
+	// MPropertyFriendlyName = "Local graph expected values"
 	CUtlVector< CGlobalSymbol > m_expectedValues;
 };

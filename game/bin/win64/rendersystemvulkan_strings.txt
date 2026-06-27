@@ -1517,16 +1517,9 @@ Prints out stats for the Vulkan shader table
 Query
 QueryServiceStatus
 RENDERDOC_GetAPI
-RENDER_BUFFER_DYNAMIC_ZERO_COPY
 RESOURCE_TYPE_TEXTURE
 RJqn
 RSDS&c{3
-RS_CMP_CLOSER
-RS_CMP_CLOSER_EQUAL
-RS_CMP_CLOSER_FARTHER_FLAG
-RS_CMP_FARTHER
-RS_CMP_FARTHER_EQUAL
-RS_CMP_FUNC_MASK
 RTX\n
 R\vpx
 R_T5Y
@@ -1820,12 +1813,6 @@ Trying to set dxlevel (%d) which is lower than the card can support (%d)!\n
 Type 
 UAVBarrier - requested barrier for more mip levels than are in the texture. Requested baseLevel: %d levelCount: %d (Actual levels: %d).  Clamping to actual number of levels.\n
 UNICODE_ESC
-UPSCALER_AMD_FSR2
-UPSCALER_AMD_FSR3
-UPSCALER_COUNT
-UPSCALER_INTEL_XESS
-UPSCALER_NONE
-UPSCALER_NVIDIA_DLSS
 UUID mismatch in pipeline cache blob.\n
 UUU?,
 U\8h(
@@ -1868,7 +1855,6 @@ UnusedRangeSizeMax
 UnusedRangeSizeMin
 UnusedRanges
 UpdateExternalTexture called on unknown external texture '%s'\n
-UpscalerType_t
 Usage
 Usage: %s <window_name>
 UsageBytes

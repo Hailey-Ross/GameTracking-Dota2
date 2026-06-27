@@ -593,7 +593,6 @@ Generic SFM
 GetClipboardData
 GlobalSize
 Hammer temp export
-If enabled, the up direction will be evaluated in world space, such that the object orientation does not affect the surface slope filtering. Additionally if Orient To Surface is 0, then and world space up is enabled, then the object orientation will not affect the rotation of detail model.
 Inert VModuleMetadata
 Inherit Velocity
 Initial Repulsion Velocity
@@ -752,7 +751,6 @@ Unserialize: Unable to start dmxconvert process\n
 Unserialize: Unexpected encoding name '%s' reading file '%s' - expected encoding '%s'\n
 Unserialize: Unexpected format '%s' reading file '%s' - expected format '%s'\n
 Usage:\n
-Use World Space Up
 VDataModelVersion001
 VDmElementFrameworkVersion001
 VDmSerializers001
@@ -1076,18 +1074,12 @@ m_SpecialInputDependencies
 m_String
 m_SubassetDefinitions
 m_SubassetReferences
-m_UnrecognizedOutboundRefsErrorTypeExceptions
 m_UserData
 m_WeakReferenceList
-m_bAllowDefinitions
-m_bAllowReferences
-m_bErrorOnUnrecognizedOutboundRefs
 m_bFileExists
 m_bIsGameFile
 m_bOptional
-m_bWorldSpaceOrientation
 m_fMoveTo
-m_nAssetThumbnailVersion
 m_nFileCRC
 m_nFingerprint
 m_nFingerprintDefault

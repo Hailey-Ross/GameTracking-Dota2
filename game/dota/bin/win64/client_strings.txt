@@ -37724,7 +37724,6 @@ $hRh
 2C.CMsgClientToGCRequestPlayerRecentAccomplishmentsResponse.EResponse
 2C.CMsgClientToGCSubmitPrivateCoachingSessionRatingResponse.EResponse"
 2C.CMsgServerToGCRequestPlayerRecentAccomplishmentsResponse.EResponse
-2D panorama position offset of model preview (if this Node has one).
 2D.CMsgClientToGCGetAvailablePrivateCoachingSessionsResponse.EResponse
 2D.CMsgClientToGCRequestAccountGuildPersonaInfoBatchResponse.EResponse
 2E.CMsgClientToGCOverworldClaimFortunePermanentRewardResponse.EResponse
@@ -39227,19 +39226,6 @@ AES_XTS
 AES_XTS_CIPHER
 AE_CHOREO_LOOP
 AE_CL_SPEECH - Bad criteria '%s' (for concept %s) expected 'name=value'\n
-AE_COUNT
-AE_SCRIPT_FIRE_EVENT_01
-AE_SCRIPT_FIRE_EVENT_02
-AE_SCRIPT_FIRE_EVENT_03
-AE_SCRIPT_FIRE_EVENT_04
-AE_SCRIPT_FIRE_EVENT_05
-AE_SCRIPT_FIRE_EVENT_06
-AE_SCRIPT_FIRE_EVENT_07
-AE_SCRIPT_FIRE_EVENT_08
-AE_SCRIPT_FIRE_EVENT_09
-AE_SCRIPT_FIRE_EVENT_10
-AE_VEHICLE_ENTER_FINISHED
-AE_VEHICLE_EXIT_FINISHED
 AFTER_SPELLCAST
 AG2 - EvaluateAnimList - Job Execute Func
 AG2_OnAnimGraphDefinitionOrModeChanged
@@ -39254,11 +39240,6 @@ AHCHeroGrid
 AHCRewardTrophy
 AIRBOAT
 AI\tHpH8x
-AI_FacingServices_DebugSnapshotData_t
-AI_GroundRootMotionMotor_DebugSnapshotData_t
-AI_GroundRootMotionMotor_DebugSnapshotData_t::Event_t
-AI_MotorServices_DebugSnapshotData_t
-AI_MotorServices_DebugSnapshotData_t::MotorPathWaypoint_t
 AJsN
 ALG_MODULE_INIT
 ALL:!EXPORT:!LOW:!aNULL:!eNULL:!SSLv2
@@ -39768,7 +39749,6 @@ ActivateGlyph
 ActivateRadar
 Activated
 ActivatedBattlePass
-Active
 Active Particles : %d\n
 Active projected textures: %d\n
 ActiveArea
@@ -40106,13 +40086,11 @@ AnimClip Public Name
 AnimClips:
 AnimEliminatedTeam
 AnimEventOutflows{ model_key='m_strEditorModel' sequence_key='m_SequenceName'  events=[ [ 'AE_PULSE_GRAPH', 'name' ] ] }
-AnimGraph
 AnimGraph Client Tick
 AnimGraph Server Tick
 AnimGraph2: %s
 AnimGraph2Definition
 AnimGraph2Params
-AnimGraph2SerializedPoseRecipeSlot_t
 AnimGraph2State
 AnimGraphControllerPtr
 AnimGraphParameters
@@ -40249,7 +40227,6 @@ ApplyBreakCommandListToPieces
 ApplyButton
 ApplyLevelsFailedScreen
 ApplyLevelsScreen
-ApplyPhysicsForce
 ApplyStickyRadius
 ApplyStyles
 Applying overrides for %s 0x%p\n
@@ -40427,7 +40404,6 @@ AsyncSetWaterOverride
 AsyncSuccessContainer
 AsyncSuccessState
 AsyncSwitchAnnouncerItem
-Asynchronous - This node executes independently using a new Cursor. Formerly 'Fire and Forget'. Equivalent to scheduling using an additional 'Fire Child Cursors' node.
 Asynchronously spawn an entity group from a list of spawn tables. A callback will be triggered when the spawning is complete
 Asynchronously spawns a single entity from a table
 AtLeastOnePlayerHasAghsOrShard
@@ -41038,8 +41014,6 @@ Base Layer: NIGHT Flipped\n
 Base Layer: NIGHT\n
 Base Layer: RADIANT WIN Flipped\n
 Base Layer: RADIANT WIN\n
-Base NPC
-Base Structured Data
 Base animating overlay.
 Base component class %s needs to have the same contained / referenced rules as its derived classes!\n
 Base entity with model
@@ -41265,11 +41239,9 @@ Body Component Scriptdesc
 BodyContainer
 BodyGameSystem
 BodyGroup: Group = %s, Choice = %s
-BodySectionMutex_t
 BoldText
 BombCountLabel
 BombSizeLabel
-Bone Transforms
 Bone index %d for hitbox %d is out of bounds (%u bones)
 Bone merge bones from parent were invalid: parent model '%s': our model '%s'
 Bonus
@@ -41993,7 +41965,6 @@ CAST5-CFB
 CAST5-ECB
 CAST5-OFB
 CAmbientCreatures_API
-CAnimGraph2InstancePtr
 CAnimGraph2ParamAutoResetOptionalRef
 CAnimGraph2ParamAutoResetRef
 CAnimGraph2ParamOptionalRef
@@ -42003,7 +41974,6 @@ CAnimGraph2ParamRefBase<class CNmTarget>::Bind
 CAnimGraphControllerManager::CreateAndBindController
 CAnimGraphControllerManager::CreateControllerToGraphBindings
 CAnimGraphControllerManager::PreGraphUpdate
-CAnimGraphControllerPtr
 CAnimGraphGameSystem::PreUpdateAnimGraphAnimations
 CAnimGraphGameSystem::ProcessPostNetworkingAnimationDecodes(), C:\buildworker\source2_dota_rel_2019_win64\build\src\game\shared\animgraph_gamesystem.cpp:2177
 CAnimGraphParamAutoResetRef
@@ -42057,17 +42027,18 @@ CBaseEntity_SharedAPI::CallScriptFunction
 CBaseEntity_SharedAPI::RunScriptCode
 CBaseEntity_SharedAPI::RunScriptFile
 CBaseEntity_SharedAPI::SetScale
-CBaseEventDefinition
 CBaseLesson::IsTimedOut
 CBaseModelEntity::BaseFlex_FlexControllerLocalToGlobalInternal failed!\n
 CBaseModelEntity::EnableMeshGroup_LegacyDoNotUse failed: no model!\n
 CBaseModelEntity::SetBodygroup(%d,%d) failed: CBaseModelEntity has no model!\n
 CBaseModelEntity::SetBodygroup(%d,%d) failed: iGroup outside the range 0 - %d! (model %s)\n
+CBaseModelEntityAPI
 CBaseModelEntityAPI::Alpha
 CBaseModelEntityAPI::Color
 CBaseModelEntityAPI::Skin
 CBaseModelEntityAPI::fademaxdist
 CBaseModelEntityAPI::fademindist
+CBasePlayerControllerAPI
 CBasePlayerControllerAPI::GetPlayerSlot
 CBasePlayerControllerAPI::IsFakeClient
 CBasePropDoor
@@ -42078,6 +42049,7 @@ CBasePulseGraphInstance::Shutdown( %s; %p ) %s\n
 CBasePulseGraphInstance::StartGraphReload( %p ) %s\n
 CBasePulseGraphInstance::~CBasePulseGraphInstance( %p )\n
 CBaseTempEntity::StaticInitTempEnts()
+CBaseTriggerAPI
 CBaseTriggerAPI::FindEntitiesInTrigger
 CBaseTriggerAPI::IsTouching
 CBaseTriggerAPI::IsTouchingAny
@@ -42135,7 +42107,6 @@ CChoreoEvent_SPEAK
 CChoreoEvent_STOPPOINT
 CChoreoObjectBase
 CChoreoScene
-CChoreo_GraphController
 CClientModeGameSystem
 CClientMsg_ClientUIEvent
 CClientMsg_ClientUIEvent_t
@@ -42530,12 +42501,10 @@ CDOTALobby
 CDOTALobbyBrowserController
 CDOTALobbyInvite
 CDOTALobbyMatchQualityData
-CDOTALockpickingGameDefinition
 CDOTALockpickingSchema Reloaded.\n
 CDOTALockpickingSchema failed to initialize\n
 CDOTALockpickingSchema: Couldn't load '%s'
 CDOTALockpickingSchema: Game doesn't have any stages. m_vecStages should not be empty
-CDOTALockpickingStageDefinition
 CDOTALuaModifierEntry
 CDOTAMatch3GameSystem
 CDOTAMatchHistoryStore::RequestMatchDetails
@@ -42549,11 +42518,7 @@ CDOTAMinesweeperSchema: Couldn't load '%s'
 CDOTAMinesweeperSchema: Game doesn't have any stages. m_vecStages should not be empty
 CDOTAModifierBuffTableEntry
 CDOTAMonsterHunterGameSystem
-CDOTAMotionComicDefinition
-CDOTAMotionComicFrame
 CDOTAMotionComicGameSystem
-CDOTAMotionComicImageFrame
-CDOTAMotionComicVideoFrame
 CDOTAMsg_CoachHUDPing
 CDOTAMsg_DismissAllStatPopups
 CDOTAMsg_ItemAlert
@@ -42567,10 +42532,6 @@ CDOTANewSettingsSchema: %s\n
 CDOTANewsController aer::LoadNewsData failed\n
 CDOTANotificationsController::MarkAllGCNotificationsViewed
 CDOTAOverworldController::MoveToNode
-CDOTAOverworldFortuneForcedReveal
-CDOTAOverworldFortuneTellerFixedReward
-CDOTAOverworldFortuneTellerReward
-CDOTAOverworldFortuneTellerStoryNode
 CDOTAOverworldGameSystem
 CDOTAOverworldSchema: %s\n
 CDOTAOverworldSchema: Couldn't load overworld '%s'
@@ -42588,6 +42549,7 @@ CDOTAPlusController::ClaimWeeklyChallengeReward
 CDOTAPlusController::CompleteWelcomeQuest
 CDOTAPortraitWorldSystem
 CDOTAPropArenaOfBloodWarrior_API
+CDOTAPulsePanoramaFuncs
 CDOTAPulsePanoramaFuncs::SetCurrentDashboardPageFullscreen
 CDOTAPurchaseController::BYldFinalizePurchase
 CDOTAPurchaseController::BYldPurchaseChargeCostItems
@@ -42618,12 +42580,10 @@ CDOTASeasonController::ShowPurchaseEventLevels
 CDOTASeasonController::ShowPurchaseEventPointsUsingPoints
 CDOTAShopController::PurchaseItem trying to purchase an unknown item
 CDOTAShowcaseController::ConfirmAndSubmitReport
-CDOTASlarkJailbreakGameDefinition
 CDOTASlarkJailbreakSchema Reloaded.\n
 CDOTASlarkJailbreakSchema failed to initialize\n
 CDOTASlarkJailbreakSchema: Couldn't load '%s'
 CDOTASlarkJailbreakSchema: Game doesn't have any stages. m_vecStages should not be empty
-CDOTASlarkJailbreakStageDefinition
 CDOTASpectatorGraphManager*
 CDOTASpectatorLobbyController - watch replay
 CDOTASpectatorLobbyController::RequestSpectatorLobbies
@@ -42973,9 +42933,7 @@ CDOTAWeekendTourneyController::RequestPlayerHistory
 CDOTA_AbilityAnimations
 CDOTA_AbilityDraftAbilityState[MAX_ABILITY_DRAFT_ABILITIES]
 CDOTA_AbilityDraftHeroState[DOTA_ABILITY_DRAFT_HEROES_PER_GAME]
-CDOTA_Ability_DarkCarnival_Balloon
-CDOTA_Ability_DarkCarnival_Firework
-CDOTA_Ability_DarkCarnival_Pie
+CDOTA_Ability_AntiMage_BlinkParticleAPI
 CDOTA_Ability_Phoenix_SunRayToggleMoveEmpty
 CDOTA_Ability_Wisp_Empty1
 CDOTA_Ability_Wisp_Empty2
@@ -42988,7 +42946,6 @@ CDOTA_AttackRecordManager
 CDOTA_AttackRecordManager::RemoveRecord Trying to get attack record with index %u, but it was already destroyed!\n
 CDOTA_BaseNPC_AghsFort_Watch_Tower_API
 CDOTA_BaseNPC_CustomEffigy_API
-CDOTA_BaseNPC_DarkCarnival_Balloon
 CDOTA_BaseNPC_Effigy_AghsFort_API
 CDOTA_BinaryObjectSystem
 CDOTA_Charms
@@ -43201,7 +43158,6 @@ CDOTA_DB_PostGameProgress::EventConfirmAbusiveCoachRating
 CDOTA_DB_ProfileTeammateStats_ManageTeammates
 CDOTA_DB_Tooltip_Crownfall_ActSelector::EventOverworldSelected
 CDOTA_DOTADBPageSeasonalRewards
-CDOTA_DarkCarnival_MurderOfCrows
 CDOTA_DarkCarnival_MurderOfCrows::UpdateStateScaredFromRoost: Roost is null.
 CDOTA_DarkCarnival_MurderOfCrows_API
 CDOTA_DisplacementVisibility_API
@@ -43334,19 +43290,12 @@ CDOTA_Hud_WRArcana::Update
 CDOTA_Hud_Wagering::OnWagerToken
 CDOTA_Hud_XP::Update
 CDOTA_LoadingScreen_BattleCupTeamPlayer::FetchTeamData
-CDOTA_Lockpicking_EffectsEntity
 CDOTA_MinimapObjectManager
 CDOTA_MinimapObjectManager::LoadMinimapTextureKV
 CDOTA_MinimapRenderer::RenderCreepCamps
 CDOTA_MinimapRenderer::RenderDireRoshanCamp
 CDOTA_MinimapRenderer::RenderRadiantRoshanCamp
-CDOTA_Modifier_BotBoost
 CDOTA_Modifier_Broodmother_SpinWeb_Thinker::OnIntervalThink
-CDOTA_Modifier_CommandRestricted
-CDOTA_Modifier_DarkCarnival_Balloon_Thinker
-CDOTA_Modifier_DarkCarnival_Firework
-CDOTA_Modifier_DarkCarnival_Pied
-CDOTA_Modifier_Unselectable
 CDOTA_NPC_Observer_Ward_API
 CDOTA_NPC_Observer_Ward_TrueSight_API
 CDOTA_PanoramaScript_EventData
@@ -43436,6 +43385,7 @@ CDOTA_UI_Popup_PurchaseTeamFanContent::EventPurchaseLevel
 CDOTA_UI_Popup_TreasureOddsDetails
 CDOTA_UI_Prediction::EventPredictionPicked
 CDOTA_UI_PurchaseButton::EventActivated
+CDOTA_UI_ScenePanelAPI
 CDOTA_UI_ScenePanelAPI::SetCameraEntity
 CDOTA_UI_ScenePanelAPI::SetRootEntity
 CDOTA_UI_ScenePanelAPI::SetRotationLimits
@@ -43639,7 +43589,6 @@ CEnvLightProbeVolumeAPI
 CEnvSkyAPI
 CEnvWind
 CEnvWindSharedAPI
-CExternalAnimGraphList
 CExtraMsgBlock
 CFALayout
 CFAPlaneColor
@@ -43648,6 +43597,7 @@ CFatalErrorAllocator::FreeConstAligned
 CFeModelCombiner: combined finite element model is too large, with %u nodes
 CFightingGameSchema failed to initialize\n
 CFightingGameSchema: Couldn't load dota fighting game hero '%s'
+CFilterMultipleAPI
 CFilterMultipleAPI::AddFilter
 CFilterMultipleAPI::RemoveFilter
 CFlatGroupDatabase::LookupFlatGroup
@@ -43897,7 +43847,6 @@ CIconLesson::IsVisible
 CIconLesson::ShouldDisplay
 CImagePanel::SetImage
 CInButtonStatePB
-CIngameEvent_DarkCarnival
 CIngameEvent_SeasonalRewardLine_API
 CInlineJob_CMsgDOTAPeriodicResourceUpdated
 CInlineJob_CMsgDOTAPostGameItemAwardNotification
@@ -44009,6 +43958,7 @@ CLobbyGuildChallenge
 CLobbyGuildDetails
 CLobbyTeamDetails
 CLobbyTimedRewardDetails
+CLogicRelayAPI
 CLogicRelayAPI::CancelPending
 CLogicRelayAPI::Disable
 CLogicRelayAPI::Enable
@@ -44883,7 +44833,6 @@ CMsgWeekendTourneyLeave"
 CMsgWeekendTourneyOpts
 CMsgWeekendTourneySchedule
 CMvpData
-CNMEventPulseState_t
 CNetworkFieldScratchData.m_MemoryStacks[ %d ]
 CNetworkFieldScratchData.m_MemoryStacks[ 0 ]
 CNetworkFieldScratchData::Alloc created buffer %s of size %s\n
@@ -44891,8 +44840,6 @@ CNetworkFieldScratchData::Alloc, failed to add new CMemoryStack at slot %d of si
 CNetworkFieldScratchData::Init failed on buffer of %u bytes.
 CNetworkGameClient::OnSource1Source1LegacyGameEvent: UnserializeKeyValue failed.\n
 CNetworkOriginCellCoordQuantizedVector m_cell%c cell %d is outside of cell bounds (0->%d) @(%f %f %f)\n
-CNetworkOriginCellCoordQuantizedVectorWS
-CNetworkOriginQuantizedVectorWS
 CNetworkSerializerBindingBuildFilter::GetFieldPriority
 CNetworkSerializerFieldInfo::InitCodeGenTypes:  unable to find class %s for field %s %s::%s\n
 CNetworkTransmitComponent::FireEvent( m_bPendingStateChange == true )
@@ -44956,16 +44903,8 @@ CNetworkUtlVectorBase< uint8, NetworkVar_m_vecPreGameTransferPlayerIDs , -1, int
 CNetworkedQuantizedFloat
 CNetworkedQuantizedFloat:  called before encoder initialized, use DECLARE_NETWORK_QUANTIZED_FLOAT_NETWORKVAR or DECLARE_NETWORK_QUANTIZED_FLOAT to make sure the encoder is initialized;\n
 CNewParticleEffect::DetectChanges
-CNmBodyGroupNode::CDefinition
 CNmChainLookatNode::CDefinition::InstantiateNode
 CNmChainLookatTask::CNmChainLookatTask
-CNmEventConsumerBodyGroup
-CNmEventConsumerPulse
-CNmFloatChannelData
-CNmFloatChannelData::ChannelSettings_t
-CNmFloatChannelSet_t
-CNmFootIKNode::CDefinition
-CNmFootIKTask
 CNmGraphInstance::EvaluateGraph
 CNmGraphInstance::ExecutePostPhysicsPoseTasks
 CNmGraphInstance::ExecutePrePhysicsPoseTasks
@@ -45028,6 +44967,7 @@ CPanel2D::SetDialogVariableInt
 CPanel2D::SetDialogVariableLocToken - char *
 CPanel2D::SetDialogVariableUint
 CPanel2D::~CPanel2D
+CPanel2DAPI
 CPanel2DAPI::AddClass
 CPanel2DAPI::BLoadLayoutSnippet
 CPanel2DAPI::IsVisible
@@ -45070,6 +45010,7 @@ CPathNodeParentedMoveThink
 CPathQueryComponent::Storage_t
 CPathQueryComponentReferenced
 CPathQueryComponentReferencedPtr
+CPathSimpleAPI
 CPathSimpleAPI::GetClosestDirToEntity
 CPathSimpleAPI::GetClosestPosToEntity
 CPathSimpleAPI::GetClosestTValueToEntity
@@ -45111,6 +45052,7 @@ CPlayer_WaterServices *
 CPlayer_WeaponServices *
 CPointClientUIHUD
 CPointOrientReorientThink
+CPointTemplateAPI
 CPointTemplateAPI::DeleteCreatedSpawnGroups
 CPointTemplateAPI::ForceSpawn
 CPointTemplateAPI::ForceSpawnAtLocation
@@ -45168,6 +45110,7 @@ CPulseAnimFuncs::GetLayerCycle
 CPulseAnimFuncs::IsAnimgraph2EventActive
 CPulseAnimFuncs::IsExternalChoreoGraphActive
 CPulseAnimFuncs::PlaySequence
+CPulseArraylib
 CPulseArraylib::ArrayAppend
 CPulseArraylib::ArrayConcatenate
 CPulseArraylib::ArrayCount
@@ -45179,7 +45122,6 @@ CPulseArraylib::ArrayRemoveIndex
 CPulseArraylib::ArrayRemoveInvalidElements
 CPulseArraylib::ArraySetCount
 CPulseArraylib::ArrayShuffle
-CPulseBreakpointLocation
 CPulseCell_BooleanSwitchState::Activate
 CPulseCell_CursorQueue::Wait
 CPulseCell_FireCursors::Start
@@ -45207,6 +45149,7 @@ CPulseCell_Value_Gradient::Eval
 CPulseCell_WaitForCursorsWithTag::Wait
 CPulseCell_WaitForObservable::Start
 CPulseCell_WaitForPanelClass::Wait
+CPulseCursorFuncs
 CPulseCursorFuncs::AnyOtherCursorsHaveTag
 CPulseCursorFuncs::CursorHasTag
 CPulseCursorFuncs::KillAllOtherCursors
@@ -45224,6 +45167,7 @@ CPulseGraphInstance_PanoramaPanel::GetOwningPanel
 CPulseGraphInstance_PanoramaPanel::GetPrimaryScenePanel
 CPulseGraphInstance_PanoramaPanel::OnInit
 CPulseGraphInstance_PanoramaPanel::SetPrimaryScenePanel
+CPulseMathlib
 CPulseMathlib::AbsFloat
 CPulseMathlib::AbsInt
 CPulseMathlib::ArcCos
@@ -45295,6 +45239,7 @@ CPulseMathlib::Tan
 CPulseMathlib::VectorToWorldVector
 CPulseMathlib::WorldVectorToVector
 CPulseObservableExpression
+CPulsePanoramaFuncs
 CPulsePanoramaFuncs::IsUISoundEventPlaying
 CPulsePanoramaFuncs::PlayUISoundEvent
 CPulsePanoramaFuncs::StopUISoundEvent
@@ -45302,6 +45247,7 @@ CPulseStringlib
 CPulseStringlib::FormatDurationStringFromSeconds
 CPulseStringlib::StringLength
 CPulseStringlib::StringsAreEqualCaseSensitive
+CPulseTestScriptLib
 CPulseTestScriptLib::AssertTrue
 CPulseTestScriptLib::IndicateTestFailure
 CPulseTestScriptLib::IsInTestMode
@@ -45309,7 +45255,6 @@ CPulseTestScriptLib::RegisterTestCheckpoint
 CPulseTestScriptLib::TestModeAssertTrue
 CQuantizedVectorBase<class CNetworkOriginCellCoordQuantizedVector,class Vec3D<float> >::SetNetworkStateChangedRouter
 CR&C
-CREATE_CHILD_CURSOR_OUTFLOW
 CREATOR_INSUFFICIENT_LEVEL
 CREATOR_TEAM_CREATION_COOLDOWN
 CREATOR_TEAM_LIMIT_REACHED
@@ -45401,6 +45346,7 @@ CScriptedIconLesson::ProcessElement
 CScriptedIconLesson::ProcessElements
 CScriptedIconLesson::Update
 CSets the logged in user's per-friend preferences for the given user
+CShmupPanoramaFuncs
 CShmupPanoramaFuncs::ShmupReturnPlayerControlToUser
 CShmupPanoramaFuncs::ShmupTakeControlOfPlayer
 CShmupSchema Reloaded.\n
@@ -45421,16 +45367,12 @@ CSkeletonInstance::SetModel to nonresident asset %s.
 CSmartPtr
 CSosFieldDataVsnd constructed with empty vsnd\n
 CSoundEmitterSystem:  Unknown sound level %s\n
-CSoundEventBoxEntity
-CSoundEventBoxHelper
-CSoundEventMultiPointEntity
 CSoundEventName
 CSoundOpGameSystem::SetLibraryStackField: FAIL\n
 CSoundOpGameSystem::SetLibraryStackField: Faied library stack message to: %s, %s, %s\n
 CSoundOpGameSystem::SetSoundEventParam: Failed cached soundevent param message\n
 CSoundOpGameSystem::SetSoundEventParam: Failed soundevent param message to: %s\n
 CSoundOpGameSystem::StopSoundEvent: Attempting to stop non-existent soundevent: %s\n
-CSoundOpvarSetBoxEntity
 CSoundPatch:  invalid entity on sound %s\n
 CSoundPatch::Init called with NULL pEnt, playing from world instead\n
 CSoundPatch::ResumeSound: Lost EHAndle on restore - destroy the sound patch in your entity's StopLoopingSounds! (%s)\n
@@ -45487,6 +45429,7 @@ CTEGlowSprite_client
 CTELargeFunnel_client
 CTSQueue<class GCSDK::CWorkItem *,0>::Push
 CTSQueue<struct ParticleSoundQueueEntry_t *,0>::Push
+CTakeDamageResultAPI
 CTakeDamageResultAPI::GetDamageDealt
 CTakeDamageResultAPI::GetDamageDirection
 CTakeDamageResultAPI::GetDeathScorer
@@ -46068,6 +46011,7 @@ C_BaseAnimatingOverlayController::Anim_Activate
 C_BaseEntity::InterpolateEntities %.2fms\n
 C_BaseEntity::PerformLatchWork(), C:\buildworker\source2_dota_rel_2019_win64\build\src\game\client\c_baseentity.cpp:2494
 C_BaseEntity::SetInterpolationPhase 
+C_BaseEntityAPI
 C_BaseEntityAPI::GetAbsOrigin
 C_BaseEntityAPI::GetOrigin
 C_BaseEntityAPI::GetTeamNumber
@@ -46101,6 +46045,7 @@ C_DOTA_BaseNPC_LotusPool_API
 C_DOTA_BaseNPC_Watch_Tower_API
 C_DOTA_BaseNPC_XP_Fountain_API
 C_DOTA_LinearProjectileInfo
+C_DOTA_LinearProjectileInfoParticleAPI
 C_DOTA_LinearProjectileInfoParticleAPI::InitialPosition
 C_DOTA_LinearProjectileInfoParticleAPI::OnParticleCollectionCreated
 C_DOTA_LinearProjectileInfoParticleAPI::Position
@@ -46109,6 +46054,7 @@ C_DOTA_LinearProjectileInfoParticleAPI::Velocity
 C_DOTA_MapOverride
 C_DOTA_ProjectileManager
 C_DOTA_TrackingProjectileInfo
+C_DOTA_TrackingProjectileInfoParticleAPI
 C_DOTA_TrackingProjectileInfoParticleAPI::Location
 C_DOTA_TrackingProjectileInfoParticleAPI::OnParticleCollectionCreated
 C_DOTA_TrackingProjectileInfoParticleAPI::Source
@@ -46119,7 +46065,6 @@ C_DotaPeer2PeerInit
 C_DynamicProp::HandleSpawnBackCompat
 C_DynamicPropAnimThink
 C_EconItemView::OnAttributeValuesChanged
-C_EnvCombinedLightProbeVolumeAlias_func_combined_light_probe_volume
 C_EnvWindControllerWindThink
 C_FogControllerSetLerpValues
 C_GameInstructor::FireGameEvent
@@ -46152,10 +46097,7 @@ C_SimpleMIDIOutputSystem, invalid MIDI device / port specified. ( %d devices exi
 C_SimpleMIDIOutputSystem: Error ( %d ) connecting to device on port %d\n
 C_SimpleMIDIOutputSystem: Shutting down previous connection on device %d\n
 C_SimpleMIDIOutputSystem: Success connecting to device on port %d\n
-C_SoundEventBoxEntity
-C_SoundEventBoxHelper
 C_SoundEventEntitySoundFinishedThink
-C_SoundEventMultiPointEntity
 C_SoundscapeSystem::Init:  Manifest '%s' with bogus file type '%s', expecting 'file'\n
 C_SpriteAnimateThink
 C_SpriteAnimateUntilDead
@@ -46350,6 +46292,7 @@ CancelIntroAnimation
 CancelInviteButton
 CancelPending
 CancelScheduledLookAtTrigger
+Canceled
 Cancelled
 Cancelled waiting for intro camera transition. %f\n
 Candy
@@ -46910,7 +46853,6 @@ ChooseHeroButton%d
 Choosen
 Choreo Component created without a valid CBaseModelEntity.\n
 Choreo Control State
-ChoreoStrafeMode_t
 Chosen
 ChosenFacet
 ChosenHero
@@ -47931,7 +47873,6 @@ CuesContainer
 CullingBlade
 CurioImage
 Currency
-Current
 Current Music Value: %f\n
 Current shot: %d/%d\n%.1f\n
 Current sound patches: %d\n
@@ -48190,7 +48131,6 @@ DEF_TIME_CB
 DEK-Info: 
 DELAYED_SHOW
 DELETE
-DEPRECATED_FIELD_AI_SCHEDULE_BITS
 DER:
 DES part of OpenSSL 1.0.2j  26 Sep 2016
 DES(40)
@@ -48292,7 +48232,6 @@ DIRE_JUNGLE
 DIR_ADD
 DIR_CTRL
 DIR_LOAD
-DISABLE
 DISABLED
 DISABLE_BUYBACK_PROTECTION
 DISALLOWING
@@ -51098,7 +51037,6 @@ DOTAOverworldNodeDebugCompleteNode
 DOTAOverworldNodeDebugShowDialogue
 DOTAOverworldNodeDebugShowEncounter
 DOTAOverworldOpenReceivedGiftTokens
-DOTAOverworldReleaseScheduledUnlock_t
 DOTAOverworldReloaded
 DOTAOverworldToken
 DOTAOverworldTokenHovered
@@ -53452,7 +53390,6 @@ DOTAZooSetInfoMouseOver
 DOTAZooSetsShowFilters
 DOTAZooSetsUpdateFilters
 DOTAZooSetsUpdateSort
-DOTA_ABILITY_BEHAVIOR_HAS_DETAILS_UI
 DOTA_ARMOR_CONSTANT
 DOTA_Abilities
 DOTA_Ability_Variable_%s
@@ -53616,8 +53553,6 @@ DOTA_Match_Quality_Label_%d
 DOTA_Match_SkillRange_Label_%d
 DOTA_Match_SkillRange_Label_5
 DOTA_MinimapRenderer
-DOTA_ModifyGold_SummonKill
-DOTA_ModifyXP_SummonKill
 DOTA_MonsterHunter_Codex_Entry_Tooltip_Info_Complete
 DOTA_MonsterHunter_Codex_Entry_Tooltip_Info_Incomplete
 DOTA_MonsterHunter_FailedHunt
@@ -53919,7 +53854,6 @@ DarkCarnivalOverworldMapUpdateRoomConnectionHover
 DarkCarnivalOverworldMapZoomToNode
 DarkCarnivalOverworldMapZoomTrainCar
 DarkCarnivalOverworldOpenReceivedGiftTokens
-DarkCarnivalRewardVisual_t
 DarkCarnivalReward_itemdef_%u
 DarkCarnivalRewardsPopupSelectTab
 DarkCarnivalRingmasterVOSoundsP1
@@ -54140,7 +54074,6 @@ DedicatedShowcaseBackground
 DedicationTextEntry
 Default Game Description
 Default In
-Default NPC
 Default Out
 Default.Null
 DefaultAbilityQuickcastCheckBox
@@ -54248,7 +54181,6 @@ Desaturate
 Desc
 DescLine
 Descending
-Describe PredictionMap_t for entindex
 Description%d
 DescriptionArea
 DescriptionColumn
@@ -54280,6 +54212,7 @@ DestroyParticleNamed
 DestroyPhysicsSim
 Destroyed
 Destroying
+DestructiblePartDamageRequestAPI
 DestructiblePartDamageRequestAPI::GetDamageLevel
 DestructiblePartDamageRequestAPI::GetDesiredHealth
 DestructiblePartDamageRequestAPI::GetHitGroup
@@ -54372,7 +54305,6 @@ Didnt supply startpos, endpos, min, and max to Script TraceHull call, failing, s
 Died
 DiedBuyback
 Different CRL scope
-Different camera/zoom levels, for use in 3D scene
 DifferentActor
 DifficultyLevel
 DifficultyLevel%d
@@ -54520,7 +54452,6 @@ Disable Auto Fade And Auto Kill
 Disable Default Activity Modifiers
 Disable Override - %.2f
 Disable auto blink for BaseActor
-Disable external application hotkeys.
 Disable this entity.
 DisableAnimEventSounds
 DisableCameraEvents
@@ -54573,7 +54504,6 @@ DispelValue_Yes
 DispelValue_YesStrong
 Display Time Override:
 Display a custom contextual tip (wizard tip) with specific loc string and duration
-Display the convars on the screen in big text. Use semicolons to separate multiple convars
 DisplayAdditionalHeroes
 DisplayCustomContextualTip
 DisplayCustomContextualTip requires at a minimum that a TipText value is provided, all other fields are optional.
@@ -55265,10 +55195,8 @@ EDH-RSA-DES-CBC3-SHA
 EDIPARTYNAME
 EDynamicImageFormat
 EECDH
-EEventPointAuditAction
 EFeedElementType
 EFlags=0x%X  Effects=0x%X
-EGCEventClientMessages
 EG{M
 EHANDLE
 EHANDLE[2]
@@ -55280,12 +55208,10 @@ EItemReceivedPopup
 ELF0
 ELeagueEventPhase
 ELeagueEventType
-ELockpickingStageMode
 EMadstoneAlertType
 EMode
 EModerationState
 EN2 s/
-ENABLE
 ENABLE_BUYBACK_PROTECTION
 ENCRYPTED
 ENCRYPTED PRIVATE KEY
@@ -55418,7 +55344,6 @@ ET`K\
 ETh7
 ETour
 EU I
-EVENT_ID_DARK_CARNIVAL
 EVENT_NOT_OWNED
 EVENT_POINTS_EARNED
 EVENT_PREMIUM_POINTS_EARNED
@@ -55696,7 +55621,6 @@ EmptySquare
 EmptyStatusLabel
 EmptyStreak
 EmptyText
-Enable
 Enable : %d SplitScreen %X
 Enable Refire
 Enable or disable automatically starting the game once all players are assigned to a team
@@ -55862,7 +55786,6 @@ EntityBounds
 EntityDebugGameSystem
 EntityDebugInfo
 EntityDebugSaveData
-EntityDissolveType_t
 EntityFramework
 EntityIO Parameter Type Mismatch! See log lines above for details.
 EntityKey
@@ -55991,7 +55914,6 @@ Event action alias '%s' is missing an action name.
 Event action alias '%s' references action '%s' but that action doesn't exist.
 Event action alias missing a name.
 Event action name '%s' is used in two places
-Event action that grants the reward when this node is claimed.
 Event definition has EVENT_ID_NONE
 Event ends (%s), but expires before that (%s.)
 Event has no achievements\n
@@ -56300,8 +56222,6 @@ FFADE_PURGE
 FFADE_STAYOUT
 FIELD_EMBEDDED in flat list!!!
 FIELD_FLOAT
-FIELD_NETWORK_ORIGIN_CELL_QUANTIZED_VECTORWS
-FIELD_NETWORK_QUANTIZED_VECTORWS
 FIGHT %d,  Start: %d:%02d (tick %d), End: %d:%02d\n
 FILE pointer
 FILE_CTRL
@@ -56311,6 +56231,7 @@ FIND_ANY_ORDER
 FIND_CLOSEST
 FIND_FARTHEST
 FIND_UNITS_EVERYWHERE
+FINISHED
 FIPS
 FIPS routines
 FIPS_CIPHERINIT
@@ -56399,7 +56320,6 @@ FacetState
 Facets
 FacetsContainer
 Facial Animation
-Facing Services
 Fact
 FactHeroPicker
 FactPicker
@@ -56802,7 +56722,6 @@ FantasyRole%d
 FantasyRoster
 FantasyStarterPacksClaimable
 FantasyTILabel
-FantasyTeamData_t
 FantasyTile
 FantasyTitle_t"
 FantasyUnlockLabel
@@ -58290,12 +58209,7 @@ GetModifierAura
 GetModifierBaseManaRegen
 GetModifierBountyCreepMultiplier
 GetModifierBountyOtherMultiplier
-GetModifierConstantCasttime
-GetModifierPropertyCustom1
-GetModifierPropertyCustom2
-GetModifierPropertyCustom3
 GetModifierPropertyPseudoRandomBonus
-GetModifierReplaceAttack
 GetModifierStackCount
 GetMoveSpeedModifier
 GetNativeClassForScriptClass
@@ -58534,7 +58448,6 @@ Glows: Render Objects Solid Color
 Glows: Stencil To Screen
 GlyphCooldown
 GlyphsKeyColorBox
-Go to next ability cast
 GoJJw
 GoLiveButton
 GoToDifficultyButtonSelected
@@ -58705,7 +58618,6 @@ GridUpgradesTab
 GriefingButton
 Grnd Spd: %8.3f (seq %8.3f) %s
 Ground Courier Only
-Ground Root Motion Motor
 GroundfogFXColor
 Group%d
 Group1
@@ -58981,7 +58893,6 @@ HandshakeTagType_t::eTask
 Hank Bot
 Harbinger 
 Hard Stop Speak Event
-Hard limit on per-token quantities. It's impossible to have more than this number of tokens.
 HardDifficulty
 HardMode
 HardModeDisabled
@@ -60133,7 +60044,6 @@ HiddenResults
 HiddenSelected
 HiddenWinner
 Hide
-Hide all non non-core page UI. Useful when trying to take screenshots or footage.
 Hide the ability tooltip
 Hide the buff tooltip
 Hide the dropped item tooltip
@@ -60349,8 +60259,6 @@ Hovered
 HoveredSet
 HoveringAbility
 HoveringSomething
-How many times a fortune has to be received before the permanent reward can be unlocked
-How many times each fortune can be revealed until all fortunes have been revealed this amount
 However, we did find a player for playerID %d with steamID %s.\n
 Hp)X?
 Hq,r/f
@@ -60473,7 +60381,6 @@ INVALID_ARGUMENT
 INVALID_CHANNEL_TYPE
 IN_ANOTHER_GAME
 IN_MATCH
-INavPathCostAreaFilter
 INdK
 IP Address
 IP Address:%d.%d.%d.%d
@@ -62196,7 +62103,6 @@ KeyValueOverrides
 KeyValues
 KeyValues3
 KeybindListDropdown
-Keys
 KezKatanaMode
 KezSaiMode
 KezWeaponButton
@@ -63124,7 +63030,6 @@ MIRANAARROW
 MISSING DESCRIPTION
 MISSING SOURCE PARAM '%s'. content fix needed!
 MISSINGLEAGUESUBSCRIPTION
-MM:SS with leading zeros
 MMRCalibrated
 MMRCalibrating
 MMRCenter
@@ -63136,7 +63041,6 @@ MMRNoData
 MMRStdDev
 MMRWinIncrement
 MMY!
-MM_SS_LEADING_ZERO
 MModelGameData
 MNetworkVarChainer
 MODELCOMBINER: Combined model %s in %f ms\n
@@ -63146,15 +63050,6 @@ MODELCOMBINER: Received a ModelCombineFinished call with no matching combine req
 MODELCOMBINER: Removing requester from callback for %s\n
 MODELCOMBINER: Requested in cache combined model(%s): 
 MODIFIERS (%d):
-MODIFIER_EVENT_ON_CUSTOM1
-MODIFIER_EVENT_ON_CUSTOM2
-MODIFIER_EVENT_ON_CUSTOM3
-MODIFIER_PROPERTY_CASTTIME_CONSTANT
-MODIFIER_PROPERTY_CUSTOM1
-MODIFIER_PROPERTY_CUSTOM2
-MODIFIER_PROPERTY_CUSTOM3
-MODIFIER_PROPERTY_REPLACE_ATTACK
-MODIFIER_STATE_ATTACK_SELF
 MODIFIER_STATE_HARD_DISARMED
 MODIFIER_STATE_SOFT_DISARMED
 MODIFIER_STATE_VALUE_DISABLED
@@ -63937,7 +63832,6 @@ MotionComicImage2
 MotionComicPanel
 MotionComicVideo1
 MotionComicVideo2
-Motor Services
 Mouse cursor swapped to %d
 MouseDown
 MouseLineCanvas
@@ -64170,8 +64064,6 @@ NO_ICON_TARGET
 NO_INVITE_PRESENT
 NO_LOGO
 NO_OFFSCREEN
-NPC Anim AI Handshakes
-NPC Path Queries
 NPH_RewardList__Active
 NPH_Scenario
 NPH_TierPip__Active
@@ -64204,11 +64096,8 @@ N\v7e_
 N_U9203
 N`UaK
 Name : 
-Name of the Team
 Name of this ability.
 Name%d
-Name/key of the Visual Novel dialogue to play when this node is activated.
-Name/key of the default Visual Novel associated with this map. Note that this can be overriden through DOTAOverworldReleaseScheduledUnlock_t
 NameEdit
 NameError
 NameLabel
@@ -64226,7 +64115,6 @@ NavigateBackButton
 NavigateForwardButton
 NavigationSearchResultHeight
 NavigationSubsectionPanelHeight
-Navigator
 NeXT
 NeXTDecode: Not enough data for scanline %ld
 Near Blurry Distance
@@ -64885,7 +64773,6 @@ NumTeamStickers
 NumTeams_16
 Number
 Number of Loops (-1=forever)
-Number of fortunes that must be requested before this node unlocks.
 NumberEntry
 NumberEntryChanged
 NumberEntryDecrementValue
@@ -64989,8 +64876,6 @@ OTHERNAME
 OUTPUT
 OUT_OF_RANGE
 OVERALL
-OVERLAY_NPC_ANIM_AI_HANDSHAKES_BIT
-OVERLAY_NPC_PATH_QUERIES_BIT
 O\nKk_EDOTA_MatchPlayerTimeCustomStat_MagicDamageReducedWithNewFormula_Absolute
 O\n\fItemPurchase
 O\n\nbattle_cup
@@ -65088,9 +64973,6 @@ OnConnectionStateChanged
 OnControllerChanged
 OnCooldown
 OnCreated
-OnCustom1
-OnCustom2
-OnCustom3
 OnCustomGameRuneSpawnerLastSpawnTimeChanged
 OnDOTAHudUpdate
 OnDOTAPopupFullscreenHTMLClosed
@@ -65411,8 +65293,6 @@ OptionList
 OptionNumber
 OptionSection
 Option_%d
-Optional name of the token trader encounter. Useful if the encounter isn't attached to a node on the overworld.
-Optional release schedule, for if we want certain content to release at specific times.
 Optional. Type 'Any'. An associated value, e.g. the Entity Handle which is responsible for this Cursor. The Tag is defined by the unique combination of Name and Value.
 OptionalObjectivesContainer
 OptionsFlyout
@@ -65556,7 +65436,6 @@ OverworldCompletePath
 OverworldCompletePath finished.
 OverworldContent
 OverworldEncounterID_t"
-OverworldFortuneTellerStoryNodeID_t
 OverworldHeroTooltip
 OverworldInactive
 OverworldInventory
@@ -66098,7 +65977,6 @@ Parameterized Selector: Failed to select a valid option!
 Parameters
 ParametersKV3
 Parent Map: %s\n
-Parent VData
 Parent: 
 ParentItemImage
 ParentItemNotEnoughGold
@@ -66404,7 +66282,6 @@ Photometric tag is missing, assuming data is YCbCr
 Photometric tag value assumed incorrect, assuming data is YCbCr instead of RGB
 PhotometricInterpretation
 Photoshop
-Phrase
 Phrase%d
 PhrasesButton
 PhrasesContainer
@@ -67394,7 +67271,6 @@ ProbablyUnlocalizedText
 Problem in lesson %s: Locator_GetTargetFromHandle returned null for handle %d.\n IsInstanceActive: %s. IsInstructing: %s. IsLearned: %s\n
 Proc-Type: 
 Proc-Type: 4,
-Proceed Immediately
 Process
 Process Selector
 ProcessElement
@@ -67513,7 +67389,6 @@ Pulse: %s
 PulseAPIConvertArgumentsForCall: Binding '%s' Inparam '%s': %s
 PulseAPIFromLegacyBindingAnnotate: %s\n
 PulseClient
-PulseDurationStringFormat_t
 PulseGameSystem
 PulsePanel
 PulseRequirementName
@@ -67737,7 +67612,6 @@ Question_TalentTree
 Questline%d
 QuestsComplete
 QuestsFeaturePips
-Queue
 Queue AgeSaveList\n
 QueueBehavior
 QueueDeadlineEligibleForRefund
@@ -69361,7 +69235,6 @@ SNDLVL_
 SNMPv2
 SNtu
 SOCache
-SOLID_CYLINDER
 SONIC
 SOURCE2 SAVE COMMENT
 SO~c
@@ -71640,7 +71513,6 @@ SoundLevel string appears to be a Volume level %f\n
 SoundOpGameSystem
 SoundPreviewItem
 SoundSet
-SoundeventBoxHelperNetworked_t
 Soundmixer
 SoundsSectionButton
 Soundscape %s:Unknown command %s\n
@@ -72130,11 +72002,6 @@ StateSetup
 StateStartingLater
 StateStartingSoon
 StateTooLate
-State_01
-State_02
-State_03
-State_04
-State_05
 State_Complete
 State_Failure
 State_Filters
@@ -72185,7 +72052,6 @@ StatsSpiderGraph
 StatsTabContents
 StatsTabVisible
 StatsTimeRangeSlider
-Status
 StatusCode
 StatusEffectIndex
 StatusEffectName
@@ -72641,7 +72507,6 @@ Sylla \t\t
 Sync Cycle To Time
 Sync Exit tag to next gesture Entry tag
 SyncToFollowingGesture
-Synchronous - Wait for this node to fully complete before proceeding.
 Synchronously spawn an entity group from a list of spawn tables.
 Synchronously spawns a single entity from a table
 Syntax
@@ -72733,7 +72598,6 @@ TIFFTileRowSize
 TIFFVStripSize
 TIFFVTileSize
 TIMEOUT
-TIME_ATTACK
 TINY_CENTERED_HULL
 TINY_HULL
 TIWinner
@@ -73000,7 +72864,6 @@ Team %d
 Team 1
 Team 2
 Team Controls
-Team ID of the Team
 Team Name Here
 Team Roam
 Team%d
@@ -73358,7 +73221,6 @@ This distance away from the sticky radius, the icon will be using stickyfadeouta
 This is a BigTIFF file.  This format not supported\nby this version of libtiff.
 This is an S/MIME signed message%s%s
 This is the overall duration. If -1 timer will continue forever. During this duration, we will fire a new child cursor at each Interval.
-This token can be used to unlock any node with non-special token costs.
 Thread "%s" (ID %llu) failed to shut down
 Thread32First
 Thread32Next
@@ -74034,7 +73896,6 @@ Tried to add unknown game system %s!\n
 Tried to load a polymorphic pointer with no '%s' key
 Tried to load resource reference '%s' from a value without a resource reference specific type.
 Tried to replace animations from model %s with no anim groups!\n
-Trigger
 Trigger Name
 Trigger the relay, causing its OnTrigger output to fire if it is enabled.
 Trigger( hActivator, hCaller ) : Triggers the logic_relay
@@ -74265,8 +74126,6 @@ UI_month_short_%d
 UI_new_method
 UI_seconds
 UI_set_result
-UM_UsageReport
-UM_UserSentBugBug
 UNAUTHENTICATED
 UNAVAILABLE
 UNCHANGED
@@ -74517,7 +74376,6 @@ Unload a spawn group by name
 UnloadMovie
 UnloadSpawnGroup
 UnloadSpawnGroupByHandle
-Unloads all pages from history/cache.
 Unlock%d
 UnlockChestButton
 UnlockContractSlot
@@ -74876,7 +74734,6 @@ V8ParamToPanoramaType expected object type to convert, but got something else (%
 VAC_NOT_VERIFIED
 VALV
 VALVw
-VDATA
 VDPr
 VData:%s
 VDataChoice( %s )
@@ -74903,7 +74760,6 @@ VMatrix
 VMatrix-world
 VModEnable %d
 VNOTIFY_DISABLE
-VN_DIALOGUE_EFFECT_PORTRAIT_VIGNETTE
 VNotify
 VNotify Abandoned (ActiveProtocolIsNewer)\n
 VNotify Abandoned (No ProcessUtils)\n
@@ -74936,7 +74792,6 @@ ValidHero
 ValidSelection
 ValidTeamIdentity
 ValidUnit
-Validate consistency of delta-encoded user commands.  Requires server to have sv_cq_validate_encoded_svc_usercmds enabled.
 Value 0-1 how far along duration (always 0 if duration is -1)
 Value set w/o name
 ValueClass
@@ -75478,8 +75333,6 @@ Whether value has ALL of the specified flags set (it may have other flags.)
 Whether value has ANY of the specified flags set (it may have other flags.)
 WhichLeaderboard
 WhichTab
-While False
-While True
 While open event 
 WhisperChat
 White Quad
@@ -78673,7 +78526,6 @@ _dotatilegrid_heightshift
 _dotatilegrid_maxheight
 _dotatilegrid_minheight
 _dotatilegrid_stepheight
-_editor/next_id_fortune_teller_story_node
 _else:\n
 _embeddedsubability_description
 _empty
@@ -79051,7 +78903,6 @@ active_level
 active_mode
 active_mode_desire
 active_mode_id
-active_motor
 active_parties
 active_plus_subscription
 active_reward_max
@@ -79521,12 +79372,10 @@ animclip_is_looping
 animclip_is_public
 animclip_public_name
 animdebugger
-animgraph
 animgraph2_clip
 animgraph2_editor
 animgraph2_graph
 animgraph2_identifier
-animgraph2_serialize_pose_recipe_in_pre_pack_entities
 animgraph_choreo_control_state
 animgraph_enum
 animgraph_public_name
@@ -80178,7 +80027,6 @@ bN.l
 bOverheadEffect
 bPb:L7X)
 bReturnUnslowed
-bSaveObject
 bSellable
 bSh&+
 bShowCombineLock
@@ -80203,7 +80051,6 @@ b\np\tP
 b\vP\n0
 b\vp\n0
 b]jY
-b_goal_completion_allowed
 backdoor_protection
 backdoor_protection_in_base
 backend_response
@@ -80670,6 +80517,7 @@ body_collection
 body_groups
 body_position
 body_text
+bodygroup
 bodygroup_visibility
 bodygroupchoices
 bodygroups
@@ -80822,7 +80670,6 @@ bottomFieldImage
 bottom_label
 bottomless_chalice
 bottomright
-bounce
 bounceDurableFrameHeight
 bounceDurableFrameWidth
 bounceDurableHalfFrameHeight
@@ -81437,7 +81284,6 @@ cavern_crawl_utility_style_unlock
 cavern_crawl_utility_style_unlock_2
 cavern_event_id
 cavern_item
-cc_force_combine_chatter
 cc_noattenuate
 ccs received early
 cdP%
@@ -81797,8 +81643,6 @@ cl_decal_clear_all_entities
 cl_decal_clear_world
 cl_decal_debug
 cl_decal_shoot
-cl_dota_dc_crow_expire_probability
-cl_dota_disable_scenefile_cache
 cl_ent_setang used on server-authoritative entity %d\n
 cl_ent_setang: no entity %d\n
 cl_ent_setpos used on server-authoritative entity %d\n
@@ -81814,7 +81658,6 @@ cl_interp_threadmodeticks=%d
 cl_pred_track:  Unknown ent index %d\n
 cl_predictioncopy_describe:  no such entity %d\n
 cl_predictioncopy_print:  no such entity %d\n
-cl_svc_usercmds_delta_validate
 claim_action
 claim_action_delay
 claim_action_score_max
@@ -81942,7 +81785,6 @@ closest_active_match_id
 cloth
 cloth_auto_effect
 cloth_ground_plane
-cloth_interp_rot
 cloth_sleep_enabled
 cloth_stiffness_on_ragdoll
 cloud1direction
@@ -82700,7 +82542,6 @@ crystal_maiden_let_it_go
 crystal_nova
 crystalmaiden
 cs_CZ
-csm_sst_shadow_focus_region_thin_compensation
 css_additions
 css_class
 ct_cert_scts
@@ -83584,10 +83425,7 @@ desire_push_lane_bot
 desire_push_lane_mid
 desire_push_lane_top
 desired
-desired_movement_gait
-desired_movement_gait_set
 desired_queue_size
-desired_speed
 desiredlanguage
 desiredlayoutheight
 desiredlayoutwidth
@@ -83826,7 +83664,6 @@ displayName
 displayNumber
 displayWindow
 display_%d
-display_convars_onscreen_in_big_text
 display_count
 display_detail
 display_in_top_layer
@@ -84039,32 +83876,7 @@ dota_custom_game_link
 dota_custom_game_name
 dota_custom_ui
 dota_custom_ui_debug_panel - No UI root.\n
-dota_dark_carnival_candy_shop_show_page
-dota_dark_carnival_click_rooms_to_focus
-dota_dark_carnival_darken_path_ends
-dota_dark_carnival_debug_playtest
-dota_dark_carnival_disable_room_characters
-dota_dark_carnival_encounter_lockpicking
-dota_dark_carnival_encounter_slark_jailbreak
-dota_dark_carnival_encounter_slark_jailbreak_debug
-dota_dark_carnival_fake_current_time_days
-dota_dark_carnival_fortune_teller_time_between_welcome_backs
-dota_dark_carnival_max_pan_away_before_zoom_out
-dota_dark_carnival_node_tooltip_show_delay
-dota_dark_carnival_onboarding_state
-dota_dark_carnival_overworld_center_to_rooms
-dota_dark_carnival_portrait_preview_in_node_debug
-dota_dark_carnival_reveal_interior_rooms_when_hovered
-dota_dark_carnival_room_path_alpha
-dota_dark_carnival_sticky_tooltip_time_required
-dota_dark_carnival_store_fake_coins
-dota_dark_carnival_visual_novel_auto_advance_delay
-dota_dark_carnival_visual_novel_enable_auto_advance
-dota_dark_carnival_zoomed_in_mouse_pan_factor
-dota_darkcarnival_map_disable_camera_events
-dota_darkcarnival_map_fow
 dota_dashboard
-dota_dashboard_clear_page_cache
 dota_data_custom
 dota_data_dire
 dota_data_radiant
@@ -84073,7 +83885,6 @@ dota_dc_murder_of_crows
 dota_death_prophet_exorcism_spirit
 dota_dev missing_effect 
 dota_diretide_12
-dota_disable_external_application_hotkeys
 dota_displacement_visibility
 dota_dump_server_bot_state
 dota_easybuy_chat
@@ -84102,7 +83913,6 @@ dota_filter_non_hero
 dota_filtered_string
 dota_fogofwartempviewers
 dota_force_portrait_update
-dota_force_treasure_page_oversized
 dota_game_state_change
 dota_gamemanager
 dota_gameplay_version
@@ -84147,9 +83957,6 @@ dota_guild_banner_dynamic
 dota_guild_name
 dota_guild_show_Welcome_popup
 dota_guild_tag
-dota_health_bar_madness
-dota_health_bar_madness_vertical_scale
-dota_health_bar_soul_ring_mana
 dota_health_bar_threat_height
 dota_hero_ability_points_changed
 dota_hero_grid_select_overworld_season
@@ -84163,7 +83970,6 @@ dota_hero_reset_buyback_cooldown
 dota_hero_respawn
 dota_hero_suicide
 dota_hero_swap
-dota_hide_dashboard_ui
 dota_hud
 dota_hud_error_ability_disabled_by_root
 dota_hud_error_ability_disabled_by_tether
@@ -84239,7 +84045,6 @@ dota_item_price
 dota_item_purchase
 dota_item_quickcast
 dota_item_rarity
-dota_item_received_treasure_details_in_popup
 dota_item_rune
 dota_item_rune_spawner
 dota_item_rune_spawner_bounty
@@ -84262,7 +84067,6 @@ dota_launch_custom_game %llu %s
 dota_launch_custom_game %s %s lobby=%llu lobby_data=%llu\n
 dota_launch_custom_game_options
 dota_league_description
-dota_league_force_all_public
 dota_league_name
 dota_leftclick_cameragrip_new 0
 dota_leftclick_cameragrip_new 1
@@ -84271,8 +84075,6 @@ dota_loading_screen
 dota_local_selected_entindex
 dota_localize_hero_chat_wheel <hero-id|'all'>\n
 dota_lockpicking_effects
-dota_lockpicking_unlock_marker_display_buffer
-dota_lockpicking_use_frame_update
 dota_lose
 dota_map_locations_debug
 dota_match3_effects
@@ -84380,17 +84182,12 @@ dota_shared_enums.proto"*\n
 dota_shared_enums.proto"`\n
 dota_shared_enums.proto*^\n
 dota_shop_common_items
-dota_shop_double_click_bypass_buyback_protection_time
 dota_shop_item_drag_begin
 dota_shop_item_drag_end
 dota_show_chat_wheel_messages_unlocked_popup <min message id> [max message id] [permanent] [event id]
 dota_showcase
 dota_showcase.h
 dota_shrine_kill
-dota_slark_jailbreak_debug_collision
-dota_slark_jailbreak_debug_snapshots
-dota_slark_jailbreak_test_floating_text
-dota_spectate_next_ability_cast
 dota_spectator_graph_manager
 dota_spectator_hero_index %d
 dota_spectator_mode %d
@@ -84398,7 +84195,6 @@ dota_spectator_talent_changed
 dota_spectator_watching_broadcaster %d
 dota_spectator_watching_broadcaster 0
 dota_spectator_watching_broadcaster 1
-dota_splash_ad_show_after_minimum_launches
 dota_spring
 dota_start_game
 dota_stat_tracker.h
@@ -84424,7 +84220,6 @@ dota_tip_new_user_intro_wizard_speech_4
 dota_tournament_item_event
 dota_tower_deny
 dota_tower_kill
-dota_treasure_details_popup
 dota_trophy_name
 dota_turbo_game_mode
 dota_turbo_hero_pick_rules
@@ -84624,138 +84419,6 @@ eC z
 eCONTENTROOT
 eContent
 eContentType
-eEventAudit_AbilityUsed
-eEventAudit_ActionItemUsed
-eEventAudit_ActionListGrant
-eEventAudit_AddedPartyFinder
-eEventAudit_AllStarGame
-eEventAudit_BattleCupPoints
-eEventAudit_BattleReport
-eEventAudit_BlessingPurchase
-eEventAudit_BonusTreasure
-eEventAudit_BountyClaimed
-eEventAudit_BracketReward
-eEventAudit_CafeLoginReward_DEPRECATED
-eEventAudit_CafeMatchPlayed_DEPRECATED
-eEventAudit_CafeMatchTimeReward_DEPRECATED
-eEventAudit_CafeSessionTime_DEPRECATED
-eEventAudit_CandyGained
-eEventAudit_CandyShopPurchase
-eEventAudit_CavernCrawlRoomClaimed
-eEventAudit_ChallengeCompleted
-eEventAudit_CharmReward
-eEventAudit_ChestOpended
-eEventAudit_ClaimAction
-eEventAudit_ClaimActionPointCost
-eEventAudit_ClaimActionPremiumPointCost
-eEventAudit_ClaimedWeeklyDraw
-eEventAudit_CoachTeammateRating
-eEventAudit_CoachedMatch
-eEventAudit_CommendGiven
-eEventAudit_CompanionPrediction
-eEventAudit_CompendiumBracketPrediction
-eEventAudit_CompendiumDailyWin
-eEventAudit_CompendiumGrant
-eEventAudit_CompendiumMatch
-eEventAudit_CompendiumPrediction
-eEventAudit_CompendiumPredictionSet
-eEventAudit_CompendiumSelection
-eEventAudit_CompendiumSpectateMatch
-eEventAudit_CompendiumUse
-eEventAudit_ContestVote
-eEventAudit_ConvertPoints
-eEventAudit_Count
-eEventAudit_CraftworksPurchase
-eEventAudit_CustomGameWin
-eEventAudit_DevGrant
-eEventAudit_DugUpTreasure
-eEventAudit_DuplicateRelicRefund
-eEventAudit_EligibleForWeeklyDraw
-eEventAudit_EventGameReward
-eEventAudit_EventGameSpend
-eEventAudit_EventRankingReward
-eEventAudit_ExploitCorrection
-eEventAudit_FantasyClaimReward
-eEventAudit_FantasyCraftingMats
-eEventAudit_FantasyReward
-eEventAudit_FeaturedGamemodePlayed
-eEventAudit_FirstMatchWithPlus
-eEventAudit_GainedRelicLevels
-eEventAudit_GauntletCompleted
-eEventAudit_GrantAction_Points
-eEventAudit_GrantMatchPoints
-eEventAudit_GrantOwnership
-eEventAudit_GuildContract
-eEventAudit_GuildWeeklyLeaderboard
-eEventAudit_InGameAction
-eEventAudit_InGamePredictionCorrect
-eEventAudit_InstallDPCApp
-eEventAudit_ItemConsumed
-eEventAudit_ItemGifted
-eEventAudit_LostMatch
-eEventAudit_LostMatchWithPlus
-eEventAudit_ManualGrant
-eEventAudit_MatchMVP
-eEventAudit_MonsterHunterAutoCraft
-eEventAudit_MonsterHunterCodexReward
-eEventAudit_MonsterHunterCraft
-eEventAudit_MonsterHunterCraftSet
-eEventAudit_MonsterHunterRankReward
-eEventAudit_Mutation
-eEventAudit_MysteryBoxReward
-eEventAudit_MysteryItemGranted
-eEventAudit_OfferingPoints
-eEventAudit_OverworldEncounterReward
-eEventAudit_OverworldFortunePermanentReward
-eEventAudit_OverworldFortuneRequest
-eEventAudit_OverworldFortuneReward
-eEventAudit_OverworldFortuneTellerStoryNodeReward
-eEventAudit_OverworldNodeReward
-eEventAudit_OverworldNodeUnlocked
-eEventAudit_PlayedMatch
-eEventAudit_PlayerCardFullTeams
-eEventAudit_PlusInitialActivation
-eEventAudit_PointItemUsed
-eEventAudit_ProPrediction
-eEventAudit_PurchaseAvoidPlayerSlot
-eEventAudit_PurchaseHeroRelic
-eEventAudit_PurchaseRandomHeroRelic
-eEventAudit_QuarteroAntiqueCashIn
-eEventAudit_QuestChallenge
-eEventAudit_RecycleHeroRelic
-eEventAudit_RedeemPrize
-eEventAudit_RevokeOwnership
-eEventAudit_Reward
-eEventAudit_RewardForTreasureOpened
-eEventAudit_RewardNotify
-eEventAudit_RewardRedeemed
-eEventAudit_StickerPlaced
-eEventAudit_StickerTeamPageCompletion
-eEventAudit_SuccessfulBountyIssued
-eEventAudit_SuccessfulProPrediction
-eEventAudit_SupportGrant
-eEventAudit_SupportersClubTeamWon
-eEventAudit_TipGiven
-eEventAudit_TipReceived
-eEventAudit_TipTransfer
-eEventAudit_TriviaPointsEarned
-eEventAudit_TwitchDrop
-eEventAudit_UnderDraft
-eEventAudit_Unused1
-eEventAudit_Unused2
-eEventAudit_WagerCoinsEarned
-eEventAudit_WagerCoinsSpent
-eEventAudit_WagerStreakCompleted
-eEventAudit_WagerXPEarned
-eEventAudit_WagersGames
-eEventAudit_WagersGamesWon
-eEventAudit_WagersSpent
-eEventAudit_WeekendTourneyPayout
-eEventAudit_WeeklyGameResult
-eEventAudit_WeeklyQuestReward
-eEventAudit_WonMatch
-eEventAudit_WonMatchDuringEvent
-eEventAudit_WonMatchWithPlus
 eGameMode
 eN.d\tA
 eNULL
@@ -84772,22 +84435,13 @@ eResult_NotFound
 eResult_ServerError
 eResult_Success
 eStat
-eState01
-eState02
-eState03
-eState04
-eState05
 eTU\n
 eXQd
 e\n)k_EHeroSelectionText_AllDraft_PickOneMore
 e\n)k_EHeroSelectionText_AllDraft_WaitingDire
 e\n\tmaterials
 e\tcCPtH
-e_action_handshake_body_authority_current
-e_action_handshake_body_authority_desired
 e_choreo_state
-e_movement_handshake_body_authority_current
-e_movement_handshake_body_authority_desired
 earliest_common_match
 early_premium_pass_holder
 early_premium_pass_holder_material_rewards
@@ -85639,8 +85293,6 @@ fUnh\
 f\n\fTeleportInfo
 f\n\vChatChannel
 f\trixZ
-f_forward_strafing_angle_actual
-f_forward_strafing_angle_desired
 f_pose_weight_%s
 faceless_void_backtrack
 faceless_void_chronosphere
@@ -85672,10 +85324,7 @@ facet_name
 facet_status
 facets
 facing
-facingServices
 facing_left
-facing_target
-facing_target_source
 facsimileTelephoneNumber
 fact_type
 facts
@@ -88038,7 +87687,6 @@ g_tSpecular
 gain
 gained_reroll
 gainsboro
-gait_switch_blocked_reason
 gale
 game modes here
 game/
@@ -88322,7 +87970,6 @@ goal
 goal_direction_type
 goal_id
 goal_item_ability_ids
-goal_location
 goal_name
 goal_star_count
 goal_target_value
@@ -88333,7 +87980,6 @@ godlike
 gods_strength
 gold_bags
 gold_bags%d
-gold_bonus_percent
 gold_bounty_max
 gold_bounty_min
 gold_cost
@@ -88359,7 +88005,6 @@ gold_spent_on_items
 gold_spent_on_support
 gold_unreliable
 gold_value
-golden_pie
 goldenrod
 golditem
 golem_elite_reviving
@@ -88836,7 +88481,6 @@ headings
 headless
 headline
 heal_ally
-heal_amp_pct
 heal_from_lifesteal
 heal_from_regen
 heal_reduction_percent
@@ -90375,7 +90019,6 @@ is_nightstalker_night
 is_out_of_items
 is_party
 is_passive
-is_pathcorner
 is_perfect_world_test_account
 is_permanent
 is_phone_identifying
@@ -91530,24 +91173,6 @@ k_EChallengeType_Invalid
 k_EChatSpecialPrivileges_None"
 k_EDOTATriviaQuestionCategory_
 k_EMatchGroupServerStatus_OK"!\n
-k_EMsgClientToGCFantasyCraftingSelectGlobalPrefix
-k_EMsgClientToGCFantasyCraftingSelectGlobalPrefixResponse
-k_EMsgClientToGCFantasyCraftingSelectGlobalSuffix
-k_EMsgClientToGCFantasyCraftingSelectGlobalSuffixResponse
-k_EMsgClientToGCFantasyCraftingSelectTeam
-k_EMsgClientToGCFantasyCraftingSelectTeamResponse
-k_EMsgClientToGCGetEventPoints
-k_EMsgClientToGCGetEventPointsResponse
-k_EMsgClientToGCOverworldClaimFortunePermanentReward
-k_EMsgClientToGCOverworldClaimFortunePermanentRewardResponse
-k_EMsgClientToGCOverworldClaimFortuneReward
-k_EMsgClientToGCOverworldClaimFortuneRewardResponse
-k_EMsgClientToGCOverworldClaimFortuneTellerStoryNode
-k_EMsgClientToGCOverworldClaimFortuneTellerStoryNodeResponse
-k_EMsgClientToGCOverworldDevGrantFortuneTellerCoin
-k_EMsgClientToGCOverworldDevGrantFortuneTellerCoinResponse
-k_EMsgGCToClientEventPointsUpdated
-k_EMsgLobbyOverworldFortuneList
 k_ENotificationSettingAlways
 k_ENotificationSettingNever
 k_EProtoExecutionSiteUnknown
@@ -91651,22 +91276,6 @@ k_eContractSlotCooldown
 k_eContractSlotLockedDotaPlus
 k_eContractSlotLockedGuild
 k_eContractSlotTimeError
-k_eDarkCarnivalRewardVisual_CandyBag
-k_eDarkCarnivalRewardVisual_Chest
-k_eDarkCarnivalRewardVisual_Chest_Small
-k_eDarkCarnivalRewardVisual_Coin
-k_eDarkCarnivalRewardVisual_Completed
-k_eDarkCarnivalRewardVisual_Emoticon
-k_eDarkCarnivalRewardVisual_Encounter
-k_eDarkCarnivalRewardVisual_End
-k_eDarkCarnivalRewardVisual_HeroItemSet
-k_eDarkCarnivalRewardVisual_Invalid
-k_eDarkCarnivalRewardVisual_LoadingScreen
-k_eDarkCarnivalRewardVisual_Oracle
-k_eDarkCarnivalRewardVisual_ShowcaseDecoration
-k_eDarkCarnivalRewardVisual_Spray
-k_eDarkCarnivalRewardVisual_Start
-k_eDarkCarnivalRewardVisual_Tome
 k_eData
 k_eDescriptionInvalid
 k_eDoesNotOwnEvent
@@ -91680,7 +91289,6 @@ k_eEventExpired
 k_eExpiredCard
 k_eExpiredCraftworks
 k_eExpiredShop
-k_eFantasyShapeBehavior_UniqueQualities
 k_eFavoriteTypeOutOfRange
 k_eFlagsInvalid
 k_eFreeTrialNotAllowed
@@ -91810,38 +91418,6 @@ k_eNotEnoughTokensForReward
 k_eNotPermitted
 k_eNotSubscribedToDotaPlus
 k_eOldItemMismatch
-k_eOverworldAuditAction_ClaimFortuneReward
-k_eOverworldAuditAction_ClaimFortuneTellerStoryNodeReward
-k_eOverworldAuditAction_DevGrantFortuneTellerCoin
-k_eOverworldAuditAction_MatchRewardsAbilityDraft
-k_eOverworldAuditAction_MatchRewardsCoopBotMatch
-k_eOverworldFortuneModifier_EarnRewardTwice
-k_eOverworldFortuneModifier_ImmediatelyReceiveReward
-k_eOverworldFortuneModifier_NoModifier
-k_eOverworldFortuneModifier_OneAttempt
-k_eOverworldFortuneModifier_ReceiveAdditionalRandomToken
-k_eOverworldFortuneRequirement_GetMultipleKills
-k_eOverworldFortuneRequirement_KillRoshan
-k_eOverworldFortuneRequirement_KillTormentor
-k_eOverworldFortuneRequirement_Top3Networth
-k_eOverworldFortuneRequirement_WinGameWithScepterShard
-k_eOverworldFortuneReward_BalloonCharges
-k_eOverworldFortuneReward_CandyBagLarge
-k_eOverworldFortuneReward_CandyBagSmall
-k_eOverworldFortuneReward_FireworksCharges
-k_eOverworldFortuneReward_LastHeroPlayedTokens
-k_eOverworldFortuneReward_OneNodeUnlock
-k_eOverworldFortuneReward_OneRandomToken
-k_eOverworldFortuneReward_OracleCoin
-k_eOverworldFortuneReward_PieCharges
-k_eOverworldFortuneReward_Rerolls
-k_eOverworldFortuneReward_SmallEconItem
-k_eOverworldFortuneReward_ThreeMostTokens
-k_eOverworldFortuneReward_ThreeRandomTokens
-k_eOverworldFortuneReward_TwoLeastTokens
-k_eOverworldFortuneReward_TwoNodeUnlocks
-k_eOverworldFortuneReward_TwoRandomTokens
-k_eOverworldTokenType_Internal
 k_ePNG
 k_ePageTypeMismatch
 k_ePathAlreadyUnlocked
@@ -92189,7 +91765,6 @@ last_updated
 last_updated_date_string
 last_valid_class
 last_valid_item_slot
-last_waypoint_pos
 last_week_percentile
 last_week_players
 last_week_teams
@@ -92759,22 +92334,20 @@ m_16ByteOrLessStack out of space, falling through after %d entries, consider upp
 m_BaseClasses
 m_Classes
 m_DefaultKV3
+m_DependentObservableBlackboardReferences
+m_DependentObservableVars
+m_EvaluateConnection
 m_FieldTypeAliases
 m_HelpContextName
 m_Helpers
-m_Image
 m_Inputs
 m_Items
 m_KV3Metadata
 m_LegacyDefaultStr
 m_LongName
 m_MetaData
-m_Metadata
 m_NewName
 m_OldName
-m_OnExternalChoreoGraphChanged
-m_OnLayerCycleUpdated
-m_OnTouchingChanged
 m_OutputName
 m_ParamType
 m_PlugType
@@ -92785,9 +92358,6 @@ m_RenamedSerializers
 m_RenamedTypes
 m_RequeuedMessages : %d entries: \n
 m_Retiming
-m_SequencePoint
-m_SerializePoseRecipeAG2Dynamic
-m_SerializePoseRecipeAG2Slots
 m_SerializerName
 m_Stops
 m_TagValue
@@ -92803,18 +92373,13 @@ m_bCanOpenWhenDead
 m_bCanTimeoutWhileInactive
 m_bChildCursorsShouldInherit
 m_bConditionValue
-m_bCreateMovableSurfaceGraph
 m_bCustom
-m_bDataStringLocalized
 m_bFirstEvaluate
 m_bHasPulseArguments
-m_bIgnoreParentOrientation
 m_bInvokePostDataUpdates
-m_bIsRunning
 m_bIsTickRateLockedToDisplayRate=%d
 m_bIsViewmodelCascade
 m_bMatchStartOfTypeOnly
-m_bMustBeOwned
 m_bNoIconTarget
 m_bRemoveWhenOutOfScope
 m_bShowWhenOccluded
@@ -92828,15 +92393,8 @@ m_blockHeader
 m_bmaxs
 m_bmins
 m_box
-m_cActiveColor
 m_capabilities
 m_capsule
-m_chainWeights
-m_channelIDs
-m_channelSettings
-m_choiceName
-m_compressedOffsets
-m_eChoreoState
 m_eEventAction == SDOTAEventRewardDefinition_ActionList::k_eEventAction
 m_eEventAction == SDOTAEventRewardDefinition_Autograph::k_eEventAction
 m_eEventAction == SDOTAEventRewardDefinition_CavernItem::k_eEventAction
@@ -92854,12 +92412,6 @@ m_eEventAction == SDOTAEventRewardDefinition_PingWheel::k_eEventAction
 m_eEventAction == SDOTAEventRewardDefinition_Points::k_eEventAction
 m_eEventAction == SDOTAEventRewardDefinition_Quest::k_eEventAction
 m_eEventAction == SDOTAEventRewardDefinition_UnderDraftGold::k_eEventAction
-m_eReward
-m_enabledNodeIdx
-m_endEffectorBoneID
-m_endEffectorForwardAxis
-m_endEffectorOffset
-m_event
 m_event_dota_roshan_roar
 m_fFloat1
 m_fFloat2
@@ -92867,60 +92419,26 @@ m_fLockDuration
 m_fOutput
 m_fTimeout
 m_fUpdateInterval
-m_failEffect
-m_flAllowSkipAfterDelay
 m_flAnimatedNoiseMin
 m_flAnimatedNoiseSpeed
-m_flAutoAdvanceDelay
-m_flBaseUnlockAppearRate
-m_flChainRotationWeight
 m_flCommandQueueMaxDilationPercentage=%f
-m_flCrowScale
-m_flCrowSpeed
-m_flDefaultMinimumTimePerFrame
 m_flDelayedShow
 m_flEncodedController
-m_flExpectedFinalHeal
 m_flIntroPlaybackRate
-m_flLastAccumulatedTime
-m_flLastJumpFromTime
-m_flLastJumpToTime
 m_flLoopPlaybackRate
 m_flMaxEyeWeight
 m_flMaxHeadWeight
-m_flMaxSpeedMultiplier
-m_flMinDegreesBetweenUnlocks
-m_flModelRotation
-m_flModelScalePercentage
 m_flOutroPlaybackRate
-m_flRecoverRate
 m_flRelativeUpOffset
-m_flRoomConnectionBrightness
-m_flRootBoneOffset_x
-m_flRootBoneOffset_y
-m_flRootBoneOffset_z
 m_flSimplePlaybackRate
 m_flSlopeIncoming
 m_flSlopeOutgoing
-m_flSpeedBoostPercentage
-m_flSpeedBoostRate
-m_flSpeedIncrementPerUnlock
-m_flTimerIncreasePerUnlock
-m_flTimerIncreaseUnlockChance
-m_flTimerIncreaseUnlockEscalatingChance
-m_flTrainCarViewOffset
-m_flUnlockAppearIncreaseRate
-m_flUnlockDegreeDecreaseRate
 m_flUpOffset
 m_flViewFrustumAspect
 m_flViewFrustumFOV
 m_flViewmodelSSTScale
-m_flWindowUIScale
 m_flWorldUnitsPerTexel
 m_flexWeight
-m_floatChannelData
-m_floatChannelSets
-m_hCrowModel
 m_hCursor
 m_hCursorOnOtherGraph
 m_hDef
@@ -92934,7 +92452,6 @@ m_hIngameEvent
 m_hLightingOrigin
 m_hLocalPlayer
 m_hPrewarmPanoramaManifest != RESOURCE_MANIFEST_HANDLE_INVALID
-m_iAssociatedLevelItemDef
 m_iDamageByTypeReceivedPostReduction
 m_iDamageByTypeReceivedPreReduction
 m_iEventArcanaPeriodicResourceMax
@@ -92947,66 +92464,37 @@ m_iEventWagerTokensRemaining
 m_iGameDisplayType
 m_iInteger1
 m_iInteger2
-m_iMostConnected
 m_iOutgoingDamageByTypePostReduction
 m_iOutgoingDamageByTypePreReduction
 m_iRankWagersAvailable
 m_iRankWagersMax
 m_iRawValue32
 m_iSaluteAmounts
-m_iSummonKillGold
 m_iTowerDamage
 m_iValue
 m_iszScaleset
 m_iv_AnimOverlay[ %d ]
 m_iv_Transforms[ %d ]
 m_iv_transitionLayerHistory
-m_leftEffectorBoneID
-m_leftTarget
-m_leftTargetTransform
-m_mapNarrationDialogues
-m_nBoardRadius
 m_nCascade
 m_nChainLength > 1 && m_nChainLength < 8
 m_nClassType
-m_nCountingCrows
-m_nCurrentMovementId
 m_nCurrentWakeIndex
 m_nCursorID
 m_nEventIDAssociatedWithEventData
-m_nExernalChoreoGraphCount
-m_nForcedRevealCount
-m_nFortuneRequestCount
 m_nGraphID
 m_nHeaderDimHeight
 m_nHeaderDimWidth
-m_nInitialMovementId
-m_nLeftEffectorBoneIdx
-m_nLeftTargetBoneIdx
-m_nLeftTargetNodeIdx
 m_nLegacyDefaultInt
 m_nLoopCount
 m_nMaxCPULevel
 m_nMaxGPULevel
-m_nMaxTokenCap
-m_nMaxUnlocksOnBoard
-m_nNumUnlocks
 m_nOutputHeight
 m_nOutputWidth
 m_nParamIndex < 0
 m_nPixelSSTHeight
 m_nPixelSSTWidth
-m_nPointsPerBlock
-m_nPointsPerBonusBlock
-m_nPointsPerCompletedLevel
-m_nRightEffectorBoneIdx
-m_nRightTargetBoneIdx
-m_nRightTargetNodeIdx
-m_nScorePerUnlock
-m_nSerializePoseRecipeAG2ActiveSlot
 m_nStackDepthWhenAdded
-m_nTicksApplied
-m_nUnlockRadius
 m_nVertCount
 m_nYieldToken
 m_pAnimGraph2Instance == nullptr && m_pAnimGraphInstanceOwner != nullptr
@@ -93014,7 +92502,6 @@ m_pAnimationStatuesKeyValues
 m_pAsyncSaveCallQueue
 m_pBaseNPC && m_pAbility
 m_pChoiceContainer->GetChildCount() > 0
-m_pComponentGraphController
 m_pController == NULL
 m_pGame
 m_pItemSet
@@ -93025,40 +92512,8 @@ m_pTerrain
 m_pWorldDefinition != nullptr
 m_params.m_nNumBonesInChain < 8
 m_rgbColor
-m_rightEffectorBoneID
-m_rightTarget
-m_rightTargetTransform
-m_sAbilityName
-m_sActiveExternalChoreoGraphSlotID
-m_sBaseAbilityName
-m_sCrowExplodeSound
-m_sCrowExplodeVFX
-m_sDependentOnAbility
-m_sEffectName
-m_sFortunePosition1
-m_sFortunePosition2
-m_sFortunePosition3
-m_sItemRecipeName
-m_sKeyOverride
-m_sLayout
-m_sLinkedAbility
-m_sLinkedForbiddenTomeAbility
-m_sLinkedScepterAbility
-m_sLinkedShardAbility
-m_sModelAlternateName
-m_sPingOverrideText
-m_sRequiredCustomShopName
-m_sRewardTitle
-m_sSharedCooldownName
-m_sSoundEventName
-m_sTextureName
-m_sTokenTraderEncounterName
-m_sTokenTraderVisualNovelStyle
-m_sTooltipSummaryProperties
 m_sTradeDescription
 m_sTradeName
-m_sVideoPath
-m_setID
 m_shadowViewToProj
 m_shadowWorldToView
 m_skeletonInstance.m_vecOrigin.m_cellX
@@ -93066,13 +92521,7 @@ m_skeletonInstance.m_vecOrigin.m_cellY
 m_skeletonInstance.m_vecOrigin.m_cellZ
 m_skeletonInstance\.m_vecOrigin\..*|
 m_sphere
-m_strDataString
-m_strNarrationVisualNovel
-m_strRingmasterVisualNovelName
-m_strTeamName
-m_strVisualNovelName
 m_stringReplaceKey
-m_successEffect
 m_szBinding
 m_szCaptionColor
 m_szDisplayParamText
@@ -93085,44 +92534,14 @@ m_szLessonGroup
 m_szOffscreenIcon
 m_szOnscreenIcon
 m_szPanoramaLayoutFile
-m_szParticlePrecipitationPostEffect
-m_szParticlePrecipitationPuddleEffect
 m_szStartSound
 m_szString1
 m_szString2
-m_tChoreoExitWarp
-m_tChoreoTargetWarp
-m_topology
-m_uOverworldFortune
-m_unDefaultEventPoints
-m_unEventPointsPerLevel
-m_unFortuneCountForPermanentReward
 m_unFrameFuncThreadID == unCurrentThread
-m_unNodeGridSize
-m_unPathUnlockerTokenID
-m_unReleaseTime
-m_unRoomConnectionThickness
-m_unTimesFortuneCanBeSeenBeforeRepeats
-m_unUnlockReward
-m_vDamagePosition
-m_vDashPos
 m_vLookTargetPosition
-m_vNormalOS
 m_vecBaseVelocity
-m_vecBoxHelpersNetworked
-m_vecCameraDistances
-m_vecFortuneForcedReveals
-m_vecFortuneTellerFixedReward
-m_vecFortuneTellerRewards
-m_vecFortuneTellerStoryNodes
-m_vecFrames
 m_vecOffer
-m_vecReleaseSchedule
 m_vecRequest
-m_vecSecondarySkeletonSlotIDs
-m_vecSoundEventOptions
-m_vecSuppressedAnimEventTags
-m_vecTeams
 ma\v\r01!
 mac absent
 mac generation error
@@ -97681,9 +97100,6 @@ most_recent_game_match_id
 most_recent_game_timestamp
 motion_controller_modifier
 motor
-motorServices
-motor_path
-motor_velocity
 mountain_climb
 mouse
 mouse sensitivity
@@ -97706,7 +97122,6 @@ moveable
 moveclass
 movedown
 movement_base
-movement_id
 moveparent: (%d) Name: %s (%s)\n
 movetype: %s\n
 moveup
@@ -97866,7 +97281,6 @@ nCompressedSize == nUncompressedSize
 nControlledUnitEnt
 nDataSize > 0
 nDefIndex
-nDenominator
 nElementType
 nEntity
 nEntityIndex
@@ -97889,7 +97303,6 @@ nMaxElements
 nNumCells <= nMaxCells
 nNumRenderablesToDraw <= INT16_MAX
 nNumSpans < nMaxSpans
-nNumerator
 nOtherHeroID != nHeroID
 nPlayerIndex
 nPort
@@ -97912,7 +97325,6 @@ nWakePriority
 n\n\vMvpAccolade
 n\r2S
 n_creep_Spawnlord.Freeze
-n_state_active_tick_count
 n`3i
 naga_siren_crit
 naga_siren_deluge
@@ -97955,7 +97367,6 @@ narration_novel
 nasal_goo
 natures_prophet
 navajowhite
-navigator
 navlinkclass
 navy
 nbio connect error
@@ -98798,7 +98209,6 @@ npc_dota_xp_fountain
 npc_dota_zeus_cloud
 npc_material_override
 npc_name
-npc_position
 npc_replaced
 npcclass
 npx_2019
@@ -101081,7 +100491,6 @@ path_node
 path_parameter_string
 path_particle_rope
 path_particle_rope_clientside
-path_query
 path_simple
 path_uniqueid
 path_with_dynamic_nodes
@@ -102280,7 +101689,6 @@ q/\rg2
 q2'<Kv
 q27_A
 q6Kl
-qAngles
 qCJ.
 qDGqT
 qE7\t8
@@ -103597,12 +103005,7 @@ sV u\t
 s\n\tAddFriend
 s\n\vCavernCrawl
 s\tor
-s_arrival_movement_gait_set
-s_last_task_end_location
-s_movement_id
-s_movement_serial_number
 s_pfnRtlGenRandom && s_pfnRtlGenRandom( buf, num )
-s_prev_schedule
 saJ!
 sacked_candies
 sacked_candy
@@ -103769,7 +103172,6 @@ scepter_manacost_reduction
 scepter_max_charges
 scepter_range
 scepter_upgrade_description
-schedule_facing_priority
 schedule_page_state
 schedule_stats
 scheduledStartTime
@@ -103992,6 +103394,7 @@ scripts/roadtoti_staging.vdata
 scripts/rubick_arcana_schema.txt
 scripts/scenario_definitions.txt
 scripts/scenario_definitions_staging.txt
+scripts/scenes.vdata
 scripts/settings_search_no_results_messages.txt
 scripts/shop_tags.txt
 scripts/shops.txt
@@ -104724,8 +104127,6 @@ should_request_player_origin
 should_skip_audit
 show
 show description in popup
-show handshaking between AI and Animgraphs
-show path query processing
 show-hero-levels
 showAuthor
 showBroadcastingParties
@@ -106713,8 +106114,6 @@ str_base
 str_per_level
 strafe
 strafe_mode
-strafing_enabled
-strafing_source
 strange part new counter ID
 strange_control_point
 strange_count
@@ -107030,7 +106429,6 @@ system lib
 system library
 system_state
 szName
-szReplicateIconMod
 s{5F
 t(1pC
 t(ydU
@@ -108827,8 +108225,6 @@ vF'l
 vForwardVal
 vIK \f3
 vLocation
-vMaxs
-vMins
 vOriginVal
 vPosVal
 vStartLocationX
@@ -109666,7 +109062,6 @@ xp_advantage_dire
 xp_advantage_radiant
 xp_amount
 xp_bonus
-xp_bonus_percent
 xp_delta
 xp_for_next_rank
 xp_in_curr_level
@@ -109689,7 +109084,6 @@ xpos
 xqI9
 xrJ:DCG
 xsK;
-xxBEAM_HOSExxunused
 xxH}
 xzxv
 y axis
@@ -109782,7 +109176,9 @@ zuus_thunder_trail
 zuus_thundergods_wrath
 zxNIjo
 zz2K
-{ item_factory = 'IntervalTimer' }
+{ particle_domain_ui_name = 'Antimage Blink Ability' particle_domain_internal_name = 'CDOTA_Ability_AntiMage_BlinkParticleAPI'  }
+{ particle_domain_ui_name = 'Linear Projectile' particle_domain_internal_name = 'C_DOTA_LinearProjectileInfoParticleAPI'  }
+{ particle_domain_ui_name = 'Tracking Projectile' particle_domain_internal_name = 'C_DOTA_TrackingProjectileInfoParticleAPI'  }
 {"app_id":%d,"cheer_target_id":"%s","cheers":[%s]}
 {"cheer_type":%u,"cheer_amount":%u}
 {5`q@roz?

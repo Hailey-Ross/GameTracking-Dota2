@@ -1572,7 +1572,6 @@ CrlID
 CryptAcquireContextW
 CryptGenRandom
 CryptReleaseContext
-Current
 D"bu
 D#D)D;D?DEDKDQDSDYDeDoD
 D(n%6

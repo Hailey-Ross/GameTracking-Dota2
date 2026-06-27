@@ -8951,7 +8951,6 @@ Add World Collision Radius
 Add a bone to the bindpose skeleton
 Add a hold to shorter animations in the blend to match frame counts on all blends
 Add a voronoi plane mesh primitive.
-Add an additional local space offset to the end effector to use for aiming the lookat
 Add box mesh primitive.
 Add plane mesh primitive.
 Add to Selection
@@ -9306,6 +9305,7 @@ BaselineNoise
 BaselineSharpness
 BayerGreenSplit
 BeenSimplified
+Begin
 Bend Stiffness
 Bend-and-Stretch Springs
 Bend-only Springs
@@ -9795,7 +9795,6 @@ CModelMaterialGroupName
 CModelMesh Index Buffer
 CModelMeshRenderData::BuildVertexBuffersForMaterialGroups(732): 
 CModelMeshVertexBuffer
-CNmBodyGroupNode::CDefinition
 CNmChainLookatNode::CDefinition::InstantiateNode
 CNmChainLookatTask::CNmChainLookatTask
 CNmClipDocEvent_EntityAttribute::PerformValidation
@@ -9807,15 +9806,6 @@ CNmClipDocEvent_Particle::PerformValidation
 CNmClipDocEvent_RootMotion::PerformValidation
 CNmClipDocEvent_Sound::PerformValidation
 CNmClipDocEvent_TargetWarp::PerformValidation
-CNmFloatChannelData
-CNmFloatChannelData::ChannelSettings_t
-CNmFloatChannelSet_t
-CNmFootIKNode::CDefinition
-CNmFootIKTask
-CNmGraphDocBodyGroupNode
-CNmGraphDocBodyGroupNode::CData
-CNmGraphDocVariationConstBoneTargetNode
-CNmGraphDocVariationConstBoneTargetNode::CData
 CNmGraphInstance::EvaluateGraph
 CNmGraphInstance::GetCurrentGraphTimingInfo
 CNmPose::DrawDebug
@@ -9965,7 +9955,6 @@ Chain Length: %d
 Chain Lookat
 Chain Rotation Weight
 Chain Weights
-ChainRotationWeight - this controls how we solve for effector rotations, 0.0f will try to fully rotate the effector, 1.0f will try to solve the rotation by rotating the IK chain
 Changes how the cycle time is computed.  Mainly used with autolayer.\nShould not be used with AnimGraph.
 Character Space - 
 Check Edge Selection
@@ -10113,8 +10102,6 @@ ClothSpring
 ClothStiffHinge
 ClothTri
 ClothVertexMap
-CnmGraphDocFootIKNode
-CnmGraphDocFootIKNode::CData
 Col Fixed Blend Val
 Collapse Edges
 Collapse selected edges.
@@ -10263,8 +10250,6 @@ Cut Min
 Cycle Start Frame
 Cycle Type
 Cylinder
-Cylinder - Centered (SLOW PERF)
-Cylinder - Ground (SLOW PERF)
 Cylinder: %s
 D16_UNORM
 D24_UNORM_S8_UINT
@@ -10629,7 +10614,6 @@ Embedded Struct
 EmbeddedStruct
 Empty MeshID.
 Empty virtual parameter detected!
-Enable
 Enable Advanced Parameters
 Enable Collision With Parent
 Enable Empty Model
@@ -11021,8 +11005,6 @@ Gradient()
 Graph
 Graph Event Condition
 Graph Events
-Graph IDs
-Graphs
 Gravity Multiplier
 GrayResponseCurve
 GrayResponseUnit
@@ -11104,7 +11086,6 @@ HostComputer
 HostUtils001
 How fast joint velocity is reduced
 How frequently this will show up relative to any of the other options
-How long should the blend in/out take
 How many iterations this solvers hould use. 
 How much the joint tries to drive back to bind pose
 How much to consider facing angle in occlusion.
@@ -11485,7 +11466,6 @@ Local Layer
 Local Position
 Local Rotation
 Local Space Bone
-Local graph expected values
 LocalHierarchy
 LocalizedCameraModel
 Lock 0.0
@@ -11513,7 +11493,6 @@ Lowest
 MATERIAL_ATTRIBUTE:%s_%i
 MAlternateSemanticName
 MAtomicTransfersAsPlainString
-MESH_BUFFER_USAGE_VERTEX_EMISSIVE
 MFgdHelper
 MIsStringAndTokenType
 MKV3TransferName
@@ -12301,7 +12280,6 @@ R8_TYPELESS
 R8_UNORM
 R9G9B9E5_SHAREDEXP
 RBF Based Anim Constraint
-RENDER_BUFFER_DYNAMIC_ZERO_COPY
 ROTATION
 R\vp!y
 R_T5Y
@@ -12606,7 +12584,6 @@ Shear Stretch
 Shifts the frames of the additional animation file relative to the base animation file.  Negative values drop # frames from the start, positive values add # copies of the first frame to the start
 Should Sample Root Motion
 Should it be considered an error if this bone isn't found to rename?
-Should we check at compile time that this is an optional mask?
 ShouldPunchThroughPolymorphism
 Shrink Pieces
 Shrink Selection
@@ -12918,7 +12895,6 @@ The <b>Parent</b> animation constraint is a little different in that it expects 
 The Morph Shape For This Incremental Morph
 The Peak Value For This Incremental Morph Shape
 The animation from which to get a frame.
-The axis that you want to point at the target
 The color to assign to the specified attribute when at full intensity. During fade in and fade out the value will blend from black to this value. Note that when the color value is provided to a material expression it will be in linear color space.
 The default target source to use.  Animgraph will let you override this on a per node basis.
 The filename of the input animation file.
@@ -12926,7 +12902,6 @@ The frame at which to end using animation data.  By default it's the last frame 
 The frame at which to start using animation data.  By default it's 0, the first frame of the animation.
 The input bones and pose samples for the Rbf.  The input are the driver bones.
 The joint we're constraining.
-The length of the IK chain
 The local hinge axis for this constraint.
 The maximum degrees for this hinge constraint.
 The maximum value the controller can have, typically 1
@@ -12952,7 +12927,6 @@ The type of entity to spawn for the break piece.
 The type of frame to get, first frame, last frame or a specific frame number.
 The value to assign to the specified attribute when at full intensity. During fade in and fade out the value will blend from 0 to this value.
 The vertex attribute on the mesh which will indicate which vertices get a generated anchor bone.  It's expected to be a float value per-vertex.  A value of 0 leaves the vertex unaffected.  A non-zero value means an anchor bone will be generated for that vertex and the vertex will be skinned to that anchor bone.
-The weights from the tip of the chain to the base. 0 is the effector/tip of the chain weight, N is the base of the chain.
 These detail layers will NOT include the specified shapes.<br><br><em>(NOTE: The shapes will belong to all other non-exclusive detail layers, unless 'Included Detail Layers' is specified)</em>
 These detail layers will only include the specified shapes.<br><br><em>(NOTE: This will also remove other shapes from these detail layers unless 'Is Exclusive' is unchecked )</em>
 These shapes will be assigned the given detail layers
@@ -13058,12 +13032,6 @@ Type of faceposer keys, Gesture or Posture
 UI Camera Yaw/Pitch
 UICameraRotation
 UNKNOWN ENUM VALUE!
-UPSCALER_AMD_FSR2
-UPSCALER_AMD_FSR3
-UPSCALER_COUNT
-UPSCALER_INTEL_XESS
-UPSCALER_NONE
-UPSCALER_NVIDIA_DLSS
 UV Attribute Simplification Weight
 UV Map Box
 UV Map Cylinder
@@ -13489,7 +13457,6 @@ animation constraint slave
 animation constraint tilt twist
 animation constraint twist
 animdoclib
-animgraph
 animgraph2_clip
 animgraph2_graph
 animgraph2_identifier
@@ -13865,8 +13832,6 @@ draw_wireframe
 duplicate options detected for ID based selector!
 duration_info
 dynamic_attributes
-eCenteredCylinder
-eGroundCylinder
 ease_in_key
 ease_is_duration
 ease_out_key
@@ -14284,7 +14249,6 @@ lowprecisionuv1
 m_AdditionalInputDependencies
 m_AdditionalRelatedFiles
 m_ArgumentDependencies
-m_BoneMergeLinks
 m_ChildResourceList
 m_Data.m_DefaultTargetSettings.m_AnimgraphParameterNameOrientation
 m_Data.m_DefaultTargetSettings.m_AnimgraphParameterNamePosition
@@ -14329,7 +14293,6 @@ m_bHasBakedLightingFromLightMap
 m_bHasBakedLightingFromVertexStream
 m_bIsGameFile
 m_bIsNotMatchedToMaterial
-m_bIsOptionalMask
 m_bNoShadow
 m_bOnlyShadow
 m_bOptional
@@ -14337,66 +14300,23 @@ m_bParentJointRequiresAlignment
 m_bUseCompressedNormalTangent
 m_bUseNewPoleVectorForAxis
 m_bUseShadowFastPath
-m_bodygroup
 m_capabilities
-m_chainWeights
-m_channelIDs
-m_channelSettings
-m_choice
-m_choiceName
-m_compressedOffsets
 m_eRbfType
-m_eType != eGroundCapsule && m_eType != eCenteredCapsule && m_eType != eCenteredCylinder && m_eType != eGroundCylinder
-m_eType != eGroundCapsule && m_eType != eGenericCapsule && m_eType != eCenteredCapsule && m_eType != eCenteredCylinder && m_eType != eGroundCylinder
-m_enabledNodeIdx
-m_endEffectorBoneID
-m_endEffectorBoneName
-m_endEffectorForwardAxis
-m_endEffectorOffset
-m_event
-m_fEmissiveFactor
-m_flChainRotationWeight
 m_flMaxRadians
 m_flMinRadians
 m_flSlopeIncoming
 m_flSlopeOutgoing
-m_floatChannelData
-m_floatChannelSets
 m_hitboxsets
 m_influenceFlags
-m_leftEffectorBoneID
-m_leftEffectorBoneName
-m_leftTarget
-m_leftTargetTransform
-m_materialGroupToken
 m_morphSet
 m_nChainLength > 1 && m_nChainLength < 8
-m_nChildNode
 m_nFileCRC
 m_nFingerprint
 m_nFingerprintDefault
-m_nLeftEffectorBoneIdx
-m_nLeftTargetBoneIdx
-m_nLeftTargetNodeIdx
-m_nParentHash
-m_nRightEffectorBoneIdx
-m_nRightTargetBoneIdx
-m_nRightTargetNodeIdx
-m_nSrcDrawIndex
 m_nUserData
-m_nVertexEmissiveFormat
-m_nVertexEmissiveOffset
-m_nVertexEmissiveStride
-m_nVertexEmissiveVB
 m_params.m_nNumBonesInChain < 8
 m_qFixupRotation
 m_rbfParameters
-m_rightEffectorBoneID
-m_rightEffectorBoneName
-m_rightTarget
-m_rightTargetTransform
-m_rootBvhNodes
-m_setID
 make_two_sided
 manual_animation_frame
 manual_mode

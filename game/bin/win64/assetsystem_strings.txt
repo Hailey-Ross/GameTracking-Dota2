@@ -3432,7 +3432,6 @@ ISSUING_DIST_POINT
 ITU-T
 IV block
 I\tHA\t981G'dc
-If enabled, the up direction will be evaluated in world space, such that the object orientation does not affect the surface slope filtering. Additionally if Orient To Surface is 0, then and world space up is enabled, then the object orientation will not affect the rotation of detail model.
 IgnoreCompiledState set for type (%s)
 Ignoring already-handled file change: %s\n
 Ignoring failure to traverse directory and/or watch for changes: %s\n
@@ -4955,7 +4954,6 @@ Updating asset dependency information...
 Updating dependencies: %d%% (%s/%s) - %s
 Usage: "assetsystem_dump_table <table_name>" where table_name is either * (for all) or one of:\n
 Usage: assetsystem_check_compile_state <asset_name>\n
-Use World Space Up
 Use old behavior of calling ProcessFileChanges() immediately after recompiling a resource
 Using rule file '%s'\n
 Ut]<E
@@ -7678,19 +7676,13 @@ m_SpecialInputDependencies
 m_String
 m_SubassetDefinitions
 m_SubassetReferences
-m_UnrecognizedOutboundRefsErrorTypeExceptions
 m_UserData
 m_WeakReferenceList
-m_bAllowDefinitions
-m_bAllowReferences
-m_bErrorOnUnrecognizedOutboundRefs
 m_bFileExists
 m_bIsGameFile
 m_bOptional
-m_bWorldSpaceOrientation
 m_ePromiseState != EPromiseState::Unresolved
 m_fMoveTo
-m_nAssetThumbnailVersion
 m_nFileCRC
 m_nFingerprint
 m_nFingerprintDefault

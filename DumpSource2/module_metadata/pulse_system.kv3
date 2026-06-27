@@ -3,20 +3,23 @@
 	pulse_fingerprints = 
 	{
 		"@lib:pulse_system.dll!CPulseArraylib" = 3172841818
+		"@lib:pulse_system.dll!CPulseCell_BaseLerp" = 0
+		"@lib:pulse_system.dll!CPulseCell_BaseState" = 0
+		"@lib:pulse_system.dll!CPulseCell_BaseYieldingInflow" = 3311802875
 		"@lib:pulse_system.dll!CPulseCell_BooleanSwitchState" = 1295793995
 		"@lib:pulse_system.dll!CPulseCell_CursorQueue" = 717294393
 		"@lib:pulse_system.dll!CPulseCell_ExampleCriteria" = 1486452097
 		"@lib:pulse_system.dll!CPulseCell_ExampleSelector" = 2001098527
-		"@lib:pulse_system.dll!CPulseCell_FireCursors" = 3525151428
+		"@lib:pulse_system.dll!CPulseCell_FireCursors" = 824535693
 		"@lib:pulse_system.dll!CPulseCell_Inflow_EntOutputHandler" = 0
 		"@lib:pulse_system.dll!CPulseCell_Inflow_EventHandler" = 0
 		"@lib:pulse_system.dll!CPulseCell_Inflow_GraphHook" = 0
 		"@lib:pulse_system.dll!CPulseCell_Inflow_Method" = 0
 		"@lib:pulse_system.dll!CPulseCell_Inflow_ObservableVariableListener" = 0
-		"@lib:pulse_system.dll!CPulseCell_Inflow_Wait" = 4000015640
-		"@lib:pulse_system.dll!CPulseCell_Inflow_Yield" = 876467045
+		"@lib:pulse_system.dll!CPulseCell_Inflow_Wait" = 3452528170
+		"@lib:pulse_system.dll!CPulseCell_Inflow_Yield" = 955696098
 		"@lib:pulse_system.dll!CPulseCell_InlineNodeSkipSelector" = 2476493328
-		"@lib:pulse_system.dll!CPulseCell_IntervalTimer" = 119164720
+		"@lib:pulse_system.dll!CPulseCell_IntervalTimer" = 1789125561
 		"@lib:pulse_system.dll!CPulseCell_IsRequirementValid" = 931326599
 		"@lib:pulse_system.dll!CPulseCell_LimitCount" = 3165042484
 		"@lib:pulse_system.dll!CPulseCell_Outflow_CycleOrdered" = 4001330057
@@ -25,7 +28,7 @@
 		"@lib:pulse_system.dll!CPulseCell_Outflow_TestExplicitYesNo" = 874680987
 		"@lib:pulse_system.dll!CPulseCell_Outflow_TestRandomYesNo" = 1043254935
 		"@lib:pulse_system.dll!CPulseCell_PickBestOutflowSelector" = 252227061
-		"@lib:pulse_system.dll!CPulseCell_Step_CallExternalMethod" = 253204677
+		"@lib:pulse_system.dll!CPulseCell_Step_CallExternalMethod" = 1549135810
 		"@lib:pulse_system.dll!CPulseCell_Step_DebugLog" = 3575830881
 		"@lib:pulse_system.dll!CPulseCell_Step_PublicOutput" = 861796290
 		"@lib:pulse_system.dll!CPulseCell_Step_TestDomainCreateFakeEntity" = 3098106077
@@ -35,10 +38,14 @@
 		"@lib:pulse_system.dll!CPulseCell_Test_MultiInflow_NoDefault" = 3968509157
 		"@lib:pulse_system.dll!CPulseCell_Test_MultiInflow_WithDefault" = 1187710888
 		"@lib:pulse_system.dll!CPulseCell_Test_MultiOutflow_WithParams" = 1146619215
-		"@lib:pulse_system.dll!CPulseCell_Test_MultiOutflow_WithParams_Yielding" = 3217356584
+		"@lib:pulse_system.dll!CPulseCell_Test_MultiOutflow_WithParams_Yielding" = 3169926234
 		"@lib:pulse_system.dll!CPulseCell_Test_NoInflow" = 0
-		"@lib:pulse_system.dll!CPulseCell_TestWaitWithCursorState" = 3335951961
-		"@lib:pulse_system.dll!CPulseCell_Timeline" = 1178222295
+		"@lib:pulse_system.dll!CPulseCell_TestEnums" = 209794526
+		"@lib:pulse_system.dll!CPulseCell_TestWaitWithAutoTracepoints" = 1664417737
+		"@lib:pulse_system.dll!CPulseCell_TestWaitWithCursorState" = 2674571404
+		"@lib:pulse_system.dll!CPulseCell_TestYieldForever" = 322175843
+		"@lib:pulse_system.dll!CPulseCell_TestYieldWithObservables" = 869312600
+		"@lib:pulse_system.dll!CPulseCell_Timeline" = 3988269055
 		"@lib:pulse_system.dll!CPulseCell_Val_TestDomainFindEntityByName" = 1963384413
 		"@lib:pulse_system.dll!CPulseCell_Val_TestDomainGetEntityName" = 789060903
 		"@lib:pulse_system.dll!CPulseCell_Value_Curve" = 975032352
@@ -47,24 +54,30 @@
 		"@lib:pulse_system.dll!CPulseCell_Value_RandomInt" = 393431413
 		"@lib:pulse_system.dll!CPulseCell_Value_TestValue50" = 399151736
 		"@lib:pulse_system.dll!CPulseCell_WaitForCursorsWithTag" = 860342186
-		"@lib:pulse_system.dll!CPulseCell_WaitForObservable" = 2210056048
-		"@lib:pulse_system.dll!CPulseCursorFuncs" = 109602028
+		"@lib:pulse_system.dll!CPulseCell_WaitForObservable" = 1630411852
+		"@lib:pulse_system.dll!CPulseCursorFuncs" = 2994080292
+		"@lib:pulse_system.dll!CPulseEnumlib" = 1916837592
 		"@lib:pulse_system.dll!CPulseGraphInstance_TestDomain" = 4056096240
 		"@lib:pulse_system.dll!CPulseGraphInstance_TestDomain_Derived" = 2810664148
 		"@lib:pulse_system.dll!CPulseGraphInstance_TestDomain_FakeEntityOwner" = 0
 		"@lib:pulse_system.dll!CPulseGraphInstance_TestDomain_UseReadOnlyBlackboardView" = 0
 		"@lib:pulse_system.dll!CPulseGraphInstance_TurtleGraphics" = 3115190533
-		"@lib:pulse_system.dll!CPulseMathlib" = 1084168616
-		"@lib:pulse_system.dll!CPulseTestFuncs_LibraryA" = 4134234001
+		"@lib:pulse_system.dll!CPulseMathlib" = 2237422034
+		"@lib:pulse_system.dll!CPulseStringlib" = 1521109281
+		"@lib:pulse_system.dll!CPulseTestFuncs_LibraryA" = 2306211623
 		"@lib:pulse_system.dll!CPulseTestScriptLib" = 1396807546
 		"@lib:pulse_system.dll!CPulseTurtleGraphicsCursor" = 1515886733
 		"@lib:pulse_system.dll!CTestDomainDerived_Cursor" = 1726847264
 		"@lib:pulse_system.dll!FakeEntity_tAPI" = 3690219950
 		"@lib:pulse_system.dll!FakeEntityDerivedA_tAPI" = 4237965054
-		"@lib:pulse_system.dll!FakeEntityDerivedB_tAPI" = 20727738
+		"@lib:pulse_system.dll!FakeEntityDerivedB_tAPI_NEW_NAME" = 596087073
 		"@lib:pulse_system.dll!TestComponent_tAPI" = 4189019600
 		"@type:pulse_system.dll!PVAL_SCHEMA_ENUM:PulseCursorCancelPriority_t" = 627611872
+		"@type:pulse_system.dll!PVAL_SCHEMA_ENUM:PulseCursorWakePriority_t" = 2889899724
+		"@type:pulse_system.dll!PVAL_SCHEMA_ENUM:PulseDurationStringFormat_t" = 1531666510
 		"@type:pulse_system.dll!PVAL_SCHEMA_ENUM:PulseTestEnumColor_t" = 2024739640
+		"@type:pulse_system.dll!PVAL_SCHEMA_ENUM:PulseTestEnumFlags_t" = 1052309794
+		"@type:pulse_system.dll!PVAL_SCHEMA_ENUM:PulseTestEnumFlagsAlt_t" = 1426389268
 		"@type:pulse_system.dll!PVAL_SCHEMA_ENUM:PulseTestEnumShape_t" = 2237060283
 	}
 	pulse_bindings = 
@@ -100,7 +113,7 @@
 				"COMPONENT(PVAL_TEST_HANDLE:fake_derived_a)+TestComponent_tAPI::ComponentFunc" = 
 				{
 					m_BaseClasses = [  ]
-					m_FriendlyName = "Component Func (fake_derived_a)"
+					m_FriendlyName = "Component Func"
 					m_Description = ""
 					m_MetaData = 
 					{
@@ -109,16 +122,13 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!TestComponent_tAPI"
-						}
+						fingerprint = "@lib:pulse_system.dll!TestComponent_tAPI"
 						pulse_inparams = 
 						{
 							_Target = 
 							{
-								friendly_name = "Target"
-								description = ""
+								friendly_name = "fake_derived_a"
+								description = "The Target object. In code, this parameter is the API This() object for this Input."
 								advanced_view = false
 								metadata = null
 								type = "PVAL_TEST_HANDLE:fake_derived_a"
@@ -133,7 +143,6 @@
 						generic_node_category = 5
 						is_pulse_target_method = true
 						target_arg_name = "_Target"
-						friendly_name_without_target = "Component Func"
 						pulse_inflows = 
 						[
 							{
@@ -174,10 +183,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseArraylib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseArraylib"
 						pulse_inparams = 
 						{
 							a = 
@@ -259,10 +265,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseArraylib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseArraylib"
 						pulse_inparams = 
 						{
 							a = 
@@ -345,10 +348,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseArraylib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseArraylib"
 						pulse_inparams = 
 						{
 							a = 
@@ -410,10 +410,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseArraylib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseArraylib"
 						pulse_inparams = 
 						{
 							a = 
@@ -491,10 +488,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseArraylib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseArraylib"
 						pulse_inparams = 
 						{
 							a = 
@@ -574,10 +568,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseArraylib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseArraylib"
 						pulse_inparams = 
 						{
 							a = 
@@ -672,10 +663,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseArraylib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseArraylib"
 						pulse_inparams = 
 						{
 							a = 
@@ -757,10 +745,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseArraylib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseArraylib"
 						pulse_inparams = 
 						{
 							a = 
@@ -839,10 +824,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseArraylib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseArraylib"
 						pulse_inparams = 
 						{
 							a = 
@@ -908,10 +890,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseArraylib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseArraylib"
 						pulse_inparams = 
 						{
 							a = 
@@ -990,10 +969,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseArraylib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseArraylib"
 						pulse_inparams = 
 						{
 							a = 
@@ -1147,6 +1123,7 @@
 						expect_default_outflow = true
 						generic_node_category = 5
 						is_state_cell = false
+						standard_yielding_flow = true
 						pulse_outflows = 
 						[
 							{
@@ -1232,6 +1209,7 @@
 						expect_default_outflow = false
 						generic_node_category = 5
 						is_state_cell = true
+						standard_yielding_flow = true
 						header_icon = "tools/images/pulse_editor/inflow_statecell.png"
 						pulse_inflows = 
 						[
@@ -1306,6 +1284,7 @@
 						expect_default_outflow = true
 						generic_node_category = 5
 						is_state_cell = false
+						standard_yielding_flow = true
 						pulse_inflows = 
 						[
 							{
@@ -1356,6 +1335,7 @@
 						expect_default_outflow = false
 						generic_node_category = 5
 						is_state_cell = true
+						standard_yielding_flow = true
 						header_icon = "tools/images/pulse_editor/inflow_statecell.png"
 						supported_domains = 
 						{
@@ -1373,10 +1353,7 @@
 								is_default_inflow = true
 							},
 						]
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseCell_BooleanSwitchState"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseCell_BooleanSwitchState"
 						editor_canvas_item_spec = 
 						{
 							className = "IsStateNode"
@@ -1386,32 +1363,29 @@
 						[
 							{
 								field_name = "m_Condition"
-								attr_factory = "PulseObservableBoolExpression_t"
+								attr_factory = "CPulseObservableExpression"
 								friendly_name = "Observable"
 								description = "Condition to evaluate when any of its dependent values change."
+								args = 
+								{
+									expression_type = "PVAL_BOOL"
+								}
 							},
 						]
 						pulse_outflows = 
 						[
 							{
-								name = "m_Always"
-								is_default_outflow = false
-								backed_by_variable = true
-								friendly_name = "Always"
-								description = "Fired immediately when this node begins for chaining purposes."
-							},
-							{
 								name = "m_WhenTrue"
 								is_default_outflow = false
 								backed_by_variable = true
-								friendly_name = "When True"
+								friendly_name = "While True"
 								description = "Fired when the observable boolean is true, and killed when false."
 							},
 							{
 								name = "m_WhenFalse"
 								is_default_outflow = false
 								backed_by_variable = true
-								friendly_name = "When False"
+								friendly_name = "While False"
 								description = "Fired when the observable boolean is false, and killed when true."
 							},
 						]
@@ -1448,6 +1422,7 @@
 						expect_default_outflow = true
 						generic_node_category = 5
 						is_state_cell = false
+						standard_yielding_flow = true
 						editor_canvas_item_spec = 
 						{
 							className = "IsControlFlowNode"
@@ -1478,10 +1453,7 @@
 								is_default_inflow = true
 							},
 						]
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseCell_CursorQueue"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseCell_CursorQueue"
 						header_icon = "tools/images/pulse_editor/cursor_wait_zone.png"
 					}
 					m_HelpContextName = ""
@@ -1604,10 +1576,7 @@
 								requirement_commit = false
 							},
 						]
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseCell_ExampleCriteria"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseCell_ExampleCriteria"
 					}
 					m_HelpContextName = ""
 					m_nClassType = "vdata"
@@ -1663,10 +1632,7 @@
 								is_default_inflow = true
 							},
 						]
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseCell_ExampleSelector"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseCell_ExampleSelector"
 						header_icon = "tools/images/pulse_editor/requirements.png"
 						editor_canvas_item_spec = 
 						{
@@ -1683,6 +1649,26 @@
 								description = ""
 							},
 						]
+					}
+					m_HelpContextName = ""
+					m_nClassType = "vdata"
+					m_rgbColor = [ 220, 30, 220 ]
+					m_bmins = [ -8.0, -8.0, -8.0 ]
+					m_bmaxs = [ 8.0, 8.0, 8.0 ]
+					m_Tags = [  ]
+					m_Variables = [  ]
+					m_Inputs = [  ]
+					m_Outputs = [  ]
+					m_Helpers = [  ]
+				}
+				"CPulseCell_FireCursors::Cancel" = 
+				{
+					m_BaseClasses = [  ]
+					m_FriendlyName = ""
+					m_Description = ""
+					m_MetaData = 
+					{
+						legacy_name_replacement = "CPulseCell_BaseYieldingInflow::BaseFlow_CancelImmediately"
 					}
 					m_HelpContextName = ""
 					m_nClassType = "vdata"
@@ -1716,6 +1702,7 @@
 						expect_default_outflow = true
 						generic_node_category = 5
 						is_state_cell = false
+						standard_yielding_flow = true
 						supported_domains = 
 						{
 							BaseDomain = true
@@ -1746,27 +1733,8 @@
 								terminates = false
 								is_default_inflow = true
 							},
-							{
-								name = "ImmediateWake"
-								friendly_name = "Immediate Wake"
-								description = "Immediately reactivate any waiting cursors regardless of how long they have been waiting."
-								yields = false
-								terminates = true
-								is_default_inflow = false
-							},
-							{
-								name = "Abort"
-								friendly_name = "Abort"
-								description = "Cancel any waiting cursors."
-								yields = false
-								terminates = true
-								is_default_inflow = false
-							},
 						]
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseCell_Inflow_Wait"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseCell_Inflow_Wait"
 						header_icon = "tools/images/pulse_editor/inflow_wait.png"
 						editor_canvas_item_spec = 
 						{
@@ -1783,6 +1751,86 @@
 								description = ""
 							},
 						]
+					}
+					m_HelpContextName = ""
+					m_nClassType = "vdata"
+					m_rgbColor = [ 220, 30, 220 ]
+					m_bmins = [ -8.0, -8.0, -8.0 ]
+					m_bmaxs = [ 8.0, 8.0, 8.0 ]
+					m_Tags = [  ]
+					m_Variables = [  ]
+					m_Inputs = [  ]
+					m_Outputs = [  ]
+					m_Helpers = [  ]
+				}
+				"CPulseCell_Inflow_Wait::Abort" = 
+				{
+					m_BaseClasses = [  ]
+					m_FriendlyName = ""
+					m_Description = ""
+					m_MetaData = 
+					{
+						legacy_name_replacement = "CPulseCell_BaseYieldingInflow::BaseFlow_CancelImmediately"
+					}
+					m_HelpContextName = ""
+					m_nClassType = "vdata"
+					m_rgbColor = [ 220, 30, 220 ]
+					m_bmins = [ -8.0, -8.0, -8.0 ]
+					m_bmaxs = [ 8.0, 8.0, 8.0 ]
+					m_Tags = [  ]
+					m_Variables = [  ]
+					m_Inputs = [  ]
+					m_Outputs = [  ]
+					m_Helpers = [  ]
+				}
+				"CPulseCell_Inflow_Wait::ImmediateWake" = 
+				{
+					m_BaseClasses = [  ]
+					m_FriendlyName = ""
+					m_Description = ""
+					m_MetaData = 
+					{
+						legacy_name_replacement = "CPulseCell_BaseYieldingInflow::BaseFlow_WakeImmediately"
+					}
+					m_HelpContextName = ""
+					m_nClassType = "vdata"
+					m_rgbColor = [ 220, 30, 220 ]
+					m_bmins = [ -8.0, -8.0, -8.0 ]
+					m_bmaxs = [ 8.0, 8.0, 8.0 ]
+					m_Tags = [  ]
+					m_Variables = [  ]
+					m_Inputs = [  ]
+					m_Outputs = [  ]
+					m_Helpers = [  ]
+				}
+				"CPulseCell_Inflow_Yield::Abort" = 
+				{
+					m_BaseClasses = [  ]
+					m_FriendlyName = ""
+					m_Description = ""
+					m_MetaData = 
+					{
+						legacy_name_replacement = "CPulseCell_BaseYieldingInflow::BaseFlow_CancelImmediately"
+					}
+					m_HelpContextName = ""
+					m_nClassType = "vdata"
+					m_rgbColor = [ 220, 30, 220 ]
+					m_bmins = [ -8.0, -8.0, -8.0 ]
+					m_bmaxs = [ 8.0, 8.0, 8.0 ]
+					m_Tags = [  ]
+					m_Variables = [  ]
+					m_Inputs = [  ]
+					m_Outputs = [  ]
+					m_Helpers = [  ]
+				}
+				"CPulseCell_Inflow_Yield::Resume" = 
+				{
+					m_BaseClasses = [  ]
+					m_FriendlyName = ""
+					m_Description = ""
+					m_MetaData = 
+					{
+						legacy_name_replacement = "CPulseCell_BaseYieldingInflow::BaseFlow_WakeImmediately"
 					}
 					m_HelpContextName = ""
 					m_nClassType = "vdata"
@@ -1837,10 +1885,7 @@
 								is_default_inflow = true
 							},
 						]
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseCell_InlineNodeSkipSelector"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseCell_InlineNodeSkipSelector"
 						is_selector = true
 						pulse_node_custom_attributes = 
 						[
@@ -1922,6 +1967,7 @@
 						expect_default_outflow = true
 						generic_node_category = 5
 						is_state_cell = false
+						standard_yielding_flow = true
 						supported_domains = 
 						{
 							BaseDomain = true
@@ -1931,7 +1977,7 @@
 							flDuration = 
 							{
 								friendly_name = "Duration"
-								description = "If -1 timer will continue forever"
+								description = "This is the overall duration. If -1 timer will continue forever. During this duration, we will fire a new child cursor at each Interval."
 								advanced_view = true
 								metadata = null
 								type = "PVAL_FLOAT"
@@ -1981,20 +2027,13 @@
 								terminates = false
 								is_default_inflow = true
 							},
-							{
-								name = "StopTimer"
-								friendly_name = "Stop Timer"
-								description = "Stop any active timers - the completed outflow will still fire"
-								yields = false
-								terminates = false
-								is_default_inflow = false
-							},
 						]
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseCell_IntervalTimer"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseCell_IntervalTimer"
 						header_icon = "tools/images/pulse_editor/node_timer.png"
+						editor_canvas_item_spec = 
+						{
+							item_factory = "IntervalTimer"
+						}
 						pulse_outflows = 
 						[
 							{
@@ -2041,6 +2080,26 @@
 								associated_outflow_name = "m_OnInterval"
 							}
 						}
+					}
+					m_HelpContextName = ""
+					m_nClassType = "vdata"
+					m_rgbColor = [ 220, 30, 220 ]
+					m_bmins = [ -8.0, -8.0, -8.0 ]
+					m_bmaxs = [ 8.0, 8.0, 8.0 ]
+					m_Tags = [  ]
+					m_Variables = [  ]
+					m_Inputs = [  ]
+					m_Outputs = [  ]
+					m_Helpers = [  ]
+				}
+				"CPulseCell_IntervalTimer::StopTimer" = 
+				{
+					m_BaseClasses = [  ]
+					m_FriendlyName = ""
+					m_Description = ""
+					m_MetaData = 
+					{
+						legacy_name_replacement = "CPulseCell_BaseYieldingInflow::BaseFlow_WakeImmediately"
 					}
 					m_HelpContextName = ""
 					m_nClassType = "vdata"
@@ -2103,10 +2162,7 @@
 								requirement_commit = true
 							},
 						]
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseCell_LimitCount"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseCell_LimitCount"
 					}
 					m_HelpContextName = ""
 					m_nClassType = "vdata"
@@ -2131,6 +2187,306 @@
 							m_pItemSet = null
 						},
 					]
+					m_Inputs = [  ]
+					m_Outputs = [  ]
+					m_Helpers = [  ]
+				}
+				"CPulseCell_Outflow_ListenForAnimgraphTag::Cancel" = 
+				{
+					m_BaseClasses = [  ]
+					m_FriendlyName = ""
+					m_Description = ""
+					m_MetaData = 
+					{
+						legacy_name_replacement = "CPulseCell_BaseYieldingInflow::BaseFlow_CancelImmediately"
+					}
+					m_HelpContextName = ""
+					m_nClassType = "vdata"
+					m_rgbColor = [ 220, 30, 220 ]
+					m_bmins = [ -8.0, -8.0, -8.0 ]
+					m_bmaxs = [ 8.0, 8.0, 8.0 ]
+					m_Tags = [  ]
+					m_Variables = [  ]
+					m_Inputs = [  ]
+					m_Outputs = [  ]
+					m_Helpers = [  ]
+				}
+				"CPulseCell_Outflow_ListenForEntityOutput::Cancel" = 
+				{
+					m_BaseClasses = [  ]
+					m_FriendlyName = ""
+					m_Description = ""
+					m_MetaData = 
+					{
+						legacy_name_replacement = "CPulseCell_BaseYieldingInflow::BaseFlow_CancelImmediately"
+					}
+					m_HelpContextName = ""
+					m_nClassType = "vdata"
+					m_rgbColor = [ 220, 30, 220 ]
+					m_bmins = [ -8.0, -8.0, -8.0 ]
+					m_bmaxs = [ 8.0, 8.0, 8.0 ]
+					m_Tags = [  ]
+					m_Variables = [  ]
+					m_Inputs = [  ]
+					m_Outputs = [  ]
+					m_Helpers = [  ]
+				}
+				"CPulseCell_Outflow_NPCAccompanyEntity::Cancel" = 
+				{
+					m_BaseClasses = [  ]
+					m_FriendlyName = ""
+					m_Description = ""
+					m_MetaData = 
+					{
+						legacy_name_replacement = "CPulseCell_BaseYieldingInflow::BaseFlow_CancelImmediately"
+					}
+					m_HelpContextName = ""
+					m_nClassType = "vdata"
+					m_rgbColor = [ 220, 30, 220 ]
+					m_bmins = [ -8.0, -8.0, -8.0 ]
+					m_bmaxs = [ 8.0, 8.0, 8.0 ]
+					m_Tags = [  ]
+					m_Variables = [  ]
+					m_Inputs = [  ]
+					m_Outputs = [  ]
+					m_Helpers = [  ]
+				}
+				"CPulseCell_Outflow_NPCFollowTarget::Cancel" = 
+				{
+					m_BaseClasses = [  ]
+					m_FriendlyName = ""
+					m_Description = ""
+					m_MetaData = 
+					{
+						legacy_name_replacement = "CPulseCell_BaseYieldingInflow::BaseFlow_CancelImmediately"
+					}
+					m_HelpContextName = ""
+					m_nClassType = "vdata"
+					m_rgbColor = [ 220, 30, 220 ]
+					m_bmins = [ -8.0, -8.0, -8.0 ]
+					m_bmaxs = [ 8.0, 8.0, 8.0 ]
+					m_Tags = [  ]
+					m_Variables = [  ]
+					m_Inputs = [  ]
+					m_Outputs = [  ]
+					m_Helpers = [  ]
+				}
+				"CPulseCell_Outflow_NPCLeadPlayer::Cancel" = 
+				{
+					m_BaseClasses = [  ]
+					m_FriendlyName = ""
+					m_Description = ""
+					m_MetaData = 
+					{
+						legacy_name_replacement = "CPulseCell_BaseYieldingInflow::BaseFlow_CancelImmediately"
+					}
+					m_HelpContextName = ""
+					m_nClassType = "vdata"
+					m_rgbColor = [ 220, 30, 220 ]
+					m_bmins = [ -8.0, -8.0, -8.0 ]
+					m_bmaxs = [ 8.0, 8.0, 8.0 ]
+					m_Tags = [  ]
+					m_Variables = [  ]
+					m_Inputs = [  ]
+					m_Outputs = [  ]
+					m_Helpers = [  ]
+				}
+				"CPulseCell_Outflow_NPCScriptedIdle::Cancel" = 
+				{
+					m_BaseClasses = [  ]
+					m_FriendlyName = ""
+					m_Description = ""
+					m_MetaData = 
+					{
+						legacy_name_replacement = "CPulseCell_BaseYieldingInflow::BaseFlow_CancelImmediately"
+					}
+					m_HelpContextName = ""
+					m_nClassType = "vdata"
+					m_rgbColor = [ 220, 30, 220 ]
+					m_bmins = [ -8.0, -8.0, -8.0 ]
+					m_bmaxs = [ 8.0, 8.0, 8.0 ]
+					m_Tags = [  ]
+					m_Variables = [  ]
+					m_Inputs = [  ]
+					m_Outputs = [  ]
+					m_Helpers = [  ]
+				}
+				"CPulseCell_Outflow_NPCScriptedIdle::CancelElegantly" = 
+				{
+					m_BaseClasses = [  ]
+					m_FriendlyName = ""
+					m_Description = ""
+					m_MetaData = 
+					{
+						legacy_name_replacement = "CPulseCell_BaseYieldingInflow::BaseFlow_CancelElegantly"
+					}
+					m_HelpContextName = ""
+					m_nClassType = "vdata"
+					m_rgbColor = [ 220, 30, 220 ]
+					m_bmins = [ -8.0, -8.0, -8.0 ]
+					m_bmaxs = [ 8.0, 8.0, 8.0 ]
+					m_Tags = [  ]
+					m_Variables = [  ]
+					m_Inputs = [  ]
+					m_Outputs = [  ]
+					m_Helpers = [  ]
+				}
+				"CPulseCell_Outflow_NPCScriptedMoveTo::Cancel" = 
+				{
+					m_BaseClasses = [  ]
+					m_FriendlyName = ""
+					m_Description = ""
+					m_MetaData = 
+					{
+						legacy_name_replacement = "CPulseCell_BaseYieldingInflow::BaseFlow_CancelImmediately"
+					}
+					m_HelpContextName = ""
+					m_nClassType = "vdata"
+					m_rgbColor = [ 220, 30, 220 ]
+					m_bmins = [ -8.0, -8.0, -8.0 ]
+					m_bmaxs = [ 8.0, 8.0, 8.0 ]
+					m_Tags = [  ]
+					m_Variables = [  ]
+					m_Inputs = [  ]
+					m_Outputs = [  ]
+					m_Helpers = [  ]
+				}
+				"CPulseCell_Outflow_NPCUseScriptedAbility::Cancel" = 
+				{
+					m_BaseClasses = [  ]
+					m_FriendlyName = ""
+					m_Description = ""
+					m_MetaData = 
+					{
+						legacy_name_replacement = "CPulseCell_BaseYieldingInflow::BaseFlow_CancelImmediately"
+					}
+					m_HelpContextName = ""
+					m_nClassType = "vdata"
+					m_rgbColor = [ 220, 30, 220 ]
+					m_bmins = [ -8.0, -8.0, -8.0 ]
+					m_bmaxs = [ 8.0, 8.0, 8.0 ]
+					m_Tags = [  ]
+					m_Variables = [  ]
+					m_Inputs = [  ]
+					m_Outputs = [  ]
+					m_Helpers = [  ]
+				}
+				"CPulseCell_Outflow_PlaySequence::Cancel" = 
+				{
+					m_BaseClasses = [  ]
+					m_FriendlyName = ""
+					m_Description = ""
+					m_MetaData = 
+					{
+						legacy_name_replacement = "CPulseCell_BaseYieldingInflow::BaseFlow_CancelImmediately"
+					}
+					m_HelpContextName = ""
+					m_nClassType = "vdata"
+					m_rgbColor = [ 220, 30, 220 ]
+					m_bmins = [ -8.0, -8.0, -8.0 ]
+					m_bmaxs = [ 8.0, 8.0, 8.0 ]
+					m_Tags = [  ]
+					m_Variables = [  ]
+					m_Inputs = [  ]
+					m_Outputs = [  ]
+					m_Helpers = [  ]
+				}
+				"CPulseCell_Outflow_PlaySequence::CancelAtInterrupt" = 
+				{
+					m_BaseClasses = [  ]
+					m_FriendlyName = ""
+					m_Description = ""
+					m_MetaData = 
+					{
+						legacy_name_replacement = "CPulseCell_BaseYieldingInflow::BaseFlow_CancelElegantly"
+					}
+					m_HelpContextName = ""
+					m_nClassType = "vdata"
+					m_rgbColor = [ 220, 30, 220 ]
+					m_bmins = [ -8.0, -8.0, -8.0 ]
+					m_bmaxs = [ 8.0, 8.0, 8.0 ]
+					m_Tags = [  ]
+					m_Variables = [  ]
+					m_Inputs = [  ]
+					m_Outputs = [  ]
+					m_Helpers = [  ]
+				}
+				"CPulseCell_Outflow_PlayVCD::Cancel" = 
+				{
+					m_BaseClasses = [  ]
+					m_FriendlyName = ""
+					m_Description = ""
+					m_MetaData = 
+					{
+						legacy_name_replacement = "CPulseCell_BaseYieldingInflow::BaseFlow_CancelImmediately"
+					}
+					m_HelpContextName = ""
+					m_nClassType = "vdata"
+					m_rgbColor = [ 220, 30, 220 ]
+					m_bmins = [ -8.0, -8.0, -8.0 ]
+					m_bmaxs = [ 8.0, 8.0, 8.0 ]
+					m_Tags = [  ]
+					m_Variables = [  ]
+					m_Inputs = [  ]
+					m_Outputs = [  ]
+					m_Helpers = [  ]
+				}
+				"CPulseCell_Outflow_PlayVCD::CancelAtInterrupt" = 
+				{
+					m_BaseClasses = [  ]
+					m_FriendlyName = ""
+					m_Description = ""
+					m_MetaData = 
+					{
+						legacy_name_replacement = "CPulseCell_BaseYieldingInflow::BaseFlow_CancelElegantly"
+					}
+					m_HelpContextName = ""
+					m_nClassType = "vdata"
+					m_rgbColor = [ 220, 30, 220 ]
+					m_bmins = [ -8.0, -8.0, -8.0 ]
+					m_bmaxs = [ 8.0, 8.0, 8.0 ]
+					m_Tags = [  ]
+					m_Variables = [  ]
+					m_Inputs = [  ]
+					m_Outputs = [  ]
+					m_Helpers = [  ]
+				}
+				"CPulseCell_Outflow_PlayVOLine::Cancel" = 
+				{
+					m_BaseClasses = [  ]
+					m_FriendlyName = ""
+					m_Description = ""
+					m_MetaData = 
+					{
+						legacy_name_replacement = "CPulseCell_BaseYieldingInflow::BaseFlow_CancelImmediately"
+					}
+					m_HelpContextName = ""
+					m_nClassType = "vdata"
+					m_rgbColor = [ 220, 30, 220 ]
+					m_bmins = [ -8.0, -8.0, -8.0 ]
+					m_bmaxs = [ 8.0, 8.0, 8.0 ]
+					m_Tags = [  ]
+					m_Variables = [  ]
+					m_Inputs = [  ]
+					m_Outputs = [  ]
+					m_Helpers = [  ]
+				}
+				"CPulseCell_Outflow_ScriptedSequence::Cancel" = 
+				{
+					m_BaseClasses = [  ]
+					m_FriendlyName = ""
+					m_Description = ""
+					m_MetaData = 
+					{
+						legacy_name_replacement = "CPulseCell_BaseYieldingInflow::BaseFlow_CancelImmediately"
+					}
+					m_HelpContextName = ""
+					m_nClassType = "vdata"
+					m_rgbColor = [ 220, 30, 220 ]
+					m_bmins = [ -8.0, -8.0, -8.0 ]
+					m_bmaxs = [ 8.0, 8.0, 8.0 ]
+					m_Tags = [  ]
+					m_Variables = [  ]
 					m_Inputs = [  ]
 					m_Outputs = [  ]
 					m_Helpers = [  ]
@@ -2172,10 +2528,7 @@
 								is_default_inflow = true
 							},
 						]
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseCell_Outflow_TestExplicitYesNo"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseCell_Outflow_TestExplicitYesNo"
 						pulse_outflows = 
 						[
 							{
@@ -2242,10 +2595,7 @@
 								is_default_inflow = true
 							},
 						]
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseCell_Outflow_TestRandomYesNo"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseCell_Outflow_TestRandomYesNo"
 						pulse_outflows = 
 						[
 							{
@@ -2317,10 +2667,7 @@
 								is_default_inflow = true
 							},
 						]
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseCell_PickBestOutflowSelector"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseCell_PickBestOutflowSelector"
 						header_icon = "tools/images/pulse_editor/requirements.png"
 						editor_canvas_item_spec = 
 						{
@@ -2382,6 +2729,46 @@
 							}
 						},
 					]
+					m_Inputs = [  ]
+					m_Outputs = [  ]
+					m_Helpers = [  ]
+				}
+				"CPulseCell_PlaySequence::Cancel" = 
+				{
+					m_BaseClasses = [  ]
+					m_FriendlyName = ""
+					m_Description = ""
+					m_MetaData = 
+					{
+						legacy_name_replacement = "CPulseCell_BaseYieldingInflow::BaseFlow_CancelImmediately"
+					}
+					m_HelpContextName = ""
+					m_nClassType = "vdata"
+					m_rgbColor = [ 220, 30, 220 ]
+					m_bmins = [ -8.0, -8.0, -8.0 ]
+					m_bmaxs = [ 8.0, 8.0, 8.0 ]
+					m_Tags = [  ]
+					m_Variables = [  ]
+					m_Inputs = [  ]
+					m_Outputs = [  ]
+					m_Helpers = [  ]
+				}
+				"CPulseCell_Step_CallExternalMethod::StopWaiting" = 
+				{
+					m_BaseClasses = [  ]
+					m_FriendlyName = ""
+					m_Description = ""
+					m_MetaData = 
+					{
+						legacy_name_replacement = "CPulseCell_BaseYieldingInflow::BaseFlow_CancelElegantly"
+					}
+					m_HelpContextName = ""
+					m_nClassType = "vdata"
+					m_rgbColor = [ 220, 30, 220 ]
+					m_bmins = [ -8.0, -8.0, -8.0 ]
+					m_bmaxs = [ 8.0, 8.0, 8.0 ]
+					m_Tags = [  ]
+					m_Variables = [  ]
 					m_Inputs = [  ]
 					m_Outputs = [  ]
 					m_Helpers = [  ]
@@ -2468,10 +2855,7 @@
 								is_default_inflow = true
 							},
 						]
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseCell_Step_TestDomainCreateFakeEntity"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseCell_Step_TestDomainCreateFakeEntity"
 						pulse_outflows = 
 						[
 							{
@@ -2545,10 +2929,7 @@
 								is_default_inflow = true
 							},
 						]
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseCell_Step_TestDomainDestroyFakeEntity"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseCell_Step_TestDomainDestroyFakeEntity"
 						pulse_outflows = 
 						[
 							{
@@ -2635,10 +3016,7 @@
 								is_default_inflow = true
 							},
 						]
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseCell_Step_TestDomainEntFire"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseCell_Step_TestDomainEntFire"
 						header_text = "Fire input {m_Input}"
 						pulse_outflows = 
 						[
@@ -2728,10 +3106,7 @@
 								is_default_inflow = true
 							},
 						]
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseCell_Step_TestDomainTracepoint"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseCell_Step_TestDomainTracepoint"
 						pulse_outflows = 
 						[
 							{
@@ -2826,10 +3201,7 @@
 								is_default_inflow = false
 							},
 						]
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseCell_Test_MultiInflow_NoDefault"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseCell_Test_MultiInflow_NoDefault"
 						pulse_outflows = 
 						[
 							{
@@ -2924,10 +3296,7 @@
 								is_default_inflow = false
 							},
 						]
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseCell_Test_MultiInflow_WithDefault"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseCell_Test_MultiInflow_WithDefault"
 						pulse_outflows = 
 						[
 							{
@@ -3048,10 +3417,7 @@
 								is_default_inflow = false
 							},
 						]
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseCell_Test_MultiOutflow_WithParams"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseCell_Test_MultiOutflow_WithParams"
 						pulse_outflows = 
 						[
 							{
@@ -3144,6 +3510,7 @@
 						expect_default_outflow = true
 						generic_node_category = 5
 						is_state_cell = false
+						standard_yielding_flow = true
 						supported_domains = 
 						{
 							TestDomain = true
@@ -3159,19 +3526,8 @@
 								terminates = false
 								is_default_inflow = true
 							},
-							{
-								name = "Stop"
-								friendly_name = "Stop"
-								description = ""
-								yields = false
-								terminates = true
-								is_default_inflow = false
-							},
 						]
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseCell_Test_MultiOutflow_WithParams_Yielding"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseCell_Test_MultiOutflow_WithParams_Yielding"
 						pulse_outflows = 
 						[
 							{
@@ -3344,6 +3700,295 @@
 					m_Outputs = [  ]
 					m_Helpers = [  ]
 				}
+				CPulseCell_TestEnums = 
+				{
+					m_BaseClasses = 
+					[
+						"CPulseCell_BaseValue",
+					]
+					m_FriendlyName = "Test Enums"
+					m_Description = ""
+					m_MetaData = 
+					{
+						MVDataNodeType = 0
+						MVDataOverlayType = 0
+						__populated_from_schema_modules = 
+						[
+							"pulse_system.dll",
+						]
+						hidden_in_tool = false
+						selector_has_specificity = false
+						expect_default_outflow = true
+						generic_node_category = 4
+						supported_domains = 
+						{
+							BaseDomain = true
+						}
+						pulse_inparams = 
+						{
+							nColor = 
+							{
+								friendly_name = "Color"
+								description = ""
+								advanced_view = false
+								metadata = null
+								type = "PVAL_SCHEMA_ENUM:PulseTestEnumColor_t"
+								default_value = 
+								[
+									"PVAL_VOID",
+								]
+								associated_inflow_name = "CompareValues"
+							}
+							nFlags = 
+							{
+								friendly_name = "Flags"
+								description = ""
+								advanced_view = false
+								metadata = null
+								type = "PVAL_SCHEMA_ENUM:PulseTestEnumFlags_t"
+								default_value = 
+								[
+									"PVAL_VOID",
+								]
+								associated_inflow_name = "CompareValues"
+							}
+						}
+						pulse_outparams = 
+						{
+							retval = 
+							{
+								friendly_name = "Result"
+								description = ""
+								advanced_view = false
+								metadata = null
+								type = "PVAL_BOOL"
+								default_value = 
+								[
+									"PVAL_VOID",
+								]
+								associated_outflow_name = "OutDefault"
+								direct_return_value_for = "CompareValues"
+							}
+						}
+						pulse_inflows = 
+						[
+							{
+								name = "CompareValues"
+								friendly_name = "Compare Values"
+								description = ""
+								yields = false
+								terminates = false
+								is_default_inflow = false
+							},
+						]
+						fingerprint = "@lib:pulse_system.dll!CPulseCell_TestEnums"
+					}
+					m_HelpContextName = ""
+					m_nClassType = "vdata"
+					m_rgbColor = [ 220, 30, 220 ]
+					m_bmins = [ -8.0, -8.0, -8.0 ]
+					m_bmaxs = [ 8.0, 8.0, 8.0 ]
+					m_Tags = [  ]
+					m_Variables = 
+					[
+						{
+							m_Name = "m_nReferenceColor"
+							m_FullType = "choices"
+							m_LongName = "Reference Color"
+							m_Description = ""
+							m_bUsingLegacyDefault = false
+							m_DefaultKV3 = "BLACK"
+							m_KV3Metadata = 
+							{
+								hidden = false
+							}
+							m_pItemSet = 
+							{
+								m_eType = "choices"
+								m_Items = 
+								[
+									{
+										m_iValue = 0
+										m_Value = "BLACK"
+										m_FriendlyName = "Black"
+										m_bDefault = false
+										m_bCustom = false
+										m_Description = ""
+									},
+									{
+										m_iValue = 0
+										m_Value = "WHITE"
+										m_FriendlyName = "White"
+										m_bDefault = false
+										m_bCustom = false
+										m_Description = ""
+									},
+									{
+										m_iValue = 0
+										m_Value = "RED"
+										m_FriendlyName = "Red"
+										m_bDefault = false
+										m_bCustom = false
+										m_Description = ""
+									},
+									{
+										m_iValue = 0
+										m_Value = "GREEN"
+										m_FriendlyName = "Green"
+										m_bDefault = false
+										m_bCustom = false
+										m_Description = ""
+									},
+									{
+										m_iValue = 0
+										m_Value = "BLUE"
+										m_FriendlyName = "Blue"
+										m_bDefault = false
+										m_bCustom = false
+										m_Description = ""
+									},
+								]
+							}
+						},
+						{
+							m_Name = "m_nReferenceFlags"
+							m_FullType = "flagchoices"
+							m_LongName = "Reference Flags"
+							m_Description = ""
+							m_bUsingLegacyDefault = false
+							m_DefaultKV3 = ""
+							m_KV3Metadata = 
+							{
+								hidden = false
+							}
+							m_pItemSet = 
+							{
+								m_eType = "flagchoices"
+								m_Items = 
+								[
+									{
+										m_iValue = 0
+										m_Value = "FIRST"
+										m_FriendlyName = "First"
+										m_bDefault = false
+										m_bCustom = false
+										m_Description = ""
+									},
+									{
+										m_iValue = 0
+										m_Value = "SECOND"
+										m_FriendlyName = "Second"
+										m_bDefault = false
+										m_bCustom = false
+										m_Description = ""
+									},
+									{
+										m_iValue = 0
+										m_Value = "THIRD"
+										m_FriendlyName = "Third"
+										m_bDefault = false
+										m_bCustom = false
+										m_Description = ""
+									},
+								]
+							}
+						},
+					]
+					m_Inputs = [  ]
+					m_Outputs = [  ]
+					m_Helpers = [  ]
+				}
+				CPulseCell_TestWaitWithAutoTracepoints = 
+				{
+					m_BaseClasses = 
+					[
+						"CPulseCell_BaseYieldingInflow",
+					]
+					m_FriendlyName = "Wait and Trace"
+					m_Description = ""
+					m_MetaData = 
+					{
+						MVDataNodeType = 0
+						MVDataOverlayType = 0
+						__populated_from_schema_modules = 
+						[
+							"pulse_system.dll",
+						]
+						hidden_in_tool = false
+						selector_has_specificity = false
+						expect_default_outflow = true
+						generic_node_category = 5
+						is_state_cell = false
+						standard_yielding_flow = true
+						supported_domains = 
+						{
+							TestDomain = true
+						}
+						pulse_inparams = 
+						{
+							flDurationSec = 
+							{
+								friendly_name = "Duration Sec"
+								description = ""
+								advanced_view = false
+								metadata = null
+								type = "PVAL_FLOAT"
+								default_value = 
+								[
+									"PVAL_VOID",
+								]
+								associated_inflow_name = "Wait"
+							}
+						}
+						pulse_inflows = 
+						[
+							{
+								name = "Wait"
+								friendly_name = "Wait"
+								description = ""
+								yields = true
+								terminates = false
+								is_default_inflow = true
+							},
+						]
+						fingerprint = "@lib:pulse_system.dll!CPulseCell_TestWaitWithAutoTracepoints"
+						pulse_outflows = 
+						[
+							{
+								name = "m_WakeResume"
+								is_default_outflow = true
+								backed_by_variable = true
+								friendly_name = "Wake Resume"
+								description = ""
+							},
+						]
+					}
+					m_HelpContextName = ""
+					m_nClassType = "vdata"
+					m_rgbColor = [ 220, 30, 220 ]
+					m_bmins = [ -8.0, -8.0, -8.0 ]
+					m_bmaxs = [ 8.0, 8.0, 8.0 ]
+					m_Tags = [  ]
+					m_Variables = 
+					[
+						{
+							m_Name = "m_TracePrefix"
+							m_FullType = "string"
+							m_LongName = "Trace Prefix"
+							m_Description = ""
+							m_bUsingLegacyDefault = false
+							m_DefaultKV3 = ""
+							m_KV3Metadata = 
+							{
+								hidden = false
+							}
+							m_pItemSet = null
+						},
+					]
+					m_Inputs = [  ]
+					m_Outputs = [  ]
+					m_Helpers = [  ]
+				}
 				CPulseCell_TestWaitWithCursorState = 
 				{
 					m_BaseClasses = 
@@ -3365,6 +4010,7 @@
 						expect_default_outflow = true
 						generic_node_category = 5
 						is_state_cell = false
+						standard_yielding_flow = true
 						supported_domains = 
 						{
 							TestDomain = true
@@ -3380,20 +4026,22 @@
 								type = "PVAL_FLOAT"
 								default_value = 
 								[
-									"PVAL_VOID",
+									"PVAL_FLOAT",
+									10.0,
 								]
 								associated_inflow_name = "Wait"
 							}
-							bFailOnCancel = 
+							bFail = 
 							{
-								friendly_name = "Fail On Cancel"
+								friendly_name = "Fail"
 								description = ""
 								advanced_view = false
 								metadata = null
 								type = "PVAL_BOOL"
 								default_value = 
 								[
-									"PVAL_VOID",
+									"PVAL_BOOL",
+									false,
 								]
 								associated_inflow_name = "Wait"
 							}
@@ -3408,19 +4056,8 @@
 								terminates = false
 								is_default_inflow = true
 							},
-							{
-								name = "FailImmediately"
-								friendly_name = "Fail Immediately"
-								description = ""
-								yields = true
-								terminates = true
-								is_default_inflow = false
-							},
 						]
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseCell_TestWaitWithCursorState"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseCell_TestWaitWithCursorState"
 						pulse_outflows = 
 						[
 							{
@@ -3431,13 +4068,6 @@
 								description = ""
 							},
 							{
-								name = "m_WakeCancel"
-								is_default_outflow = false
-								backed_by_variable = true
-								friendly_name = "Wake Cancel"
-								description = ""
-							},
-							{
 								name = "m_WakeFail"
 								is_default_outflow = false
 								backed_by_variable = true
@@ -3445,6 +4075,189 @@
 								description = ""
 							},
 						]
+					}
+					m_HelpContextName = ""
+					m_nClassType = "vdata"
+					m_rgbColor = [ 220, 30, 220 ]
+					m_bmins = [ -8.0, -8.0, -8.0 ]
+					m_bmaxs = [ 8.0, 8.0, 8.0 ]
+					m_Tags = [  ]
+					m_Variables = [  ]
+					m_Inputs = [  ]
+					m_Outputs = [  ]
+					m_Helpers = [  ]
+				}
+				CPulseCell_TestYieldForever = 
+				{
+					m_BaseClasses = 
+					[
+						"CPulseCell_BaseYieldingInflow",
+					]
+					m_FriendlyName = "TestYieldForever"
+					m_Description = ""
+					m_MetaData = 
+					{
+						MVDataNodeType = 0
+						MVDataOverlayType = 0
+						__populated_from_schema_modules = 
+						[
+							"pulse_system.dll",
+						]
+						hidden_in_tool = false
+						selector_has_specificity = false
+						expect_default_outflow = false
+						generic_node_category = 5
+						is_state_cell = false
+						standard_yielding_flow = true
+						supported_domains = 
+						{
+							TestDomain = true
+						}
+						pulse_inparams = null
+						pulse_inflows = 
+						[
+							{
+								name = "Run"
+								friendly_name = "Run"
+								description = ""
+								yields = true
+								terminates = false
+								is_default_inflow = true
+							},
+						]
+						fingerprint = "@lib:pulse_system.dll!CPulseCell_TestYieldForever"
+					}
+					m_HelpContextName = ""
+					m_nClassType = "vdata"
+					m_rgbColor = [ 220, 30, 220 ]
+					m_bmins = [ -8.0, -8.0, -8.0 ]
+					m_bmaxs = [ 8.0, 8.0, 8.0 ]
+					m_Tags = [  ]
+					m_Variables = [  ]
+					m_Inputs = [  ]
+					m_Outputs = [  ]
+					m_Helpers = [  ]
+				}
+				CPulseCell_TestYieldWithObservables = 
+				{
+					m_BaseClasses = 
+					[
+						"CPulseCell_BaseYieldingInflow",
+					]
+					m_FriendlyName = "TestYieldWithObservables"
+					m_Description = ""
+					m_MetaData = 
+					{
+						MVDataNodeType = 0
+						MVDataOverlayType = 0
+						__populated_from_schema_modules = 
+						[
+							"pulse_system.dll",
+						]
+						hidden_in_tool = false
+						selector_has_specificity = false
+						expect_default_outflow = true
+						generic_node_category = 5
+						is_state_cell = false
+						standard_yielding_flow = true
+						supported_domains = 
+						{
+							TestDomain = true
+						}
+						pulse_inparams = null
+						pulse_inflows = 
+						[
+							{
+								name = "Run"
+								friendly_name = "Run"
+								description = ""
+								yields = true
+								terminates = false
+								is_default_inflow = true
+							},
+						]
+						fingerprint = "@lib:pulse_system.dll!CPulseCell_TestYieldWithObservables"
+						pulse_node_custom_attributes = 
+						[
+							{
+								field_name = "m_LiveFloatValue"
+								attr_factory = "CPulseObservableExpression"
+								friendly_name = "Live Float Value"
+								description = ""
+								args = 
+								{
+									expression_type = "PVAL_FLOAT"
+								}
+							},
+							{
+								field_name = "m_LiveStringValue"
+								attr_factory = "CPulseObservableExpression"
+								friendly_name = "Live String Value"
+								description = ""
+								args = 
+								{
+									expression_type = "PVAL_STRING"
+								}
+							},
+						]
+						pulse_outflows = 
+						[
+							{
+								name = "m_WakeResume"
+								is_default_outflow = true
+								backed_by_variable = true
+								friendly_name = "Wake Resume"
+								description = ""
+							},
+						]
+					}
+					m_HelpContextName = ""
+					m_nClassType = "vdata"
+					m_rgbColor = [ 220, 30, 220 ]
+					m_bmins = [ -8.0, -8.0, -8.0 ]
+					m_bmaxs = [ 8.0, 8.0, 8.0 ]
+					m_Tags = [  ]
+					m_Variables = 
+					[
+						{
+							m_Name = "m_flWatchForFloatValue"
+							m_FullType = "float"
+							m_LongName = "Watch For Float Value"
+							m_Description = ""
+							m_bUsingLegacyDefault = false
+							m_DefaultKV3 = 0.0
+							m_KV3Metadata = 
+							{
+								hidden = false
+							}
+							m_pItemSet = null
+						},
+						{
+							m_Name = "m_WatchForStringValue"
+							m_FullType = "string"
+							m_LongName = "Watch For String Value"
+							m_Description = ""
+							m_bUsingLegacyDefault = false
+							m_DefaultKV3 = ""
+							m_KV3Metadata = 
+							{
+								hidden = false
+							}
+							m_pItemSet = null
+						},
+					]
+					m_Inputs = [  ]
+					m_Outputs = [  ]
+					m_Helpers = [  ]
+				}
+				"CPulseCell_Timeline::Stop" = 
+				{
+					m_BaseClasses = [  ]
+					m_FriendlyName = ""
+					m_Description = ""
+					m_MetaData = 
+					{
+						legacy_name_replacement = "CPulseCell_BaseYieldingInflow::BaseFlow_CancelImmediately"
 					}
 					m_HelpContextName = ""
 					m_nClassType = "vdata"
@@ -3525,10 +4338,7 @@
 								is_default_inflow = false
 							},
 						]
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseCell_Val_TestDomainFindEntityByName"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseCell_Val_TestDomainFindEntityByName"
 					}
 					m_HelpContextName = ""
 					m_nClassType = "vdata"
@@ -3609,10 +4419,7 @@
 								is_default_inflow = false
 							},
 						]
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseCell_Val_TestDomainGetEntityName"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseCell_Val_TestDomainGetEntityName"
 					}
 					m_HelpContextName = ""
 					m_nClassType = "vdata"
@@ -3693,10 +4500,7 @@
 								is_default_inflow = false
 							},
 						]
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseCell_Value_Curve"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseCell_Value_Curve"
 					}
 					m_HelpContextName = ""
 					m_nClassType = "vdata"
@@ -3798,10 +4602,7 @@
 								is_default_inflow = false
 							},
 						]
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseCell_Value_Gradient"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseCell_Value_Gradient"
 					}
 					m_HelpContextName = ""
 					m_nClassType = "vdata"
@@ -3813,7 +4614,7 @@
 					[
 						{
 							m_Name = "m_Gradient"
-							m_FullType = "kv3:Gradient()"
+							m_FullType = "kv3"
 							m_LongName = "Gradient"
 							m_Description = ""
 							m_bUsingLegacyDefault = false
@@ -3823,6 +4624,7 @@
 							}
 							m_KV3Metadata = 
 							{
+								editor = "Gradient()"
 								hidden = false
 							}
 							m_pItemSet = null
@@ -3913,10 +4715,7 @@
 								is_default_inflow = false
 							},
 						]
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseCell_Value_RandomFloat"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseCell_Value_RandomFloat"
 						header_icon = "tools/images/pulse_editor/exit_cycle_random.png"
 					}
 					m_HelpContextName = ""
@@ -4011,10 +4810,7 @@
 								is_default_inflow = false
 							},
 						]
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseCell_Value_RandomInt"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseCell_Value_RandomInt"
 						header_icon = "tools/images/pulse_editor/exit_cycle_random.png"
 					}
 					m_HelpContextName = ""
@@ -4081,10 +4877,7 @@
 								is_default_inflow = false
 							},
 						]
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseCell_Value_TestValue50"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseCell_Value_TestValue50"
 					}
 					m_HelpContextName = ""
 					m_nClassType = "vdata"
@@ -4118,6 +4911,7 @@
 						expect_default_outflow = true
 						generic_node_category = 5
 						is_state_cell = false
+						standard_yielding_flow = true
 						editor_canvas_item_spec = 
 						{
 							className = "IsControlFlowNode"
@@ -4180,10 +4974,7 @@
 								is_default_inflow = true
 							},
 						]
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseCell_WaitForCursorsWithTag"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseCell_WaitForCursorsWithTag"
 						header_icon = "tools/images/pulse_editor/cursor_tag.png"
 					}
 					m_HelpContextName = ""
@@ -4247,7 +5038,7 @@
 									{
 										m_iValue = 0
 										m_Value = "CancelOnSucceeded"
-										m_FriendlyName = "Kill after current node."
+										m_FriendlyName = "Kill After."
 										m_bDefault = false
 										m_bCustom = false
 										m_Description = "Do not stop the current yielding node, but do not continue to the next node afterwards."
@@ -4255,7 +5046,7 @@
 									{
 										m_iValue = 0
 										m_Value = "SoftCancel"
-										m_FriendlyName = "Kill elegantly."
+										m_FriendlyName = "Kill Elegantly."
 										m_bDefault = false
 										m_bCustom = false
 										m_Description = "Request elegant wind-down of any associated work (e.g. vcd interrupt)."
@@ -4263,7 +5054,7 @@
 									{
 										m_iValue = 0
 										m_Value = "HardCancel"
-										m_FriendlyName = "Kill immediately."
+										m_FriendlyName = "Kill Immediately."
 										m_bDefault = false
 										m_bCustom = false
 										m_Description = "Stop without any wind-down."
@@ -4297,6 +5088,7 @@
 						expect_default_outflow = true
 						generic_node_category = 5
 						is_state_cell = false
+						standard_yielding_flow = true
 						editor_canvas_item_spec = 
 						{
 							className = "IsControlFlowNode"
@@ -4367,6 +5159,7 @@
 						expect_default_outflow = true
 						generic_node_category = 5
 						is_state_cell = false
+						standard_yielding_flow = true
 						supported_domains = 
 						{
 							BaseDomain = true
@@ -4382,27 +5175,20 @@
 								terminates = false
 								is_default_inflow = true
 							},
-							{
-								name = "Cancel"
-								friendly_name = "Cancel"
-								description = "Cancel observing."
-								yields = false
-								terminates = true
-								is_default_inflow = false
-							},
 						]
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseCell_WaitForObservable"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseCell_WaitForObservable"
 						header_icon = "tools/images/pulse_editor/observable_variable_listener.png"
 						pulse_node_custom_attributes = 
 						[
 							{
 								field_name = "m_Condition"
-								attr_factory = "PulseObservableBoolExpression_t"
+								attr_factory = "CPulseObservableExpression"
 								friendly_name = "Observable"
 								description = "Condition to evaluate when any of its dependent values change."
+								args = 
+								{
+									expression_type = "PVAL_BOOL"
+								}
 							},
 						]
 						pulse_outflows = 
@@ -4427,6 +5213,26 @@
 					m_Outputs = [  ]
 					m_Helpers = [  ]
 				}
+				"CPulseCell_WaitForObservable::Cancel" = 
+				{
+					m_BaseClasses = [  ]
+					m_FriendlyName = ""
+					m_Description = ""
+					m_MetaData = 
+					{
+						legacy_name_replacement = "CPulseCell_BaseYieldingInflow::BaseFlow_CancelImmediately"
+					}
+					m_HelpContextName = ""
+					m_nClassType = "vdata"
+					m_rgbColor = [ 220, 30, 220 ]
+					m_bmins = [ -8.0, -8.0, -8.0 ]
+					m_bmaxs = [ 8.0, 8.0, 8.0 ]
+					m_Tags = [  ]
+					m_Variables = [  ]
+					m_Inputs = [  ]
+					m_Outputs = [  ]
+					m_Helpers = [  ]
+				}
 				"CPulseCursorFuncs::AnyOtherCursorsHaveTag" = 
 				{
 					m_BaseClasses = [  ]
@@ -4438,10 +5244,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseCursorFuncs"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseCursorFuncs"
 						header_icon = "tools/images/pulse_editor/cursor_tag.png"
 						pulse_inparams = 
 						{
@@ -4535,10 +5338,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseCursorFuncs"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseCursorFuncs"
 						header_icon = "tools/images/pulse_editor/cursor_tag.png"
 						pulse_inparams = 
 						{
@@ -4632,10 +5432,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseCursorFuncs"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseCursorFuncs"
 						header_icon = "tools/images/pulse_editor/cursor_kill.png"
 						pulse_inparams = 
 						{
@@ -4696,10 +5493,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseCursorFuncs"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseCursorFuncs"
 						header_icon = "tools/images/pulse_editor/kill_cursor_with_tag.png"
 						pulse_inparams = 
 						{
@@ -4779,54 +5573,6 @@
 					m_Outputs = [  ]
 					m_Helpers = [  ]
 				}
-				"CPulseCursorFuncs::KillThisCursorAndCancel" = 
-				{
-					m_BaseClasses = [  ]
-					m_FriendlyName = "Kill This Cursor And Cancel"
-					m_Description = "Optional. After taking an OnCanceled outflow, signal to any observers that this cursor is now canceled. Equivalent to not handling the original cancel outflow. If you don't use this, handling OnCanceled will be treated as success."
-					m_MetaData = 
-					{
-						supported_domains = 
-						{
-							BaseDomain = true
-						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseCursorFuncs"
-						}
-						header_icon = "tools/images/pulse_editor/cursor_kill.png"
-						pulse_inparams = null
-						generic_node_category = 5
-						is_pulse_library_method = true
-						pulse_inflows = 
-						[
-							{
-								name = "InDefault"
-								friendly_name = "Default In"
-								is_default_inflow = true
-							},
-						]
-						pulse_outflows = 
-						[
-							{
-								name = "OutDefault"
-								friendly_name = "Default Out"
-								is_default_outflow = true
-								allow_direct_return = true
-							},
-						]
-					}
-					m_HelpContextName = ""
-					m_nClassType = "vdata"
-					m_rgbColor = [ 220, 30, 220 ]
-					m_bmins = [ -8.0, -8.0, -8.0 ]
-					m_bmaxs = [ 8.0, 8.0, 8.0 ]
-					m_Tags = [  ]
-					m_Variables = [  ]
-					m_Inputs = [  ]
-					m_Outputs = [  ]
-					m_Helpers = [  ]
-				}
 				"CPulseCursorFuncs::RemoveTagFromCursor" = 
 				{
 					m_BaseClasses = [  ]
@@ -4838,10 +5584,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseCursorFuncs"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseCursorFuncs"
 						editor_canvas_item_spec = 
 						{
 							className = "IsControlFlowNode"
@@ -4922,10 +5665,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseCursorFuncs"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseCursorFuncs"
 						editor_canvas_item_spec = 
 						{
 							className = "IsControlFlowNode"
@@ -5009,6 +5749,423 @@
 					m_Outputs = [  ]
 					m_Helpers = [  ]
 				}
+				"CPulseCursorFuncs::WakeCursorsWithTag" = 
+				{
+					m_BaseClasses = [  ]
+					m_FriendlyName = "Wake Cursors With Tag"
+					m_Description = "Find all the yielded cursors on this graph with the matching tag and wake them."
+					m_MetaData = 
+					{
+						supported_domains = 
+						{
+							BaseDomain = true
+						}
+						fingerprint = "@lib:pulse_system.dll!CPulseCursorFuncs"
+						header_icon = "tools/images/pulse_editor/kill_cursor_with_tag.png"
+						pulse_inparams = 
+						{
+							pTagName = 
+							{
+								friendly_name = "Tag Name"
+								description = "A string associated with this Cursor, to use later for remote Kill or Wait requests. Cursors can have any number of Tags associated with them."
+								advanced_view = false
+								metadata = null
+								type = "PVAL_STRING"
+								default_value = 
+								[
+									"PVAL_VOID",
+								]
+								associated_inflow_name = "InDefault"
+							}
+							tagValue = 
+							{
+								friendly_name = "Tag Value"
+								description = "Optional. Type 'Any'. An associated value, e.g. the Entity Handle which is responsible for this Cursor. The Tag is defined by the unique combination of Name and Value."
+								advanced_view = true
+								metadata = null
+								type = "PVAL_VARIANT"
+								default_value = 
+								[
+									"PVAL_VARIANT",
+									[
+										"PVAL_STRING",
+										"",
+									],
+								]
+								associated_inflow_name = "InDefault"
+							}
+							nWakePriority = 
+							{
+								friendly_name = "Wake Priority"
+								description = ""
+								advanced_view = false
+								metadata = null
+								type = "PVAL_SCHEMA_ENUM:PulseCursorWakePriority_t"
+								default_value = 
+								[
+									"PVAL_SCHEMA_ENUM:PulseCursorWakePriority_t",
+									"WakeElegantly",
+								]
+								associated_inflow_name = "InDefault"
+							}
+						}
+						generic_node_category = 5
+						is_pulse_library_method = true
+						pulse_inflows = 
+						[
+							{
+								name = "InDefault"
+								friendly_name = "Default In"
+								is_default_inflow = true
+							},
+						]
+						pulse_outflows = 
+						[
+							{
+								name = "OutDefault"
+								friendly_name = "Default Out"
+								is_default_outflow = true
+								allow_direct_return = true
+							},
+						]
+					}
+					m_HelpContextName = ""
+					m_nClassType = "vdata"
+					m_rgbColor = [ 220, 30, 220 ]
+					m_bmins = [ -8.0, -8.0, -8.0 ]
+					m_bmaxs = [ 8.0, 8.0, 8.0 ]
+					m_Tags = [  ]
+					m_Variables = [  ]
+					m_Inputs = [  ]
+					m_Outputs = [  ]
+					m_Helpers = [  ]
+				}
+				"CPulseEnumlib::AddFlags" = 
+				{
+					m_BaseClasses = [  ]
+					m_FriendlyName = "Add Flags"
+					m_Description = "Add flags to the given value."
+					m_MetaData = 
+					{
+						supported_domains = 
+						{
+							BaseDomain = true
+						}
+						fingerprint = "@lib:pulse_system.dll!CPulseEnumlib"
+						pulse_inparams = 
+						{
+							value = 
+							{
+								friendly_name = "value"
+								description = ""
+								advanced_view = false
+								metadata = 
+								{
+									polymorphic_arg = true
+								}
+								type = "PVAL_SCHEMA_ENUM"
+								default_value = 
+								[
+									"PVAL_VOID",
+								]
+								associated_inflow_name = "CPulseEnumlib::AddFlags"
+							}
+							flags = 
+							{
+								friendly_name = "flags"
+								description = ""
+								advanced_view = false
+								metadata = 
+								{
+									polymorphic_arg = true
+									polymorphic_dependent_arg = "value:fulltype"
+								}
+								type = "PVAL_SCHEMA_ENUM"
+								default_value = 
+								[
+									"PVAL_VOID",
+								]
+								associated_inflow_name = "CPulseEnumlib::AddFlags"
+							}
+						}
+						pulse_outparams = 
+						{
+							retval = 
+							{
+								friendly_name = "Result"
+								description = ""
+								advanced_view = false
+								metadata = 
+								{
+									polymorphic_arg = true
+									polymorphic_dependent_arg = "value:fulltype"
+								}
+								type = "PVAL_SCHEMA_ENUM"
+								default_value = 
+								[
+									"PVAL_VOID",
+								]
+								associated_outflow_name = "OutDefault"
+								direct_return_value_for = "CPulseEnumlib::AddFlags"
+							}
+						}
+						generic_node_category = 4
+						is_pulse_library_method = true
+					}
+					m_HelpContextName = ""
+					m_nClassType = "vdata"
+					m_rgbColor = [ 220, 30, 220 ]
+					m_bmins = [ -8.0, -8.0, -8.0 ]
+					m_bmaxs = [ 8.0, 8.0, 8.0 ]
+					m_Tags = [  ]
+					m_Variables = [  ]
+					m_Inputs = [  ]
+					m_Outputs = [  ]
+					m_Helpers = [  ]
+				}
+				"CPulseEnumlib::HasAllFlags" = 
+				{
+					m_BaseClasses = [  ]
+					m_FriendlyName = "Has All Flags"
+					m_Description = "Whether value has ALL of the specified flags set (it may have other flags.)"
+					m_MetaData = 
+					{
+						supported_domains = 
+						{
+							BaseDomain = true
+						}
+						fingerprint = "@lib:pulse_system.dll!CPulseEnumlib"
+						expr_alias = "allflags"
+						pulse_inparams = 
+						{
+							value = 
+							{
+								friendly_name = "value"
+								description = ""
+								advanced_view = false
+								metadata = 
+								{
+									polymorphic_arg = true
+								}
+								type = "PVAL_SCHEMA_ENUM"
+								default_value = 
+								[
+									"PVAL_VOID",
+								]
+								associated_inflow_name = "CPulseEnumlib::HasAllFlags"
+							}
+							flags = 
+							{
+								friendly_name = "flags"
+								description = ""
+								advanced_view = false
+								metadata = 
+								{
+									polymorphic_arg = true
+									polymorphic_dependent_arg = "value:fulltype"
+								}
+								type = "PVAL_SCHEMA_ENUM"
+								default_value = 
+								[
+									"PVAL_VOID",
+								]
+								associated_inflow_name = "CPulseEnumlib::HasAllFlags"
+							}
+						}
+						pulse_outparams = 
+						{
+							retval = 
+							{
+								friendly_name = "Result"
+								description = ""
+								advanced_view = false
+								metadata = null
+								type = "PVAL_BOOL"
+								default_value = 
+								[
+									"PVAL_VOID",
+								]
+								associated_outflow_name = "OutDefault"
+								direct_return_value_for = "CPulseEnumlib::HasAllFlags"
+							}
+						}
+						generic_node_category = 4
+						is_pulse_library_method = true
+					}
+					m_HelpContextName = ""
+					m_nClassType = "vdata"
+					m_rgbColor = [ 220, 30, 220 ]
+					m_bmins = [ -8.0, -8.0, -8.0 ]
+					m_bmaxs = [ 8.0, 8.0, 8.0 ]
+					m_Tags = [  ]
+					m_Variables = [  ]
+					m_Inputs = [  ]
+					m_Outputs = [  ]
+					m_Helpers = [  ]
+				}
+				"CPulseEnumlib::HasAnyFlags" = 
+				{
+					m_BaseClasses = [  ]
+					m_FriendlyName = "Has Any Flags"
+					m_Description = "Whether value has ANY of the specified flags set (it may have other flags.)"
+					m_MetaData = 
+					{
+						supported_domains = 
+						{
+							BaseDomain = true
+						}
+						fingerprint = "@lib:pulse_system.dll!CPulseEnumlib"
+						expr_alias = "anyflags"
+						pulse_inparams = 
+						{
+							value = 
+							{
+								friendly_name = "value"
+								description = ""
+								advanced_view = false
+								metadata = 
+								{
+									polymorphic_arg = true
+								}
+								type = "PVAL_SCHEMA_ENUM"
+								default_value = 
+								[
+									"PVAL_VOID",
+								]
+								associated_inflow_name = "CPulseEnumlib::HasAnyFlags"
+							}
+							flags = 
+							{
+								friendly_name = "flags"
+								description = ""
+								advanced_view = false
+								metadata = 
+								{
+									polymorphic_arg = true
+									polymorphic_dependent_arg = "value:fulltype"
+								}
+								type = "PVAL_SCHEMA_ENUM"
+								default_value = 
+								[
+									"PVAL_VOID",
+								]
+								associated_inflow_name = "CPulseEnumlib::HasAnyFlags"
+							}
+						}
+						pulse_outparams = 
+						{
+							retval = 
+							{
+								friendly_name = "Result"
+								description = ""
+								advanced_view = false
+								metadata = null
+								type = "PVAL_BOOL"
+								default_value = 
+								[
+									"PVAL_VOID",
+								]
+								associated_outflow_name = "OutDefault"
+								direct_return_value_for = "CPulseEnumlib::HasAnyFlags"
+							}
+						}
+						generic_node_category = 4
+						is_pulse_library_method = true
+					}
+					m_HelpContextName = ""
+					m_nClassType = "vdata"
+					m_rgbColor = [ 220, 30, 220 ]
+					m_bmins = [ -8.0, -8.0, -8.0 ]
+					m_bmaxs = [ 8.0, 8.0, 8.0 ]
+					m_Tags = [  ]
+					m_Variables = [  ]
+					m_Inputs = [  ]
+					m_Outputs = [  ]
+					m_Helpers = [  ]
+				}
+				"CPulseEnumlib::RemoveFlags" = 
+				{
+					m_BaseClasses = [  ]
+					m_FriendlyName = "Remove Flags"
+					m_Description = "Remove flags from the given value."
+					m_MetaData = 
+					{
+						supported_domains = 
+						{
+							BaseDomain = true
+						}
+						fingerprint = "@lib:pulse_system.dll!CPulseEnumlib"
+						pulse_inparams = 
+						{
+							value = 
+							{
+								friendly_name = "value"
+								description = ""
+								advanced_view = false
+								metadata = 
+								{
+									polymorphic_arg = true
+								}
+								type = "PVAL_SCHEMA_ENUM"
+								default_value = 
+								[
+									"PVAL_VOID",
+								]
+								associated_inflow_name = "CPulseEnumlib::RemoveFlags"
+							}
+							flags = 
+							{
+								friendly_name = "flags"
+								description = ""
+								advanced_view = false
+								metadata = 
+								{
+									polymorphic_arg = true
+									polymorphic_dependent_arg = "value:fulltype"
+								}
+								type = "PVAL_SCHEMA_ENUM"
+								default_value = 
+								[
+									"PVAL_VOID",
+								]
+								associated_inflow_name = "CPulseEnumlib::RemoveFlags"
+							}
+						}
+						pulse_outparams = 
+						{
+							retval = 
+							{
+								friendly_name = "Result"
+								description = ""
+								advanced_view = false
+								metadata = 
+								{
+									polymorphic_arg = true
+									polymorphic_dependent_arg = "value:fulltype"
+								}
+								type = "PVAL_SCHEMA_ENUM"
+								default_value = 
+								[
+									"PVAL_VOID",
+								]
+								associated_outflow_name = "OutDefault"
+								direct_return_value_for = "CPulseEnumlib::RemoveFlags"
+							}
+						}
+						generic_node_category = 4
+						is_pulse_library_method = true
+					}
+					m_HelpContextName = ""
+					m_nClassType = "vdata"
+					m_rgbColor = [ 220, 30, 220 ]
+					m_bmins = [ -8.0, -8.0, -8.0 ]
+					m_bmaxs = [ 8.0, 8.0, 8.0 ]
+					m_Tags = [  ]
+					m_Variables = [  ]
+					m_Inputs = [  ]
+					m_Outputs = [  ]
+					m_Helpers = [  ]
+				}
 				"CPulseGraphInstance_TestDomain::GenerateInt" = 
 				{
 					m_BaseClasses = [  ]
@@ -5020,10 +6177,7 @@
 						{
 							TestDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseGraphInstance_TestDomain"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseGraphInstance_TestDomain"
 						pulse_outparams = 
 						{
 							nParam = 
@@ -5075,10 +6229,7 @@
 						{
 							TestDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseGraphInstance_TestDomain"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseGraphInstance_TestDomain"
 						pulse_outparams = null
 						expected_return_type = "PVAL_INT"
 						is_pulse_hook = true
@@ -5115,10 +6266,7 @@
 						{
 							TestDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseGraphInstance_TestDomain"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseGraphInstance_TestDomain"
 						pulse_outparams = null
 						expected_return_type = "PVAL_VEC3"
 						is_pulse_hook = true
@@ -5155,10 +6303,7 @@
 						{
 							TestDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseGraphInstance_TestDomain"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseGraphInstance_TestDomain"
 						pulse_outparams = 
 						{
 							nValue = 
@@ -5210,10 +6355,7 @@
 						{
 							TestDomain_Derived = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseGraphInstance_TestDomain_Derived"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseGraphInstance_TestDomain_Derived"
 						pulse_inparams = null
 						pulse_outparams = 
 						{
@@ -5257,10 +6399,7 @@
 						{
 							TestDomain_Derived = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseGraphInstance_TestDomain_Derived"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseGraphInstance_TestDomain_Derived"
 						pulse_outparams = 
 						{
 							nValue = 
@@ -5312,10 +6451,7 @@
 						{
 							TestDomain_Derived = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseGraphInstance_TestDomain_Derived"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseGraphInstance_TestDomain_Derived"
 						pulse_inparams = 
 						{
 							nValue = 
@@ -5374,10 +6510,7 @@
 						{
 							TurtleGraphics = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseGraphInstance_TurtleGraphics"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseGraphInstance_TurtleGraphics"
 						pulse_outparams = null
 						expected_return_type = "PVAL_VOID"
 						is_pulse_hook = true
@@ -5414,10 +6547,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseMathlib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseMathlib"
 						expr_alias = "abs"
 						pulse_inparams = 
 						{
@@ -5479,10 +6609,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseMathlib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseMathlib"
 						expr_alias = "abs"
 						pulse_inparams = 
 						{
@@ -5544,10 +6671,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseMathlib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseMathlib"
 						expr_alias = "acos"
 						pulse_inparams = 
 						{
@@ -5609,10 +6733,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseMathlib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseMathlib"
 						expr_alias = "asin"
 						pulse_inparams = 
 						{
@@ -5674,10 +6795,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseMathlib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseMathlib"
 						expr_alias = "atan"
 						pulse_inparams = 
 						{
@@ -5739,10 +6857,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseMathlib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseMathlib"
 						expr_alias = "ceil"
 						pulse_inparams = 
 						{
@@ -5804,10 +6919,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseMathlib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseMathlib"
 						expr_alias = "clamp"
 						pulse_inparams = 
 						{
@@ -5895,10 +7007,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseMathlib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseMathlib"
 						expr_alias = "clamp"
 						pulse_inparams = 
 						{
@@ -5986,10 +7095,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseMathlib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseMathlib"
 						expr_alias = "cos"
 						pulse_inparams = 
 						{
@@ -6051,10 +7157,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseMathlib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseMathlib"
 						pulse_inparams = 
 						{
 							a = 
@@ -6128,10 +7231,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseMathlib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseMathlib"
 						expr_alias = "deg2rad"
 						pulse_inparams = 
 						{
@@ -6193,10 +7293,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseMathlib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseMathlib"
 						pulse_inparams = 
 						{
 							a = 
@@ -6270,11 +7367,8 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseMathlib"
-						}
-						expr_alias = "log10"
+						fingerprint = "@lib:pulse_system.dll!CPulseMathlib"
+						expr_alias = "exp"
 						pulse_inparams = 
 						{
 							flValue = 
@@ -6328,18 +7422,15 @@
 				{
 					m_BaseClasses = [  ]
 					m_FriendlyName = "Exp2"
-					m_Description = "Computes 2 ( 2.71...) raised to a power"
+					m_Description = "Computes 2 raised to a power"
 					m_MetaData = 
 					{
 						supported_domains = 
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseMathlib"
-						}
-						expr_alias = "log10"
+						fingerprint = "@lib:pulse_system.dll!CPulseMathlib"
+						expr_alias = "exp2"
 						pulse_inparams = 
 						{
 							flValue = 
@@ -6400,10 +7491,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseMathlib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseMathlib"
 						pulse_inparams = 
 						{
 							flFloat = 
@@ -6464,10 +7552,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseMathlib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseMathlib"
 						expr_alias = "floor"
 						pulse_inparams = 
 						{
@@ -6529,10 +7614,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseMathlib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseMathlib"
 						expr_alias = "frac"
 						pulse_inparams = 
 						{
@@ -6594,10 +7676,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseMathlib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseMathlib"
 						pulse_inparams = 
 						{
 							flTime = 
@@ -6658,10 +7737,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseMathlib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseMathlib"
 						expr_alias = "idiv"
 						pulse_inparams = 
 						{
@@ -6736,10 +7812,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseMathlib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseMathlib"
 						pulse_inparams = 
 						{
 							a = 
@@ -6800,10 +7873,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseMathlib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseMathlib"
 						pulse_inparams = 
 						{
 							a = 
@@ -6864,10 +7934,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseMathlib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseMathlib"
 						expr_alias = "length3d"
 						pulse_inparams = 
 						{
@@ -6929,10 +7996,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseMathlib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseMathlib"
 						expr_alias = "length2d"
 						pulse_inparams = 
 						{
@@ -6994,10 +8058,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseMathlib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseMathlib"
 						expr_alias = "lerp"
 						pulse_inparams = 
 						{
@@ -7085,10 +8146,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseMathlib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseMathlib"
 						expr_alias = "lerp"
 						pulse_inparams = 
 						{
@@ -7176,10 +8234,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseMathlib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseMathlib"
 						expr_alias = "lerp"
 						pulse_inparams = 
 						{
@@ -7267,10 +8322,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseMathlib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseMathlib"
 						expr_alias = "log"
 						pulse_inparams = 
 						{
@@ -7332,10 +8384,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseMathlib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseMathlib"
 						expr_alias = "log10"
 						pulse_inparams = 
 						{
@@ -7397,10 +8446,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseMathlib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseMathlib"
 						expr_alias = "log2"
 						pulse_inparams = 
 						{
@@ -7462,10 +8508,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseMathlib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseMathlib"
 						pulse_inparams = 
 						{
 							flPitch = 
@@ -7552,10 +8595,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseMathlib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseMathlib"
 						pulse_inparams = 
 						{
 							vForward = 
@@ -7616,10 +8656,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseMathlib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseMathlib"
 						pulse_inparams = 
 						{
 							r = 
@@ -7706,10 +8743,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseMathlib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseMathlib"
 						pulse_inparams = 
 						{
 							origin = 
@@ -7797,10 +8831,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseMathlib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseMathlib"
 						pulse_inparams = 
 						{
 							x = 
@@ -7887,10 +8918,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseMathlib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseMathlib"
 						pulse_inparams = 
 						{
 							x = 
@@ -7964,10 +8992,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseMathlib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseMathlib"
 						pulse_inparams = 
 						{
 							x = 
@@ -8056,6 +9081,67 @@
 					m_Outputs = [  ]
 					m_Helpers = [  ]
 				}
+				"CPulseMathlib::MakeVectorFromAngle" = 
+				{
+					m_BaseClasses = [  ]
+					m_FriendlyName = "Make Vector From Angle"
+					m_Description = "Make a Vector from an Angle"
+					m_MetaData = 
+					{
+						supported_domains = 
+						{
+							BaseDomain = true
+						}
+						fingerprint = "@lib:pulse_system.dll!CPulseMathlib"
+						pulse_inparams = 
+						{
+							angles = 
+							{
+								friendly_name = "angles"
+								description = ""
+								advanced_view = false
+								metadata = null
+								type = "PVAL_QANGLE"
+								default_value = 
+								[
+									"PVAL_VOID",
+								]
+								associated_inflow_name = "CPulseMathlib::MakeVectorFromAngle"
+							}
+						}
+						pulse_outparams = 
+						{
+							retval = 
+							{
+								friendly_name = "Result"
+								description = ""
+								advanced_view = false
+								metadata = null
+								type = "PVAL_VEC3"
+								default_value = 
+								[
+									"PVAL_VOID",
+								]
+								associated_outflow_name = "OutDefault"
+								direct_return_value_for = "CPulseMathlib::MakeVectorFromAngle"
+							}
+						}
+						generic_node_category = 4
+						is_pulse_library_method = true
+						has_observable_context = true
+						is_pure_value = true
+					}
+					m_HelpContextName = ""
+					m_nClassType = "vdata"
+					m_rgbColor = [ 220, 30, 220 ]
+					m_bmins = [ -8.0, -8.0, -8.0 ]
+					m_bmaxs = [ 8.0, 8.0, 8.0 ]
+					m_Tags = [  ]
+					m_Variables = [  ]
+					m_Inputs = [  ]
+					m_Outputs = [  ]
+					m_Helpers = [  ]
+				}
 				"CPulseMathlib::MakeWorldTransform" = 
 				{
 					m_BaseClasses = [  ]
@@ -8067,10 +9153,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseMathlib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseMathlib"
 						pulse_inparams = 
 						{
 							origin = 
@@ -8158,10 +9241,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseMathlib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseMathlib"
 						pulse_inparams = 
 						{
 							x = 
@@ -8248,10 +9328,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseMathlib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseMathlib"
 						expr_alias = "max"
 						pulse_inparams = 
 						{
@@ -8326,10 +9403,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseMathlib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseMathlib"
 						expr_alias = "max"
 						pulse_inparams = 
 						{
@@ -8404,10 +9478,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseMathlib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseMathlib"
 						expr_alias = "min"
 						pulse_inparams = 
 						{
@@ -8482,10 +9553,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseMathlib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseMathlib"
 						expr_alias = "min"
 						pulse_inparams = 
 						{
@@ -8560,10 +9628,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseMathlib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseMathlib"
 						pulse_inparams = 
 						{
 							a = 
@@ -8624,10 +9689,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseMathlib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseMathlib"
 						expr_alias = "pi"
 						pulse_inparams = null
 						pulse_outparams = 
@@ -8674,10 +9736,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseMathlib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseMathlib"
 						expr_alias = "pow"
 						pulse_inparams = 
 						{
@@ -8752,10 +9811,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseMathlib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseMathlib"
 						expr_alias = "rad2deg"
 						pulse_inparams = 
 						{
@@ -8817,10 +9873,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseMathlib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseMathlib"
 						expr_alias = "random_position"
 						pulse_inparams = 
 						{
@@ -8906,10 +9959,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseMathlib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseMathlib"
 						expr_alias = "remap"
 						pulse_inparams = 
 						{
@@ -9023,10 +10073,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseMathlib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseMathlib"
 						expr_alias = "round"
 						pulse_inparams = 
 						{
@@ -9088,10 +10135,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseMathlib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseMathlib"
 						expr_alias = "rsqrt"
 						pulse_inparams = 
 						{
@@ -9153,10 +10197,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseMathlib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseMathlib"
 						expr_alias = "saturate"
 						pulse_inparams = 
 						{
@@ -9218,10 +10259,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseMathlib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseMathlib"
 						expr_alias = "sign"
 						pulse_inparams = 
 						{
@@ -9283,10 +10321,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseMathlib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseMathlib"
 						expr_alias = "sign"
 						pulse_inparams = 
 						{
@@ -9348,10 +10383,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseMathlib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseMathlib"
 						expr_alias = "sin"
 						pulse_inparams = 
 						{
@@ -9413,10 +10445,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseMathlib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseMathlib"
 						pulse_inparams = 
 						{
 							angle = 
@@ -9505,10 +10534,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseMathlib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseMathlib"
 						pulse_inparams = 
 						{
 							color = 
@@ -9597,10 +10623,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseMathlib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseMathlib"
 						pulse_inparams = 
 						{
 							transform = 
@@ -9689,10 +10712,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseMathlib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseMathlib"
 						pulse_inparams = 
 						{
 							vecValue = 
@@ -9781,10 +10801,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseMathlib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseMathlib"
 						pulse_inparams = 
 						{
 							vecValue = 
@@ -9859,10 +10876,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseMathlib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseMathlib"
 						pulse_inparams = 
 						{
 							vecValue = 
@@ -9965,10 +10979,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseMathlib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseMathlib"
 						pulse_inparams = 
 						{
 							transform = 
@@ -10057,10 +11068,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseMathlib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseMathlib"
 						pulse_inparams = 
 						{
 							vecValue = 
@@ -10149,10 +11157,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseMathlib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseMathlib"
 						expr_alias = "sqr"
 						pulse_inparams = 
 						{
@@ -10214,10 +11219,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseMathlib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseMathlib"
 						expr_alias = "sqr"
 						pulse_inparams = 
 						{
@@ -10279,10 +11281,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseMathlib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseMathlib"
 						expr_alias = "sqrt"
 						pulse_inparams = 
 						{
@@ -10333,135 +11332,14 @@
 					m_Outputs = [  ]
 					m_Helpers = [  ]
 				}
-				"CPulseMathlib::StringLength" = 
-				{
-					m_BaseClasses = [  ]
-					m_FriendlyName = "String Length"
-					m_Description = "Count the number of codepoints in the string (unicode-aware). If you want rendered glyphs, you probably want to consider using Panorama."
-					m_MetaData = 
-					{
-						supported_domains = 
-						{
-							BaseDomain = true
-						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseMathlib"
-						}
-						pulse_inparams = 
-						{
-							strValue = 
-							{
-								friendly_name = "Value"
-								description = ""
-								advanced_view = false
-								metadata = null
-								type = "PVAL_STRING"
-								default_value = 
-								[
-									"PVAL_VOID",
-								]
-								associated_inflow_name = "CPulseMathlib::StringLength"
-							}
-						}
-						pulse_outparams = 
-						{
-							retval = 
-							{
-								friendly_name = "Result"
-								description = ""
-								advanced_view = false
-								metadata = null
-								type = "PVAL_INT"
-								default_value = 
-								[
-									"PVAL_VOID",
-								]
-								associated_outflow_name = "OutDefault"
-								direct_return_value_for = "CPulseMathlib::StringLength"
-							}
-						}
-						generic_node_category = 4
-						is_pulse_library_method = true
-						has_observable_context = true
-						is_pure_value = true
-					}
-					m_HelpContextName = ""
-					m_nClassType = "vdata"
-					m_rgbColor = [ 220, 30, 220 ]
-					m_bmins = [ -8.0, -8.0, -8.0 ]
-					m_bmaxs = [ 8.0, 8.0, 8.0 ]
-					m_Tags = [  ]
-					m_Variables = [  ]
-					m_Inputs = [  ]
-					m_Outputs = [  ]
-					m_Helpers = [  ]
-				}
 				"CPulseMathlib::StringsAreEqualCaseSensitive" = 
 				{
 					m_BaseClasses = [  ]
-					m_FriendlyName = "Strings Are Equal Case Sensitive"
-					m_Description = "Compare strings with case sensitivity, in contrast to normal string equality which is case-insensitive"
+					m_FriendlyName = ""
+					m_Description = ""
 					m_MetaData = 
 					{
-						supported_domains = 
-						{
-							BaseDomain = true
-						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseMathlib"
-						}
-						pulse_inparams = 
-						{
-							a = 
-							{
-								friendly_name = "a"
-								description = ""
-								advanced_view = false
-								metadata = null
-								type = "PVAL_STRING"
-								default_value = 
-								[
-									"PVAL_VOID",
-								]
-								associated_inflow_name = "CPulseMathlib::StringsAreEqualCaseSensitive"
-							}
-							b = 
-							{
-								friendly_name = "b"
-								description = ""
-								advanced_view = false
-								metadata = null
-								type = "PVAL_STRING"
-								default_value = 
-								[
-									"PVAL_VOID",
-								]
-								associated_inflow_name = "CPulseMathlib::StringsAreEqualCaseSensitive"
-							}
-						}
-						pulse_outparams = 
-						{
-							retval = 
-							{
-								friendly_name = "Result"
-								description = ""
-								advanced_view = false
-								metadata = null
-								type = "PVAL_BOOL"
-								default_value = 
-								[
-									"PVAL_VOID",
-								]
-								associated_outflow_name = "OutDefault"
-								direct_return_value_for = "CPulseMathlib::StringsAreEqualCaseSensitive"
-							}
-						}
-						generic_node_category = 4
-						is_pulse_library_method = true
-						has_observable_context = true
-						is_pure_value = true
+						legacy_name_replacement = "CPulseStringlib::StringsAreEqualCaseSensitive"
 					}
 					m_HelpContextName = ""
 					m_nClassType = "vdata"
@@ -10485,10 +11363,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseMathlib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseMathlib"
 						expr_alias = "tan"
 						pulse_inparams = 
 						{
@@ -10550,10 +11425,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseMathlib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseMathlib"
 						pulse_inparams = 
 						{
 							vecValue = 
@@ -10614,10 +11486,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseMathlib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseMathlib"
 						pulse_inparams = 
 						{
 							vecValue = 
@@ -10667,6 +11536,248 @@
 					m_Outputs = [  ]
 					m_Helpers = [  ]
 				}
+				"CPulseStringlib::FormatDurationStringFromSeconds" = 
+				{
+					m_BaseClasses = [  ]
+					m_FriendlyName = "Format Duration String From Seconds"
+					m_Description = "Turn a time in seconds into a display string. NOT localized."
+					m_MetaData = 
+					{
+						supported_domains = 
+						{
+							BaseDomain = true
+						}
+						fingerprint = "@lib:pulse_system.dll!CPulseStringlib"
+						pulse_inparams = 
+						{
+							flSeconds = 
+							{
+								friendly_name = "Seconds"
+								description = ""
+								advanced_view = false
+								metadata = null
+								type = "PVAL_FLOAT"
+								default_value = 
+								[
+									"PVAL_VOID",
+								]
+								associated_inflow_name = "CPulseStringlib::FormatDurationStringFromSeconds"
+							}
+							nFormat = 
+							{
+								friendly_name = "Format"
+								description = ""
+								advanced_view = false
+								metadata = null
+								type = "PVAL_SCHEMA_ENUM:PulseDurationStringFormat_t"
+								default_value = 
+								[
+									"PVAL_SCHEMA_ENUM:PulseDurationStringFormat_t",
+									"MM_SS_LEADING_ZERO",
+								]
+								associated_inflow_name = "CPulseStringlib::FormatDurationStringFromSeconds"
+							}
+							nRemainderDigits = 
+							{
+								friendly_name = "Remainder Digits"
+								description = ""
+								advanced_view = false
+								metadata = null
+								type = "PVAL_INT"
+								default_value = 
+								[
+									"PVAL_INT",
+									0,
+								]
+								associated_inflow_name = "CPulseStringlib::FormatDurationStringFromSeconds"
+							}
+							nRemainderNoiseDigits = 
+							{
+								friendly_name = "Remainder Noise Digits"
+								description = "After the real remainder, how many additional digits should we continue to append to create additional visual movement?"
+								advanced_view = true
+								metadata = null
+								type = "PVAL_INT"
+								default_value = 
+								[
+									"PVAL_INT",
+									0,
+								]
+								associated_inflow_name = "CPulseStringlib::FormatDurationStringFromSeconds"
+							}
+						}
+						pulse_outparams = 
+						{
+							retval = 
+							{
+								friendly_name = "Result"
+								description = ""
+								advanced_view = false
+								metadata = null
+								type = "PVAL_STRING"
+								default_value = 
+								[
+									"PVAL_VOID",
+								]
+								associated_outflow_name = "OutDefault"
+								direct_return_value_for = "CPulseStringlib::FormatDurationStringFromSeconds"
+							}
+						}
+						generic_node_category = 4
+						is_pulse_library_method = true
+						has_observable_context = true
+						is_pure_value = true
+					}
+					m_HelpContextName = ""
+					m_nClassType = "vdata"
+					m_rgbColor = [ 220, 30, 220 ]
+					m_bmins = [ -8.0, -8.0, -8.0 ]
+					m_bmaxs = [ 8.0, 8.0, 8.0 ]
+					m_Tags = [  ]
+					m_Variables = [  ]
+					m_Inputs = [  ]
+					m_Outputs = [  ]
+					m_Helpers = [  ]
+				}
+				"CPulseStringlib::StringLength" = 
+				{
+					m_BaseClasses = [  ]
+					m_FriendlyName = "String Length"
+					m_Description = "Count the number of codepoints in the string (unicode-aware). If you want rendered glyphs, you probably want to consider using Panorama."
+					m_MetaData = 
+					{
+						supported_domains = 
+						{
+							BaseDomain = true
+						}
+						fingerprint = "@lib:pulse_system.dll!CPulseStringlib"
+						pulse_inparams = 
+						{
+							strValue = 
+							{
+								friendly_name = "Value"
+								description = ""
+								advanced_view = false
+								metadata = null
+								type = "PVAL_STRING"
+								default_value = 
+								[
+									"PVAL_VOID",
+								]
+								associated_inflow_name = "CPulseStringlib::StringLength"
+							}
+						}
+						pulse_outparams = 
+						{
+							retval = 
+							{
+								friendly_name = "Result"
+								description = ""
+								advanced_view = false
+								metadata = null
+								type = "PVAL_INT"
+								default_value = 
+								[
+									"PVAL_VOID",
+								]
+								associated_outflow_name = "OutDefault"
+								direct_return_value_for = "CPulseStringlib::StringLength"
+							}
+						}
+						generic_node_category = 4
+						is_pulse_library_method = true
+						has_observable_context = true
+						is_pure_value = true
+					}
+					m_HelpContextName = ""
+					m_nClassType = "vdata"
+					m_rgbColor = [ 220, 30, 220 ]
+					m_bmins = [ -8.0, -8.0, -8.0 ]
+					m_bmaxs = [ 8.0, 8.0, 8.0 ]
+					m_Tags = [  ]
+					m_Variables = [  ]
+					m_Inputs = [  ]
+					m_Outputs = [  ]
+					m_Helpers = [  ]
+				}
+				"CPulseStringlib::StringsAreEqualCaseSensitive" = 
+				{
+					m_BaseClasses = [  ]
+					m_FriendlyName = "Strings Are Equal Case Sensitive"
+					m_Description = "Compare strings with case sensitivity, in contrast to normal string equality which is case-insensitive."
+					m_MetaData = 
+					{
+						supported_domains = 
+						{
+							BaseDomain = true
+						}
+						fingerprint = "@lib:pulse_system.dll!CPulseStringlib"
+						pulse_inparams = 
+						{
+							a = 
+							{
+								friendly_name = "a"
+								description = ""
+								advanced_view = false
+								metadata = null
+								type = "PVAL_STRING"
+								default_value = 
+								[
+									"PVAL_VOID",
+								]
+								associated_inflow_name = "CPulseStringlib::StringsAreEqualCaseSensitive"
+							}
+							b = 
+							{
+								friendly_name = "b"
+								description = ""
+								advanced_view = false
+								metadata = null
+								type = "PVAL_STRING"
+								default_value = 
+								[
+									"PVAL_VOID",
+								]
+								associated_inflow_name = "CPulseStringlib::StringsAreEqualCaseSensitive"
+							}
+						}
+						pulse_outparams = 
+						{
+							retval = 
+							{
+								friendly_name = "Result"
+								description = ""
+								advanced_view = false
+								metadata = null
+								type = "PVAL_BOOL"
+								default_value = 
+								[
+									"PVAL_VOID",
+								]
+								associated_outflow_name = "OutDefault"
+								direct_return_value_for = "CPulseStringlib::StringsAreEqualCaseSensitive"
+							}
+						}
+						legacy_names = 
+						[
+							"CPulseMathlib::StringsAreEqualCaseSensitive",
+						]
+						generic_node_category = 4
+						is_pulse_library_method = true
+						has_observable_context = true
+						is_pure_value = true
+					}
+					m_HelpContextName = ""
+					m_nClassType = "vdata"
+					m_rgbColor = [ 220, 30, 220 ]
+					m_bmins = [ -8.0, -8.0, -8.0 ]
+					m_bmaxs = [ 8.0, 8.0, 8.0 ]
+					m_Tags = [  ]
+					m_Variables = [  ]
+					m_Inputs = [  ]
+					m_Outputs = [  ]
+					m_Helpers = [  ]
+				}
 				"CPulseTestFuncs_LibraryA::AGreaterThan5" = 
 				{
 					m_BaseClasses = [  ]
@@ -10678,10 +11789,7 @@
 						{
 							TestDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
 						pulse_outparams = null
 						is_pulse_global_event = true
 						is_spontaneous = true
@@ -10717,10 +11825,7 @@
 						{
 							TestDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
 						pulse_outparams = 
 						{
 							nValue = 
@@ -10771,10 +11876,7 @@
 						{
 							TestDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
 						pulse_outparams = null
 						is_pulse_global_event = true
 						is_spontaneous = true
@@ -10810,10 +11912,7 @@
 						{
 							TestDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
 						pulse_inparams = null
 						pulse_outparams = 
 						{
@@ -10846,6 +11945,50 @@
 					m_Outputs = [  ]
 					m_Helpers = [  ]
 				}
+				"CPulseTestFuncs_LibraryA::GetEnumFlagsValue" = 
+				{
+					m_BaseClasses = [  ]
+					m_FriendlyName = "Get Enum Flags Value"
+					m_Description = "Get the global flags enum value."
+					m_MetaData = 
+					{
+						supported_domains = 
+						{
+							TestDomain = true
+						}
+						fingerprint = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
+						pulse_inparams = null
+						pulse_outparams = 
+						{
+							retval = 
+							{
+								friendly_name = "Result"
+								description = ""
+								advanced_view = false
+								metadata = null
+								type = "PVAL_SCHEMA_ENUM:PulseTestEnumFlags_t"
+								default_value = 
+								[
+									"PVAL_VOID",
+								]
+								associated_outflow_name = "OutDefault"
+								direct_return_value_for = "CPulseTestFuncs_LibraryA::GetEnumFlagsValue"
+							}
+						}
+						generic_node_category = 4
+						is_pulse_library_method = true
+					}
+					m_HelpContextName = ""
+					m_nClassType = "vdata"
+					m_rgbColor = [ 220, 30, 220 ]
+					m_bmins = [ -8.0, -8.0, -8.0 ]
+					m_bmaxs = [ 8.0, 8.0, 8.0 ]
+					m_Tags = [  ]
+					m_Variables = [  ]
+					m_Inputs = [  ]
+					m_Outputs = [  ]
+					m_Helpers = [  ]
+				}
 				"CPulseTestFuncs_LibraryA::GetEnumShapeValue" = 
 				{
 					m_BaseClasses = [  ]
@@ -10857,10 +12000,7 @@
 						{
 							TestDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
 						pulse_inparams = null
 						pulse_outparams = 
 						{
@@ -10904,10 +12044,7 @@
 						{
 							TestDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
 						pulse_inparams = null
 						pulse_outparams = 
 						{
@@ -10951,10 +12088,7 @@
 						{
 							TestDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
 						pulse_inparams = null
 						pulse_outparams = 
 						{
@@ -10998,10 +12132,7 @@
 						{
 							TestDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
 						pulse_inparams = null
 						pulse_outparams = 
 						{
@@ -11045,10 +12176,7 @@
 						{
 							TestDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
 						pulse_inparams = 
 						{
 							pString = 
@@ -11108,10 +12236,7 @@
 						{
 							TestDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
 						pulse_inparams = 
 						{
 							testRef = 
@@ -11170,10 +12295,7 @@
 						{
 							TestDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
 						pulse_inparams = 
 						{
 							nHandle = 
@@ -11232,10 +12354,7 @@
 						{
 							TestDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
 						pulse_inparams = 
 						{
 							pName = 
@@ -11311,10 +12430,7 @@
 						{
 							TestDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
 						pulse_inparams = 
 						{
 							pName = 
@@ -11404,10 +12520,7 @@
 						{
 							TestDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
 						pulse_inparams = 
 						{
 							pValue = 
@@ -11469,10 +12582,7 @@
 						{
 							TestDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
 						pulse_inparams = 
 						{
 							pValue = 
@@ -11534,10 +12644,7 @@
 						{
 							TestDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
 						pulse_inparams = 
 						{
 							color = 
@@ -11586,6 +12693,66 @@
 					m_Outputs = [  ]
 					m_Helpers = [  ]
 				}
+				"CPulseTestFuncs_LibraryA::SetEnumFlags" = 
+				{
+					m_BaseClasses = [  ]
+					m_FriendlyName = "Set Enum Flags"
+					m_Description = "Set the global color flags value."
+					m_MetaData = 
+					{
+						supported_domains = 
+						{
+							TestDomain = true
+						}
+						fingerprint = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
+						pulse_inparams = 
+						{
+							flags = 
+							{
+								friendly_name = "flags"
+								description = ""
+								advanced_view = false
+								metadata = null
+								type = "PVAL_SCHEMA_ENUM:PulseTestEnumFlags_t"
+								default_value = 
+								[
+									"PVAL_SCHEMA_ENUM:PulseTestEnumFlags_t",
+									"",
+								]
+								associated_inflow_name = "InDefault"
+							}
+						}
+						generic_node_category = 5
+						is_pulse_library_method = true
+						pulse_inflows = 
+						[
+							{
+								name = "InDefault"
+								friendly_name = "Default In"
+								is_default_inflow = true
+							},
+						]
+						pulse_outflows = 
+						[
+							{
+								name = "OutDefault"
+								friendly_name = "Default Out"
+								is_default_outflow = true
+								allow_direct_return = true
+							},
+						]
+					}
+					m_HelpContextName = ""
+					m_nClassType = "vdata"
+					m_rgbColor = [ 220, 30, 220 ]
+					m_bmins = [ -8.0, -8.0, -8.0 ]
+					m_bmaxs = [ 8.0, 8.0, 8.0 ]
+					m_Tags = [  ]
+					m_Variables = [  ]
+					m_Inputs = [  ]
+					m_Outputs = [  ]
+					m_Helpers = [  ]
+				}
 				"CPulseTestFuncs_LibraryA::SetEnumShape" = 
 				{
 					m_BaseClasses = [  ]
@@ -11597,10 +12764,7 @@
 						{
 							TestDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
 						pulse_inparams = 
 						{
 							shape = 
@@ -11660,10 +12824,7 @@
 						{
 							TestDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
 						pulse_inparams = 
 						{
 							flValue = 
@@ -11722,10 +12883,7 @@
 						{
 							TestDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
 						pulse_inparams = 
 						{
 							flValue = 
@@ -11785,10 +12943,7 @@
 						{
 							TestDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
 						pulse_inparams = 
 						{
 							nValue = 
@@ -11847,10 +13002,7 @@
 						{
 							TestDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
 						pulse_inparams = 
 						{
 							pValue = 
@@ -11909,10 +13061,7 @@
 						{
 							TestDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
 						pulse_inparams = 
 						{
 							pValue = 
@@ -11972,10 +13121,7 @@
 						{
 							TestDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
 						pulse_inparams = 
 						{
 							vec = 
@@ -12063,10 +13209,7 @@
 						{
 							TestDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
 						pulse_inparams = 
 						{
 							vec = 
@@ -12148,10 +13291,7 @@
 						{
 							TestDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
 						pulse_inparams = 
 						{
 							vec = 
@@ -12230,10 +13370,7 @@
 						{
 							TestDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
 						pulse_inparams = 
 						{
 							arg1 = 
@@ -12335,10 +13472,7 @@
 						{
 							TestDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
 						pulse_inparams = 
 						{
 							arg1 = 
@@ -12453,10 +13587,7 @@
 						{
 							TestDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
 						pulse_inparams = 
 						{
 							a = 
@@ -12532,10 +13663,7 @@
 						{
 							TestDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
 						pulse_inparams = null
 						legacy_names = 
 						[
@@ -12583,10 +13711,7 @@
 						{
 							TestDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
 						pulse_inparams = null
 						generic_node_category = 5
 						is_pulse_library_method = true
@@ -12650,10 +13775,7 @@
 						{
 							TestDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
 						pulse_inparams = 
 						{
 							x = 
@@ -12745,10 +13867,7 @@
 						{
 							TestDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
 						expr_alias = "observable_false"
 						pulse_inparams = null
 						pulse_outparams = 
@@ -12794,10 +13913,7 @@
 						{
 							TestDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
 						expr_alias = "observable_true"
 						pulse_inparams = null
 						pulse_outparams = 
@@ -12843,10 +13959,7 @@
 						{
 							TestDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
 						pulse_inparams = 
 						{
 							bValue = 
@@ -12990,10 +14103,7 @@
 						{
 							TestDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
 						pulse_inparams = 
 						{
 							nShape = 
@@ -13130,10 +14240,7 @@
 						{
 							TestDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
 						pulse_inparams = null
 						generic_node_category = 5
 						is_pulse_library_method = true
@@ -13177,10 +14284,7 @@
 						{
 							TestDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseTestFuncs_LibraryA"
 						pulse_inparams = 
 						{
 							pString = 
@@ -13281,10 +14385,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseTestScriptLib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseTestScriptLib"
 						pulse_inparams = 
 						{
 							bValue = 
@@ -13356,10 +14457,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseTestScriptLib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseTestScriptLib"
 						pulse_inparams = 
 						{
 							pDescription = 
@@ -13418,10 +14516,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseTestScriptLib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseTestScriptLib"
 						pulse_inparams = null
 						pulse_outparams = 
 						{
@@ -13465,10 +14560,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseTestScriptLib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseTestScriptLib"
 						pulse_inparams = 
 						{
 							pCheckpointName = 
@@ -13527,10 +14619,7 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseTestScriptLib"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseTestScriptLib"
 						pulse_inparams = 
 						{
 							bValue = 
@@ -13602,10 +14691,7 @@
 						{
 							TurtleGraphics = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseTurtleGraphicsCursor"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseTurtleGraphicsCursor"
 						pulse_inparams = 
 						{
 							flDistance = 
@@ -13664,10 +14750,7 @@
 						{
 							TurtleGraphics = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseTurtleGraphicsCursor"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseTurtleGraphicsCursor"
 						pulse_inparams = null
 						generic_node_category = 5
 						is_pulse_library_method = true
@@ -13711,10 +14794,7 @@
 						{
 							TurtleGraphics = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseTurtleGraphicsCursor"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseTurtleGraphicsCursor"
 						pulse_inparams = null
 						generic_node_category = 5
 						is_pulse_library_method = true
@@ -13758,10 +14838,7 @@
 						{
 							TurtleGraphics = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseTurtleGraphicsCursor"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseTurtleGraphicsCursor"
 						pulse_inparams = 
 						{
 							color = 
@@ -13820,10 +14897,7 @@
 						{
 							TurtleGraphics = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CPulseTurtleGraphicsCursor"
-						}
+						fingerprint = "@lib:pulse_system.dll!CPulseTurtleGraphicsCursor"
 						pulse_inparams = 
 						{
 							flDegrees = 
@@ -13882,10 +14956,7 @@
 						{
 							TestDomain_Derived = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CTestDomainDerived_Cursor"
-						}
+						fingerprint = "@lib:pulse_system.dll!CTestDomainDerived_Cursor"
 						pulse_inparams = null
 						pulse_outparams = 
 						{
@@ -13929,10 +15000,7 @@
 						{
 							TestDomain_Derived = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CTestDomainDerived_Cursor"
-						}
+						fingerprint = "@lib:pulse_system.dll!CTestDomainDerived_Cursor"
 						pulse_inparams = null
 						pulse_outparams = 
 						{
@@ -13976,10 +15044,7 @@
 						{
 							TestDomain_Derived = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CTestDomainDerived_Cursor"
-						}
+						fingerprint = "@lib:pulse_system.dll!CTestDomainDerived_Cursor"
 						pulse_inparams = 
 						{
 							nValue = 
@@ -14038,10 +15103,7 @@
 						{
 							TestDomain_Derived = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!CTestDomainDerived_Cursor"
-						}
+						fingerprint = "@lib:pulse_system.dll!CTestDomainDerived_Cursor"
 						pulse_inparams = 
 						{
 							nValue = 
@@ -14121,7 +15183,7 @@
 				"FakeEntity_tAPI::BasicFunction" = 
 				{
 					m_BaseClasses = [  ]
-					m_FriendlyName = "Basic Function (Test Handle)"
+					m_FriendlyName = "Basic Function"
 					m_Description = "Record that the function was called"
 					m_MetaData = 
 					{
@@ -14129,16 +15191,13 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!FakeEntity_tAPI"
-						}
+						fingerprint = "@lib:pulse_system.dll!FakeEntity_tAPI"
 						pulse_inparams = 
 						{
 							_Target = 
 							{
-								friendly_name = "Target"
-								description = ""
+								friendly_name = "Test Handle"
+								description = "The Target object. In code, this parameter is the API This() object for this Input."
 								advanced_view = false
 								metadata = null
 								type = "PVAL_TEST_HANDLE"
@@ -14153,7 +15212,6 @@
 						generic_node_category = 5
 						is_pulse_target_method = true
 						target_arg_name = "_Target"
-						friendly_name_without_target = "Basic Function"
 						pulse_inflows = 
 						[
 							{
@@ -14186,7 +15244,7 @@
 				"FakeEntity_tAPI::GetFloatValue" = 
 				{
 					m_BaseClasses = [  ]
-					m_FriendlyName = "Get Float Value (Test Handle)"
+					m_FriendlyName = "Get Float Value"
 					m_Description = "Get the test value as a float"
 					m_MetaData = 
 					{
@@ -14194,16 +15252,13 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!FakeEntity_tAPI"
-						}
+						fingerprint = "@lib:pulse_system.dll!FakeEntity_tAPI"
 						pulse_inparams = 
 						{
 							_Target = 
 							{
-								friendly_name = "Target"
-								description = ""
+								friendly_name = "Test Handle"
+								description = "The Target object. In code, this parameter is the API This() object for this Input."
 								advanced_view = false
 								metadata = null
 								type = "PVAL_TEST_HANDLE"
@@ -14235,7 +15290,6 @@
 						generic_node_category = 4
 						is_pulse_target_method = true
 						target_arg_name = "_Target"
-						friendly_name_without_target = "Get Float Value"
 					}
 					m_HelpContextName = ""
 					m_nClassType = "vdata"
@@ -14251,7 +15305,7 @@
 				"FakeEntity_tAPI::GetIntValue" = 
 				{
 					m_BaseClasses = [  ]
-					m_FriendlyName = "Get Int Value (Test Handle)"
+					m_FriendlyName = "Get Int Value"
 					m_Description = "Get the test value as an int"
 					m_MetaData = 
 					{
@@ -14259,16 +15313,13 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!FakeEntity_tAPI"
-						}
+						fingerprint = "@lib:pulse_system.dll!FakeEntity_tAPI"
 						pulse_inparams = 
 						{
 							_Target = 
 							{
-								friendly_name = "Target"
-								description = ""
+								friendly_name = "Test Handle"
+								description = "The Target object. In code, this parameter is the API This() object for this Input."
 								advanced_view = false
 								metadata = null
 								type = "PVAL_TEST_HANDLE"
@@ -14300,7 +15351,6 @@
 						generic_node_category = 4
 						is_pulse_target_method = true
 						target_arg_name = "_Target"
-						friendly_name_without_target = "Get Int Value"
 					}
 					m_HelpContextName = ""
 					m_nClassType = "vdata"
@@ -14316,7 +15366,7 @@
 				"FakeEntity_tAPI::GetName" = 
 				{
 					m_BaseClasses = [  ]
-					m_FriendlyName = "Get Name (Test Handle)"
+					m_FriendlyName = "Get Name"
 					m_Description = "Get the name the entity was created with."
 					m_MetaData = 
 					{
@@ -14324,16 +15374,13 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!FakeEntity_tAPI"
-						}
+						fingerprint = "@lib:pulse_system.dll!FakeEntity_tAPI"
 						pulse_inparams = 
 						{
 							_Target = 
 							{
-								friendly_name = "Target"
-								description = ""
+								friendly_name = "Test Handle"
+								description = "The Target object. In code, this parameter is the API This() object for this Input."
 								advanced_view = false
 								metadata = null
 								type = "PVAL_TEST_HANDLE"
@@ -14365,7 +15412,6 @@
 						generic_node_category = 4
 						is_pulse_target_method = true
 						target_arg_name = "_Target"
-						friendly_name_without_target = "Get Name"
 					}
 					m_HelpContextName = ""
 					m_nClassType = "vdata"
@@ -14381,7 +15427,7 @@
 				"FakeEntity_tAPI::MultipleReturnTest" = 
 				{
 					m_BaseClasses = [  ]
-					m_FriendlyName = "Multiple Return Test (Test Handle)"
+					m_FriendlyName = "Multiple Return Test"
 					m_Description = "Multiple pointer returns"
 					m_MetaData = 
 					{
@@ -14389,16 +15435,13 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!FakeEntity_tAPI"
-						}
+						fingerprint = "@lib:pulse_system.dll!FakeEntity_tAPI"
 						pulse_inparams = 
 						{
 							_Target = 
 							{
-								friendly_name = "Target"
-								description = ""
+								friendly_name = "Test Handle"
+								description = "The Target object. In code, this parameter is the API This() object for this Input."
 								advanced_view = false
 								metadata = null
 								type = "PVAL_TEST_HANDLE"
@@ -14444,7 +15487,6 @@
 						generic_node_category = 4
 						is_pulse_target_method = true
 						target_arg_name = "_Target"
-						friendly_name_without_target = "Multiple Return Test"
 					}
 					m_HelpContextName = ""
 					m_nClassType = "vdata"
@@ -14460,7 +15502,7 @@
 				"FakeEntity_tAPI::SetAndGetIntValue" = 
 				{
 					m_BaseClasses = [  ]
-					m_FriendlyName = "Set And Get Int Value (Test Handle)"
+					m_FriendlyName = "Set And Get Int Value"
 					m_Description = "Test step with return value"
 					m_MetaData = 
 					{
@@ -14468,16 +15510,13 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!FakeEntity_tAPI"
-						}
+						fingerprint = "@lib:pulse_system.dll!FakeEntity_tAPI"
 						pulse_inparams = 
 						{
 							_Target = 
 							{
-								friendly_name = "Target"
-								description = ""
+								friendly_name = "Test Handle"
+								description = "The Target object. In code, this parameter is the API This() object for this Input."
 								advanced_view = false
 								metadata = null
 								type = "PVAL_TEST_HANDLE"
@@ -14522,7 +15561,6 @@
 						generic_node_category = 5
 						is_pulse_target_method = true
 						target_arg_name = "_Target"
-						friendly_name_without_target = "Set And Get Int Value"
 						pulse_inflows = 
 						[
 							{
@@ -14555,7 +15593,7 @@
 				"FakeEntity_tAPI::SetIntValue" = 
 				{
 					m_BaseClasses = [  ]
-					m_FriendlyName = "Set Int Value (Test Handle)"
+					m_FriendlyName = "Set Int Value"
 					m_Description = "Set the test value as an int"
 					m_MetaData = 
 					{
@@ -14563,16 +15601,13 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!FakeEntity_tAPI"
-						}
+						fingerprint = "@lib:pulse_system.dll!FakeEntity_tAPI"
 						pulse_inparams = 
 						{
 							_Target = 
 							{
-								friendly_name = "Target"
-								description = ""
+								friendly_name = "Test Handle"
+								description = "The Target object. In code, this parameter is the API This() object for this Input."
 								advanced_view = false
 								metadata = null
 								type = "PVAL_TEST_HANDLE"
@@ -14600,7 +15635,6 @@
 						generic_node_category = 5
 						is_pulse_target_method = true
 						target_arg_name = "_Target"
-						friendly_name_without_target = "Set Int Value"
 						pulse_inflows = 
 						[
 							{
@@ -14633,7 +15667,7 @@
 				"FakeEntityDerivedA_tAPI::DerivedFuncA" = 
 				{
 					m_BaseClasses = [  ]
-					m_FriendlyName = "Derived Func A (fake_derived_a)"
+					m_FriendlyName = "Derived Func A"
 					m_Description = ""
 					m_MetaData = 
 					{
@@ -14641,16 +15675,13 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!FakeEntityDerivedA_tAPI"
-						}
+						fingerprint = "@lib:pulse_system.dll!FakeEntityDerivedA_tAPI"
 						pulse_inparams = 
 						{
 							_Target = 
 							{
-								friendly_name = "Target"
-								description = ""
+								friendly_name = "fake_derived_a"
+								description = "The Target object. In code, this parameter is the API This() object for this Input."
 								advanced_view = false
 								metadata = null
 								type = "PVAL_TEST_HANDLE:fake_derived_a"
@@ -14682,7 +15713,6 @@
 						generic_node_category = 5
 						is_pulse_target_method = true
 						target_arg_name = "_Target"
-						friendly_name_without_target = "Derived Func A"
 						pulse_inflows = 
 						[
 							{
@@ -14715,7 +15745,27 @@
 				"FakeEntityDerivedB_tAPI::DerivedFuncB" = 
 				{
 					m_BaseClasses = [  ]
-					m_FriendlyName = "Derived Func B (fake_derived_b)"
+					m_FriendlyName = ""
+					m_Description = ""
+					m_MetaData = 
+					{
+						legacy_name_replacement = "FakeEntityDerivedB_tAPI_NEW_NAME::DerivedFuncB"
+					}
+					m_HelpContextName = ""
+					m_nClassType = "vdata"
+					m_rgbColor = [ 220, 30, 220 ]
+					m_bmins = [ -8.0, -8.0, -8.0 ]
+					m_bmaxs = [ 8.0, 8.0, 8.0 ]
+					m_Tags = [  ]
+					m_Variables = [  ]
+					m_Inputs = [  ]
+					m_Outputs = [  ]
+					m_Helpers = [  ]
+				}
+				"FakeEntityDerivedB_tAPI_NEW_NAME::DerivedFuncB" = 
+				{
+					m_BaseClasses = [  ]
+					m_FriendlyName = "Derived Func B"
 					m_Description = ""
 					m_MetaData = 
 					{
@@ -14723,16 +15773,13 @@
 						{
 							BaseDomain = true
 						}
-						scope_to_dependency_name = 
-						{
-							pulse_system.dll = "@lib:pulse_system.dll!FakeEntityDerivedB_tAPI"
-						}
+						fingerprint = "@lib:pulse_system.dll!FakeEntityDerivedB_tAPI_NEW_NAME"
 						pulse_inparams = 
 						{
 							_Target = 
 							{
-								friendly_name = "Target"
-								description = ""
+								friendly_name = "fake_derived_b"
+								description = "The Target object. In code, this parameter is the API This() object for this Input."
 								advanced_view = false
 								metadata = null
 								type = "PVAL_TEST_HANDLE:fake_derived_b"
@@ -14757,14 +15804,13 @@
 									"PVAL_VOID",
 								]
 								associated_outflow_name = "OutDefault"
-								direct_return_value_for = "FakeEntityDerivedB_tAPI::DerivedFuncB"
+								direct_return_value_for = "FakeEntityDerivedB_tAPI_NEW_NAME::DerivedFuncB"
 							}
 						}
 						pulse_feature_tag = 16
 						generic_node_category = 5
 						is_pulse_target_method = true
 						target_arg_name = "_Target"
-						friendly_name_without_target = "Derived Func B"
 						pulse_inflows = 
 						[
 							{

@@ -25,7 +25,6 @@
  randseed[
  rot[
  yaw[
-!is_gpu_particle_system
 "Limit Count: " + m_nLimitCount
 "Position within sphere random" no longer supports the "randomly distribute to highest supplied Control Point" feature\n\t"Emit continuously" and "Emit noise" no longer support "scale emission to used control points".\n\t"Position from control points" had a max control point added to it.
 "Remap control point orientation to rotation" does something approaching sanity for the cases I looked at.  If we have cases where this isn't appropriate, we can split out the behavior.\n
@@ -1065,7 +1064,6 @@ Array Shuffle
 Assert True
 Async Call Method (Child Cursor) C%d:I%d
 Async Outflow (Child Cursor) C%d:I%d
-Asynchronous - This node executes independently using a new Cursor. Formerly 'Fire and Forget'. Equivalent to scheduling using an additional 'Fire Child Cursors' node.
 Attempt to read and write stencil at the same time on a particle system. Ignoring write state\n
 Attempted a typeid of nullptr pointer!
 Attempted to create particle system from RESOURCE_HANDLE_INVALID\n
@@ -1103,8 +1101,6 @@ Box Angles
 Box Flags
 Box Maxs
 Box Mins
-Branch Recursion Distance Scale Factor
-Branch Recursion Offset/Twist Scale Factor
 C:\buildworker\source2_dota_rel_2019_win64\build\_build_\particles\_vpc_particles\default\win64\_msvc_\Retail\particles.pdb
 C:\buildworker\source2_dota_rel_2019_win64\build\src\particles\gpu_implicit_renderer.cpp
 C:\buildworker\source2_dota_rel_2019_win64\build\src\particles\particle_initialization.cpp
@@ -1143,6 +1139,7 @@ CParticleVecInput::MEmitKV3TransferPreLoadFn failed\n
 CParticleVecInputEvaluator(
 CParticleVecInputEvaluator(m_nHeadPadding=%d,
 CPiecewiseCurve
+CPulseArraylib
 CPulseArraylib::ArrayAppend
 CPulseArraylib::ArrayConcatenate
 CPulseArraylib::ArrayCount
@@ -1154,7 +1151,6 @@ CPulseArraylib::ArrayRemoveIndex
 CPulseArraylib::ArrayRemoveInvalidElements
 CPulseArraylib::ArraySetCount
 CPulseArraylib::ArrayShuffle
-CPulseBreakpointLocation
 CPulseCell_BooleanSwitchState::Activate
 CPulseCell_CursorQueue::Wait
 CPulseCell_FireCursors::Start
@@ -1176,6 +1172,7 @@ CPulseCell_Value_Curve::Eval
 CPulseCell_Value_Gradient::Eval
 CPulseCell_WaitForCursorsWithTag::Wait
 CPulseCell_WaitForObservable::Start
+CPulseCursorFuncs
 CPulseCursorFuncs::AnyOtherCursorsHaveTag
 CPulseCursorFuncs::CursorHasTag
 CPulseCursorFuncs::KillAllOtherCursors
@@ -1188,6 +1185,7 @@ CPulseEnumlib::AddFlags
 CPulseEnumlib::HasAllFlags
 CPulseEnumlib::HasAnyFlags
 CPulseEnumlib::RemoveFlags
+CPulseMathlib
 CPulseMathlib::AbsFloat
 CPulseMathlib::AbsInt
 CPulseMathlib::ArcCos
@@ -1263,12 +1261,12 @@ CPulseStringlib
 CPulseStringlib::FormatDurationStringFromSeconds
 CPulseStringlib::StringLength
 CPulseStringlib::StringsAreEqualCaseSensitive
+CPulseTestScriptLib
 CPulseTestScriptLib::AssertTrue
 CPulseTestScriptLib::IndicateTestFailure
 CPulseTestScriptLib::IsInTestMode
 CPulseTestScriptLib::RegisterTestCheckpoint
 CPulseTestScriptLib::TestModeAssertTrue
-CREATE_CHILD_CURSOR_OUTFLOW
 CREATION_TIME
 CStrongHandle
 CURVE_TANGENT_FREE
@@ -1298,7 +1296,6 @@ C_INIT_InitFromCPSnapshot: Unsupported attribute data type! (%d)\n
 C_INIT_InitFromCPSnapshot: cannot initialize PREV_XYZ - XYZ cannot be read!\n
 C_INIT_InitFromCPSnapshot: framerate unknown initializing PREV_XYZ! Defaulting to 30fps, but particle velocity may look wrong...\n
 C_INIT_InitFromParentKilled: Unsupported attribute data type! (%d)\n
-C_INIT_SkyVisCull
 C_OP_SetFromCPSnapshot: cannot initialize PREV_XYZ - XYZ cannot be read!\n
 C_OP_SetFromCPSnapshot: framerate unknown initializing PREV_XYZ! Defaulting to 30fps, but particle velocity may look wrong...\n
 Calculate vector attribute
@@ -1369,7 +1366,6 @@ Cull relative to sky visibility
 Cull relative to sphere
 Cull when crossing plane
 Cull when crossing sphere
-Culled on Spawn
 Cursor Has Tag
 Cursors Allowed To Run Parallel
 Cursors Allowed To Wait
@@ -1379,15 +1375,12 @@ Dampen Movement relative to model
 Data_Branch1xy
 Data_Branch1zBranch2x
 Data_Branch2yz
-Decay From Wake
 Deg2 Rad
 Density-based force
 Depth
 Desired Kill Priority
 Detach R%d
 Diffuse particle attributes
-Disable Non-Static Collision
-Disable Non-Static Collision Duration
 Disable to get a better look at what's happening offscreen
 DisableSorting
 Div R%d <- R%d / R%d
@@ -1470,7 +1463,6 @@ Fixed "Animation Type" in Sprite Renderer not working for non-particle normal al
 Fixed "Inherit Attribute from Parent Particles" not keeping parent particles in sync with children.\n
 Fixed Float Evaluator "Particle Count Percent of Total Count" being off-by-one at the end. Double-check remapping of any Particle Count Normalized float evaluators.\n
 Fixed bugs in "Position along path sequential" where it could incorrectly create too many particles at the last control point. Also fixed issues with control points specified in backward order in that operator as well as "Movement lock to saved position along path".\n
-Flashlight
 Float To Game Time
 Float16HDRBackBuffer
 Floor - round float down to nearest integer
@@ -1576,7 +1568,6 @@ Jump to Instr I%d
 KeyValues3
 Kill All Other Cursors
 Kill Cursors With Tag
-Killed by Cull
 LIFE_DURATION
 LONG PARTICLE RENDER: "%s" took %fms to submit to render.\n
 Lazily Cull on Float Comparison
@@ -1622,8 +1613,6 @@ Ls?q
 MANUAL_ANIMATION_FRAME
 MAtomicTransfersAsPlainString
 MGPUParticleFunction
-MM:SS with leading zeros
-MM_SS_LEADING_ZERO
 MODEL_RENDER_HELPER_PTR
 MODEL_RENDER_HELPER_PTR_2
 MODEL_RENDER_HELPER_PTR_3
@@ -1692,7 +1681,6 @@ Model Helper Pointer 2
 Model Helper Pointer 3
 Model Helper Pointer 4
 Model Surface UV Snapshot Generator
-Motion Disabled
 Move particles between 2 control points
 Movement Lerp to Initial Position relative to CP
 Movement Lerp to skinned position from CP snapshot
@@ -1761,15 +1749,7 @@ OverlayProjectionDirection
 P8?2
 PARENT_PARTICLE_ID
 PARENT_PARTICLE_INDEX
-PARTICLE_ATTR_BOX_FLAGS_DISABLE_NONSTATIC_COLLISION
-PARTICLE_ATTR_BOX_FLAGS_MOTION_DISABLED
-PARTICLE_ATTR_BOX_FLAGS_WAKE_DECAY
-PARTICLE_ATTR_BOX_FLAGS_ZERO_GRAVITY
-PARTICLE_EVENT_TYPE_MASK_CULLED_ON_SPAWN
-PARTICLE_EVENT_TYPE_MASK_KILLED_ON_CULL
-PARTICLE_FLASHLIGHT
 PARTICLE_ID
-PARTICLE_VOLUMETRIC_SMOKE_TYPE_TRACE
 PET_SupportFadingOpaqueModels
 PITCH
 PRECIPITATION
@@ -1778,7 +1758,6 @@ PanelID
 Parent Map: %s\n
 Parent Particle ID
 Parent Particle Index
-Parent VData
 Particle Binding
 Particle Binding (Real)
 Particle Error before emit: Effect %s, Function %s (%d, %d)\n
@@ -1853,7 +1832,6 @@ Prevent passing through static part of world
 Print debug message every time a particle collection is created
 Print out information on existing particle systems
 Problem loading error.vpcf, please validate your game install\n
-Proceed Immediately
 Process Selector
 Profile Point 1
 Profile Point 2
@@ -1866,7 +1844,6 @@ PropWorldOrigin
 PtB>
 Pull towards control point
 Pulse domain which enables particle content to query leaf code to introspect game state.
-PulseDurationStringFormat_t
 Q#B7
 Q#Bg
 QAngle
@@ -1875,7 +1852,6 @@ Quantize Float to Control Point Component
 Qx?33
 R Sqrt
 R?vlD>
-RADIUS
 REFCOUNTED_PTR
 RESOURCE_TYPE_PARTICLE_SNAPSHOT
 RESOURCE_TYPE_PARTICLE_SYSTEM
@@ -1884,7 +1860,6 @@ ROPE_SEGMENT_ID
 ROTATION
 ROTATION_SPEED
 Rad2 Deg
-Radially splashed points require exposure to sky
 Radius from CP object
 Radius scale
 Ramp control point linear random
@@ -1896,7 +1871,6 @@ Random World Position
 Random force
 Randomizes the order of items in the array (Knuth/Fisher-Yates Shuffle)
 Reciprocoal square root (1/sqrt)
-Recursion Branch Split Scale
 Ref Counted Pointer
 Register Test Checkpoint
 Reinitialize on endcap scalar random
@@ -2058,8 +2032,6 @@ SHADER_EXTRA_DATA2
 Saturate
 Saturate (clamps float between 0 and 1)
 Save a named value of any type on the cursor.
-Scale Branch Distance From Recursion Depth
-Scale Branch Offset/Twist From Recursion Depth
 Scale INV R%d <- R%d / R%d
 Scale R%d <- R%d * R%d
 ScaleMatrix
@@ -2077,7 +2049,6 @@ Scratch float 3
 Screen Space Distance To Edge
 Screen Space Position of Target
 Screen Space Rotate Toward Target
-Scroll Offset
 Second Sequence Number / Alpha Window Threshold
 Selectively Enable Children
 Sequence Number
@@ -2178,7 +2149,6 @@ Stops all particle systems that match specified name
 String Length
 Strings Are Equal Case Sensitive
 Sub R%d <- R%d - R%d
-Synchronous - Wait for this node to fully complete before proceeding.
 System Name
 Systems Measured: %d\n
 T>gaW?:]f?AHV>'
@@ -2207,7 +2177,6 @@ Total Frames
 Total Render (us)
 Total Sim (us)
 Total particles created : %u
-Trace
 Trace cache efficiency = %.2f%% (%d traces for %d tests)\n
 Trail Length
 Tried to load a polymorphic pointer with no '%s' key
@@ -2227,7 +2196,6 @@ Use fixed seeds for easier debugging
 Use random seeds in debug
 Used to flag a test as having failed.
 User Event States
-VDATA
 Value 0-1 how far along duration (always 0 if duration is -1)
 Variable '%s' is referenced but not declared in this system (%s). Adding a fallback now.\n
 Vector To World Vector
@@ -2259,8 +2227,6 @@ Warning: Missing fallback for particle system "%s"!\n
 When Steady State in %f Seconds
 Whether value has ALL of the specified flags set (it may have other flags.)
 Whether value has ANY of the specified flags set (it may have other flags.)
-While False
-While True
 World Vector To Vector
 X to the Y power
 Y>UU
@@ -2269,8 +2235,6 @@ Yield, Resume=%s
 Yz'x
 Z>wg}?0
 Z\tV_log2f
-Zero Gravity
-Zero Gravity Duration
 [ Chunk%d ]
 [ written at chunk start last-read I%d ]
 [ written by I%d last-read I%d ]
@@ -2338,7 +2302,6 @@ cable_tesselation_vb
 cable_tesselation_vb_meshlets
 cables.vfx
 cablevertices
-calculate bounce on killed particles (for child events)
 can't solve quadratic for light %f %f\n
 cl_max_particle_pvs_aabb_edge_length
 cl_particle_create_duplicate_work_for_profiling
@@ -2348,7 +2311,6 @@ clamp
 compressedtangentframe
 con_command
 creation_time
-cull on sky
 curvature
 data_offset
 data_size
@@ -2360,7 +2322,6 @@ domain_scope
 dumpparticlelist
 element
 error.vpcf
-event horizon threshold distance for max force
 exp2
 expected %s, got %s
 expression_type
@@ -2395,8 +2356,6 @@ flValueB
 flWaitInterval
 flWaitIntervalHigh
 flYaw
-flashlight radius CP
-flashlight radius control point component
 float3
 force_scale
 frac
@@ -2425,13 +2384,10 @@ implicit vertices
 inherit attribute from peer particle systems
 internal error in particle system MapParticleOrientationIndexToShaderCombo()
 invalid_hitbox
-is_gpu_particle_system
-is_gpu_particle_system || m_nTraceSet == PARTICLE_TRACE_SET_STATIC
 is_selector
 itemgroups
 k>Mg
 k?C9
-kill density scale
 kv3:ParticleParamID_t
 l\tV_remainderf
 length2d
@@ -2446,47 +2402,22 @@ lowprecisionuv
 lowprecisionuv1
 lwK?
 m_Children.m_pHead: [%p]\n
-m_Metadata
-m_SequencePoint
+m_DependentObservableBlackboardReferences
+m_DependentObservableVars
+m_EvaluateConnection
 m_Stops
 m_TagValue
-m_bCheckExposedToSky
 m_bConditionValue
-m_bCullOnSky
 m_bFirstEvaluate
-m_bKillonContact == false
-m_bKillonContactBounce
-m_bScaleBranchDistance
-m_bScaleBranchDistance == false
-m_bScaleBranchOffset
-m_bScaleBranchOffset == false
 m_buffer=
-m_fMinimumDistance
-m_flBranchDistanceScale
-m_flBranchOffsetScale
-m_flKillDensityScale
-m_flRecursionSplitScale
-m_flScollOffset
 m_flSlopeIncoming
 m_flSlopeOutgoing
-m_flSubPixelAAScale
 m_hCursorOnOtherGraph
 m_nCurrentWakeIndex
 m_nCursorID
-m_nForcedStatusEffects == 0
 m_nGraphID
-m_nNoCollisionAttribute
-m_nPosition != PARTICLE_FLASHLIGHT
-m_nRadiusCP
-m_nRadiusCPField
-m_nType != PARTICLE_VOLUMETRIC_SMOKE_TYPE_TRACE
-m_nType == PARTICLE_VOLUMETRIC_SMOKE_TYPE_EMISSION || m_nType == PARTICLE_VOLUMETRIC_SMOKE_TYPE_TRACE
-m_nType == PARTICLE_VOLUMETRIC_SMOKE_TYPE_TRACE
 m_nYieldToken
-m_nZeroGravityAttribute
 m_szEffect
-m_vPrevPosition
-m_vecPreviewWind
 manual_animation_frame
 materials/dev/gpu_particles_initialize.vmat
 materials/dev/gpu_particles_simulate.vmat
@@ -2501,14 +2432,11 @@ max_render
 max_sim
 medium
 mesh group
-mod != csgo && mod != hlx
 n?9a
-nDenominator
 nFirstParticle=%?
 nFormat
 nKillPriority
 nMaxElements
-nNumerator
 nRemainderDigits
 nRemainderNoiseDigits
 nWakePriority
@@ -2560,7 +2488,6 @@ point_4
 polymorphic_arg
 pos[
 posxyz
-prev position
 procedural_spritecard.vmat
 propattr_flatten_into_parent_row
 pulse_node_custom_attributes
@@ -2656,7 +2583,6 @@ spritecardparticlestrailwithnormal
 spritecardtessvb
 strValue
 string_list
-sub-pixel AA scale
 systems
 t>vTU>
 tagValue
@@ -2688,4 +2614,3 @@ wH>r
 xn>8
 y?U0
 zW>w
-{ item_factory = 'IntervalTimer' }

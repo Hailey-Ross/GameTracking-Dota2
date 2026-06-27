@@ -4802,7 +4802,6 @@ AssetBrowse()
 Assigns a friendly name to be displayed in the editor
 Async Call Method (Child Cursor) C%d:I%d
 Async Outflow (Child Cursor) C%d:I%d
-Asynchronous - This node executes independently using a new Cursor. Formerly 'Fire and Forget'. Equivalent to scheduling using an additional 'Fire Child Cursors' node.
 AtlasToVolumeTextureConversion(3537): Error! Unable to parse grid/slice count from volume atlas filename: %s\n
 Attach Entity Scope
 Attach Location Name
@@ -5060,6 +5059,7 @@ CPetSession
 CPetVariableConfiguration
 CPetVariableNode
 CPiecewiseCurve
+CPulseArraylib
 CPulseArraylib::ArrayAppend
 CPulseArraylib::ArrayConcatenate
 CPulseArraylib::ArrayCount
@@ -5073,7 +5073,6 @@ CPulseArraylib::ArraySetCount
 CPulseArraylib::ArrayShuffle
 CPulseAttr_AnimEventOutflows
 CPulseAttr_PulseSelectorOutflowList_t
-CPulseBreakpointLocation
 CPulseCell_BaseYieldingInflow::%s
 CPulseCell_BooleanSwitchState::Activate
 CPulseCell_CursorQueue::Wait
@@ -5103,6 +5102,7 @@ CPulseCell_Value_Gradient::Eval
 CPulseCell_WaitForCursorsWithTag::Wait
 CPulseCell_WaitForObservable::Start
 CPulseContextHints::GetAssociatedModel
+CPulseCursorFuncs
 CPulseCursorFuncs::AnyOtherCursorsHaveTag
 CPulseCursorFuncs::CursorHasTag
 CPulseCursorFuncs::KillAllOtherCursors
@@ -5169,6 +5169,7 @@ CPulseEnumlib::AddFlags
 CPulseEnumlib::HasAllFlags
 CPulseEnumlib::HasAnyFlags
 CPulseEnumlib::RemoveFlags
+CPulseMathlib
 CPulseMathlib::AbsFloat
 CPulseMathlib::AbsInt
 CPulseMathlib::ArcCos
@@ -5245,6 +5246,7 @@ CPulseStringlib
 CPulseStringlib::FormatDurationStringFromSeconds
 CPulseStringlib::StringLength
 CPulseStringlib::StringsAreEqualCaseSensitive
+CPulseTestScriptLib
 CPulseTestScriptLib::AssertTrue
 CPulseTestScriptLib::IndicateTestFailure
 CPulseTestScriptLib::IsInTestMode
@@ -5419,7 +5421,6 @@ CQVectorEdit
 CQWidgetDebugHighlight
 CQWidgetDebugger
 CQWidgetWithEnterLeaveSignals
-CREATE_CHILD_CURSOR_OUTFLOW
 CRenderOptionsPopupUI
 CSosFieldDataVsnd constructed with empty vsnd\n
 CStrongHandle
@@ -5798,11 +5799,8 @@ Custom Colors
 Cycle Exit (%s)
 Cycle Mode
 Cyclic Branch
-Cylinder - Centered (SLOW PERF)
-Cylinder - Ground (SLOW PERF)
 D ?toPlainText@QTextEdit@@QEBA?AVQString@@XZ
 DBM&(
-DEPRECATED_FIELD_AI_SCHEDULE_BITS
 DIRECTLY_EDIT_VALUE
 DNGBackwardVersion
 DNGPrivateData
@@ -5998,7 +5996,6 @@ End mouse capture [%i]: %s\n
 EndCancelSequence
 EndCap Time
 EndWheelSequence
-Endcap
 Endcap Age
 Ensure on Nav Mesh On Finish
 EnsureCapacity
@@ -6131,8 +6128,6 @@ External Port
 ExtraSamples
 FFFF
 FGD Variable %s has bad default value %d (has bits set that are not valid choices)
-FIELD_NETWORK_ORIGIN_CELL_QUANTIZED_VECTORWS
-FIELD_NETWORK_QUANTIZED_VECTORWS
 F\tV_isinfd
 F\v?event@QGroupBox@@MEAA_NPEAVQEvent@@@Z
 Fail Behavior
@@ -6694,15 +6689,12 @@ MAlternateSemanticName
 MAtomicTransfersAsMap
 MAtomicTransfersAsPlainString
 MENU
-MESH_BUFFER_USAGE_VERTEX_EMISSIVE
 MEntitySubclassScopeFile
 MFgdHelper
 MGPUParticleFunction
 MHideInPolymorphicClassList
 MIsStringAndTokenType
 MKV3TransferName
-MM:SS with leading zeros
-MM_SS_LEADING_ZERO
 MModelGameData
 MMouse
 MMouseDoubleClick
@@ -7472,7 +7464,6 @@ ParametersKV3
 Parent
 Parent Asset(s)
 Parent Map: %s\n
-Parent VData
 Parent/Child Directory Mismatch
 ParentAttachmentName()
 ParentChildAssetHovered
@@ -7636,7 +7627,6 @@ PrimaryChromaticities
 Probable infinite loop detected! Terminating pulse cursor after %d consecutive instructions (%s)
 Probable runaway cursor creation detected! Permanently disabling this graph instance (%s)
 Proceed Elegantly
-Proceed Immediately
 Process Selector
 ProcessSelector
 Profile
@@ -7661,7 +7651,6 @@ PulseCycleMode_t::ORDERED
 PulseCycleMode_t::RANDOM
 PulseCycleMode_t::SHUFFLED
 PulseDocNode
-PulseDurationStringFormat_t
 PulseDynamicOutflowDef_t
 PulseEntFireMode_t::NAME
 PulseEvent_BrowseCombinedTypes_t
@@ -7757,7 +7746,6 @@ R?mimeData@QClipboard@@QEBAPEBVQMimeData@@W4Mode@1@@Z
 R?mimeData@QStandardItemModel@@UEBAPEAVQMimeData@@AEBV?$QList@VQModelIndex@@@@@Z
 R?mimeTypes@QStandardItemModel@@UEBA?AVQStringList@@XZ
 R?modifiers@QKeyEvent@@QEBA?AV?$QFlags@W4KeyboardModifier@Qt@@@@XZ
-RENDER_BUFFER_DYNAMIC_ZERO_COPY
 RGBA\t
 RGBA\t%1\t%2\t%3\t%4
 RMouse
@@ -8009,7 +7997,6 @@ SceneSystem
 ScrLk
 ScrToggle
 Scripted Sequence '%s'
-Second
 Second Value
 Seek error at scanline %lu
 Segoe UI,11,-1,5,50,0,0,0,0,0,Regular
@@ -8206,7 +8193,6 @@ Start a timer with the specified duration, fire the OnInterval output
 Start playing the referenced scene.
 StartSendingCameraTo
 Static Preview
-Status
 Status...
 Step Count
 Step Size
@@ -8266,7 +8252,6 @@ SyncFileToHeadRevision
 SyncToHeadRevision - SyncFile failed: %s\n
 Synced %d file(s).
 Synced %d file(s).  %d file(s) were not synced!
-Synchronous - Wait for this node to fully complete before proceeding.
 Syncing %d file(s).  Please wait...
 System will not end on stop!
 System_Definition
@@ -8469,7 +8454,6 @@ Tools_Unlit_Wireframe
 Toolscene screen space view
 Toolutils
 Total
-Trace
 Track Largest System Bounds
 Track Mouse & Focus
 TransferFunction
@@ -8506,12 +8490,6 @@ U?qt_metacast@QTextDocument@@UEAAPEAXPEBD@Z
 UIMatRTTexture.vtex
 UIName
 UIPath
-UPSCALER_AMD_FSR2
-UPSCALER_AMD_FSR3
-UPSCALER_COUNT
-UPSCALER_INTEL_XESS
-UPSCALER_NONE
-UPSCALER_NVIDIA_DLSS
 U\8h(
 U\r?home@QTextBrowser@@UEAAXXZ
 Ultra:
@@ -8598,7 +8576,6 @@ Upgrade Version + Children
 UpgradeVersion
 UpgradeVersionRecursively
 Upgrading involves the following changes:
-UpscalerType_t
 Use BBox Center, not CP
 Use Orientation
 Use shift-click to add new control points
@@ -8615,7 +8592,6 @@ V?removeRows@QStandardItemModel@@UEAA_NHHAEBVQModelIndex@@@Z
 VCD File Name Param
 VCD: %s
 VConsole
-VDATA
 VData:%s
 VDataChoice
 VDataChoice( %s )
@@ -8738,8 +8714,6 @@ Whether value has ALL of the specified flags set (it may have other flags.)
 Whether value has ANY of the specified flags set (it may have other flags.)
 While
 While Active
-While False
-While True
 WhiteLevel
 WhitePoint
 Widget Debugger
@@ -9167,7 +9141,6 @@ anchor_is_external
 animclip
 animclip_is_looping
 animclip_public_name
-animgraph
 animgraph2_clip
 animgraph2_graph
 animgraph2_identifier
@@ -9334,8 +9307,6 @@ dropDraggedColorSet
 dummyfilename.tif
 e ?topLevelItem@QTreeWidget@@QEBAPEAVQTreeWidgetItem@@H@Z
 e"?validate@QSpinBox@@MEBA?AW4State@QValidator@@AEAVQString@@AEAH@Z
-eCenteredCylinder
-eGroundCylinder
 e\f?foregroundRole@QWidget@@QEBA?AW4ColorRole@QPalette@@XZ
 e\n?dragEnterEvent@QAbstractItemView@@MEAAXPEAVQDragEnterEvent@@@Z
 e\v?event@QStatusBar@@MEAA_NPEAVQEvent@@@Z
@@ -9714,7 +9685,6 @@ intmap
 invalid vector subscript
 invisible_func
 is_activator_important
-is_gpu_particle_system
 is_optional
 is_polymorphic
 is_public
@@ -9780,7 +9750,6 @@ m_BadParseExprString
 m_BaseClasses
 m_Bindings
 m_BlackboardReference
-m_BoneMergeLinks
 m_CachedArgumentMetadata
 m_CachedEntityClass
 m_CachedOutputType
@@ -9794,6 +9763,8 @@ m_Count
 m_CustomPorts
 m_DefaultCaseOutflow
 m_DefaultKV3
+m_DependentObservableBlackboardReferences
+m_DependentObservableVars
 m_DesiredOutputValueType
 m_DestinationSubType
 m_DynamicActorSlotNames
@@ -9801,6 +9772,7 @@ m_EditableCases
 m_Entity
 m_EntityParent
 m_EntityTargetAttachment
+m_EvaluateConnection
 m_ExitPortSyms
 m_ExpectedReturnType
 m_ExprPortVariables
@@ -9836,7 +9808,6 @@ m_LiteralValueTypeWhenSaved
 m_LongName
 m_LoopHeader
 m_MetaData
-m_Metadata
 m_MirroredAncestorInparamName
 m_MirroredAncestorNodeID
 m_ModelContextHint
@@ -9865,7 +9836,6 @@ m_PlugType
 m_PrimaryPoint
 m_PropertyName
 m_SecondArg
-m_SequencePoint
 m_SingleParamType
 m_Source
 m_SourceID
@@ -9922,9 +9892,6 @@ m_bmaxs
 m_bmins
 m_cachedParamValueType
 m_eRbfType
-m_eType != eGroundCapsule && m_eType != eCenteredCapsule && m_eType != eCenteredCylinder && m_eType != eGroundCylinder
-m_eType != eGroundCapsule && m_eType != eGenericCapsule && m_eType != eCenteredCapsule && m_eType != eCenteredCylinder && m_eType != eGroundCylinder
-m_fEmissiveFactor
 m_flIdealHeight
 m_flSlopeIncoming
 m_flSlopeOutgoing
@@ -9934,12 +9901,10 @@ m_hDef
 m_hitboxsets
 m_iValue
 m_influenceFlags
-m_materialGroupToken
 m_morphSet
 m_nActorID
 m_nArrayIndexDimension
 m_nChildCursors
-m_nChildNode
 m_nClassType
 m_nCurrentWakeIndex
 m_nCursorID
@@ -9952,22 +9917,15 @@ m_nFailBehavior
 m_nGraphID
 m_nLegacyDefaultInt
 m_nNumExits
-m_nParentHash
 m_nRequirementFailBehavior
 m_nRequirementOperator
-m_nSrcDrawIndex
 m_nStackDepthWhenAdded
 m_nStandardYieldingFlow_CallMode
 m_nUserVisibility
-m_nVertexEmissiveFormat
-m_nVertexEmissiveOffset
-m_nVertexEmissiveStride
-m_nVertexEmissiveVB
 m_nYieldToken
 m_pItemSet
 m_rbfParameters
 m_rgbColor
-m_rootBvhNodes
 m_sDynamicVCDFileParam
 m_scriptedSequenceDataMain
 m_strEditorFriendlyName
@@ -9984,7 +9942,6 @@ m_vcdFilename
 m_vecAdditionalActors
 m_vecAdditionalActorsData
 m_vecGameBlackboards
-m_vecPreviewWind
 main_view
 mapkeys
 mapkeys_choice_name
@@ -10065,7 +10022,6 @@ nAlpha
 nCol
 nColumn
 nDelayInMS
-nDenominator
 nDetailLevel
 nFlag
 nFormat
@@ -10077,7 +10033,6 @@ nMode
 nModifiers
 nMouseButton
 nNewIndex
-nNumerator
 nPoint
 nRemainderDigits
 nRemainderNoiseDigits
@@ -10575,7 +10530,6 @@ zU?qt_metacall@QDrag@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 z\n?dragLeaveEvent@QTextEdit@@MEAAXPEAVQDragLeaveEvent@@@Z
 z\v?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
 z\v?eventFilter@QDialog@@MEAA_NPEAVQObject@@PEAVQEvent@@@Z
-{ item_factory = 'IntervalTimer' }
 {\n?connectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
 {\n?dragLeaveEvent@QWidget@@MEAAXPEAVQDragLeaveEvent@@@Z
 |"?verticalHeader@QTableView@@QEBAPEAVQHeaderView@@XZ

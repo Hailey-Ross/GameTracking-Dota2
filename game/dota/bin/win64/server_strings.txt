@@ -154,8 +154,8 @@
  %s%lu (%s0x%lx)\n
  ' ) - 3 G M Q _ c e i w } 
  (%ld unused bits)\n
- (08@HPXb@
- (0X`hpz@
+ (08@HPXb`
+ (0X`hpz`
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -1852,31 +1852,29 @@ $hRh
 (0'yX
 (0.1s interval)
 (0x%08X)'??'
-(1bi
-(1gi
-(1qi
-(5Hi
+(1pi
 (5Me
+(5Qi
 (5jP
-(9Ji
+(9Ui
 (ACTIVE)
-(ASi
-(Aji
+(ARi
 (BZq
 (D4D
 (DOTA_INVALID_ORDERS nReason) Return the error string of a failed order.
 (Deprecated: use GetNumConnectedHumanPlayers) Players on a valid team (radiant, dire, or custom*) who haven't abandoned the game
-(Ehi
+(E2i
+(E9i
+(EMi
+(ETi
 (HSCRIPT hTarget) Determine whether an issued command on a target is valid.
 (HSCRIPT hTarget) Return the error string of a failed command on a target.
 (HSCRIPT hTarget, VectorWS vLocation) Projectile has collided with a given target or reached its destination (target is invalid).
 (HSCRIPT hTarget, VectorWS vLocation, int nHandle) Projectile has collided with a given target or reached its destination (target is invalid).
 (HSCRIPT hTarget, VectorWS vLocation, table kv) Projectile has collided with a given target or reached its destination (target is invalid).
 (Has breakpieces or commands)
-(IMi
-(INi
-(MRi
-(MYi
+(I8i
+(IEi
 (NAV IGNORED)
 (NAV_IGNORED)
 (NONE)
@@ -1884,11 +1882,12 @@ $hRh
 (Output drawable)
 (Preview/Unreleased) Gets the player's custom game account record, as it looked at the start of this session
 (Preview/Unreleased) Sets a callback to handle saving custom game account records (callback is passed a Player ID and should return a flat simple table)
+(QCi
+(QLi
+(QWi
 (SERVER) Inventory for account (%d):\n
 (Server) 
 (U1h
-(U1i
-(UZi
 (Unknown error)
 (VectorWS vLocation) Determine whether an issued command on a location is valid.
 (VectorWS vLocation) Projectile is actively moving.
@@ -1896,8 +1895,9 @@ $hRh
 (VectorWS vLocation, table kv ) Projectile is actively moving.
 (VectorWS vOrigin, float flRadius )
 (WIPE AND EXTRACT)
-(Y8i
-(Yri
+(Ybi
+(Ygi
+(Yqi
 (ZdOt\n&
 (\f"#\n!CDOTABroadcastMsg_LANLobbyRequest"
 (\f";\n%CDOTAUserMsg_CustomHudElement_Destroy
@@ -2496,6 +2496,7 @@ $hRh
 (\v2\v.CMsgVector"l\n
 (\v2\v.CMsgVector"o\n)CDOTAUserMsg_UpdateLinearProjectileCPData
 (\v2\v.CMsgVector*
+(aJi
 (b IncludePregameTime b IncludeNegativeTime) Returns the actual DOTA in-game clock time.
 (bSafeToLeave) - Mark this game as safe to leave.
 (bool RemovePositiveBuffs, bool RemoveDebuffs, bool BuffsCreatedThisFrameOnly, bool RemoveStuns, bool RemoveExceptions)
@@ -2503,7 +2504,7 @@ $hRh
 (bool bSpent) Runs when item's charge count changes. bSpent is true when the charge count change is coming from SpendCharge.
 (d4t8
 (default)
-(ezi
+(f0Q
 (fS{ggRcjh
 (flMinimapCreepIconScale) - Scale the creep icons on the minimap.
 (flMinimapHeroIconScale) - Scale the hero minimap icons on the minimap.
@@ -2515,8 +2516,8 @@ $hRh
 (hInflictor, hAttacker, flDamage) - Allocate a damageinfo object, used as an argument to TakeDamage(). Call DestroyDamageInfo( hInfo ) to free the object.
 (h`H1pqA
 (i/Al
-(i0i
-(iDi
+(iSi
+(iji
 (index, bDestroyImmediately, bStatusEffect, priority, bHeroEffect, bOverheadEffect
 (int iIndex, int iPoint, Vector vecPosition)
 (int index, bool bDestroyImmediately) - Destroy a particle, if bDestroyImmediately destroy it without playing end caps.
@@ -2526,9 +2527,7 @@ $hRh
 (int nProjectileHandle) Projectile is actively moving.
 (int targets [0=all, 1=enemy, 2=ally], bool bNow, bool bPermanent, bool bDeath)
 (jvg;
-(mBi
-(mTi
-(mVi
+(mhi
 (nMusicStatus, flIntensity) - Set the music status for this player, note this will only really apply if dota_music_battle_enable is off.
 (nPlayerID)
 (nPlayerID, eEvent, nActionID)
@@ -2540,16 +2539,15 @@ $hRh
 (playerID, heroClassName, gold, XP) - replaces the player's hero with a new one of the specified class, gold and XP
 (playerID, heroClassName, gold, XP) - replaces the player's hero with a new one of the specified class, gold and XP, without transferring items/abilities if same hero
 (position, radius, checkFullTreeRadius?) Checks whether there are any trees overlapping the given point
-(q9i
+(qMi
+(qNi
 (quaternion,quaternion,float) very basic interpolation of v0 to v1 over t on [0,1]
 (quaternion,vector,float) rotates a quaternion by the specified angle around the specified vector axis
 (test) brawl
 (test) flee
 (test) pursue
-(uGi
-(uXi
-(ugi
-(uoi
+(uRi
+(uYi
 (update disabled)
 (vQF
 (vector,float) constructs a quaternion representing a rotation by angle around the specified vector axis
@@ -2557,7 +2555,6 @@ $hRh
 (vector,vector,float) lerp between two vectors by a float factor returning new vector
 (vector,vector,float) very basic interpolation of v0 to v1 over t on [0,1]
 (wMww
-(yFi
 )!)#)?)G)])e)i)o)u)
 ).CMsgSteamLearn_InferenceMetadata_Request
 )Ck?B
@@ -3087,7 +3084,6 @@ $hRh
 ,kj8\te
 ,name:
 ,oYR
-,pSm
 ,section=
 ,steammessages_steamlearn.steamworkssdk.proto"
 ,steammessages_steamlearn.steamworkssdk.proto"b\n
@@ -23548,7 +23544,7 @@ $hRh
 0123456789
 02V8[
 05=k
-08@J@
+08@J`
 08bX
 09,h
 0;Q5[
@@ -23782,6 +23778,7 @@ $hRh
 2 .CMsgBattleReport_CompareContext"
 2 .CMsgConnectedPlayers.SendReason
 2 .CMsgGCRoutingInfo.RoutingMethod:
+2 Xm
 2!.CMsgAddSocketResponse.EAddSocket"
 2!.CMsgBattleReport_HighlightRarity
 2!.CMsgDevModifyCodexAction.EAction"#\n
@@ -24006,11 +24003,11 @@ $hRh
 2\r.DOTA_GC_TEAM:
 2\r.ELeaguePhase
 2\rlhp
+2\vpL
 2^pV
 2_bot
 2_mid
 2_top
-2`Um
 2a"l
 2bT~
 2cb:RO
@@ -24184,7 +24181,6 @@ $hRh
 4_bot
 4_top
 4f h
-4q\nr?e
 4tpD
 4zj@1;IJ
 5'0v2ZP
@@ -24414,22 +24410,23 @@ $hRh
 7sAP'
 7wKR
 7zRQ
-8%vi
-8)ei
+8)fi
+8)si
 8+Qw
-8-ci
 80F2<
 82\n:XPH
 851Pe
+85\i
 8<pl
 8= zp
 8A6j
 8DemoFile
 8GZS
+8Mvi
+8Qei
 8SIffK5W
 8TZvrv<
-8Udi
-8Uui
+8Uci
 8\n0series_current_selection_priority_used_coin_toss
 8\n0ultimate_scepter_consumed_alchemist_bonus_health
 8\n3kKillEaterEventType_Broodmother_SpiderlingHeroKills
@@ -24482,14 +24479,13 @@ $hRh
 8\n\rsubscribe_msg
 8\v8!83858A8G8K8S8W8_8e8o8q8}8
 8]Vc2
-8aii
 8ca1
 8dS2
 8pe7?
 8q-S*]X
-8qei
-8qvi
 8sOy
+8}di
+8}ui
 9#9%9)9/9=9A9M9[9k9y9}9
 9)PF
 9)jx
@@ -24545,7 +24541,6 @@ $hRh
 9r#xV
 : unrecognized parent "%s"\n
 :':+:1:K:Q:[:c:g:m:y:
-:0Um
 :4\n\vdescription
 :9\n\tkey_field
 :BAD OBJECT
@@ -24554,7 +24549,7 @@ $hRh
 :EXTERNAL TYPE %s\n
 :LBN
 :NAy
-:PVm
+:PWm
 :QYJ
 :Vlq
 :\n5kKillEaterEventType_Brewmaster_KillsDuringPrimalSplit
@@ -24596,6 +24591,7 @@ $hRh
 :eaI
 :gN(dq
 :mIR
+:pXm
 :parsed on tick %d of %d got %d new commands through command number %d [%s]\n
 :w4v
 ;!;#;-;9;E;S;Y;_;q;{;
@@ -24912,7 +24908,6 @@ A<fP
 A>x8
 A@d0I
 AA Compromise
-AA:`Um
 AABB
 AABBDirection
 AACompromise
@@ -39874,7 +39869,7 @@ P-224
 P-256
 P-384
 P-521
-P08@J@
+P08@J`
 P1\t98"
 P5[1
 PAGN_4
@@ -40827,6 +40822,7 @@ RUNE_XP
 R\n\fActivityInfo
 R\r1>Vp
 R\vp!y
+R\vpL
 R]Di
 Rad2 Deg
 Radiant
@@ -45659,9 +45655,9 @@ X\n\rkilling_blows
 X\tQo
 Xbox VDP is not supported on this platform.
 Xd3h
-Xf E
-Xf@F
+Xf@G
 XfJ7
+Xf`H
 XjfR
 XqgA+
 Xuub
@@ -45726,7 +45722,6 @@ Z\n\fPositionPair
 Z\n\fSubChallenge
 Z\n\nmap_values
 Z\tV_log2f
-Z`Um
 Zd[w
 Ze2Zh@
 Zero Pose Task
@@ -45830,11 +45825,13 @@ Z~wl
 \fKS1
 \fW9c
 \fXu"L
+\f\n0Cp
 \f\rbad allocation
 \f]ne3
 \fdhWTh
 \fevents.proto"
 \fiaR
+\fp\vP4
 \ful2
 \fy&3Gl
 \l:ArR
@@ -46049,7 +46046,7 @@ Z~wl
 \n0CMsgClientToGCSurvivorsGameTelemetryDataResponse
 \n0CMsgGCtoGCAssociatedExploiterAccountInfoResponse
 \n0CMsgServerToGCMatchPlayerNeutralItemEquipHistory
-\n0Um
+\n0Kw
 \n1CDOTAClientMsg_AbilitySpecificChannelRequiresHalt
 \n1CDOTAUserMsg_MonsterHunter_InvestigationGameState
 \n1CMsgClientToGCFightingGameAnswerChallengeResponse
@@ -46122,8 +46119,7 @@ Z~wl
 \nLeagueID_t"
 \nLeagueID_t"M\n;CMsgServerToGCCloseCompendiumInGamePredictionVotingResponse
 \nLeagueID_t"N\n$CMsgServerToGCGetCheerConfigResponse
-\nPAp
-\nPVm
+\nPWm
 \nPlayerID_t
 \nPlayerID_t"
 \nSimulating Entities:\n\n
@@ -46390,6 +46386,7 @@ Z~wl
 \n\fwhat_changed
 \n\fwinner_score
 \n\fwinning_team
+\n\n0Pw
 \n\nAddGesture
 \n\nAnswerTeam
 \n\nBuffRecord
@@ -46406,7 +46403,6 @@ Z~wl
 \n\nLANE_CREEP
 \n\nMapResults
 \n\nMatchState
-\n\nPVm
 \n\nPrediction
 \n\nROLL_STATS
 \n\nResultCode
@@ -46566,6 +46562,7 @@ Z~wl
 \n\nnpc_dialog
 \n\norder_type
 \n\nother_gold
+\n\npXm
 \n\npackage_id
 \n\nparty_game
 \n\npersona_id
@@ -47338,6 +47335,8 @@ Z~wl
 \ng_flConfigMaxCoord
 \ngrant_periodic_action '%s' doesn't specify an action to grant
 \nnexttoken
+\npCp
+\npXm
 \nqYu
 \ntM(ie-V
 \r!\r+\r-\r=\r?\rO\rU\ri\ry\r
@@ -47544,7 +47543,6 @@ _turbo
 _xU`u
 _}eOk
 `28)fk
-`2`Um
 `:zQF
 `D$daM-l
 `DZG
@@ -53322,7 +53320,6 @@ h0XB
 h2Wl
 h2n_\
 h5N.
-hA`i
 hActivator
 hAggroTarget
 hAttackTarget
@@ -53340,7 +53337,6 @@ hCourier
 hCriteriaTable
 hDropData
 hEM&!
-hE[i
 hEnt
 hEntity to follow, bool bBoneMerge
 hEntity to follow, string BoneOrAttachName
@@ -53634,6 +53630,7 @@ hex_to_string
 hexed
 hexkey
 hhwi
+hi`i
 hidden_modifier
 hide_debug_complaints
 hide_highlight_hud_element
@@ -53731,7 +53728,6 @@ hltv_title
 hltv_versioninfo
 hlvr
 hm[i
-hm^i
 hmac
 hmac-md5
 hmac-sha1
@@ -53793,7 +53789,7 @@ hoverposeposition
 howl_duration
 hp_cost
 hp_missing_per_extra_illusion_pct
-hpz@
+hpz`
 hr_H
 http request
 http://%s
@@ -55728,7 +55724,6 @@ jTuf
 jV*d9O
 j[6Z
 j\n\nOutputItem
-j\nn@e
 j\vIP{s
 jackpots
 jaja
@@ -56572,6 +56567,7 @@ loot_list_name
 loot_lists
 lootlist
 lore_loc
+lose_bot_matches
 lose_event_game_matches
 lose_if_completed
 lose_matches
@@ -62495,6 +62491,7 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
+p0j`
 p2{l
 p4Z3
 p5Z3
@@ -65645,6 +65642,7 @@ platform
 platform_linux
 platform_type
 play_agility_hero
+play_bot_matches
 play_event_game_matches
 play_intelligence_hero
 play_matches
@@ -66345,9 +66343,9 @@ quill_stack_damage
 quill_stack_duration
 quill_stacks
 qx(q
-r zq
 r$0I
 r-IE
+r0Pw
 r184
 r3A~
 r<\rND
@@ -70219,7 +70217,6 @@ tips_received
 tips_received_leaderboard_name
 title
 title_loc_token
-tl\nP?e
 tls client cert req with anon cipher
 tls illegal exporter label
 tls invalid ecpointformat list
@@ -71411,6 +71408,7 @@ win_as_core_hero
 win_as_melee_hero
 win_as_ranged_hero
 win_as_support_hero
+win_bot_matches
 win_core_matches
 win_date
 win_event_game_matches

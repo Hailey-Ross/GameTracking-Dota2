@@ -167,8 +167,6 @@
  (%lu = 0x%lx)\n
  (%u = 0x%x)\n
  (+%d more due to usercommand delivery)
- (08@HPXb`
- (0X`hpz`
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -7032,79 +7030,75 @@ $hRh
 (0'yX
 (0.1s interval)
 (0x%08X)'??'
-(1So
-(1oo
-(1up
+(12p
+(13p
+(1To
+(1Wo
+(1rp
+(5Ap
 (5Me
-(5Vo
-(5fo
+(5bo
+(5fp
 (5gp
 (5jP
-(5kp
-(5so
-(5wo
-(9Ap
-(9Yp
-(9mo
-(9vp
+(5vo
+(5vp
+(94o
+(96o
 (?333?DOTAShowFrostivus2024Page
-(A4p
-(ABp
 (ACTIVE)
-(ACo
-(AHp
+(ATp
 (App Id to retrieve published files from.
-(Atp
 (BZq
 (CLIENT) Inventory:\n
 (Client) 
 (D4D
 (DOTA_INVALID_ORDERS nReason) Return the error string of a failed order.
-(EWp
-(Ewp
+(E5o
+(ECo
+(ESo
+(Ebp
+(Ecp
+(Ejp
+(Eso
+(Eup
+(Ezo
 (Fade Removed: [%d,%d,%d,%d])\n
 (HSCRIPT hTarget) Determine whether an issued command on a target is valid.
 (HSCRIPT hTarget) Return the error string of a failed command on a target.
 (I?Value@External@v8@@QEBAPEAXXZ
 (ID of the Cloud file to get details for.
+(IHp
 (IImageSource)
-(ITp
-(Iao
+(IUp
 (Interp Ready=%s)
-(Iop
-(M9p
-(MGp
-(MWo
-(Mdp
+(M4p
+(MIp
+(Meo
+(Mwo
+(Mzp
 (NONE)
-(Q5o
-(QSp
-(Quo
-(Qxp
-(Qzp
+(QBp
+(Qoo
 (SST) Disconnecting for the purpose of editing %s\n
 (SST) Disconnecting for the purpose of removing all SST data from vpk\n
 (SST) Moving %s to %s\n
 (SST) Unzipping %s (%d files)\n
 (SST) Zipping %s (%d files)\n
 (Text description for the published file.
-(U0p
 (U1h
-(UFp
-(UQo
-(UZo
+(UYo
 (Unknown error)
+(Uno
+(Uuo
 (VectorWS vLocation) Determine whether an issued command on a location is valid.
 (VectorWS vLocation) Return the error string of a failed command on a location.
 (WIPE AND EXTRACT)
-(Y2p
-(Y7o
-(Y7p
-(YHo
-(Ycp
-(Yfp
-(Ypo
-(Ysp
+(Y3o
+(Y9o
+(Yhp
+(Ytp
+(Ywp
 (ZdOt\n&
 (\f"#\n!CDOTABroadcastMsg_LANLobbyRequest"
 (\f"#\n!CMsgClientToGCEmoticonDataRequest"Q\n
@@ -7946,64 +7940,53 @@ $hRh
 (\v2\v.CMsgVector"l\n
 (\v2\v.CMsgVector"o\n)CDOTAUserMsg_UpdateLinearProjectileCPData
 (\v2\v.CMsgVector*
-(aDo
+(aFp
+(aao
 (alp
-(ato
 (b IncludePregameTime b IncludeNegativeTime) Returns the actual DOTA in-game clock time.
 (connected)
 (d4t8
 (default)
-(eJo
-(eNo
-(eqo
-(eyp
+(exp
 (fS{ggRcjh
 (flTime, bInformClients)
 (from angle, to angle, time) - Spherical lerp of angle from->to based on time
 (h`H1pqA
 (i/Al
-(iSo
+(iTp
+(iho
 (index, bDestroyImmediately, bStatusEffect, priority, bHeroEffect, bOverheadEffect
 (int iIndex, int iPoint, Vector vecPosition)
 (int index, bool bDestroyImmediately) - Destroy a particle, if bDestroyImmediately destroy it without playing end caps.
 (int nFXIndex, int nPoint, vOrigin, qAngles)
 (int nFXIndex, int nPoint, vOrigin, vForward)
-(irp
-(iup
 (jvg;
-(m3o
-(m3p
-(mHp
-(mQp
 (memory)
-(mzo
+(mfp
 (needs match)
 (no controller?)
 (parent %d)
 (partial match ok)
-(qCo
-(qGo
-(qho
-(qpp
+(q0p
 (quaternion,quaternion,float) very basic interpolation of v0 to v1 over t on [0,1]
 (quaternion,vector,float) rotates a quaternion by the specified angle around the specified vector axis
-(qwo
+(qyp
+(uEo
 (uco
-(ulo
-(ump
+(uko
 (update disabled)
-(uvo
-(uvp
+(uqp
 (vQF
 (vector,float) constructs a quaternion representing a rotation by angle around the specified vector axis
 (vector,vector) cross product between two vectors
 (vector,vector,float) lerp between two vectors by a float factor returning new vector
 (vector,vector,float) very basic interpolation of v0 to v1 over t on [0,1]
 (wMww
-(y4o
-(y5p
 (yOo
 (ySp
+(yro
+(yvo
+(yzo
 ) == false\n
 )!)#)?)G)])e)i)o)u)
 )#DOTA_Hero_Selection_CaptainsMode_TheyBan
@@ -37129,12 +37112,13 @@ $hRh
 0234
 02V8[
 05=k
-08@J`
 08bX
 09,h
 0:%02d
+0:py/
 0;Q5[
 0<cz
+0>0Y
 0M2~@p
 0Marks latest announcement timestamp read by user
 0Name of the file to publish in the user's cloud.
@@ -37548,7 +37532,6 @@ $hRh
 2022_diretide_collectors_cache
 2025_cta_collectors_cache_voting
 20t\f
-20u/
 20x9
 21.CMsgClientToGCBingoGetUserDataResponse.EResponse
 21.CMsgClientToGCBingoShuffleCardResponse.EResponse"
@@ -37740,6 +37723,7 @@ $hRh
 2J.CMsgClientToGCMonsterHunterDevClaimInvestigationRewardsResponse.EResponse"u\n\tEResponse
 2K.CMsgClientToGCGetAvailablePrivateCoachingSessionsSummaryResponse.EResponse
 2L.CMsgClientToGCMonsterHunterRequestMaterialsNeededByFriendResponse.EResponse
+2PS:
 2Set of published file Ids to retrieve details for.
 2Tm=#
 2Uiwp"9
@@ -37872,11 +37856,13 @@ $hRh
 2\r.ELeaguePhase
 2\rlhp
 2\vp!d
+2\vph
 2^pV
 2_bot
 2_mid
 2_top
 2_week_streak
+2`08
 2a"l
 2bT~
 2cb:RO
@@ -37886,6 +37872,7 @@ $hRh
 2ndry
 2p"6
 2prB
+2py/
 3#DOTA_Hero_Selection_AllDraft_YouPicking_LosingGold
 3%3+3/353A3G3[3_3g3k3s3y3
 3(Optional) Preview filename for the published file." \n
@@ -38384,21 +38371,24 @@ $hRh
 7sAP'
 7wKR
 7zRQ
+8!Xo
 8"3hrf
+8%do
 8&Kx
 8+Qw
-8-Ep
 80F2<
 82\n:XPH
 851Pe
-85\p
 89 89 89
-89]p
 8<pl
 8= zp
+8=Eo
 8@HPZ
+8@HPZ@N:
 8A6j
 8Client ID for which to count the number of issued tokens"
+8F@X
+8FPW
 8GZS
 8Gets the list of nicknames this user has for other users
 8If set, remove from ignore/block list instead of adding "\\n
@@ -38407,9 +38397,6 @@ $hRh
 8SIffK5W
 8TZvrv<
 8TopArrow
-8UTo
-8Y.o
-8YEo
 8\n0series_current_selection_priority_used_coin_toss
 8\n0ultimate_scepter_consumed_alchemist_bonus_health
 8\n3kKillEaterEventType_Broodmother_SpiderlingHeroKills
@@ -38466,13 +38453,14 @@ $hRh
 8\n\rsubscribe_msg
 8\v8!83858A8G8K8S8W8_8e8o8q8}8
 8]Vc2
+8a o
 8ca1
 8dS2
 8oYSBkqnngo
 8pe7?
 8q-S*]X
 8sOy
-8y>p
+8}Ep
 9#9%9)9/9=9A9M9[9k9y9}9
 9#DOTA_Hero_Selection_CaptainsMode_WaitingForChooseCaptain
 9)PF
@@ -38487,8 +38475,10 @@ $hRh
 9B2C1229
 9IGv
 9J9;6
+9JFo
 9N1=@
 9QTA
+9V^p
 9Y@nJM
 9Zr4
 9\n4kKillEaterEventType_Magnus_HeroesSlowedWithShockwave
@@ -38512,6 +38502,7 @@ $hRh
 9\n5k_EDOTATriviaQuestionCategory_DYNAMIC_QUESTIONS_START
 9\n5k_EStartFindingMatchResult_WeekendTourneyBadPartySize
 9\n5k_RemoveItemAttribute_Failed_AttributeCannotBeRemoved
+9\nFo
 9\n\fSingleMetric
 9\n\faccess_token
 9\n\fbingo_tokens
@@ -38551,6 +38542,7 @@ $hRh
 :    initpredictable %d:%s for %d slots\n
 : unrecognized parent "%s"\n
 :':+:1:K:Q:[:c:g:m:y:
+:067
 :4\n\vdescription
 :9\n\tkey_field
 :BAD OBJECT
@@ -38974,7 +38966,6 @@ $hRh
 ?(Optional) Video Id of a YouTube video for this published file.
 ?333@
 ?33s?
-?8Mp
 ??0EscapableHandleScope@v8@@QEAA@PEAVIsolate@1@@Z
 ??0HandleScope@v8@@QEAA@PEAVIsolate@1@@Z
 ??0TryCatch@v8@@QEAA@PEAVIsolate@1@@Z
@@ -39011,6 +39002,7 @@ $hRh
 ?HasCaught@TryCatch@v8@@QEBA_NXZ
 ?Jun 24 2026
 ?NumberEntryIncrementValue
+?PNp
 ?ParseEXRHeaderFromMemory() failed! Error message: %s\n
 ?The most recent last-played time the client already knows about"
 ?VBH;
@@ -39045,7 +39037,6 @@ $hRh
 ?fff@
 ?ffffff
 ?gwL
-?hNp
 ?jOb
 ?open
 ?srJO
@@ -39056,19 +39047,17 @@ $hRh
 ?x29
 ?xNp
 @!@%@+@1@?@C@E@]@a@g@m@
-@08N$
+@08Nt
 @0pp
 @333333)@R
-@6Pd
-@6pr
+@6PN
 @888
-@8Mp
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @BH]f
 @BoneSetup
 @DebugIndividualStyle
-@HPX`hv@6
-@HPXf`
+@HPX`hv
+@HPXf
 @Integer overflow in %s
 @MfKZ
 @Pgl
@@ -39076,8 +39065,6 @@ $hRh
 @Requests the metadata that was generated from a specified fetch.
 @WE]X
 @X!pf
-@XMp
-@XNp
 @Zs3
 @\f1OJ
 @\n tertiary_advancing_node_group_id
@@ -40849,6 +40836,7 @@ BOOLEAN
 BPEventLevelIcon
 BPIN_txt
 BPLevel
+BPR:
 BReadyForDisplay
 BRouteMsgToJob
 BRouteWorkItemCompleted called for a job that could not be found!\n
@@ -41153,7 +41141,6 @@ BetToken
 BetaUniverse
 BgColor
 Bh;+j
-Bhw$
 Big Number part of OpenSSL 1.0.2j  26 Sep 2016
 BigCandySack
 BigCheeseContainer
@@ -41382,7 +41369,6 @@ BoxFinished
 BoxFocused
 BoxIdle
 BoxOpening
-BpJ:
 Bracket
 Bracket%d
 BracketBoxContainer
@@ -41589,6 +41575,7 @@ BuybackUsed
 BuybackUsedRecently
 BuybackVisible
 BvVlZ\
+Bxw$
 By default after slicing the image as specified in border-image-slice the 9 regions will be used to fill the space specified by the standard border-width property.  This border-image-width property may be used to override that and specify different widths.  The values appear in top, right, bottom, left order, the 2nd through 4th may be omitted and corresponding earlier values will be used.  Values may be straight floats which specify a multiple of the corresponding border-width value, a percentage (which is relative to the size of the border image in the corresponding dimension), or 'auto' which means to use the intrinsic size of the corresponding border-image-slice.<br><br><b>Examples:</b><pre>border-image-width: 1 1 1 1;\nborder-image-slice: 50% 50% 50% 50%;\nborder-image-slice: auto;</pre>
 ByteSource::CopyTo() overran input.
 Bytes
@@ -65516,17 +65503,16 @@ P-224
 P-256
 P-384
 P-521
-P08@J`
-P08Jp\n/
-P08N$
+P08Nt
 P0WonMatch
 P1Avatar
 P1WonMatch
 P1\t98"
 P2Avatar
 P2P ping to "%s". Timed out after %.2fms\n
+P40\v:
 P5[1
-P6@m
+P6 0
 PAGN_4
 PAGrave
 PAIN: %2.2f\n
@@ -67860,6 +67846,7 @@ RTTIPredictionsUnlocked
 RTTISelected
 RTTIState
 RT_txt
+R\fph
 R\n\fActivityInfo
 R\n\fmap_variants
 R\n\fplayer_cards
@@ -67867,7 +67854,6 @@ R\n\rincludekvtags
 R\n\vpredictions
 R\r1>Vp
 R\vp!y
-R\vpD
 R]Di
 R_T5Y
 Rad Guys
@@ -71454,6 +71440,9 @@ SndOpEventGuid_t
 Sniper\t\t\t
 Snotty Body
 Snotty Pickup Region
+Social/chat_message/%s
+Social/chathweels/%u
+Social/emoticons/%s
 SocialControls
 SocialFeed
 SocialTabButton
@@ -72523,7 +72512,6 @@ System %s failed to init\n
 System Memory (%s): 
 SystemFunction036
 SystemInputLanguageChanged
-T (Lz
 T*8U
 T0.S
 T61STRING
@@ -75699,9 +75687,9 @@ X\n\tGraphData
 X\tQo
 Xd3h
 Xdota
-Xf W
 XfJ7
-XfpU
+XfPZ
+Xfp[
 Xin \t
 XjfR
 XqgA+
@@ -75983,12 +75971,14 @@ Z~wl
 \fKS1
 \fW9c
 \fXu"L
+\f\nPe6
 \f]ne3
 \fdhWTh
 \fevents.proto
 \fevents.proto"
 \fiaR
 \fpFQ
+\fp\vP4
 \ful2
 \fy&3Gl
 \l:ArR
@@ -76409,6 +76399,7 @@ Z~wl
 \n/CMsgClientToGCSubmitCoachTeammateRatingResponse
 \n/CMsgDOTATeamInvite_GCImmediateResponseToInviter
 \n/steammessages_publishedfile.steamworkssdk.proto
+\n067
 \n0CMsgClientToGCMonsterHunterGiftMaterialsResponse
 \n0CMsgClientToGCOverworldDevClearInventoryResponse
 \n0CMsgClientToGCPlayerCardSpecificPurchaseResponse
@@ -76526,7 +76517,6 @@ Z~wl
 \nLeagueID_t"
 \nLeagueID_t"9\n#CMsgDOTACompendiumSelectionResponse
 \nLeagueID_t"C\n-CMsgDOTACompendiumRemoveAllSelectionsResponse
-\nPa9
 \nPlayerID_t
 \nPlayerID_t"
 \nSimulating Entities:\n\n
@@ -76910,7 +76900,6 @@ Z~wl
 \n\nNOT_LEADER
 \n\nOAuthToken
 \n\nPARTY_FULL
-\n\nPf9
 \n\nPrediction
 \n\nROLL_STATS
 \n\nResultCode
@@ -78604,10 +78593,12 @@ _video
 _wjb
 _xU`u
 _}eOk
+`20N:
 `28)fk
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
-`6ps
+`5Kp
 `:zQF
+`App
 `D$daM-l
 `DZG
 `F?ToLocalEmpty@api_internal@v8@@YAXXZ
@@ -78620,8 +78611,8 @@ _}eOk
 `fPw.\vM
 `h9T~
 `htp
-`mOp
 `o_je
+`r0N:
 `yNT
 a moment...
 a null shared library handle was used
@@ -78640,7 +78631,7 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBv$
+aBvt
 aD/x
 aDSS
 aECDH
@@ -88354,14 +88345,12 @@ gyroshell
 g{syW*
 g|FeW\v
 g|MT
-h%lo
 h&eC
 h*Ax
 h0XB
 h2Wl
 h2n_\
 h5N.
-h5\rp
 hActivator
 hAttacker
 hCallbackFunc
@@ -88370,23 +88359,21 @@ hCaller
 hCamera
 hCaster
 hEM&!
-hE\vp
 hEntityA
 hEntityB
 hF\rDz
 hFcg
+hINp
 hJxRX@_
-hMIp
 hN2D
 hRB.
 hRenderTexture != RENDER_TEXTURE_HANDLE_INVALID && m_image.IsValid()
 hThinkFunc
-hUKp
+hU\tp
 hW*m
 hW1M
 hW_z
 hX@e
-hY+o
 h\n"unlocked_chat_wheel_message_ranges
 h\n"unlocked_ping_wheel_message_ranges
 h\n/k_EHeroSelectionText_AllDraft_Planning_YouFirst
@@ -88767,7 +88754,6 @@ hex_to_string
 hexed
 hexkey
 hhwi
-hi8p
 hidden_cooldown_timer
 hidden_modifier
 hide
@@ -88922,7 +88908,6 @@ hours_remaining
 houseIdentifier
 hover
 how_to_play
-hpz`
 hr_H
 href="
 hscroll
@@ -89043,6 +89028,7 @@ hud_ping
 hudpregame
 hue-rotation
 huff
+hulo
 hungarian
 hunt_alert_type
 hunt_rewards
@@ -89066,7 +89052,6 @@ huskar_inner_fire
 huskar_inner_vitality
 huskar_life_break
 hvL&
-hyLp
 hydras_breath_single
 hype
 hype_loc
@@ -98828,7 +98813,7 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^$
+p08@H^t
 p2p_ping could not convert "%s" to a CPeerToPeerAddress\n
 p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n
@@ -98842,7 +98827,6 @@ p4Z3
 p5Z3
 p5\nL,
 p618
-p6PJ
 p>?Set@Template@v8@@QEAAXV?$Local@VName@v8@@@2@V?$Local@VData@v8@@@2@W4PropertyAttribute@2@@Z
 p@0pqE5tsO?|1
 pCheckpointName
@@ -98854,6 +98838,7 @@ pDest
 pDifficultyLevel != nullptr
 pEventName
 pFilter
+pFp\v
 pG_*h
 pGameModeDef != nullptr
 pGameModeDefinition != nullptr
@@ -101812,7 +101797,6 @@ qx(q
 r axis
 r$0I
 r-IE
-r0\t3
 r184
 r1c1
 r1c2
@@ -101839,16 +101823,15 @@ rFur`7\t
 rIwdzZiHJbg
 rL[i+
 rOtk
-rPf9
 rRfKR
 rX&O0
 rZ1VwGf5
 rZPM
-r\fpD
 r\n4k_EHeroSelectionText_AllDraft_TheyPicking_LosingGold
 r\n\nHuntReward
 r\n\vstart_index
 r\vDi
+r\vph
 r_cleardecals
 r_deferred_additive_pass 1
 r_deferred_height_fog 1
@@ -106455,7 +106438,6 @@ t4O_
 t80z
 tA`KO/3G!\n7h=
 tGTS
-tJ p
 tLY^m`6
 tLl 
 tLsq
@@ -109057,7 +109039,6 @@ x509_pkey
 x509_req
 x509_store
 x931
-xA\nI
 xFKF
 xOu\vsF
 xQfF

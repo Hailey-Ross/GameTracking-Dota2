@@ -65,6 +65,7 @@
 .?AVIResourceTypeManager@@
 .?AVIVDataTypeManager@@
 .?AVbad_weak_ptr@std@@
+2\vp8O
 <Anonymous>
 <INVALID>
 <non-RTTI type>
@@ -187,6 +188,7 @@ RESOURCE_TYPE_TEST
 RESOURCE_TYPE_VDATA
 RSDSDm
 RSProfilerTool
+R\fp8O
 Range_t
 Re-entrant calls to CResourceSystem::PreShutdown()\n
 Reentrant call to CResourceSystem::BlockUntilManifestLoaded() while already in a frame update!\n
@@ -232,6 +234,7 @@ WARNING: resource '%s' is an unrecognized resource type!\n
 [% 5ims cb] [% 5ims async cb] [% 5i / %10s] %s\n
 [% 5ims cb] [% 5ims async cb] [% 5i / %10s] TOTAL\n
 [refcount % 4d]
+\nP8N
 \t\t[ FAIL ] - Manifest contains an illegal resource name "%s"!\n
 ___error_resource__
 _include
@@ -259,6 +262,7 @@ newSerial == i + 1
 panorama_image
 pthis->HandleUtils_Deref( ch )->m_ResourceId == key
 pthis->StaticDeref( ch, true ) == nullptr
+r\vp8O
 removed
 resource_leaks: Invalid resource name '%s'\n
 resource_leaks: No resource named '%s'\n

@@ -7035,6 +7035,7 @@ $hRh
 (1To
 (1Wo
 (1rp
+(4p:7
 (5Ap
 (5Me
 (5bo
@@ -37115,10 +37116,8 @@ $hRh
 08bX
 09,h
 0:%02d
-0:py/
 0;Q5[
 0<cz
-0>0Y
 0M2~@p
 0Marks latest announcement timestamp read by user
 0Name of the file to publish in the user's cloud.
@@ -37409,6 +37408,7 @@ $hRh
 1}oP
 2 .CMsgBattleReport_CompareContext"
 2 .CMsgGCRoutingInfo.RoutingMethod:
+2 T0
 2 arguments expected: %s <map name> <override map name>\n
 2!.CMsgAddSocketResponse.EAddSocket"
 2!.CMsgBattleReport_HighlightRarity
@@ -37533,6 +37533,7 @@ $hRh
 2025_cta_collectors_cache_voting
 20t\f
 20x9
+20y/
 21.CMsgClientToGCBingoGetUserDataResponse.EResponse
 21.CMsgClientToGCBingoShuffleCardResponse.EResponse"
 21.CMsgClientToGCDotaLabsFeedbackResponse.EResponse"
@@ -37723,7 +37724,6 @@ $hRh
 2J.CMsgClientToGCMonsterHunterDevClaimInvestigationRewardsResponse.EResponse"u\n\tEResponse
 2K.CMsgClientToGCGetAvailablePrivateCoachingSessionsSummaryResponse.EResponse
 2L.CMsgClientToGCMonsterHunterRequestMaterialsNeededByFriendResponse.EResponse
-2PS:
 2Set of published file Ids to retrieve details for.
 2Tm=#
 2Uiwp"9
@@ -37856,13 +37856,13 @@ $hRh
 2\r.ELeaguePhase
 2\rlhp
 2\vp!d
-2\vph
+2\vpd
+2\vpl
 2^pV
 2_bot
 2_mid
 2_top
 2_week_streak
-2`08
 2a"l
 2bT~
 2cb:RO
@@ -38384,11 +38384,8 @@ $hRh
 8= zp
 8=Eo
 8@HPZ
-8@HPZ@N:
 8A6j
 8Client ID for which to count the number of issued tokens"
-8F@X
-8FPW
 8GZS
 8Gets the list of nicknames this user has for other users
 8If set, remove from ignore/block list instead of adding "\\n
@@ -38542,7 +38539,6 @@ $hRh
 :    initpredictable %d:%s for %d slots\n
 : unrecognized parent "%s"\n
 :':+:1:K:Q:[:c:g:m:y:
-:067
 :4\n\vdescription
 :9\n\tkey_field
 :BAD OBJECT
@@ -38598,6 +38594,7 @@ $hRh
 :gN(dq
 :mIR
 :m_bPredictionEligible
+:pT0
 :w4v
 ;!;#;-;9;E;S;Y;_;q;{;
 ;"lY7
@@ -38964,6 +38961,7 @@ $hRh
 >ztq
 ?%10.5f
 ?(Optional) Video Id of a YouTube video for this published file.
+?0Np
 ?333@
 ?33s?
 ??0EscapableHandleScope@v8@@QEAA@PEAVIsolate@1@@Z
@@ -39037,6 +39035,7 @@ $hRh
 ?fff@
 ?ffffff
 ?gwL
+?hNp
 ?jOb
 ?open
 ?srJO
@@ -39045,12 +39044,11 @@ $hRh
 ?tya
 ?uWS
 ?x29
-?xNp
+?xMp
 @!@%@+@1@?@C@E@]@a@g@m@
-@08Nt
 @0pp
 @333333)@R
-@6PN
+@60v
 @888
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @BH]f
@@ -39058,6 +39056,7 @@ $hRh
 @DebugIndividualStyle
 @HPX`hv
 @HPXf
+@HVPR
 @Integer overflow in %s
 @MfKZ
 @Pgl
@@ -39086,6 +39085,7 @@ $hRh
 @\n\venum_result
 @dKb]
 @fff>fff>fff>fff>
+@htp:7
 @i1V
 @keyframes 
 @keyframes '%s'\r\n{\r\n
@@ -39093,6 +39093,7 @@ $hRh
 @n2w
 @setlocal\n
 @type
+@xMp
 A Dota NPC Hero
 A Dota NPC Unit
 A HTTP request object.
@@ -39120,6 +39121,7 @@ A9ur
 A<fP
 A>x8
 AA Compromise
+AA:0y/
 AABB
 AABBDirection
 AACompromise
@@ -40684,6 +40686,7 @@ B-409
 B-571
 B-Spline
 B.z\85p
+B0O:
 B2I_DSS
 B2I_RSA
 B2pr
@@ -40836,7 +40839,7 @@ BOOLEAN
 BPEventLevelIcon
 BPIN_txt
 BPLevel
-BPR:
+BPN:
 BReadyForDisplay
 BRouteMsgToJob
 BRouteWorkItemCompleted called for a job that could not be found!\n
@@ -54772,6 +54775,7 @@ DownloadingSpinnerContainer
 DownloadsInfo
 DownvoteButton
 Downvoted
+Dp:7
 Dq;n
 Draft Trivia Returned an invalid matchID
 Draft Trivia failed to load a match. GC could be down?
@@ -55412,6 +55416,7 @@ EXTERNAL
 EXTRA
 E[3M
 E\n!matching_subscription_def_indexes
+E\n0O:
 E\nQc
 E\n\fcavern_crawl
 E\n\finput_sample
@@ -65503,16 +65508,15 @@ P-224
 P-256
 P-384
 P-521
-P08Nt
 P0WonMatch
 P1Avatar
 P1WonMatch
 P1\t98"
 P2Avatar
 P2P ping to "%s". Timed out after %.2fms\n
-P40\v:
 P5[1
-P6 0
+P6@p
+P6p0
 PAGN_4
 PAGrave
 PAIN: %2.2f\n
@@ -67846,7 +67850,6 @@ RTTIPredictionsUnlocked
 RTTISelected
 RTTIState
 RT_txt
-R\fph
 R\n\fActivityInfo
 R\n\fmap_variants
 R\n\fplayer_cards
@@ -67854,6 +67857,8 @@ R\n\rincludekvtags
 R\n\vpredictions
 R\r1>Vp
 R\vp!y
+R\vpd
+R\vpl
 R]Di
 R_T5Y
 Rad Guys
@@ -75687,9 +75692,8 @@ X\n\tGraphData
 X\tQo
 Xd3h
 Xdota
+Xf0[
 XfJ7
-XfPZ
-Xfp[
 Xin \t
 XjfR
 XqgA+
@@ -75779,6 +75783,7 @@ Z+5AS
 Z,google.golang.org/protobuf/types/known/anypb
 Z-google.golang.org/protobuf/types/known/typepb
 Z0000
+Z0y/
 Z0zd
 Z1google.golang.org/protobuf/types/known/wrapperspb
 Z6google.golang.org/protobuf/types/known/sourcecontextpb
@@ -75971,14 +75976,12 @@ Z~wl
 \fKS1
 \fW9c
 \fXu"L
-\f\nPe6
 \f]ne3
 \fdhWTh
 \fevents.proto
 \fevents.proto"
 \fiaR
 \fpFQ
-\fp\vP4
 \ful2
 \fy&3Gl
 \l:ArR
@@ -76399,7 +76402,6 @@ Z~wl
 \n/CMsgClientToGCSubmitCoachTeammateRatingResponse
 \n/CMsgDOTATeamInvite_GCImmediateResponseToInviter
 \n/steammessages_publishedfile.steamworkssdk.proto
-\n067
 \n0CMsgClientToGCMonsterHunterGiftMaterialsResponse
 \n0CMsgClientToGCOverworldDevClearInventoryResponse
 \n0CMsgClientToGCPlayerCardSpecificPurchaseResponse
@@ -78593,10 +78595,12 @@ _video
 _wjb
 _xU`u
 _}eOk
-`20N:
+`20y/
 `28)fk
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
 `5Kp
+`6Py
+`6Pz
 `:zQF
 `App
 `D$daM-l
@@ -78612,7 +78616,6 @@ _}eOk
 `h9T~
 `htp
 `o_je
-`r0N:
 `yNT
 a moment...
 a null shared library handle was used
@@ -78631,7 +78634,6 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBvt
 aD/x
 aDSS
 aECDH
@@ -79975,6 +79977,7 @@ a|gj(
 a|w9i
 b <= sizeof ctx->buf
 b <= sizeof ctx->final
+b T0
 b0FCLlvCRJw
 b0M%
 b2i_PVK_bio
@@ -80983,6 +80986,7 @@ cRLSign
 c\n\tAcceptSSA
 c\n\vCheerTarget
 c\r1m
+c\tCj
 c_peer2peer_netmessages.proto
 c`FE%
 ca dn length mismatch
@@ -92259,6 +92263,7 @@ lootlist
 lore
 lore_loc
 lose
+lose_bot_matches
 lose_game
 lose_matches
 lose_points
@@ -98813,7 +98818,7 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^t
+p0jP
 p2p_ping could not convert "%s" to a CPeerToPeerAddress\n
 p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n
@@ -98838,7 +98843,6 @@ pDest
 pDifficultyLevel != nullptr
 pEventName
 pFilter
-pFp\v
 pG_*h
 pGameModeDef != nullptr
 pGameModeDefinition != nullptr
@@ -101831,7 +101835,6 @@ r\n4k_EHeroSelectionText_AllDraft_TheyPicking_LosingGold
 r\n\nHuntReward
 r\n\vstart_index
 r\vDi
-r\vph
 r_cleardecals
 r_deferred_additive_pass 1
 r_deferred_height_fog 1
@@ -108808,6 +108811,7 @@ widgets
 width-percentage
 width-percentage( %s )
 will_reincarnate
+win_bot_matches
 win_change
 win_core_matches
 win_date

@@ -27965,6 +27965,7 @@ What role is this tablet for
 What team this player is competing with for the fantasy league
 What this operation is targeting
 What we are doing in this operation
+What weight a fortune should have when being randomly selected based on how many times they can still be seen. The amount unseen is used as the index.
 When > 0, sets the mode whereas players see delayed replay, and are segregated into a domain of chat and voice separate from the alive players
 When >=0 restricts autorecording only to the specified TV index
 When Amphibian Rhapsody anticipation pose param becomes 1 relative to actual time
@@ -53700,6 +53701,7 @@ m_vecFortuneForcedReveals
 m_vecFortuneTellerFixedReward
 m_vecFortuneTellerRewards
 m_vecFortuneTellerStoryNodes
+m_vecFortuneWeightForUnseenAmount
 m_vecFowBlockers
 m_vecFractionOfWheelSubmergedForWheelDrag
 m_vecFractionOfWheelSubmergedForWheelFriction

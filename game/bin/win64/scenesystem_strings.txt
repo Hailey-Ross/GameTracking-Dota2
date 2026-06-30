@@ -1581,9 +1581,9 @@ CAN_RENDER_INTO_SST
 CAP_HEIGHT
 CAST_SHADOWS_ENABLED 
 CAggregateSceneObject
-CAggregateSceneObject::GatherData(686): 
+CAggregateSceneObject::GatherData(696): 
 CAggregateSceneObjectDesc
-CAggregateSceneObjectDesc::GpuCullPrimitivesInView(), C:\buildworker\source2_dota_rel_2019_win64\build\src\scenesystem\aggregatedesc.cpp:1970
+CAggregateSceneObjectDesc::GpuCullPrimitivesInView(), C:\buildworker\source2_dota_rel_2019_win64\build\src\scenesystem\aggregatedesc.cpp:1980
 CAmbientOcclusionProxySceneObjectDesc
 CAnimatableSceneObjectDesc
 CAnimationDecodeContext::AddAnimationDecodeDesc ran out of allocator memory (1)\n

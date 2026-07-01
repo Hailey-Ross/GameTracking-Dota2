@@ -20614,6 +20614,7 @@ If true, we can ping the map even if we have multiple keys pressed on the keyboa
 If trying to spam taunts, then amount of time you have to wait until that will be allowed again.
 If we cannot acquire lock on shared cache in N seconds, give up and fail UGC install
 If we cannot finish downloading after N seconds, give up
+If we should display that this reward is already owned in the user's inventory
 If we should draw normal silhouette or minkowski sum silhouette
 If we should spew how long inferences take to complete
 If we should use HTTP for inference queries
@@ -40841,6 +40842,7 @@ m_bDisjointed
 m_bDispellable
 m_bDisplayAdditionalHeroes
 m_bDisplayCharges
+m_bDisplayIfAlreadyOwned
 m_bDisplayModel
 m_bDisplayOverheadAlertOnReceived
 m_bDisplayOwnership

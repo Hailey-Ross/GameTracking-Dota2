@@ -170,8 +170,6 @@
  -component "%s"
  -noscreenshot
  -product "%s"
- .P7G
- .PCG
  2r6
  3CQ`p
  7Me}
@@ -2477,8 +2475,8 @@ $tI(knN
 .ERQLC*
 .ESource2PlayStatsFieldType
 .ESplitScreenMessageType
-.P1G
 .P6AXPEBD@Z
+.P6G
 .PEAVCEntityIdentity@@
 .PLACEHOLDER_VALUE
 .ProtoFlattenedSerializer_t
@@ -2521,6 +2519,7 @@ $tI(knN
 .log
 .los
 .lzh
+.p6G
 .pdata
 .placeholder.proto
 .rdata
@@ -2583,6 +2582,7 @@ $tI(knN
 0 0 0
 0 0 0 0
 0 0 0 255
+0 bB
 0"$\n\rCSVCMsg_Print
 0$2z4
 0(D7
@@ -2599,17 +2599,17 @@ $tI(knN
 0:<\n\fdelta_ignore
 0=Off, 1=Surface Wireframe, 2=Transparent Wireframe
 0=Off, 1=Visualize trace from camera, 2=Visualize occlusion, 3=Visualize far field trace from camera
-0>00G
-0>\VG
+0>@0G
+0>lVG
 0B_u
 0C&C
-0DpB
 0E>X
 0T.Q
+0TpB
 0X8b?~
 0\n\vserializers
-0`WB
 0iN>/
+0pWB
 0x%x,
 0|t?L
 0|t?uj
@@ -2653,17 +2653,21 @@ $tI(knN
 2/.google.protobuf.MethodOptions.IdempotencyLevel:
 200000
 25:Q
-28)B
 2CZu
+2H)B
 2Hax
 2NK?
 2Ogx
+2PS+
 2Z4\nf
 2\f8Kf
 2\r%2t
 2\r.PrefetchType"h\n
 2\rU2t
+2\vp bB
 2i0/
+2p9%
+2pT$
 3$EE\f
 3'F^7
 30000
@@ -2702,21 +2706,18 @@ $tI(knN
 5c;3E
 5y?4
 64-bit
-66VG
 6?k 6?t
-6@BG
-6@FG
+6FVG
 6GQ^h~
 6KT3c7
 6NK>
+6PBG
+6PFG
 6\fXO>\ntA
 6\n\fmessage_type
 6\r56t
-6`3G
-6p&G
-6p*G
-6p7G
-6pFG
+6p%G
+6p3G
 6s?fBbEcJYG[I[NYVP\B]@f;g<h<u4{,
 6tmT
 6uu?>
@@ -2736,9 +2737,8 @@ $tI(knN
 8>0RF>
 8@HP:
 8A3b
-8B`T$
+8BpT$
 8Csinf
-8Fp/G
 8Smt
 8W?i
 8\n\textension
@@ -2810,6 +2810,7 @@ $tI(knN
 =e2m
 =imb;D
 =rF`JXKXWJYB[Cd;l2x(z%a+N2SNTQXKVJWGZI]J]Jm(r$u"u"
+>01G
 >0|t?z7
 >5dK
 >6uu
@@ -2822,7 +2823,6 @@ $tI(knN
 >cQ6
 >fff?fff?fff?fff?invalid_hitbox
 >jtm}S
->p2G
 >qxs
 >qxs?
 >qxs?z7
@@ -3181,14 +3181,11 @@ $tI(knN
 @ Current  :  %s\n
 @08@HPX`hpx
 @08N
-@6p)G
-@6p>G
 @GetProfile_ultrafast
 @HPX
 @HPX&I
-@HPX`hv 
+@HPX`hv0
 @^8U)zj
-@htp"
 @i-kuX
 A command with the specified name already exists. Cannot create an alias with the same name.\n
 A dB floor of when to stop transmitting packets, the volume between this and voice_threshold will still transmit packets to allow for volume ramping.
@@ -3222,6 +3219,7 @@ ATI1N
 ATI2N
 ATI_TC_CalculateBufferSize_Wrapper
 ATI_TC_ConvertTexture_Wrapper
+AWEj
 A\n!NETWORK_DISCONNECT_REJECT_NOLOBBY
 A\n\nannotation
 Accepted SourceTV relay proxy from whitelisted IP address: %s\n
@@ -3923,7 +3921,7 @@ CHLTVServer::StartRelay: WriteSendTables %s.\n
 CHLTVServer::UpdateHibernationState:  Terminating after relaying game.\n
 CHLTVServer::UpdateTick
 CHLTVServerAsync::ExecuteDelayedCall StartAutoRecordingCall_t with start tick == 0\n
-CHLTVServerAsync::ExpandDeltaFrameToFullFrame(), C:\buildworker\source2_dota_rel_2019_win64\build\src\engine2\hltvserver_async.cpp:1126
+CHLTVServerAsync::ExpandDeltaFrameToFullFrame(), C:\buildworker\source2_dota_rel_2019_win64\build\src\engine2\hltvserver_async.cpp:1127
 CHandle
 CHeroSelectEvent
 CHostStateMgr::QueueNewRequest( %s, %u )\n
@@ -5626,7 +5624,6 @@ G|u0J\n
 H$6t
 H*0"ZOW
 H.FM
-H1Z_
 HD?0
 HGR9\f
 HH:mm:ss
@@ -6567,14 +6564,13 @@ P08@J
 P08J
 P08N
 P4File
-P60BG
-P6@\nG
+P6@BG
+P6P\nG
 P:S;A
 P?fff?33s?{
 P@HPX`hpx\f
 PBDEMS2
 PCRE does not support \L, \l, \N{name}, \U, or \u
-PDpB
 PHrk
 PInstruction_t<42>::Run
 PInstruction_t<43>::Run
@@ -6594,6 +6590,7 @@ PREP
 PRUNE
 PS_FAILED %s in sequence for %s\n
 PS_SATISFIED %s in sequence for %s [%.3f msec]\n
+PTpB
 PVAL_ANIM_SEQUENCE
 PVAL_ANY
 PVAL_ARRAY
@@ -6637,7 +6634,6 @@ PX`hpx
 P\n#NETWORK_DISCONNECT_BADRELAYPASSWORD
 P\n#NETWORK_DISCONNECT_RELIABLEOVERFLOW
 P\n#NETWORK_DISCONNECT_SNAPSHOTOVERFLOW
-P`WB
 PackEntities_Normal EnsureInstanceBaseline
 PackEntity: SnagChangeFrameList returned null
 PackEntity: ent(%d) at tick %d Encountered field '%s' %s in incremental change that was not in the diff change. This can lead to slight network inefficiency\n
@@ -6850,6 +6846,7 @@ Poor man's restart: reload the current map from disk.
 Port
 Post Source2 Client
 PostProcessingSystem_001
+PpWB
 Pq?A6
 Pre Pack Entities Callback
 Pre Source2 Client
@@ -7030,7 +7027,8 @@ RP_PAUSE
 RP_TOGGLEPAUSE
 RSDS
 RST%d
-R\vpDpB
+R\fp bB
+R\vpTpB
 RaiseException
 Random Float
 Random Integer
@@ -8331,6 +8329,7 @@ UtlVectorMemory_CalcNewAllocationCount
 UtlVectorMemory_FailedAllocation
 U}JK
 U}g7x~
+V AG
 V/?[w8rV
 V<@ss
 V?wm\v
@@ -8352,7 +8351,6 @@ VOICEDATA_FORMAT_ENGINE
 VOICEDATA_FORMAT_OPUS
 VOICEDATA_FORMAT_STEAM
 VP4003
-VP7G
 VPK overrides: 
 VPhysics2_Interface_001
 VProcessUtils002
@@ -8429,6 +8427,7 @@ V_TryAndMakeFriendlyNameFromCppName
 V_UInt32ToString_Unsafe
 V_UInt64ToString_Unsafe
 V_UnqualifiedFileName
+V`7G
 Validation stalled\n
 Value must be "true" or "false" for boolean option "
 Value must be identifier for boolean option "
@@ -8646,7 +8645,7 @@ X\n'NETWORK_DISCONNECT_KICKED_NOSTEAMTICKET
 X\n(NETWORK_DISCONNECT_INVALID_MESSAGE_ERROR
 X\tV_log2_uint
 X`hr
-Xf`0G
+Xfp0G
 Xn1G
 Xr?9
 XsBI
@@ -8749,7 +8748,8 @@ Zq",9\fB
 \fV4U
 \fX\fm\vH\vH\vm\v
 \f\tV_atan2f
-\fp\vP`WB
+\fp\vPpWB
+\fp\v`pWB
 \g is not followed by a braced, angle-bracketed, or quoted name/number or by a plain number
 \n    Actual    : 
 \n    Field type: 
@@ -8781,7 +8781,7 @@ Zq",9\fB
 \nEnd mem_test\n
 \nGame: "%s"\nMap: "%s"\nPlayers: %i (%i bots) / %i humans\nBuild: %u (revision %s)\nServer Number: %i\n\n
 \nIHDRPLTEIDATIENDtRNScHRMgAMAiCCPsBITsRGBtEXtzTXtiTXtbKGDhISTpHYssPLTtIMEoFFseXIf
-\nPDpB
+\nPTpB
 \nParsing attempt:  
 \nProcess Memory:\nWorking set: %.2f MiB\nPeak working set: %.2f MiB\n
 \nRegistered comments:\n
@@ -9164,12 +9164,12 @@ Zq",9\fB
 \vm\vm\vm\vH\vm\vm\v
 \vm\vm\vm\vm\vH\v
 \vnJH
-\vpDpB
-\vp`WB
+\vp bB
+\vpTpB
+\vppWB
 \vxYT
 ] is an invalid data character in JavaScript compatibility mode
 ]\n,NETWORK_DISCONNECT_REJECT_INVALIDRESERVATION
-^00G
 ^<V7w
 ^RfN>
 ^\n*NETWORK_DISCONNECT_KICKED_CONVICTEDACCOUNT
@@ -9180,7 +9180,6 @@ Zq",9\fB
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 ^hmpsv
 ^oEZ_
-^p7G
 _MainLoop
 _RDATA
 _Target
@@ -9232,11 +9231,10 @@ _spawngroup_logging/log_%s_group_%s.txt
 _temp_mapcycle.txt
 `-uRQg
 `3Q"X
-`6p@G
 `?m'_?&~]?(
-`DpB
 `RTTI
-`\rP\f0DpB
+`TpB
+`\rP\f0TpB
 `adjustor{
 `anonymous namespace'
 `copy constructor closure'
@@ -9252,7 +9250,6 @@ _temp_mapcycle.txt
 `generic-method-parameter-
 `generic-type-
 `hp\nU
-`htp"
 `hyz
 `local static destructor helper'
 `local static guard'
@@ -9264,6 +9261,7 @@ _temp_mapcycle.txt
 `managed vector destructor iterator'
 `non-type-template-parameter
 `omni callsig'
+`pWB
 `placement delete closure'
 `placement delete[] closure'
 `scalar deleting destructor'
@@ -9463,6 +9461,7 @@ boolean
 bools
 boot
 both
+bpT$
 branch gameinfo
 broken pipe
 broken promise
@@ -9983,7 +9982,6 @@ f?3Jf?6
 fD""B
 fD>b
 fDD"AUDT$t
-fP"G
 fP~V
 fWi?
 f\tV_open_osfhandle
@@ -10715,8 +10713,8 @@ multvar
 multvar: cvar "%s" not found\n
 multvar: no varname specified!\n
 mx=E
-n EG
 n03>Pu
+n0EG
 n>sak><
 n?A6
 n?SZn?
@@ -10938,21 +10936,21 @@ overwatch
 owM&
 owner dead
 oz>!km>
+p bB
 p08@H^
-p0j@
+p0jP
 p0p@
-p2`T$
+p2pT$
 p2p_listpeers
 p2p_ping "%s"
 p4edit
-p6 \vG
+p60\vG
 p?ff
 p@HPX`h\f
 pClass
 pClass->m_ClassID(%i) >= %i\n
 pClient
 pCm)
-pDpB
 pH\fy
 pMessage
 pNewSet->m_readPipe.OpenPipe_Named( false, szReadPipeParam, true )
@@ -10960,9 +10958,9 @@ pNewSet->m_readPipe.OpenPipe_OSFILEHANDLE( false, (OSFILEHANDLE)nReadHandle, nPi
 pNewSet->m_writePipe.OpenPipe_Named( true, szWritePipeParam, true )
 pNewSet->m_writePipe.OpenPipe_OSFILEHANDLE( true, (OSFILEHANDLE)nWriteHandle, nPipeSourcePID )
 pServerClass
+pTpB
 pYa(bu
 p\r0\fP
-p`WB
 package
 packed
 packet
@@ -11043,6 +11041,7 @@ pos [player %d]: %.3f,%.3f,%.3f\n
 position
 positive_int_value
 postnetupdate
+ppWB
 predicted_by_player_slot
 prediction_sync
 prerequisite
@@ -11107,10 +11106,10 @@ r?dar?\n
 rA?7
 rEy5
 rFg7
-rPL'
-r\fpDpB
+r\fpTpB
 r\tV_setvbuf
 r\tVr.>T
+r\vp bB
 r_always_render_all_windows
 r_aspectratio
 r_camerapos
@@ -11274,6 +11273,7 @@ reuse
 rnd_down
 rnd_up
 round_start_ticks
+rp9%
 rpt/%04d_%02d_%02d
 rrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrrr
 rtdelay
@@ -12167,7 +12167,7 @@ zx?L
 ~AEh
 ~CServerChangelevelState with non empty m_Clients, failed change level to %s!!!\n
 ~CSteam3ServerS1 is active at destruction - must be shut down properly in the main server shutdown sequence\n
-~P7G
+~PAG
 ~\naS0
 ~ltvO
 ~szn

@@ -30955,6 +30955,7 @@ dota_bot_debug_force_pregame_fight
 dota_bot_debug_force_push_tower
 dota_bot_debug_force_retreat
 dota_bot_debug_force_roshan
+dota_bot_debug_force_team_defend_lane
 dota_bot_debug_force_team_roam
 dota_bot_debug_grid
 dota_bot_debug_grid_cycle
@@ -43577,6 +43578,7 @@ m_eTargetOffsetMode
 m_eTargetWarpTimingMethod
 m_eTargeting
 m_eTeam
+m_eTeamDefenseLane
 m_eTier
 m_eTimingSource
 m_eTokenType
@@ -46653,6 +46655,7 @@ m_flTargetYaw
 m_flTaskReconsiderTime
 m_flTauntCooldown
 m_flTauntCooldown2
+m_flTeamDefenseStarted
 m_flTeamFightParticipation
 m_flTeamfightNearbyPowerRatio
 m_flTeamfightTotalPowerRatio

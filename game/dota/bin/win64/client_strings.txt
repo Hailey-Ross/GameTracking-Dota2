@@ -5567,7 +5567,6 @@ $.CPlayer_GetGameBadgeLevels_Response"U
 $.CPlayer_GetLastPlayedTimes_Response".
 $.CPublishedFile_GetUserFiles_Request
 $.CPublishedFile_Unsubscribe_Response"1
-$0L7
 $4cC
 $>Mm/JhA
 $@D4Z
@@ -7034,7 +7033,7 @@ $hRh
 (0x%08X)'??'
 (1Xp
 (1mp
-(40L7
+(4@L7
 (5Ap
 (5Bo
 (5Lo
@@ -37110,6 +37109,7 @@ $hRh
 0:%02d
 0;Q5[
 0<cz
+0>Pk
 0M2~@p
 0Marks latest announcement timestamp read by user
 0Name of the file to publish in the user's cloud.
@@ -37400,7 +37400,6 @@ $hRh
 1}oP
 2 .CMsgBattleReport_CompareContext"
 2 .CMsgGCRoutingInfo.RoutingMethod:
-2 83
 2 arguments expected: %s <map name> <override map name>\n
 2!.CMsgAddSocketResponse.EAddSocket"
 2!.CMsgBattleReport_HighlightRarity
@@ -37523,6 +37522,7 @@ $hRh
 2013-01-01
 2022_diretide_collectors_cache
 2025_cta_collectors_cache_voting
+2083
 20t\f
 20x9
 21.CMsgClientToGCBingoGetUserDataResponse.EResponse
@@ -37847,7 +37847,7 @@ $hRh
 2\r.ELeaguePhase
 2\rlhp
 2\vp!d
-2\vpx
+2\vp4
 2^pV
 2_bot
 2_mid
@@ -37861,7 +37861,8 @@ $hRh
 2nIg
 2ndry
 2p"6
-2pB8
+2p*3
+2pe:
 2prB
 3#DOTA_Hero_Selection_AllDraft_YouPicking_LosingGold
 3%3+3/353A3G3[3_3g3k3s3y3
@@ -38001,6 +38002,7 @@ $hRh
 4.CPlayer_GetMutualFriendsForIncomingInvites_Response"^
 40 40 40 196
 400.0 -400.0 -50.0
+40a:
 46936
 474E4U4W4c4i4m4
 4<Td
@@ -38371,14 +38373,13 @@ $hRh
 8<pl
 8= zp
 8@HPZ
-8@HPZP`:
 8A6j
 8ARo
-8B`*3
+8Bp*3
 8Client ID for which to count the number of issued tokens"
 8EDo
-8FPj
-8F`i
+8F`j
+8Fpi
 8GZS
 8Gets the list of nicknames this user has for other users
 8If set, remove from ignore/block list instead of adding "\\n
@@ -38529,7 +38530,7 @@ $hRh
 :    initpredictable %d:%s for %d slots\n
 : unrecognized parent "%s"\n
 :':+:1:K:Q:[:c:g:m:y:
-:0f0
+:013
 :4\n\vdescription
 :9\n\tkey_field
 :BAD OBJECT
@@ -38537,7 +38538,7 @@ $hRh
 :EXTERNAL TYPE %s\n
 :LBN
 :NAy
-:P83
+:PH7
 :QYJ
 :Vlq
 :\n5kKillEaterEventType_Brewmaster_KillsDuringPrimalSplit
@@ -39037,15 +39038,16 @@ $hRh
 @0pp
 @333333)@R
 @888
+@:013
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @BH]f
 @BoneSetup
 @DebugIndividualStyle
 @HPX`hv
 @HPXf
+@HV d
 @Integer overflow in %s
 @MfKZ
-@N0O
 @Pgl
 @Pu\rm
 @Requests the metadata that was generated from a specified fetch.
@@ -39072,7 +39074,7 @@ $hRh
 @\n\venum_result
 @dKb]
 @fff>fff>fff>fff>
-@ht0L7
+@ht@L7
 @i1V
 @keyframes 
 @keyframes '%s'\r\n{\r\n
@@ -41356,6 +41358,7 @@ BoxFocused
 BoxIdle
 BoxOpening
 Bpatchnumber
+Bpd:
 Bracket
 Bracket%d
 BracketBoxContainer
@@ -41639,8 +41642,8 @@ C:\buildworker\source2_dota_rel_2019_win64\build\src\game\client\dota\panorama\d
 C:\buildworker\source2_dota_rel_2019_win64\build\src\game\client\dota\panorama\dota_db_custom_lobby_list.cpp
 C:\buildworker\source2_dota_rel_2019_win64\build\src\game\client\dota\panorama\dota_db_lobby_browser_instance.cpp
 C:\buildworker\source2_dota_rel_2019_win64\build\src\game\client\dota\panorama\dota_db_play.cpp
-C:\buildworker\source2_dota_rel_2019_win64\build\src\game\client\dota\panorama\dota_db_play.cpp:5125
-C:\buildworker\source2_dota_rel_2019_win64\build\src\game\client\dota\panorama\dota_db_play.cpp:5172
+C:\buildworker\source2_dota_rel_2019_win64\build\src\game\client\dota\panorama\dota_db_play.cpp:5127
+C:\buildworker\source2_dota_rel_2019_win64\build\src\game\client\dota\panorama\dota_db_play.cpp:5174
 C:\buildworker\source2_dota_rel_2019_win64\build\src\game\client\dota\panorama\dota_event_user_data.cpp
 C:\buildworker\source2_dota_rel_2019_win64\build\src\game\client\dota\panorama\dota_event_user_data.h
 C:\buildworker\source2_dota_rel_2019_win64\build\src\game\client\dota\panorama\dota_guide_controller.cpp
@@ -48060,7 +48063,6 @@ D(n%6
 D*64
 D.Hog^
 D.]ppM
-D0L7
 D2I_ASN1_BIT_STRING
 D2I_ASN1_GENERALIZEDTIME
 D2I_ASN1_HEADER
@@ -48077,6 +48079,7 @@ D4tp
 D514p
 D:/generated_set_portraits.txt
 D@D/lcO+hcK
+D@L7
 DAE!
 DAL\fL@
 DATA_LOSS
@@ -65500,7 +65503,7 @@ P1\t98"
 P2Avatar
 P2P ping to "%s". Timed out after %.2fms\n
 P5[1
-P60B
+P6@B
 PACDOTA_Modifier_Frogmen_ArmOfTheDeep_Stun
 PAGN_4
 PAGrave
@@ -67647,11 +67650,11 @@ QuickcastDropdown
 QuickcastItemsEnabled
 QuirtGemButton
 Q{qk
-R 83
 R Sqrt
 R(Optional) If true, only return the total number of files that satisfy this query.
 R(Optional) Tags that must NOT be present on a published file to satisfy the query."
 R/Qs
+R083
 R2I_CERTPOL
 R2I_PCI
 R=1C&b
@@ -67835,7 +67838,6 @@ RTTIPredictionsUnlocked
 RTTISelected
 RTTIState
 RT_txt
-R\fpx
 R\n\fActivityInfo
 R\n\fmap_variants
 R\n\fplayer_cards
@@ -67843,6 +67845,7 @@ R\n\rincludekvtags
 R\n\vpredictions
 R\r1>Vp
 R\vp!y
+R\vp4
 R]Di
 R_T5Y
 Rad Guys
@@ -75677,7 +75680,7 @@ X\tQo
 Xd3h
 Xdota
 XfJ7
-Xf`l
+Xfpl
 Xin \t
 XjfR
 XqgA+
@@ -75952,7 +75955,7 @@ Z~wl
 \f"D\n"CMsgClientToGCDeclineInviteToGuild
 \f%\f/\f1\fA\f[\f_\fa\fm\fs\fw\f
 \f*t\n ESteamLearnGetAccessTokensResult
-\f0L7
+\f0D8
 \f7ig
 \f<<0A1pq
 \fBlessingID_t
@@ -75960,12 +75963,13 @@ Z~wl
 \fKS1
 \fW9c
 \fXu"L
+\f\npw6
 \f]ne3
 \fdhWTh
 \fevents.proto
 \fevents.proto"
 \fiaR
-\fp\vPD
+\fp\vPT
 \ful2
 \fy&3Gl
 \l:ArR
@@ -76386,6 +76390,8 @@ Z~wl
 \n/CMsgClientToGCSubmitCoachTeammateRatingResponse
 \n/CMsgDOTATeamInvite_GCImmediateResponseToInviter
 \n/steammessages_publishedfile.steamworkssdk.proto
+\n013
+\n083
 \n0CMsgClientToGCMonsterHunterGiftMaterialsResponse
 \n0CMsgClientToGCOverworldDevClearInventoryResponse
 \n0CMsgClientToGCPlayerCardSpecificPurchaseResponse
@@ -76503,8 +76509,8 @@ Z~wl
 \nLeagueID_t"
 \nLeagueID_t"9\n#CMsgDOTACompendiumSelectionResponse
 \nLeagueID_t"C\n-CMsgDOTACompendiumRemoveAllSelectionsResponse
-\nP83
-\nPB8
+\nP63
+\nPH7
 \nPlayerID_t
 \nPlayerID_t"
 \nSimulating Entities:\n\n
@@ -76887,7 +76893,6 @@ Z~wl
 \n\nNAME_TAKEN
 \n\nNOT_LEADER
 \n\nOAuthToken
-\n\nP83
 \n\nPARTY_FULL
 \n\nPrediction
 \n\nROLL_STATS
@@ -78044,7 +78049,6 @@ Z~wl
 \ng_flConfigMaxCoord
 \ngrant_periodic_action '%s' doesn't specify an action to grant
 \nnexttoken
-\npB8
 \nqYu
 \ntM(ie-V
 \nunit1: %s \nunit2: %s \nevent: %s \npriority: %d\n
@@ -80718,6 +80722,7 @@ box_outer_maxs
 box_outer_mins
 box_size
 box_state
+bp*3
 bpFh
 bp_amount
 bp_max
@@ -98804,7 +98809,8 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p2`*3
+p0j 
+p2p*3
 p2p_ping could not convert "%s" to a CPeerToPeerAddress\n
 p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n
@@ -101818,7 +101824,6 @@ r\n4k_EHeroSelectionText_AllDraft_TheyPicking_LosingGold
 r\n\nHuntReward
 r\n\vstart_index
 r\vDi
-r\vpx
 r_cleardecals
 r_deferred_additive_pass 1
 r_deferred_height_fog 1

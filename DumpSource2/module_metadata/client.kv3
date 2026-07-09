@@ -176,6 +176,18 @@
 			]
 		},
 		{
+			name = "DotaCrateDrop_global_client"
+			group = "GameStartup"
+			source_file = "src/game/client/dota/panorama/dark_carnival/crate_drop/dota_crate_drop_schema.cpp"
+			source_line = 19
+			resources = 
+			[
+				resource_name:"scripts/events/dark_carnival/crate_drop/crate_drop_game.vdata",
+				resource_name:"scripts/events/dark_carnival/crate_drop/crate_drop_objects.vdata",
+				resource_name:"scripts/events/dark_carnival/crate_drop/crate_drop_levels.vdata",
+			]
+		},
+		{
 			name = "DotaArtillerySchema_global_client"
 			group = "GameStartup"
 			source_file = "src/game/client/dota/panorama/crownfall/artillery/dota_artillery_schema.cpp"
@@ -386,7 +398,10 @@
 			group = "GameStartup"
 			source_file = "src/game/shared/dota/dota_motion_comic_schema.cpp"
 			source_line = 23
-			resources = null
+			resources = 
+			[
+				resource_name:"scripts/events/dark_carnival/dark_carnival_motion_comics_part2.vdata",
+			]
 		},
 		{
 			name = "DotaMonsterHunter_global_client"

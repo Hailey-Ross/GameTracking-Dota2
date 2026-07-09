@@ -3152,6 +3152,15 @@ CDOTACameraBounds
 CDOTACandyShopDefinition
 CDOTACheers
 CDOTACourierController
+CDOTACrateDropDroppableDef
+CDOTACrateDropGameDef
+CDOTACrateDropHazardDef
+CDOTACrateDropLevelDef
+CDOTACrateDropObjectDef
+CDOTACrateDropPlatformDef
+CDOTACrateDropPowerupDef
+CDOTACrateDropTable
+CDOTACrateDropTrackLightDef
 CDOTACrownfallCreditsBlockDefinition
 CDOTACrownfallCreditsCharacterDefinition
 CDOTACrownfallCreditsDefinition
@@ -9769,6 +9778,8 @@ CDampedValueComponent
 CDampedValueComponentUpdater
 CDampedValueItem
 CDampedValueUpdateItem
+CDarkCarnivalCrateDropEntity
+CDarkCarnivalCrateDropGameEffectsEntity
 CDebugDrawHistoryData
 CDebugHistory
 CDebugOverlayCombinedTypes_t
@@ -15637,6 +15648,8 @@ DOTAChatChannelType_t
 DOTACommLevel_t
 DOTACommType_t
 DOTAConnectionState_t
+DOTACrateDropLevelDefID_t
+DOTACrateDropObjectDefID_t
 DOTACustomCameraEventFlags_t
 DOTACustomHeroPickRulesPhase_t
 DOTADamageFlag_t
@@ -18001,6 +18014,9 @@ ECreateAttackFlags
 ECrowdLevel
 ECustomGameInstallStatus
 ECustomGameWhitelistState
+EDOTACrateDropHazardType
+EDOTACrateDropObjectType
+EDOTACrateDropPowerupType
 EDOTADraftTriviaAnswerResult
 EDOTAFacetColor
 EDOTAFacetIcon
@@ -27589,6 +27605,7 @@ VN_DIALOGUE_EFFECT_ACTOR_ASLEEP
 VN_DIALOGUE_EFFECT_ACTOR_CONFUSED
 VN_DIALOGUE_EFFECT_ACTOR_DAZED
 VN_DIALOGUE_EFFECT_ACTOR_DEPRESSED
+VN_DIALOGUE_EFFECT_ACTOR_GASP
 VN_DIALOGUE_EFFECT_ACTOR_HEART
 VN_DIALOGUE_EFFECT_ACTOR_HUFF
 VN_DIALOGUE_EFFECT_ACTOR_NOISY
@@ -31443,6 +31460,8 @@ dota_dark_carnival_click_rooms_to_focus
 dota_dark_carnival_darken_path_ends
 dota_dark_carnival_debug_playtest
 dota_dark_carnival_disable_room_characters
+dota_dark_carnival_encounter_blimp_jump
+dota_dark_carnival_encounter_crate_drop
 dota_dark_carnival_encounter_lockpicking
 dota_dark_carnival_encounter_slark_jailbreak
 dota_dark_carnival_encounter_slark_jailbreak_debug
@@ -31458,6 +31477,7 @@ dota_dark_carnival_room_path_alpha
 dota_dark_carnival_sticky_tooltip_time_required
 dota_dark_carnival_store_fake_coins
 dota_dark_carnival_visual_novel_auto_advance_delay
+dota_dark_carnival_visual_novel_dialogue
 dota_dark_carnival_visual_novel_enable_auto_advance
 dota_dark_carnival_zoomed_in_mouse_pan_factor
 dota_darkcarnival_map_disable_camera_events
@@ -37648,6 +37668,21 @@ k_eCraftworksQuest_GiveCommend
 k_eCraftworksQuest_Invalid
 k_eCraftworksQuest_ReceiveCommend
 k_eCraftworksQuest_StatTracker
+k_eCrateDropHazardType_Bomb
+k_eCrateDropHazardType_Goop
+k_eCrateDropHazardType_Invalid
+k_eCrateDropHazardType_Nuke
+k_eCrateDropPowerupType_Invalid
+k_eCrateDropPowerupType_Regen
+k_eCrateDropPowerupType_Shield
+k_eCrateDropType_Droppable
+k_eCrateDropType_Hazard
+k_eCrateDropType_Invalid
+k_eCrateDropType_Object
+k_eCrateDropType_Platform
+k_eCrateDropType_Powerup
+k_eCrateDropType_TrackLight
+k_eCrateDropType_Trigger
 k_eDarkCarnivalRewardVisual_CandyBag
 k_eDarkCarnivalRewardVisual_Chest
 k_eDarkCarnivalRewardVisual_Chest_Small
@@ -40717,6 +40752,7 @@ m_bCullOnMiss
 m_bCullOnSky
 m_bCullOutside
 m_bCurrentOrderIsMovement
+m_bCurrentlyActivated
 m_bCurrentlyInAuraRange
 m_bCursorTargetingNothing
 m_bCustomGame
@@ -41208,6 +41244,7 @@ m_bHasBeenDestroyed
 m_bHasBeenMagnetized
 m_bHasBeenPhysgunned
 m_bHasBeenPreFiltered
+m_bHasBeenTriggered
 m_bHasBloomParams
 m_bHasBonusRange
 m_bHasBreakPiecesOrCommands
@@ -41301,6 +41338,8 @@ m_bHasVanished
 m_bHasVignetteParams
 m_bHasWeightsSet
 m_bHasWorldTreesChanged
+m_bHazardDefused
+m_bHazardRotationApplied
 m_bHealthCostRecursionBlock
 m_bHeightFogEnabled
 m_bHeroAssigned
@@ -41897,6 +41936,7 @@ m_bMarkForSell
 m_bMarkedForBuy
 m_bMarkedForDelete
 m_bMarkedForDeletion
+m_bMarkedForDestroy
 m_bMaster
 m_bMatchByTimeRemaining
 m_bMatchChildDuration
@@ -43496,6 +43536,7 @@ m_eFortuneReward
 m_eFrameSelection
 m_eGameMode
 m_eGemType
+m_eHazardType
 m_eHeroStickerQuality
 m_eHighlightCategory
 m_eHighlightCategory != k_eHighlightRole
@@ -43538,6 +43579,7 @@ m_ePathRebuildStrategy
 m_ePersonaAuthor
 m_ePlayerDraftState
 m_ePlayerStatType
+m_ePowerupType
 m_ePreferredRotationDirection
 m_ePrevPurchasableState
 m_eProgressionType
@@ -44021,6 +44063,7 @@ m_fixupNames
 m_fl4NoiseScale
 m_flAParm
 m_flAbilityChannelDuration
+m_flAbilityCooldown
 m_flAbilityMuteDuration
 m_flAbortedPlaybackAt
 m_flAbsScale
@@ -44225,6 +44268,7 @@ m_flBaseMinUp
 m_flBaseModelScale
 m_flBaseMovementSpeed
 m_flBasePickupRadius
+m_flBasePoints
 m_flBaseSpeed
 m_flBaseStiffness
 m_flBaseTeleportTime
@@ -44478,6 +44522,7 @@ m_flCourier_wait_time_item_purchase
 m_flCourier_wait_time_manualorder
 m_flCourier_wait_time_manualorder_stop
 m_flCpMovementTolerance
+m_flCrateSpawnInterval
 m_flCreateTime
 m_flCreationTime
 m_flCreepDamageTaken
@@ -44862,6 +44907,7 @@ m_flExpirationTimes
 m_flExpireTime
 m_flExplosionDamage
 m_flExplosionRadius
+m_flExplosionStrength
 m_flExplosionTerrainRadius
 m_flExponent
 m_flExposureAdaptationSpeedDown
@@ -44922,6 +44968,7 @@ m_flFadeStartWeight
 m_flFadeTime
 m_flFadeTimeValue
 m_flFailedChordClickCooldown
+m_flFallCrateVOChance
 m_flFallDamageMult
 m_flFallDamagePerVelocity
 m_flFallVelocity
@@ -44971,6 +45018,7 @@ m_flFireAttackSpeed
 m_flFireInterval
 m_flFireTime
 m_flFirstFloorTimeLimit
+m_flFirstRowOffset
 m_flFixedBlendWeightVals
 m_flFixedCycleValue
 m_flFixedDirectionSpawnDistanceVariance
@@ -45071,9 +45119,11 @@ m_flGameEndTime
 m_flGameHeight
 m_flGameLoadTime
 m_flGameMass
+m_flGameOverTime
 m_flGameStartTime
 m_flGameTime
 m_flGameWidth
+m_flGameWonTime
 m_flGammaB
 m_flGammaG
 m_flGammaR
@@ -45093,6 +45143,8 @@ m_flGoalDistance
 m_flGoldRedistributeTime
 m_flGoldTickTime
 m_flGoldTime
+m_flGoopDuration
+m_flGoopSlow
 m_flGrabAttemptTime
 m_flGrainCrossfadeAmount
 m_flGrainLength
@@ -45120,6 +45172,10 @@ m_flGustDuration
 m_flGyroshellDurationRemaining
 m_flHDRColorScale
 m_flHPRegenGain
+m_flHazardExplosionRadius
+m_flHazardSpawnIntervalMax
+m_flHazardSpawnIntervalMin
+m_flHazardSpawnVOChance
 m_flHeadAlphaScale
 m_flHeadDamageMultiplier
 m_flHeadingDeg
@@ -45137,10 +45193,12 @@ m_flHealthThinkRegen
 m_flHealthToRestore
 m_flHeartRadius
 m_flHeight
+m_flHeightBonusToastTime
 m_flHeightFogDepth
 m_flHeightOffset
 m_flHeightT
 m_flHeightTolerance
+m_flHeightVisualizationStep
 m_flHeroAdvanceTime
 m_flHeroDamage
 m_flHeroDamageTaken
@@ -45193,6 +45251,7 @@ m_flInValue
 m_flIncrement
 m_flIncrementalEnrageTime
 m_flIndirectStrength
+m_flInertiaInv
 m_flInertiaScale
 m_flInertiaScaleInv
 m_flInitFromKilledParentParticles
@@ -45437,9 +45496,11 @@ m_flLerpRate
 m_flLerpTime
 m_flLerpToPositionDeltaT
 m_flLerpToPositionT
+m_flLevelIntroTime
 m_flLevelUpDelay
 m_flLevelUpKnockbackDistance
 m_flLevelUpKnockbackRadius
+m_flLevelWonTime
 m_flLife
 m_flLifeTime
 m_flLifeTimeFadeEnd
@@ -45801,6 +45862,8 @@ m_flMovementSpeedMultiplierPerDeath
 m_flMovementSpeedPercentDamageMultiplier
 m_flMultFactor
 m_flMultiplier
+m_flMultiplierFactor
+m_flMultiplierStep
 m_flMultiplierToUse
 m_flMusicOperatorVals
 m_flMuzzleFlashBrightness
@@ -45841,6 +45904,7 @@ m_flNextLightningSoundTime
 m_flNextLightningStartTime
 m_flNextMPSoundTime
 m_flNextMoveSoundTime
+m_flNextPossibleTriggerTime
 m_flNextPreGameThink
 m_flNextPrimaryAttackTickRatio
 m_flNextRandAnim
@@ -46064,6 +46128,7 @@ m_flPlayerMaxHPMultiplier
 m_flPlayerPositionHistoryBufferDuration
 m_flPlayerReviveTimer
 m_flPlayerWakeRadius
+m_flPoints
 m_flPortDragOffCreateThreshold
 m_flPortalHeightOffset
 m_flPortalPadding
@@ -46084,6 +46149,8 @@ m_flPostSpawnSpeed
 m_flPostSpeakDelay
 m_flPower
 m_flPowerRuneSpawnInterval
+m_flPowerupChance
+m_flPowerupInterval
 m_flPreDelay
 m_flPreDelayMS
 m_flPreDelayMS0
@@ -46240,6 +46307,7 @@ m_flRefractAmount
 m_flRefreshTime
 m_flRefresherLastCooldown
 m_flRefresherUseTime
+m_flRegenHealInterval
 m_flRelativeProbabilityOfSpawn
 m_flRelativeWeight
 m_flRelease
@@ -46380,6 +46448,7 @@ m_flScriptRespawnTime
 m_flScrollSpeed
 m_flSearchDist
 m_flSearchInterval
+m_flSecondRowOffset
 m_flSeconds
 m_flSecondsPerRotation
 m_flSeenTargetTime
@@ -46413,6 +46482,7 @@ m_flShapeRadius
 m_flShapeRestorationTime
 m_flShardDamageMultiplier
 m_flShellSize
+m_flShieldDuration
 m_flShieldRadius
 m_flShotCreationTime
 m_flShoulderStrength
@@ -46808,9 +46878,11 @@ m_flTravelTime
 m_flTreeRegen
 m_flTreeTimeRemaining
 m_flTriggerCollisionRadiusPadding
+m_flTriggerDelay
 m_flTriggerDistance
 m_flTriggerRadius
 m_flTriggerRadiusSqr
+m_flTriggeredGravityScale
 m_flTrueSight
 m_flTrueValue
 m_flTurboMultiplier
@@ -46823,6 +46895,8 @@ m_flTurnTimeMin
 m_flTurnToFaceLimit
 m_flTurnToFaceOffset
 m_flTurretSpawnTime
+m_flTutorialCrateSpawnInterval
+m_flTutorialStepInvervalTime
 m_flTwistAmount
 m_flULeftSrc
 m_flUSpacing
@@ -46841,6 +46915,7 @@ m_flUpdateDistance
 m_flUpdateRate
 m_flUpdateThreshold
 m_flUpgradeBlend
+m_flUpkickExplosionStrength
 m_flUpperRandomBound
 m_flUseAngleTolerance
 m_flUseRange
@@ -49318,6 +49393,8 @@ m_nCourierItemId
 m_nCourierState
 m_nCourierType
 m_nCraftingID
+m_nCratesForGameOver
+m_nCratesForNextLevel
 m_nCreationTick
 m_nCreationType
 m_nCreationType == PARTICLE_VOLUMETRIC_SMOKE_TYPE_CONTINUOUS
@@ -49486,6 +49563,7 @@ m_nDireSilverCheers
 m_nDirectLight
 m_nDirection
 m_nDisableMode
+m_nDisableSpawnRotation
 m_nDisableTagIndex
 m_nDisableTakePhysicsDamageSpawnFlag
 m_nDisadvantage
@@ -49687,6 +49765,7 @@ m_nFirstMeshlet
 m_nFirstMultipleOverride_BackwardCompat
 m_nFirstPositionDrivenNode
 m_nFirstPredictableCommand
+m_nFirstRowWeight
 m_nFirstSourcePoint
 m_nFirstTimeBonusLives
 m_nFissureEffectIndex
@@ -50146,6 +50225,7 @@ m_nMaxCountAll
 m_nMaxCount_1
 m_nMaxCount_2
 m_nMaxCount_3
+m_nMaxCratesOnLevel
 m_nMaxDemonPortalCount
 m_nMaxDepth
 m_nMaxEmittedPerFrame
@@ -50304,6 +50384,7 @@ m_nNextVoiceSlot
 m_nNightModification
 m_nNightmareSwapCount
 m_nNoCollisionAttribute
+m_nNoDraw
 m_nNoHitResult
 m_nNoInterpolationTick
 m_nNode
@@ -50658,6 +50739,7 @@ m_nReg
 m_nReg0
 m_nReg1
 m_nReg2
+m_nRegenInstances
 m_nReloads
 m_nRenderFX
 m_nRenderHeight
@@ -50715,7 +50797,10 @@ m_nRoshanRespawnPhase
 m_nRotLockStaticNodes
 m_nRotOffTicksToDecrement
 m_nRotateMotion
+m_nRotationChance
 m_nRotationSetType
+m_nRotationSpeedMax
+m_nRotationSpeedMin
 m_nRotations
 m_nRoundType
 m_nRoundness
@@ -50769,6 +50854,7 @@ m_nScoutState
 m_nScreenFXIndex
 m_nScriptPathAvoidanceUpdateTick
 m_nSecondControlPoint
+m_nSecondRowWeight
 m_nSecondaryAmmoType
 m_nSecondarySkeletonMasterCount
 m_nSecondsSinceEpoch
@@ -51108,6 +51194,7 @@ m_nTriangleCount
 m_nTriangleIndex
 m_nTriangleOffset
 m_nTrueValueNodeIdx
+m_nTutorialObject
 m_nTutorialState
 m_nTwin
 m_nType
@@ -51983,6 +52070,7 @@ m_sBurningGroundBurnParticleName
 m_sBurningGroundDoTParticleName
 m_sBurningGroundImpactParticleName
 m_sButtonType
+m_sCatchSound
 m_sClassName
 m_sCollisionIndicatorEffect
 m_sComment
@@ -52007,6 +52095,7 @@ m_sDemonPortalsTelegraphParticle
 m_sDependentOnAbility
 m_sDescription
 m_sDestroySnd
+m_sDestroySound
 m_sDialogueName
 m_sDifficultyName
 m_sDirectionalHelperParticle
@@ -52014,6 +52103,7 @@ m_sDisplayName
 m_sDmgLvl1Snd
 m_sDmgLvl2Snd
 m_sDropSoundEvent
+m_sDropType
 m_sEffectName
 m_sEliteRoomChannelEffect
 m_sEliteRoomDirectionalArrowEffect
@@ -52021,6 +52111,7 @@ m_sEncounterName
 m_sEndTime
 m_sEnemyDisplayName
 m_sEnemyName
+m_sEntityClassName
 m_sEntityLumpName
 m_sEntityName
 m_sEventAction
@@ -52093,6 +52184,7 @@ m_sLocScepterAbilityDesc
 m_sLocShardAbilityDesc
 m_sLocTooltip
 m_sLocUnitsPluralizable
+m_sLoopSound
 m_sLootList
 m_sMagicMissileParticle
 m_sMapClassToAdd
@@ -52101,6 +52193,7 @@ m_sMapVisualsXmlPath
 m_sMaster
 m_sMinimapIconClass
 m_sMinimapIconSnippet
+m_sModel
 m_sModelAlternateName
 m_sModelName
 m_sModelNameAg2Override
@@ -52120,6 +52213,7 @@ m_sOptions
 m_sPairedRole
 m_sPairedSequenceRole
 m_sParentDetailLayer
+m_sParentName
 m_sParticle
 m_sParticleEffect
 m_sParticleName
@@ -52144,6 +52238,7 @@ m_sRewardEventAction
 m_sRewardTitle
 m_sRole
 m_sScriptDirectory
+m_sSearchEntity
 m_sSequenceName
 m_sSharedCooldownName
 m_sSkinName
@@ -52157,6 +52252,7 @@ m_sSourceEntName
 m_sSpawnGroupName
 m_sSpawnInfoTargetName
 m_sSpawnParticle
+m_sSpawnSound
 m_sSpawnerName
 m_sStartTime
 m_sStasisTrapExplosion
@@ -52829,6 +52925,7 @@ m_unCraftworksID
 m_unCullingBladeItemDef
 m_unCurrentArcanaKillStreak
 m_unDataChangedCount
+m_unDefID
 m_unDefaultEventPoints
 m_unDefaultInventorySize
 m_unDefaultMaxRerollCharges
@@ -52904,6 +53001,7 @@ m_unOpponentID
 m_unOrders
 m_unOrientation
 m_unOverrideOrigin
+m_unOverworldVersion
 m_unOwnerContext
 m_unParticleID
 m_unPathUnlockerTokenID
@@ -53395,9 +53493,13 @@ m_vSourceAnchorPos
 m_vSourceLoc
 m_vSourcePosition
 m_vSpawnLocation
+m_vSpawnMax
+m_vSpawnMin
 m_vSpawnOrigin
 m_vSpawnPos
 m_vSpawnPosition
+m_vSpawnVelocityMax
+m_vSpawnVelocityMin
 m_vSpawnerOrigin
 m_vSpiritStartPosition
 m_vSpotlightDir
@@ -53656,6 +53758,9 @@ m_vecDistanceBias
 m_vecDistanceBiasAbs
 m_vecDistanceScale
 m_vecDrainedHeroes
+m_vecDropTableCrates
+m_vecDropTableHazards
+m_vecDropTablePowerups
 m_vecDrowRangerArcanaDeathTime
 m_vecDrowRangerArcanaKillTime
 m_vecDrowRangerArcanaTargetPlayerID
@@ -54893,6 +54998,7 @@ nDamageType
 nDamageflags
 nDamagingPlayerID
 nDenominator
+nDropWeight
 nDummy
 nEdge
 nEditorID
@@ -55645,6 +55751,7 @@ p2p_listpeers
 p2p_ping
 pAbility
 pAddedBuff
+pDropEffect
 pRevenant
 pSamples
 pSpirit
@@ -58560,6 +58667,7 @@ switch to a particular shop tab ( 0 - 12 )
 sys_info
 sys_minidumpexpandedspew
 sys_minidumpspewlines
+szDropName
 szIconImage
 szReplicateIconMod
 szResolutionGate

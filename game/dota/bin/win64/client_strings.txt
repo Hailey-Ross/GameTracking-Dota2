@@ -167,6 +167,11 @@
  (%lu = 0x%lx)\n
  (%u = 0x%x)\n
  (+%d more due to usercommand delivery)
+ (08@HPXbp59
+ (08@HRp59
+ (08@Jp59
+ (0X`hpzp59
+ (2p59
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -495,7 +500,6 @@
 "O\n%CMsgClientToGCOverworldRequestFortune
 "O\n0CDOTAClientMsg_MonsterHunter_SelectInvestigation
 "P\n&CMsgGCToClientTopLeagueMatchesResponse
-"Pa3
 "Predictor" value %d not supported
 "R\n(CMsgClientToGCOverworldDevClearInventory
 "R\n\tEResponse
@@ -596,6 +600,7 @@
 "n\n CMsgGCToGCMasterSubscribeToCache
 "o\n!CDOTAClientMsg_AutoCourierExecute
 "origin"\t"%.1f, %.1f, %.1f"\n
+"p59
 "p\n CDOTAUserMsg_TE_UnitAnimationEnd
 "pixelAspectRatio" attribute not found in the header.
 "qVS
@@ -7038,44 +7043,47 @@ $hRh
 (0'yX
 (0.1s interval)
 (0x%08X)'??'
-(18r
-(1Rs
-(1nr
+(10s
+(51s
 (5Me
-(5ir
+(5ds
 (5jP
-(9Cr
-(9Ir
-(9Ks
-(9xs
+(5or
+(5xr
+(99r
+(9vs
 (?333?dota_guild_show_create_page
-(A7r
+(A1r
 (ACTIVE)
-(AVs
+(AUr
 (App Id to retrieve published files from.
-(Aqr
+(Asr
 (BZq
 (CLIENT) Inventory:\n
 (Client) 
 (D4D
 (DOTA_INVALID_ORDERS nReason) Return the error string of a failed order.
-(E0s
+(EKr
+(Ecs
 (Fade Removed: [%d,%d,%d,%d])\n
 (HSCRIPT hTarget) Determine whether an issued command on a target is valid.
 (HSCRIPT hTarget) Return the error string of a failed command on a target.
-(I1s
 (I?Value@External@v8@@QEBAPEAXXZ
 (ID of the Cloud file to get details for.
+(IFr
 (IImageSource)
-(Ids
+(ITr
 (Interp Ready=%s)
-(Ior
-(Ixr
-(M9r
-(Mvs
+(Irr
+(M4r
+(M6r
+(Mcr
+(Mmr
+(Mpr
 (NONE)
-(Q3s
-(Qos
+(Qfr
+(Qvr
+(Qws
 (SST) Disconnecting for the purpose of editing %s\n
 (SST) Disconnecting for the purpose of removing all SST data from vpk\n
 (SST) Moving %s to %s\n
@@ -7083,15 +7091,12 @@ $hRh
 (SST) Zipping %s (%d files)\n
 (Text description for the published file.
 (U1h
-(U1r
-(UUr
+(UQs
+(Uis
 (Unknown error)
-(Usr
 (VectorWS vLocation) Determine whether an issued command on a location is valid.
 (VectorWS vLocation) Return the error string of a failed command on a location.
 (WIPE AND EXTRACT)
-(YKr
-(Ycs
 (ZdOt\n&
 (\f"#\n!CDOTABroadcastMsg_LANLobbyRequest"
 (\f"#\n!CMsgClientToGCEmoticonDataRequest"Q\n
@@ -7933,54 +7938,65 @@ $hRh
 (\v2\v.CMsgVector"l\n
 (\v2\v.CMsgVector"o\n)CDOTAUserMsg_UpdateLinearProjectileCPData
 (\v2\v.CMsgVector*
-(a4r
-(a6r
-(acr
-(amr
-(apr
+(ags
 (b IncludePregameTime b IncludeNegativeTime) Returns the actual DOTA in-game clock time.
 (connected)
 (d4t8
 (default)
-(efr
-(evr
-(ews
+(e7s
+(eds
+(eqr
 (fS{ggRcjh
 (flTime, bInformClients)
 (from angle, to angle, time) - Spherical lerp of angle from->to based on time
 (h`H1pqA
 (i/Al
-(iQs
-(iis
+(i6s
+(iIs
+(iWs
+(igr
 (index, bDestroyImmediately, bStatusEffect, priority, bHeroEffect, bOverheadEffect
 (int iIndex, int iPoint, Vector vecPosition)
 (int index, bool bDestroyImmediately) - Destroy a particle, if bDestroyImmediately destroy it without playing end caps.
 (int nFXIndex, int nPoint, vOrigin, qAngles)
 (int nFXIndex, int nPoint, vOrigin, vForward)
+(its
 (jvg;
+(mEr
+(mMr
+(mcs
 (memory)
+(mor
 (needs match)
 (no controller?)
 (parent %d)
 (partial match ok)
-(q7r
-(qDs
-(qRs
-(qSr
-(qXs
+(q5s
+(qJs
+(qVs
+(qar
+(qjr
 (quaternion,quaternion,float) very basic interpolation of v0 to v1 over t on [0,1]
 (quaternion,vector,float) rotates a quaternion by the specified angle around the specified vector axis
-(ugs
+(u1s
+(uBs
+(uGr
+(uGs
+(uXr
 (update disabled)
+(ups
+(uss
+(uvs
 (vQF
 (vector,float) constructs a quaternion representing a rotation by angle around the specified vector axis
 (vector,vector) cross product between two vectors
 (vector,vector,float) lerp between two vectors by a float factor returning new vector
 (vector,vector,float) very basic interpolation of v0 to v1 over t on [0,1]
 (wMww
-(y7s
-(yds
-(yqr
+(y8r
+(y8s
+(yos
+(yys
 ) == false\n
 )!)#)?)G)])e)i)o)u)
 )#DOTA_Hero_Selection_CaptainsMode_TheyBan
@@ -8653,6 +8669,7 @@ $hRh
 ,l0a
 ,name:
 ,oYR
+,pz1
 ,section=
 ,steammessages_steamlearn.steamworkssdk.proto"
 ,steammessages_steamlearn.steamworkssdk.proto"b\n
@@ -37123,6 +37140,7 @@ $hRh
 0234
 02V8[
 05=k
+08@Jp59
 08bX
 09,h
 0:%02d
@@ -37299,7 +37317,6 @@ $hRh
 1H@H
 1If true, return children in the returned details.
 1L$1
-1LOj
 1Service containing methods to manage OAuth tokens
 1Steam ID of user to whom to send a friend invite."
 1\n)legacy_searching_players_by_group_source2
@@ -37865,15 +37882,12 @@ $hRh
 2\r.ELeaguePhase
 2\rlhp
 2\vp!d
-2\vpD6
-2\vpL
+2\vp8
 2^pV
 2_bot
 2_mid
 2_top
 2_week_streak
-2`C1
-2`z1
 2a"l
 2bT~
 2cb:RO
@@ -37882,6 +37896,7 @@ $hRh
 2nIg
 2ndry
 2p"6
+2p59
 2prB
 3#DOTA_Hero_Selection_AllDraft_YouPicking_LosingGold
 3%3+3/353A3G3[3_3g3k3s3y3
@@ -38384,6 +38399,7 @@ $hRh
 8"3hrf
 8&Kx
 8+Qw
+8-0r
 80F2<
 82\n:XPH
 851Pe
@@ -38391,18 +38407,19 @@ $hRh
 8<pl
 8= zp
 8@HPZ
-8@HPZ`
-8A0r
 8A6j
 8Client ID for which to count the number of issued tokens"
 8GZS
 8Gets the list of nicknames this user has for other users
+8IUs
 8If set, remove from ignore/block list instead of adding "\\n
 8If true, return tag information in the returned details.
 8Name of the file to use as the published file's preview.
+8Qls
 8SIffK5W
 8TZvrv<
 8TopArrow
+8Ums
 8\n0series_current_selection_priority_used_coin_toss
 8\n0ultimate_scepter_consumed_alchemist_bonus_health
 8\n3kKillEaterEventType_Broodmother_SpiderlingHeroKills
@@ -38457,26 +38474,27 @@ $hRh
 8\n\rnotifications
 8\n\rready_members
 8\n\rsubscribe_msg
+8\tUr
+8\tls
 8\v8!83858A8G8K8S8W8_8e8o8q8}8
-8]Us
 8]Vc2
 8ca1
 8dS2
-8els
-8ims
 8oYSBkqnngo
 8pe7?
 8q-S*]X
+8qdr
 8sOy
+8u>r
+8uUr
+9"ns
 9#9%9)9/9=9A9M9[9k9y9}9
 9#DOTA_Hero_Selection_CaptainsMode_WaitingForChooseCaptain
 9)PF
 9)jx
 9*VU
-9*Vr
 95\r9{
 969p
-96ns
 9966
 9:dzGN
 9@Xp&
@@ -38603,6 +38621,8 @@ $hRh
 :eaI
 :gN(dq
 :mIR
+:p59
+:pa3
 :w4v
 ;!;#;-;9;E;S;Y;_;q;{;
 ;"lY7
@@ -39051,19 +39071,17 @@ $hRh
 ?uWS
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
+@08ND
 @0pp
 @333333)@R
-@4Pv<
 @888
-@:pw5
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @@DOTAActiveFriends
 @BH]f
 @BoneSetup
 @DebugIndividualStyle
-@HPX`hv
+@HPX`hv`
 @HPXf
-@HV0
 @Integer overflow in %s
 @MfKZ
 @Pgl
@@ -62038,6 +62056,7 @@ Joined
 Joining Lobby:
 Joining spectator lobby %llu\n
 Jorge Bot
+Jp59
 Jq;v
 Jq?a
 Jr\tA
@@ -65575,14 +65594,18 @@ P-224
 P-256
 P-384
 P-521
+P08@Jp59
+P08ND
 P0WonMatch
 P1Avatar
 P1WonMatch
 P1\t98"
 P2Avatar
 P2P ping to "%s". Timed out after %.2fms\n
-P4Pv<
+P2p59
 P5[1
+P6@o
+P:p59
 PAGN_4
 PAGrave
 PAIN: %2.2f\n
@@ -66329,6 +66352,7 @@ PersonalStatsBottomDisabled
 PersonalStatsTopDisabled
 Pet NPC Script Override:
 PetEffigy
+Pf@v
 PhaseCalculatingResults
 PhaseDisplayingCorrectAnswer
 PhaseDisplayingPartyAnswers
@@ -66781,6 +66805,7 @@ PlusTab
 PlusWaitingOnSelections
 Pm8A?
 PmR"H?
+Pn@w
 PodsShowPlayerPictures
 PodsVisible
 Point entity.
@@ -67917,6 +67942,7 @@ RTTIPredictionsUnlocked
 RTTISelected
 RTTIState
 RT_txt
+R\fp8
 R\n\fActivityInfo
 R\n\fmap_variants
 R\n\fplayer_cards
@@ -67925,8 +67951,7 @@ R\n\vpredictions
 R\r1>Vp
 R\vP!m
 R\vp!y
-R\vpD6
-R\vpL
+R\vpd
 R]Di
 R_T5Y
 Rad Guys
@@ -75941,6 +75966,7 @@ ZoomYOffset%d_4x3
 ZoomedIn
 ZoomedInPanningAway
 ZoomedOut
+Zp59
 Zpwz
 Z~wl
 [ Chunk%d ]
@@ -76055,7 +76081,7 @@ Z~wl
 \fevents.proto
 \fevents.proto"
 \fiaR
-\fp\vPd
+\fpz1
 \ful2
 \fy&3Gl
 \l:ArR
@@ -76593,6 +76619,8 @@ Z~wl
 \nLeagueID_t"
 \nLeagueID_t"9\n#CMsgDOTACompendiumSelectionResponse
 \nLeagueID_t"C\n-CMsgDOTACompendiumRemoveAllSelectionsResponse
+\nPE1
+\nPb3
 \nPlayerID_t
 \nPlayerID_t"
 \nSimulating Entities:\n\n
@@ -76976,6 +77004,7 @@ Z~wl
 \n\nNOT_LEADER
 \n\nOAuthToken
 \n\nPARTY_FULL
+\n\nPb3
 \n\nPrediction
 \n\nROLL_STATS
 \n\nResultCode
@@ -78131,6 +78160,7 @@ Z~wl
 \ng_flConfigMaxCoord
 \ngrant_periodic_action '%s' doesn't specify an action to grant
 \nnexttoken
+\np59
 \nqYu
 \ntM(ie-V
 \nunit1: %s \nunit2: %s \nevent: %s \npriority: %d\n
@@ -78671,9 +78701,9 @@ _wjb
 _xU`u
 _}eOk
 `28)fk
+`2p59
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
-`:0v5
-`:Pw5
+`:0x5
 `:zQF
 `D$daM-l
 `DZG
@@ -78684,10 +78714,10 @@ _}eOk
 `\n+k_EHeroSelectionText_CaptainsMode_YouSelect
 `\n+k_EHeroSelectionText_RandomDraft_HeroReview
 `\n\rvector_values
+`aJr
 `fPw.\vM
 `h9T~
 `o_je
-`uJr
 `yNT
 a moment...
 a null shared library handle was used
@@ -78706,6 +78736,7 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
+aBvD
 aD/x
 aDSS
 aECDH
@@ -88473,6 +88504,7 @@ h2n_\
 h5N.
 hActivator
 hAttacker
+hA|r
 hCallbackFunc
 hCallbackScope
 hCaller
@@ -88485,11 +88517,9 @@ hF\rDz
 hFcg
 hJxRX@_
 hN2D
-hQ\ns
 hRB.
 hRenderTexture != RENDER_TEXTURE_HANDLE_INVALID && m_image.IsValid()
 hThinkFunc
-hU|r
 hW*m
 hW1M
 hW_z
@@ -88874,6 +88904,7 @@ hex_to_string
 hexed
 hexkey
 hhwi
+hiYs
 hidden_cooldown_timer
 hidden_modifier
 hide
@@ -89028,6 +89059,8 @@ hours_remaining
 houseIdentifier
 hover
 how_to_play
+hpzp59
+hq[s
 hr_H
 href="
 hscroll
@@ -89118,6 +89151,7 @@ https://www.youtube.com/watch?v=vem9TLjyrkg
 https://www.youtube.com/watch?v=wWoW9-HBIwI
 https://www.youtube.com/watch?v=xZnB5t8h2Xo
 https://www.youtube.com/watch?v=yIeu0x_v2tE
+hu;r
 hu_HU
 hud.equip.agh_scepter
 hud.equip.agh_shard
@@ -89176,7 +89210,6 @@ hype
 hype_loc
 hypothermia
 h|gg
-h}Ys
 i <= EVP_MAX_MD_SIZE
 i%YR
 i%|kB
@@ -91117,6 +91150,7 @@ ivory
 i~wKVA\
 j <= (int)sizeof(ctx->key)
 j <= sizeof(c->iv)
+j l5
 j"MRX
 j&LQ
 j0ksJ
@@ -91171,6 +91205,7 @@ jointeam spectator
 jolt_bonus_cast_range
 joy%d %s:  %s (%s)\n
 joy%d %s:  unmapped\n
+jp59
 jsObject
 json
 jt(@L
@@ -98950,7 +98985,8 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p0j D1
+p08@H^D
+p2p59
 p2p_ping could not convert "%s" to a CPeerToPeerAddress\n
 p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n
@@ -98963,7 +98999,6 @@ p4 edit ..\panorama\videos\heroes\%s.webm\n
 p4Z3
 p5Z3
 p5\nL,
-p6 q
 p618
 p>?Set@Template@v8@@QEAAXV?$Local@VName@v8@@@2@V?$Local@VData@v8@@@2@W4PropertyAttribute@2@@Z
 p@0pqE5tsO?|1
@@ -98975,6 +99010,7 @@ pDescription
 pDest
 pDifficultyLevel != nullptr
 pEventName
+pF@z
 pFilter
 pG_*h
 pGameModeDef != nullptr
@@ -101950,6 +101986,7 @@ quill_base_damage
 quill_stack_damage
 qx(q
 r axis
+r y5
 r$0I
 r-IE
 r184
@@ -101968,6 +102005,8 @@ r3c3
 r3c4
 r<\rND
 r>RGBA8888
+r@m5
+r@y5
 rAGW
 rB2pBB
 rC3rp
@@ -101982,10 +102021,12 @@ rRfKR
 rX&O0
 rZ1VwGf5
 rZPM
+r\fpd
 r\n4k_EHeroSelectionText_AllDraft_TheyPicking_LosingGold
 r\n\nHuntReward
 r\n\vstart_index
 r\vDi
+r\vp8
 r_cleardecals
 r_deferred_additive_pass 1
 r_deferred_height_fog 1
@@ -102000,7 +102041,6 @@ r_dota_normal_maps 1
 r_dota_shadows 1
 r_printdecalinfo
 r_ssao 1
-r`z1
 rad2deg
 radar_cooldown
 radar_icon
@@ -109348,6 +109388,7 @@ zoom
 zoom-in
 zoom-out
 zoomwithuiscale
+zp59
 zuus
 zuus_arc_lightning
 zuus_cloud

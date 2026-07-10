@@ -2513,7 +2513,6 @@ $hRh
 (d4t8
 (default)
 (e8i
-(fPZ
 (fS{ggRcjh
 (flMinimapCreepIconScale) - Scale the creep icons on the minimap.
 (flMinimapHeroIconScale) - Scale the hero minimap icons on the minimap.
@@ -23557,7 +23556,7 @@ $hRh
 08B0
 08bX
 09,h
-0:0am
+0:@am
 0;Q5[
 0<cz
 0M2~@p
@@ -23827,7 +23826,6 @@ $hRh
 2..CDOTAUserMsg_MadstoneAlert.EMadstoneAlertType
 2..CMvpData.MvpDatum.MvpAccolade.MvpAccoladeType
 20.CMsgClientToGCGetBattleReportResponse.EResponse
-20Gv
 20t\f
 21.CMsgClientToGCDotaLabsFeedbackResponse.EResponse"
 21.CMsgClientToGCUnpackBundleResponse.EUnpackBundle
@@ -23896,7 +23894,7 @@ $hRh
 2?.CMsgClientToGCMonsterHunterDevGrantMaterialsResponse.EResponse"u\n\tEResponse
 2?.CMsgClientToGCRemoveItemAttributeResponse.ERemoveItemAttribute
 2@.CMsgClientToGCMonsterHunterDevModifyHeroCodexResponse.EResponse"u\n\tEResponse
-2@am
+2@Gv
 2C.CMsgClientToGCOverworldDevGrantFortuneTellerCoinResponse.EResponse"
 2C.CMsgClientToGCOverworldGetDynamicImageResponse.EDynamicImageFormat
 2C.CMsgServerToGCRequestPlayerRecentAccomplishmentsResponse.EResponse
@@ -23906,6 +23904,7 @@ $hRh
 2I y)
 2J.CMsgClientToGCMonsterHunterDevClaimInvestigationRewardsResponse.EResponse"u\n\tEResponse
 2L.CMsgClientToGCMonsterHunterRequestMaterialsNeededByFriendResponse.EResponse
+2Pam
 2Tm=#
 2Uiwp"9
 2Zq)
@@ -24015,7 +24014,7 @@ $hRh
 2\r.DOTA_GC_TEAM:
 2\r.ELeaguePhase
 2\rlhp
-2\vpl
+2\vpL
 2^pV
 2_bot
 2_mid
@@ -24554,6 +24553,7 @@ $hRh
 :EXTERNAL TYPE %s\n
 :LBN
 :NAy
+:Pam
 :QYJ
 :Vlq
 :\n5kKillEaterEventType_Brewmaster_KillsDuringPrimalSplit
@@ -24827,13 +24827,15 @@ $hRh
 ?uWS
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
-@08N4
+@08ND
 @0pp
 @333?
+@60j
+@:pHv
 @@map tree
 @BH]f
 @BoneSetup
-@HPX`hv01
+@HPX`hv@1
 @Invalid attach type specified for particle effect anim event. Trying to spawn effect '%s' on model %s\n
 @MfKZ
 @Pgl
@@ -26045,6 +26047,7 @@ B-409
 B-571
 B-Spline
 B.z\85p
+B0_m
 B2I_DSS
 B2I_RSA
 B2pr
@@ -34884,7 +34887,6 @@ H8,2
 H8xp
 H=`HY
 H@H9xqI
-H@T\tK
 HAC K  Unused Binding
 HARDSUPPORT
 HAS_LADDERS
@@ -39874,10 +39876,10 @@ P-224
 P-256
 P-384
 P-521
-P08N4
+P08ND
 P1\t98"
 P5[1
-P60d
+P6@d
 PAGN_4
 PARALYZE
 PARAMETER NAME: %s | OPTIONAL: %s, TYPE: %s, BOUND: %s\n
@@ -40829,7 +40831,7 @@ RUNE_XP
 R\n\fActivityInfo
 R\r1>Vp
 R\vp!y
-R\vpl
+R\vpL
 R]Di
 Rad2 Deg
 Radiant
@@ -45664,8 +45666,9 @@ X\tQo
 X`hr0
 Xbox VDP is not supported on this platform.
 Xd3h
+Xf R
 XfJ7
-Xf`P
+XfpP
 XjfR
 XqgA+
 Xuub
@@ -45718,6 +45721,7 @@ Z"T-47\f8
 Z#Pe
 Z+5AS
 Z0000
+Z0_m
 Z0zd
 Z7"c
 Z72\v
@@ -45834,13 +45838,12 @@ Z~wl
 \fKS1
 \fW9c
 \fXu"L
-\f\nPLp
 \f\rbad allocation
 \f]ne3
 \fdhWTh
 \fevents.proto"
 \fiaR
-\fp\vPT
+\fp\vPd
 \ful2
 \fy&3Gl
 \l:ArR
@@ -46055,7 +46058,6 @@ Z~wl
 \n0CMsgClientToGCSurvivorsGameTelemetryDataResponse
 \n0CMsgGCtoGCAssociatedExploiterAccountInfoResponse
 \n0CMsgServerToGCMatchPlayerNeutralItemEquipHistory
-\n0Gv
 \n1CDOTAClientMsg_AbilitySpecificChannelRequiresHalt
 \n1CDOTAUserMsg_MonsterHunter_InvestigationGameState
 \n1CMsgClientToGCFightingGameAnswerChallengeResponse
@@ -46128,7 +46130,6 @@ Z~wl
 \nLeagueID_t"
 \nLeagueID_t"M\n;CMsgServerToGCCloseCompendiumInGamePredictionVotingResponse
 \nLeagueID_t"N\n$CMsgServerToGCGetCheerConfigResponse
-\nPTw
 \nPlayerID_t
 \nPlayerID_t"
 \nSimulating Entities:\n\n
@@ -46411,7 +46412,6 @@ Z~wl
 \n\nLANE_CREEP
 \n\nMapResults
 \n\nMatchState
-\n\nPYw
 \n\nPrediction
 \n\nROLL_STATS
 \n\nResultCode
@@ -47549,7 +47549,8 @@ _turbo
 _xU`u
 _}eOk
 `28)fk
-`60x
+`6Pm
+`6Pn
 `:zQF
 `D$daM-l
 `DZG
@@ -47577,7 +47578,7 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBv4
+aBvD
 aD/x
 aDSS
 aECDH
@@ -62500,13 +62501,13 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^4
+p08@H^D
 p2{l
 p4Z3
 p5Z3
 p5\nL,
 p618
-p6@E
+p6PE
 p?33
 p@0pqE5tsO?|1
 pAbilityName1
@@ -66367,13 +66368,13 @@ rF6t
 rFC822localPart
 rFur`7\t
 rL[i+
-rPYw
 rRfKR
 rX&O0
 rZ1VwGf5
 rZPM
 r\n\nHuntReward
 r\vDi
+r`Yw
 rad2deg
 radar_cooldown
 radial_count
@@ -71664,6 +71665,7 @@ ynormal
 yyen
 z(ov
 z/B,9d
+z0_m
 z<d2
 z>Hz
 zF):O4

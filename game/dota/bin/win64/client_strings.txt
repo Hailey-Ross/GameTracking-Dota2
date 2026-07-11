@@ -7038,62 +7038,66 @@ $hRh
 (0'yX
 (0.1s interval)
 (0x%08X)'??'
-(1Fs
-(1Ws
-(1ps
-(57r
+(1Pr
+(1ds
+(2PC;
+(5Dr
+(5Hr
 (5Me
-(5Vs
+(5Ms
+(5Rs
+(5Wr
+(5Yr
 (5jP
-(5qr
-(90s
+(95s
+(9Ss
+(9jr
+(9rr
 (?333?dota_guild_show_create_page
-(A9r
+(A0s
 (ACTIVE)
+(AXr
+(Afr
 (App Id to retrieve published files from.
-(Avs
+(Avr
 (BZq
 (CLIENT) Inventory:\n
 (Client) 
 (D4D
 (DOTA_INVALID_ORDERS nReason) Return the error string of a failed order.
-(E3s
-(Eos
+(EOs
+(Eas
+(Eks
+(Exs
 (Fade Removed: [%d,%d,%d,%d])\n
 (HSCRIPT hTarget) Determine whether an issued command on a target is valid.
 (HSCRIPT hTarget) Return the error string of a failed command on a target.
-(I1r
 (I?Value@External@v8@@QEBAPEAXXZ
 (ID of the Cloud file to get details for.
 (IImageSource)
-(IUr
+(IWs
+(Ils
 (Interp Ready=%s)
-(Isr
+(MAr
 (MKr
-(Mcs
+(Mes
 (NONE)
-(QFr
-(QTr
-(Qrr
 (SST) Disconnecting for the purpose of editing %s\n
 (SST) Disconnecting for the purpose of removing all SST data from vpk\n
 (SST) Moving %s to %s\n
 (SST) Unzipping %s (%d files)\n
 (SST) Zipping %s (%d files)\n
 (Text description for the published file.
+(U0r
 (U1h
-(U4r
-(U6r
-(Ucr
-(Umr
+(UVr
 (Unknown error)
-(Upr
 (VectorWS vLocation) Determine whether an issued command on a location is valid.
 (VectorWS vLocation) Return the error string of a failed command on a location.
 (WIPE AND EXTRACT)
-(Yfr
-(Yvr
-(Yws
+(YPs
+(YYs
+(Yjs
 (ZdOt\n&
 (\f"#\n!CDOTABroadcastMsg_LANLobbyRequest"
 (\f"#\n!CMsgClientToGCEmoticonDataRequest"Q\n
@@ -7935,58 +7939,55 @@ $hRh
 (\v2\v.CMsgVector"l\n
 (\v2\v.CMsgVector"o\n)CDOTAUserMsg_UpdateLinearProjectileCPData
 (\v2\v.CMsgVector*
+(aCs
 (b IncludePregameTime b IncludeNegativeTime) Returns the actual DOTA in-game clock time.
 (connected)
 (d4t8
 (default)
-(e7r
+(e4s
 (eDs
 (eRs
-(eSr
-(eXs
+(ews
 (fS{ggRcjh
 (flTime, bInformClients)
 (from angle, to angle, time) - Spherical lerp of angle from->to based on time
 (h`H1pqA
 (i/Al
-(igs
+(iBr
+(iBs
+(iLr
 (index, bDestroyImmediately, bStatusEffect, priority, bHeroEffect, bOverheadEffect
 (int iIndex, int iPoint, Vector vecPosition)
 (int index, bool bDestroyImmediately) - Destroy a particle, if bDestroyImmediately destroy it without playing end caps.
 (int nFXIndex, int nPoint, vOrigin, qAngles)
 (int nFXIndex, int nPoint, vOrigin, vForward)
 (jvg;
-(m7s
-(mds
+(mFs
+(mMs
+(mSs
 (memory)
-(mqr
 (needs match)
 (no controller?)
 (parent %d)
 (partial match ok)
-(q6s
-(qIs
-(qWs
-(qgr
-(qts
+(qDr
+(qhr
 (quaternion,quaternion,float) very basic interpolation of v0 to v1 over t on [0,1]
 (quaternion,vector,float) rotates a quaternion by the specified angle around the specified vector axis
-(uEr
-(uMr
-(ucs
-(uor
+(u2r
 (update disabled)
+(urr
+(uvs
 (vQF
 (vector,float) constructs a quaternion representing a rotation by angle around the specified vector axis
 (vector,vector) cross product between two vectors
 (vector,vector,float) lerp between two vectors by a float factor returning new vector
 (vector,vector,float) very basic interpolation of v0 to v1 over t on [0,1]
 (wMww
-(y5s
-(yJs
-(yVs
-(yar
-(yjr
+(yAs
+(yOr
+(yYr
+(ygr
 ) == false\n
 )!)#)?)G)])e)i)o)u)
 )#DOTA_Hero_Selection_CaptainsMode_TheyBan
@@ -37132,8 +37133,10 @@ $hRh
 08bX
 09,h
 0:%02d
+0:PC;
 0;Q5[
 0<cz
+0>pN
 0M2~@p
 0Marks latest announcement timestamp read by user
 0Name of the file to publish in the user's cloud.
@@ -37738,8 +37741,7 @@ $hRh
 2J.CMsgClientToGCMonsterHunterDevClaimInvestigationRewardsResponse.EResponse"u\n\tEResponse
 2K.CMsgClientToGCGetAvailablePrivateCoachingSessionsSummaryResponse.EResponse
 2L.CMsgClientToGCMonsterHunterRequestMaterialsNeededByFriendResponse.EResponse
-2PD1
-2P{1
+2PC;
 2Set of published file Ids to retrieve details for.
 2Tm=#
 2Uiwp"9
@@ -37872,7 +37874,7 @@ $hRh
 2\r.ELeaguePhase
 2\rlhp
 2\vp!d
-2\vp47
+2\vpH 
 2^pV
 2_bot
 2_mid
@@ -38033,6 +38035,7 @@ $hRh
 4F0I
 4F\vp
 4Mv8
+4PC;
 4Redirection URI provided during client registration.2
 4Zis
 4\fPl
@@ -38389,27 +38392,25 @@ $hRh
 8&Kx
 8+Qw
 80F2<
-81>r
 82\n:XPH
-850r
 851Pe
 89 89 89
+89hr
 8<pl
 8= zp
 8@HPZ
-8@HPZP
 8A6j
+8BPC;
 8Client ID for which to count the number of issued tokens"
 8GZS
 8Gets the list of nicknames this user has for other users
 8If set, remove from ignore/block list instead of adding "\\n
 8If true, return tag information in the returned details.
 8Name of the file to use as the published file's preview.
-8QUs
 8SIffK5W
 8TZvrv<
 8TopArrow
-8Yls
+8YQr
 8\n0series_current_selection_priority_used_coin_toss
 8\n0ultimate_scepter_consumed_alchemist_bonus_health
 8\n3kKillEaterEventType_Broodmother_SpiderlingHeroKills
@@ -38464,23 +38465,23 @@ $hRh
 8\n\rnotifications
 8\n\rready_members
 8\n\rsubscribe_msg
+8\rQr
+8\ris
 8\v8!83858A8G8K8S8W8_8e8o8q8}8
+8]Cr
 8]Vc2
-8]ms
 8ca1
 8dS2
 8oYSBkqnngo
 8pe7?
 8q-S*]X
 8sOy
-8ydr
-8}Ur
+8yhs
 9#9%9)9/9=9A9M9[9k9y9}9
 9#DOTA_Hero_Selection_CaptainsMode_WaitingForChooseCaptain
 9)PF
 9)jx
 9*VU
-9*ns
 95\r9{
 969p
 9966
@@ -38488,6 +38489,7 @@ $hRh
 9@Xp&
 9@dota_survivors_msg_game_log
 9B2C1229
+9Fir
 9IGv
 9J9;6
 9N1=@
@@ -38554,8 +38556,6 @@ $hRh
 :    initpredictable %d:%s for %d slots\n
 : unrecognized parent "%s"\n
 :':+:1:K:Q:[:c:g:m:y:
-:0m5
-:0y5
 :4\n\vdescription
 :9\n\tkey_field
 :BAD OBJECT
@@ -38564,6 +38564,7 @@ $hRh
 :EXTERNAL TYPE %s\n
 :LBN
 :NAy
+:Pv5
 :QYJ
 :Vlq
 :\n5kKillEaterEventType_Brewmaster_KillsDuringPrimalSplit
@@ -38611,6 +38612,7 @@ $hRh
 :eaI
 :gN(dq
 :mIR
+:pu5
 :w4v
 ;!;#;-;9;E;S;Y;_;q;{;
 ;"lY7
@@ -39059,6 +39061,7 @@ $hRh
 ?uWS
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
+@08NT
 @0pp
 @333333)@R
 @888
@@ -39067,7 +39070,7 @@ $hRh
 @BH]f
 @BoneSetup
 @DebugIndividualStyle
-@HPX`hv
+@HPX`hvp
 @HPXf
 @Integer overflow in %s
 @MfKZ
@@ -39097,7 +39100,6 @@ $hRh
 @\n\venum_result
 @dKb]
 @fff>fff>fff>fff>
-@ht0
 @i1V
 @keyframes 
 @keyframes '%s'\r\n{\r\n
@@ -40847,6 +40849,7 @@ BN_usub
 BOGUS
 BOOL ABSENT
 BOOLEAN
+BPC;
 BPEventLevelIcon
 BPIN_txt
 BPLevel
@@ -41384,6 +41387,7 @@ BoxFinished
 BoxFocused
 BoxIdle
 BoxOpening
+BpR>
 Bracket
 Bracket%d
 BracketBoxContainer
@@ -53713,6 +53717,7 @@ DO_PVK_HEADER
 DO_RSA_PRINT
 DO_SIGVER_INIT
 DO_SSL3_WRITE
+DPC;
 DPCActiveInternational
 DPCActiveLeague
 DPCActiveLeagueFinals
@@ -65581,14 +65586,15 @@ P-224
 P-256
 P-384
 P-521
+P08NT
 P0WonMatch
 P1Avatar
 P1WonMatch
 P1\t98"
 P2Avatar
 P2P ping to "%s". Timed out after %.2fms\n
-P4@w<
 P5[1
+P6Px
 PAGN_4
 PAGrave
 PAIN: %2.2f\n
@@ -65610,7 +65616,6 @@ PARTY_MEMBER_IN_ANOTHER_GAME
 PARTY_MEMBER_IN_LOW_PRIORITY
 PASSABLE
 PATHBYADDR
-PAxz
 PBE-MD2-DES
 PBE-MD2-RC2-64
 PBE-MD5-DES
@@ -67923,6 +67928,7 @@ RTTIPredictionsUnlocked
 RTTISelected
 RTTIState
 RT_txt
+R\fpH 
 R\n\fActivityInfo
 R\n\fmap_variants
 R\n\fplayer_cards
@@ -67931,7 +67937,7 @@ R\n\vpredictions
 R\r1>Vp
 R\vP!m
 R\vp!y
-R\vp47
+R\vpt
 R]Di
 R_T5Y
 Rad Guys
@@ -76060,7 +76066,6 @@ Z~wl
 \fevents.proto
 \fevents.proto"
 \fiaR
-\fp\vPT
 \ful2
 \fy&3Gl
 \l:ArR
@@ -76491,7 +76496,8 @@ Z~wl
 \n0CMsgGCToClientPurchaseFilteredPlayerSlotResponse
 \n0CMsgGCToClientRequestActiveBeaconPartiesResponse
 \n0CMsgGCtoGCAssociatedExploiterAccountInfoResponse
-\n0l5
+\n0t5
+\n0v5
 \n1CDOTAClientMsg_AbilitySpecificChannelRequiresHalt
 \n1CDOTAUserMsg_MonsterHunter_InvestigationGameState
 \n1CHelpRequestLogs_UploadUserApplicationLog_Request
@@ -76599,10 +76605,11 @@ Z~wl
 \nLeagueID_t"
 \nLeagueID_t"9\n#CMsgDOTACompendiumSelectionResponse
 \nLeagueID_t"C\n-CMsgDOTACompendiumRemoveAllSelectionsResponse
-\nPl5
 \nPlayerID_t
 \nPlayerID_t"
-\nPm5
+\nPt5
+\nPu5
+\nPv5
 \nSimulating Entities:\n\n
 \nUnknown reward type '%s' for action '%s' at score '%s'
 \n\fAsyncRewards
@@ -78139,9 +78146,7 @@ Z~wl
 \ng_flConfigMaxCoord
 \ngrant_periodic_action '%s' doesn't specify an action to grant
 \nnexttoken
-\npk5
-\npm5
-\npv1
+\npt5
 \nqYu
 \ntM(ie-V
 \nunit1: %s \nunit2: %s \nevent: %s \npriority: %d\n
@@ -78681,9 +78686,11 @@ _video
 _wjb
 _xU`u
 _}eOk
+`1ns
 `28)fk
+`2PC;
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
-`6pf
+`60o
 `:zQF
 `D$daM-l
 `DZG
@@ -78691,14 +78698,13 @@ _}eOk
 `H(hqA1p
 `ITS
 `VX:H
+`ZPC;
 `\n+k_EHeroSelectionText_CaptainsMode_YouSelect
 `\n+k_EHeroSelectionText_RandomDraft_HeroReview
 `\n\rvector_values
 `fPw.\vM
 `h9T~
-`iJr
 `o_je
-`r0J>
 `yNT
 a moment...
 a null shared library handle was used
@@ -78717,6 +78723,7 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
+aBvT
 aD/x
 aDSS
 aECDH
@@ -80108,6 +80115,7 @@ bMutedText
 bMutedVoice
 bN.l
 bOverheadEffect
+bPC;
 bPb:L7X)
 bReturnUnslowed
 bSellable
@@ -82990,7 +82998,6 @@ d2sc
 d2scb
 d35P
 d4\tp
-d7Pj
 d=%-2d hl=%ld l=%4ld 
 d=%-2d hl=%ld l=inf  
 dAN"
@@ -88491,15 +88498,16 @@ hCallbackScope
 hCaller
 hCamera
 hCaster
+hE$s
 hEM&!
-hE\ns
 hEntityA
 hEntityB
+hEqs
 hF\rDz
 hFcg
-hI|r
 hJxRX@_
 hN2D
+hQ,s
 hRB.
 hRenderTexture != RENDER_TEXTURE_HANDLE_INVALID && m_image.IsValid()
 hThinkFunc
@@ -89041,7 +89049,6 @@ hours_remaining
 houseIdentifier
 hover
 how_to_play
-hqYs
 hr_H
 href="
 hscroll
@@ -89132,6 +89139,7 @@ https://www.youtube.com/watch?v=vem9TLjyrkg
 https://www.youtube.com/watch?v=wWoW9-HBIwI
 https://www.youtube.com/watch?v=xZnB5t8h2Xo
 https://www.youtube.com/watch?v=yIeu0x_v2tE
+hu"s
 hu_HU
 hud.equip.agh_scepter
 hud.equip.agh_shard
@@ -89185,7 +89193,6 @@ huskar_inner_fire
 huskar_inner_vitality
 huskar_life_break
 hvL&
-hy[s
 hydras_breath_single
 hype
 hype_loc
@@ -91134,6 +91141,7 @@ j <= sizeof(c->iv)
 j"MRX
 j&LQ
 j0ksJ
+j0u5
 j2ty
 j3kg
 j9GB2K8imP8
@@ -91185,7 +91193,6 @@ jointeam spectator
 jolt_bonus_cast_range
 joy%d %s:  %s (%s)\n
 joy%d %s:  unmapped\n
-jpl5
 jsObject
 json
 jt(@L
@@ -98965,6 +98972,7 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
+p08@H^T
 p2p_ping could not convert "%s" to a CPeerToPeerAddress\n
 p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n
@@ -101991,15 +101999,18 @@ rFur`7\t
 rIwdzZiHJbg
 rL[i+
 rOtk
-rP{1
+rPC;
+rPv5
 rRfKR
 rX&O0
 rZ1VwGf5
 rZPM
+r\fpt
 r\n4k_EHeroSelectionText_AllDraft_TheyPicking_LosingGold
 r\n\nHuntReward
 r\n\vstart_index
 r\vDi
+r\vpH 
 r_cleardecals
 r_deferred_additive_pass 1
 r_deferred_height_fog 1
@@ -103030,7 +103041,7 @@ rows_completed
 royal_jelly
 royal_jelly1
 royalblue
-rpy5
+rpB<
 rsa not implemented
 rsa operations not supported
 rsa routines

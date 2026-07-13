@@ -154,9 +154,6 @@
  %s%lu (%s0x%lx)\n
  ' ) - 3 G M Q _ c e i w } 
  (%ld unused bits)\n
- (08@HPX`j0
- (08@HPZ0
- (08@J0
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -783,6 +780,7 @@ $GIRu
 $HypYkf
 $J6"t
 $JXsZ
+$PQu
 $XI(6
 $\n CHAT_MESSAGE_ABILITY_DRAFT_START
 $\n CHAT_MESSAGE_HERO_CHOICE_INVALID
@@ -1856,6 +1854,7 @@ $hRh
 (1di
 (1vi
 (1xi
+(4PQu
 (5Me
 (5jP
 (9ii
@@ -23552,13 +23551,11 @@ $hRh
 0123456789
 02V8[
 05=k
-08@HR0
-08B0
 08bX
 09,h
-0:@am
 0;Q5[
 0<cz
+0>0P
 0M2~@p
 0W/5
 0Z@q
@@ -23894,7 +23891,7 @@ $hRh
 2?.CMsgClientToGCMonsterHunterDevGrantMaterialsResponse.EResponse"u\n\tEResponse
 2?.CMsgClientToGCRemoveItemAttributeResponse.ERemoveItemAttribute
 2@.CMsgClientToGCMonsterHunterDevModifyHeroCodexResponse.EResponse"u\n\tEResponse
-2@Gv
+2@am
 2C.CMsgClientToGCOverworldDevGrantFortuneTellerCoinResponse.EResponse"
 2C.CMsgClientToGCOverworldGetDynamicImageResponse.EDynamicImageFormat
 2C.CMsgServerToGCRequestPlayerRecentAccomplishmentsResponse.EResponse
@@ -23904,7 +23901,6 @@ $hRh
 2I y)
 2J.CMsgClientToGCMonsterHunterDevClaimInvestigationRewardsResponse.EResponse"u\n\tEResponse
 2L.CMsgClientToGCMonsterHunterRequestMaterialsNeededByFriendResponse.EResponse
-2Pam
 2Tm=#
 2Uiwp"9
 2Zq)
@@ -24014,7 +24010,7 @@ $hRh
 2\r.DOTA_GC_TEAM:
 2\r.ELeaguePhase
 2\rlhp
-2\vpL
+2\vpD
 2^pV
 2_bot
 2_mid
@@ -24192,6 +24188,7 @@ $hRh
 4_bot
 4_top
 4f h
+4q\n"Ie
 4tpD
 4zj@1;IJ
 5'0v2ZP
@@ -24427,9 +24424,10 @@ $hRh
 851Pe
 8<pl
 8= zp
-8@J0
 8A6j
 8DemoFile
+8F@O
+8FPN
 8GZS
 8SIffK5W
 8TZvrv<
@@ -24553,7 +24551,6 @@ $hRh
 :EXTERNAL TYPE %s\n
 :LBN
 :NAy
-:Pam
 :QYJ
 :Vlq
 :\n5kKillEaterEventType_Brewmaster_KillsDuringPrimalSplit
@@ -24827,15 +24824,14 @@ $hRh
 ?uWS
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
-@08ND
 @0pp
 @333?
-@60j
-@:pHv
+@60l
+@6PE
 @@map tree
 @BH]f
 @BoneSetup
-@HPX`hv@1
+@HPX`hv
 @Invalid attach type specified for particle effect anim event. Trying to spawn effect '%s' on model %s\n
 @MfKZ
 @Pgl
@@ -24863,6 +24859,7 @@ $hRh
 @end_camera
 @fff>fff>fff>fff>
 @fff@Unique Identifier for the Gem Type
+@htPQu
 @i1V
 @n2w
 @player_start_teleport_destination
@@ -26047,7 +26044,6 @@ B-409
 B-571
 B-Spline
 B.z\85p
-B0_m
 B2I_DSS
 B2I_RSA
 B2pr
@@ -31641,6 +31637,7 @@ DO_PVK_HEADER
 DO_RSA_PRINT
 DO_SIGVER_INIT
 DO_SSL3_WRITE
+DPQu
 DREAMCOIL
 DROWN
 DROWNRECOVER
@@ -36070,7 +36067,6 @@ Hero_PrimalBeast.RockThrow.Stun
 Hero_PrimalBeast.Trample
 Hero_PrimalBeast.Uproar.Cast
 Hero_PrimalBeast.Uproar.MaxStacks
-Hero_PrimalBeast.Uproar.Projectile
 Hero_PrimalBeast.Uproar.Projectile.Split
 Hero_PrimalBeast.Uproar.Target
 Hero_Puck.Dream_Coil
@@ -39876,10 +39872,10 @@ P-224
 P-256
 P-384
 P-521
-P08ND
+P08JP
 P1\t98"
 P5[1
-P6@d
+P60f
 PAGN_4
 PARALYZE
 PARAMETER NAME: %s | OPTIONAL: %s, TYPE: %s, BOUND: %s\n
@@ -40828,10 +40824,10 @@ RUNE_STATUS_MISSING
 RUNE_STATUS_UNKNOWN
 RUNE_WATER
 RUNE_XP
+R\fpD
 R\n\fActivityInfo
 R\r1>Vp
 R\vp!y
-R\vpL
 R]Di
 Rad2 Deg
 Radiant
@@ -45663,12 +45659,11 @@ XYD%
 X\n summary_description_embed_values
 X\n\rkilling_blows
 X\tQo
-X`hr0
 Xbox VDP is not supported on this platform.
 Xd3h
-Xf R
 XfJ7
-XfpP
+XfPQ
+XfpR
 XjfR
 XqgA+
 Xuub
@@ -45721,7 +45716,6 @@ Z"T-47\f8
 Z#Pe
 Z+5AS
 Z0000
-Z0_m
 Z0zd
 Z7"c
 Z72\v
@@ -45836,6 +45830,7 @@ Z~wl
 \f<<0A1pq
 \fCEntityIndex"
 \fKS1
+\fPQu
 \fW9c
 \fXu"L
 \f\rbad allocation
@@ -45843,7 +45838,6 @@ Z~wl
 \fdhWTh
 \fevents.proto"
 \fiaR
-\fp\vPd
 \ful2
 \fy&3Gl
 \l:ArR
@@ -47343,6 +47337,7 @@ Z~wl
 \ng_flConfigMaxCoord
 \ngrant_periodic_action '%s' doesn't specify an action to grant
 \nnexttoken
+\npGv
 \nqYu
 \ntM(ie-V
 \r!\r+\r-\r=\r?\rO\rU\ri\ry\r
@@ -47550,7 +47545,7 @@ _xU`u
 _}eOk
 `28)fk
 `6Pm
-`6Pn
+`6pn
 `:zQF
 `D$daM-l
 `DZG
@@ -47578,7 +47573,6 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBvD
 aD/x
 aDSS
 aECDH
@@ -62501,13 +62495,11 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^D
 p2{l
 p4Z3
 p5Z3
 p5\nL,
 p618
-p6PE
 p?33
 p@0pqE5tsO?|1
 pAbilityName1
@@ -66374,7 +66366,7 @@ rZ1VwGf5
 rZPM
 r\n\nHuntReward
 r\vDi
-r`Yw
+r\vpD
 rad2deg
 radar_cooldown
 radial_count
@@ -71665,7 +71657,6 @@ ynormal
 yyen
 z(ov
 z/B,9d
-z0_m
 z<d2
 z>Hz
 zF):O4

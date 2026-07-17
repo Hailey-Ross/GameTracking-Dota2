@@ -25566,7 +25566,6 @@ Seconds between inventory snapshots
 Seconds over which an unseen area is revealed by radius checks, 0 is instant.
 Seconds to wait before showing the ping context menu.
 Secret
-Secret key for authenticating with the GC\n
 Seed (negative values=randomize)
 Seek Immediate
 Segment Break
@@ -34852,7 +34851,6 @@ gameui_allowescapetoshow
 gameui_hide
 gameui_preventescape
 gameui_preventescapetoshow
-gc_secret_key
 geminate_attack_mark_duration
 generate normals for cylinder
 generate_challenge_vdata
@@ -39260,6 +39258,7 @@ m_InvisAttackTimer
 m_InvokeBindings
 m_IsPublic
 m_Item
+m_ItemModeTimeout
 m_ItemQuality
 m_JiggleBones
 m_KV

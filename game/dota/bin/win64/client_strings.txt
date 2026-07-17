@@ -167,8 +167,8 @@
  (%lu = 0x%lx)\n
  (%u = 0x%x)\n
  (+%d more due to usercommand delivery)
- (08@HPXb@?9
- (0X`hpz@?9
+ (08@HPX`j`
+ (08@HPZ`
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -245,6 +245,7 @@
  [procedural] 
  [removed w REMOVED_KEYFIELD] 
  [via entity lump b/c no save data for '%s' - first visit to map]
+ \n0z1
  \n\nSpeechMute
  \n\necon_items
  \n\npeek_items
@@ -642,7 +643,7 @@
 #7FFF00
 #82CAFF
 #8B008B
-#<basic_attack
+#<activity_animation
 #AbilityDamage
 #Action_GoToPlayerCards
 #Action_Use
@@ -971,7 +972,6 @@
 #DOTA_AutomaticSelectionPriority
 #DOTA_AutomaticSelectionPriority_ChoiceConfirm_%s
 #DOTA_AutomaticSelectionPriority_ChoiceResponse_UnknownError
-#DOTA_Axe_Missing
 #DOTA_BLOCKED
 #DOTA_BackpackExpander_Confirm
 #DOTA_BadGuys
@@ -7040,57 +7040,47 @@ $hRh
 (0'yX
 (0.1s interval)
 (0x%08X)'??'
-(1Ds
-(1Ns
+(1kr
+(5Er
+(5Kr
 (5Me
+(5Ms
 (5jP
-(98r
-(9Br
-(9Dr
-(9Es
-(9Gr
-(9Ms
-(9Xr
+(5zs
+(9Hs
 (9Ys
-(9hr
-(9lr
-(?333?dota_guild_show_create_page
-(A5s
+(9rs
+(?333?DOTAEconItemBasePage
+(A2s
 (ACTIVE)
-(ALr
-(AYr
-(Ajs
 (App Id to retrieve published files from.
-(Atr
-(Avr
 (BZq
 (CLIENT) Inventory:\n
 (Client) 
 (D4D
 (DOTA_INVALID_ORDERS nReason) Return the error string of a failed order.
-(EIr
-(ERs
-(Ejr
+(E3s
+(EAs
+(Efs
+(Eqr
+(Ezr
 (Fade Removed: [%d,%d,%d,%d])\n
 (HSCRIPT hTarget) Determine whether an issued command on a target is valid.
 (HSCRIPT hTarget) Return the error string of a failed command on a target.
+(I1r
+(I1s
 (I?Value@External@v8@@QEBAPEAXXZ
-(IAr
 (ID of the Cloud file to get details for.
 (IImageSource)
-(IJr
-(IKr
-(Ies
 (Interp Ready=%s)
-(Ius
 (Ixs
-(MQs
-(MTs
-(Mfr
-(Mls
+(M5s
+(MBs
+(Mqs
 (NONE)
+(Q3r
+(QWr
 (Qur
-(Qws
 (SST) Disconnecting for the purpose of editing %s\n
 (SST) Disconnecting for the purpose of removing all SST data from vpk\n
 (SST) Moving %s to %s\n
@@ -7098,13 +7088,17 @@ $hRh
 (SST) Zipping %s (%d files)\n
 (Text description for the published file.
 (U1h
+(UMr
+(Uar
+(Ues
 (Unknown error)
 (VectorWS vLocation) Determine whether an issued command on a location is valid.
 (VectorWS vLocation) Return the error string of a failed command on a location.
 (WIPE AND EXTRACT)
-(Y4s
-(Y6r
-(YCs
+(Y0s
+(YHr
+(YVr
+(Ytr
 (ZdOt\n&
 (\f"#\n!CDOTABroadcastMsg_LANLobbyRequest"
 (\f"#\n!CMsgClientToGCEmoticonDataRequest"Q\n
@@ -7946,63 +7940,55 @@ $hRh
 (\v2\v.CMsgVector"l\n
 (\v2\v.CMsgVector"o\n)CDOTAUserMsg_UpdateLinearProjectileCPData
 (\v2\v.CMsgVector*
-(a9s
-(aLs
-(aOr
-(aPs
+(ahr
+(axr
+(ays
 (b IncludePregameTime b IncludeNegativeTime) Returns the actual DOTA in-game clock time.
 (connected)
 (d4t8
 (default)
+(eSs
+(eks
 (fS{ggRcjh
 (flTime, bInformClients)
 (from angle, to angle, time) - Spherical lerp of angle from->to based on time
 (h`H1pqA
 (i/Al
-(i9r
-(iBs
-(iUs
-(iVs
 (index, bDestroyImmediately, bStatusEffect, priority, bHeroEffect, bOverheadEffect
 (int iIndex, int iPoint, Vector vecPosition)
 (int index, bool bDestroyImmediately) - Destroy a particle, if bDestroyImmediately destroy it without playing end caps.
 (int nFXIndex, int nPoint, vOrigin, qAngles)
 (int nFXIndex, int nPoint, vOrigin, vForward)
-(iwr
-(izr
 (jvg;
-(mPr
-(mds
+(m9r
+(mFs
+(mTs
+(mUr
+(mZs
 (memory)
 (needs match)
 (no controller?)
 (parent %d)
 (partial match ok)
-(qDr
-(qHr
-(qMs
-(qRs
-(qWr
-(qYr
+(qAs
+(qis
 (quaternion,quaternion,float) very basic interpolation of v0 to v1 over t on [0,1]
 (quaternion,vector,float) rotates a quaternion by the specified angle around the specified vector axis
-(u5s
-(uSs
-(ujr
+(u9s
+(ufs
 (update disabled)
-(urr
+(usr
 (vQF
 (vector,float) constructs a quaternion representing a rotation by angle around the specified vector axis
 (vector,vector) cross product between two vectors
 (vector,vector,float) lerp between two vectors by a float factor returning new vector
 (vector,vector,float) very basic interpolation of v0 to v1 over t on [0,1]
 (wMww
-(y2r
-(y7r
-(yAs
-(yBr
-(yNs
-(yws
+(y8s
+(yKs
+(yYs
+(yir
+(yvs
 ) == false\n
 )!)#)?)G)])e)i)o)u)
 )#DOTA_Hero_Selection_CaptainsMode_TheyBan
@@ -8362,6 +8348,7 @@ $hRh
 *\n\vready_check
 *\n\vreward_type
 *b\n\rDOTAMatchVote
+*effect_simplified
 *gFBk
 *hbJ1
 *it%2
@@ -36974,7 +36961,7 @@ $hRh
 .bmxz
 .dotaunitorder_t
 .dx_LV9
-.eBCLogicalEntity
+.eBm_fog
 .google.protobuf.Any*.\n
 .google.protobuf.EnumValue
 .google.protobuf.Field
@@ -37145,13 +37132,13 @@ $hRh
 0234
 02V8[
 05=k
-08@J@?9
+08@HR`
+08B`
 08bX
 09,h
 0:%02d
 0;Q5[
 0<cz
-0>0O
 0M2~@p
 0Marks latest announcement timestamp read by user
 0Name of the file to publish in the user's cloud.
@@ -37566,6 +37553,7 @@ $hRh
 2025_cta_collectors_cache_voting
 20t\f
 20x9
+20z1
 21.CMsgClientToGCBingoGetUserDataResponse.EResponse
 21.CMsgClientToGCBingoShuffleCardResponse.EResponse"
 21.CMsgClientToGCDotaLabsFeedbackResponse.EResponse"
@@ -37888,6 +37876,8 @@ $hRh
 2\r.ELeaguePhase
 2\rlhp
 2\vp!d
+2\vp$7
+2\vpx
 2^pV
 2_bot
 2_mid
@@ -38402,30 +38392,28 @@ $hRh
 7zRQ
 8"3hrf
 8&Kx
-8)Rr
 8+Qw
 80F2<
 82\n:XPH
 851Pe
 89 89 89
-89gr
+89@r
 8<pl
 8= zp
+8=2r
 8@HPZ
+8@HPZ`
 8A6j
 8Client ID for which to count the number of issued tokens"
 8GZS
 8Gets the list of nicknames this user has for other users
-8IQr
 8If set, remove from ignore/block list instead of adding "\\n
 8If true, return tag information in the returned details.
-8Iis
 8Name of the file to use as the published file's preview.
-8QZr
 8SIffK5W
 8TZvrv<
 8TopArrow
-8Y{r
+8YWs
 8\n0series_current_selection_priority_used_coin_toss
 8\n0ultimate_scepter_consumed_alchemist_bonus_health
 8\n3kKillEaterEventType_Broodmother_SpiderlingHeroKills
@@ -38482,18 +38470,21 @@ $hRh
 8\n\rsubscribe_msg
 8\v8!83858A8G8K8S8W8_8e8o8q8}8
 8]Vc2
+8ans
 8ca1
 8dS2
+8eos
 8oYSBkqnngo
 8pe7?
 8q-S*]X
 8sOy
-8uhr
 9#9%9)9/9=9A9M9[9k9y9}9
 9#DOTA_Hero_Selection_CaptainsMode_WaitingForChooseCaptain
+9&Xr
 9)PF
 9)jx
 9*VU
+92ps
 95\r9{
 969p
 9966
@@ -38501,7 +38492,6 @@ $hRh
 9@Xp&
 9@dota_survivors_msg_game_log
 9B2C1229
-9Bir
 9IGv
 9J9;6
 9N1=@
@@ -38568,12 +38558,11 @@ $hRh
 :    initpredictable %d:%s for %d slots\n
 : unrecognized parent "%s"\n
 :':+:1:K:Q:[:c:g:m:y:
-:0v5
+:0z1
 :4\n\vdescription
 :9\n\tkey_field
 :BAD OBJECT
 :Blowfish part of OpenSSL 1.0.2j  26 Sep 2016
-:CAnimGraphControllerPtr
 :EXTERNAL TYPE %s\n
 :LBN
 :NAy
@@ -38624,13 +38613,13 @@ $hRh
 :eaI
 :gN(dq
 :mIR
-:pv5
+:m_CBodyComponent
 :w4v
 ;!;#;-;9;E;S;Y;_;q;{;
 ;"lY7
 ;5jNf
 ;83\v\nHBJ7
-;Enable close captioning.
+;Close caption linger time.
 ;LGEW
 ;LeftOfFocus%d
 ;Qo0
@@ -38933,7 +38922,6 @@ $hRh
 =aghs
 =cdE
 =ff>BZU
-=pMessage
 =trF6,#
 >#>)>/>3>A>W>c>e>w>
 >(Pct Games With Enemy Lane T1 Taken First
@@ -38942,7 +38930,6 @@ $hRh
 >@DOTAFrontpageVideoStream
 >FPct Games With Roshan Advantage (Player team killed Roshan more times)
 >HTotal Games With Roshan Advantage (Player team killed Roshan more times)
->PlayerNeutralChoices_t
 >Sem
 >WK6
 >\fDire Winrate
@@ -39001,16 +38988,14 @@ $hRh
 ??1HandleScope@v8@@QEAA@XZ
 ??1TryCatch@v8@@QEAA@XZ
 ??1Utf8Value@String@v8@@QEAA@XZ
-?ArtyConstants_t
 ?BloodType
 ?BooleanValue@Value@v8@@QEBA_NPEAVIsolate@2@@Z
-?CDOTA_Modifier_Slark_ShadowDance
 ?Call@Function@v8@@QEAA?AV?$MaybeLocal@VValue@v8@@@2@V?$Local@VContext@v8@@@2@V?$Local@VValue@v8@@@2@HQEAV52@@Z
 ?CreateHandle@HandleScope@v8@@KAPEA_KPEAVIsolate@internal@2@_K@Z
-?DOTABPCrownfallEncounterRikiCommonBlade
-?DOTAConfirmUnlockDotaPlusChatWheel
-?DOTAHeroGuideCreate
-?DOTALoadoutHeroStatsUpdateTooltipV2
+?DOTABPCrownfallEncounterRipplesInTheDark
+?DOTAHeroGuideEdit
+?DOTAItemCollectible
+?DOTAPopupOverwatchReport
 ?DisposeGlobal@api_internal@v8@@YAXPEA_K@Z
 ?Enter@Context@v8@@QEAAXXZ
 ?Enter@Isolate@v8@@QEAAXXZ
@@ -39065,7 +39050,7 @@ $hRh
 ?gwL
 ?jOb
 ?open
-?sf_loadout_rotate_scale
+?sf_loadout_rotate_frametime_multiplier
 ?srJO
 ?streamonly=1
 ?t=0m5s
@@ -39080,8 +39065,10 @@ $hRh
 @@DOTAActiveFriends
 @BH]f
 @BoneSetup
+@CDOTA_Modifier_LegionCommander_Intimidate
 @DebugIndividualStyle
-@HPXfP
+@HPX`hv
+@HPXf
 @Integer overflow in %s
 @MfKZ
 @Pgl
@@ -39114,7 +39101,6 @@ $hRh
 @keyframes 
 @keyframes '%s'\r\n{\r\n
 @merged
-@modifier_largo_song_attack_burst
 @n2w
 @setlocal\n
 @type
@@ -39146,7 +39132,6 @@ A9ur
 A<fP
 A>x8
 AA Compromise
-AA:p
 AABB
 AABBDirection
 AACompromise
@@ -40712,7 +40697,6 @@ B-409
 B-571
 B-Spline
 B.z\85p
-B0S>
 B2I_DSS
 B2I_RSA
 B2pr
@@ -40864,7 +40848,6 @@ BOOLEAN
 BPEventLevelIcon
 BPIN_txt
 BPLevel
-BPS>
 BReadyForDisplay
 BRouteMsgToJob
 BRouteWorkItemCompleted called for a job that could not be found!\n
@@ -41118,7 +41101,6 @@ Bauble
 BayerGreenSplit
 BcT`
 Bd]U
-Bdota_minesweeper_effects
 BeamManifest
 BecomeActive
 BeforeActive
@@ -48158,8 +48140,9 @@ DDB_Promo_Column
 DDB_Promo_Release
 DDB_Promo_Teaser
 DDB_Promo_Trailer
+DDOTAAbilityImage
+DDOTAHeroRelicsPurchaseRandomRelic
 DDOTATooltipEventGoal
-DDOTATriviaPollingUpdate
 DEADLINE_EXCEEDED
 DEAFENINGBLAST
 DEBRIS
@@ -48349,7 +48332,6 @@ DOTAAbilityDraftShowHeroTooltip
 DOTAAbilityGuideBuilder
 DOTAAbilityGuideViewer
 DOTAAbilityIds
-DOTAAbilityImage
 DOTAAbilityList
 DOTAAbilityPanel
 DOTAAbilityTooltip
@@ -48504,7 +48486,7 @@ DOTABPCrownfallEncounterFlappySkywrathPopup
 DOTABPCrownfallEncounterItsDangerousPopup
 DOTABPCrownfallEncounterMinigamePopup
 DOTABPCrownfallEncounterPitFighterPopup
-DOTABPCrownfallEncounterRipplesInTheDark
+DOTABPCrownfallEncounterRikiCommonBlade
 DOTABPCrownfallEncounterShmupPopup
 DOTABPCrownfallEncounterSimpleCustomPopup
 DOTABPCrownfallEncounterStickerVendor
@@ -49085,6 +49067,7 @@ DOTAConfirmLocalLobbyDisconnect
 DOTAConfirmLocalLobbyDisconnect()
 DOTAConfirmUnbundleOwnedItem
 DOTAConfirmUnbundleOwnedItem()
+DOTAConfirmUnlockDotaPlusChatWheel
 DOTAConnectToCustomLobby
 DOTAConsumeAllItem
 DOTAConsumeEconItem
@@ -49553,7 +49536,6 @@ DOTAEconItemAnimatedToggleAudioPreview
 DOTAEconItemAnimatedToggleShuffle
 DOTAEconItemAnimatedUpdateScene
 DOTAEconItemBase
-DOTAEconItemBasePage
 DOTAEconItemCategorizedList
 DOTAEconItemContextUIHeader
 DOTAEconItemDiretide
@@ -50287,8 +50269,8 @@ DOTAHeroGuideBuilder
 DOTAHeroGuideBuilderFinished
 DOTAHeroGuideBuilderTab
 DOTAHeroGuideCancel
+DOTAHeroGuideCreate
 DOTAHeroGuideDelete
-DOTAHeroGuideEdit
 DOTAHeroGuidePublish
 DOTAHeroGuidePublishAll
 DOTAHeroGuideRole
@@ -50340,7 +50322,6 @@ DOTAHeroRelicSummary
 DOTAHeroRelicTooltip
 DOTAHeroRelicsDebugPage
 DOTAHeroRelicsDebugSwitchMode
-DOTAHeroRelicsPurchaseRandomRelic
 DOTAHeroRelicsThumbnail
 DOTAHeroRoles
 DOTAHeroRolesStatsUpdated
@@ -50650,7 +50631,6 @@ DOTAItemBuildToggleGuideBrowser
 DOTAItemCategoryListViewer
 DOTAItemChangeDescription
 DOTAItemChangeName
-DOTAItemCollectible
 DOTAItemExtractRareGems
 DOTAItemGuideBuilder
 DOTAItemImage
@@ -50782,6 +50762,7 @@ DOTALoadoutHeroSlotAbilityEffectsSelected
 DOTALoadoutHeroSlotFullSetSelected
 DOTALoadoutHeroSlotSelected
 DOTALoadoutHeroStatsPlusV2
+DOTALoadoutHeroStatsUpdateTooltipV2
 DOTALoadoutHeroStatsV2
 DOTALoadoutSaveEquippedAsCustomSet
 DOTALobby
@@ -51337,7 +51318,6 @@ DOTAPopupOverwatchCaseClose
 DOTAPopupOverwatchCaseHelp
 DOTAPopupOverwatchConvict
 DOTAPopupOverwatchPrep
-DOTAPopupOverwatchReport
 DOTAPopupOverworldMap
 DOTAPopupPlayerCardPack
 DOTAPopupPlayerCardSelect
@@ -52504,6 +52484,7 @@ DOTAShowcaseAddItemV2Widget
 DOTAShowcaseAddNewItem
 DOTAShowcaseAdminModeration
 DOTAShowcaseAdminModerationApplyModeration
+DOTAShowcaseAdminModerationSelectShowcase
 DOTAShowcaseAdminReportReviewApplyLock
 DOTAShowcaseAdminReportReviewConvict
 DOTAShowcaseAdminReportReviewExonerate
@@ -52707,7 +52688,6 @@ DOTAStickerbookStickerPositioned
 DOTAStickerbookStickerRemoved
 DOTAStickerbookStickerUpdated
 DOTAStickerbookSubmitStickerOrderingResponse
-DOTAStickerbookUpdated
 DOTAStickersClearPageSelection
 DOTAStickersCollectionSelectPage
 DOTAStopSuppressingPopups
@@ -53140,6 +53120,7 @@ DOTATriviaAutoplaySoundsChanged
 DOTATriviaChangedVisibility
 DOTATriviaGame
 DOTATriviaPlayQuestionSound
+DOTATriviaPollingUpdate
 DOTATriviaToggleAutoplaySounds
 DOTATriviaToggleChat
 DOTATrophiesFilter
@@ -62284,6 +62265,7 @@ LZWDecodeCompat: Not enough data at scanline %d (short %ld bytes)
 LZWDecodeCompat: Wrong length of decoded string: data probably corrupted at scanline %d
 LZWPreDecode
 LZWSetupEncode
+L\f0z1
 L\nHk_ECandyShopAuditAction_DEPRECATED_EventActionGrantInventorySizeIncrease
 L\n\fincludevotes
 L\n\rcontributions
@@ -65597,13 +65579,11 @@ P-224
 P-256
 P-384
 P-521
-P08@J@?9
-P08JP
+P08J {1
 P0WonMatch
 P1Avatar
 P1WonMatch
 P1\t98"
-P2@?9
 P2Avatar
 P2P ping to "%s". Timed out after %.2fms\n
 P5[1
@@ -67225,7 +67205,6 @@ PrereqFailed
 Prerequisite %s added by lesson %s doesn't exist!\n
 PresetConfigs
 PressedNext
-PressingCeremonialReasons
 PressureDelay
 PrestigeRewardsPanel
 PrettyFont:%s:%d:%d
@@ -67940,6 +67919,7 @@ RTTIPredictionsUnlocked
 RTTISelected
 RTTIState
 RT_txt
+R\fpx
 R\n\fActivityInfo
 R\n\fmap_variants
 R\n\fplayer_cards
@@ -67948,7 +67928,7 @@ R\n\vpredictions
 R\r1>Vp
 R\vP!m
 R\vp!y
-R\vp4
+R\vp$7
 R]Di
 R_T5Y
 Rad Guys
@@ -75787,6 +75767,7 @@ X\n\fSearchResult
 X\n\rkilling_blows
 X\n\tGraphData
 X\tQo
+X`hr`
 Xd3h
 Xdota
 XfJ7
@@ -76077,6 +76058,7 @@ Z~wl
 \fevents.proto
 \fevents.proto"
 \fiaR
+\fp\vPD
 \ful2
 \fy&3Gl
 \l:ArR
@@ -76507,7 +76489,7 @@ Z~wl
 \n0CMsgGCToClientPurchaseFilteredPlayerSlotResponse
 \n0CMsgGCToClientRequestActiveBeaconPartiesResponse
 \n0CMsgGCtoGCAssociatedExploiterAccountInfoResponse
-\n0u5
+\n0z1
 \n1CDOTAClientMsg_AbilitySpecificChannelRequiresHalt
 \n1CDOTAUserMsg_MonsterHunter_InvestigationGameState
 \n1CHelpRequestLogs_UploadUserApplicationLog_Request
@@ -76603,9 +76585,7 @@ Z~wl
 \nAction '%s' score '%s' didn't specify a periodic resource type
 \nAction '%s' score '%s' didn't specify valid 'charges'
 \nAction '%s' specifies out-of-range level %d for action '%s'
-\nB0u
 \nDictionary: %s\n
-\nF1u
 \nFailed to load season definition file '%s' for event %d.
 \nFailed to load single event definition file '%s' for event '%s'.
 \nFinished generating SSTs (%.1f seconds)\n\n
@@ -76619,8 +76599,6 @@ Z~wl
 \nLeagueID_t"C\n-CMsgDOTACompendiumRemoveAllSelectionsResponse
 \nPlayerID_t
 \nPlayerID_t"
-\nPu5
-\nPv5
 \nSimulating Entities:\n\n
 \nUnknown reward type '%s' for action '%s' at score '%s'
 \n\fAsyncRewards
@@ -77208,7 +77186,6 @@ Z~wl
 \n\nrole_flags
 \n\nrun_active
 \n\nsearch_key
-\n\nsecret_key
 \n\nserial_num
 \n\nserver_url
 \n\nservice_id
@@ -78157,7 +78134,6 @@ Z~wl
 \ng_flConfigMaxCoord
 \ngrant_periodic_action '%s' doesn't specify an action to grant
 \nnexttoken
-\npu5
 \nqYu
 \ntM(ie-V
 \nunit1: %s \nunit2: %s \nevent: %s \npriority: %d\n
@@ -78171,7 +78147,7 @@ Z~wl
 \rCandyShopID_t"Y\n+CMsgClientToGCCandyShopDevResetShopResponse
 \rCandyShopID_t"^\n0CMsgClientToGCCandyShopDevClearInventoryResponse
 \rCandyShopID_t"_\n1CMsgClientToGCCandyShopDevShuffleExchangeResponse
-\rDOTAShowcaseAdminModerationSelectShowcase
+\rDOTAStickerbookUpdated
 \rGuildRoleID_t
 \rGuildRoleID_t"
 \rHeroFacetID_t
@@ -78280,7 +78256,7 @@ Z~wl
 \tC_BaseEntity::Instance([%s]->InVRContinuous()) != [%s]\n
 \tC_BaseEntity::Instance([%s]->InVRContinuous()) == [%s]\n
 \tCloseOpportunity()\n
-\tDC_DOTA_Ability_Bristleback_Prickly
+\tDCDOTA_Modifier_DarkWillow_Debuff_Fear
 \tDd22
 \tEntity param "%s" returned NULL.\n
 \tFClassnameIs( [%s] 
@@ -78697,9 +78673,10 @@ _video
 _wjb
 _xU`u
 _}eOk
-`19s
 `28)fk
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
+`:Pw5
+`:pw5
 `:zQF
 `D$daM-l
 `DZG
@@ -78712,8 +78689,9 @@ _}eOk
 `\n\rvector_values
 `fPw.\vM
 `h9T~
-`mns
+`m1r
 `o_je
+`qLr
 `yNT
 a moment...
 a null shared library handle was used
@@ -79013,7 +78991,6 @@ activeteam_time_remaining
 activity name differs: OLD %s - NEW %s
 activity type differs: OLD %d - NEW %d
 activity-modifier
-activity_animation
 activity_modifier
 actor
 actor_name
@@ -80123,7 +80100,7 @@ bMutedText
 bMutedVoice
 bN.l
 bOverheadEffect
-bPT>
+bPK>
 bPb:L7X)
 bReturnUnslowed
 bSellable
@@ -80369,6 +80346,7 @@ basic
 basicConstraints
 basicItemCount
 basicOCSPResponse
+basic_attack
 basic_pack_count
 basic_packs
 basics
@@ -84215,6 +84193,7 @@ dota_match_done_client
 dota_match_metadata.proto
 dota_match_metadata.proto"
 dota_match_signout
+dota_minesweeper_effects
 dota_miniboss_kill
 dota_minimap_create - Could not compute size of minimap to create!\n
 dota_minimap_ping_duration
@@ -84665,7 +84644,6 @@ ecdsa-with-SHA384
 ecdsa-with-SHA512
 ecdsa-with-Specified
 ecgroup too large for cipher
-econ/heroes/axe_automaton/axe_automaton
 econ/sets/v2/%s
 econ_gcmessages.proto
 econ_item_category_name
@@ -84703,7 +84681,6 @@ effect_name
 effect_name_hash
 effect_name_hash_code
 effect_packing_material
-effect_simplified
 effect_textureOverride
 effect_type
 effective
@@ -85251,7 +85228,6 @@ events/aghanim/interface/hazard_bubble
 events/aghanim/interface/hazard_frontreduction
 events/aghanim/interface/hazard_silence
 events/base_event_schema.h
-events/pressing_ceremonial_large.psd
 events_v1
 eventtype
 evp pbe cipherinit error
@@ -85765,7 +85741,6 @@ file://{images}/events/crownfall/store/carousel_icons/packs.png
 file://{images}/events/crownfall/store/carousel_icons/packs_druud.png
 file://{images}/events/crownfall/store/carousel_icons/packs_ice.png
 file://{images}/events/crownfall/store/carousel_icons/packs_skywrath.png
-file://{images}/events/dark_carnival/axe_automaton.png
 file://{images}/events/frostivus/2024/frostivus_flat_01.psd
 file://{images}/events/frostivus/2024/frostivus_flat_02.psd
 file://{images}/events/frostivus/2024/frostivus_flat_03.psd
@@ -85826,8 +85801,6 @@ file://{images}/masks/softedge_box.png
 file://{images}/players/%d.png
 file://{images}/players/%u.png
 file://{images}/players/portrait.png
-file://{images}/pressing_ceremonial.psd
-file://{images}/pressing_ceremonial_large.psd
 file://{images}/profile_badges/bg_%02d.psd
 file://{images}/profile_badges/bg_number_%02d.psd
 file://{images}/profile_badges/level_%02d.png
@@ -88498,9 +88471,7 @@ h*Ax
 h0XB
 h2Wl
 h2n_\
-h5)s
 h5N.
-hA!s
 hActivator
 hAttacker
 hCallbackFunc
@@ -88514,7 +88485,9 @@ hEntityB
 hF\rDz
 hFcg
 hJxRX@_
+hM\fs
 hN2D
+hQ~r
 hRB.
 hRenderTexture != RENDER_TEXTURE_HANDLE_INVALID && m_image.IsValid()
 hThinkFunc
@@ -88527,7 +88500,6 @@ h\n"unlocked_ping_wheel_message_ranges
 h\n/k_EHeroSelectionText_AllDraft_Planning_YouFirst
 h\n/k_EHeroSelectionText_CaptainsMode_ChooseCaptain
 h\n\frequiredtags
-h\r3s
 h`Zr
 haha
 half_completed
@@ -88903,7 +88875,6 @@ hex_to_string
 hexed
 hexkey
 hhwi
-hi's
 hidden_cooldown_timer
 hidden_modifier
 hide
@@ -89058,7 +89029,6 @@ hours_remaining
 houseIdentifier
 hover
 how_to_play
-hpz@?9
 hr_H
 href="
 hscroll
@@ -89202,6 +89172,7 @@ huskar_inner_fire
 huskar_inner_vitality
 huskar_life_break
 hvL&
+hy[s
 hydras_breath_single
 hype
 hype_loc
@@ -95532,6 +95503,7 @@ modifier_largo_frogstomp_debuff
 modifier_largo_frogstomp_thinker
 modifier_largo_frogstomp_treeshake
 modifier_largo_groovin
+modifier_largo_song_attack_burst
 modifier_largo_song_speed_burst
 modifier_largo_song_speed_burst_slowres
 modifier_launchpad
@@ -98980,8 +98952,8 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p0J`
-p2@?9
+p0J0
+p0j`E1
 p2p_ping could not convert "%s" to a CPeerToPeerAddress\n
 p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n
@@ -98996,7 +98968,6 @@ p5Z3
 p5\nL,
 p618
 p>?Set@Template@v8@@QEAAXV?$Local@VName@v8@@@2@V?$Local@VData@v8@@@2@W4PropertyAttribute@2@@Z
-p>tN
 p@0pqE5tsO?|1
 pCheckpointName
 pD4t
@@ -101983,7 +101954,7 @@ qx(q
 r axis
 r$0I
 r-IE
-r0C<
+r0z1
 r184
 r1c1
 r1c2
@@ -102014,11 +101985,11 @@ rRfKR
 rX&O0
 rZ1VwGf5
 rZPM
-r\fp4
 r\n4k_EHeroSelectionText_AllDraft_TheyPicking_LosingGold
 r\n\nHuntReward
 r\n\vstart_index
 r\vDi
+r\vpx
 r_cleardecals
 r_deferred_additive_pass 1
 r_deferred_height_fog 1
@@ -106635,6 +106606,7 @@ t4O_
 t80z
 tA`KO/3G!\n7h=
 tGTS
+tJ p
 tLY^m`6
 tLl 
 tLsq
@@ -109257,7 +109229,7 @@ x509_pkey
 x509_req
 x509_store
 x931
-xA\ny
+xA\nI
 xFKF
 xOu\vsF
 xQfF

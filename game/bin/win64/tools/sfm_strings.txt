@@ -43,6 +43,9 @@
  &Colors
  (%lu = 0x%lx)\n
  (%u = 0x%x)\n
+ (08@HPXb
+ (08@HR
+ (0X`hpz
  (repeat)
  (x2 - stereoscopic)
  * Animation Stack %s Layer %s - %s\n
@@ -206,6 +209,7 @@
 #\f?focusNextPrevChild@QTextEdit@@MEAA_N_N@Z
 #\n?columnCount@QSortFilterProxyModel@@UEBAHAEBVQModelIndex@@@Z
 #\r?hide@QWidget@@QEAAXXZ
+#\tV_exp2f
 $#?windowIcon@QWidget@@QEBA?AVQIcon@@XZ
 $COLORWARP
 $ChamberLight
@@ -240,6 +244,7 @@ $SlideLight
 $WristIconFrame
 $[?setRange@QDoubleValidator@@UEAAXNNH@Z
 $\f?focusNextPrevChild@QWidget@@MEAA_N_N@Z
+$\tV_expd
 $cloakfactor
 $fullycloakedrefractfactor
 $keys
@@ -3596,6 +3601,7 @@ $prefix_element$
 00000000
 000000000
 0123456789
+08@J
 0>pD
 0L6?
 0\fE04_
@@ -6527,6 +6533,7 @@ $prefix_element$
 ?waitForFinished@QProcess@@QEAA_NH@Z
 ?waitForReadyRead@QProcess@@UEAA_NH@Z
 @#?write@QTableWidgetItem@@UEBAXAEAVQDataStream@@@Z
+@08N
 @60E
 @60G
 @HPX`hvp_
@@ -8884,7 +8891,6 @@ FBXSurfaceMaterial( %s ).%s found but not a string attribute
 FBXSystem001
 FBX_vmatPath
 FS?next@QTextBlock@@QEBA?AV1@XZ
-F\tV_isinfd
 F\v?event@QGroupBox@@MEAA_NPEAVQEvent@@@Z
 Face %s
 Face Actor
@@ -9497,6 +9503,7 @@ KYF>
 KYv?
 K\r?hitButton@QRadioButton@@MEBA_NAEBVQPoint@@@Z
 K\t?canConvert@QVariant@@QEBA_NH@Z
+K\tV_isinfd
 K\v?event@QLineEdit@@UEAA_NPEAVQEvent@@@Z
 Key Bindings
 KeyState
@@ -10457,7 +10464,9 @@ OverridingFrameRate
 Overwrite
 Overwrite With Current
 P'?SetBoolProp@FbxIOSettings@fbxsdk@@QEAAXPEBD_N@Z
+P08@J
 P08J f,
+P08N
 P4 Operation failed
 P4InteractionDialog
 P4OpenFilesDialog
@@ -12541,7 +12550,6 @@ ZIPSetupDecode
 ZIPSetupEncode
 ZIPVSetField
 Z\f?convertFromImage@QPixmap@@QEAA_NAEBVQImage@@V?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
-Z\tV_log2f
 Z]?sort@QStandardItemModel@@UEAAXHW4SortOrder@Qt@@@Z
 Zap : voiced alveolar fricative
 Zero
@@ -12601,7 +12609,6 @@ ZoomOutFromClip
 [RETURN R%d]
 [RETURN]
 [Y?setEditable@QStandardItem@@QEAAX_N@Z
-[\tV_logd
 [\v?event@QScrollArea@@MEAA_NPEAVQEvent@@@Z
 \ ?toolTip@QWidget@@QEBA?AVQString@@XZ
 \?setWidth@QPen@@QEAAXH@Z
@@ -12673,6 +12680,7 @@ ZoomOutFromClip
 \f\n?deselect@QLineEdit@@QEAAXXZ
 \f\r?heightForWidth@QFormLayout@@UEBAHH@Z
 \f\t?beginReadArray@QSettings@@QEAAHAEBVQString@@@Z
+\f\tV_acosd
 \game\
 \n ?textValue@QInputDialog@@QEBA?AVQString@@XZ
 \n,?sReflection@FbxSurfaceMaterial@fbxsdk@@2PEBDEB
@@ -12778,7 +12786,6 @@ ZoomOutFromClip
 \rO?initPainter@QPaintDevice@@MEBAXPEAVQPainter@@@Z
 \r\f?focusInEvent@QLineEdit@@MEAAXPEAVQFocusEvent@@@Z
 \r\r?heightForWidth@QGridLayout@@UEBAHH@Z
-\r\tV_atand
 \t??8FbxMatrix@fbxsdk@@QEBA_NAEBV01@@Z
 \t?addPixmap@QIcon@@QEAAXAEBVQPixmap@@W4Mode@1@W4State@1@@Z
 \t?addRoundedRect@QPainterPath@@QEAAXNNNNNNW4SizeMode@Qt@@@Z
@@ -12820,17 +12827,16 @@ ZoomOutFromClip
 \tNAN encountered in element '%s' guid %s attribute '%s'!\n
 \tSubSystem / Rev:     0x%x / 0x%x\n
 \tT?parent@QWindow@@QEBAPEAV1@XZ
-\tV_acosd
+\tV_asind
+\tV_atan2d
+\tV_atand
 \tV_atanf
 \tV_cosd
-\tV_exp2f
-\tV_expd
 \tV_sscanf_s
 \tV_tand
 \tV_tier0_ispunct
 \tVendorId / DeviceId:     0x%x / 0x%x\n
 \t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\n\v\n\v\n\v\n\v\n\v\n\v\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
-\t\tV_asind
 \t\t\t\t\n\n\n\n\n\n\n\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tUnsupported PSD color mode!\n
 \t_V_FixupPathName
@@ -12877,7 +12883,6 @@ ZoomOutFromClip
 \vFu?6
 \vS?moveTo@QPainterPath@@QEAAXNN@Z
 \v\f?focusInEvent@QGroupBox@@MEAAXPEAVQFocusEvent@@@Z
-\v\tV_atan2d
 ]?sharedPainter@QPaintDevice@@MEBAPEAVQPainter@@XZ
 ]?staticMetaObject@QWindow@@2UQMetaObject@@B
 ]\r?horizontalOffset@QListView@@MEBAHXZ
@@ -12899,6 +12904,7 @@ _TIFFSetupFieldInfo
 _TIFFVGetField
 _TIFFVSetField
 _\r?horizontalOffset@QTreeView@@MEBAHXZ
+_\tV_log2f
 _\v??GFbxVector4@fbxsdk@@QEBA?AV01@AEBV01@@Z
 _\v?event@QSlider@@UEAA_NPEAVQEvent@@@Z
 _]?source@QDropEvent@@QEBAPEAVQObject@@XZ
@@ -12935,7 +12941,7 @@ _wjb
 `?value@QColor@@QEBAHXZ
 `?valueF@QColor@@QEBANXZ
 `Q?lightnessF@QColor@@QEBANXZ
-`\tV_modfd
+`\tV_logd
 `\v?event@QSpinBox@@MEAA_NPEAVQEvent@@@Z
 a1?I.
 a:fulltype
@@ -13488,6 +13494,7 @@ eG??5
 eGenerateResourceNameFromFileName: Invalid extension specified in file name "%s"!\n
 e\f?foregroundRole@QWidget@@QEBA?AW4ColorRole@QPalette@@XZ
 e\n?dragEnterEvent@QAbstractItemView@@MEAAXPEAVQDragEnterEvent@@@Z
+e\tV_modfd
 e\v?event@QStatusBar@@MEAA_NPEAVQEvent@@@Z
 easein
 easeinout
@@ -13742,7 +13749,6 @@ gDy?
 gO : upper-mid back rounded vowel
 g\r?enumerator@QMetaObject@@QEBA?AVQMetaEnum@@H@Z
 g\r?horizontalScrollbarAction@QTableView@@MEAAXH@Z
-g\tV_powd
 g\v?event@QTabBar@@MEAA_NPEAVQEvent@@@Z
 g_flBrightnessExposureBias
 g_flRenderOnlyExposureBias
@@ -14193,6 +14199,7 @@ l7?N
 lO?insertRow@QStandardItem@@QEAAXHAEBV?$QList@PEAVQStandardItem@@@@@Z
 lR?metaObject@QIntValidator@@UEBAPEBUQMetaObject@@XZ
 l\n?dragEnterEvent@QLineEdit@@MEAAXPEAVQDragEnterEvent@@@Z
+l\tV_powd
 l\ti?e
 l\v?event@QToolBar@@MEAA_NPEAVQEvent@@@Z
 l_?toString@QKeySequence@@QEBA?AVQString@@W4SequenceFormat@1@@Z
@@ -14626,6 +14633,7 @@ overrideShutterSpeedValue
 ownerelement
 ownerlog
 p"?value@QSpinBox@@QEBAHXZ
+p08@H^
 p4win
 p60k
 p?L7
@@ -15310,7 +15318,6 @@ t|AO
 uA?l\t9>
 uV?read@QStandardItem@@UEAAXAEAVQDataStream@@@Z
 u\n?connect@QObject@@SA?AVConnection@QMetaObject@@PEBV1@PEBD01W4ConnectionType@Qt@@@Z
-u\tV_sind
 u\v?eventFilter@QAbstractItemView@@MEAA_NPEAVQObject@@PEAVQEvent@@@Z
 ui_mouseactions/
 uint64 log
@@ -15515,6 +15522,7 @@ zO?insertText@QTextCursor@@QEAAXAEBVQString@@AEBVQTextCharFormat@@@Z
 zU?qt_metacall@QDrag@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 z\n?connectNotify@QFutureWatcherBase@@MEAAXAEBVQMetaMethod@@@Z
 z\n?dragLeaveEvent@QTextEdit@@MEAAXPEAVQDragLeaveEvent@@@Z
+z\tV_sind
 z\v?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
 z\v?eventFilter@QDialog@@MEAA_NPEAVQObject@@PEAVQEvent@@@Z
 zero_value

@@ -48,6 +48,7 @@
 #RenderSystem_IncompatibleAmdDriver
 #RenderSystem_UnableToStartGame
 #line
+$\tV_expd
 %-100s %-6s %-6s\n
 %.0Lf
 %.100s: Can not read TIFF directory
@@ -1652,7 +1653,6 @@ ZIPVSetField
 [%Y-%m-%d %H:%M:%S] 
 [FlipDiscard |    NoTear]
 [FlipDiscard | AllowTear]
-[\tV_logd
 \fpxS
 \mfpmp.exe
 \n*** %s "%s" in %s does not follow the 0..N format!\n\n
@@ -1741,8 +1741,8 @@ ZIPVSetField
 \tMultisampleEnable: %d\n
 \tScissorEnable: %d\n
 \tSlopeScaledDepthBias: %f\n
+\tV_atan2d
 \tV_atanf
-\tV_expd
 \tV_strspn
 \tV_strtoi64
 \tV_strtoui64
@@ -1752,7 +1752,6 @@ ZIPVSetField
 \tg_TSPointerListNodes
 \tpSubResource[ array %d mip %d ]: pSysMem = %p sysMemPitch = %d SysMemSlicePitch = %d\n
 \tpTextureBitsData = %p\n
-\v\tV_atan2d
 \vphl
 _DOD3D
 _INTC_CreateDeviceExtensionContext
@@ -1843,6 +1842,7 @@ _rtx
 _tools.txt
 _wjb
 `\rP\f0hl
+`\tV_logd
 agsDeInitialize
 agsDriverExtensionsDX11_CreateDevice
 agsDriverExtensionsDX11_CreateDevice failed %x, disabling AGS.\n
@@ -1974,7 +1974,6 @@ for chopped "StripOffsets" array
 for field info array
 for strip array
 fraps64.dll
-g\tV_powd
 g_pEngineServiceMgr is NULL. Display mode information unavailable\n
 g_pRenderDevice is NULL. %d adapter(s) available. Iterating adapters %d - %d\n
 g_pRenderHardwareConfig is NULL. Display mode information unavailable\n
@@ -1998,6 +1997,7 @@ incorrect count for field "%s" (%u, expecting %u); tag ignored
 incorrect count for field "%s" (%u, expecting %u); tag trimmed
 invalid handle
 invalid vector subscript
+l\tV_powd
 lib_6_4
 lineOrder
 ltmX.

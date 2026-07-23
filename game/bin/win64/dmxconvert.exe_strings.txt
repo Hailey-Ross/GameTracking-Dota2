@@ -287,7 +287,6 @@ $prefix_element$
 .vmat
 0x%llx
 16-byte data pool
-2\vpT
 2\vpX
 4-byte data pool
 5sfm_v8
@@ -690,7 +689,6 @@ WipeRedo '%s'\n
 WipeUndo '%s'\n
 World Files
 World Node Files
-Z\tV_log2f
 [%d] Aborting undo '%s'\n
 [%d] Popping undo '%s'\n
 [%d] Pushing undo '%s'\n
@@ -704,6 +702,7 @@ Z\tV_log2f
 \tV_sscanf_s
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\n\v\n\v\n\v\n\v\n\v\n\v\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \t_V_StringAfterPrefixCaseSensitive
+_\tV_log2f
 _light
 _linked_type_
 _name

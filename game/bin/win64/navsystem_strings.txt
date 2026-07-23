@@ -244,6 +244,7 @@ Data_Branch1zBranch2x
 Data_Branch2yz
 Dense voxels
 Distance Field
+Dq^j
 DualHull
 ERROR: Ladders starting at index %d are lacking connectivity info during IslandRemoval.\n
 ERROR: Unable to compute distance to poly %d from point at ( %g, %g, %g )\n

@@ -76,6 +76,7 @@
  Xia
  [*OBSERVABLE*]
  [curvetype %s]\n
+ \tV_coshf
  \t\n\r@()[]{}=&,:*|;'!
  ^LXjt
  _GDK\tZ
@@ -208,6 +209,7 @@
 #\n?columnCount@QSortFilterProxyModel@@UEBAHAEBVQModelIndex@@@Z
 #\r?hide@QWidget@@QEAAXXZ
 #\t#\v#'#)#/#3#5#E#Q#S#Y#c#k#
+#\tV_exp2f
 #\v+(bF&drJ:x#
 #k+ka\T
 #lyj
@@ -224,6 +226,7 @@ $J6"t
 $JXsZ
 $XI(6
 $\f?focusNextPrevChild@QWidget@@MEAA_N_N@Z
+$\tV_expd
 $d`D-laM
 $f;Zv9l\r
 $g#8lu#
@@ -9630,6 +9633,7 @@ Not yet supporting SetTintColor with multiple choices
 NotModelHasAnimgraph
 NotReloading
 NotUsingAnimGraph
+Nq^j
 NrPn
 Nu6Q
 Nudge
@@ -12062,7 +12066,6 @@ ZLIB
 ZLONG
 ZSz@
 ZXF,`i
-Z\tV_log2f
 Z]?sort@QStandardItemModel@@UEAAXHW4SortOrder@Qt@@@Z
 Zd[w
 Ze2Zh@
@@ -12098,7 +12101,6 @@ Z~wl
 [OdP
 [RETURN R%d]
 [RETURN]
-[\tV_logd
 [\v?event@QScrollArea@@MEAA_NPEAVQEvent@@@Z
 [f7@7F
 [fo@e
@@ -12158,6 +12160,7 @@ Z~wl
 \f\f?columnCount@QStandardItemModel@@UEBAHAEBVQModelIndex@@@Z
 \f\f?focusInEvent@QLabel@@MEAAXPEAVQFocusEvent@@@Z
 \f\n?deselect@QLineEdit@@QEAAXXZ
+\f\tV_acosd
 \f]ne3
 \fdhWTh
 \fiaR
@@ -12245,7 +12248,6 @@ Z~wl
 \rYYHl
 \r\f?focusInEvent@QLineEdit@@MEAAXPEAVQFocusEvent@@@Z
 \r\r?heightForWidth@QGridLayout@@UEBAHH@Z
-\r\tV_atand
 \r\vpL1
 \r^mX
 \ri1I
@@ -12280,18 +12282,16 @@ Z~wl
 \tLa0+
 \tNAN encountered in element '%s' guid %s attribute '%s'!\n
 \tT?parent@QWindow@@QEBAPEAV1@XZ
-\tV_acosd
+\tV_asind
+\tV_atan2d
+\tV_atand
 \tV_atanf
 \tV_atofloat64
 \tV_cosd
-\tV_coshf
-\tV_exp2f
-\tV_expd
 \tV_sscanf_s
 \tV_strnchr
 \tV_tand
 \tV_tanhf
-\t\tV_asind
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\v\n\v\n\v\n\v\n\v\n\v\n\v\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \t_V_StringAfterPrefixCaseSensitive
 \tbody_groups = %s\n
@@ -12321,7 +12321,6 @@ Z~wl
 \vNCE\v
 \vUY6[E
 \v\f?focusInEvent@QGroupBox@@MEAAXPEAVQFocusEvent@@@Z
-\v\tV_atan2d
 \v\vTSG
 \vj0k
 \vjC7
@@ -12355,6 +12354,7 @@ _TIFFVGetField
 _TIFFVSetField
 _YWL
 _\r?horizontalOffset@QTreeView@@MEBAHXZ
+_\tV_log2f
 _\v?event@QSlider@@UEAA_NPEAVQEvent@@@Z
 __CACHED_editcontext_provider_lookup
 __CursorQueue__
@@ -12393,6 +12393,7 @@ _}eOk
 `H(hqA1p
 `ITS
 `VX:H
+`\tV_logd
 `\v?event@QSpinBox@@MEAA_NPEAVQEvent@@@Z
 `fPw.\vM
 `h9T~
@@ -14239,7 +14240,6 @@ gTH.M
 gXC.nT\v
 g\r?enumerator@QMetaObject@@QEBA?AVQMetaEnum@@H@Z
 g\r?horizontalScrollbarAction@QTableView@@MEAAXH@Z
-g\tV_powd
 g]i/H
 g_flBrightnessExposureBias
 g_pApplication is not yet initialized!\n
@@ -15170,6 +15170,7 @@ lC57
 lDcW
 lM2p
 l\n?dragEnterEvent@QLineEdit@@MEAAXPEAVQDragEnterEvent@@@Z
+l\tV_powd
 l\v?event@QToolBar@@MEAA_NPEAVQEvent@@@Z
 ladder
 language
@@ -17777,7 +17778,6 @@ uQ'ZH
 uQbK!
 uV?read@QStandardItem@@UEAAXAEAVQDataStream@@@Z
 u\n?connect@QObject@@SA?AVConnection@QMetaObject@@PEBV1@PEBD01W4ConnectionType@Qt@@@Z
-u\tV_sind
 u\v?eventFilter@QAbstractItemView@@MEAA_NPEAVQObject@@PEAVQEvent@@@Z
 u\vMW
 uaqf
@@ -18238,7 +18238,6 @@ xOu\vsF
 xQfF
 xUN'
 x\n?dragLeaveEvent@QListView@@MEAAXPEAVQDragLeaveEvent@@@Z
-x\tV_sinhf
 x\v6V
 xg-9Ja
 xp$=S
@@ -18279,6 +18278,7 @@ zF):O4
 zG2m8
 zRXU 
 z\n?dragLeaveEvent@QTextEdit@@MEAAXPEAVQDragLeaveEvent@@@Z
+z\tV_sind
 z\v?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
 z\v?eventFilter@QDialog@@MEAA_NPEAVQObject@@PEAVQEvent@@@Z
 zfar
@@ -18316,6 +18316,7 @@ zz2K
 }W70d
 }Xee+
 }\n?dragMoveEvent@QAbstractItemView@@MEAAXPEAVQDragMoveEvent@@@Z
+}\tV_sinhf
 }gE3
 }n2W
 ~9ob

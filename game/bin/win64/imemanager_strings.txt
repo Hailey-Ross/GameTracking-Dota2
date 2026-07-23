@@ -104,7 +104,6 @@ DefWindowProcW
 DirectInput
 Discovered %d HKL Keys.\n
 Discovered %d installed languages.\n
-English
 Failed to AdviseSink( IID_ITfCompartmentEventSink ).\n
 Failed to CoCreateInstance( CLSID_TF_ThreadMgr ).\n
 Failed to GetCompartment( GUID_COMPARTMENT_KEYBOARD_INPUTMODE_CONVERSION_GFX ).\n
@@ -182,13 +181,11 @@ JAPANESE_KATAKANA_FULL
 JAPANESE_KATAKANA_HALF
 JJ Pinyin
 JJ.IME
-Japanese
 Japanese IME 2010
 Japanese Input System (MS-IME2002)
 Japanese Microsoft IME
 Katakana_FullShape
 Katakana_HalfShape
-Korean
 Korean 2000
 Korean IME 2000
 Korean IME 2002
@@ -239,7 +236,6 @@ RegOpenKeyExW
 RegQueryInfoKeyW
 RegQueryValueExW
 Registering IME. Profile: '%s', IME filename: '%s'\n
-Russian
 SendInput
 Set Current Language: %s\n
 SetActiveUIView(): IMEUIView: 0x%p\n

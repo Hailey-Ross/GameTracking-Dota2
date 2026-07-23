@@ -397,10 +397,11 @@
 			name = "DotaMotionComic_global_client"
 			group = "GameStartup"
 			source_file = "src/game/shared/dota/dota_motion_comic_schema.cpp"
-			source_line = 23
+			source_line = 19
 			resources = 
 			[
 				resource_name:"scripts/events/dark_carnival/dark_carnival_motion_comics_part2.vdata",
+				resource_name:"scripts/events/dark_carnival/dark_carnival_motion_comics_part3.vdata",
 			]
 		},
 		{

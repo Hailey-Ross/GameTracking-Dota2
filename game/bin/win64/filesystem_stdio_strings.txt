@@ -93,7 +93,6 @@ $HypYkf
 $J6"t
 $JXsZ
 $XI(6
-$\tV_ferror
 $d`D-laM
 $f;Zv9l\r
 $g#8lu#
@@ -226,6 +225,7 @@ $hRh
 )J9o
 )TpH
 )Urz
+)\tV_ferror
 )fuG
 )haI
 *%*/*O*U*_*e*k*m*s*
@@ -643,7 +643,6 @@ $hRh
 1GNK
 1H@H
 1L$1
-1\tV_fread
 1\v5#d
 1b4Ef
 1f\t3Qg^y
@@ -737,7 +736,7 @@ $hRh
 6H,N
 6O|T%
 6Qd=
-6\tV_fseek
+6\tV_fread
 6_wEX
 6afD
 6bX+
@@ -764,7 +763,6 @@ $hRh
 7XRJ
 7\rayf+
 7\tFq?
-7\tV_fseeki64
 7gS_
 7i@X
 7m:e
@@ -824,7 +822,6 @@ $hRh
 :NAy
 :QYJ
 :Vlq
-:\tV_ftelli64
 :cwd|
 :eaI
 :gN(dq
@@ -836,6 +833,7 @@ $hRh
 ;83\v\nHBJ7
 ;LGEW
 ;Qo0
+;\tV_fseek
 ;`Fzc
 ;bwP*
 ;xsK
@@ -860,6 +858,7 @@ $hRh
 <SVX
 <YGr+
 <YVtV&
+<\tV_fseeki64
 <unsupported>
 =!=-=3=7=?=C=o=s=u=y={=
 =&sf9
@@ -881,6 +880,7 @@ $hRh
 ?HAI\t81\t9dcG'
 ?HP4
 ?VBH;
+?\tV_ftelli64
 ?d86L
 ?dt]X
 ?gwL

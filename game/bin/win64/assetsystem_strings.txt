@@ -202,6 +202,7 @@ $HypYkf
 $J6"t
 $JXsZ
 $XI(6
+$\tV_expd
 $d`D-laM
 $f;Zv9l\r
 $g#8lu#
@@ -386,7 +387,6 @@ $prefix_element$
 'DAE
 'O6n
 'Z9t%
-'\tV_fgets
 'g0dW
 'id' or 'name' missing
 'pSN.F
@@ -478,6 +478,7 @@ $prefix_element$
 ,Reason=
 ,ShfPQ
 ,ZFDGn
+,\tV_fgets
 ,fQM(
 ,h11]
 ,hmQ#
@@ -1258,6 +1259,7 @@ $prefix_element$
 5dO7
 5giP
 5hcr
+5q^j
 5s\nl
 5sfm_v8
 5t?F
@@ -5335,7 +5337,6 @@ ZLIB
 ZLONG
 ZSz@
 ZXF,`i
-Z\tV_log2f
 Zd[w
 Ze2Zh@
 ZjLS
@@ -5355,7 +5356,6 @@ Z~wl
 [HTiW
 [Not a resource]
 [OdP
-[\tV_logd
 [cached: %d][%d req]%s
 [f7@7F
 [fo@e
@@ -5436,7 +5436,7 @@ Z~wl
 \tJm_9
 \tLa0+
 \tNAN encountered in element '%s' guid %s attribute '%s'!\n
-\tV_expd
+\tV_atan2d
 \tV_sscanf_s
 \t\n\v\n\v\n\v\n\v\n\v\n\v\n\v\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \t_V_StrSubst
@@ -5450,7 +5450,6 @@ Z~wl
 \vHCK/
 \vNCE\v
 \vUY6[E
-\v\tV_atan2d
 \v\vTSG
 \vj0k
 \vjC7
@@ -5474,6 +5473,7 @@ _TIFFSetupFieldInfo
 _TIFFVGetField
 _TIFFVSetField
 _YWL
+_\tV_log2f
 __IN_MEMORY
 __injected_test_value
 _bakeresourcecache
@@ -5498,6 +5498,7 @@ _}eOk
 `H(hqA1p
 `ITS
 `VX:H
+`\tV_logd
 `fPw.\vM
 `h9T~
 `o_je
@@ -6845,7 +6846,6 @@ gF{A
 gHAx
 gTH.M
 gXC.nT\v
-g\tV_powd
 g]i/H
 g_Cov_DetermineCompileState
 g_pAsyncFileSystem2
@@ -7583,6 +7583,7 @@ l7@J
 lC57
 lDcW
 lM2p
+l\tV_powd
 language
 last octet invalid
 lastModifiedBy

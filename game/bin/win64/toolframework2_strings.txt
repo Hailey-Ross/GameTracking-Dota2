@@ -171,6 +171,7 @@ $EdX
 $ModelPath$/transmission
 $SO0
 $\f?focusNextPrevChild@QWidget@@MEAA_N_N@Z
+$\tV_expd
 $dir
 $modelname$
 $modelname$_cavity
@@ -7109,7 +7110,6 @@ $name_$id
 4\n?doItemsLayout@QTreeView@@UEAAXXZ
 4\r54t
 4\r?hidePopup@QComboBox@@UEAAXXZ
-4\tV_frexpf
 4np?
 4o0/
 4w>Mw
@@ -7188,6 +7188,7 @@ $name_$id
 9D7V=
 9Px? FcH
 9\f?focusOutEvent@QTextEdit@@MEAAXPEAVQFocusEvent@@@Z
+9\tV_frexpf
 9jsA{
 9n@3333
 9rIz
@@ -13046,6 +13047,7 @@ Splay Max angle
 Splay Min angle
 Spline
 Spring Between Children
+Sq^j
 StPn
 Start Frame
 Start Frame Number
@@ -13811,7 +13813,6 @@ Z}uU
 [NO_ACTION]
 [NoWidget]
 [VtdB
-[\tV_logd
 [\v?event@QScrollArea@@MEAA_NPEAVQEvent@@@Z
 [anim]
 [cloth] | [procedural]
@@ -13863,6 +13864,7 @@ Z}uU
 \f\f?focusInEvent@QLabel@@MEAAXPEAVQFocusEvent@@@Z
 \f\n?deselect@QLineEdit@@QEAAXXZ
 \f\r?heightForWidth@QFormLayout@@UEBAHH@Z
+\f\tV_acosd
 \mEQ
 \n================================================================================\n
 \n?bits@QImage@@QEAAPEAEXZ
@@ -13978,10 +13980,9 @@ Z}uU
 \tR)v4N
 \tR)v4n
 \tT?parent@QWindow@@QEBAPEAV1@XZ
-\tV_acosd
+\tV_atan2d
 \tV_atofloat64
 \tV_cosd
-\tV_expd
 \t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\n\v\n\v\n\v\n\v\n\v\n\v\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \t\t\t\t\n\n\n\n\n\n\n\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \t\v?brushOrigin@QPainter@@QEBA?AVQPoint@@XZ
@@ -14015,7 +14016,6 @@ Z}uU
 \vM8@0
 \vV?ffff
 \v\f?focusInEvent@QGroupBox@@MEAAXPEAVQFocusEvent@@@Z
-\v\tV_atan2d
 \|e9d
 ]?staticMetaObject@QWindow@@2UQMetaObject@@B
 ]Kyw@
@@ -14112,6 +14112,7 @@ _zero
 `TRg
 `TRge@
 `\r?entryInfoList@QDir@@QEBA?AV?$QList@VQFileInfo@@@@V?$QFlags@W4Filter@QDir@@@@V?$QFlags@W4SortFlag@QDir@@@@@Z
+`\tV_logd
 `\v?event@QSpinBox@@MEAA_NPEAVQEvent@@@Z
 `awpf*
 `obH
@@ -15047,7 +15048,6 @@ g@3333s
 gDio
 g\r?enumerator@QMetaObject@@QEBA?AVQMetaEnum@@H@Z
 g\r?horizontalScrollbarAction@QTableView@@MEAAXH@Z
-g\tV_powd
 game/
 game:
 game:tools/images/appicon_tools.ico
@@ -15490,6 +15490,7 @@ lVU=@
 lV}f@
 l\n?dragEnterEvent@QLineEdit@@MEAAXPEAVQDragEnterEvent@@@Z
 l\tTZ
+l\tV_powd
 l\v?event@QToolBar@@MEAA_NPEAVQEvent@@@Z
 large
 lark
@@ -16967,7 +16968,6 @@ uT5A
 uV?read@QStandardItem@@UEAAXAEAVQDataStream@@@Z
 uYLl>
 u\n?connect@QObject@@SA?AVConnection@QMetaObject@@PEBV1@PEBD01W4ConnectionType@Qt@@@Z
-u\tV_sind
 u\v?eventFilter@QAbstractItemView@@MEAA_NPEAVQObject@@PEAVQEvent@@@Z
 ugly
 ui_order
@@ -17183,6 +17183,7 @@ zSl?
 z\f?generatedIconPixmap@QProxyStyle@@UEBA?AVQPixmap@@W4Mode@QIcon@@AEBV2@PEBVQStyleOption@@@Z
 z\n?dragLeaveEvent@QTextEdit@@MEAAXPEAVQDragLeaveEvent@@@Z
 z\nA7
+z\tV_sind
 z\v?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
 z\v?eventFilter@QDialog@@MEAA_NPEAVQObject@@PEAVQEvent@@@Z
 zebra

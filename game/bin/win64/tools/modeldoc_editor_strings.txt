@@ -237,12 +237,14 @@
 #\f?focusNextPrevChild@QTextEdit@@MEAA_N_N@Z
 #\n?columnCount@QSortFilterProxyModel@@UEBAHAEBVQModelIndex@@@Z
 #\r?hide@QWidget@@QEAAXXZ
+#\tV_exp2f
 $#?windowIcon@QWidget@@QEBA?AVQIcon@@XZ
 $ModelPath$
 $ModelPath$*
 $ModelPath$/transmission
 $[?setRange@QDoubleValidator@@UEAAXNNH@Z
 $\f?focusNextPrevChild@QWidget@@MEAA_N_N@Z
+$\tV_expd
 $cc%s_Ctr
 $cloth
 $cloth_node_
@@ -12751,7 +12753,6 @@ $prefix_element$
 1[?setRedF@QColor@@QEAAXN@Z
 1\n?doItemsLayout@QHeaderView@@UEAAXXZ
 1\r51h
-1\tV_fread
 1\v?event@QAbstractSpinBox@@UEAA_NPEAVQEvent@@@Z
 1accept()
 1cascadeSubWindows()
@@ -12929,7 +12930,6 @@ $prefix_element$
 4\n?doItemsLayout@QTreeView@@UEAAXXZ
 4\r54t
 4\r?hidePopup@QComboBox@@UEAAXXZ
-4\tV_frexpf
 58h\n
 5;FJ$,XEK4<
 5?Invalid vertex map alias %s\n
@@ -12938,7 +12938,7 @@ $prefix_element$
 5\v?event@QCheckBox@@MEAA_NPEAVQEvent@@@Z
 6[?setRenderHint@QPainter@@QEAAXW4RenderHint@1@_N@Z
 6\f?focusOutEvent@QPlainTextEdit@@MEAAXPEAVQFocusEvent@@@Z
-6\tV_fseek
+6\tV_fread
 6\v?createNode@QMapDataBase@@QEAAPEAUQMapNodeBase@@HHPEAU2@_N@Z
 6\v?event@QComboBox@@UEAA_NPEAVQEvent@@@Z
 7&F|If
@@ -12956,6 +12956,7 @@ $prefix_element$
 8m_nParticle
 969p
 9\f?focusOutEvent@QTextEdit@@MEAAXPEAVQFocusEvent@@@Z
+9\tV_frexpf
 : Add
 :: <NO TARGET BONE>
 :IKSOLVER_Perlin
@@ -12964,6 +12965,7 @@ $prefix_element$
 :\v?canRead@QImageReader@@QEBA_NXZ
 ; tris:
 ;\n?doSetTextCursor@QTextEdit@@MEAAXAEBVQTextCursor@@@Z
+;\tV_fseek
 ;\v?event@QDialogButtonBox@@MEAA_NPEAVQEvent@@@Z
 ;`?transientParent@QWindow@@QEBAPEAV1@XZ
 < %i, %i > -> < %i, %i > [ %i, %i ]
@@ -14924,8 +14926,8 @@ $prefix_element$
 @%s_lookFrame_0
 @%s_lookFrame_1
 @%s_lookFrame_2
+@08N
 @AuthPhysCollisionAttributesModeEnum_t
-@HPX`hv
 @Integer overflow in %s
 @ModelDocViewMode_t::ORTHO_FRONT
 @\v?event@QFrame@@MEAA_NPEAVQEvent@@@Z
@@ -18546,7 +18548,6 @@ FGD Variable %s has bad default value %d (has bits set that are not valid choice
 FORCE_UINT
 F\f?containsPoint@QPolygonF@@QEBA_NAEBVQPointF@@W4FillRule@Qt@@@Z
 F\n?availableSizes@QIcon@@QEBA?AV?$QList@VQSize@@@@W4Mode@1@W4State@1@@Z
-F\tV_isinfd
 F\v?event@QGroupBox@@MEAA_NPEAVQEvent@@@Z
 F_BLOOD_USE_UV2
 Face
@@ -19700,6 +19701,7 @@ KV3 syntax error: %s while parsing @entitygroup %s
 KV3DefaultTestFnName
 K\r?hitButton@QRadioButton@@MEBA_NAEBVQPoint@@@Z
 K\t?canConvert@QVariant@@QEBA_NH@Z
+K\tV_isinfd
 K\v?event@QLineEdit@@UEAA_NPEAVQEvent@@@Z
 Keep
 Keep Bones Wizard :: Bone :: %s Already Referenced By Bone Markup :: %s\n
@@ -21555,6 +21557,8 @@ Overwrite all bone data
 Overwrite existing flags only
 Overwriting existing wrinkle map data on mesh
 P08@JP
+P08J
+P08N
 P20<\v
 P?isValid@QColor@@QEBA_NXZ
 P?isValid@QTextCharFormat@@QEBA_NXZ
@@ -24311,7 +24315,6 @@ ZIPSetupEncode
 ZIPVSetField
 ZX?setBackground@QTextFormat@@QEAAXAEBVQBrush@@@Z
 Z\f?convertFromImage@QPixmap@@QEAA_NAEBVQImage@@V?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
-Z\tV_log2f
 Z]?sort@QStandardItemModel@@UEAAXHW4SortOrder@Qt@@@Z
 Zero
 Zero Extent
@@ -24382,7 +24385,6 @@ ZoomOut
 [WRN] all input points are identical, returning signle point!\n
 [WRN] detected %d duplicates in xy array!\n
 [Y?setEditable@QStandardItem@@QEAAX_N@Z
-[\tV_logd
 [\v?event@QScrollArea@@MEAA_NPEAVQEvent@@@Z
 [anim]
 [cloth] | [procedural]
@@ -24450,6 +24452,7 @@ ZoomOut
 \f\n?cmp@QVariant@@QEBA_NAEBV1@@Z
 \f\n?deselect@QLineEdit@@QEAAXXZ
 \f\r?heightForWidth@QFormLayout@@UEBAHH@Z
+\f\tV_acosd
 \fp\vPX
 \n   Size: L: <%i, %i>   A: <%i, %i>   Scale: %0.2f\n   Geometry: %s\n   Virtual Geometry: %s\n   Available Geometry: %s\n   Orientation: %s\n
 \n?appendRow@QStandardItemModel@@QEAAXPEAVQStandardItem@@@Z
@@ -24558,7 +24561,6 @@ ZoomOut
 \r[WRN] %d crossing edges detected - unfixed\n
 \r\f?focusInEvent@QLineEdit@@MEAAXPEAVQFocusEvent@@@Z
 \r\r?heightForWidth@QGridLayout@@UEBAHH@Z
-\r\tV_atand
 \rheM
 \s*([+-*/])\s*=\s*([\-0-9.e]*)
 \t"?update@QWidget@@QEAAXAEBVQRect@@@Z
@@ -24591,16 +24593,15 @@ ZoomOut
 \tMesh prefix: %s\n
 \tNAN encountered in element '%s' guid %s attribute '%s'!\n
 \tT?parent@QWindow@@QEBAPEAV1@XZ
-\tV_acosd
+\tV_asind
+\tV_atan2d
+\tV_atand
 \tV_atanf
 \tV_cosd
-\tV_exp2f
-\tV_expd
 \tV_sscanf_s
 \tV_tand
 \t\f?data@QString@@QEBAPEBVQChar@@XZ
 \t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\n\v\n\v\n\v\n\v\n\v\n\v\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
-\t\tV_asind
 \t\t\t\t\n\n\n\n\n\n\n\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t%hu
 \t_V_StringAfterPrefixCaseSensitive
@@ -24635,7 +24636,6 @@ ZoomOut
 \v?flags@QTreeWidgetItem@@QEBA?AV?$QFlags@W4ItemFlag@Qt@@@@XZ
 \v?focusChanged@QApplication@@QEAAXPEAVQWidget@@0@Z
 \v\f?focusInEvent@QGroupBox@@MEAAXPEAVQFocusEvent@@@Z
-\v\tV_atan2d
 ]?sharedPainter@QPaintDevice@@MEBAPEAVQPainter@@XZ
 ]?start@QMovie@@QEAAXXZ
 ]?staticMetaObject@QTextDocument@@2UQMetaObject@@B
@@ -24669,6 +24669,7 @@ _TIFFSetupFieldInfo
 _TIFFVGetField
 _TIFFVSetField
 _\r?horizontalOffset@QTreeView@@MEBAHXZ
+_\tV_log2f
 _\v?event@QSlider@@UEAA_NPEAVQEvent@@@Z
 _]?source@QDropEvent@@QEBAPEAVQObject@@XZ
 __CACHED_editcontext_provider_lookup
@@ -24756,7 +24757,7 @@ _zero
 `Q?lightnessF@QColor@@QEBANXZ
 `V?queryKeyboardModifiers@QGuiApplication@@SA?AV?$QFlags@W4KeyboardModifier@Qt@@@@XZ
 `\r?entryInfoList@QDir@@QEBA?AV?$QList@VQFileInfo@@@@V?$QFlags@W4Filter@QDir@@@@V?$QFlags@W4SortFlag@QDir@@@@@Z
-`\tV_modfd
+`\tV_logd
 `\v?event@QSpinBox@@MEAA_NPEAVQEvent@@@Z
 `m5T
 a:fulltype
@@ -25507,6 +25508,7 @@ e"?validate@QSpinBox@@MEBA?AW4State@QValidator@@AEAVQString@@AEAH@Z
 eFixupResourceName: Illegal full path passed in ("%s")!\n
 e\f?foregroundRole@QWidget@@QEBA?AW4ColorRole@QPalette@@XZ
 e\n?dragEnterEvent@QAbstractItemView@@MEAAXPEAVQDragEnterEvent@@@Z
+e\tV_modfd
 e\v?event@QStatusBar@@MEAA_NPEAVQEvent@@@Z
 ease_in_key
 ease_is_duration
@@ -25814,7 +25816,6 @@ full_frame_range
 g\r?enumerator@QMetaObject@@QEBA?AVQMetaEnum@@H@Z
 g\r?horizontalScrollbarAction@QTableView@@MEAAXH@Z
 g\t?cap@QRegExp@@QEAA?AVQString@@H@Z
-g\tV_powd
 g_pApplication is not yet initialized!\n
 g_pToolSceneNodeFactory
 game/
@@ -26265,6 +26266,7 @@ l"?value@QDoubleSpinBox@@QEBANXZ
 l2_regularization
 lR?metaObject@QIntValidator@@UEBAPEBUQMetaObject@@XZ
 l\n?dragEnterEvent@QLineEdit@@MEAAXPEAVQDragEnterEvent@@@Z
+l\tV_powd
 l\v?event@QToolBar@@MEAA_NPEAVQEvent@@@Z
 labelPos
 labelText
@@ -26945,6 +26947,7 @@ overwrite_existing
 overwrite_existing_flags_only
 owns_polymorphic_data
 p"?value@QSpinBox@@QEBAHXZ
+p08@H^
 p20<\v
 pAction
 pActionObject
@@ -28242,7 +28245,6 @@ type_restriction_is_enum_flags
 t|AO
 uV?read@QStandardItem@@UEAAXAEAVQDataStream@@@Z
 u\n?connect@QObject@@SA?AVConnection@QMetaObject@@PEBV1@PEBD01W4ConnectionType@Qt@@@Z
-u\tV_sind
 u\v?eventFilter@QAbstractItemView@@MEAA_NPEAVQObject@@PEAVQEvent@@@Z
 ui_order
 uicamerarotation
@@ -28530,6 +28532,7 @@ yield_token
 z?h\n8
 zU?qt_metacall@QDrag@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 z\n?dragLeaveEvent@QTextEdit@@MEAAXPEAVQDragLeaveEvent@@@Z
+z\tV_sind
 z\v?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
 z\v?eventFilter@QDialog@@MEAA_NPEAVQObject@@PEAVQEvent@@@Z
 zero dir

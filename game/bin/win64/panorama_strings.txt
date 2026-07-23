@@ -1344,7 +1344,6 @@ $hRh
 @6pe=
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @BH]f
-@HPX`hv
 @MfKZ
 @Pgl
 @Pu\rm
@@ -3044,7 +3043,6 @@ HO8?
 HTMLEscape
 HU>mA$_E*
 HWyn
-H\tV_isstrlower_fast
 Hash Algorithm: 
 HbAta
 Hc S
@@ -3201,7 +3199,6 @@ JSScheduledFunction
 JS_!0
 JZIX
 J\nHBF
-J\tV_isvalidhex
 J`KL
 Javascript
 Jq;v
@@ -3322,6 +3319,7 @@ MODULE_RUN
 MS[;6
 MZL}
 M\rLAI)haL<|p\t\t
+M\tV_isstrlower_fast
 M\vOj
 Mail
 Make a web request (disabled)
@@ -3539,6 +3537,7 @@ OPENSSL_init
 OPENSSL_malloc Error
 OTHERNAME
 O\r5x
+O\tV_isvalidhex
 O_yG|
 Oakley-EC2N-3
 Oakley-EC2N-4
@@ -3576,7 +3575,6 @@ P-256
 P-384
 P-521
 P08@J0H#
-P08Jp
 P08NP
 P1\t98"
 P20H#
@@ -6342,6 +6340,7 @@ dotted
 down
 down-wrap
 down-wrap-left
+dq^j
 dqe-KO{/3
 draggable
 dsa not implemented
@@ -6680,7 +6679,6 @@ gF{A
 gHAx
 gTH.M
 gXC.nT\v
-g\tV_powd
 g]i/H
 g_iStylePropertyIndexNextFree < 255
 gainsboro
@@ -7550,6 +7548,7 @@ l7@J
 lC57
 lDcW
 lM2p
+l\tV_powd
 language
 last octet invalid
 last-child

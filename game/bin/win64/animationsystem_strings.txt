@@ -26,6 +26,9 @@
  %s : Animations loaded but no animation data found\n
  %s : animtable hash too small: %d elements / %d buckets\n
  %s : seqtable hash too small: %d elements / %d buckets\n
+ (08@HPXb
+ (08@HR
+ (0X`hpz
  * %d WeightLists\n
  * ScaleSet[%d] :: %s\n
  * WeightList[%d] :: %s\n
@@ -34,12 +37,14 @@
  <-- Retval '%s'
  Vector b
  [*OBSERVABLE*]
+ \tV_coshf
  \t\n\r@()[]{}=&,:*|;'!
 "Limit Count: " + m_nLimitCount
 #################################\n
 #Angle
 #Position
 #Scale
+#\tV_exp2f
 #data
 %d CallInfos:\n
 %d Cells:\n
@@ -2073,8 +2078,8 @@
 .pXb
 .pbb
 .vagrp_c/.vanim_c mismatch :: %s :: %s\n
+08@J
 180_recovery
-2\vpT
 2_BONE_IK
 6 mb
 60`b
@@ -2125,7 +2130,7 @@
 ?expf
 ?m_flPosition
 @ - (Additive)
-@HPX`hv
+@08N
 @V@const char *__cdecl Reflection::Internal::GetFuncName<class IPathAnimMotorInstance>(void)
 @const char *__cdecl Reflection::Internal::GetFuncName<class IPairedSequenceComponentInstance>(void)
 @fff>fff>fff>fff>
@@ -3015,6 +3020,9 @@ Overlay Blend (Masked): %.2f%%
 Overlay Blend: %.2f%%
 OverlayBlendTask - Trying to perform an overlay blend with mismatched pose types ( additive/parent-space )
 OverlayProjectionDirection
+P08@J
+P08J
+P08N
 PARENT
 POSE_SPACE_BONE
 POSE_SPACE_MORPH
@@ -3261,7 +3269,6 @@ X to the Y power
 Y (Green / Left)
 Yield, Resume=%s
 Z (Blue  / Up)
-Z\tV_log2f
 Zero Pose Task
 Zero frame animations are not supported for warping!
 Zero input vector for info node!
@@ -3274,28 +3281,27 @@ Zero input vector for info node!
 [NOP]
 [RETURN R%d]
 [RETURN]
-\nnexttoken
+\f\tV_acosd
 \rRESOURCE_TYPE_ANIMGRAPH
 \rXCq
-\r\tV_atand
+\r\nnexttoken
 \t%d (%d) : %s %s %s %s\n
 \t%d:%d - %s (agrp vs agrp flag mismatch) %s:%s (promoted to match existing) %s:%s\n
 \t%d:%d - %s (match)\n
 \t%d:%d - %s (skipped)\n
 \t%d:%d - %s\n
 \tError\n
-\tV_acosd
+\tV_asind
+\tV_atand
 \tV_atanf
 \tV_cosd
-\tV_coshf
-\tV_exp2f
 \tV_tand
 \tV_tanhf
-\t\tV_asind
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\n\v\n\v\n\v\n\v\n\v\n\v\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \t_FindGlobalSymbolByHash
 _CustomCommand
 _CustomCommand%d
+_\tV_log2f
 __CursorQueue__
 __State_Child_Condition__
 __TimelineParent__
@@ -3691,7 +3697,6 @@ flc_lines
 frac
 frequencyMax
 frequencyMin
-g\tV_powd
 game:tools/images/animgraph_editor/animgraph_icon_action.png
 game:tools/images/animgraph_editor/animgraph_icon_component.png
 game:tools/images/animgraph_editor/animgraph_icon_lookcomponent.png
@@ -3715,6 +3720,7 @@ is_selector
 kAnimGraphSaveRestoreVersion
 keyvalues
 kv3:ParticleParamID_t
+l\tV_powd
 length2d
 length3d
 lerp
@@ -3789,6 +3795,7 @@ offWhenFinished
 optionallycompressedtangentframe
 options.m_pBoneWeights->Count() >= m_boneIDs.Count()
 options.m_pBoneWeights->Count() >= m_pSkeleton->GetNumBones()
+p08@H^
 p6@yb
 pCheckpointName
 pDescription
@@ -3843,7 +3850,6 @@ to constrain
 tools/images/pulse_editor/cursor_kill.png
 tools/images/pulse_editor/kill_cursor_with_tag.png
 type_restriction_is_enum_flags
-u\tV_sind
 use_layer_sequence
 vJOnPlane2
 vJOnPlane3
@@ -3859,6 +3865,7 @@ very_fast
 weaponType
 whileCurrent
 worldrelative
-x\tV_sinhf
 zDconst char *__cdecl Reflection::Internal::GetFuncName<class CFootPinningPoseOperation>(void)
+z\tV_sind
 zero dir
+}\tV_sinhf

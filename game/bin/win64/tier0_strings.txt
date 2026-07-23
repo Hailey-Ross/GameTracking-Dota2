@@ -789,6 +789,7 @@ $xmm9
 23:10:03
 28~v
 2\fE24
+2\vpT
 2aNuE
 3 FB
 3+5<t
@@ -6472,6 +6473,8 @@ V_XXH64_digest
 V_XXH64_freeState
 V_XXH64_reset
 V_XXH64_update
+V_ZSTD_DStreamInSize
+V_ZSTD_DStreamOutSize
 V_ZSTD_compress
 V_ZSTD_compressBound
 V_ZSTD_compress_usingCDict
@@ -6480,6 +6483,7 @@ V_ZSTD_createCDict_byReference
 V_ZSTD_createDCtx
 V_ZSTD_createDDict_byReference
 V_ZSTD_decompress
+V_ZSTD_decompressStream
 V_ZSTD_decompress_usingDDict
 V_ZSTD_defaultCLevel
 V_ZSTD_freeCCtx
@@ -6487,6 +6491,8 @@ V_ZSTD_freeDCtx
 V_ZSTD_getDictID_fromDDict
 V_ZSTD_getDictID_fromFrame
 V_ZSTD_getFrameContentSize
+V_ZSTD_initDStream
+V_ZSTD_isError
 V_ZSTD_maxCLevel
 V_abort
 V_acosd
@@ -6872,9 +6878,10 @@ ZwSetTimerResolution
 \nOS memory stats:\n
 \nThreadPoolTest: ===== RunThreadPoolPerFrame Tests =====\n
 \n\nCMiniDumpComment encountered an error while generating the comment
-\n\t\ntier0.dll
+\n\t\n\n\n\v\n\f\n\r\n
 \nh?oT
 \nk>oB
+\ntier0.dll
 \rGeneral
 \rInput contains no data
 \r\f\v\v\n\n\t\t\t\t\t

@@ -1197,6 +1197,7 @@ INLINE
 I\n?compare@QString@@QEBAHAEBV1@W4CaseSensitivity@Qt@@@Z
 Inert VModuleMetadata
 InnerHighlight
+Iq^j
 IsEmbeddedSubClass
 IsPlayable
 IsTemplate

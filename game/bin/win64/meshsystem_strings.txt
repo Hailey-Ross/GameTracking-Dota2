@@ -115,6 +115,7 @@
 .?AVIShaderReloadListener@@
 .?AVIVPhysicsLegacyKeyHandler@@
 .vmdl
+1q^j
 2_BONE_IK
 8a\v6;
 ;1#INF

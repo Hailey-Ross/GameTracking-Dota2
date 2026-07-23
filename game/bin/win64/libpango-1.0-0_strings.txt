@@ -1271,7 +1271,6 @@ gray96
 gray97
 gray98
 gray99
-greek
 green
 green1
 green2
@@ -2127,7 +2126,6 @@ teluIndicScriptEngineLang
 telugu
 text != NULL || length == 0
 thaana
-thai
 thin
 thistle
 thistle1

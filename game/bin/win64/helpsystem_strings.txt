@@ -392,6 +392,7 @@ $\f?focusNextPrevChild@QWidget@@MEAA_N_N@Z
 7\f?focusOutEvent@QPushButton@@MEAAXPEAVQFocusEvent@@@Z
 8\f?focusOutEvent@QTextBrowser@@MEAAXPEAVQFocusEvent@@@Z
 8]?size@QPixmap@@QEBA?AVQSize@@XZ
+8q^j
 9\f?focusOutEvent@QTextEdit@@MEAAXPEAVQFocusEvent@@@Z
 :\f?focusOutEvent@QWidget@@MEAAXPEAVQFocusEvent@@@Z
 :\v?canRead@QImageReader@@QEBA_NXZ

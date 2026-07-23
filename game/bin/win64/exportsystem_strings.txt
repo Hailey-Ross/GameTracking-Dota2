@@ -1710,7 +1710,6 @@ World Node Files
 X)?SetRotationActive@FbxNode@fbxsdk@@QEAAX_N@Z
 Z%?RemoveElementUV@FbxGeometryBase@fbxsdk@@QEAA_NPEAVFbxLayerElementUV@2@@Z
 ZFP compression is not supported in this build
-Z\tV_log2f
 [%d] Aborting undo '%s'\n
 [%d] Popping undo '%s'\n
 [%d] Pushing undo '%s'\n
@@ -1739,6 +1738,7 @@ Z\tV_log2f
 \t_V_StringAfterPrefixCaseSensitive
 \t_V_StripLastDir
 \v??_7FbxAnimCurveFilter@fbxsdk@@6B@
+_\tV_log2f
 _basetintmask_
 _colorSetNames
 _detailmask_

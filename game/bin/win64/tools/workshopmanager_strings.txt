@@ -595,6 +595,7 @@
 #\n?columnCount@QSortFilterProxyModel@@UEBAHAEBVQModelIndex@@@Z
 #\r?hide@QWidget@@QEAAXXZ
 #\t#\v#'#)#/#3#5#E#Q#S#Y#c#k#
+#\tV_exp2f
 #\v+(bF&drJ:x#
 #a117d4
 #cf331f
@@ -621,6 +622,7 @@ $ModelPath$/transmission
 $XI(6
 $[?setRange@QDoubleValidator@@UEAAXNNH@Z
 $\f?focusNextPrevChild@QWidget@@MEAA_N_N@Z
+$\tV_expd
 $d`D-laM
 $f;Zv9l\r
 $g#8lu#
@@ -9054,7 +9056,6 @@ $prefix_element$
 1[?setRedF@QColor@@QEAAXN@Z
 1\n?doItemsLayout@QHeaderView@@UEAAXXZ
 1\r51h
-1\tV_fread
 1\v5#d
 1aboutQt()
 1accept()
@@ -9232,7 +9233,6 @@ $prefix_element$
 4\n?doItemsLayout@QTreeView@@UEAAXXZ
 4\r54t
 4\r?hidePopup@QComboBox@@UEAAXXZ
-4\tV_frexpf
 4f h
 4tpD
 4zj@1;IJ
@@ -9274,7 +9274,7 @@ $prefix_element$
 6[?setRenderHint@QPainter@@QEAAXW4RenderHint@1@_N@Z
 6\f?focusOutEvent@QPlainTextEdit@@MEAAXPEAVQFocusEvent@@@Z
 6\t?bytesAvailable@QProcess@@UEBA_JXZ
-6\tV_fseek
+6\tV_fread
 6\v?createNode@QMapDataBase@@QEAAPEAUQMapNodeBase@@HHPEAU2@_N@Z
 6\v?event@QComboBox@@UEAA_NPEAVQEvent@@@Z
 6_wEX
@@ -9360,6 +9360,7 @@ $prefix_element$
 9\f?focusOutEvent@QTextEdit@@MEAAXPEAVQFocusEvent@@@Z
 9\not
 9\r?endRemoveRows@QAbstractItemModel@@IEAAXXZ
+9\tV_frexpf
 9\tiI
 9]ZV
 9aDW
@@ -9398,6 +9399,7 @@ $prefix_element$
 ;Qo0
 ;\n?doSetTextCursor@QTextEdit@@MEAAXAEBVQTextCursor@@@Z
 ;\t?bytesToWrite@QProcess@@UEBA_JXZ
+;\tV_fseek
 ;\v?event@QDialogButtonBox@@MEAA_NPEAVQEvent@@@Z
 ;`?transientParent@QWindow@@QEBAPEAV1@XZ
 ;`Fzc
@@ -14827,7 +14829,6 @@ FORMAT
 FU\n-XP
 FV|FgUV
 F\rH'4
-F\tV_isinfd
 F\v?event@QGroupBox@@MEAA_NPEAVQEvent@@@Z
 F_ALPHA_TEST
 F_BLOOD_USE_UV2
@@ -15236,6 +15237,7 @@ Goal Strength Bias
 Goal Strength Scale
 GodraysFXColor
 GpuCullPreview
+Gq^j
 Gradient()
 Gravity Multiplier
 GrayResponseCurve
@@ -15804,6 +15806,7 @@ KV;-W
 KWjI
 K[C7W+
 K\r?hitButton@QRadioButton@@MEBA_NAEBVQPoint@@@Z
+K\tV_isinfd
 K\v?event@QLineEdit@@UEAA_NPEAVQEvent@@@Z
 Kbf}
 Kcatmullrom_normalize_x
@@ -19995,7 +19998,6 @@ ZLONG
 ZSz@
 ZXF,`i
 Z\f?convertFromImage@QPixmap@@QEAA_NAEBVQImage@@V?$QFlags@W4ImageConversionFlag@Qt@@@@@Z
-Z\tV_log2f
 Z]?sort@QStandardItemModel@@UEAAXHW4SortOrder@Qt@@@Z
 Zd[w
 Ze2Zh@
@@ -20045,7 +20047,6 @@ Z~wl
 [RETURN R%d]
 [RETURN]
 [UGC] Failed call to UGCRead on cloud file %s (%llu)\n
-[\tV_logd
 [\v?event@QScrollArea@@MEAA_NPEAVQEvent@@@Z
 [anim]
 [cloth] | [procedural]
@@ -20132,6 +20133,7 @@ Z~wl
 \f\f?focusInEvent@QLabel@@MEAAXPEAVQFocusEvent@@@Z
 \f\n?deselect@QLineEdit@@QEAAXXZ
 \f\r?heightForWidth@QFormLayout@@UEBAHH@Z
+\f\tV_acosd
 \f]ne3
 \fdhWTh
 \fiaR
@@ -20239,7 +20241,6 @@ Z~wl
 \rYYHl
 \r\f?focusInEvent@QLineEdit@@MEAAXPEAVQFocusEvent@@@Z
 \r\r?heightForWidth@QGridLayout@@UEBAHH@Z
-\r\tV_atand
 \r\vpL1
 \r^mX
 \ri1I
@@ -20283,16 +20284,15 @@ Z~wl
 \tLa0+
 \tNAN encountered in element '%s' guid %s attribute '%s'!\n
 \tT?parent@QWindow@@QEBAPEAV1@XZ
-\tV_acosd
+\tV_asind
+\tV_atan2d
+\tV_atand
 \tV_atanf
 \tV_cosd
-\tV_exp2f
-\tV_expd
 \tV_sscanf_s
 \tV_tand
 \tV_tmpnam
 \t\n\v\n\v\n\v\n\v\n\v\n\v\n\v\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
-\t\tV_asind
 \t_V_StringAfterPrefixCaseSensitive
 \t_V_binarytohex
 \toRE
@@ -20327,7 +20327,6 @@ Z~wl
 \vNCE\v
 \vUY6[E
 \v\f?focusInEvent@QGroupBox@@MEAAXPEAVQFocusEvent@@@Z
-\v\tV_atan2d
 \v\vTSG
 \vj0k
 \vjC7
@@ -20371,6 +20370,7 @@ _TIFFVSetField
 _Warning: %s\n
 _YWL
 _\r?horizontalOffset@QTreeView@@MEBAHXZ
+_\tV_log2f
 _\v?event@QSlider@@UEAA_NPEAVQEvent@@@Z
 __CACHED_editcontext_provider_lookup
 __CursorQueue__
@@ -20452,7 +20452,7 @@ _}eOk
 `ITS
 `Q?lightnessF@QColor@@QEBANXZ
 `VX:H
-`\tV_modfd
+`\tV_logd
 `\v?event@QSpinBox@@MEAA_NPEAVQEvent@@@Z
 `fPw.\vM
 `h9T~
@@ -22050,6 +22050,7 @@ eTU\n
 eXQd
 e\f?foregroundRole@QWidget@@QEBA?AW4ColorRole@QPalette@@XZ
 e\n?dragEnterEvent@QAbstractItemView@@MEAAXPEAVQDragEnterEvent@@@Z
+e\tV_modfd
 e\tcCPtH
 ease_in_key
 ease_is_duration
@@ -22580,7 +22581,6 @@ gTH.M
 gXC.nT\v
 g\r?enumerator@QMetaObject@@QEBA?AVQMetaEnum@@H@Z
 g\r?horizontalScrollbarAction@QTableView@@MEAAXH@Z
-g\tV_powd
 g]i/H
 g_pToolSceneNodeFactory
 game/
@@ -23731,6 +23731,7 @@ lDcW
 lM2p
 lR?metaObject@QIntValidator@@UEBAPEBUQMetaObject@@XZ
 l\n?dragEnterEvent@QLineEdit@@MEAAXPEAVQDragEnterEvent@@@Z
+l\tV_powd
 l\v?event@QToolBar@@MEAA_NPEAVQEvent@@@Z
 labelPos
 labelText
@@ -26886,7 +26887,6 @@ uQ'ZH
 uQbK!
 uV?read@QStandardItem@@UEAAXAEAVQDataStream@@@Z
 u\n?connect@QObject@@SA?AVConnection@QMetaObject@@PEBV1@PEBD01W4ConnectionType@Qt@@@Z
-u\tV_sind
 u\v?eventFilter@QAbstractItemView@@MEAA_NPEAVQObject@@PEAVQEvent@@@Z
 u\vMW
 uaqf
@@ -27468,6 +27468,7 @@ zG2m8
 zRXU 
 zU?qt_metacall@QDrag@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 z\n?dragLeaveEvent@QTextEdit@@MEAAXPEAVQDragLeaveEvent@@@Z
+z\tV_sind
 z\v?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
 z\v?eventFilter@QDialog@@MEAA_NPEAVQObject@@PEAVQEvent@@@Z
 zero dir

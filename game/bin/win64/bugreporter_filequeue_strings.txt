@@ -2,8 +2,8 @@
 %s%cbug.txt
 .?AVCBugReporter@@
 .?AVIBugReporter@@
-1\tV_fread
 2\vpH
+6\tV_fread
 <<Invalid>>
 Area
 BugReporter005

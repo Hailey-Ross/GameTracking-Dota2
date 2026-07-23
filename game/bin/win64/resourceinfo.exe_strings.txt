@@ -4817,7 +4817,6 @@ ZLONG
 ZSTD
 ZSz@
 ZXF,`i
-Z\tV_log2f
 Zd[w
 Ze2Zh@
 ZjLS
@@ -5074,6 +5073,7 @@ _Ek6b]
 _Lx6
 _OPENSSL_isservice
 _YWL
+_\tV_log2f
 _f%02i
 _flt.vpk
 _g@Cg

@@ -48,6 +48,7 @@
 # Exported by vrad3 command %s\n
 # of channels is zero.\n
 #CfU7
+$\tV_expd
 $prefix_attribute$
 $prefix_element$
 $timer
@@ -1176,6 +1177,7 @@ Floating point "Predictor" not supported with %d data format
 FoldLipLo
 FoldLipUp
 Forcing zero-variation charts to be single pixel
+Fq^j
 Frame not displayable.
 Frame setup failed
 FreeByteCounts
@@ -1692,12 +1694,10 @@ ZIPPostEncode
 ZIPSetupDecode
 ZIPSetupEncode
 ZIPVSetField
-Z\tV_log2f
 [%d] Aborting undo '%s'\n
 [%d] Popping undo '%s'\n
 [%d] Pushing undo '%s'\n
 [%s] Forced dmxconvert - Finished [%s] in %0.2f secs. Please re-save or upconvert this asset!\n
-[\tV_logd
 \n# Faces\n
 \n# Lightmap UVs\n
 \n# Vertices\n
@@ -1706,23 +1706,24 @@ Z\tV_log2f
 \t%s: %.2fs\n
 \t@@@@@@@@@@@@@@@@{N{N{N{N{N{N{N{N
 \tNAN encountered in element '%s' guid %s attribute '%s'!\n
-\tV_expd
+\tV_atan2d
 \tV_sscanf_s
 \t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\n\v\n\v\n\v\n\v\n\v\n\v\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \t\t\t\t\n\n\n\n\n\n\n\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \t_V_StringAfterPrefixCaseSensitive
-\v\tV_atan2d
 ] Done (%.2f seconds)
 ]Gsfm_v2
 _TIFFMergeFieldInfo
 _TIFFSetupFieldInfo
 _TIFFVGetField
 _TIFFVSetField
+_\tV_log2f
 _light
 _linked_type_
 _name
 _volumeatlas_
 _wjb
+`\tV_logd
 a?76
 activeBookmarkSet
 alpha_fade
@@ -1963,7 +1964,6 @@ fromAttribute
 fromElement
 func_physbox
 functionName
-g\tV_powd
 gameitemclass
 gameunitclass
 gentle_pulse
@@ -2022,6 +2022,7 @@ keyvalues2_flat
 keyvalues2_flat_v
 keyvalues2_noids
 keyvalues2_v
+l\tV_powd
 launchable_dll_1
 layers
 leftEdgeActive

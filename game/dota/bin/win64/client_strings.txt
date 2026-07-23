@@ -167,8 +167,9 @@
  (%lu = 0x%lx)\n
  (%u = 0x%x)\n
  (+%d more due to usercommand delivery)
- (08@HPX`j`
- (08@HPZ`
+ (08@HPXb
+ (08@HR
+ (0X`hpz
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -245,7 +246,6 @@
  [procedural] 
  [removed w REMOVED_KEYFIELD] 
  [via entity lump b/c no save data for '%s' - first visit to map]
- \n0z1
  \n\nSpeechMute
  \n\necon_items
  \n\npeek_items
@@ -643,7 +643,6 @@
 #7FFF00
 #82CAFF
 #8B008B
-#<activity_animation
 #AbilityDamage
 #Action_GoToPlayerCards
 #Action_Use
@@ -1982,10 +1981,20 @@
 #DOTA_DarkCarnival_Store_BuyTogether_Pack_3
 #DOTA_DarkCarnival_Store_BuyTogether_Pack_4
 #DOTA_DarkCarnival_Store_BuyTogether_Pack_All
+#DOTA_DarkCarnival_StoryComplete
 #DOTA_DarkCarnival_Tarot_%s
 #DOTA_DarkCarnival_TicketsReceived
 #DOTA_DarkCarnival_TooltipOverworldHero_Heading_%d
 #DOTA_DarkCarnival_TooltipOverworldPath_Requirement_Token:f
+#DOTA_DarkCarnival_WhackAMole_EasyLabel%d
+#DOTA_DarkCarnival_WhackAMole_EasyTarget%d
+#DOTA_DarkCarnival_WhackAMole_ExpertLabel%d
+#DOTA_DarkCarnival_WhackAMole_ExpertTarget%d
+#DOTA_DarkCarnival_WhackAMole_HardLabel%d
+#DOTA_DarkCarnival_WhackAMole_HardTarget%d
+#DOTA_DarkCarnival_WhackAMole_ImmortalLabel%d
+#DOTA_DarkCarnival_WhackAMole_MediumLabel%d
+#DOTA_DarkCarnival_WhackAMole_MediumTarget%d
 #DOTA_Dark_Carnival_CandyworksDisabled
 #DOTA_Dark_Carnival_Encounter_Generic_TokensReceivedPopupDesc
 #DOTA_Dark_Carnival_FortuneTellerDisabled
@@ -4675,35 +4684,6 @@
 #GC_suspended
 #GC_updating
 #GameUI_Disconnected
-#GameUI_Language_Brazilian
-#GameUI_Language_Bulgarian
-#GameUI_Language_Czech
-#GameUI_Language_Danish
-#GameUI_Language_Dutch
-#GameUI_Language_English
-#GameUI_Language_Finnish
-#GameUI_Language_French
-#GameUI_Language_German
-#GameUI_Language_Greek
-#GameUI_Language_Hungarian
-#GameUI_Language_Indonesian
-#GameUI_Language_Italian
-#GameUI_Language_Japanese
-#GameUI_Language_Korean
-#GameUI_Language_Latam_Spanish
-#GameUI_Language_Norwegian
-#GameUI_Language_Polish
-#GameUI_Language_Portuguese
-#GameUI_Language_Romanian
-#GameUI_Language_Russian
-#GameUI_Language_Simplified_Chinese
-#GameUI_Language_Spanish
-#GameUI_Language_Swedish
-#GameUI_Language_Thai
-#GameUI_Language_Traditional_Chinese
-#GameUI_Language_Turkish
-#GameUI_Language_Ukrainian
-#GameUI_Language_Vietnamese
 #InAnotherGame
 #InvalidTeam
 #Invalid_AssetMod
@@ -4901,35 +4881,6 @@
 #UnlockStyle_PreReq_Unknown_Partner
 #UnlockStyle_Succeeded
 #UnwrapGift
-#Valve_SelectLanguage_Brazilian
-#Valve_SelectLanguage_Bulgarian
-#Valve_SelectLanguage_Czech
-#Valve_SelectLanguage_Danish
-#Valve_SelectLanguage_Dutch
-#Valve_SelectLanguage_English
-#Valve_SelectLanguage_Finnish
-#Valve_SelectLanguage_French
-#Valve_SelectLanguage_German
-#Valve_SelectLanguage_Greek
-#Valve_SelectLanguage_Hungarian
-#Valve_SelectLanguage_Indonesian
-#Valve_SelectLanguage_Italian
-#Valve_SelectLanguage_Japanese
-#Valve_SelectLanguage_Korean
-#Valve_SelectLanguage_Latam_Spanish
-#Valve_SelectLanguage_Norwegian
-#Valve_SelectLanguage_Polish
-#Valve_SelectLanguage_Portuguese
-#Valve_SelectLanguage_Romanian
-#Valve_SelectLanguage_Russian
-#Valve_SelectLanguage_Simplified_Chinese
-#Valve_SelectLanguage_Spanish
-#Valve_SelectLanguage_Swedish
-#Valve_SelectLanguage_Thai
-#Valve_SelectLanguage_Traditional_Chinese
-#Valve_SelectLanguage_Turkish
-#Valve_SelectLanguage_Ukrainian
-#Valve_SelectLanguage_Vietnamese
 #Vulkan_NoVulkanDLC
 #Vulkan_UnableToStartGame
 #WeekendTourneyLeaderStateAbandoned
@@ -4992,6 +4943,7 @@
 #\n\tnode_type
 #\n\vguild_roles
 #\t#\v#'#)#/#3#5#E#Q#S#Y#c#k#
+#\tV_exp2f
 #\v+(bF&drJ:x#
 #addon_game_name
 #chat_sourcetv
@@ -5658,6 +5610,7 @@ $\n\rk_eAllPlayers
 $\n\rmaximpacttime
 $\n\tplus_info
 $\n\vk_eMMRDelta
+$\tV_expd
 $d`D-laM
 $ent_abs_velocity
 $ent_age
@@ -7040,47 +6993,55 @@ $hRh
 (0'yX
 (0.1s interval)
 (0x%08X)'??'
-(1kr
-(5Er
-(5Kr
+(1Ct
+(1bt
+(1jt
+(53t
 (5Me
-(5Ms
+(5Ns
+(5Rs
 (5jP
-(5zs
-(9Hs
-(9Ys
-(9rs
-(?333?DOTAEconItemBasePage
-(A2s
+(5vs
+(5xs
+(9Tt
+(9st
+(9wt
+(9xt
+(?333?DOTAShowGlossaryPage
+(A8t
 (ACTIVE)
+(APs
 (App Id to retrieve published files from.
+(Avt
 (BZq
 (CLIENT) Inventory:\n
 (Client) 
 (D4D
 (DOTA_INVALID_ORDERS nReason) Return the error string of a failed order.
-(E3s
+(E0s
+(E1s
 (EAs
-(Efs
-(Eqr
-(Ezr
+(EKt
+(Eis
 (Fade Removed: [%d,%d,%d,%d])\n
 (HSCRIPT hTarget) Determine whether an issued command on a target is valid.
 (HSCRIPT hTarget) Return the error string of a failed command on a target.
-(I1r
-(I1s
+(I7t
 (I?Value@External@v8@@QEBAPEAXXZ
 (ID of the Cloud file to get details for.
 (IImageSource)
+(ILs
+(IRt
+(Ibs
+(Ifs
 (Interp Ready=%s)
-(Ixs
-(M5s
-(MBs
-(Mqs
+(Iyt
+(MDt
+(Mnt
 (NONE)
-(Q3r
-(QWr
-(Qur
+(Qit
+(Qls
+(Qos
 (SST) Disconnecting for the purpose of editing %s\n
 (SST) Disconnecting for the purpose of removing all SST data from vpk\n
 (SST) Moving %s to %s\n
@@ -7088,17 +7049,12 @@ $hRh
 (SST) Zipping %s (%d files)\n
 (Text description for the published file.
 (U1h
-(UMr
-(Uar
-(Ues
 (Unknown error)
+(Urt
 (VectorWS vLocation) Determine whether an issued command on a location is valid.
 (VectorWS vLocation) Return the error string of a failed command on a location.
 (WIPE AND EXTRACT)
-(Y0s
-(YHr
-(YVr
-(Ytr
+(Yus
 (ZdOt\n&
 (\f"#\n!CDOTABroadcastMsg_LANLobbyRequest"
 (\f"#\n!CMsgClientToGCEmoticonDataRequest"Q\n
@@ -7940,55 +7896,54 @@ $hRh
 (\v2\v.CMsgVector"l\n
 (\v2\v.CMsgVector"o\n)CDOTAUserMsg_UpdateLinearProjectileCPData
 (\v2\v.CMsgVector*
-(ahr
-(axr
-(ays
+(aqs
+(ars
 (b IncludePregameTime b IncludeNegativeTime) Returns the actual DOTA in-game clock time.
 (connected)
 (d4t8
 (default)
-(eSs
-(eks
 (fS{ggRcjh
 (flTime, bInformClients)
 (from angle, to angle, time) - Spherical lerp of angle from->to based on time
 (h`H1pqA
 (i/Al
+(i6s
+(iEt
+(iJt
+(iks
 (index, bDestroyImmediately, bStatusEffect, priority, bHeroEffect, bOverheadEffect
 (int iIndex, int iPoint, Vector vecPosition)
 (int index, bool bDestroyImmediately) - Destroy a particle, if bDestroyImmediately destroy it without playing end caps.
 (int nFXIndex, int nPoint, vOrigin, qAngles)
 (int nFXIndex, int nPoint, vOrigin, vForward)
+(iot
+(ipt
 (jvg;
-(m9r
-(mFs
-(mTs
-(mUr
-(mZs
+(m3t
+(m8t
 (memory)
 (needs match)
 (no controller?)
 (parent %d)
 (partial match ok)
-(qAs
-(qis
+(q9t
+(qPs
+(qXs
 (quaternion,quaternion,float) very basic interpolation of v0 to v1 over t on [0,1]
 (quaternion,vector,float) rotates a quaternion by the specified angle around the specified vector axis
-(u9s
-(ufs
+(qzs
+(u4t
 (update disabled)
-(usr
 (vQF
 (vector,float) constructs a quaternion representing a rotation by angle around the specified vector axis
 (vector,vector) cross product between two vectors
 (vector,vector,float) lerp between two vectors by a float factor returning new vector
 (vector,vector,float) very basic interpolation of v0 to v1 over t on [0,1]
 (wMww
-(y8s
-(yKs
-(yYs
-(yir
-(yvs
+(yLs
+(ykt
+(ylt
+(yst
 ) == false\n
 )!)#)?)G)])e)i)o)u)
 )#DOTA_Hero_Selection_CaptainsMode_TheyBan
@@ -8348,13 +8303,13 @@ $hRh
 *\n\vready_check
 *\n\vreward_type
 *b\n\rDOTAMatchVote
-*effect_simplified
 *gFBk
 *hbJ1
 *it%2
 *kf[R
 *laM-\SO
 *o\n\teRollType
+*p46
 *v\n\vEPingSource
 + <font color="#ffd825">%d</font><panel class="CombatEventGoldIcon" /> 
 + Added %s Player[%d]: %s\n
@@ -9299,6 +9254,7 @@ $hRh
 .?AV<lambda_1>@?1???$IterateChildrenOfType@VCDOTA_UI_DarkCarnival_PurchaseButton@@@CPanel2D@panorama@@QEAA_NAEBV?$function@$$A6A_NPEAVCDOTA_UI_DarkCarnival_PurchaseButton@@@Z@std@@@Z@
 .?AV<lambda_1>@?1???$IterateChildrenOfType@VCDOTA_UI_EconItem@@@CPanel2D@panorama@@QEAA_NAEBV?$function@$$A6A_NPEAVCDOTA_UI_EconItem@@@Z@std@@@Z@
 .?AV<lambda_1>@?1???$IterateChildrenOfType@VCDOTA_UI_ShopItem@@@CPanel2D@panorama@@QEAA_NAEBV?$function@$$A6A_NPEAVCDOTA_UI_ShopItem@@@Z@std@@@Z@
+.?AV<lambda_1>@?1???$IterateChildrenOfType@VCDOTA_WhackAMole_WordBubblePanel@@@CPanel2D@panorama@@QEAA_NAEBV?$function@$$A6A_NPEAVCDOTA_WhackAMole_WordBubblePanel@@@Z@std@@@Z@
 .?AV<lambda_1>@?1???$IterateChildrenOfType@VCPanel2D@panorama@@@CPanel2D@panorama@@QEAA_NAEBV?$function@$$A6A_NPEAVCPanel2D@panorama@@@Z@std@@@Z@
 .?AV<lambda_1>@?1???$IterateChildrenOfType@VCRadioButton@panorama@@@CPanel2D@panorama@@QEAA_NAEBV?$function@$$A6A_NPEAVCRadioButton@panorama@@@Z@std@@@Z@
 .?AV<lambda_1>@?1???$IterateChildrenOfType@VCTabButton@panorama@@@CPanel2D@panorama@@QEAA_NAEBV?$function@$$A6A_NPEAVCTabButton@panorama@@@Z@std@@@Z@
@@ -9616,6 +9572,7 @@ $hRh
 .?AV<lambda_1>@?1??FindChoices@CDOTA_DB_Popup_StickerTeamPicker@@AEAAXVCUtlString@@@Z@
 .?AV<lambda_1>@?1??FindSlotsForItems@CDOTA_DB_CraftingInputGroup@@UEAAXAEBV?$CUtlVector@Vitemid_t@@HV?$CUtlVectorMemory_Growable@Vitemid_t@@H$0A@@@@@AEAV?$CUtlVector@PEAVCDOTA_DB_CraftingInputSlot@@HV?$CUtlVectorMemory_Growable@PEAVCDOTA_DB_CraftingInputSlot@@H$0A@@@@@@Z@
 .?AV<lambda_1>@?1??FireGameEvent@C_DOTA_HLTVCamera@@UEAAXPEAVIGameEvent@@@Z@
+.?AV<lambda_1>@?1??FrameUpdate_MaybeSpawnMoreBubbles@CDOTA_Popup_Dark_Carnival_Encounter_Whack_A_Mole@@AEAAXXZ@
 .?AV<lambda_1>@?1??GenerateScore@CDOTA_DB_Popup_BP_Crownfall_Encounter_Fishing@@AEAAXAEBUDOTAFishingGameFishRecord_t@@H@Z@
 .?AV<lambda_1>@?1??GetAssetModifiersActiveForStyle@CEconItemDefinition@@UEBAXHPEAV?$CUtlVector@UAssetModifierEntry_t@@HV?$CUtlVectorMemory_Growable@UAssetModifierEntry_t@@H$0A@@@@@@Z@
 .?AV<lambda_1>@?1??GetSelectedChatWheelMessageTypeTab@CDOTA_DB_PopupSettings@@AEBA?AW4EChatWheelMessageTypeTab@@XZ@
@@ -9648,6 +9605,7 @@ $hRh
 .?AV<lambda_1>@?1??LoadTeammateStatsSortOrder@CDOTA_DB_Page_ProfileTeammateStats@@AEAAXXZ@
 .?AV<lambda_1>@?1??OnAnimSliderChanged@CDOTA_DB_Popup_EffigyEditor@@AEAA_NPEAVCPanel2D@panorama@@M@Z@
 .?AV<lambda_1>@?1??OnArmoryTagSelectedItems@CDOTA_DB_Page_Armory@@AEAA_NXZ@
+.?AV<lambda_1>@?1??OnBubbleFailed@CDOTA_Popup_Dark_Carnival_Encounter_Whack_A_Mole@@AEAAXPEAVCDOTA_WhackAMole_WordBubblePanel@@@Z@
 .?AV<lambda_1>@?1??OnEconItemHovered@CDOTA_UI_EconItemCategorizedList@@IEAA_NPEAVCPanel2D@panorama@@_N@Z@
 .?AV<lambda_1>@?1??OnFacetSelected@CDOTA_UI_Hero_Facet_Picker@@AEAA_NVHeroFacetKey_t@@@Z@
 .?AV<lambda_1>@?1??OnInitializedFromLayout@CDOTA_DB_Frontpage_Seasonal_Rewards@@MEAAXXZ@
@@ -9669,6 +9627,7 @@ $hRh
 .?AV<lambda_1>@?1??RequestItemSearch@CDOTA_DB_Page_Collection@@IEAAXAEBV?$shared_ptr@VCEconItemSearch@@@std@@@Z@
 .?AV<lambda_1>@?1??Restart@CNewParticleEffect@@QEAAXXZ@
 .?AV<lambda_1>@?1??ScheduleUpdateHeroPreviewScene@CDOTA_UI_ShowcaseItem@@AEAAXXZ@
+.?AV<lambda_1>@?1??ScorePoints@CDOTA_Popup_Dark_Carnival_Encounter_Whack_A_Mole@@AEAAXPEAVCDOTA_WhackAMole_WordBubblePanel@@@Z@
 .?AV<lambda_1>@?1??ScrollToCurrentScore@CDOTA_UI_RubickArcanaProgress@@QEAAXXZ@
 .?AV<lambda_1>@?1??SelectAll@CDOTA_UI_EconItemCategorizedList@@QEAAXXZ@
 .?AV<lambda_1>@?1??SelectAllInWindowRectangle@CDOTA_UI_EconItemCategorizedList@@QEAAXMMMM@Z@
@@ -9706,6 +9665,7 @@ $hRh
 .?AV<lambda_1>@?1??ShowForUnit@CDOTA_HUD_Tooltip_NeutralCrafting@@QEAAXPEAVC_DOTA_BaseNPC@@@Z@
 .?AV<lambda_1>@?1??ShowPowerUpChoices@CDOTA_DB_Popup_BP_Crownfall_Encounter_Survivors@@AEAAXXZ@
 .?AV<lambda_1>@?1??StartGame@CDOTA_DB_Popup_BP_Crownfall_Encounter_Flappy_Skywrath@@AEAAXXZ@
+.?AV<lambda_1>@?1??StartGame@CDOTA_Popup_Dark_Carnival_Encounter_Whack_A_Mole@@QEAAXXZ@
 .?AV<lambda_1>@?1??StopEmission@CNewParticleEffect@@QEAAX_N000@Z@
 .?AV<lambda_1>@?1??StreamEntitiesToFile@CEntity2SaveRestore@@AEAA_NPEAVCSaveRestoreHostData@@AEBUSaveStreamInfo_t@@AEBUSPAWNGROUP_HEADER@@@Z@
 .?AV<lambda_1>@?1??TryToPreserveJoyFocusScreenPosition@@YAXV?$Vec2D@M@@PEAVCPanel2D@panorama@@@Z@
@@ -9717,7 +9677,6 @@ $hRh
 .?AV<lambda_1>@?1??UpdateAnalysisColumnsData@CDOTA_DB_Page_ProfileBattleStats@@AEAAXPEAVCPanel2D@panorama@@AEBV?$CUtlVector@W4EBattleReportSort@@HV?$CUtlVectorMemory_Growable@W4EBattleReportSort@@H$0A@@@@@AEBV?$CUtlOrderedMap@W4EBattleReportSort@@UBattleReportMinMaxStats_t@@V?$CDefLess@W4EBattleReportSort@@@@H@@AEBURoleReport_t@@@Z@
 .?AV<lambda_1>@?1??UpdateAnalysisColumnsHeader@CDOTA_DB_Page_ProfileBattleStats@@AEAAXPEAVCPanel2D@panorama@@AEBV?$CUtlVector@W4EBattleReportMatchSort@@HV?$CUtlVectorMemory_Growable@W4EBattleReportMatchSort@@H$0A@@@@@AEBV?$CUtlVector@U?$BattleReportSortDirection_t@W4EBattleReportMatchSort@@@@HV?$CUtlVectorMemory_Growable@U?$BattleReportSortDirection_t@W4EBattleReportMatchSort@@@@H$0A@@@@@@Z@
 .?AV<lambda_1>@?1??UpdateAnalysisColumnsHeader@CDOTA_DB_Page_ProfileBattleStats@@AEAAXPEAVCPanel2D@panorama@@AEBV?$CUtlVector@W4EBattleReportSort@@HV?$CUtlVectorMemory_Growable@W4EBattleReportSort@@H$0A@@@@@AEBV?$CUtlVector@U?$BattleReportSortDirection_t@W4EBattleReportSort@@@@HV?$CUtlVectorMemory_Growable@U?$BattleReportSortDirection_t@W4EBattleReportSort@@@@H$0A@@@@@@Z@
-.?AV<lambda_1>@?1??UpdateBackgroundTent@CDOTA_UI_DarkCarnival_Overworld_Map@@AEAAXXZ@
 .?AV<lambda_1>@?1??UpdateBackgrounds@CDOTA_DB_Popup_ShowcaseAddItem_V2@@AEAAXXZ@
 .?AV<lambda_1>@?1??UpdateBingoPanel@CDOTA_DB_Background_BP_International2023@@AEAAXPEBVCDOTAEventDefinition@@PEBVCDOTAEventUserData@@@Z@
 .?AV<lambda_1>@?1??UpdateBingoPanel@CDOTA_DB_Background_BP_International2024@@AEAAXPEBVCDOTAEventDefinition@@PEBVCDOTAEventUserData@@@Z@
@@ -9852,6 +9811,7 @@ $hRh
 .?AV<lambda_1>@?3??UpdateControls@CDOTA_UI_ContextMenu_HeroSetPicker@@AEAAXXZ@
 .?AV<lambda_1>@?3??UpdateRowEmptyStates@CDOTA_Hud_QuickBuy@@AEAAXXZ@
 .?AV<lambda_1>@?3??UpdateScenePanelsForZoomState@CDOTA_DB_Page_TreasureDetails@@AEAAXXZ@
+.?AV<lambda_1>@?4???R0?1??ScorePoints@CDOTA_Popup_Dark_Carnival_Encounter_Whack_A_Mole@@AEAAXPEAVCDOTA_WhackAMole_WordBubblePanel@@@Z@QEBA@XZ@
 .?AV<lambda_1>@?4???R<lambda_2>@?L@??UpdateDirtyPanel@CDOTA_UI_Hero_Overworld_Tokens@@UEAAXXZ@QEBA@PEAVCPanel2D@panorama@@H@Z@
 .?AV<lambda_1>@?4??Dispatch@C_TEUnitAnimation@@QEAAXAEBVCDOTAUserMsg_TEUnitAnimation_t@@@Z@
 .?AV<lambda_1>@?4??Dispatch@C_TEUnitAnimationEnd@@QEAAXAEBVCDOTAUserMsg_TEUnitAnimationEnd_t@@@Z@
@@ -9869,11 +9829,13 @@ $hRh
 .?AV<lambda_1>@?4??PreRender@C_EnvCombinedLightProbeVolume@@MEAA_NVCSplitScreenSlot@@@Z@
 .?AV<lambda_1>@?4??PreRender@C_EnvLightProbeVolume@@MEAA_NVCSplitScreenSlot@@@Z@
 .?AV<lambda_1>@?4??Speak@CDOTA_UI_WraithKingHeroMap@@AEAAXVHeroID_t@@@Z@
+.?AV<lambda_1>@?4??TogglePaused@CDOTA_Popup_Dark_Carnival_Encounter_Whack_A_Mole@@AEAAXXZ@
 .?AV<lambda_1>@?4??UpdateAbilityIcon@CDOTA_UI_EconItem_Animated@@AEAAXXZ@
 .?AV<lambda_1>@?4??UpdateItemPreview@CDOTA_DB_Page_StorePlus@@AEAAXXZ@
 .?AV<lambda_1>@?4??UpdateObjectivesLog@CDOTA_DB_Popup_BP_Crownfall_Encounter_Survivors@@AEAAXXZ@
 .?AV<lambda_1>@?4??UpdateTPfxRewards@CDOTA_DB_Page_BP_International2023_Rewards@@AEAAXPEBVCDOTAEventDefinition@@PEBVCDOTAEventUserData@@@Z@
 .?AV<lambda_1>@?4??UpdateTPfxRewards@CDOTA_DB_Page_BP_International2024_Rewards@@AEAAXPEBVCDOTAEventDefinition@@PEBVCDOTAEventUserData@@@Z@
+.?AV<lambda_1>@?5???R0?1??SelectNextWordTarget@CDOTA_Popup_Dark_Carnival_Encounter_Whack_A_Mole@@AEAAPEBUTargetWord@2@HH@Z@QEBA@AEBV?$CUtlVector@PEAUTargetWord@CDOTA_Popup_Dark_Carnival_Encounter_Whack_A_Mole@@HV?$CUtlVectorMemory_Growable@PEAUTargetWord@CDOTA_Popup_Dark_Carnival_Encounter_Whack_A_Mole@@H$0A@@@@@_N@Z@
 .?AV<lambda_1>@?5??BuildCurrentSearchQuery@CDOTA_DB_Page_StoreBrowse@@EEAAPEAVCEconItemSearchQuery@@XZ@
 .?AV<lambda_1>@?5??DisplayAssetModifiers@CDOTA_DB_Page_Diretide_TreasureDetails@@AEAAHPEBVCDOTAItemDefinition@@@Z@
 .?AV<lambda_1>@?5??DisplayAssetModifiers@CDOTA_DB_Page_Tier_Treasure_Details@@AEAAHPEBVCDOTAItemDefinition@@@Z@
@@ -9903,9 +9865,12 @@ $hRh
 .?AV<lambda_1>@?8??TutorialHighlight@CDOTA_UI_BP_International2023_Fantasy_Period@@AEAAXPEBD@Z@
 .?AV<lambda_1>@?8??TutorialHighlight@CDOTA_UI_BP_International2024_Fantasy_Period@@AEAAXPEBD@Z@
 .?AV<lambda_1>@?8??TutorialHighlight@CDOTA_UI_International2025_Fantasy_Period@@AEAAXPEBD@Z@
+.?AV<lambda_1>@?8??UpdateBackgroundTent@CDOTA_UI_DarkCarnival_Overworld_Map@@AEAAXXZ@
 .?AV<lambda_1>@?9???R<lambda_2>@?L@??CreateSubPages@CDOTA_DB_Page_Glossary@@AEAAXXZ@QEBA@PEAVCLabel@panorama@@@Z@
 .?AV<lambda_1>@?9??BuildAssetModifierContainer@CItemGeneration@@QEAAXPEAVCAssetModifierContainer@@HPEAPEAVC_EconItemView@@@Z@
 .?AV<lambda_1>@?9??CreateNewViewerList@CDOTA_DB_Page_Collection@@IEAAX_N@Z@
+.?AV<lambda_1>@?9??OnBubbleCompleted@CDOTA_Popup_Dark_Carnival_Encounter_Whack_A_Mole@@AEAAXPEAVCDOTA_WhackAMole_WordBubblePanel@@@Z@
+.?AV<lambda_1>@?9??OnKeyTyped@CDOTA_Popup_Dark_Carnival_Encounter_Whack_A_Mole@@UEAA_NAEBUKeyData_t@panorama@@@Z@
 .?AV<lambda_1>@?9??UpdateDirtyPanel@CDOTA_DB_Background_DarkCarnival@@UEAAXXZ@
 .?AV<lambda_1>@?9??UpdateDirtyPanel@CDOTA_DB_Page_International2025_Talent@@EEAAXXZ@
 .?AV<lambda_1>@?9??UpdateDirtyPanel@CDOTA_UI_MonsterHunterMaterialInventory@@UEAAXXZ@
@@ -10132,6 +10097,7 @@ $hRh
 .?AV<lambda_1>@?GC@??UpdateSelectedItemDetails@CDOTA_DB_Page_TreasureDetails@@AEAAXXZ@
 .?AV<lambda_1>@?JF@??Update@CDOTA_UI_Tooltip_EconItem@@AEAAXVHeroID_t@@@Z@
 .?AV<lambda_1>@?L@??EventCraftingInputFilled@CDOTA_DB_CraftingInputGroup@@AEAA_NPEAVCPanel2D@panorama@@_N@Z@
+.?AV<lambda_1>@?L@??EventFrameUpdate@CDOTA_Popup_Dark_Carnival_Encounter_Whack_A_Mole@@QEAAXXZ@
 .?AV<lambda_1>@?L@??FireEventsOnBodyMovementAsync@CPathSimple@@UEAAXIAEBVVectorWS@@0AEAV?$CUtlLeanVector@V?$function@$$A6AXXZ@std@@HVCMemAllocAllocator@@@@@Z@
 .?AV<lambda_1>@?L@??OnClientSideAnimCycleReset@C_BaseAnimatingController@@AEAAXPEAVCEntityInstance@@PEBH@Z@
 .?AV<lambda_1>@?L@??OnShowSubpageWithIndex@CDOTA_DB_Page_Glossary@@AEAAXPEBDH@Z@
@@ -10198,6 +10164,7 @@ $hRh
 .?AV<lambda_2>@?1??CreateAttackProjectile@CSurvivorsPowerUp_ProjectileAttack@@IEAA_NAEAV?$CUtlVector@VSurvivorsUnitID_t@@HV?$CUtlVectorMemory_Growable@VSurvivorsUnitID_t@@H$0A@@@@@W4ESurvivorsAttackTargeting@@_NHVVectorWS@@2@Z@
 .?AV<lambda_2>@?1??EventDOTAMonsterHunterRerollInvestigations@CDOTA_DB_Page_MonsterHunter_InvestigationSimulator@@AEAA_NXZ@
 .?AV<lambda_2>@?1??FillOutAbilityTooltipV2_SetAttributeDetails@@YAXPEAVCDotaMsgStructuredTooltipProperties_Attribute@@AEBVIDotaAbilityContext@@PEBUDOTASpecialAbility_t@@PEBD@Z@
+.?AV<lambda_2>@?1??GameOver@CDOTA_Popup_Dark_Carnival_Encounter_Whack_A_Mole@@QEAAXXZ@
 .?AV<lambda_2>@?1??GenerateScore@CDOTA_DB_Popup_BP_Crownfall_Encounter_Fishing@@AEAAXAEBUDOTAFishingGameFishRecord_t@@H@Z@
 .?AV<lambda_2>@?1??InitCarouselItems@CDOTA_DB_Page_DarkCarnival_Store@@AEAAXXZ@
 .?AV<lambda_2>@?1??InitPhysicsShape@CGenericShapeProxy@@QEAAXPEBVIPhysicsShape@@AEBVCTransform@@URnShapeConvexId_t@@@Z@
@@ -10325,6 +10292,7 @@ $hRh
 .?AV<lambda_2>@?BH@??SimulateMeteorModifier@CSurvivorsGame@@QEAAXM@Z@
 .?AV<lambda_2>@?BI@??Initialize@CDOTA_UI_Visual_Novel@@QEAAXPEBVCDOTAVisualNovel@@PEBUDOTAVisualNovelDialogue_t@@@Z@
 .?AV<lambda_2>@?BL@??UpdateDirtyPanel_TI@CDOTA_Widget_Watch_DPC_Standings@@AEAAXXZ@
+.?AV<lambda_2>@?BM@??EventFrameUpdate@CDOTA_Popup_Dark_Carnival_Encounter_Whack_A_Mole@@QEAAXXZ@
 .?AV<lambda_2>@?BN@??BSetProperties@CDOTA_PurchaseBattlePassReward@@EEAA_NAEBV?$CUtlVector@UParsedPanelProperty_t@panorama@@HV?$CUtlVectorMemory_Growable@UParsedPanelProperty_t@panorama@@H$0A@@@@@@Z@
 .?AV<lambda_2>@?BN@??UpdateDirtyPanel_DPC@CDOTA_Widget_Watch_DPC_Standings@@AEAAXXZ@
 .?AV<lambda_2>@?CD@???R<lambda_7>@?1??UpdateDirtyPanel@CDOTA_UI_MonsterHunter_RewardDetails@@UEAAXXZ@QEBA@PEAVCPanel2D@panorama@@H@Z@
@@ -10346,6 +10314,7 @@ $hRh
 .?AV<lambda_2>@?L@??UpdateNeutralItemsState@CDOTA_Hud_Shop@@AEAAXH@Z@
 .?AV<lambda_2>@?M@??OnShowSubpageWithIndex@CDOTA_DB_Page_Glossary@@AEAAXPEBDH@Z@
 .?AV<lambda_2>@?O@??FireEventsOnBodyMovementAsync@CPathSimple@@UEAAXIAEBVVectorWS@@0AEAV?$CUtlLeanVector@V?$function@$$A6AXXZ@std@@HVCMemAllocAllocator@@@@@Z@
+.?AV<lambda_2>@?O@??UpdateBackgroundTent@CDOTA_UI_DarkCarnival_Overworld_Map@@AEAAXXZ@
 .?AV<lambda_2>@?P@??EventOverviewHeroExpandSlot@CDOTA_DB_Page_Post_Game@@AEAA_NVGCPlayerSlot_t@@@Z@
 .?AV<lambda_30>@?$PulseBindingResourceHandleTraits_t@V?$CWeakHandle@UInfoForResourceTypeCChoreoSceneResource@@@@@@
 .?AV<lambda_31>@?$PulseBindingResourceHandleTraits_t@V?$CWeakHandle@UInfoForResourceTypeCChoreoSceneResource@@@@@@
@@ -19015,6 +18984,7 @@ $hRh
 .?AV?$CUIEvent@$0A@VCEntityIndex@@@panorama@@
 .?AV?$CUIEvent@$0A@VCSteamID@@@panorama@@
 .?AV?$CUIEvent@$0A@VCUtlString@@@panorama@@
+.?AV?$CUIEvent@$0A@VCUtlString@@H@panorama@@
 .?AV?$CUIEvent@$0A@VCUtlString@@V1@VOverworldID_t@@VOverworldFortuneTellerStoryNodeID_t@@_N@panorama@@
 .?AV?$CUIEvent@$0A@VCandyShopCandyTypeID_t@@@panorama@@
 .?AV?$CUIEvent@$0A@VCandyShopID_t@@@panorama@@
@@ -20687,6 +20657,7 @@ $hRh
 .?AV?$_Func_base@_NPEAVCDOTA_UI_SortHeader@@@std@@
 .?AV?$_Func_base@_NPEAVCDOTA_UI_TournamentNode@@@std@@
 .?AV?$_Func_base@_NPEAVCDOTA_UI_UGCImage@@@std@@
+.?AV?$_Func_base@_NPEAVCDOTA_WhackAMole_WordBubblePanel@@@std@@
 .?AV?$_Func_base@_NPEAVCDelayLoadList@panorama@@@std@@
 .?AV?$_Func_base@_NPEAVCDelayLoadPanel@panorama@@@std@@
 .?AV?$_Func_base@_NPEAVCImagePanel@panorama@@@std@@
@@ -20737,6 +20708,7 @@ $hRh
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???$IterateChildrenOfType@VCDOTA_UI_DarkCarnival_PurchaseButton@@@CPanel2D@panorama@@QEAA_NAEBV?$function@$$A6A_NPEAVCDOTA_UI_DarkCarnival_PurchaseButton@@@Z@std@@@Z@_NPEAV23@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???$IterateChildrenOfType@VCDOTA_UI_EconItem@@@CPanel2D@panorama@@QEAA_NAEBV?$function@$$A6A_NPEAVCDOTA_UI_EconItem@@@Z@std@@@Z@_NPEAV23@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???$IterateChildrenOfType@VCDOTA_UI_ShopItem@@@CPanel2D@panorama@@QEAA_NAEBV?$function@$$A6A_NPEAVCDOTA_UI_ShopItem@@@Z@std@@@Z@_NPEAV23@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???$IterateChildrenOfType@VCDOTA_WhackAMole_WordBubblePanel@@@CPanel2D@panorama@@QEAA_NAEBV?$function@$$A6A_NPEAVCDOTA_WhackAMole_WordBubblePanel@@@Z@std@@@Z@_NPEAV23@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???$IterateChildrenOfType@VCPanel2D@panorama@@@CPanel2D@panorama@@QEAA_NAEBV?$function@$$A6A_NPEAVCPanel2D@panorama@@@Z@std@@@Z@_NPEAV23@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???$IterateChildrenOfType@VCRadioButton@panorama@@@CPanel2D@panorama@@QEAA_NAEBV?$function@$$A6A_NPEAVCRadioButton@panorama@@@Z@std@@@Z@_NPEAV23@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1???$IterateChildrenOfType@VCTabButton@panorama@@@CPanel2D@panorama@@QEAA_NAEBV?$function@$$A6A_NPEAVCTabButton@panorama@@@Z@std@@@Z@_NPEAV23@@std@@
@@ -21054,6 +21026,7 @@ $hRh
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??FindChoices@CDOTA_DB_Popup_StickerTeamPicker@@AEAAXVCUtlString@@@Z@_NPEAVCImagePanel@panorama@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??FindSlotsForItems@CDOTA_DB_CraftingInputGroup@@UEAAXAEBV?$CUtlVector@Vitemid_t@@HV?$CUtlVectorMemory_Growable@Vitemid_t@@H$0A@@@@@AEAV?$CUtlVector@PEAVCDOTA_DB_CraftingInputSlot@@HV?$CUtlVectorMemory_Growable@PEAVCDOTA_DB_CraftingInputSlot@@H$0A@@@@@@Z@_NPEAVCDOTA_DB_CraftingInputSlot@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??FireGameEvent@C_DOTA_HLTVCamera@@UEAAXPEAVIGameEvent@@@Z@X$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??FrameUpdate_MaybeSpawnMoreBubbles@CDOTA_Popup_Dark_Carnival_Encounter_Whack_A_Mole@@AEAAXXZ@_NPEAVCDOTA_WhackAMole_WordBubblePanel@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??GenerateScore@CDOTA_DB_Popup_BP_Crownfall_Encounter_Fishing@@AEAAXAEBUDOTAFishingGameFishRecord_t@@H@Z@PEAVCPanel2D@panorama@@H@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??GetAssetModifiersActiveForStyle@CEconItemDefinition@@UEBAXHPEAV?$CUtlVector@UAssetModifierEntry_t@@HV?$CUtlVectorMemory_Growable@UAssetModifierEntry_t@@H$0A@@@@@@Z@XPEBVCAssetModifier@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??GetSelectedChatWheelMessageTypeTab@CDOTA_DB_PopupSettings@@AEBA?AW4EChatWheelMessageTypeTab@@XZ@_NPEAVCTabButton@panorama@@@std@@
@@ -21086,6 +21059,7 @@ $hRh
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??LoadTeammateStatsSortOrder@CDOTA_DB_Page_ProfileTeammateStats@@AEAAXXZ@_NPEAVCDOTA_UI_SortHeader@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??OnAnimSliderChanged@CDOTA_DB_Popup_EffigyEditor@@AEAA_NPEAVCPanel2D@panorama@@M@Z@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??OnArmoryTagSelectedItems@CDOTA_DB_Page_Armory@@AEAA_NXZ@_NPEAVCDOTA_UI_EconItemList@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??OnBubbleFailed@CDOTA_Popup_Dark_Carnival_Encounter_Whack_A_Mole@@AEAAXPEAVCDOTA_WhackAMole_WordBubblePanel@@@Z@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??OnEconItemHovered@CDOTA_UI_EconItemCategorizedList@@IEAA_NPEAVCPanel2D@panorama@@_N@Z@_NPEAVCDOTA_UI_EconItem@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??OnFacetSelected@CDOTA_UI_Hero_Facet_Picker@@AEAA_NVHeroFacetKey_t@@@Z@_NPEAVCPanel2D@panorama@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??OnInitializedFromLayout@CDOTA_DB_Frontpage_Seasonal_Rewards@@MEAAXXZ@_NPEAVCDOTA_UI_EconSetPreview@@@std@@
@@ -21107,6 +21081,7 @@ $hRh
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??RequestItemSearch@CDOTA_DB_Page_Collection@@IEAAXAEBV?$shared_ptr@VCEconItemSearch@@@std@@@Z@XAEBVCEconItemSearch@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??Restart@CNewParticleEffect@@QEAAXXZ@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??ScheduleUpdateHeroPreviewScene@CDOTA_UI_ShowcaseItem@@AEAAXXZ@X$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??ScorePoints@CDOTA_Popup_Dark_Carnival_Encounter_Whack_A_Mole@@AEAAXPEAVCDOTA_WhackAMole_WordBubblePanel@@@Z@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??ScrollToCurrentScore@CDOTA_UI_RubickArcanaProgress@@QEAAXXZ@_NPEAVCPanel2D@panorama@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??SelectAll@CDOTA_UI_EconItemCategorizedList@@QEAAXXZ@_NPEAVCDOTA_UI_EconItemList@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??SelectAllInWindowRectangle@CDOTA_UI_EconItemCategorizedList@@QEAAXMMMM@Z@_NPEAVCDOTA_UI_EconItem@@@std@@
@@ -21144,6 +21119,7 @@ $hRh
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??ShowForUnit@CDOTA_HUD_Tooltip_NeutralCrafting@@QEAAXPEAVC_DOTA_BaseNPC@@@Z@XPEAVCPanel2D@panorama@@H@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??ShowPowerUpChoices@CDOTA_DB_Popup_BP_Crownfall_Encounter_Survivors@@AEAAXXZ@PEAVCPanel2D@panorama@@H@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??StartGame@CDOTA_DB_Popup_BP_Crownfall_Encounter_Flappy_Skywrath@@AEAAXXZ@X$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??StartGame@CDOTA_Popup_Dark_Carnival_Encounter_Whack_A_Mole@@QEAAXXZ@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??StopEmission@CNewParticleEffect@@QEAAX_N000@Z@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??StreamEntitiesToFile@CEntity2SaveRestore@@AEAA_NPEAVCSaveRestoreHostData@@AEBUSaveStreamInfo_t@@AEBUSPAWNGROUP_HEADER@@@Z@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??TryToPreserveJoyFocusScreenPosition@@YAXV?$Vec2D@M@@PEAVCPanel2D@panorama@@@Z@_NPEAV45@@std@@
@@ -21155,7 +21131,6 @@ $hRh
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??UpdateAnalysisColumnsData@CDOTA_DB_Page_ProfileBattleStats@@AEAAXPEAVCPanel2D@panorama@@AEBV?$CUtlVector@W4EBattleReportSort@@HV?$CUtlVectorMemory_Growable@W4EBattleReportSort@@H$0A@@@@@AEBV?$CUtlOrderedMap@W4EBattleReportSort@@UBattleReportMinMaxStats_t@@V?$CDefLess@W4EBattleReportSort@@@@H@@AEBURoleReport_t@@@Z@XPEAV45@H@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??UpdateAnalysisColumnsHeader@CDOTA_DB_Page_ProfileBattleStats@@AEAAXPEAVCPanel2D@panorama@@AEBV?$CUtlVector@W4EBattleReportMatchSort@@HV?$CUtlVectorMemory_Growable@W4EBattleReportMatchSort@@H$0A@@@@@AEBV?$CUtlVector@U?$BattleReportSortDirection_t@W4EBattleReportMatchSort@@@@HV?$CUtlVectorMemory_Growable@U?$BattleReportSortDirection_t@W4EBattleReportMatchSort@@@@H$0A@@@@@@Z@XPEAV45@H@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??UpdateAnalysisColumnsHeader@CDOTA_DB_Page_ProfileBattleStats@@AEAAXPEAVCPanel2D@panorama@@AEBV?$CUtlVector@W4EBattleReportSort@@HV?$CUtlVectorMemory_Growable@W4EBattleReportSort@@H$0A@@@@@AEBV?$CUtlVector@U?$BattleReportSortDirection_t@W4EBattleReportSort@@@@HV?$CUtlVectorMemory_Growable@U?$BattleReportSortDirection_t@W4EBattleReportSort@@@@H$0A@@@@@@Z@XPEAV45@H@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??UpdateBackgroundTent@CDOTA_UI_DarkCarnival_Overworld_Map@@AEAAXXZ@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??UpdateBackgrounds@CDOTA_DB_Popup_ShowcaseAddItem_V2@@AEAAXXZ@PEAVCPanel2D@panorama@@PEAV45@HPEAV45@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??UpdateBingoPanel@CDOTA_DB_Background_BP_International2023@@AEAAXPEBVCDOTAEventDefinition@@PEBVCDOTAEventUserData@@@Z@PEAVCPanel2D@panorama@@H@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?1??UpdateBingoPanel@CDOTA_DB_Background_BP_International2024@@AEAAXPEBVCDOTAEventDefinition@@PEBVCDOTAEventUserData@@@Z@PEAVCPanel2D@panorama@@H@std@@
@@ -21290,6 +21265,7 @@ $hRh
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?3??UpdateControls@CDOTA_UI_ContextMenu_HeroSetPicker@@AEAAXXZ@XPEAVCDelayLoadPanel@panorama@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?3??UpdateRowEmptyStates@CDOTA_Hud_QuickBuy@@AEAAXXZ@_NPEAVCDOTA_UI_ShopItem@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?3??UpdateScenePanelsForZoomState@CDOTA_DB_Page_TreasureDetails@@AEAAXXZ@_NPEAVCDOTA_UI_ScenePanel@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?4???R1?1??ScorePoints@CDOTA_Popup_Dark_Carnival_Encounter_Whack_A_Mole@@AEAAXPEAVCDOTA_WhackAMole_WordBubblePanel@@@Z@QEBA@XZ@XPEAVC_PortraitWorldUnit@@_N@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?4???R<lambda_2>@?L@??UpdateDirtyPanel@CDOTA_UI_Hero_Overworld_Tokens@@UEAAXXZ@QEBA@PEAVCPanel2D@panorama@@H@Z@PEAVCDOTA_UI_OverworldToken@@H@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?4??Dispatch@C_TEUnitAnimation@@QEAAXAEBVCDOTAUserMsg_TEUnitAnimation_t@@@Z@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?4??Dispatch@C_TEUnitAnimationEnd@@QEAAXAEBVCDOTAUserMsg_TEUnitAnimationEnd_t@@@Z@X$$V@std@@
@@ -21307,11 +21283,13 @@ $hRh
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?4??PreRender@C_EnvCombinedLightProbeVolume@@MEAA_NVCSplitScreenSlot@@@Z@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?4??PreRender@C_EnvLightProbeVolume@@MEAA_NVCSplitScreenSlot@@@Z@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?4??Speak@CDOTA_UI_WraithKingHeroMap@@AEAAXVHeroID_t@@@Z@X$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?4??TogglePaused@CDOTA_Popup_Dark_Carnival_Encounter_Whack_A_Mole@@AEAAXXZ@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?4??UpdateAbilityIcon@CDOTA_UI_EconItem_Animated@@AEAAXXZ@XPEBVCAssetModifier@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?4??UpdateItemPreview@CDOTA_DB_Page_StorePlus@@AEAAXXZ@PEAVCPanel2D@panorama@@H@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?4??UpdateObjectivesLog@CDOTA_DB_Popup_BP_Crownfall_Encounter_Survivors@@AEAAXXZ@PEAVCPanel2D@panorama@@H@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?4??UpdateTPfxRewards@CDOTA_DB_Page_BP_International2023_Rewards@@AEAAXPEBVCDOTAEventDefinition@@PEBVCDOTAEventUserData@@@Z@_NPEAVCPanel2D@panorama@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?4??UpdateTPfxRewards@CDOTA_DB_Page_BP_International2024_Rewards@@AEAAXPEBVCDOTAEventDefinition@@PEBVCDOTAEventUserData@@@Z@_NPEAVCPanel2D@panorama@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?5???R1?1??SelectNextWordTarget@CDOTA_Popup_Dark_Carnival_Encounter_Whack_A_Mole@@AEAAPEBUTargetWord@3@HH@Z@QEBA@AEBV?$CUtlVector@PEAUTargetWord@CDOTA_Popup_Dark_Carnival_Encounter_Whack_A_Mole@@HV?$CUtlVectorMemory_Growable@PEAUTargetWord@CDOTA_Popup_Dark_Carnival_Encounter_Whack_A_Mole@@H$0A@@@@@_N@Z@_NPEAVCDOTA_WhackAMole_WordBubblePanel@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?5??BuildCurrentSearchQuery@CDOTA_DB_Page_StoreBrowse@@EEAAPEAVCEconItemSearchQuery@@XZ@_NPEAVCRadioButton@panorama@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?5??DisplayAssetModifiers@CDOTA_DB_Page_Diretide_TreasureDetails@@AEAAHPEBVCDOTAItemDefinition@@@Z@XPEBVCAssetModifier@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?5??DisplayAssetModifiers@CDOTA_DB_Page_Tier_Treasure_Details@@AEAAHPEBVCDOTAItemDefinition@@@Z@XPEBVCAssetModifier@@@std@@
@@ -21341,9 +21319,12 @@ $hRh
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?8??TutorialHighlight@CDOTA_UI_BP_International2023_Fantasy_Period@@AEAAXPEBD@Z@_NPEAVCPanel2D@panorama@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?8??TutorialHighlight@CDOTA_UI_BP_International2024_Fantasy_Period@@AEAAXPEBD@Z@_NPEAVCPanel2D@panorama@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?8??TutorialHighlight@CDOTA_UI_International2025_Fantasy_Period@@AEAAXPEBD@Z@_NPEAVCPanel2D@panorama@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?8??UpdateBackgroundTent@CDOTA_UI_DarkCarnival_Overworld_Map@@AEAAXXZ@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?9???R<lambda_2>@?L@??CreateSubPages@CDOTA_DB_Page_Glossary@@AEAAXXZ@QEBA@PEAVCLabel@panorama@@@Z@_NPEAV56@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?9??BuildAssetModifierContainer@CItemGeneration@@QEAAXPEAVCAssetModifierContainer@@HPEAPEAVC_EconItemView@@@Z@XPEBVCAssetModifier@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?9??CreateNewViewerList@CDOTA_DB_Page_Collection@@IEAAX_N@Z@_NPEAVCDelayLoadList@panorama@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?9??OnBubbleCompleted@CDOTA_Popup_Dark_Carnival_Encounter_Whack_A_Mole@@AEAAXPEAVCDOTA_WhackAMole_WordBubblePanel@@@Z@X$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?9??OnKeyTyped@CDOTA_Popup_Dark_Carnival_Encounter_Whack_A_Mole@@UEAA_NAEBUKeyData_t@panorama@@@Z@_NPEAVCDOTA_WhackAMole_WordBubblePanel@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?9??UpdateDirtyPanel@CDOTA_DB_Background_DarkCarnival@@UEAAXXZ@PEAVCDOTA_UI_OverworldToken@@H@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?9??UpdateDirtyPanel@CDOTA_DB_Page_International2025_Talent@@EEAAXXZ@XPEAVCPanel2D@panorama@@H@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?9??UpdateDirtyPanel@CDOTA_UI_MonsterHunterMaterialInventory@@UEAAXXZ@PEAVCDOTA_UI_MonsterHunterMaterial@@H@std@@
@@ -21570,6 +21551,7 @@ $hRh
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?GC@??UpdateSelectedItemDetails@CDOTA_DB_Page_TreasureDetails@@AEAAXXZ@PEAVCRadioButton@panorama@@H@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?JF@??Update@CDOTA_UI_Tooltip_EconItem@@AEAAXVHeroID_t@@@Z@XPEBVCAssetModifier@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?L@??EventCraftingInputFilled@CDOTA_DB_CraftingInputGroup@@AEAA_NPEAVCPanel2D@panorama@@_N@Z@_NPEAVCDOTA_DB_CraftingInputSlot@@@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?L@??EventFrameUpdate@CDOTA_Popup_Dark_Carnival_Encounter_Whack_A_Mole@@QEAAXXZ@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?L@??FireEventsOnBodyMovementAsync@CPathSimple@@UEAAXIAEBVVectorWS@@0AEAV?$CUtlLeanVector@V?$function@$$A6AXXZ@std@@HVCMemAllocAllocator@@@@@Z@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?L@??OnClientSideAnimCycleReset@C_BaseAnimatingController@@AEAAXPEAVCEntityInstance@@PEBH@Z@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?L@??OnShowSubpageWithIndex@CDOTA_DB_Page_Glossary@@AEAAXPEBDH@Z@_NPEAVCRadioButton@panorama@@@std@@
@@ -21636,6 +21618,7 @@ $hRh
 .?AV?$_Func_impl_no_alloc@V<lambda_2>@?1??CreateAttackProjectile@CSurvivorsPowerUp_ProjectileAttack@@IEAA_NAEAV?$CUtlVector@VSurvivorsUnitID_t@@HV?$CUtlVectorMemory_Growable@VSurvivorsUnitID_t@@H$0A@@@@@W4ESurvivorsAttackTargeting@@_NHVVectorWS@@2@Z@XPEAVCSurvivorsUnit@@PEAVCSurvivorsProjectile@@AEAVCSurvivorsGame@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_2>@?1??EventDOTAMonsterHunterRerollInvestigations@CDOTA_DB_Page_MonsterHunter_InvestigationSimulator@@AEAA_NXZ@_NPEAVCTextButton@panorama@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_2>@?1??FillOutAbilityTooltipV2_SetAttributeDetails@@YAXPEAVCDotaMsgStructuredTooltipProperties_Attribute@@AEBVIDotaAbilityContext@@PEBUDOTASpecialAbility_t@@PEBD@Z@XHM@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_2>@?1??GameOver@CDOTA_Popup_Dark_Carnival_Encounter_Whack_A_Mole@@QEAAXXZ@_NPEAVCDOTA_WhackAMole_WordBubblePanel@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_2>@?1??GenerateScore@CDOTA_DB_Popup_BP_Crownfall_Encounter_Fishing@@AEAAXAEBUDOTAFishingGameFishRecord_t@@H@Z@XPEAVCPanel2D@panorama@@H@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_2>@?1??InitCarouselItems@CDOTA_DB_Page_DarkCarnival_Store@@AEAAXXZ@XPEAVCPanel2D@panorama@@H@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_2>@?1??InitPhysicsShape@CGenericShapeProxy@@QEAAXPEBVIPhysicsShape@@AEBVCTransform@@URnShapeConvexId_t@@@Z@XAEBURnCapsule_t@@@std@@
@@ -21763,6 +21746,7 @@ $hRh
 .?AV?$_Func_impl_no_alloc@V<lambda_2>@?BH@??SimulateMeteorModifier@CSurvivorsGame@@QEAAXM@Z@XPEAVCSurvivorsUnit@@PEAVCSurvivorsProjectile@@AEAV3@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_2>@?BI@??Initialize@CDOTA_UI_Visual_Novel@@QEAAXPEBVCDOTAVisualNovel@@PEBUDOTAVisualNovelDialogue_t@@@Z@XPEAVCPanel2D@panorama@@H@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_2>@?BL@??UpdateDirtyPanel_TI@CDOTA_Widget_Watch_DPC_Standings@@AEAAXXZ@XPEAVCPanel2D@panorama@@H@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_2>@?BM@??EventFrameUpdate@CDOTA_Popup_Dark_Carnival_Encounter_Whack_A_Mole@@QEAAXXZ@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_2>@?BN@??BSetProperties@CDOTA_PurchaseBattlePassReward@@EEAA_NAEBV?$CUtlVector@UParsedPanelProperty_t@panorama@@HV?$CUtlVectorMemory_Growable@UParsedPanelProperty_t@panorama@@H$0A@@@@@@Z@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_2>@?BN@??UpdateDirtyPanel_DPC@CDOTA_Widget_Watch_DPC_Standings@@AEAAXXZ@XPEAVCPanel2D@panorama@@H@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_2>@?CD@???R<lambda_7>@?1??UpdateDirtyPanel@CDOTA_UI_MonsterHunter_RewardDetails@@UEAAXXZ@QEBA@PEAVCPanel2D@panorama@@H@Z@XPEAV56@H@std@@
@@ -21784,6 +21768,7 @@ $hRh
 .?AV?$_Func_impl_no_alloc@V<lambda_2>@?L@??UpdateNeutralItemsState@CDOTA_Hud_Shop@@AEAAXH@Z@XPEAVCPanel2D@panorama@@H@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_2>@?M@??OnShowSubpageWithIndex@CDOTA_DB_Page_Glossary@@AEAAXPEBDH@Z@_NPEAVCPanel2D@panorama@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_2>@?O@??FireEventsOnBodyMovementAsync@CPathSimple@@UEAAXIAEBVVectorWS@@0AEAV?$CUtlLeanVector@V?$function@$$A6AXXZ@std@@HVCMemAllocAllocator@@@@@Z@X$$V@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_2>@?O@??UpdateBackgroundTent@CDOTA_UI_DarkCarnival_Overworld_Map@@AEAAXXZ@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_2>@?P@??EventOverviewHeroExpandSlot@CDOTA_DB_Page_Post_Game@@AEAA_NVGCPlayerSlot_t@@@Z@_NPEAVCDOTA_DB_Page_Post_Game_Overview_Hero@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_30>@?$PulseBindingResourceHandleTraits_t@V?$CWeakHandle@UInfoForResourceTypeCChoreoSceneResource@@@@@@VCPulseValueFullType@@$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_31>@?$PulseBindingResourceHandleTraits_t@V?$CWeakHandle@UInfoForResourceTypeCChoreoSceneResource@@@@@@I$$V@std@@
@@ -27961,6 +27946,7 @@ $hRh
 .?AVCDOTA_Popup_DarkCarnival_Encounter_SlarkJailbreak@@
 .?AVCDOTA_Popup_Dark_Carnival_Encounter_Blimp_Jump@@
 .?AVCDOTA_Popup_Dark_Carnival_Encounter_Crate_Drop@@
+.?AVCDOTA_Popup_Dark_Carnival_Encounter_Whack_A_Mole@@
 .?AVCDOTA_Popup_Dark_Carnival_How_To_Play@@
 .?AVCDOTA_Popup_Dark_Carnival_Rewards@@
 .?AVCDOTA_Popup_International2025_FantasyChoice@@
@@ -28504,6 +28490,8 @@ $hRh
 .?AVCDOTA_Visual_Novel_Popup_Button@@
 .?AVCDOTA_WatchTower_ChannelBar@@
 .?AVCDOTA_WeekendTourneyStatusPanel@@
+.?AVCDOTA_WhackAMoleGameEffectsEntity@@
+.?AVCDOTA_WhackAMole_WordBubblePanel@@
 .?AVCDOTA_Widget_Comp_TI10_Schedule@@
 .?AVCDOTA_Widget_Learn_Scenario@@
 .?AVCDOTA_Widget_Watch_DPC_Game_Details@@
@@ -36961,7 +36949,7 @@ $hRh
 .bmxz
 .dotaunitorder_t
 .dx_LV9
-.eBm_fog
+.eBCLogicalEntity
 .google.protobuf.Any*.\n
 .google.protobuf.EnumValue
 .google.protobuf.Field
@@ -37132,8 +37120,7 @@ $hRh
 0234
 02V8[
 05=k
-08@HR`
-08B`
+08@J
 08bX
 09,h
 0:%02d
@@ -37551,9 +37538,9 @@ $hRh
 2013-01-01
 2022_diretide_collectors_cache
 2025_cta_collectors_cache_voting
+20B6
 20t\f
 20x9
-20z1
 21.CMsgClientToGCBingoGetUserDataResponse.EResponse
 21.CMsgClientToGCBingoShuffleCardResponse.EResponse"
 21.CMsgClientToGCDotaLabsFeedbackResponse.EResponse"
@@ -37876,8 +37863,7 @@ $hRh
 2\r.ELeaguePhase
 2\rlhp
 2\vp!d
-2\vp$7
-2\vpx
+2\vp8
 2^pV
 2_bot
 2_mid
@@ -37891,6 +37877,8 @@ $hRh
 2nIg
 2ndry
 2p"6
+2p46
+2po=
 2prB
 3#DOTA_Hero_Selection_AllDraft_YouPicking_LosingGold
 3%3+3/353A3G3[3_3g3k3s3y3
@@ -37902,7 +37890,6 @@ $hRh
 333333
 3336696
 333?
-33S@
 35-w
 37LQ
 384B
@@ -38030,13 +38017,15 @@ $hRh
 4.CPlayer_GetMutualFriendsForIncomingInvites_Response"^
 40 40 40 196
 400.0 -400.0 -50.0
+40k=
 46936
 474E4U4W4c4i4m4
 4<Td
 4@AA
 4Ch;
+4E(0
 4F0I
-4F\vp
+4F\vP\vu
 4Mv8
 4Redirection URI provided during client registration.2
 4Zis
@@ -38390,30 +38379,38 @@ $hRh
 7sAP'
 7wKR
 7zRQ
+8!dt
 8"3hrf
+8%8s
 8&Kx
 8+Qw
 80F2<
 82\n:XPH
 851Pe
+85Ms
 89 89 89
-89@r
 8<pl
 8= zp
-8=2r
+8=hs
 8@HPZ
-8@HPZ`
+8@HPZ`j=
 8A6j
+8Bp46
 8Client ID for which to count the number of issued tokens"
+8E7s
+8EOt
+8F v
 8GZS
 8Gets the list of nicknames this user has for other users
 8If set, remove from ignore/block list instead of adding "\\n
 8If true, return tag information in the returned details.
+8M@s
 8Name of the file to use as the published file's preview.
 8SIffK5W
 8TZvrv<
 8TopArrow
-8YWs
+8Uas
+8Yms
 8\n0series_current_selection_priority_used_coin_toss
 8\n0ultimate_scepter_consumed_alchemist_bonus_health
 8\n3kKillEaterEventType_Broodmother_SpiderlingHeroKills
@@ -38468,30 +38465,30 @@ $hRh
 8\n\rnotifications
 8\n\rready_members
 8\n\rsubscribe_msg
+8\tas
 8\v8!83858A8G8K8S8W8_8e8o8q8}8
 8]Vc2
-8ans
 8ca1
 8dS2
-8eos
 8oYSBkqnngo
 8pe7?
 8q-S*]X
+8qNs
+8qet
 8sOy
 9#9%9)9/9=9A9M9[9k9y9}9
 9#DOTA_Hero_Selection_CaptainsMode_WaitingForChooseCaptain
-9&Xr
 9)PF
 9)jx
 9*VU
-92ps
 95\r9{
 969p
 9966
 9:dzGN
+9>Os
 9@Xp&
-9@dota_survivors_msg_game_log
 9B2C1229
+9Bgt
 9IGv
 9J9;6
 9N1=@
@@ -38547,6 +38544,7 @@ $hRh
 9oB#
 9q6\r#m
 9r#xV
+9~Os
 :    %i/%i (%d) full repredict\n
 :    %i/%i (%d) skip to %i restore from slot %i\n
 :    %i/%i (%i) Prediction slot %d holds command %d instead of %d!  Deleting all predictions, will full repredict\n
@@ -38558,11 +38556,12 @@ $hRh
 :    initpredictable %d:%s for %d slots\n
 : unrecognized parent "%s"\n
 :':+:1:K:Q:[:c:g:m:y:
-:0z1
+:096
 :4\n\vdescription
 :9\n\tkey_field
 :BAD OBJECT
 :Blowfish part of OpenSSL 1.0.2j  26 Sep 2016
+:CAnimGraphControllerPtr
 :EXTERNAL TYPE %s\n
 :LBN
 :NAy
@@ -38613,16 +38612,16 @@ $hRh
 :eaI
 :gN(dq
 :mIR
-:m_CBodyComponent
+:p46
 :w4v
 ;!;#;-;9;E;S;Y;_;q;{;
 ;"lY7
 ;5jNf
 ;83\v\nHBJ7
-;Close caption linger time.
 ;LGEW
 ;LeftOfFocus%d
 ;Qo0
+;Subtitles and Captions
 ;Y94<
 ;\n3ultimate_scepter_consumed_alchemist_bonus_all_stats
 ;\n6kKillEaterEventType_Antimage_SpellsBlockedWithAghanims
@@ -38890,6 +38889,7 @@ $hRh
 ========================================\n\n
 ===========\n
 ===========\nShot List\n==========\n
+=EDOTAFacetIcon
 =O?AqP
 =Q9M
 =\n8kKillEaterEventType_DeathProphet_ExorcismKillsDuringEuls
@@ -38919,7 +38919,6 @@ $hRh
 =\n\tbuildings
 =\n\tkill_type
 =\n\vPredictions
-=aghs
 =cdE
 =ff>BZU
 =trF6,#
@@ -38927,9 +38926,10 @@ $hRh
 >(Pct Games With Enemy Lane T1 Taken First
 >4|6eXg_e
 >7^0g
->@DOTAFrontpageVideoStream
+>@DOTA2025CTACollectorsCacheVotePage
 >FPct Games With Roshan Advantage (Player team killed Roshan more times)
 >HTotal Games With Roshan Advantage (Player team killed Roshan more times)
+>QUEST_HUD_TYPE_DEFAULT
 >Sem
 >WK6
 >\fDire Winrate
@@ -38990,12 +38990,13 @@ $hRh
 ??1Utf8Value@String@v8@@QEAA@XZ
 ?BloodType
 ?BooleanValue@Value@v8@@QEBA_NPEAVIsolate@2@@Z
+?CSurvivorsEnemyDefinition_Pillar
 ?Call@Function@v8@@QEAA?AV?$MaybeLocal@VValue@v8@@@2@V?$Local@VContext@v8@@@2@V?$Local@VValue@v8@@@2@HQEAV52@@Z
 ?CreateHandle@HandleScope@v8@@KAPEA_KPEAVIsolate@internal@2@_K@Z
-?DOTABPCrownfallEncounterRipplesInTheDark
-?DOTAHeroGuideEdit
-?DOTAItemCollectible
-?DOTAPopupOverwatchReport
+?DOTABPInternational2022SwagBagSummary
+?DOTAInternational2024BingoRerollSquare
+?DOTALargeModelPreviewLoaded
+?DOTAQuickSearchClear
 ?DisposeGlobal@api_internal@v8@@YAXPEA_K@Z
 ?Enter@Context@v8@@QEAAXXZ
 ?Enter@Isolate@v8@@QEAAXXZ
@@ -39015,9 +39016,11 @@ $hRh
 ?HAI\t81\t9dcG'
 ?HP4
 ?HasCaught@TryCatch@v8@@QEBA_NXZ
-?Jul  8 2026
+?Jul 22 2026
 ?NumberEntryIncrementValue
 ?ParseEXRHeaderFromMemory() failed! Error message: %s\n
+?PopupFantasyCraftHelp
+?PopupFriendPicker
 ?The most recent last-played time the client already knows about"
 ?VBH;
 ?\n:kKillEaterEventType_Antimage_SpellsBlockedWithCounterspell
@@ -39049,8 +39052,8 @@ $hRh
 ?ffffff
 ?gwL
 ?jOb
+?m_unPhysicsBodyID
 ?open
-?sf_loadout_rotate_frametime_multiplier
 ?srJO
 ?streamonly=1
 ?t=0m5s
@@ -39058,16 +39061,16 @@ $hRh
 ?uWS
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
+@08ND
 @0pp
 @333333)@R
 @888
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
-@@DOTAActiveFriends
+@@ti13_live_video_fake_timestamp
 @BH]f
 @BoneSetup
-@CDOTA_Modifier_LegionCommander_Intimidate
 @DebugIndividualStyle
-@HPX`hv
+@HPX`hv`Y
 @HPXf
 @Integer overflow in %s
 @MfKZ
@@ -39786,6 +39789,7 @@ ActiveSeason
 ActiveSecondaryTab1
 ActiveSection
 ActiveStage
+ActiveTarget
 ActiveTeam
 ActiveTitle
 ActiveTrade
@@ -40697,6 +40701,7 @@ B-409
 B-571
 B-Spline
 B.z\85p
+B0j=
 B2I_DSS
 B2I_RSA
 B2pr
@@ -40727,6 +40732,7 @@ BAsyncSend
 BAsyncSendProto
 BC (default)
 BCanSeeInParentScroll
+BDOTAMMSimulationStart
 BEOS_BIND_FUNC
 BEOS_BIND_VAR
 BEOS_LOAD
@@ -40895,6 +40901,7 @@ B\n\tfavorites
 B\n\venum_result
 B\np\t0
 B\vP\n0
+B\vP\vu
 B\vp\n0
 B\vp\nP
 B_txt
@@ -41381,6 +41388,7 @@ BoxFinished
 BoxFocused
 BoxIdle
 BoxOpening
+Bpn=
 Bracket
 Bracket%d
 BracketBoxContainer
@@ -41396,7 +41404,6 @@ BranchActive
 BranchChosen
 BranchEndNode
 BrandPanel
-Brazilian
 BreakButton
 BreakButtonContainer
 BreakCreateParticle
@@ -41405,6 +41412,7 @@ BreakableContentsParticleOverride
 BreakableContentsPropGroupOverride
 BreakableContentsType
 Breakables
+BreakdownsLoading
 BreakdownsVisible
 Breaks in the debugger
 BrightControlText
@@ -41514,7 +41522,6 @@ Buildings
 BuildsAtMainShop
 BuildsAtSecretShop
 BuildsAtSideShop
-Bulgarian
 BulletBy.Subsonic
 BulletBy.Supersonic.Crack
 BulletProof
@@ -41665,8 +41672,8 @@ C:\buildworker\source2_dota_rel_2019_win64\build\src\game\client\dota\panorama\d
 C:\buildworker\source2_dota_rel_2019_win64\build\src\game\client\dota\panorama\dota_db_custom_lobby_list.cpp
 C:\buildworker\source2_dota_rel_2019_win64\build\src\game\client\dota\panorama\dota_db_lobby_browser_instance.cpp
 C:\buildworker\source2_dota_rel_2019_win64\build\src\game\client\dota\panorama\dota_db_play.cpp
-C:\buildworker\source2_dota_rel_2019_win64\build\src\game\client\dota\panorama\dota_db_play.cpp:5127
-C:\buildworker\source2_dota_rel_2019_win64\build\src\game\client\dota\panorama\dota_db_play.cpp:5174
+C:\buildworker\source2_dota_rel_2019_win64\build\src\game\client\dota\panorama\dota_db_play.cpp:5125
+C:\buildworker\source2_dota_rel_2019_win64\build\src\game\client\dota\panorama\dota_db_play.cpp:5172
 C:\buildworker\source2_dota_rel_2019_win64\build\src\game\client\dota\panorama\dota_event_user_data.cpp
 C:\buildworker\source2_dota_rel_2019_win64\build\src\game\client\dota\panorama\dota_event_user_data.h
 C:\buildworker\source2_dota_rel_2019_win64\build\src\game\client\dota\panorama\dota_guide_controller.cpp
@@ -42632,7 +42639,7 @@ CDOTAStoreController::RequestStoreData failed\n
 CDOTAStructuredReticleBuilder::ApplyEffects
 CDOTASurvivorsGameSystem
 CDOTATeamsController::SaveCachedTeamInfo
-CDOTATormentorTimer
+CDOTATooltipHeroAllAttributes
 CDOTATournament
 CDOTATriviaController::SubmitTriviaAnswer
 CDOTATrophyGameSystem
@@ -46023,7 +46030,6 @@ C\n\tnicknames
 C\n\vhero_badges
 C\n\votherentity
 C\tD\vD
-C\tV_isbreakablewspace32
 C\tr9rW
 C\v=33
 C_BaseAnimating::InitBoneSetupThreadPool
@@ -48099,7 +48105,6 @@ CustomizeSound
 CutToDefaultCamera
 Cycle: %.5f (%.5f)
 CycleButton
-Czech
 D"bu
 D#D)D;D?DEDKDQDSDYDeDoD
 D(n%6
@@ -48140,9 +48145,9 @@ DDB_Promo_Column
 DDB_Promo_Release
 DDB_Promo_Teaser
 DDB_Promo_Trailer
-DDOTAAbilityImage
-DDOTAHeroRelicsPurchaseRandomRelic
-DDOTATooltipEventGoal
+DDOTAAbilityBuild
+DDOTAEquipHeroSet
+DDOTATooltipDarkCarnivalHeroHighlighter
 DEADLINE_EXCEEDED
 DEAFENINGBLAST
 DEBRIS
@@ -48297,7 +48302,6 @@ DOF2 Coc
 DOF2 Final
 DOTA10thAnniversaryEventClaimReward
 DOTA10thAnniversaryTreasureDetails
-DOTA2025CTACollectorsCacheVotePage
 DOTA2025CTATreasureVotingChangePreviewOption
 DOTA2025CTATreasureVotingDemoSelectedItem
 DOTA2025CTATreasureVotingIncrementSelectedItem
@@ -48312,7 +48316,6 @@ DOTAAbandonConfirm()
 DOTAAbilities
 DOTAAbilitiesAndItems
 DOTAAbilityBarSettings
-DOTAAbilityBuild
 DOTAAbilityBuildAbilitySelected
 DOTAAbilityBuildStatBranchSelected
 DOTAAbilityButton
@@ -48332,6 +48335,7 @@ DOTAAbilityDraftShowHeroTooltip
 DOTAAbilityGuideBuilder
 DOTAAbilityGuideViewer
 DOTAAbilityIds
+DOTAAbilityImage
 DOTAAbilityList
 DOTAAbilityPanel
 DOTAAbilityTooltip
@@ -48365,6 +48369,7 @@ DOTAActivateOverworld
 DOTAActivateSetImage
 DOTAActiveFriendLobby
 DOTAActiveFriendParty
+DOTAActiveFriends
 DOTAAddEconItemToCollection
 DOTAAddEconItemToShuffle
 DOTAAddFriendSearchClicked
@@ -48487,6 +48492,7 @@ DOTABPCrownfallEncounterItsDangerousPopup
 DOTABPCrownfallEncounterMinigamePopup
 DOTABPCrownfallEncounterPitFighterPopup
 DOTABPCrownfallEncounterRikiCommonBlade
+DOTABPCrownfallEncounterRipplesInTheDark
 DOTABPCrownfallEncounterShmupPopup
 DOTABPCrownfallEncounterSimpleCustomPopup
 DOTABPCrownfallEncounterStickerVendor
@@ -48564,7 +48570,6 @@ DOTABPInternational2022StickerStorePage
 DOTABPInternational2022StickersPage
 DOTABPInternational2022SwagBagItemPage
 DOTABPInternational2022SwagBagPage
-DOTABPInternational2022SwagBagSummary
 DOTABPInternational2022TalentComingSoonPage
 DOTABPInternational2022TreasureVotingChangePrimarySlotIndex
 DOTABPInternational2022TreasureVotingDemoSelectedItem
@@ -48966,7 +48971,6 @@ DOTACollectionShardsSetState
 DOTACollectionShowItem
 DOTACollectionShowTreasuryCategory
 DOTACollectionSortByChanged
-DOTACollectionStickerCapsules
 DOTACollectionTabActivated
 DOTACollectionTabButtonChanged
 DOTACollectionToggleExpandedView
@@ -49329,6 +49333,7 @@ DOTADailyHeroQuestStatus
 DOTADailyWeeklyChallengesUpdated
 DOTADamageItemClicked
 DOTADarkCarnivalBlimpJumpExit
+DOTADarkCarnivalBlimpJumpForcePause
 DOTADarkCarnivalBlimpJumpRecordScore
 DOTADarkCarnivalButton
 DOTADarkCarnivalCandyShopOpenBag
@@ -49344,6 +49349,7 @@ DOTADarkCarnivalEncounterCrateDrop
 DOTADarkCarnivalEncounterFortuneTeller
 DOTADarkCarnivalEncounterLockpickingPopup
 DOTADarkCarnivalEncounterMinigamePopup
+DOTADarkCarnivalEncounterWhackAMole
 DOTADarkCarnivalFeedbackPopupSubmit
 DOTADarkCarnivalFortuneTellerAlreadyHasFortune
 DOTADarkCarnivalFortuneTellerClaimFortuneReward
@@ -49536,6 +49542,7 @@ DOTAEconItemAnimatedToggleAudioPreview
 DOTAEconItemAnimatedToggleShuffle
 DOTAEconItemAnimatedUpdateScene
 DOTAEconItemBase
+DOTAEconItemBasePage
 DOTAEconItemCategorizedList
 DOTAEconItemContextUIHeader
 DOTAEconItemDiretide
@@ -49601,7 +49608,6 @@ DOTAEncounterTick
 DOTAEquipCompleted
 DOTAEquipEconItem
 DOTAEquipEconItemOnHero
-DOTAEquipHeroSet
 DOTAEquipSelectedEconItems
 DOTAEquipSelectedTreasureItem
 DOTAEquipSet
@@ -49807,6 +49813,7 @@ DOTAFrontpageTopLive
 DOTAFrontpageTopLiveActivate
 DOTAFrontpageTrueSightButton
 DOTAFrontpageTruesightUpdate
+DOTAFrontpageVideoStream
 DOTAFrontpageVideoStreamTwitch
 DOTAFrontpageVideoStreamUpdate
 DOTAFrostivus2023ClaimNiceReward
@@ -50271,6 +50278,7 @@ DOTAHeroGuideBuilderTab
 DOTAHeroGuideCancel
 DOTAHeroGuideCreate
 DOTAHeroGuideDelete
+DOTAHeroGuideEdit
 DOTAHeroGuidePublish
 DOTAHeroGuidePublishAll
 DOTAHeroGuideRole
@@ -50322,6 +50330,7 @@ DOTAHeroRelicSummary
 DOTAHeroRelicTooltip
 DOTAHeroRelicsDebugPage
 DOTAHeroRelicsDebugSwitchMode
+DOTAHeroRelicsPurchaseRandomRelic
 DOTAHeroRelicsThumbnail
 DOTAHeroRoles
 DOTAHeroRolesStatsUpdated
@@ -50545,7 +50554,6 @@ DOTAInternational2023ToggleSpoilerBlock
 DOTAInternational2023WelcomePopupClaimRewards
 DOTAInternational2023_Quest
 DOTAInternational2024BingoClaimRow
-DOTAInternational2024BingoRerollSquare
 DOTAInternational2024BingoShuffleCard
 DOTAInternational2024BingoSquareClicked
 DOTAInternational2024BingoUpgradeSquare
@@ -50631,6 +50639,7 @@ DOTAItemBuildToggleGuideBrowser
 DOTAItemCategoryListViewer
 DOTAItemChangeDescription
 DOTAItemChangeName
+DOTAItemCollectible
 DOTAItemExtractRareGems
 DOTAItemGuideBuilder
 DOTAItemImage
@@ -50708,7 +50717,6 @@ DOTALargeModelLoadoutLoaded
 DOTALargeModelLoadoutModelChanged
 DOTALargeModelLoadoutSetParticleColor
 DOTALargeModelPreview
-DOTALargeModelPreviewLoaded
 DOTALargeModelProcessPendingLoadoutChange
 DOTALargoSongCard
 DOTALargoUltimateRhythm
@@ -50812,7 +50820,6 @@ DOTALockpickingShowMainMenuScreen
 DOTALockpickingToggleHelpPopup
 DOTALockpickingTogglePaused
 DOTAMMSimulationReset
-DOTAMMSimulationStart
 DOTAMVP2ScreenReady
 DOTAMakeEventPurchase
 DOTAMakeTeamCaptain
@@ -50933,6 +50940,7 @@ DOTAMotionComic
 DOTAMotionComicActivate
 DOTAMotionComicCheckEnableSkip
 DOTAMotionComicComplete
+DOTAMotionComicFrameStart
 DOTAMotionComicGoToStep
 DOTAMotionComicNextStep
 DOTAMotionComicShowClickIndicator
@@ -51318,6 +51326,7 @@ DOTAPopupOverwatchCaseClose
 DOTAPopupOverwatchCaseHelp
 DOTAPopupOverwatchConvict
 DOTAPopupOverwatchPrep
+DOTAPopupOverwatchReport
 DOTAPopupOverworldMap
 DOTAPopupPlayerCardPack
 DOTAPopupPlayerCardSelect
@@ -51548,7 +51557,6 @@ DOTAQuickBuy
 DOTAQuickJoinCustomLobby
 DOTAQuickSearch
 DOTAQuickSearchActivated
-DOTAQuickSearchClear
 DOTAQuickSearchStringChanged
 DOTAQuickStats
 DOTAQuit
@@ -51586,6 +51594,7 @@ DOTARecyclePlayerCardImmediate
 DOTARecycleSelectedTreasure
 DOTARecycleSingleItem
 DOTARedirectAlliesVoiceToPrivateCoachingGroupUpdated
+DOTAReferencePage
 DOTARefreshLobbyData
 DOTARefreshLobbyList
 DOTARefreshPlayerCardDetails
@@ -51843,7 +51852,6 @@ DOTASettingsSetUnitTypeHotkeySelector
 DOTASettingsShortcutNavigateToHotkeys
 DOTASettingsShortcutNavigateToOptions
 DOTASettingsShowItemSpecificBindsPage
-DOTASettingsSlider
 DOTASettingsSubSectionHovered
 DOTASettingsToggleDirectCastBindings
 DOTASettingsTryResetAudio
@@ -51853,6 +51861,7 @@ DOTASetupCharmsWindow
 DOTASetupPlayDOTAForMatch
 DOTAShardsButton
 DOTAShardsButtonShowShardShop
+DOTAShardsMenu
 DOTAShareLobby
 DOTAShareParty
 DOTASharedContent
@@ -52205,7 +52214,6 @@ DOTAShowGlobalItemSlotItemPage
 DOTAShowGlobalItemSlotPage
 DOTAShowGlobalItemSlotTypePage
 DOTAShowGlobalItemsPage
-DOTAShowGlossaryPage
 DOTAShowGlossaryPage()
 DOTAShowGroupRegionPingsTooltip
 DOTAShowGuildBrowserPage
@@ -53001,12 +53009,12 @@ DOTATooltipCompTI10PlayerCards
 DOTATooltipCrownfallNode
 DOTATooltipCustomGame
 DOTATooltipDarkCarnivalFortuneTellerStoryNode
-DOTATooltipDarkCarnivalHeroHighlighter
 DOTATooltipDarkCarnivalNode
 DOTATooltipDarkCarnivalStorePurchaseAll
 DOTATooltipDashboardTip
 DOTATooltipDroppedItem
 DOTATooltipEconItem
+DOTATooltipEventGoal
 DOTATooltipFantasy2025Title
 DOTATooltipFriendsMenu
 DOTATooltipFrostivus2023
@@ -53025,7 +53033,6 @@ DOTATooltipGuildContractsInfo
 DOTATooltipGuildGuildSummary
 DOTATooltipGuildTierInfo
 DOTATooltipHero
-DOTATooltipHeroAllAttributes
 DOTATooltipHeroAttribute
 DOTATooltipHeroCard
 DOTATooltipHeroPatchNotes
@@ -53082,6 +53089,7 @@ DOTATopFriendMatchesUpdated
 DOTATopLeagueMatchesUpdated
 DOTATopLiveGamesUpdated
 DOTATopTwitchStreamsUpdated
+DOTATormentorTimer
 DOTATotalDamageHeroClicked
 DOTATournamentBracketHighlightMatch
 DOTATournamentBracketHighlightTeam
@@ -53397,6 +53405,8 @@ DOTAWeeklyQuest_Fall2021
 DOTAWeeklyQuest_International2022
 DOTAWelcomeMessageReceived
 DOTAWhackAMeepoChoose
+DOTAWhackAMoleTogglePaused
+DOTAWhackAMoleWordPanel
 DOTAWheelLeverPull
 DOTAWheelSegment
 DOTAWheelSpin
@@ -53857,7 +53867,6 @@ DamageTypeTooltip
 DamageUnitImage
 DanceContainer
 DanielJ
-Danish
 DarkCarnivalActivateOverworld
 DarkCarnivalCandyShop
 DarkCarnivalCrateDropHPBarTicks
@@ -53899,12 +53908,15 @@ DarkCarnivalReward_itemdef_%u
 DarkCarnivalRewardsPopupSelectTab
 DarkCarnivalRingmasterVOSoundsP1
 DarkCarnivalRingmasterVOSoundsP2
+DarkCarnivalRingmasterVOSoundsP3
 DarkCarnivalShowRewardsPopup
 DarkCarnivalSimulator
 DarkCarnivalSounds
 DarkCarnivalSoundsVNPart1
 DarkCarnivalSoundsVNPart2
+DarkCarnivalSoundsVNPart3
 DarkCarnivalSoundsVOPart2
+DarkCarnivalSoundsVOPart3
 DarkCarnivalStore
 DarkCarnivalStorePurchaseAllTooltip
 DarkCarnivalTabContent
@@ -54554,6 +54566,7 @@ DisplayDropDown
 DisplayDuration
 DisplayHPQWarningPopup
 DisplayInLoadout
+DisplayLabel
 DisplayLevel3Info
 DisplayMode
 DisplayModeDropDown
@@ -55062,7 +55075,6 @@ Duration seconds exceeds limit for field:
 Dusk
 DustPurchaseFailed
 Dusted
-Dutch
 Dynamic Actor
 DynamicAtr:%s
 DynamicAttribute
@@ -55773,7 +55785,6 @@ EnemyUnit
 Engine2/LightmapUVQuery
 Engine2/NetworkEncoderOverrides
 EngineConsole
-English
 Enhancement
 EnhancementContainer
 EnhancementDetails
@@ -56194,7 +56205,6 @@ F7!z
 F9q'
 F<mb
 F?ToString@Value@v8@@QEBA?AV?$MaybeLocal@VString@v8@@@2@V?$Local@VContext@v8@@@2@@Z
-FAE_EMPTY
 FAILED_CONTEST_NOT_ACTIVE
 FAILED_EVENT_NOT_OWNED
 FAILED_INVALID_CONTEST
@@ -56246,7 +56256,6 @@ FCVAR_UNLOGGED
 FCVAR_USERINFO
 FCVAR_VCONSOLE_SET_FOCUS
 FDA~i
-FDOTAReferencePage
 FEATURED_GAMEMODE
 FEED_ALERT_FANTASY
 FEED_ALERT_PREDICTIONS
@@ -56325,6 +56334,7 @@ F\n\trow_range
 F\n\vanswer_type
 F\n\vxp_received
 F\rH'4
+F\tV_isalpha_str_fast
 Face %s
 Face Actor
 FaceDown
@@ -56806,6 +56816,7 @@ FaxMode
 FaxRecvParams
 FaxRecvTime
 FaxSubAddress
+Fdota_profile_teammate_stats_sort_priorities_old
 FeEffectName
 FeModel combiner: Too many ropes (%u) or links (%u): cannot fit sum in uint16\n
 Fear
@@ -56982,7 +56993,6 @@ Finished requesting news data\n
 FinishedAnimating
 FinishedItem
 FinishedLoading
-Finnish
 Finol
 Fire At Name
 Fire Entity's Action Input w/no data
@@ -57258,11 +57268,11 @@ FreeCam
 FreeCompleted
 FreeOffsets
 FreeSquare
+FreeStoryCompleted
 FreeTokenPopup
 Frees the specified particle index
 Freeze
 FreezeParticleInvolving
-French
 Friend %s %d keys:\n
 FriendAvatarImage
 FriendContextMenu
@@ -57628,12 +57638,15 @@ GameState_Active
 GameState_ChoosingPowerUp
 GameState_Combat
 GameState_Finished
+GameState_GameOver
 GameState_GoingToBoss
 GameState_LevelIntro
 GameState_LevelLost
 GameState_LevelSelect
 GameState_LevelWon
 GameState_Loading
+GameState_MainMenu
+GameState_Playing
 GameState_Pregame
 GameState_Setup
 GameState_ShowingDialogue
@@ -57842,7 +57855,6 @@ GenericSearchTextEntry
 GenericSubSection
 GenericTextEntryPopupButtonClicked
 GenericTextInputHandlerID
-German
 Gesture
 Gesture Slot %d(%s): %s %s(A:%s, C:%2.3f P:%2.1f W:%2.3f)\n
 Gesture Slot %d(%s): NOT ACTIVE!\n
@@ -58925,6 +58937,7 @@ H\nCk_EMsgClientToGCMonsterHunterRequestMaterialsNeededByFriendResponse
 H\n\farcana_votes
 H\n\nbattle_cup
 H\n\nmessage_id
+H\tV_isbreakablewspace32
 HadBadgeData
 HalfCreditAvailable
 HalfEarned
@@ -59146,6 +59159,7 @@ HasFlavorText
 HasFlyMovementCapability
 HasFlyingVision
 HasFocusedItem
+HasFocusedTarget
 HasFooter
 HasFortuneAvailable
 HasFriendsInLobby
@@ -60326,7 +60340,6 @@ Hull
 HullDesc_tiny
 HullDesc_tiny_centered
 Human
-Hungarian
 Hunt Rewards
 HuntReward
 HuntRewardsContainer
@@ -60671,7 +60684,6 @@ IndirectVoxelDimZ
 IndividualItem
 IndividualProgress
 IndividualRankUpdate
-Indonesian
 Ineligible
 InferenceAccessToken
 InferenceMetadata
@@ -61691,7 +61703,6 @@ IsZombie
 IsZoomedOutPeekable
 Ish'Kafel\t\t
 Issuer certificate lookup error
-Italian
 Item %d contains both a team + corporation brand which is illegal!
 Item '%s' (%u) is available in %d way(s):\n
 Item '%s' (%u) is unavailable because:\n
@@ -62011,12 +62022,10 @@ J\n\ftower_damage
 J\n\rgold_received
 J\n\rresolved_type
 J\n\toperation
-J\tV_isvalidhex
 J`KL
 JabColor
 Jackpot
 Jacques Bot
-Japanese
 JcMsnk-vSBg
 Jeff Hill
 JitterPortrait
@@ -62205,7 +62214,6 @@ KlD#
 Kochanek-Bartels
 Kochanek-Bartels Early
 Kochanek-Bartels Late
-Korean
 Krobelus \t
 KsF8
 Ksg4X
@@ -62265,7 +62273,6 @@ LZWDecodeCompat: Not enough data at scanline %d (short %ld bytes)
 LZWDecodeCompat: Wrong length of decoded string: data probably corrupted at scanline %d
 LZWPreDecode
 LZWSetupEncode
-L\f0z1
 L\nHk_ECandyShopAuditAction_DEPRECATED_EventActionGrantInventorySizeIncrease
 L\n\fincludevotes
 L\n\rcontributions
@@ -62345,6 +62352,7 @@ LargeModelTeamSelector
 LargePanelLoadingStatus
 LargeRadiantTeamIcons
 LargeStyleCount
+LargeText
 LargeToken
 LargeTreasure
 LargeVotingBoxes
@@ -62376,9 +62384,9 @@ LastReward
 LastTeamImage
 LastToPassQuery
 LastTrainCar
+LastTyped
 LastWeekBlock
 LastWeekTierProgressBar
-Latam_Spanish
 Latch Report:\n
 LatchAndSaveLastSimulationValuesForInterpolationList
 LatchAndSaveLastSimulationValuesForInterpolationList [%s] %.2fms for %d entities\n
@@ -63056,7 +63064,7 @@ MBb!\v
 MD5 part of OpenSSL 1.0.2j  26 Sep 2016
 MD5-SHA1
 MDC2
-MDOTAShardsMenu
+MDOTASettingsSlider
 MDebugSnapshotDataRenderFn
 MDebugSnapshotDataSummaryFn
 MEATHOOK
@@ -63156,7 +63164,6 @@ MZL}
 M\n\fachievements
 M\n\tgame_type
 M\rLAI)haL<|p\t\t
-M\tV_iswcntrl
 M\vOj
 MaNia 
 Mabel Bot
@@ -64153,7 +64160,6 @@ N[Ox
 N[iY 
 N\n\fredirect_uri
 N\n\fsingle_value
-N\tV_iswdigit
 N\v7e_
 N_U9203
 N`UaK
@@ -64366,6 +64372,7 @@ NextCaptainActionIsBan
 NextCaptainActionIsSelect
 NextCycle
 NextDailyWinCountdown
+NextGrapheme
 NextHeroIcon
 NextHeroLevelChatWheelReward
 NextHeroLevelCurrencyReward
@@ -64503,6 +64510,7 @@ NoAnswer
 NoAttack
 NoAttempts
 NoBans
+NoBlackBar
 NoBonus
 NoBorder
 NoBuyInFreeWeekend
@@ -64640,6 +64648,7 @@ NoTransition
 NoTransitions
 NoTreasuresOwned
 NoTrophy
+NoTypewriterCursor
 NoUnitCollision
 NoUpgrade
 NoUpgradeSnippet
@@ -64724,7 +64733,6 @@ Normalize Vector a
 Normalized
 Normally false. If true, use fast zoom unless explicitly told not to.
 North
-Norwegian
 Not After: 
 Not Before: 
 Not Found!
@@ -64947,6 +64955,7 @@ O\n\nbattle_cup
 O\n\vinvite_sent
 O\n\vpredictions
 O\r5x
+O\tV_isvalidhex
 O_yG|
 Oakley-EC2N-3
 Oakley-EC2N-4
@@ -65579,13 +65588,16 @@ P-224
 P-256
 P-384
 P-521
-P08J {1
+P08@J
+P08J
+P08ND
 P0WonMatch
 P1Avatar
 P1WonMatch
 P1\t98"
 P2Avatar
 P2P ping to "%s". Timed out after %.2fms\n
+P4P'=
 P5[1
 PAGN_4
 PAGrave
@@ -65608,6 +65620,7 @@ PARTY_MEMBER_IN_ANOTHER_GAME
 PARTY_MEMBER_IN_LOW_PRIORITY
 PASSABLE
 PATHBYADDR
+PApY
 PBE-MD2-DES
 PBE-MD2-RC2-64
 PBE-MD5-DES
@@ -66802,7 +66815,6 @@ PointsUp
 PointsValue
 Policy Qualifier CPS
 Policy Qualifier User Notice
-Polish
 Polynomial:
 Poogie1
 Poogie2
@@ -66853,12 +66865,10 @@ PopupEconItemPicker
 PopupEnableButtons
 PopupEventDungeonLeaderboards
 PopupFantasyCraftChoice
-PopupFantasyCraftHelp
 PopupFantasyCraftTitle
 PopupFightingGameChallenge
 PopupFightingGameChallengeSent
 PopupFrame
-PopupFriendPicker
 PopupFrostivus2024Story
 PopupGeneric
 PopupGenericDropDown
@@ -67024,7 +67034,6 @@ PortraitSpecularPower
 PortraitStreakParticle
 PortraitView
 PortraitVignetteItem
-Portuguese
 Pose Evaluation Report:\n
 Position
 Position: %0.3f, %0.3f, %0.3f\n
@@ -67558,7 +67567,6 @@ Q\n\vPlayerUsage
 Q\n\vin_wishlist
 Q\n\vincludetags
 Q\n\vplayed_ever
-Q\tV_iswspace
 Q`uV
 Qdsma
 Qjh/T
@@ -67736,6 +67744,7 @@ R Sqrt
 R(Optional) If true, only return the total number of files that satisfy this query.
 R(Optional) Tags that must NOT be present on a published file to satisfy the query."
 R/Qs
+R0B6
 R2I_CERTPOL
 R2I_PCI
 R=1C&b
@@ -67919,16 +67928,17 @@ RTTIPredictionsUnlocked
 RTTISelected
 RTTIState
 RT_txt
-R\fpx
+R\fp8
 R\n\fActivityInfo
 R\n\fmap_variants
 R\n\fplayer_cards
 R\n\rincludekvtags
 R\n\vpredictions
 R\r1>Vp
+R\tV_iswcntrl
 R\vP!m
 R\vp!y
-R\vp$7
+R\vpd
 R]Di
 R_T5Y
 Rad Guys
@@ -68581,7 +68591,7 @@ RequestActionScoreByName
 RequestCoach
 RequestLastMatch
 RequestMatchMetadata Job failed to find match: %llu\n
-RequestMatchMetadata job failed to decompress BZ2 file: %u\n
+RequestMatchMetadata job failed to decompress file\n
 RequestMatchMetadata job failed to download file for match: %llu\n
 RequestMatchMetadata job failed to parse CDOTAMatchMetadataFile from decompressed buffer.\n
 RequestMatchMetadataDownload job found non-matching MatchID: %llu vs %llu.\n
@@ -69030,7 +69040,6 @@ RollupEntriesList
 RollupEntry
 RollupInfo
 RollupList
-Romanian
 Room
 Room %d has an invalid node %d. Removing node.
 Room %d wants to add node %d, but that node already exists in Room %d.
@@ -69174,7 +69183,6 @@ Runs when the modifier is destroyed (after unit loses modifier).
 Runs when the modifier is destroyed (before unit loses modifier).
 Runs when the modifier is refreshed.
 Runs when the think interval occurs.
-Russian
 RxT\f0<1
 Rxy3
 Rylai \t
@@ -69218,7 +69226,6 @@ SDOTAEventRewardDefinition::operator const struct SDOTAEventRewardDefinition_Gen
 SDOTAEventRewardDefinition::operator const struct SDOTAEventRewardDefinition_GrantItemChoice &
 SDOTAEventRewardDefinition::operator const struct SDOTAEventRewardDefinition_HeroItem &
 SDOTAEventRewardDefinition::operator const struct SDOTAEventRewardDefinition_Item &
-SDOTAEventRewardDefinition::operator const struct SDOTAEventRewardDefinition_LootList &
 SDOTAEventRewardDefinition::operator const struct SDOTAEventRewardDefinition_MaxPeriodicPoints &
 SDOTAEventRewardDefinition::operator const struct SDOTAEventRewardDefinition_OverworldTokens &
 SDOTAEventRewardDefinition::operator const struct SDOTAEventRewardDefinition_PingWheel &
@@ -69486,6 +69493,7 @@ SXNET_get_id_ulong
 SXNetID
 S\n\fPlayerGrants
 S\n\ftreasure_map
+S\tV_iswdigit
 S\vQN
 Safe
 SafeLane
@@ -70040,6 +70048,8 @@ SecretAdmirerAct4GiftAvailable
 SecretRoomCell1
 SecretRoomCell2
 SecretRoomPack
+SecretRoomsPackOwnedAndCompleted
+SecretRoomsPackUnowned
 SecretShop
 SecretShopItem
 SectionButton
@@ -71380,7 +71390,6 @@ SimpleDescriptionContainerDynamic
 SimpleItem
 SimplePlaybackRate
 SimpleShop
-Simplified_Chinese
 SimulateParticles
 Simulated GC communications failure is active.\n
 Simulated GC communications failure is not active.\n
@@ -71608,7 +71617,6 @@ SourceContextProtoP
 SourceHeroImage
 SourceList
 South
-Spanish
 SparseShadowTreeGameSystem
 Spawn In Alt Loadout Only
 Spawn In Loadout Only
@@ -72469,7 +72477,6 @@ SubscribedType
 SubscriptionActivated
 SubscriptionsLabel
 SubsectionContainer
-Subtitles and Captions
 Subtle
 SubtleAnimation
 Success
@@ -72570,7 +72577,6 @@ SwagItem__Owned
 Swap
 SwapInEconSet
 SwappedChallenge
-Swedish
 SweptBox
 Switch which class the panel has for a given attribute slot. Allows easily changing between multiple states.
 SwitchClass
@@ -73177,6 +73183,7 @@ TemporaryDayNightIcon
 TemporaryDayNightTime
 TemporaryFreeCamera
 TemporaryRestrictions
+TenSecondsLeft
 Terrain
 TerrainContainer
 TerrainForegroundContainer
@@ -73815,7 +73822,6 @@ TradeUpTier__RecyclingAvailable
 TradeUpTier__Tier%d
 TradeUpTiers
 Tradeable
-Traditional_Chinese
 Trailer
 Trailer Field: 0x
 Train%d
@@ -74053,7 +74059,6 @@ Trying to set an offset on an unset node!
 Trying to store prediction history for command %d, but first slot is for command %d.  Going backwards or lurching prevents us from smoothing over prediction errors!\n
 Tu\t(OR
 TurboCheckbox
-Turkish
 Turn Off
 Turn On
 Turn a time in seconds into a display string. NOT localized.
@@ -74121,6 +74126,7 @@ Typewriter text sound event '%s' missing duration\n
 TypewriterLabel
 TypewriterLabelScheduledUpdate
 TypewriterSplitLabel
+TypingLabel
 Tz$o
 T~a@E
 U RDn
@@ -74248,11 +74254,9 @@ U\n$incoming_invite_mutual_friends_lists
 U\n\rfight_details
 U\n\tvote_type
 U\n\vActionGrant
-U\tV_localeconv
 U^Pg
 Ugi<
 UjVxfoRpJ9w
-Ukrainian
 UltLearned
 UltOnCooldown
 UltReady
@@ -74865,6 +74869,7 @@ V\n\fmap_variants
 V\n\nGameChange
 V\n\vItemCharges
 V\rKk
+V\tV_iswspace
 V_a|I
 ValidHero
 ValidSelection
@@ -74992,13 +74997,13 @@ VideoReward
 VideoSegment
 VideoTabButton
 VideoTabContent
-Vietnamese
 ViewAllButton
 ViewAllRewards
 ViewButton
 ViewDetails
 ViewEffects
 ViewEffectsGameSystem
+ViewEventButton
 ViewFavorites
 ViewGameInfo
 ViewGuildDetails
@@ -75396,6 +75401,12 @@ Western Europe
 WetPopup
 WexColor
 WfMD{
+WhackAMole_AutomatonAttack
+WhackAMole_EnemySpawn
+WhackAMole_LetterFailed
+WhackAMole_LetterSucceed
+WhackAMole_WordCompleted
+WhackAMole_WordFailed
 What panel should hold the icons for the minimap. Must be a sibling of this map. Useful if you want to have a z-index difference between terrain/icons
 What transparency the icon will display at when far from the sticky radius
 Wheel
@@ -75502,6 +75513,11 @@ WonGame
 WonLane
 WonMatch
 WonStage
+WordBubble
+WordBubbleContainer
+WordBubbleFinishTime
+WordBubbleOffsetX
+WordBubbleOffsetY
 WordFilterCache
 Work Item for Work Pool %s completed but job no longer existed to notify\n
 WorksInEventGame
@@ -75767,9 +75783,10 @@ X\n\fSearchResult
 X\n\rkilling_blows
 X\n\tGraphData
 X\tQo
-X`hr`
 Xd3h
 Xdota
+Xf y
+Xf@z
 XfJ7
 Xin \t
 XjfR
@@ -75889,7 +75906,7 @@ Z\n\fCFilterEntry
 Z\n\fPositionPair
 Z\n\fSubChallenge
 Z\n\nmap_values
-Z\tV_log2f
+Z\tV_localeconv
 Zabecki
 ZaugDragonAnimationFrameChanged
 Zd[w
@@ -76004,7 +76021,6 @@ Z~wl
 [RETURN]
 [TL] quentins
 [\n\nmap_values
-[\tV_logd
 [complete_limit]
 [dt %5.2f] velocity: %s
 [english]
@@ -76053,12 +76069,12 @@ Z~wl
 \fKS1
 \fW9c
 \fXu"L
+\f\tV_acosd
 \f]ne3
 \fdhWTh
 \fevents.proto
 \fevents.proto"
 \fiaR
-\fp\vPD
 \ful2
 \fy&3Gl
 \l:ArR
@@ -76479,6 +76495,7 @@ Z~wl
 \n/CMsgClientToGCSubmitCoachTeammateRatingResponse
 \n/CMsgDOTATeamInvite_GCImmediateResponseToInviter
 \n/steammessages_publishedfile.steamworkssdk.proto
+\n0B6
 \n0CMsgClientToGCMonsterHunterGiftMaterialsResponse
 \n0CMsgClientToGCOverworldDevClearInventoryResponse
 \n0CMsgClientToGCPlayerCardSpecificPurchaseResponse
@@ -76489,7 +76506,6 @@ Z~wl
 \n0CMsgGCToClientPurchaseFilteredPlayerSlotResponse
 \n0CMsgGCToClientRequestActiveBeaconPartiesResponse
 \n0CMsgGCtoGCAssociatedExploiterAccountInfoResponse
-\n0z1
 \n1CDOTAClientMsg_AbilitySpecificChannelRequiresHalt
 \n1CDOTAUserMsg_MonsterHunter_InvestigationGameState
 \n1CHelpRequestLogs_UploadUserApplicationLog_Request
@@ -78133,7 +78149,7 @@ Z~wl
 \n\vzoom_amount
 \ng_flConfigMaxCoord
 \ngrant_periodic_action '%s' doesn't specify an action to grant
-\nnexttoken
+\np46
 \nqYu
 \ntM(ie-V
 \nunit1: %s \nunit2: %s \nevent: %s \npriority: %d\n
@@ -78147,6 +78163,7 @@ Z~wl
 \rCandyShopID_t"Y\n+CMsgClientToGCCandyShopDevResetShopResponse
 \rCandyShopID_t"^\n0CMsgClientToGCCandyShopDevClearInventoryResponse
 \rCandyShopID_t"_\n1CMsgClientToGCCandyShopDevShuffleExchangeResponse
+\rDOTACollectionStickerCapsules
 \rDOTAStickerbookUpdated
 \rGuildRoleID_t
 \rGuildRoleID_t"
@@ -78194,8 +78211,8 @@ Z~wl
 \r\n\tk_eNoPath
 \r\n\tlast_hits
 \r\n\tnet_worth
+\r\nnexttoken
 \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
-\r\tV_atand
 \r\vpL1
 \r^mX
 \ri1I
@@ -78256,8 +78273,8 @@ Z~wl
 \tC_BaseEntity::Instance([%s]->InVRContinuous()) != [%s]\n
 \tC_BaseEntity::Instance([%s]->InVRContinuous()) == [%s]\n
 \tCloseOpportunity()\n
-\tDCDOTA_Modifier_DarkWillow_Debuff_Fear
 \tDd22
+\tDmodifier_elder_titan_earth_splitter_scepter
 \tEntity param "%s" returned NULL.\n
 \tFClassnameIs( [%s] 
 \tFailed delayed player swap!
@@ -78301,12 +78318,16 @@ Z~wl
 \tText
 \tTotals: %d/%d (%.3f%%) EvaluatePoses Used, %dx using bones without eval [Ave Eval/tick: %.3f]\n
 \tUTIL_CountNumBitsSet([%s]) 
-\tV_acosd
+\tV_ZSTD_decompressStream
+\tV_ZSTD_freeDCtx
+\tV_ZSTD_initDStream
+\tV_asind
+\tV_atan2d
+\tV_atand
 \tV_atanf
 \tV_atofloat64
 \tV_cosd
-\tV_exp2f
-\tV_expd
+\tV_snprintfcat
 \tV_strcat([%s], [%s] 
 \tV_strcmp([%s] 
 \tV_strcmp32
@@ -78321,6 +78342,7 @@ Z~wl
 \tV_strtoui64
 \tV_strupper_fast
 \tV_tand
+\tV_tier0_ispunct
 \tVar GetActiveWeapon returned NULL!\n
 \tVar GetWeaponInSlot returned NULL!\n
 \tVar handle as BaseAnimating returned NULL!\n
@@ -78376,7 +78398,7 @@ Z~wl
 \t\tCriteria %d: %s %s\n
 \t\tElement "%s %s" added.\n
 \t\tResponseGroup %d: %s\n
-\t\tV_asind
+\t\tV_ZSTD_isError
 \t\t\tResponse %d: %s\n
 \t\t\t\t"inputTexture%i"%s\n
 \t\t\t\t\n\n\n\n\n\n\n\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
@@ -78489,6 +78511,7 @@ Z~wl
 \v"f\n*CMsgOverworldEncounterPitFighterRewardData
 \v"w\n2CMsgClientToGCOverworldRequestTokensNeededByFriend
 \v#\v)\v-\v?\vG\vQ\vW\v]\ve\vo\v{\v
+\v:p46
 \vAbilityID_t
 \vAbilityID_t"
 \vAbilityID_t"8\n
@@ -78499,7 +78522,6 @@ Z~wl
 \vNCE\v
 \vUY6[E
 \v\n\tRemoveFan
-\v\tV_atan2d
 \v\vTSG
 \vj0k
 \vjC7
@@ -78511,7 +78533,6 @@ Z~wl
 ][LK~lO
 ]\n%k_EHeroSelectionText_AllDraft_PickOne
 ]\n%k_EHeroSelectionText_AllDraft_PickTwo
-]\tV_longjmp
 ^([\da-z\.-]+)\.([a-z\.]{2,6})(:[\d]{1,5})?(([\/\w\.-]*)*)(\?[^\s]*)?(#[^\s]*)?
 ^.om5r
 ^DnJ
@@ -78556,6 +78577,7 @@ _Won
 _YWL
 _\n\fmap_mappings
 _\n\vSimpleStats
+_\tV_log2f
 __CursorQueue__
 __DOTACaptureWorld
 __DefaultScriptThinkContext
@@ -78674,9 +78696,10 @@ _wjb
 _xU`u
 _}eOk
 `28)fk
+`2Pj=
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
-`:Pw5
-`:pw5
+`40j=
+`6PN
 `:zQF
 `D$daM-l
 `DZG
@@ -78687,11 +78710,14 @@ _}eOk
 `\n+k_EHeroSelectionText_CaptainsMode_YouSelect
 `\n+k_EHeroSelectionText_RandomDraft_HeroReview
 `\n\rvector_values
+`\tV_logd
 `fPw.\vM
 `h9T~
-`m1r
+`iTt
 `o_je
-`qLr
+`qhs
+`rPj=
+`uyt
 `yNT
 a moment...
 a null shared library handle was used
@@ -78710,6 +78736,7 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
+aBvD
 aD/x
 aDSS
 aECDH
@@ -78991,6 +79018,7 @@ activeteam_time_remaining
 activity name differs: OLD %s - NEW %s
 activity type differs: OLD %d - NEW %d
 activity-modifier
+activity_animation
 activity_modifier
 actor
 actor_name
@@ -79882,6 +79910,7 @@ attacker_name
 attacker_player_id
 attacker_team
 attacker_unit_handle
+attacker_unit_index
 attacks_per_second
 attackspeed
 attempt to reuse session in different context
@@ -80100,7 +80129,6 @@ bMutedText
 bMutedVoice
 bN.l
 bOverheadEffect
-bPK>
 bPb:L7X)
 bReturnUnslowed
 bSellable
@@ -80124,6 +80152,7 @@ b\n,k_EHeroSelectionText_CaptainsMode_TheySelect
 b\n\fAppInfoEntry
 b\n\fdescriptor_t
 b\np\tP
+b\tV_longjmp
 b\vP\n0
 b\vp\n0
 b]jY
@@ -80451,7 +80480,6 @@ bf-cfb
 bf-ecb
 bf-ofb
 bgD$
-bg_BG
 bh.b|C
 bias magnitude: %f %f\n
 bias scale: %f %f\n
@@ -80816,6 +80844,7 @@ box_outer_maxs
 box_outer_mins
 box_size
 box_state
+bp46
 bpFh
 bp_amount
 bp_max
@@ -80843,7 +80872,6 @@ brainpoolP512t1
 bramble_maze
 brand
 branding
-brazilian
 breakBasicFrameHeight
 breakBasicFrameWidth
 breakBasicHalfFrameHeight
@@ -80909,6 +80937,7 @@ brightnessscale
 bristleback
 bristleback_brawlers_grit
 bristleback_bristleback
+bristleback_decoration_and_treasure_secret_1
 bristleback_hairball
 bristleback_prickly
 bristleback_quill_spray
@@ -80974,7 +81003,6 @@ buildingName
 building_state
 buildings
 buildings_v1
-bulgarian
 bulletPenetrationDamageModifier
 bulletPenetrationDistanceModifier
 bulletspenetrate
@@ -81286,6 +81314,7 @@ cartWheelsFrameHeight
 cartWheelsFrameWidth
 cartWheelsImage
 cart_2d_tent
+cart_2d_tent_close
 cascadecrossfade
 cascadedistancefade
 cascaderenderstaticobj
@@ -82279,6 +82308,7 @@ contract_stars
 contracts_refreshed_timestamp
 contracts_updated
 contrast
+contribution_unit_names
 contributor_ability_id
 contributor_hero_id
 contributors
@@ -82489,6 +82519,7 @@ creep_kill_gold
 creep_level
 creep_piercing
 creep_siege
+creep_spawn_point
 creeps_dire
 creeps_radiant
 creeps_stacked
@@ -82624,7 +82655,6 @@ crystal_maiden_ice_rink
 crystal_maiden_let_it_go
 crystal_nova
 crystalmaiden
-cs_CZ
 css_additions
 css_class
 ct_cert_scts
@@ -82914,7 +82944,6 @@ cycle_classes
 cyclone_enemy
 cyclone_friendly
 cz>Sp
-czech
 d e not congruent to 1
 d.allOrFirstTier
 d.authenticatedData
@@ -82999,7 +83028,6 @@ d[kHy
 d\n\nPrediction
 d\n\vDroppedItem
 d_r_0
-da_DK
 dac_dof_far_blurry
 dac_dof_far_crisp
 dac_dof_tilt_to_ground
@@ -83073,7 +83101,6 @@ damage_unit_names
 damage_universal_hero
 damages
 damagetype
-danish
 dark_carnival
 dark_carnival.crate_drop.sound.crate_scored
 dark_carnival.crate_drop.sound.hazard_explosion
@@ -83111,7 +83138,8 @@ dark_carnival.minigame_music.underscore
 dark_carnival.minigame_music.victory
 dark_carnival.oracle.reward
 dark_carnival.oracle.stinger
-dark_carnival.overworld.underscore
+dark_carnival.overworld.ambience
+dark_carnival.overworld.ambience_quiet
 dark_carnival.slark_jailbreak.ball_lost
 dark_carnival.slark_jailbreak.bounce_brick
 dark_carnival.slark_jailbreak.bounce_metal
@@ -83135,6 +83163,8 @@ dark_carnival_2026_weekly_candyshop_rerollcharges
 dark_carnival_act1_friend_gifting
 dark_carnival_candyworks
 dark_carnival_crate_drop_entity
+dark_carnival_encounter
+dark_carnival_encounter combo
 dark_carnival_fortune_teller
 dark_carnival_progress
 dark_carnival_token_trader
@@ -83278,7 +83308,6 @@ dcobject
 dd_ability_id
 dd_index
 dd_modifier_index
-de_DE
 deactivate_time
 dead_inside
 deadlock_retries
@@ -84345,6 +84374,7 @@ dota_wager_token
 dota_ward_killed
 dota_we_need_detection
 dota_we_need_wards
+dota_whack_a_mole_effects
 dota_win
 dota_winter
 dota_winter_681
@@ -84508,7 +84538,6 @@ dust_cost
 dust_particle
 dust_price
 dust_value
-dutch
 dvcs
 dynamic
 dynamic entities
@@ -84681,6 +84710,7 @@ effect_name
 effect_name_hash
 effect_name_hash_code
 effect_packing_material
+effect_simplified
 effect_textureOverride
 effect_type
 effective
@@ -84701,7 +84731,6 @@ egg_essence
 eh 0x%p
 ehandle_values
 eidolon
-el_GR
 elapsed_duration
 elder_titan_ancestral_spirit
 elder_titan_earth_splitter
@@ -84776,7 +84805,6 @@ empowered_state
 empty file structure
 empty srtp protection profile list
 empty_neutral
-en_US
 enable_all_regions
 enable_collision_with_parent_breakable
 enable_crouch_speeds
@@ -84886,6 +84914,7 @@ engine routines
 engine section error
 engine-tick
 engine-time
+engine_07
 engines section error
 english-channel
 enhancedSearchGuide
@@ -85056,9 +85085,6 @@ error_message
 error_msg
 error_num
 errors
-es-419
-es_419
-es_ES
 escalating_chance_drop
 escalating_chance_drop_by_rarity
 escalating_pitch
@@ -85100,6 +85126,137 @@ event_bonus_item_id
 event_boss
 event_bought_back
 event_crest
+event_dark_carnival_axehw_game_aamg_duo_bad_01
+event_dark_carnival_axehw_game_aamg_duo_bad_02
+event_dark_carnival_axehw_game_aamg_duo_bad_03
+event_dark_carnival_axehw_game_aamg_duo_bad_04
+event_dark_carnival_axehw_game_aamg_duo_bad_05
+event_dark_carnival_axehw_game_aamg_duo_end_01
+event_dark_carnival_axehw_game_aamg_duo_end_02
+event_dark_carnival_axehw_game_aamg_duo_end_03
+event_dark_carnival_axehw_game_aamg_duo_end_04
+event_dark_carnival_axehw_game_aamg_duo_good_01
+event_dark_carnival_axehw_game_aamg_duo_good_02
+event_dark_carnival_axehw_game_aamg_duo_good_03
+event_dark_carnival_axehw_game_aamg_duo_good_04
+event_dark_carnival_axehw_game_aamg_duo_score_01
+event_dark_carnival_axehw_game_aamg_duo_score_02
+event_dark_carnival_axehw_game_aamg_duo_score_03
+event_dark_carnival_axehw_game_aamg_duo_score_04
+event_dark_carnival_axehw_game_aamg_duo_start_01
+event_dark_carnival_axehw_game_aamg_duo_start_02
+event_dark_carnival_axehw_game_aamg_duo_start_03
+event_dark_carnival_axehw_game_aamg_duo_start_04
+event_dark_carnival_axehw_game_aamg_duo_start_05
+event_dark_carnival_axehw_game_aamg_duo_start_06
+event_dark_carnival_axehw_game_aamg_duo_start_07
+event_dark_carnival_axehw_game_aamg_duo_time_01
+event_dark_carnival_axehw_game_aamg_duo_time_02
+event_dark_carnival_axehw_game_aamg_duo_time_04
+event_dark_carnival_axehw_game_aamg_duo_time_05
+event_dark_carnival_axehw_game_aamg_duo_time_06
+event_dark_carnival_axehw_game_hood_axe_smash_bad_01
+event_dark_carnival_axehw_game_hood_axe_smash_bad_02
+event_dark_carnival_axehw_game_hood_axe_smash_bad_03
+event_dark_carnival_axehw_game_hood_axe_smash_bad_04
+event_dark_carnival_axehw_game_hood_axe_smash_bad_05
+event_dark_carnival_axehw_game_hood_axe_smash_bad_06
+event_dark_carnival_axehw_game_hood_axe_smash_bad_08
+event_dark_carnival_axehw_game_hood_axe_smash_bad_09
+event_dark_carnival_axehw_game_hood_axe_smash_bad_10
+event_dark_carnival_axehw_game_hood_axe_smash_bad_11
+event_dark_carnival_axehw_game_hood_axe_smash_bad_12
+event_dark_carnival_axehw_game_hood_axe_smash_bad_13
+event_dark_carnival_axehw_game_hood_axe_smash_bad_15
+event_dark_carnival_axehw_game_hood_axe_smash_bad_16
+event_dark_carnival_axehw_game_hood_axe_smash_bad_17
+event_dark_carnival_axehw_game_hood_axe_smash_bad_18
+event_dark_carnival_axehw_game_hood_axe_smash_bad_19
+event_dark_carnival_axehw_game_hood_axe_smash_bad_20
+event_dark_carnival_axehw_game_hood_axe_smash_bad_21
+event_dark_carnival_axehw_game_hood_axe_smash_bad_22
+event_dark_carnival_axehw_game_hood_axe_smash_bad_23
+event_dark_carnival_axehw_game_hood_axe_smash_bad_24
+event_dark_carnival_axehw_game_hood_axe_smash_bad_25
+event_dark_carnival_axehw_game_hood_axe_smash_bad_26
+event_dark_carnival_axehw_game_hood_axe_smash_bad_29
+event_dark_carnival_axehw_game_hood_axe_smash_bad_31
+event_dark_carnival_axehw_game_hood_axe_smash_bad_32
+event_dark_carnival_axehw_game_hood_axe_smash_bad_33
+event_dark_carnival_axehw_game_hood_axe_smash_end_01
+event_dark_carnival_axehw_game_hood_axe_smash_end_02
+event_dark_carnival_axehw_game_hood_axe_smash_end_03
+event_dark_carnival_axehw_game_hood_axe_smash_end_04
+event_dark_carnival_axehw_game_hood_axe_smash_end_05
+event_dark_carnival_axehw_game_hood_axe_smash_end_06
+event_dark_carnival_axehw_game_hood_axe_smash_end_07
+event_dark_carnival_axehw_game_hood_axe_smash_end_09
+event_dark_carnival_axehw_game_hood_axe_smash_end_10
+event_dark_carnival_axehw_game_hood_axe_smash_end_11
+event_dark_carnival_axehw_game_hood_axe_smash_good_01
+event_dark_carnival_axehw_game_hood_axe_smash_good_02
+event_dark_carnival_axehw_game_hood_axe_smash_good_04
+event_dark_carnival_axehw_game_hood_axe_smash_good_05
+event_dark_carnival_axehw_game_hood_axe_smash_good_06
+event_dark_carnival_axehw_game_hood_axe_smash_good_07
+event_dark_carnival_axehw_game_hood_axe_smash_good_08
+event_dark_carnival_axehw_game_hood_axe_smash_good_09
+event_dark_carnival_axehw_game_hood_axe_smash_good_11
+event_dark_carnival_axehw_game_hood_axe_smash_good_12
+event_dark_carnival_axehw_game_hood_axe_smash_good_12_02
+event_dark_carnival_axehw_game_hood_axe_smash_good_14
+event_dark_carnival_axehw_game_hood_axe_smash_good_15
+event_dark_carnival_axehw_game_hood_axe_smash_good_16
+event_dark_carnival_axehw_game_hood_axe_smash_good_18
+event_dark_carnival_axehw_game_hood_axe_smash_good_19
+event_dark_carnival_axehw_game_hood_axe_smash_good_20
+event_dark_carnival_axehw_game_hood_axe_smash_good_21
+event_dark_carnival_axehw_game_hood_axe_smash_good_22
+event_dark_carnival_axehw_game_hood_axe_smash_good_23
+event_dark_carnival_axehw_game_hood_axe_smash_good_25
+event_dark_carnival_axehw_game_hood_axe_smash_score_01
+event_dark_carnival_axehw_game_hood_axe_smash_score_02
+event_dark_carnival_axehw_game_hood_axe_smash_score_03
+event_dark_carnival_axehw_game_hood_axe_smash_score_04
+event_dark_carnival_axehw_game_hood_axe_smash_score_05
+event_dark_carnival_axehw_game_hood_axe_smash_score_06
+event_dark_carnival_axehw_game_hood_axe_smash_score_07
+event_dark_carnival_axehw_game_hood_axe_smash_score_08
+event_dark_carnival_axehw_game_hood_axe_smash_score_09
+event_dark_carnival_axehw_game_hood_axe_smash_score_10
+event_dark_carnival_axehw_game_hood_axe_smash_score_11
+event_dark_carnival_axehw_game_hood_axe_smash_score_12
+event_dark_carnival_axehw_game_hood_axe_smash_start_01
+event_dark_carnival_axehw_game_hood_axe_smash_start_03
+event_dark_carnival_axehw_game_hood_axe_smash_start_04
+event_dark_carnival_axehw_game_hood_axe_smash_start_05
+event_dark_carnival_axehw_game_hood_axe_smash_start_06
+event_dark_carnival_axehw_game_hood_axe_smash_start_07
+event_dark_carnival_axehw_game_hood_axe_smash_start_08
+event_dark_carnival_axehw_game_hood_axe_smash_start_09
+event_dark_carnival_axehw_game_hood_axe_smash_start_10
+event_dark_carnival_axehw_game_hood_axe_smash_start_11
+event_dark_carnival_axehw_game_hood_axe_smash_start_12
+event_dark_carnival_axehw_game_hood_axe_smash_start_13
+event_dark_carnival_axehw_game_hood_axe_smash_start_14
+event_dark_carnival_axehw_game_hood_axe_smash_start_15
+event_dark_carnival_axehw_game_hood_axe_smash_time_01
+event_dark_carnival_axehw_game_hood_axe_smash_time_02
+event_dark_carnival_axehw_game_hood_axe_smash_time_03
+event_dark_carnival_axehw_game_hood_axe_smash_time_04
+event_dark_carnival_axehw_game_hood_axe_smash_time_05
+event_dark_carnival_axehw_game_hood_axe_smash_time_06
+event_dark_carnival_axehw_game_hood_axe_smash_time_07
+event_dark_carnival_axehw_game_hood_axe_smash_time_08
+event_dark_carnival_axehw_game_hood_axe_smash_time_09
+event_dark_carnival_axehw_game_hood_axe_smash_time_10
+event_dark_carnival_axehw_game_hood_axe_smash_time_13
+event_dark_carnival_axehw_game_hood_axe_smash_time_14
+event_dark_carnival_axehw_game_hood_axe_smash_time_15
+event_dark_carnival_axehw_game_hood_axe_smash_time_15_02
+event_dark_carnival_axehw_game_hood_axe_smash_time_16_02
+event_dark_carnival_axehw_game_hood_axe_smash_time_17
+event_dark_carnival_axehw_game_hood_axe_smash_time_17_02
 event_desc
 event_description
 event_discount_coin
@@ -85581,7 +85738,6 @@ feop(
 fetch_id
 fff?
 ffffff
-fi_FI
 field missing
 field too large
 fieldID
@@ -86412,6 +86568,7 @@ file://{resources}/layout/events/dark_carnival/popup_dark_carnival_encounter_loc
 file://{resources}/layout/events/dark_carnival/popup_dark_carnival_encounter_secret_admirer.xml
 file://{resources}/layout/events/dark_carnival/popup_dark_carnival_encounter_slark_jailbreak.xml
 file://{resources}/layout/events/dark_carnival/popup_dark_carnival_encounter_token_quest.xml
+file://{resources}/layout/events/dark_carnival/popup_dark_carnival_encounter_whack_a_mole.xml
 file://{resources}/layout/events/dark_carnival/popup_dark_carnival_free_token.xml
 file://{resources}/layout/events/dark_carnival/popup_dark_carnival_how_to_play.xml
 file://{resources}/layout/events/dark_carnival/popup_dark_carnival_rewards.xml
@@ -87286,7 +87443,6 @@ finish failed
 finish-animating-duration
 finish_flag
 finish_timestamp
-finnish
 fips
 fips mode not supported
 fips2
@@ -87619,7 +87775,6 @@ fow_darkess_day
 fow_darkess_night
 fow_darkness
 fpnS
-fr_FR
 frac
 fraction
 fragment_amount
@@ -87657,7 +87812,6 @@ freeze_transition_override
 freezing_field
 freezing_field_shard
 freezing_field_spinwheel
-french
 fresh meat!
 freshestCRL
 friend
@@ -87784,7 +87938,6 @@ gHAx
 gTH.M
 gXC.nT\v
 g\n#particle_freeze_transition_override
-g\tV_powd
 g]i/H
 g_GameEventManager.Init()
 g_flBrightnessExposureBias
@@ -87970,7 +88123,6 @@ generic_result_text
 generic_selections
 generic_stunned
 genuine
-german
 gesture
 get active weapon
 get active weapon slot
@@ -88262,7 +88414,6 @@ graph_y_%d
 graphs_valid
 gray
 greedy
-greek
 green
 green power
 greenKeyHeldImage
@@ -88485,9 +88636,7 @@ hEntityB
 hF\rDz
 hFcg
 hJxRX@_
-hM\fs
 hN2D
-hQ~r
 hRB.
 hRenderTexture != RENDER_TEXTURE_HANDLE_INVALID && m_image.IsValid()
 hThinkFunc
@@ -88584,6 +88733,7 @@ hbvc
 hc[N
 hc\raF
 hcontent_preview
+he\rt
 header
 header too long
 header_expr
@@ -88984,11 +89134,19 @@ homeTelephoneNumber
 home_page_takeover
 home_team
 honeydew
+hoodwink
 hoodwink_acorn_shot
 hoodwink_bushwhack
 hoodwink_caltrops
 hoodwink_decoy
 hoodwink_heavy_quiver
+hoodwink_hoodwink_pain_01
+hoodwink_hoodwink_pain_02
+hoodwink_hoodwink_pain_03
+hoodwink_hoodwink_pain_04
+hoodwink_hoodwink_pain_07
+hoodwink_hoodwink_pain_09
+hoodwink_hoodwink_pain_10
 hoodwink_hunters_boomerang
 hoodwink_hunters_quiver
 hoodwink_mistwoods_wayfarer
@@ -89119,7 +89277,6 @@ https://www.youtube.com/watch?v=vem9TLjyrkg
 https://www.youtube.com/watch?v=wWoW9-HBIwI
 https://www.youtube.com/watch?v=xZnB5t8h2Xo
 https://www.youtube.com/watch?v=yIeu0x_v2tE
-hu_HU
 hud.equip.agh_scepter
 hud.equip.agh_shard
 hud_flip_changed
@@ -89149,7 +89306,6 @@ hud_ping
 hudpregame
 hue-rotation
 huff
-hungarian
 hunt_alert_type
 hunt_rewards
 hunt_status_type
@@ -89172,12 +89328,12 @@ huskar_inner_fire
 huskar_inner_vitality
 huskar_life_break
 hvL&
-hy[s
 hydras_breath_single
 hype
 hype_loc
 hypothermia
 h|gg
+h}Wt
 i <= EVP_MAX_MD_SIZE
 i%YR
 i%|kB
@@ -89486,7 +89642,6 @@ id-smime-mod-oid
 id-smime-spq
 id-smime-spq-ets-sqt-unotice
 id-smime-spq-ets-sqt-uri
-id_ID
 idea-cbc
 idea-cfb
 idea-ecb
@@ -89660,7 +89815,6 @@ indigo
 indirectCRL
 individual_odds
 individual_progress
-indonesian
 indoor_outdoor_level
 inertia
 ineye
@@ -90227,8 +90381,6 @@ issuerUID
 issuer_and_serial
 issuer_player_index
 issuingDistributionPoint
-it_IT
-italian
 italic
 item != NULL
 item redemption option 1
@@ -91120,6 +91272,7 @@ j <= (int)sizeof(ctx->key)
 j <= sizeof(c->iv)
 j"MRX
 j&LQ
+j0j=
 j0ksJ
 j2ty
 j3kg
@@ -91140,7 +91293,6 @@ j\n0k_EHeroSelectionText_AllDraft_Planning_TheyFirst
 j\n\nOutputItem
 j\n\tPhaseInfo
 j\vIP{s
-ja_JP
 jackpots
 jakiro_double_trouble
 jakiro_dual_breath
@@ -91150,7 +91302,6 @@ jakiro_liquid_fire
 jakiro_liquid_ice
 jakiro_macropyre
 janetMailbox
-japanese
 javascript:
 jb:5
 jcn,T,>
@@ -91748,7 +91899,6 @@ kitez
 kjy\v
 klook
 kmeans
-ko_KR
 kobold_disarm
 kobold_taskmaster_speed_aura
 kobold_tunneler_prospecting
@@ -91756,7 +91906,6 @@ kochanek
 kochanek_early
 kochanek_late
 korean
-koreana
 kp3/y*U
 kpEKI
 krb5
@@ -91797,6 +91946,7 @@ lM2p
 l\n\fexcludedtags
 l\n\tDimension
 l\n\vPreviewItem
+l\tV_powd
 label_item_def
 labyrinth_all_aghs
 labyrinth_legacy_hero_unlock
@@ -91895,7 +92045,6 @@ last_weekly_claim_time
 lastactivate
 lastchancequals
 lastupdated
-latam
 latch
 latch_radius
 latest_common_match
@@ -92530,7 +92679,6 @@ m_eEventAction == SDOTAEventRewardDefinition_GenericReward::k_eEventAction
 m_eEventAction == SDOTAEventRewardDefinition_GrantItemChoice::k_eEventAction
 m_eEventAction == SDOTAEventRewardDefinition_HeroItem::k_eEventAction
 m_eEventAction == SDOTAEventRewardDefinition_Item::k_eEventAction
-m_eEventAction == SDOTAEventRewardDefinition_LootList::k_eEventAction
 m_eEventAction == SDOTAEventRewardDefinition_MaxPeriodicPoints::k_eEventAction
 m_eEventAction == SDOTAEventRewardDefinition_OverworldTokens::k_eEventAction
 m_eEventAction == SDOTAEventRewardDefinition_PingWheel::k_eEventAction
@@ -92775,6 +92923,7 @@ map_layout
 map_location
 map_override
 map_progress
+map_reward_act1_final
 map_shader
 map_shutdown
 map_size
@@ -94496,7 +94645,6 @@ modifier_elder_titan_ancestral_spirit_hidden
 modifier_elder_titan_ancestral_spirit_invincibility
 modifier_elder_titan_earth_splitter
 modifier_elder_titan_earth_splitter_caster
-modifier_elder_titan_earth_splitter_scepter
 modifier_elder_titan_earth_splitter_thinker
 modifier_elder_titan_echo_stomp
 modifier_elder_titan_echo_stomp_magic_immune
@@ -97702,7 +97850,6 @@ night_stalker_void_intrinsic
 nightstalker_night
 niv <= EVP_MAX_IV_LENGTH
 nkey <= EVP_MAX_KEY_LENGTH
-nl_NL
 nmI\n8
 nmonqnmomnmomomno
 nmvos^\n
@@ -97816,7 +97963,6 @@ no-stickers
 no:7
 noCheck
 noRevAvail
-no_NO
 no_ability
 no_attack_cooldown
 no_border
@@ -97854,6 +98000,7 @@ no_title
 no_tutorial
 noblurotherportrait
 nocompendiumborder
+nocursor
 nodamageforces
 node-id
 node1id
@@ -97906,7 +98053,6 @@ normal_pts
 normal_punch
 normalvision
 north_south
-norwegian
 not a NIST prime
 not a signed receipt
 not a square
@@ -98952,8 +99098,9 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p0J0
-p0j`E1
+p08@H^D
+p0j 
+p2p46
 p2p_ping could not convert "%s" to a CPeerToPeerAddress\n
 p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n
@@ -98967,6 +99114,7 @@ p4Z3
 p5Z3
 p5\nL,
 p618
+p6pm
 p>?Set@Template@v8@@QEAAXV?$Local@VName@v8@@@2@V?$Local@VData@v8@@@2@W4PropertyAttribute@2@@Z
 p@0pqE5tsO?|1
 pCheckpointName
@@ -99025,7 +99173,6 @@ p\n3k_EHeroSelectionText_AllDraft_YouPicking_LosingGold
 p\n\tSingleTip
 p\n\vFantasyInfo
 p\rP\f0!h
-p\tV_setjmp
 p^i9
 pa_asan_vo
 pack_config
@@ -99467,6 +99614,9 @@ particles/events/dark_carnival/crate_drop_minigame/platform_fx.vpcf
 particles/events/dark_carnival/crate_drop_minigame/platform_track_switch_b.vpcf
 particles/events/dark_carnival/crate_drop_minigame/platform_track_switch_end_b.vpcf
 particles/events/dark_carnival/crate_drop_minigame/platform_wheel_fx.vpcf
+particles/events/dark_carnival/minigames/whac_axe_cullingblade.vpcf
+particles/events/dark_carnival/minigames/whac_axe_v3.vpcf
+particles/events/dark_carnival/minigames/whac_axe_v3_success.vpcf
 particles/events/monster_hunter/hunt_complete_fail.vpcf
 particles/events/monster_hunter/hunt_complete_victory.vpcf
 particles/events/monster_hunter/hunt_denied_fail.vpcf
@@ -100970,7 +101120,6 @@ pkeyalg
 pkix
 pkparameters2group failure
 pkvFantasyDayTimestamps->Count() <= kCardMaxFantasyPeriods
-pl_PL
 place
 place_event_action
 place_event_id
@@ -101289,7 +101438,6 @@ policyIdentifier
 policyLanguage
 policyMappings
 policyid
-polish
 poll_id
 polymorphic_arg
 polymorphic_class
@@ -101329,7 +101477,6 @@ portrait_world_pet
 portrait_world_unit
 portrait_world_unit_%d
 portraits
-portuguese
 portuguese-stream
 pos-Vector
 pos-cellorigin
@@ -101733,8 +101880,6 @@ pszScoreboardName
 pszScriptName
 pszSoundName
 pszUnitName
-pt_BR
-pt_PT
 pub: 
 pub_key
 pubkey
@@ -101954,7 +102099,6 @@ qx(q
 r axis
 r$0I
 r-IE
-r0z1
 r184
 r1c1
 r1c2
@@ -101985,11 +102129,12 @@ rRfKR
 rX&O0
 rZ1VwGf5
 rZPM
+r\fpd
 r\n4k_EHeroSelectionText_AllDraft_TheyPicking_LosingGold
 r\n\nHuntReward
 r\n\vstart_index
 r\vDi
-r\vpx
+r\vp8
 r_cleardecals
 r_deferred_additive_pass 1
 r_deferred_height_fog 1
@@ -102913,7 +103058,6 @@ rjg\v
 rkqg
 rmhD
 rndwave
-ro_RO
 road_to_ti
 road_to_ti_correct
 road_to_ti_incorrect
@@ -102953,7 +103097,6 @@ rollup_entries_state
 rollup_id
 rollups
 rollups_state
-romanian
 room
 room-id
 room-layer
@@ -103070,7 +103213,6 @@ rt_identity_linked
 rtime32_gc_welcome_timestamp
 rtime_oldest_date
 rtime_vacban_starts
-ru_RU
 rubick_arcana
 rubick_arcana_follower
 rubick_arcana_green_spell_enabled
@@ -103116,7 +103258,6 @@ rune_status_%d
 rune_team
 runes_activated
 runes_collected
-russian
 russian-channel
 rw4rs
 r~s-v7
@@ -103344,6 +103485,7 @@ score2
 scoreEventDuration
 score_amount
 score_header
+score_multiplier
 score_per_block
 score_per_bonus_block
 score_per_cell_revealed
@@ -103475,6 +103617,7 @@ scripts/events/dark_carnival/crate_drop/crate_drop_game.vdata
 scripts/events/dark_carnival/crate_drop/crate_drop_levels.vdata
 scripts/events/dark_carnival/crate_drop/crate_drop_objects.vdata
 scripts/events/dark_carnival/dark_carnival_motion_comics_part2.vdata
+scripts/events/dark_carnival/dark_carnival_motion_comics_part3.vdata
 scripts/events/dark_carnival/darkcarnival_act1.vdata
 scripts/events/dark_carnival/lockpicking/game.vdata
 scripts/events/dark_carnival/slark_jailbreak/slark_jailbreak.vdata
@@ -104739,14 +104882,18 @@ soundevent_hash
 soundevents/game_sounds_ambient.vsndevts
 soundevents/game_sounds_greevils.vsndevts
 soundevents/game_sounds_hero_pick.vsndevts
+soundevents/game_sounds_heroes/game_sounds_axe.vsndevts
 soundevents/game_sounds_heroes/game_sounds_crystalmaiden.vsndevts
+soundevents/game_sounds_heroes/game_sounds_hookwink.vsndevts
 soundevents/game_sounds_heroes/game_sounds_phantom_assassin.vsndevts
+soundevents/sound_events_dark_carnival.vsndevts
 soundevents/soundevents_aghanim.vsndevts
 soundevents/soundevents_crownfall.vsndevts
 soundevents/soundevents_crownfall_credits.vsndevts
 soundevents/soundevents_dark_carnival.vsndevts
 soundevents/soundevents_dark_carnival_vn_part1.vsndevts
 soundevents/soundevents_dark_carnival_vn_part2.vsndevts
+soundevents/soundevents_dark_carnival_vn_part3.vsndevts
 soundevents/soundevents_fighting_game.vsndevts
 soundevents/soundevents_match3.vsndevts
 soundevents/soundevents_minesweeper.vsndevts
@@ -104755,10 +104902,15 @@ soundevents/soundevents_techiemen.vsndevts
 soundevents/voscripts/game_sounds_vo_announcer.vsndevts
 soundevents/voscripts/game_sounds_vo_announcer_dota_fighter.vsndevts
 soundevents/voscripts/game_sounds_vo_announcer_killing_spree.vsndevts
+soundevents/voscripts/game_sounds_vo_axe.vsndevts
 soundevents/voscripts/game_sounds_vo_dark_carnival_vn_part2.vsndevts
+soundevents/voscripts/game_sounds_vo_dark_carnival_vn_part3.vsndevts
+soundevents/voscripts/game_sounds_vo_event_dark_carnival_axehw_game.vsndevts
+soundevents/voscripts/game_sounds_vo_hoodwink.vsndevts
 soundevents/voscripts/game_sounds_vo_oracle_fortune.vsndevts
 soundevents/voscripts/game_sounds_vo_ringmaster_carnival_part1.vsndevts
 soundevents/voscripts/game_sounds_vo_ringmaster_carnival_part2.vsndevts
+soundevents/voscripts/game_sounds_vo_ringmaster_carnival_part3.vsndevts
 soundfile
 soundlevel
 soundlevel not supported on sub-soundscapes\n
@@ -104801,7 +104953,6 @@ spacebar
 spacerperiod
 spacersize
 spamming
-spanish
 spanish-stream
 spark_of_courage_armor
 spark_of_courage_dmg
@@ -106553,7 +106704,6 @@ survivors_games_played_as_hero
 survivors_ingame
 survivors_unit
 suspension_end_time
-sv_SE
 sv_cheats 1
 sv_tick_parallel_with_client=%d
 sven_gods_strength
@@ -106582,7 +106732,6 @@ swap_duration
 swap_hero_name
 swapped_challenge
 sweatdrop
-swedish
 sweetSpotAngle
 swingrod
 sword_particles
@@ -106606,7 +106755,6 @@ t4O_
 t80z
 tA`KO/3G!\n7h=
 tGTS
-tJ p
 tLY^m`6
 tLl 
 tLsq
@@ -106744,7 +106892,6 @@ taunt-list
 taunting_player_id
 tbsRequest
 tbsResponseData
-tchinese
 td5)
 tdAW
 tdYv
@@ -106984,8 +107131,6 @@ texturewidth
 texturewidth and textureheight can be used to override the size of vector graphics. Default value of -1 indicates texture width/height to be determined from source file
 tfjgvmfv
 tgtpath
-th_TH
-thai
 thank
 the asn1 object identifier is not known for this md
 the host
@@ -107150,6 +107295,7 @@ timestamp_start
 timestamp_updated
 timestampsign
 tinker
+tinker_and_treasure_decoration_secret_2
 tinker_defense_matrix
 tinker_deploy_turrets
 tinker_eureka
@@ -107554,7 +107700,6 @@ tp_scrolls_purchased_5
 tpfx
 tps_used
 tq}a
-tr_TR
 trace_raise
 tracer_player.vpcf
 track
@@ -107738,7 +107883,6 @@ tsa untrusted
 tst info setup error
 turbo
 turbo_mode
-turkish
 turn
 turn_to_ash
 turndown
@@ -107844,7 +107988,7 @@ uGrants an implicit OAuth token (grant type 'token') for the specified client ID
 uJ4CA2
 uQ'ZH
 uQbK!
-u\tV_sind
+u\tV_setjmp
 u\vMW
 uaqf
 ub=A
@@ -107931,8 +108075,6 @@ uint8 (%d)
 uint8[20]
 uint8[DOTA_DEFAULT_MAX_TEAM_PLAYERS]
 uint8[kSERVERCONTROLLEDPOINTS]
-uk_UA
-ukrainian
 ult_cooldown
 ultimate
 ultimate_cooldown
@@ -108400,6 +108542,7 @@ v8callback
 v8object
 v8value
 v<d2}
+v>?33S@
 vAj}
 vAnglesVal
 vAr>
@@ -108580,7 +108723,6 @@ very_rare
 very_rare_2019
 vgui/econ/item_icon_bg
 vgui/white
-vi_VN
 victim_%d_count
 victim_ent_index
 victim_hero
@@ -108602,7 +108744,6 @@ victory_title_team
 video
 video64.dll
 video_player_stage
-vietnamese
 view angles
 view_button_text
 viewed
@@ -108977,6 +109118,9 @@ west_east
 wexlevel
 wfA'@7
 whack-a-meepo
+whack_a_mole
+whackamole.minigame_music.underscore
+whackamole.minigame_music.zeropoints
 wheat
 wheel_segments
 wheel_slowdown
@@ -109229,7 +109373,6 @@ x509_pkey
 x509_req
 x509_store
 x931
-xA\nI
 xFKF
 xOu\vsF
 xQfF
@@ -109334,12 +109477,11 @@ zFar
 zG2m8
 zNear
 zRXU 
+z\tV_sind
 zchangespeed
 zero_value
 zeus
 zfar
-zh_CN
-zh_TW
 zip_file
 zlVO
 zlib compression
@@ -109417,7 +109559,6 @@ zz2K
 |InzT
 |XYl
 |\n9k_EHeroSelectionText_CaptainsMode_WaitingForChooseCaptain
-|\tV_snprintfcat
 |hdX)
 |sG2
 |}Eq1

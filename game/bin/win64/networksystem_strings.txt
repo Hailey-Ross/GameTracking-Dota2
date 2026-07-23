@@ -260,8 +260,8 @@
 85q$
 ::Storage_t
 <classname> <fieldname>:  spew why field was excluded from networking for classname.
+@08N
 @6Pt
-@HPX`hv
 AA:0
 Accepting Steam Net connection %s\n
 AckSeqNum
@@ -664,6 +664,8 @@ Order,'From','To',Bits\n
 OutSeqNumAck
 Overrides IP for multihomed hosts
 P08@J`j
+P08J
+P08N
 P2`j
 P60K
 P6px
@@ -1065,6 +1067,7 @@ out-of-order
 outgoing_data_bytespersecond
 outgoing_sequence
 outgoing_sequence_start
+p08@H^
 p0j0
 p2`j
 p\rP\f0!h

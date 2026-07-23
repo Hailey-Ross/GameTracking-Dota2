@@ -31,6 +31,7 @@
 "Remap control point orientation to rotation" rewritten to make more sense.\n
 "Set control point rotation" pre-emission operator now correctly produces right-handed matrices [previously it would produce left-handed ones].
 "Twist around axis" force now rotates around the specified control point instead of control point 0.\n
+#\tV_exp2f
 $SFXDetailBlendMode
 %02x 
 %40s: Age: %6.2f, asleep: %s next sleep %6.2f NumActive: %3d, flags %d, Bounds Center: (%.2f,%.2f,%.2f) (0x%p)\n
@@ -2234,7 +2235,6 @@ Y?Mi
 Yield, Resume=%s
 Yz'x
 Z>wg}?0
-Z\tV_log2f
 [ Chunk%d ]
 [ written at chunk start last-read I%d ]
 [ written by I%d last-read I%d ]
@@ -2246,17 +2246,17 @@ Z\tV_log2f
 [RETURN R%d]
 [RETURN]
 \fT>M-+?#gy?
+\f\tV_acosd
 \n\n----------------------------\nInstance Count:\n
 \ng_flConfigMaxCoord
-\r\tV_atand
 \t%4d -  %s\n
-\tV_acosd
+\tV_asind
+\tV_atand
 \tV_cosd
-\tV_exp2f
 \tV_tand
-\t\tV_asind
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\n\v\n\v\n\v\n\v\n\v\n\v\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \vPtB>
+_\tV_log2f
 __CursorQueue__
 __State_Child_Condition__
 __TimelineParent__
@@ -2389,7 +2389,6 @@ itemgroups
 k>Mg
 k?C9
 kv3:ParticleParamID_t
-l\tV_remainderf
 length2d
 length3d
 lerp
@@ -2494,6 +2493,7 @@ pulse_node_custom_attributes
 pulse_runtime_lib
 pvec_color_black
 pvec_color_white
+q\tV_remainderf
 quX?
 r_draw_particle_children_with_parents
 r_drawparticles
@@ -2602,7 +2602,6 @@ trail_length
 translucent
 turn on optimized particle init
 type_restriction_is_enum_flags
-u\tV_sind
 vMins=%?
 value:fulltype
 vecValue
@@ -2612,5 +2611,7 @@ very_fast
 vn[90
 wH>r
 xn>8
+xs^j
 y?U0
 zW>w
+z\tV_sind

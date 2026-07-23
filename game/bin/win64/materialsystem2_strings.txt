@@ -33,6 +33,7 @@
  mat_print_material_info <mod\path\file.vmat>\n
  mat_print_shader_info <file.vfx> [options]\n
  using substring "%s"
+#\tV_exp2f
 #line
 %10s
 %15.15s 
@@ -410,7 +411,6 @@ LoadKV3ObjectInPlace error: %s\n
 MD5 match on %s, loading from vcs\n
 MD5 mismatch on %s, will load from vfx instead.\n
 MODES
-M\tV_iswcntrl
 MainPs
 MainVs
 Malgun Gothic
@@ -488,6 +488,7 @@ RD11<
 RDEFH
 RESOURCE_TYPE_MATERIAL
 RSDSqc
+R\tV_iswcntrl
 RayTrace
 Raytracing Shader
 Remap01ScaleOffset
@@ -611,7 +612,6 @@ VfxRule_t
 Viewport
 WARNING: Failed to convert introspected block for file: %s\n
 WARNING: Invalid resource version (%d): %s\n
-Z\tV_log2f
 [ mat_print_material_info ] Error! Cannot find material '%s'!\n
 [Dynamic shader compile] Reloading %d material(s)\n
 [Dynamic shader compile] Warning: %d material(s) are not reloaded because they have outstanding file I/O requests\n
@@ -715,11 +715,11 @@ Z\tV_log2f
 \n\t%02i%% (%i/%i)
 \n\t\tDynamic:
 \src\shaders\
+\tV_ZSTD_decompress_usingDDict
 \tV_ZSTD_freeDCtx
 \tV_ZSTD_getDictID_fromDDict
 \tV_ZSTD_getDictID_fromFrame
 \tV_ZSTD_getFrameContentSize
-\tV_exp2f
 \tV_strspn
 \tV_strtoui64
 \tV_towupper32
@@ -728,6 +728,7 @@ Z\tV_log2f
 \t_V_strcspn
 ^^^ Attribute-based texture warning is now disabled after outputting 50 warnings.\n
 ^^^ Constant buffer warning is now disabled after outputting 50 warnings.\n
+_\tV_log2f
 __Attribute__
 __Expression__
 __FROM_ATTRIBUTE_OR_FEATURE__
@@ -783,7 +784,6 @@ float4
 float4x3
 float4x4
 frac
-g\tV_powd
 g_bFogTypeEnabled
 g_bOtherFxEnabled
 g_bRoughnessParams
@@ -902,6 +902,7 @@ iEJA+
 int2
 int3
 int4
+l\tV_powd
 lerp
 lib_6_4
 log2

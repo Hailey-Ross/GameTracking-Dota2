@@ -327,6 +327,7 @@
  \t'$'6(@+L@PA
  \t0W0!10H\I
  \t7<7<8Z9
+ \tV_coshf
  \t\f0\fM\f5\f?\f2\fM\f2\fG\f
  \t\f0\fM\f5\f?\f2\fM\f2\fG\f 
  \t\n\r@()[]{}=&,:*|;'!
@@ -1534,6 +1535,7 @@
 #\r?hide@QWidget@@QEAAXXZ
 #\rNOe
 #\t#\n#\v#\f#\r#
+#\tV_exp2f
 #\v$\v%\v&\v'\v(\v
 #_HTI
 #b'b)b+b9b
@@ -1812,6 +1814,7 @@ $\tM\t6\t?\t$\t>\t
 $\tM\t8\t?\t.\t@\t6\t?\t/\t(\t
 $\tM\t8\t@\t.\t6\t@\t
 $\tM\t8\tA\t(\t@\t8\t@\t/\t>\t(\t?\t 
+$\tV_expd
 $\v9\v2\v$\v>\v(\vM\v
 $\v>\v$\v>\v0\vM\v
 $\v>\v.\v>\v6\vG\v
@@ -20013,7 +20016,6 @@ $zorum.communi
 4\t4\t4\t4\t4\t4\t4\t4\t4\t4\t4\t4\t4\t4\t4\t4\t\
 4\t6\r6[2
 4\tDP
-4\tV_frexpf
 4\v5h8
 4\vH2!
 4\v\v\v44\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v
@@ -23620,6 +23622,7 @@ $zorum.communi
 9\tM\t/\t>\t2\t?\t+\tM\t/\t>\t
 9\tM\t0\t@\t-\t(\t?\t/\t>\t
 9\tM\t5\t>\t0\tG\t
+9\tV_frexpf
 9\tsu
 9\v0\v?\v_\v>\v(\v-\v?\v
 9\v0\vM\v8\v*\v>\vq\v>\v0\vM\v
@@ -36493,7 +36496,6 @@ F\tF\nF\vF\fF\rF
 F\tF\rF
 F\tL\tU\tZ\tb\tg\tl\t;
 F\tM\to
-F\tV_isinfd
 F\v?event@QGroupBox@@MEAA_NPEAVQEvent@@@Z
 F\vA4I
 F\vG'I
@@ -40480,6 +40482,7 @@ K\tK\nK\vK\fK\rK
 K\tK\rK
 K\tK\tK\tK\tK\tK\tK\tK\tK\tK\t\v
 K\tL@L
+K\tV_isinfd
 K\v?event@QLineEdit@@UEAA_NPEAVQEvent@@@Z
 K\we
 K]%DC8d
@@ -54091,7 +54094,6 @@ Z\nX\t0
 Z\nZ\vZ\rZ
 Z\ngLt
 Z\r[D]4c
-Z\tV_log2f
 Z\tZ@ZlZIZ5Z6ZbZjZ
 Z\t\pa
 Z]1p=M2
@@ -54518,7 +54520,6 @@ Z~00
 [\n^\nb\nf\nj\nn\n
 [\r\!\b\c\w]x]y]z]{]|]}]~]
 [\t5\n5?6A7C8E9G001<2B3N4=4
-[\tV_logd
 [\t[\n[\v[\f[\r[
 [\v?event@QScrollArea@@MEAA_NPEAVQEvent@@@Z
 [\vWxeW[
@@ -57207,6 +57208,7 @@ Z~00
 \f\r\r%\r5\rM\r]\ru\r
 \f\r\r\r\r\r\r\r\r\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \f\tR\tH! \t\v3\v
+\f\tV_acosd
 \f\t\f\n\f\v\f\f\f\r\f
 \f\t\f\t\f\t\f\t\f\t\f\t\f\t\f\t\f\t\f\t\f\t\f\t\\r\\r\\r\\rL
 \f\tqSSINE 
@@ -57603,7 +57605,6 @@ Z~00
 \n\t(\t@\t&\t>\t&\tG\t8\t 
 \n\t(\t@\t&\t>\t&\tK\t8\t 
 \n\t2\tM\t/\t>\t(\t
-\n\t\n\n\n\v\n\f\n\r\n
 \n\t\tCREATE TABLE IF NOT EXISTS Thumbnails (\n\t\t\tAssetPath TEXT PRIMARY KEY,\n\t\t\tFingerprint INTEGER,\n\t\t\tPNGData BLOB\n\t\t);\n\t
 \n\t\tDELETE FROM Thumbnails WHERE AssetPath IN ( SELECT AssetPath FROM AssetsToDelete );\n\t\tDROP TABLE AssetsToDelete;\n\t\tCOMMIT;\n\t
 \n\t\tDELETE FROM Thumbnails WHERE AssetPath IN (\n\t\t\tSELECT T.AssetPath\n\t\t\tFROM Thumbnails T\n\t\t\tLEFT JOIN ExistingAssets EA\n\t\t\t\tON T.AssetPath = EA.AssetPath\n\t\t\tWHERE EA.AssetPath IS NULL\n\t\t\t\tOR T.Fingerprint != EA.Fingerprint\n\t\t);\n\t\tDROP TABLE ExistingAssets;\n\t\tCOMMIT;\n\t
@@ -58573,7 +58574,6 @@ Z~00
 \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\r\r\r\r\r\r\r\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\r\r\r\r\r\r\r\f\f\f\f\f\f\f\f\r\r\r\r\r\r
 \r\t(\tM\t(\tK\t 
-\r\tV_atand
 \r\t\r\n\r\v\r\f\r\r\r
 \r\v\r\v\r\v\r\v\r\v\r\v\r\v\r\v\r\v\r\v\r\v\r\v\r\v\r\v\r\v\r\v\r\v\r\v\r\v\r\v\r\v\r\v\r\v\r\v\r\v\r\vi
 \r`\t`\t`\t`\t`\t`\t`\t`\t`\t`\t`\t`\t`\t
@@ -60575,12 +60575,11 @@ Z~00
 \tVCQ 
 \tVCQ(
 \tVVY
-\tV_acosd
+\tV_asind
+\tV_atan2d
+\tV_atand
 \tV_atanf
 \tV_cosd
-\tV_coshf
-\tV_exp2f
-\tV_expd
 \tV_sscanf_s
 \tV_tand
 \tV_tanhf
@@ -60674,7 +60673,6 @@ Z~00
 \t\t2\tM\t/\tG\t(\tK\t,\tK\t8\tM\t
 \t\t6\tA\t/\t>\t/\t>\t
 \t\t8\tM\t.\t>\t(\t?\t/\t>\t
-\t\tV_asind
 \t\t\t\f\f\f\f\f\f\f\f
 \t\t\t\t\t\t\t\t\t\t\t
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tF
@@ -61425,7 +61423,6 @@ Z~00
 \v\f?focusInEvent@QGroupBox@@MEAAXPEAVQFocusEvent@@@Z
 \v\r\v\r\v\r\v\r\v\r\v\r\v\r\v\r\v\r\v\r\v\r\v\r\v\r\v\r\v\r\v\r\v\r\v\r\v\r\v
 \v\t#\t>\t$\tM\t.\t
-\v\tV_atan2d
 \v\t\t\t\t\t\t\v\t\t\v\t\t
 \v\t\t\v\v\v\t\v\t\t\t\v\v
 \v\t\v\n\v\v\v\f\v\r\v
@@ -62214,6 +62211,7 @@ _\nc5cQvH
 _\ncQvH
 _\r?horizontalOffset@QTreeView@@MEBAHXZ
 _\rFDDDDDDDDDDDDDDDD
+_\tV_log2f
 _\tbPb
 _\v>\v*\v@\v8\vM\v
 _\v>\v0\vM\v!\vM\v
@@ -62534,7 +62532,7 @@ _~`Wggg
 `\r`)`+`\n`?`!`x`y`{`z`B`
 `\r`)`+`\n`?`!`x`y`{`z`B`F
 `\r`)`+`\n`?`!`x`y`{`z`B`j`}`
-`\tV_modfd
+`\tV_logd
 `\t`\n`\v`\f`\r`
 `\t`\t`\t`\t`\t`\t`\t`\t`\t`\t`\t`\t`\t`\t`\t`\t`\t
 `\v?event@QSpinBox@@MEAA_NPEAVQEvent@@@Z
@@ -64086,7 +64084,6 @@ bg7;VO
 bg7;VOJ{aAig
 bgUs
 bgY\r}
-bg_BG
 bgc>e
 bgc_IN
 bhDhdh
@@ -65510,7 +65507,6 @@ csShiftJIS
 csUCS4
 csUnicode
 csWindows31J
-cs_CZ
 cs_FONIPA-ja
 cs_FONIPA-ko
 csa7-1
@@ -65994,7 +65990,6 @@ d`VY
 d`Zd
 daGh
 daMg
-da_DK
 da_GL
 dabay
 dadd
@@ -66062,7 +66057,6 @@ de@collation=phonebook
 de_AT
 de_BE
 de_CH
-de_DE
 de_DE@collation=phonebook
 de_IT
 de_LI
@@ -66677,6 +66671,7 @@ e\nNn
 e\ne\ve\fe\re
 e\re\rR
 e\re\te\fe
+e\tV_modfd
 e\te\ne
 e\te\ne\ve\fe\re
 e\tf=fbf^flf
@@ -66966,7 +66961,6 @@ elQ:\
 el\0W
 el]lUl\lMQ
 el_CY
-el_GR
 elastic
 elastic_damping
 elasticbeanstal
@@ -67105,7 +67099,6 @@ en_TV
 en_TZ
 en_UG
 en_UM
-en_US
 en_US_POSIX
 en_VC
 en_VG
@@ -67263,7 +67256,6 @@ es3842
 es@collation=traditional
 esNeQ
 es\t0u
-es_419
 es_419-am
 es_419-ar
 es_419-chr
@@ -67281,7 +67273,6 @@ es_CU
 es_DO
 es_EA
 es_EC
-es_ES
 es_ES@collation=traditional
 es_FONIPA-am
 es_FONIPA-es_419_FONIPA
@@ -67922,7 +67913,6 @@ fhgh
 fhsZ\v]kuuu
 fi01
 fi8ixb8
-fi_FI
 field_name
 fier
 figi
@@ -68146,7 +68136,6 @@ fr_CI
 fr_CM
 fr_DJ
 fr_DZ
-fr_FR
 fr_GA
 fr_GF
 fr_GN
@@ -68501,7 +68490,6 @@ g\r?enumerator@QMetaObject@@QEBA?AVQMetaEnum@@H@Z
 g\r?horizontalScrollbarAction@QTableView@@MEAAXH@Z
 g\tNMR
 g\tTyr
-g\tV_powd
 g\tg(g)g k!kbkckokpkykzk
 g\tg\tg\tg\tg\tg\tg\tg\tg\tg\tg\tg\tg\tg\tg\tg\tg\tg\tg\tg\tg\tg\tg\tg\tg\tg\tg\t
 g\tg\tg\tg\tg\tg\tg\tg\tg\tg\tg\tg\tg\tg\tg\tg\tg\tg\tg\tg\tg\tg\tg\tg\tg\tg\tg\ta
@@ -68843,7 +68831,6 @@ grbs
 grea
 greater_than
 greater_than_or_equal_to
-greek
 greek8
 green
 gregorian
@@ -69504,7 +69491,6 @@ http_proxy
 httponly
 https
 https-connect filter create with unsupported %zu ALPN ids
-hu_HU
 huhth
 hullIvr-0.obj
 hullIvr-1.obj
@@ -75263,7 +75249,6 @@ id>r
 idO\f
 idValidity
 id\g
-id_ID
 ide+"
 ideC
 ident
@@ -75762,7 +75747,6 @@ it78
 it82
 it88
 it_CH
-it_IT
 it_SM
 it_VA
 itakyush
@@ -76118,7 +76102,6 @@ ja-t-sk
 ja-t-sk-fonipa
 jaNP
 ja_Hrkt-ja_Latn/BGN
-ja_JP
 ja_Latn-ko
 ja_Latn-ru
 jajEj}jxj
@@ -76126,7 +76109,6 @@ jalagondi
 jang
 jani
 japa
-japanese
 japanese_kana
 java
 java-Cp1390A-1.6_P
@@ -76743,7 +76725,6 @@ ko-t-ja-latn
 ko.chi
 ko_CN
 ko_KP
-ko_KR
 kofa
 koi8
 koi8r
@@ -77096,6 +77077,7 @@ l\r}iO
 l\r}iOBf
 l\t@XK
 l\t@iU
+l\tV_powd
 l\tl\nl
 l\tl\nl\vl\fl
 l\tl\rl
@@ -79140,7 +79122,6 @@ nl_AW
 nl_BE
 nl_BQ
 nl_CW
-nl_NL
 nl_SR
 nl_SX
 nlaw
@@ -79173,7 +79154,6 @@ no-bok
 no-nyn
 no.niiga
 no23
-no_NO
 no_NO_NY
 no_blend
 no_bok
@@ -80472,7 +80452,6 @@ pl-ja
 pl-pl_FONIPA
 pl-wa
 pl_FONIPA-ja
-pl_PL
 place
 place_on_floor
 placed
@@ -80699,7 +80678,6 @@ pseudonym
 pt154
 pt\ns
 pt_AO
-pt_BR
 pt_CH
 pt_CV
 pt_FR
@@ -80708,7 +80686,6 @@ pt_GW
 pt_LU
 pt_MO
 pt_MZ
-pt_PT
 pt_ST
 pt_TL
 ptable.a
@@ -81689,7 +81666,6 @@ ro7b
 ro\&p
 ro_FONIPA-ja
 ro_MD
-ro_RO
 road
 rod_attrs
 rof_TZ
@@ -81784,7 +81760,6 @@ ru_KG
 ru_KZ
 ru_Latn-ru/BGN
 ru_MD
-ru_RU
 ru_UA
 rue#\vk[o#o<rLv
 rules
@@ -83094,7 +83069,6 @@ suz|
 sv60u}
 sv_AX
 sv_FI
-sv_SE
 svlv
 svvwv
 sw_Arab
@@ -83589,8 +83563,6 @@ tg_Cyrl
 tg_Cyrl_TJ
 tg_PK
 tg_TJ
-th_TH
-thai
 thai8
 tharabian
 the-ba
@@ -84046,7 +84018,6 @@ tr-t-d0-lower
 tr-t-d0-title
 tr-t-d0-upper
 tr_CY
-tr_TR
 trace_distance
 traceheight
 traceradius
@@ -84132,7 +84103,6 @@ tue-narrow
 tue-short
 tung
 turk
-turkish
 turkish8
 turn
 tuuu
@@ -84371,7 +84341,6 @@ u\nP\nB
 u\rNRv;
 u\ru\fu
 u\rv;w
-u\tV_sind
 u\tgD
 u\tgDg
 u\tuS?R
@@ -84480,7 +84449,6 @@ ujvj,Og@
 ujvjwjxjyjzj{j|j
 uk-Latn-t-uk-m0-bgn
 uk-uk_Latn/BGN
-uk_UA
 ukhiA
 uksystem
 ullcomp
@@ -85506,7 +85474,6 @@ vh0N
 vhHhthuh
 vharYN
 vhwh
-vi_VN
 vi`T
 videoTarget
 view.c
@@ -86549,7 +86516,6 @@ x\n?dragLeaveEvent@QListView@@MEAAXPEAVQDragLeaveEvent@@@Z
 x\nJ\ta
 x\nx\vx
 x\t6\vq\ts\tB
-x\tV_sinhf
 x\tx\nx\vx\fx\rx
 x\tx\rx
 x\z\z
@@ -87370,6 +87336,7 @@ z[Pz
 z\n?dragLeaveEvent@QTextEdit@@MEAAXPEAVQDragLeaveEvent@@@Z
 z\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\nw\nt\nE
 z\rmB
+z\tV_sind
 z\tYUO\h|_
 z\tz\nz\fz
 z\tz\nz\vz\fz\rz
@@ -87444,7 +87411,6 @@ zh@collation=stroke
 zhTW
 zh_AU
 zh_BN
-zh_CN
 zh_CN@collation=stroke
 zh_GAN
 zh_GB
@@ -87473,7 +87439,6 @@ zh_PH
 zh_SG
 zh_SR
 zh_TH
-zh_TW
 zh_TW@collation=stroke
 zh_US
 zh_VN
@@ -87967,6 +87932,7 @@ z}y}y
 }\n?dragMoveEvent@QAbstractItemView@@MEAAXPEAVQDragMoveEvent@@@Z
 }\n}E}K}.}2}?}5}F}s}V}N}r}h}n}O}c}
 }\n}E}K}.}2}?}5}H}F}\}s}V}N}h}n}O}c}
+}\tV_sinhf
 }`cloud.
 }bzb
 }cRT

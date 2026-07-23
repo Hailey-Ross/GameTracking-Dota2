@@ -322,6 +322,7 @@
 #TabBar
 #UNHIDE
 #WindowMenu
+#\tV_exp2f
 $153
 $Rcvt 
 $\nY8O
@@ -1082,6 +1083,7 @@ $tIP
 ?fff?fff?fff?
 ?ffffff
 ?sqrt
+@08N
 @33333
 @33333#
 @33333'
@@ -1120,7 +1122,6 @@ $tIP
 @33333{
 @33333}
 @33SA
-@HPX`hv
 @OS/2
 @fff>fff>fff>fff>
 @fffff
@@ -3894,6 +3895,8 @@ Override Streaming GPU Memory
 P+\fGj
 P.P5
 P08@J@
+P08J
+P08N
 P3\rA
 P8\nD
 PAPU
@@ -5502,7 +5505,6 @@ Ysmall
 Z!Z1
 Z>wg}?0
 ZDZUZ]Zj
-Z\tV_log2f
 Zcaron
 Zcaronsmall
 Zero-area light
@@ -5631,7 +5633,6 @@ Zsmall
 \tRT %dx%d %s %dx MSAA used by %s\n
 \tTarget %d "%s": [FMT-> %s] [MSAA-> %s] [%s size : %d %d]\n
 \tV_atanf
-\tV_exp2f
 \t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\n\v\n\v\n\v\n\v\n\v\n\v\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \t\tInputs:\n
 \t\tLayer %d (%32s):\t
@@ -5688,6 +5689,7 @@ _TX%d_TY%d
 _WidthFixed
 _WidthStretch
 _XFREE86_GLYPH_RANGES
+_\tV_log2f
 _atlas
 `eJb
 `uAb
@@ -6299,6 +6301,7 @@ k\vnK
 kerning
 known
 ko\tB
+kq^j
 l*l3
 lEd/
 lElblrl
@@ -6513,6 +6516,7 @@ outer_size
 overlaps
 p q g j y
 p#p7pP
+p08@H^
 pCRF
 paragraph
 parallel

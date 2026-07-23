@@ -29276,7 +29276,6 @@ JN'Z
 J\r?endsWith@QString@@QEBA_NVQLatin1String@@W4CaseSensitivity@Qt@@@Z
 J\tJ\nJ\vJ\fJ\rJ
 JapanBlush
-Japanese
 Jcircumflex
 JuicyCake
 JuicyPeach
@@ -29298,7 +29297,6 @@ Keyboard Light On/Off
 Keyboard Menu
 KeyboardModifiers
 KindSteel
-Korean
 L L!L"L#L$L%L&L'L(L)L*L+L,L-L.L/L0L1L2L3L4L5L6L7L8L9L:L;L<L=L>L?L@LALBLCLDLELFLGLHLILJLKLLLMLNLOLPLQLRLSLTLULVLWLXLYLZL[L\L]L^L_L`LaLbLcLdLeLfLgLhLiLjLkLlLmLnLoLpLqLrLsLtLuLvLwLxLyLzL{L|L}L~L
 L*LrL
 LI at level %d ended
@@ -31255,7 +31253,6 @@ Vertex shader for blitShaderProg (MainWithTexCoordsVertexShader & UntransformedP
 Vertex shader for simpleShaderProg (MainVertexShader & PositionOnlyVertexShader) failed to compile
 Vertex stage present without any vertex inputs
 ViciousStance
-Vietnamese
 View
 ViewMode
 Visibility
@@ -31511,7 +31508,6 @@ ZoomOut
 \n?count@QBitArray@@QEBAHXZ
 \n?count@QByteArray@@QEBAHD@Z
 \n\n?closingDown@QCoreApplication@@SA_NXZ
-\n\t\n\n\n\v\n\f\n\r\n
 \n\t\n\t\t\t\n\t\n\t\t
 \nendstream\n
 \nendstream\nendobj\n

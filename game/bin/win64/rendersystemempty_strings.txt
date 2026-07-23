@@ -41,6 +41,7 @@
 "screenWindowWidth" attribute not found in the header.
 # of channels is zero.\n
 #CfU7
+$\tV_expd
 %-100s %-6s %-6s\n
 %.100s: Can not read TIFF directory
 %A Is
@@ -674,19 +675,18 @@ ZIPPostEncode
 ZIPSetupDecode
 ZIPSetupEncode
 ZIPVSetField
-[\tV_logd
 \t@@@@@@@@@@@@@@@@{N{N{N{N{N{N{N{N
-\tV_expd
+\tV_atan2d
 \tV_strtoi64
 \t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\n\v\n\v\n\v\n\v\n\v\n\v\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \tg_TSPointerListNodes
-\v\tV_atan2d
 _TIFFMergeFieldInfo
 _TIFFSetupFieldInfo
 _TIFFVGetField
 _TIFFVSetField
 _tools.txt
 _wjb
+`\tV_logd
 aoB>"
 ati_compress_wrapper.dll
 bValid
@@ -726,7 +726,6 @@ for chopped "StripByteCounts" array
 for chopped "StripOffsets" array
 for field info array
 for strip array
-g\tV_powd
 g_pEngineServiceMgr is NULL. Display mode information unavailable\n
 g_pRenderDevice is NULL. %d adapter(s) available. Iterating adapters %d - %d\n
 g_pRenderHardwareConfig is NULL. Display mode information unavailable\n
@@ -735,6 +734,7 @@ immediate
 incorrect count for field "%s" (%u, expecting %u); tag ignored
 incorrect count for field "%s" (%u, expecting %u); tag trimmed
 invalid vector subscript
+l\tV_powd
 lineOrder
 ltmX.
 makemelast

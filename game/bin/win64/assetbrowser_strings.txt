@@ -109,6 +109,7 @@
 #\f?focusNextPrevChild@QTextEdit@@MEAA_N_N@Z
 #\n?columnCount@QSortFilterProxyModel@@UEBAHAEBVQModelIndex@@@Z
 #\r?hide@QWidget@@QEAAXXZ
+#\tV_exp2f
 #have
 $#?windowIcon@QWidget@@QEBA?AVQIcon@@XZ
 $[?setRange@QDoubleValidator@@UEAAXNNH@Z
@@ -3987,7 +3988,6 @@ ExtraLarge
 FBX Files ( *.fbx )
 FLT_MAX
 FY?setDevicePixelRatio@QPixmap@@QEAAXN@Z
-F\tV_isinfd
 F\v?event@QGroupBox@@MEAA_NPEAVQEvent@@@Z
 Fail Outflow
 Failed to convert value '%s' to enum/flags '%s' (expecting eg. '%s')
@@ -4094,6 +4094,7 @@ GlobalAssetBrowserContext
 GlobalHotkeys
 GlobalTopLevel
 GotoAsset
+Gq^j
 Gradient()
 GraphCanvasDebugger
 GraphCanvasViewMiniMap
@@ -4223,12 +4224,12 @@ IsChild
 ItemDoubleClicked
 J ?toggleViewAction@QToolBar@@QEBAPEAVQAction@@XZ
 J\r?hitButton@QPushButton@@MEBA_NAEBVQPoint@@@Z
-J\tV_isvalidhex
 J\v?event@QLabel@@MEAA_NPEAVQEvent@@@Z
 Jump to Instr I%d
 K ?toggled@QAbstractButton@@QEAAX_N@Z
 KV3 Pointer
 K\r?hitButton@QRadioButton@@MEBA_NAEBVQPoint@@@Z
+K\tV_isinfd
 K\v?event@QLineEdit@@UEAA_NPEAVQEvent@@@Z
 Key Bindings
 KeyState
@@ -4486,6 +4487,7 @@ NumToggle
 OP?isNull@QIcon@@QEBA_NXZ
 OR List
 OR: This group will match if ANY of the parts match\n(Click to toggle to AND)
+O\tV_isvalidhex
 Oa?width@QImage@@QEBAHXZ
 OkClicked
 On Interval
@@ -5528,7 +5530,6 @@ Z?setPixelSize@QFont@@QEAAXH@Z
 Z?setPlainText@QTextDocument@@QEAAXAEBVQString@@@Z
 Z?setPointSize@QFont@@QEAAXH@Z
 ZX?setBackground@QTextFormat@@QEAAXAEBVQBrush@@@Z
-Z\tV_log2f
 Z]?sort@QStandardItemModel@@UEAAXHW4SortOrder@Qt@@@Z
 ZoomAllCamerasIn
 ZoomAllCamerasOut
@@ -5645,6 +5646,7 @@ ZoomOutFromMiniMap
 \f\n?cmp@QVariant@@QEBA_NAEBV1@@Z
 \f\n?deselect@QLineEdit@@QEAAXXZ
 \f\r?heightForWidth@QFormLayout@@UEBAHH@Z
+\f\tV_acosd
 \n-------------\n
 \n?arcTo@QPainterPath@@QEAAXAEBVQRectF@@NN@Z
 \n?bits@QImage@@QEAAPEAEXZ
@@ -5726,7 +5728,6 @@ ZoomOutFromMiniMap
 \rO?initPainter@QPaintDevice@@MEBAXPEAVQPainter@@@Z
 \r\f?focusInEvent@QLineEdit@@MEAAXPEAVQFocusEvent@@@Z
 \r\r?heightForWidth@QGridLayout@@UEBAHH@Z
-\r\tV_atand
 \s?\([0-9]+\)\s*$
 \t?addPixmap@QIcon@@QEAAXAEBVQPixmap@@W4Mode@1@W4State@1@@Z
 \t?alpha@QColor@@QEBAHXZ
@@ -5752,13 +5753,12 @@ ZoomOutFromMiniMap
 \t?defaultWidget@QWidgetAction@@QEBAPEAVQWidget@@XZ
 \tQToolButton { \t\tbackground-color : rgb( 100, 100, 100 ); \t\tborder: 2px solid rgb( 200, 200, 200 ); \t\tborder-radius: %2px; \t\tbackground-image: url(game:tools/images/common/tag_add.png); \t\tbackground-repeat: no-repeat; \t\tbackground-position: center center; \t\tmargin: 3px; \t} \tQToolButton:hover:!pressed { \t\tbackground-color : rgb( 0, 0, 0 ); \t\tborder-color : rgb( 255, 255, 255 ); \t} 
 \tT?parent@QWindow@@QEBAPEAV1@XZ
-\tV_acosd
+\tV_asind
+\tV_atand
 \tV_cosd
-\tV_exp2f
 \tV_tand
 \t\f?data@QString@@QEBAPEBVQChar@@XZ
 \t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\n\v\n\v\n\v\n\v\n\v\n\v\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
-\t\tV_asind
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\tw
 \t_V_StringAfterPrefixCaseSensitive
 \t_V_strcspn
@@ -5811,6 +5811,7 @@ _?texture@QBrush@@QEBA?AVQPixmap@@XZ
 _AssetMenuHelper
 _Q?lightness@QColor@@QEBAHXZ
 _\r?horizontalOffset@QTreeView@@MEBAHXZ
+_\tV_log2f
 _\v?event@QSlider@@UEAA_NPEAVQEvent@@@Z
 __AllKeys__
 __CursorQueue__
@@ -5822,7 +5823,6 @@ _bakeresourcecache.vpk
 `?validate@QDoubleValidator@@UEBA?AW4State@QValidator@@AEAVQString@@AEAH@Z
 `?validate@QIntValidator@@UEBA?AW4State@QValidator@@AEAVQString@@AEAH@Z
 `?validate@QRegularExpressionValidator@@UEBA?AW4State@QValidator@@AEAVQString@@AEAH@Z
-`\tV_modfd
 `\v?event@QSpinBox@@MEAA_NPEAVQEvent@@@Z
 `a?widthF@QPen@@QEBANXZ
 a:fulltype
@@ -5977,6 +5977,7 @@ dont_remind_today_checkbox
 e"?validate@QSpinBox@@MEBA?AW4State@QValidator@@AEAVQString@@AEAH@Z
 e\f?foregroundRole@QWidget@@QEBA?AW4ColorRole@QPalette@@XZ
 e\n?dragEnterEvent@QAbstractItemView@@MEAAXPEAVQDragEnterEvent@@@Z
+e\tV_modfd
 edit_filter
 editingFinished
 element
@@ -6627,7 +6628,6 @@ type_restriction_is_enum_flags
 uT?pointAtPercent@QPainterPath@@QEBA?AVQPointF@@N@Z
 uV?read@QStandardItem@@UEAAXAEAVQDataStream@@@Z
 u\n?connect@QObject@@SA?AVConnection@QMetaObject@@PEBV1@PEBD01W4ConnectionType@Qt@@@Z
-u\tV_sind
 u\v?eventFilter@QAbstractItemView@@MEAA_NPEAVQObject@@PEAVQEvent@@@Z
 underline
 unmodified
@@ -6680,6 +6680,7 @@ yellow
 yellowgreen
 zU?qt_metacall@QDrag@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 z\n?dragLeaveEvent@QTextEdit@@MEAAXPEAVQDragLeaveEvent@@@Z
+z\tV_sind
 z\v?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
 z\v?eventFilter@QDialog@@MEAA_NPEAVQObject@@PEAVQEvent@@@Z
 { "%1",\t{ %2, %3 },\t\t{ %4, %5 }\t },\n

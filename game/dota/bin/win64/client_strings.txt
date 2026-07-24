@@ -167,9 +167,8 @@
  (%lu = 0x%lx)\n
  (%u = 0x%x)\n
  (+%d more due to usercommand delivery)
- (08@HPXb
- (08@HR
- (0X`hpz
+ (08@HPXb@
+ (0X`hpz@
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -6993,55 +6992,52 @@ $hRh
 (0'yX
 (0.1s interval)
 (0x%08X)'??'
-(1Ct
-(1bt
-(1jt
-(53t
+(1Ns
+(1es
+(1vt
+(5Fs
 (5Me
-(5Ns
-(5Rs
+(5Ts
+(5Xs
 (5jP
-(5vs
-(5xs
-(9Tt
-(9st
-(9wt
-(9xt
+(5js
 (?333?DOTAShowGlossaryPage
-(A8t
 (ACTIVE)
-(APs
+(AMs
+(AQs
+(Ahs
 (App Id to retrieve published files from.
-(Avt
+(Ars
+(Azt
 (BZq
 (CLIENT) Inventory:\n
 (Client) 
 (D4D
 (DOTA_INVALID_ORDERS nReason) Return the error string of a failed order.
-(E0s
-(E1s
-(EAs
-(EKt
-(Eis
+(E4s
+(Ems
+(Evs
+(Ewt
 (Fade Removed: [%d,%d,%d,%d])\n
 (HSCRIPT hTarget) Determine whether an issued command on a target is valid.
 (HSCRIPT hTarget) Return the error string of a failed command on a target.
-(I7t
+(I0s
+(I9s
 (I?Value@External@v8@@QEBAPEAXXZ
 (ID of the Cloud file to get details for.
 (IImageSource)
-(ILs
-(IRt
-(Ibs
-(Ifs
+(IYs
+(Igs
 (Interp Ready=%s)
-(Iyt
-(MDt
-(Mnt
+(M6s
+(MZt
+(Mns
 (NONE)
-(Qit
+(QJt
+(QLs
+(QOt
+(Qks
 (Qls
-(Qos
 (SST) Disconnecting for the purpose of editing %s\n
 (SST) Disconnecting for the purpose of removing all SST data from vpk\n
 (SST) Moving %s to %s\n
@@ -7049,12 +7045,19 @@ $hRh
 (SST) Zipping %s (%d files)\n
 (Text description for the published file.
 (U1h
+(U8t
+(UZs
+(Ubs
+(Ult
 (Unknown error)
-(Urt
+(Unt
+(Ups
 (VectorWS vLocation) Determine whether an issued command on a location is valid.
 (VectorWS vLocation) Return the error string of a failed command on a location.
 (WIPE AND EXTRACT)
-(Yus
+(YEt
+(YIs
+(Yis
 (ZdOt\n&
 (\f"#\n!CDOTABroadcastMsg_LANLobbyRequest"
 (\f"#\n!CMsgClientToGCEmoticonDataRequest"Q\n
@@ -7896,54 +7899,55 @@ $hRh
 (\v2\v.CMsgVector"l\n
 (\v2\v.CMsgVector"o\n)CDOTAUserMsg_UpdateLinearProjectileCPData
 (\v2\v.CMsgVector*
-(aqs
-(ars
+(aQt
+(aVs
 (b IncludePregameTime b IncludeNegativeTime) Returns the actual DOTA in-game clock time.
 (connected)
 (d4t8
 (default)
+(e1t
+(eBs
+(eit
 (fS{ggRcjh
 (flTime, bInformClients)
 (from angle, to angle, time) - Spherical lerp of angle from->to based on time
 (h`H1pqA
 (i/Al
-(i6s
-(iEt
-(iJt
-(iks
+(i6t
+(iRt
+(ikt
 (index, bDestroyImmediately, bStatusEffect, priority, bHeroEffect, bOverheadEffect
 (int iIndex, int iPoint, Vector vecPosition)
 (int index, bool bDestroyImmediately) - Destroy a particle, if bDestroyImmediately destroy it without playing end caps.
 (int nFXIndex, int nPoint, vOrigin, qAngles)
 (int nFXIndex, int nPoint, vOrigin, vForward)
-(iot
-(ipt
+(irt
 (jvg;
-(m3t
-(m8t
+(m5s
+(m7t
+(mAt
 (memory)
+(mmt
 (needs match)
 (no controller?)
 (parent %d)
 (partial match ok)
-(q9t
-(qPs
-(qXs
+(qBt
+(qjs
+(qpt
 (quaternion,quaternion,float) very basic interpolation of v0 to v1 over t on [0,1]
 (quaternion,vector,float) rotates a quaternion by the specified angle around the specified vector axis
-(qzs
-(u4t
+(uLt
 (update disabled)
+(uqs
 (vQF
 (vector,float) constructs a quaternion representing a rotation by angle around the specified vector axis
 (vector,vector) cross product between two vectors
 (vector,vector,float) lerp between two vectors by a float factor returning new vector
 (vector,vector,float) very basic interpolation of v0 to v1 over t on [0,1]
 (wMww
-(yLs
-(ykt
-(ylt
-(yst
+(y4t
+(yys
 ) == false\n
 )!)#)?)G)])e)i)o)u)
 )#DOTA_Hero_Selection_CaptainsMode_TheyBan
@@ -8309,7 +8313,6 @@ $hRh
 *kf[R
 *laM-\SO
 *o\n\teRollType
-*p46
 *v\n\vEPingSource
 + <font color="#ffd825">%d</font><panel class="CombatEventGoldIcon" /> 
 + Added %s Player[%d]: %s\n
@@ -9870,7 +9873,6 @@ $hRh
 .?AV<lambda_1>@?9??BuildAssetModifierContainer@CItemGeneration@@QEAAXPEAVCAssetModifierContainer@@HPEAPEAVC_EconItemView@@@Z@
 .?AV<lambda_1>@?9??CreateNewViewerList@CDOTA_DB_Page_Collection@@IEAAX_N@Z@
 .?AV<lambda_1>@?9??OnBubbleCompleted@CDOTA_Popup_Dark_Carnival_Encounter_Whack_A_Mole@@AEAAXPEAVCDOTA_WhackAMole_WordBubblePanel@@@Z@
-.?AV<lambda_1>@?9??OnKeyTyped@CDOTA_Popup_Dark_Carnival_Encounter_Whack_A_Mole@@UEAA_NAEBUKeyData_t@panorama@@@Z@
 .?AV<lambda_1>@?9??UpdateDirtyPanel@CDOTA_DB_Background_DarkCarnival@@UEAAXXZ@
 .?AV<lambda_1>@?9??UpdateDirtyPanel@CDOTA_DB_Page_International2025_Talent@@EEAAXXZ@
 .?AV<lambda_1>@?9??UpdateDirtyPanel@CDOTA_UI_MonsterHunterMaterialInventory@@UEAAXXZ@
@@ -10104,6 +10106,7 @@ $hRh
 .?AV<lambda_1>@?L@??RebuildCarousel@CDOTA_DB_Page_Collection_Featured_ItemsCarousel@@AEAAXXZ@
 .?AV<lambda_1>@?L@??RebuildCarousel@CDOTA_UI_StoreItemCarousel@@AEAAXXZ@
 .?AV<lambda_1>@?L@??UpdateActiveQuestData@CDOTA_DB_Background_BP_International2023@@AEAAXXZ@
+.?AV<lambda_1>@?M@??OnKeyTyped@CDOTA_Popup_Dark_Carnival_Encounter_Whack_A_Mole@@UEAA_NAEBUKeyData_t@panorama@@@Z@
 .?AV<lambda_1>@?M@??PlayHeroActivity@CDOTA_Hud_VersusScene@@QEAAXVPlayerID_t@@HPEBUVersusScreenHeroActivity_t@@@Z@
 .?AV<lambda_1>@?M@??SetupPage@CDOTA_DB_Page_ProfileHeroStats@@UEAA?AW4EPageSetupResult@@_K@Z@
 .?AV<lambda_1>@?M@??ShowHeroIconsBasedOnModifiers@CDOTA_Hud_AbilityHeroIcons@@AEAAXXZ@
@@ -21324,7 +21327,6 @@ $hRh
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?9??BuildAssetModifierContainer@CItemGeneration@@QEAAXPEAVCAssetModifierContainer@@HPEAPEAVC_EconItemView@@@Z@XPEBVCAssetModifier@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?9??CreateNewViewerList@CDOTA_DB_Page_Collection@@IEAAX_N@Z@_NPEAVCDelayLoadList@panorama@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?9??OnBubbleCompleted@CDOTA_Popup_Dark_Carnival_Encounter_Whack_A_Mole@@AEAAXPEAVCDOTA_WhackAMole_WordBubblePanel@@@Z@X$$V@std@@
-.?AV?$_Func_impl_no_alloc@V<lambda_1>@?9??OnKeyTyped@CDOTA_Popup_Dark_Carnival_Encounter_Whack_A_Mole@@UEAA_NAEBUKeyData_t@panorama@@@Z@_NPEAVCDOTA_WhackAMole_WordBubblePanel@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?9??UpdateDirtyPanel@CDOTA_DB_Background_DarkCarnival@@UEAAXXZ@PEAVCDOTA_UI_OverworldToken@@H@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?9??UpdateDirtyPanel@CDOTA_DB_Page_International2025_Talent@@EEAAXXZ@XPEAVCPanel2D@panorama@@H@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?9??UpdateDirtyPanel@CDOTA_UI_MonsterHunterMaterialInventory@@UEAAXXZ@PEAVCDOTA_UI_MonsterHunterMaterial@@H@std@@
@@ -21558,6 +21560,7 @@ $hRh
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?L@??RebuildCarousel@CDOTA_DB_Page_Collection_Featured_ItemsCarousel@@AEAAXXZ@XPEAVCDelayLoadPanel@panorama@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?L@??RebuildCarousel@CDOTA_UI_StoreItemCarousel@@AEAAXXZ@XPEAVCDelayLoadPanel@panorama@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?L@??UpdateActiveQuestData@CDOTA_DB_Background_BP_International2023@@AEAAXXZ@XPEAVCPanel2D@panorama@@H@std@@
+.?AV?$_Func_impl_no_alloc@V<lambda_1>@?M@??OnKeyTyped@CDOTA_Popup_Dark_Carnival_Encounter_Whack_A_Mole@@UEAA_NAEBUKeyData_t@panorama@@@Z@_NPEAVCDOTA_WhackAMole_WordBubblePanel@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?M@??PlayHeroActivity@CDOTA_Hud_VersusScene@@QEAAXVPlayerID_t@@HPEBUVersusScreenHeroActivity_t@@@Z@X$$V@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?M@??SetupPage@CDOTA_DB_Page_ProfileHeroStats@@UEAA?AW4EPageSetupResult@@_K@Z@_NPEAVCDOTA_UI_SortHeader@@@std@@
 .?AV?$_Func_impl_no_alloc@V<lambda_1>@?M@??ShowHeroIconsBasedOnModifiers@CDOTA_Hud_AbilityHeroIcons@@AEAAXXZ@_NPEAVCPanel2D@panorama@@@std@@
@@ -37120,12 +37123,13 @@ $hRh
 0234
 02V8[
 05=k
-08@J
+08@J@
 08bX
 09,h
 0:%02d
 0;Q5[
 0<cz
+0>pw
 0M2~@p
 0Marks latest announcement timestamp read by user
 0Name of the file to publish in the user's cloud.
@@ -37416,6 +37420,7 @@ $hRh
 1}oP
 2 .CMsgBattleReport_CompareContext"
 2 .CMsgGCRoutingInfo.RoutingMethod:
+2 06
 2 arguments expected: %s <map name> <override map name>\n
 2!.CMsgAddSocketResponse.EAddSocket"
 2!.CMsgBattleReport_HighlightRarity
@@ -37536,9 +37541,9 @@ $hRh
 20.CMsgSpectateFriendGameResponse.EWatchLiveResult"
 200 200 200 196
 2013-01-01
+2016
 2022_diretide_collectors_cache
 2025_cta_collectors_cache_voting
-20B6
 20t\f
 20x9
 21.CMsgClientToGCBingoGetUserDataResponse.EResponse
@@ -37708,6 +37713,7 @@ $hRh
 2@.CMsgClientToGCFantasyCraftingPerformOperationResponse.EResponse
 2@.CMsgClientToGCJoinPrivateCoachingSessionLobbyResponse.EResponse"
 2@.CMsgClientToGCMonsterHunterDevModifyHeroCodexResponse.EResponse"u\n\tEResponse
+2@36
 2A.CMsgClientToGCGetCurrentPrivateCoachingSessionResponse.EResponse
 2Array of text tags to apply to the published file.
 2B.CMsgClientToGCFantasyCraftingSelectGlobalPrefixResponse.EResponse
@@ -37863,12 +37869,12 @@ $hRh
 2\r.ELeaguePhase
 2\rlhp
 2\vp!d
-2\vp8
 2^pV
 2_bot
 2_mid
 2_top
 2_week_streak
+2`o3
 2a"l
 2bT~
 2cb:RO
@@ -37877,8 +37883,6 @@ $hRh
 2nIg
 2ndry
 2p"6
-2p46
-2po=
 2prB
 3#DOTA_Hero_Selection_AllDraft_YouPicking_LosingGold
 3%3+3/353A3G3[3_3g3k3s3y3
@@ -38017,7 +38021,6 @@ $hRh
 4.CPlayer_GetMutualFriendsForIncomingInvites_Response"^
 40 40 40 196
 400.0 -400.0 -50.0
-40k=
 46936
 474E4U4W4c4i4m4
 4<Td
@@ -38379,38 +38382,30 @@ $hRh
 7sAP'
 7wKR
 7zRQ
-8!dt
 8"3hrf
-8%8s
 8&Kx
+8)8s
+8)Os
 8+Qw
 80F2<
 82\n:XPH
 851Pe
-85Ms
 89 89 89
 8<pl
 8= zp
-8=hs
 8@HPZ
-8@HPZ`j=
 8A6j
-8Bp46
 8Client ID for which to count the number of issued tokens"
-8E7s
-8EOt
-8F v
 8GZS
 8Gets the list of nicknames this user has for other users
+8IHt
 8If set, remove from ignore/block list instead of adding "\\n
 8If true, return tag information in the returned details.
-8M@s
 8Name of the file to use as the published file's preview.
 8SIffK5W
 8TZvrv<
 8TopArrow
 8Uas
-8Yms
 8\n0series_current_selection_priority_used_coin_toss
 8\n0ultimate_scepter_consumed_alchemist_bonus_health
 8\n3kKillEaterEventType_Broodmother_SpiderlingHeroKills
@@ -38465,16 +38460,16 @@ $hRh
 8\n\rnotifications
 8\n\rready_members
 8\n\rsubscribe_msg
-8\tas
+8\tgt
 8\v8!83858A8G8K8S8W8_8e8o8q8}8
 8]Vc2
 8ca1
 8dS2
+8mdt
 8oYSBkqnngo
 8pe7?
 8q-S*]X
-8qNs
-8qet
+8q8s
 8sOy
 9#9%9)9/9=9A9M9[9k9y9}9
 9#DOTA_Hero_Selection_CaptainsMode_WaitingForChooseCaptain
@@ -38485,10 +38480,8 @@ $hRh
 969p
 9966
 9:dzGN
-9>Os
 9@Xp&
 9B2C1229
-9Bgt
 9IGv
 9J9;6
 9N1=@
@@ -38544,7 +38537,6 @@ $hRh
 9oB#
 9q6\r#m
 9r#xV
-9~Os
 :    %i/%i (%d) full repredict\n
 :    %i/%i (%d) skip to %i restore from slot %i\n
 :    %i/%i (%i) Prediction slot %d holds command %d instead of %d!  Deleting all predictions, will full repredict\n
@@ -38556,7 +38548,6 @@ $hRh
 :    initpredictable %d:%s for %d slots\n
 : unrecognized parent "%s"\n
 :':+:1:K:Q:[:c:g:m:y:
-:096
 :4\n\vdescription
 :9\n\tkey_field
 :BAD OBJECT
@@ -38612,7 +38603,6 @@ $hRh
 :eaI
 :gN(dq
 :mIR
-:p46
 :w4v
 ;!;#;-;9;E;S;Y;_;q;{;
 ;"lY7
@@ -39061,7 +39051,7 @@ $hRh
 ?uWS
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
-@08ND
+@08N
 @0pp
 @333333)@R
 @888
@@ -39070,8 +39060,8 @@ $hRh
 @BH]f
 @BoneSetup
 @DebugIndividualStyle
-@HPX`hv`Y
 @HPXf
+@HV@p
 @Integer overflow in %s
 @MfKZ
 @Pgl
@@ -39104,6 +39094,7 @@ $hRh
 @keyframes 
 @keyframes '%s'\r\n{\r\n
 @merged
+@modifier_mars_gods_rebuke_slow
 @n2w
 @setlocal\n
 @type
@@ -39135,6 +39126,7 @@ A9ur
 A<fP
 A>x8
 AA Compromise
+AA:p
 AABB
 AABBDirection
 AACompromise
@@ -40701,7 +40693,6 @@ B-409
 B-571
 B-Spline
 B.z\85p
-B0j=
 B2I_DSS
 B2I_RSA
 B2pr
@@ -40854,6 +40845,7 @@ BOOLEAN
 BPEventLevelIcon
 BPIN_txt
 BPLevel
+BPj=
 BReadyForDisplay
 BRouteMsgToJob
 BRouteWorkItemCompleted called for a job that could not be found!\n
@@ -41388,7 +41380,7 @@ BoxFinished
 BoxFocused
 BoxIdle
 BoxOpening
-Bpn=
+Bpj=
 Bracket
 Bracket%d
 BracketBoxContainer
@@ -55492,6 +55484,7 @@ E\n\thero_data
 E\n\tloc_stats
 E\n\vhunt_reward
 E\n\vinventories
+E\npj=
 EarlyPurchaseMaterials
 EarlyRetireParticleSystems
 Earned
@@ -65588,17 +65581,17 @@ P-224
 P-256
 P-384
 P-521
-P08@J
-P08J
-P08ND
+P08@J@
+P08JP*2
+P08N
 P0WonMatch
 P1Avatar
 P1WonMatch
 P1\t98"
 P2Avatar
 P2P ping to "%s". Timed out after %.2fms\n
-P4P'=
 P5[1
+P6`N
 PAGN_4
 PAGrave
 PAIN: %2.2f\n
@@ -67744,7 +67737,6 @@ R Sqrt
 R(Optional) If true, only return the total number of files that satisfy this query.
 R(Optional) Tags that must NOT be present on a published file to satisfy the query."
 R/Qs
-R0B6
 R2I_CERTPOL
 R2I_PCI
 R=1C&b
@@ -67928,7 +67920,6 @@ RTTIPredictionsUnlocked
 RTTISelected
 RTTIState
 RT_txt
-R\fp8
 R\n\fActivityInfo
 R\n\fmap_variants
 R\n\fplayer_cards
@@ -67938,7 +67929,7 @@ R\r1>Vp
 R\tV_iswcntrl
 R\vP!m
 R\vp!y
-R\vpd
+R\vpT
 R]Di
 R_T5Y
 Rad Guys
@@ -75786,7 +75777,6 @@ X\tQo
 Xd3h
 Xdota
 Xf y
-Xf@z
 XfJ7
 Xin \t
 XjfR
@@ -76067,6 +76057,7 @@ Z~wl
 \fBlessingID_t
 \fCEntityIndex"
 \fKS1
+\fPA6
 \fW9c
 \fXu"L
 \f\tV_acosd
@@ -76075,6 +76066,7 @@ Z~wl
 \fevents.proto
 \fevents.proto"
 \fiaR
+\fp\vPt
 \ful2
 \fy&3Gl
 \l:ArR
@@ -76495,7 +76487,7 @@ Z~wl
 \n/CMsgClientToGCSubmitCoachTeammateRatingResponse
 \n/CMsgDOTATeamInvite_GCImmediateResponseToInviter
 \n/steammessages_publishedfile.steamworkssdk.proto
-\n0B6
+\n066
 \n0CMsgClientToGCMonsterHunterGiftMaterialsResponse
 \n0CMsgClientToGCOverworldDevClearInventoryResponse
 \n0CMsgClientToGCPlayerCardSpecificPurchaseResponse
@@ -76616,6 +76608,7 @@ Z~wl
 \nPlayerID_t
 \nPlayerID_t"
 \nSimulating Entities:\n\n
+\nTOs
 \nUnknown reward type '%s' for action '%s' at score '%s'
 \n\fAsyncRewards
 \n\fBAD_QUANTITY
@@ -78149,7 +78142,6 @@ Z~wl
 \n\vzoom_amount
 \ng_flConfigMaxCoord
 \ngrant_periodic_action '%s' doesn't specify an action to grant
-\np46
 \nqYu
 \ntM(ie-V
 \nunit1: %s \nunit2: %s \nevent: %s \npriority: %d\n
@@ -78511,7 +78503,6 @@ Z~wl
 \v"f\n*CMsgOverworldEncounterPitFighterRewardData
 \v"w\n2CMsgClientToGCOverworldRequestTokensNeededByFriend
 \v#\v)\v-\v?\vG\vQ\vW\v]\ve\vo\v{\v
-\v:p46
 \vAbilityID_t
 \vAbilityID_t"
 \vAbilityID_t"8\n
@@ -78695,17 +78686,19 @@ _video
 _wjb
 _xU`u
 _}eOk
+`2 06
 `28)fk
-`2Pj=
+`2@36
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
-`40j=
-`6PN
 `:zQF
 `D$daM-l
 `DZG
+`E4t
 `F?ToLocalEmpty@api_internal@v8@@YAXXZ
 `H(hqA1p
 `ITS
+`QAs
+`UDs
 `VX:H
 `\n+k_EHeroSelectionText_CaptainsMode_YouSelect
 `\n+k_EHeroSelectionText_RandomDraft_HeroReview
@@ -78713,12 +78706,11 @@ _}eOk
 `\tV_logd
 `fPw.\vM
 `h9T~
-`iTt
+`ius
+`mzt
 `o_je
-`qhs
-`rPj=
-`uyt
 `yNT
+`yht
 a moment...
 a null shared library handle was used
 a world layer in a dota map
@@ -78736,7 +78728,6 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBvD
 aD/x
 aDSS
 aECDH
@@ -80156,6 +80147,7 @@ b\tV_longjmp
 b\vP\n0
 b\vp\n0
 b]jY
+b`o3
 backdoor_protection
 backdoor_protection_in_base
 backend_response
@@ -80844,7 +80836,6 @@ box_outer_maxs
 box_outer_mins
 box_size
 box_state
-bp46
 bpFh
 bp_amount
 bp_max
@@ -88617,12 +88608,15 @@ gyroshell
 g{syW*
 g|FeW\v
 g|MT
+h%Ut
 h&eC
+h)5s
 h*Ax
 h0XB
 h2Wl
 h2n_\
 h5N.
+h9Bt
 hActivator
 hAttacker
 hCallbackFunc
@@ -88635,6 +88629,7 @@ hEntityA
 hEntityB
 hF\rDz
 hFcg
+hIVt
 hJxRX@_
 hN2D
 hRB.
@@ -88733,7 +88728,6 @@ hbvc
 hc[N
 hc\raF
 hcontent_preview
-he\rt
 header
 header too long
 header_expr
@@ -89187,6 +89181,7 @@ hours_remaining
 houseIdentifier
 hover
 how_to_play
+hpz@
 hr_H
 href="
 hscroll
@@ -89333,7 +89328,6 @@ hype
 hype_loc
 hypothermia
 h|gg
-h}Wt
 i <= EVP_MAX_MD_SIZE
 i%YR
 i%|kB
@@ -91272,7 +91266,6 @@ j <= (int)sizeof(ctx->key)
 j <= sizeof(c->iv)
 j"MRX
 j&LQ
-j0j=
 j0ksJ
 j2ty
 j3kg
@@ -95866,7 +95859,6 @@ modifier_mars_bulwark_soldier_thinker
 modifier_mars_dauntless
 modifier_mars_dauntless_effect
 modifier_mars_gods_rebuke_crit
-modifier_mars_gods_rebuke_slow
 modifier_mars_immovable
 modifier_mars_scepter_damage
 modifier_mars_scepter_damage_slow
@@ -99098,9 +99090,7 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^D
-p0j 
-p2p46
+p08@H^
 p2p_ping could not convert "%s" to a CPeerToPeerAddress\n
 p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n
@@ -99113,8 +99103,8 @@ p4 edit ..\panorama\videos\heroes\%s.webm\n
 p4Z3
 p5Z3
 p5\nL,
+p60!
 p618
-p6pm
 p>?Set@Template@v8@@QEAAXV?$Local@VName@v8@@@2@V?$Local@VData@v8@@@2@W4PropertyAttribute@2@@Z
 p@0pqE5tsO?|1
 pCheckpointName
@@ -102129,12 +102119,10 @@ rRfKR
 rX&O0
 rZ1VwGf5
 rZPM
-r\fpd
 r\n4k_EHeroSelectionText_AllDraft_TheyPicking_LosingGold
 r\n\nHuntReward
 r\n\vstart_index
 r\vDi
-r\vp8
 r_cleardecals
 r_deferred_additive_pass 1
 r_deferred_height_fog 1

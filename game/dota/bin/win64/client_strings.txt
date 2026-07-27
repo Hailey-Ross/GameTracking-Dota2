@@ -167,8 +167,6 @@
  (%lu = 0x%lx)\n
  (%u = 0x%x)\n
  (+%d more due to usercommand delivery)
- (08@HPXb@
- (0X`hpz@
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -37123,13 +37121,11 @@ $hRh
 0234
 02V8[
 05=k
-08@J@
 08bX
 09,h
 0:%02d
 0;Q5[
 0<cz
-0>pw
 0M2~@p
 0Marks latest announcement timestamp read by user
 0Name of the file to publish in the user's cloud.
@@ -37420,7 +37416,6 @@ $hRh
 1}oP
 2 .CMsgBattleReport_CompareContext"
 2 .CMsgGCRoutingInfo.RoutingMethod:
-2 06
 2 arguments expected: %s <map name> <override map name>\n
 2!.CMsgAddSocketResponse.EAddSocket"
 2!.CMsgBattleReport_HighlightRarity
@@ -37541,7 +37536,6 @@ $hRh
 20.CMsgSpectateFriendGameResponse.EWatchLiveResult"
 200 200 200 196
 2013-01-01
-2016
 2022_diretide_collectors_cache
 2025_cta_collectors_cache_voting
 20t\f
@@ -37713,7 +37707,7 @@ $hRh
 2@.CMsgClientToGCFantasyCraftingPerformOperationResponse.EResponse
 2@.CMsgClientToGCJoinPrivateCoachingSessionLobbyResponse.EResponse"
 2@.CMsgClientToGCMonsterHunterDevModifyHeroCodexResponse.EResponse"u\n\tEResponse
-2@36
+2@06
 2A.CMsgClientToGCGetCurrentPrivateCoachingSessionResponse.EResponse
 2Array of text tags to apply to the published file.
 2B.CMsgClientToGCFantasyCraftingSelectGlobalPrefixResponse.EResponse
@@ -37737,6 +37731,7 @@ $hRh
 2J.CMsgClientToGCMonsterHunterDevClaimInvestigationRewardsResponse.EResponse"u\n\tEResponse
 2K.CMsgClientToGCGetAvailablePrivateCoachingSessionsSummaryResponse.EResponse
 2L.CMsgClientToGCMonsterHunterRequestMaterialsNeededByFriendResponse.EResponse
+2P16
 2Set of published file Ids to retrieve details for.
 2Tm=#
 2Uiwp"9
@@ -37869,12 +37864,13 @@ $hRh
 2\r.ELeaguePhase
 2\rlhp
 2\vp!d
+2\vpt
 2^pV
 2_bot
 2_mid
 2_top
 2_week_streak
-2`o3
+2`36
 2a"l
 2bT~
 2cb:RO
@@ -38548,6 +38544,7 @@ $hRh
 :    initpredictable %d:%s for %d slots\n
 : unrecognized parent "%s"\n
 :':+:1:K:Q:[:c:g:m:y:
+:036
 :4\n\vdescription
 :9\n\tkey_field
 :BAD OBJECT
@@ -39061,7 +39058,7 @@ $hRh
 @BoneSetup
 @DebugIndividualStyle
 @HPXf
-@HV@p
+@HV`p
 @Integer overflow in %s
 @MfKZ
 @Pgl
@@ -39126,7 +39123,6 @@ A9ur
 A<fP
 A>x8
 AA Compromise
-AA:p
 AABB
 AABBDirection
 AACompromise
@@ -40845,7 +40841,6 @@ BOOLEAN
 BPEventLevelIcon
 BPIN_txt
 BPLevel
-BPj=
 BReadyForDisplay
 BRouteMsgToJob
 BRouteWorkItemCompleted called for a job that could not be found!\n
@@ -55484,7 +55479,6 @@ E\n\thero_data
 E\n\tloc_stats
 E\n\vhunt_reward
 E\n\vinventories
-E\npj=
 EarlyPurchaseMaterials
 EarlyRetireParticleSystems
 Earned
@@ -65581,8 +65575,7 @@ P-224
 P-256
 P-384
 P-521
-P08@J@
-P08JP*2
+P08Jp*2
 P08N
 P0WonMatch
 P1Avatar
@@ -65591,7 +65584,6 @@ P1\t98"
 P2Avatar
 P2P ping to "%s". Timed out after %.2fms\n
 P5[1
-P6`N
 PAGN_4
 PAGrave
 PAIN: %2.2f\n
@@ -67929,7 +67921,7 @@ R\r1>Vp
 R\tV_iswcntrl
 R\vP!m
 R\vp!y
-R\vpT
+R\vpt
 R]Di
 R_T5Y
 Rad Guys
@@ -75776,7 +75768,8 @@ X\n\tGraphData
 X\tQo
 Xd3h
 Xdota
-Xf y
+Xf x
+Xf@y
 XfJ7
 Xin \t
 XjfR
@@ -76057,7 +76050,6 @@ Z~wl
 \fBlessingID_t
 \fCEntityIndex"
 \fKS1
-\fPA6
 \fW9c
 \fXu"L
 \f\tV_acosd
@@ -76066,7 +76058,7 @@ Z~wl
 \fevents.proto
 \fevents.proto"
 \fiaR
-\fp\vPt
+\fpA6
 \ful2
 \fy&3Gl
 \l:ArR
@@ -76487,7 +76479,6 @@ Z~wl
 \n/CMsgClientToGCSubmitCoachTeammateRatingResponse
 \n/CMsgDOTATeamInvite_GCImmediateResponseToInviter
 \n/steammessages_publishedfile.steamworkssdk.proto
-\n066
 \n0CMsgClientToGCMonsterHunterGiftMaterialsResponse
 \n0CMsgClientToGCOverworldDevClearInventoryResponse
 \n0CMsgClientToGCPlayerCardSpecificPurchaseResponse
@@ -76605,6 +76596,7 @@ Z~wl
 \nLeagueID_t"
 \nLeagueID_t"9\n#CMsgDOTACompendiumSelectionResponse
 \nLeagueID_t"C\n-CMsgDOTACompendiumRemoveAllSelectionsResponse
+\nP66
 \nPlayerID_t
 \nPlayerID_t"
 \nSimulating Entities:\n\n
@@ -78686,9 +78678,9 @@ _video
 _wjb
 _xU`u
 _}eOk
-`2 06
 `28)fk
-`2@36
+`2@06
+`2`36
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
 `:zQF
 `D$daM-l
@@ -80147,7 +80139,6 @@ b\tV_longjmp
 b\vP\n0
 b\vp\n0
 b]jY
-b`o3
 backdoor_protection
 backdoor_protection_in_base
 backend_response
@@ -89181,7 +89172,6 @@ hours_remaining
 houseIdentifier
 hover
 how_to_play
-hpz@
 hr_H
 href="
 hscroll
@@ -99103,8 +99093,8 @@ p4 edit ..\panorama\videos\heroes\%s.webm\n
 p4Z3
 p5Z3
 p5\nL,
-p60!
 p618
+p6P!
 p>?Set@Template@v8@@QEAAXV?$Local@VName@v8@@@2@V?$Local@VData@v8@@@2@W4PropertyAttribute@2@@Z
 p@0pqE5tsO?|1
 pCheckpointName
@@ -102089,6 +102079,7 @@ qx(q
 r axis
 r$0I
 r-IE
+r0)6
 r184
 r1c1
 r1c2

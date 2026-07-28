@@ -154,9 +154,7 @@
  %s%lu (%s0x%lx)\n
  ' ) - 3 G M Q _ c e i w } 
  (%ld unused bits)\n
- (08@HPX`j@
  (08@HPXb
- (08@HPZ@
  (08@HR
  (0X`hpz
  (Dirty Animation)
@@ -785,6 +783,7 @@ $GIRu
 $HypYkf
 $J6"t
 $JXsZ
+$Pau
 $XI(6
 $\n CHAT_MESSAGE_ABILITY_DRAFT_START
 $\n CHAT_MESSAGE_HERO_CHOICE_INVALID
@@ -1858,7 +1857,7 @@ $hRh
 (1Gi
 (1bi
 (1qi
-(4 au
+(4Pau
 (5Ai
 (5Me
 (5ii
@@ -23556,12 +23555,9 @@ $hRh
 0123456789
 02V8[
 05=k
-08@HR@
 08@J
-08B@
 08bX
 09,h
-0:`qm
 0;Q5[
 0<cz
 0M2~@p
@@ -23792,6 +23788,7 @@ $hRh
 2 .CMsgBattleReport_CompareContext"
 2 .CMsgConnectedPlayers.SendReason
 2 .CMsgGCRoutingInfo.RoutingMethod:
+2 0p
 2!.CMsgAddSocketResponse.EAddSocket"
 2!.CMsgBattleReport_HighlightRarity
 2!.CMsgDevModifyCodexAction.EAction"#\n
@@ -23830,7 +23827,6 @@ $hRh
 2..CDOTAUserMsg_MadstoneAlert.EMadstoneAlertType
 2..CMvpData.MvpDatum.MvpAccolade.MvpAccoladeType
 20.CMsgClientToGCGetBattleReportResponse.EResponse
-20Jn
 20t\f
 21.CMsgClientToGCDotaLabsFeedbackResponse.EResponse"
 21.CMsgClientToGCUnpackBundleResponse.EUnpackBundle
@@ -23899,6 +23895,7 @@ $hRh
 2?.CMsgClientToGCMonsterHunterDevGrantMaterialsResponse.EResponse"u\n\tEResponse
 2?.CMsgClientToGCRemoveItemAttributeResponse.ERemoveItemAttribute
 2@.CMsgClientToGCMonsterHunterDevModifyHeroCodexResponse.EResponse"u\n\tEResponse
+2@qm
 2C.CMsgClientToGCOverworldDevGrantFortuneTellerCoinResponse.EResponse"
 2C.CMsgClientToGCOverworldGetDynamicImageResponse.EDynamicImageFormat
 2C.CMsgServerToGCRequestPlayerRecentAccomplishmentsResponse.EResponse
@@ -24021,7 +24018,7 @@ $hRh
 2_bot
 2_mid
 2_top
-2`Wv
+2`Jn
 2a"l
 2bT~
 2cb:RO
@@ -24030,7 +24027,6 @@ $hRh
 2nIg
 2ndry
 2p"6
-2pqm
 2prB
 3%3+3/353A3G3[3_3g3k3s3y3
 31tPR
@@ -24197,6 +24193,7 @@ $hRh
 4_bot
 4_top
 4f h
+4q\n"Ye
 4tpD
 4zj@1;IJ
 5'0v2ZP
@@ -24548,8 +24545,6 @@ $hRh
 9r#xV
 : unrecognized parent "%s"\n
 :':+:1:K:Q:[:c:g:m:y:
-:0Jn
-:0om
 :4\n\vdescription
 :9\n\tkey_field
 :BAD OBJECT
@@ -24600,7 +24595,6 @@ $hRh
 :gN(dq
 :mIR
 :parsed on tick %d of %d got %d new commands through command number %d [%s]\n
-:pqm
 :w4v
 ;!;#;-;9;E;S;Y;_;q;{;
 ;"lY7
@@ -24830,13 +24824,14 @@ $hRh
 ?uWS
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
-@08N
+@08N$
 @0pp
 @333?
+@60o
 @@map tree
 @BH]f
 @BoneSetup
-@HV`X
+@HPX`hv A
 @Invalid attach type specified for particle effect anim event. Trying to spawn effect '%s' on model %s\n
 @MfKZ
 @Pgl
@@ -24864,7 +24859,7 @@ $hRh
 @end_camera
 @fff>fff>fff>fff>
 @fff@
-@ht au
+@htPau
 @i1V
 @n2w
 @player_start_teleport_destination
@@ -26236,7 +26231,6 @@ BOT_MODE_SIDE_SHOP
 BOT_MODE_TEAM_ROAM
 BOT_MODE_WARD
 BOUNDARY
-BPom
 BRouteMsgToJob
 BT5f
 BUCKSHOT
@@ -31198,7 +31192,6 @@ CutDownRegrowAfter
 Cuts down this tree. Parameters: float flRegrowAfter (-1 = never regrow), int nTeamNumberKnownTo (-1 = invalid team)
 Cuts down this tree. Parameters: int nTeamNumberKnownTo (-1 = invalid team)
 Cycle: %.5f (%.5f)
-D au
 D"bu
 D#D)D;D?DEDKDQDSDYDeDoD
 D(n%6
@@ -31644,6 +31637,7 @@ DO_PVK_HEADER
 DO_RSA_PRINT
 DO_SIGVER_INIT
 DO_SSL3_WRITE
+DPau
 DREAMCOIL
 DROWN
 DROWNRECOVER
@@ -39884,10 +39878,11 @@ P-256
 P-384
 P-521
 P08@J
-P08J 
-P08N
+P08JP
+P08N$
 P1\t98"
 P5[1
+P6 t
 PAGN_4
 PARALYZE
 PARAMETER NAME: %s | OPTIONAL: %s, TYPE: %s, BOUND: %s\n
@@ -45670,11 +45665,11 @@ XYD%
 X\n summary_description_embed_values
 X\n\rkilling_blows
 X\tQo
-X`hr@
 Xbox VDP is not supported on this platform.
 Xd3h
-Xf@a
 XfJ7
+XfP`
+Xfpa
 XjfR
 XqgA+
 Xuub
@@ -45734,7 +45729,6 @@ ZH^r
 ZL9L
 ZLIB
 ZLONG
-ZPom
 ZSz@
 ZXF,`i
 Z\n\fPositionPair
@@ -45842,6 +45836,7 @@ Z~wl
 \f<<0A1pq
 \fCEntityIndex"
 \fKS1
+\fPau
 \fW9c
 \fXu"L
 \f\rbad allocation
@@ -45850,6 +45845,7 @@ Z~wl
 \fdhWTh
 \fevents.proto"
 \fiaR
+\fp\vPD
 \ful2
 \fy&3Gl
 \l:ArR
@@ -46059,14 +46055,12 @@ Z~wl
 \n.steammessages_unified_base.steamworkssdk.proto
 \n/CMsgServerToGCCompendiumChosenInGamePredictions
 \n/CMsgServerToGCCompendiumInGamePredictionResults
-\n08n
 \n0CMsgClientToGCMonsterHunterGiftMaterialsResponse
 \n0CMsgClientToGCOverworldDevClearInventoryResponse
 \n0CMsgClientToGCSurvivorsGameTelemetryDataResponse
 \n0CMsgGCtoGCAssociatedExploiterAccountInfoResponse
 \n0CMsgServerToGCMatchPlayerNeutralItemEquipHistory
-\n0Jn
-\n0qm
+\n0nm
 \n1CDOTAClientMsg_AbilitySpecificChannelRequiresHalt
 \n1CDOTAUserMsg_MonsterHunter_InvestigationGameState
 \n1CMsgClientToGCFightingGameAnswerChallengeResponse
@@ -46141,7 +46135,7 @@ Z~wl
 \nLeagueID_t"N\n$CMsgServerToGCGetCheerConfigResponse
 \nPlayerID_t
 \nPlayerID_t"
-\nPom
+\nPnm
 \nSimulating Entities:\n\n
 \nUnknown reward type '%s' for action '%s' at score '%s'
 \nVisMon: Polling now. (Frequency: %f)\n
@@ -47352,6 +47346,9 @@ Z~wl
 \ng_VProfSignalSpike
 \ng_flConfigMaxCoord
 \ngrant_periodic_action '%s' doesn't specify an action to grant
+\np1p
+\npWv
+\npnm
 \nqYu
 \ntM(ie-V
 \r!\r+\r-\r=\r?\rO\rU\ri\ry\r
@@ -47585,6 +47582,7 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
+aBv$
 aD/x
 aDSS
 aECDH
@@ -48537,7 +48535,6 @@ a|gj(
 a|w9i
 b <= sizeof ctx->buf
 b <= sizeof ctx->final
-b0Jn
 b0M%
 b2i_PVK_bio
 b5o-
@@ -48701,6 +48698,7 @@ b\vP\n0
 b\vp\n0
 b\vp\nP
 b]jY
+b`Jn
 backdoor_protection
 backdoor_protection_in_base
 backend_response
@@ -62512,11 +62510,12 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^
+p08@H^$
 p2{l
 p4Z3
 p5Z3
 p5\nL,
+p60U
 p618
 p?33
 p@0pqE5tsO?|1
@@ -71679,7 +71678,6 @@ zF):O4
 zFar
 zG2m8
 zNear
-zPom
 zPos
 zRXU 
 z\tV_sind

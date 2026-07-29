@@ -8159,6 +8159,7 @@ $hRh
 *BaseModelEntity::CBodyComponentBaseModelEntity
 *Gets the last-played times for the account
 *O\n\fDOTA_CM_PICK
+*P46
 *Returns the player's community preferences
 *UlS
 *Y$ve
@@ -37526,7 +37527,6 @@ $hRh
 2/.CMsgClientToGCSetHeroStickerResponse.EResponse"
 2/.CMsgDOTASelectionPriorityChoiceResponse.Result"(\n
 2/.CMsgPurchaseItemWithEventPointsResponse.Result"
-20+2
 20.CMsgClientToGCGetBattleReportResponse.EResponse
 20.CMsgClientToGCGetDPCFavoritesResponse.EResponse
 20.CMsgClientToGCGetEventCouponResponse.ResultCode
@@ -37546,7 +37546,6 @@ $hRh
 2013-01-01
 2022_diretide_collectors_cache
 2025_cta_collectors_cache_voting
-20j=
 20t\f
 20x9
 21.CMsgClientToGCBingoGetUserDataResponse.EResponse
@@ -37716,7 +37715,6 @@ $hRh
 2@.CMsgClientToGCFantasyCraftingPerformOperationResponse.EResponse
 2@.CMsgClientToGCJoinPrivateCoachingSessionLobbyResponse.EResponse"
 2@.CMsgClientToGCMonsterHunterDevModifyHeroCodexResponse.EResponse"u\n\tEResponse
-2@46
 2A.CMsgClientToGCGetCurrentPrivateCoachingSessionResponse.EResponse
 2Array of text tags to apply to the published file.
 2B.CMsgClientToGCFantasyCraftingSelectGlobalPrefixResponse.EResponse
@@ -37740,7 +37738,8 @@ $hRh
 2J.CMsgClientToGCMonsterHunterDevClaimInvestigationRewardsResponse.EResponse"u\n\tEResponse
 2K.CMsgClientToGCGetAvailablePrivateCoachingSessionsSummaryResponse.EResponse
 2L.CMsgClientToGCMonsterHunterRequestMaterialsNeededByFriendResponse.EResponse
-2PL;
+2P46
+2Po=
 2Set of published file Ids to retrieve details for.
 2Tm=#
 2Uiwp"9
@@ -38397,9 +38396,9 @@ $hRh
 8<pl
 8= zp
 8@HPZ
-8@HPZ0j=
+8@HPZ@j=
 8A6j
-8B@46
+8BP46
 8Client ID for which to count the number of issued tokens"
 8GZS
 8Gets the list of nicknames this user has for other users
@@ -38553,7 +38552,6 @@ $hRh
 :    initpredictable %d:%s for %d slots\n
 : unrecognized parent "%s"\n
 :':+:1:K:Q:[:c:g:m:y:
-:0B6
 :4\n\vdescription
 :9\n\tkey_field
 :BAD OBJECT
@@ -38562,6 +38560,7 @@ $hRh
 :EXTERNAL TYPE %s\n
 :LBN
 :NAy
+:P46
 :QYJ
 :Vlq
 :\n5kKillEaterEventType_Brewmaster_KillsDuringPrimalSplit
@@ -38609,7 +38608,6 @@ $hRh
 :eaI
 :gN(dq
 :mIR
-:p36
 :w4v
 ;!;#;-;9;E;S;Y;_;q;{;
 ;"lY7
@@ -39058,7 +39056,7 @@ $hRh
 ?uWS
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
-@08N
+@08N$
 @0pp
 @333333)@R
 @888
@@ -39067,8 +39065,8 @@ $hRh
 @BH]f
 @BoneSetup
 @DebugIndividualStyle
-@HPX`hv0Y
-@HPXfP
+@HPX`hv@Y
+@HPXf`
 @Integer overflow in %s
 @MfKZ
 @Pgl
@@ -39391,7 +39389,6 @@ A\n\vHeroAbility
 A\n\vdescriptors
 A\n\vdiagnostics
 A\rjW
-A\v:P26
 A_txt
 AbW_
 AbandonGamePopup
@@ -40852,6 +40849,7 @@ BOOLEAN
 BPEventLevelIcon
 BPIN_txt
 BPLevel
+BPn=
 BReadyForDisplay
 BRouteMsgToJob
 BRouteWorkItemCompleted called for a job that could not be found!\n
@@ -65587,13 +65585,14 @@ P-384
 P-521
 P08@J
 P08J
-P08N
+P08N$
 P0WonMatch
 P1Avatar
 P1WonMatch
 P1\t98"
 P2Avatar
 P2P ping to "%s". Timed out after %.2fms\n
+P40'=
 P5[1
 PAGN_4
 PAGrave
@@ -67932,7 +67931,7 @@ R\r1>Vp
 R\tV_iswcntrl
 R\vP!m
 R\vp!y
-R\vp4
+R\vpD
 R]Di
 R_T5Y
 Rad Guys
@@ -75779,8 +75778,9 @@ X\n\tGraphData
 X\tQo
 Xd3h
 Xdota
+Xf z
 XfJ7
-Xf`x
+Xfpx
 Xin \t
 XjfR
 XqgA+
@@ -76037,7 +76037,6 @@ Z~wl
 [vpcf
 [y_GE
 \%02X
-\046
 \1kYL\r
 \43n7
 \5Ok\n
@@ -76489,7 +76488,6 @@ Z~wl
 \n/CMsgClientToGCSubmitCoachTeammateRatingResponse
 \n/CMsgDOTATeamInvite_GCImmediateResponseToInviter
 \n/steammessages_publishedfile.steamworkssdk.proto
-\n0B6
 \n0CMsgClientToGCMonsterHunterGiftMaterialsResponse
 \n0CMsgClientToGCOverworldDevClearInventoryResponse
 \n0CMsgClientToGCPlayerCardSpecificPurchaseResponse
@@ -76608,6 +76606,7 @@ Z~wl
 \nLeagueID_t"
 \nLeagueID_t"9\n#CMsgDOTACompendiumSelectionResponse
 \nLeagueID_t"C\n-CMsgDOTACompendiumRemoveAllSelectionsResponse
+\nP46
 \nPlayerID_t
 \nPlayerID_t"
 \nSimulating Entities:\n\n
@@ -76959,7 +76958,6 @@ Z~wl
 \n\fwebapi_param
 \n\fwhat_changed
 \n\fwinning_team
-\n\n0B6
 \n\n0CMsgClientToGCCavernCrawlRequestMapStateResponse
 \n\n0CMsgGCToClientBattlePassRollup_International2016
 \n\nACH_FAILED
@@ -78506,6 +78504,7 @@ Z~wl
 \v"f\n*CMsgOverworldEncounterPitFighterRewardData
 \v"w\n2CMsgClientToGCOverworldRequestTokensNeededByFriend
 \v#\v)\v-\v?\vG\vQ\vW\v]\ve\vo\v{\v
+\v:P46
 \vAbilityID_t
 \vAbilityID_t"
 \vAbilityID_t"8\n
@@ -78689,8 +78688,10 @@ _video
 _wjb
 _xU`u
 _}eOk
+`20j=
 `28)fk
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
+`60N
 `:zQF
 `D$daM-l
 `DZG
@@ -78709,6 +78710,7 @@ _}eOk
 `h9T~
 `o_je
 `qus
+`r0j=
 `uzt
 `yNT
 a moment...
@@ -78728,6 +78730,7 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
+aBv$
 aD/x
 aDSS
 aECDH
@@ -80080,7 +80083,6 @@ b0M%
 b2i_PVK_bio
 b5o-
 b=G3
-b@46
 bAddToGroup
 bAlert
 bAlertable
@@ -80121,6 +80123,7 @@ bMutedText
 bMutedVoice
 bN.l
 bOverheadEffect
+bP46
 bPb:L7X)
 bReturnUnslowed
 bSellable
@@ -99090,8 +99093,8 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^
-p2@46
+p08@H^$
+p2P46
 p2p_ping could not convert "%s" to a CPeerToPeerAddress\n
 p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n
@@ -99105,7 +99108,7 @@ p4Z3
 p5Z3
 p5\nL,
 p618
-p6@m
+p6Pm
 p>?Set@Template@v8@@QEAAXV?$Local@VName@v8@@@2@V?$Local@VData@v8@@@2@W4PropertyAttribute@2@@Z
 p@0pqE5tsO?|1
 pCheckpointName
@@ -102090,7 +102093,6 @@ qx(q
 r axis
 r$0I
 r-IE
-r0+2
 r184
 r1c1
 r1c2
@@ -102117,12 +102119,11 @@ rFur`7\t
 rIwdzZiHJbg
 rL[i+
 rOtk
-rP)6
 rRfKR
 rX&O0
 rZ1VwGf5
 rZPM
-r\fp4
+r\fpD
 r\n4k_EHeroSelectionText_AllDraft_TheyPicking_LosingGold
 r\n\nHuntReward
 r\n\vstart_index
@@ -103155,7 +103156,6 @@ rows_completed
 royal_jelly
 royal_jelly1
 royalblue
-rp)6
 rsa not implemented
 rsa operations not supported
 rsa routines

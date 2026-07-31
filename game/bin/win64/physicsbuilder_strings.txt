@@ -6955,7 +6955,6 @@ $prefix_element$
 .webp
 00Cd
 0\r%0t
-0q^j
 0x%llx
 0xFd
 1024

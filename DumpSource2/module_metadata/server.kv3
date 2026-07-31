@@ -91,7 +91,7 @@
 			name = "player_server"
 			group = "GameSessionManifest_server"
 			source_file = "src/game/server/dota/dota_player_controller.cpp"
-			source_line = 73
+			source_line = 74
 			resources = 
 			[
 				resource_name:"player.ventr",

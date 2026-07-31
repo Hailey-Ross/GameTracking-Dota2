@@ -152,9 +152,11 @@
  %i refs\n
  (08@HPX`hpx
  (08@HPX`j
- (08@HPXb`
+ (08@HPXbp
  (08@HPZ
- (0X`hpz`
+ (08@HRp
+ (08@Jp
+ (0X`hpzp
  (Start: 
  (default = .tga + .wav file)\n
  (fallback, started with 
@@ -983,6 +985,7 @@ $tI(knN
 (channel = 
 (dump took %.1fms)\n
 (end of input).\n\t This indicates a poorly specified lexer RULE\n\t or unterminated input element such as: "STRING["]\n
+(f 6G
 (merge 
 (no landmark)
 (no reason given)
@@ -1130,8 +1133,9 @@ $tI(knN
 ../src/shaders
 ..\content
 .00cfg
-.07G
-.0AG
+.0BG
+.0GG
+.0IG
 .9GXdx
 .>\rfJBGo
 .?AU?$Container@VUnknownFieldSet@protobuf@google@@@InternalMetadata@internal@protobuf@google@@
@@ -2531,7 +2535,6 @@ $tI(knN
 .ESplitScreenMessageType
 .P6AXPEBD@Z
 .PEAVCEntityIdentity@@
-.PEG
 .PLACEHOLDER_VALUE
 .ProtoFlattenedSerializer_t
 .RequestPause_t
@@ -2547,13 +2550,12 @@ $tI(knN
 .bss
 .cfg
 .csv
-.d1Y
+.d1Y\t
 .data
 .data$r
 .data$rs
 .dem
 .dll
-.dsB
 .dummy
 .edata
 .foo = value".
@@ -2574,8 +2576,9 @@ $tI(knN
 .log
 .los
 .lzh
-.p8G
+.pAG
 .pBG
+.pCG
 .pdata
 .placeholder.proto
 .rdata
@@ -2603,6 +2606,7 @@ $tI(knN
 .tls
 .tls$
 .tls$ZZZ
+.tuB
 .vcfg
 .vpk
 .wav
@@ -2649,7 +2653,7 @@ $tI(knN
 0123456789abcdefghijklmnopqrstuvwxyz
 08@HP
 08@HR
-08@J`
+08@Jp
 08\fj
 0: run all send jobs on main thread; 1: send jobs run asynchronously (except on dedicated server); 2: send jobs asynchronously; 3: send jobs run in parallel but block to not overlap the next tick; 4: main server clients' send jobs run in parallel, then HLTV server jobs; this approximately matches pre-async profile for a single HLTV server configuration
 0:<\n\fdelta_ignore
@@ -2657,16 +2661,16 @@ $tI(knN
 0=Off, 1=Visualize trace from camera, 2=Visualize occlusion, 3=Visualize far field trace from camera
 0B_u
 0C&C
-0DrF
 0E>X
-0LqB
 0T.Q
+0TtF
 0X8b?~
 0\n\vserializers
+0\sB
 0\tV_fopen
-0dWB
 0iN>/
-0vdsB
+0tYB
+0vtuB
 0x%x,
 0|t?L
 0|t?uj
@@ -2679,7 +2683,7 @@ $tI(knN
 1.2.11
 11Y@
 127.0.0.1
-13:59:18
+14:36:17
 16777215"R\n\nCMsg_CVars
 16777215B$
 1:1: Tokens : ( T__40 | T__41 | T__42 | T__43 | T__44 | T__45 | T__46 | T__47 | T__48 | T__49 | T__50 | T__51 | T__52 | TOK_COLON | OPEN_BRACE | CLOSE_BRACE | OPEN_PAREN | CLOSE_PAREN | OPEN_BRACKET | CLOSE_BRACKET | SEMICOLON | OP_EQUAL | COMMA | DOUBLE_AND | NEGATIVE_TOK | DOUBLE_OR | LITERAL_TRUE | LITERAL_FALSE | POS_INTLITERAL | POS_FLOATLITERAL | SCOPE_QUALIFIER | ID | DOUBLE_QUOTED_STRING | SINGLE_QUOTED_STRING | SINGLE_LINE_COMMENT | ML_COMMENT | WS | UNRECOGNIZED );
@@ -2721,9 +2725,10 @@ $tI(knN
 2\r.PrefetchType"h\n
 2\rU2t
 2\tV_fpclassifyd
-2\vpDrF
-2\vpLqB
+2\vpTtF
+2\vp\sB
 2i0/
+2pa'
 3$EE\f
 3'F^7
 30000
@@ -2762,19 +2767,18 @@ $tI(knN
 5\n\vnested_type
 5c;3E
 5y?4
-60\nG
+6 0G
+60&G
+60/G
 64-bit
 6?k 6?t
-6@5G
 6GQ^h~
 6KT3c7
 6NK>
-6P'G
-6P(G
+6P7G
 6\fXO>\ntA
 6\n\fmessage_type
 6\r56t
-6p.G
 6s?fBbEcJYG[I[NYVP\B]@f;g<h<u4{,
 6tmT
 6uu?>
@@ -2864,7 +2868,6 @@ $tI(knN
 =e2m
 =imb;D
 =rF`JXKXWJYB[Cd;l2x(z%a+N2SNTQXKVJWGZI]J]Jm(r$u"u"
->04G
 >0|t?z7
 >5dK
 >6uu
@@ -3235,16 +3238,18 @@ $tI(knN
 ?ysB
 @ Current  :  %s\n
 @08@HPX`hpx
-@08NdsB
+@08NtuB
+@60?G
+@60AG
 @GetProfile_ultrafast
 @HPX
 @HPX&I
 @HPX`hv
 @\tV_fwrite
 @^8U)zj
-@fdsB
+@ftuB
 @i-kuX
-@ndsB
+@ntuB
 A command with the specified name already exists. Cannot create an alias with the same name.\n
 A dB floor of when to stop transmitting packets, the volume between this and voice_threshold will still transmit packets to allow for volume ramping.
 A file with this name is already in the pool.
@@ -5241,8 +5246,7 @@ Extensions to non-lite types can only be declared in non-lite files.  Note that 
 Extra arguments given after name\n
 ExtractModuleMetadata
 Extraneous token
-F 3G
-F0#G
+F05G
 F>qUxv
 FAIL
 FALSE
@@ -5691,6 +5695,7 @@ H$6t
 H*0"ZOW
 H.FM
 HD?0
+HEh_
 HGR9\f
 HH:mm:ss
 HKR~
@@ -5706,7 +5711,6 @@ HLTV:maxplayers set to %i\n
 HLTVServerAsync
 HLTV_CopyNewEntity: GetDynamicBaseline(%d) failed.
 HSR_GAME_REMOTE_CHANGELEVEL_RECONNECT
-HUg_
 HammerMapLoader001
 Hangul
 Hanunoo
@@ -5749,6 +5753,7 @@ Hostname for server.
 How far back before our current playback head in seconds to hold onto fragments.
 How long to show the message about Killer Replay after death. The best setting is a bit shorter than spec_replay_autostart_delay + spec_replay_leadup_time + spec_replay_winddown_time
 How often to flash demo recording/playback overlay (0 - disable overlay, -1 - show always)
+Hqh_
 HudUpdate
 Huffman code size table overflow
 Huffman table 0x%02x was not defined
@@ -5784,6 +5789,7 @@ IPulseInstanceLoadAPI
 IPulseInstanceSaveAPI
 IPulseSystem_001
 IRCU
+IZi_
 I\n NETWORK_DISCONNECT_STEAM_DROPPED
 I\n%NETWORK_DISCONNECT_REJECT_HIDDEN_GAME
 I\tV_isdigit_str
@@ -5814,7 +5820,6 @@ Ignoring unknown field steam.inf: '%s'\n
 Ignoring user config file '%s' because host_readconfig_ignore_userconfig is set\n
 Ignoring user configuration because host_readconfig_ignore_userconfig is set.\n
 IiGM>nw
-Ijh_
 Il?333333c?
 Illegal jstype for int64, uint64, sint64, fixed64 or sfixed64 field: 
 Illegal to wait on a task in a Windows Runtime STA
@@ -5949,7 +5954,7 @@ Japanese
 Javanese
 JiYMm
 Joystick
-Jul  8 2026
+Jul 30 2026
 July
 JumpOrLeap( C%d:I%d )
 Jumping to random tick %d (%.2f min)\n
@@ -6637,11 +6642,11 @@ Override Fog color: %f %f %f\n
 Overrides the SourceTV master root address.
 Overrides the max players reported to prospective clients
 Overriding minidump handler with Engine2MinidumpFunction\n
-P08@J`
-P08Jp
-P08NdsB
+P08@Jp
+P08J
+P08NtuB
 P4File
-P6P=G
+P6`?G
 P:S;A
 P?fff?33s?{
 P@HPX`hpx\f
@@ -6655,8 +6660,6 @@ PLATFORM
 PLAYBACK: At end of data\n
 PLAYBACK: ReadReplayMessage returning deltaFrame clientTick=%d tick=%d delta=%d\n
 PLAYBACK: ReadReplayMessage waiting for next tick at clientTick=%d\n
-PLZB
-PLqB
 PNG\r\n
 POSIX collating elements are not supported
 POSIX named classes are supported only within a class
@@ -6711,6 +6714,7 @@ PX`hpx
 P\n#NETWORK_DISCONNECT_BADRELAYPASSWORD
 P\n#NETWORK_DISCONNECT_RELIABLEOVERFLOW
 P\n#NETWORK_DISCONNECT_SNAPSHOTOVERFLOW
+P\sB
 PackEntities_Normal EnsureInstanceBaseline
 PackEntity: SnagChangeFrameList returned null
 PackEntity: ent(%d) at tick %d Encountered field '%s' %s in incremental change that was not in the diff change. This can lead to slight network inefficiency\n
@@ -6762,7 +6766,6 @@ Paused: %s
 Pauses demo playback.
 Pauses instant replay.
 Pauses when the 'render time' reaches the specified tick.
-PdWB
 Pe6^
 Peak commit charge: %.2f MiB\n
 Peak resident memory:    %s\n
@@ -6771,7 +6774,6 @@ PerFrameSleepChanged
 PerFrameSleepMS
 Perf stats buffer full, no more data will be collected.\n
 Performs a bind <key> "increment var <cvar> 0 1 1".
-Pf`\fG
 Phags_Pa
 Phoenician
 PhysicsBuilderMgr001
@@ -6919,7 +6921,7 @@ Playing Broadcast (%s)
 Playing Demo (%s)
 Playing back demo: '%s' at tick %u\n
 PmNk
-PndsB
+PntuB
 Pointers cannot be used as numeric values
 Polish
 PollAndProcessInput
@@ -7014,6 +7016,7 @@ Protobuf: %s(%d): %s\n
 Protocol Buffer map usage error:\n
 Protocol Buffer reflection usage error:\n  Method      : google::protobuf::Reflection::
 Psapi.dll
+PtYB
 Public :  %s\n
 Pulse
 PulseCursorCancelPriority_t
@@ -7108,7 +7111,7 @@ RP_PAUSE
 RP_TOGGLEPAUSE
 RSDS
 RST%d
-R\vpLqB
+R\vp\sB
 RaiseException
 Random Float
 Random Integer
@@ -8438,7 +8441,6 @@ VOICEDATA_FORMAT_ENGINE
 VOICEDATA_FORMAT_OPUS
 VOICEDATA_FORMAT_STEAM
 VP4003
-VP7G
 VPK overrides: 
 VPhysics2_Interface_001
 VProcessUtils002
@@ -8515,6 +8517,7 @@ V_TryAndMakeFriendlyNameFromCppName
 V_UInt32ToString_Unsafe
 V_UInt64ToString_Unsafe
 V_UnqualifiedFileName
+V`9G
 Validation stalled\n
 Value must be "true" or "false" for boolean option "
 Value must be identifier for boolean option "
@@ -8833,9 +8836,8 @@ Zq",9\fB
 \fV4U
 \fX\fm\vH\vH\vm\v
 \f\ng_pThreadPool
-\fpLqB
-\fp\v`LqB
-\fp\v`dWB
+\fp\sB
+\fp\v`tYB
 \g is not followed by a braced, angle-bracketed, or quoted name/number or by a plain number
 \n    Actual    : 
 \n    Field type: 
@@ -9171,8 +9173,6 @@ Zq",9\fB
 \r\r\f\f\f\f\v\v\v\n\n\n\t\t\t\t\t\t
 \r\tV_acosf
 \rmj>zjZ
-\rp\f`\v0LqB
-\rp\f`\vPLqB
 \t The lexer was matching from line %d, offset %d, which\n\t 
 \t"%s" has %d known peers:\n
 \t"%s" has no known peers.\n
@@ -9243,7 +9243,7 @@ Zq",9\fB
 \vH\vm\vm\vm\vm\vH\vH\vH\vH\vH\v
 \vIG]h
 \vInterp
-\vPdWB
+\vPtYB
 \vSimulationTicks
 \vSource
 \vVyC
@@ -9252,7 +9252,7 @@ Zq",9\fB
 \vm\vm\vm\vH\vm\vm\v
 \vm\vm\vm\vm\vH\v
 \vnJH
-\vpLqB
+\vp\sB
 \vxYT
 ] is an invalid data character in JavaScript compatibility mode
 ]\n,NETWORK_DISCONNECT_REJECT_INVALIDRESERVATION
@@ -9318,9 +9318,9 @@ _spawngroup_logging/log_%s_group_%s.txt
 _temp_mapcycle.txt
 `-uRQg
 `3Q"X
-`6p6G
+`6PAG
+`6PBG
 `?m'_?&~]?(
-`LqB
 `RTTI
 `adjustor{
 `anonymous namespace'
@@ -9333,7 +9333,7 @@ _temp_mapcycle.txt
 `eh vector destructor iterator'
 `eh vector vbase constructor iterator'
 `eh vector vbase copy constructor iterator'
-`fdsB
+`ftuB
 `generic-class-parameter-
 `generic-method-parameter-
 `generic-type-
@@ -9347,8 +9347,8 @@ _temp_mapcycle.txt
 `managed vector constructor iterator'
 `managed vector copy constructor iterator'
 `managed vector destructor iterator'
-`ndsB
 `non-type-template-parameter
+`ntuB
 `omni callsig'
 `placement delete closure'
 `placement delete[] closure'
@@ -9379,7 +9379,7 @@ a numbered reference must not be zero
 a&M-=Z]<i*k)n-t&q&p&|
 a6>r
 a?wSa?\
-aBvdsB
+aBvtuB
 a\tV_logf
 a\v4+Wk
 abcdefghijklmnopqrstuvwxyz
@@ -10085,10 +10085,8 @@ fD""B
 fD>b
 fDD"AUDT$t
 fP~V
-fRVG
 fWi?
 f\tV_modff
-f^VG
 fabs
 failed
 failed to get memory
@@ -10104,7 +10102,7 @@ false:=\n\rvalve_map_key
 false:?\n
 false:A\n
 fast path %d at %d\n
-fdsB
+fbXG
 fi_FI
 field
 field_serializer_name_sym
@@ -10139,6 +10137,7 @@ float32
 float64
 floor
 fmod
+fnXG
 fog_enable
 fog_override_color
 fog_override_enable
@@ -10185,6 +10184,7 @@ friendly_name
 fs_report_sync_opens
 ft: %-60s %-40s : %-80.80s raw:%s\n
 ftLh!b
+ftuB
 fu`z
 full
 full:
@@ -10338,7 +10338,7 @@ hostname
 hostname : %s\n
 hostname_in_client_status
 hostport
-hpz`
+hpzp
 hscript
 hscript_lightbinding
 http Send %.3f ms ave, %.3f ms max\n
@@ -10835,8 +10835,7 @@ multvar
 multvar: cvar "%s" not found\n
 multvar: no varname specified!\n
 mx=E
-n 0G
-n0,G
+n02G
 n03>Pu
 n>sak><
 n?A6
@@ -10851,13 +10850,11 @@ nTries < 10000000
 n\n0NETWORK_DISCONNECT_KICKED_VACNETABNORMALBEHAVIOR
 n\tV_qsort
 n]?iJ
-n`2G
 n`xBF|7T
 name
 nan(ind)
 nan(snan)
 ndZTNGA:3-' 
-ndsB
 near '%c' :\n
 near char(%#02X) :\n
 need dictionary
@@ -10956,6 +10953,9 @@ not started
 not supported
 notes
 nothing to repeat
+np%G
+np4G
+ntuB
 null
 nullptr
 num_bits
@@ -11064,14 +11064,14 @@ overwatch
 owM&
 owner dead
 oz>!km>
-p08@H^dsB
+p08@H^tuB
 p0p@
 p2p_listpeers
 p2p_ping "%s"
 p4edit
-p60*G
-p>'VG
-p>dsB
+p6@,G
+p>7XG
+p>tuB
 p?ff
 p@HPX`h\f
 pClass
@@ -11079,8 +11079,6 @@ pClass->m_ClassID(%i) >= %i\n
 pClient
 pCm)
 pH\fy
-pLZB
-pLqB
 pMessage
 pNewSet->m_readPipe.OpenPipe_Named( false, szReadPipeParam, true )
 pNewSet->m_readPipe.OpenPipe_OSFILEHANDLE( false, (OSFILEHANDLE)nReadHandle, nPipeSourcePID )
@@ -11089,7 +11087,7 @@ pNewSet->m_writePipe.OpenPipe_OSFILEHANDLE( true, (OSFILEHANDLE)nWriteHandle, nP
 pServerClass
 pYa(bu
 p\r0\fP
-p\r`\fPLqB
+p\sB
 package
 packed
 packet
@@ -11117,7 +11115,6 @@ path
 pause
 paused
 pc64
-pdWB
 peer
 pending
 pending_full_frame
@@ -11159,9 +11156,9 @@ playing %s from '%s'\n
 playsound
 playsound 
 playsound <soundname>
-pndsB
 png 
 png_screenshot
+pntuB
 pointer, 
 polish
 polymorphic_dependent_arg
@@ -11201,6 +11198,7 @@ protocol
 protocol error
 protocol not supported
 proxies
+ptYB
 pt_BR
 pt_PT
 public
@@ -12101,7 +12099,7 @@ utcdatetime_vals
 utl_vector, 
 utlstringtoken
 uzKs@>
-v DG
+v0FG
 v2!L.2
 vE-2
 vQO+t
@@ -12128,7 +12126,6 @@ vaudio_speex
 vconcomm
 vconsole_rcon_server_details
 vcss
-vdsB
 vector
 vector too long
 vector2
@@ -12214,6 +12211,7 @@ vrgrp
 vrnmd
 vscript
 vsnd_c
+vtuB
 vtune
 vtune "pause" | "resume" : Suspend or resume VTune's sampling.\n
 vxml

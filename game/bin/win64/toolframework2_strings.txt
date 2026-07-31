@@ -13047,7 +13047,6 @@ Splay Max angle
 Splay Min angle
 Spline
 Spring Between Children
-Sq^j
 StPn
 Start Frame
 Start Frame Number

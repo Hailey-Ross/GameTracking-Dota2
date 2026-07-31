@@ -2370,6 +2370,7 @@ Automatically create a proxy
 Automatically generate shader debug info on capture
 Automatically localize hero chat wheel messages in chat_wheel_staging.txt using the sound subtitles files.
 Automatically records all games as SourceTV demos.
+Automatically select all roles when out of role queue games.
 Automatically set by the game when a commentary file is available for the current map.
 Automatically spectate available games.  Set to a LeagueID to auto spectate games from that league.
 Automatically spectate the always-running bot game.
@@ -9107,6 +9108,7 @@ CDOTA_Modifier_StormSpirit_StaticRemnantThinker
 CDOTA_Modifier_StormSpirit_StaticRemnant_Talent
 CDOTA_Modifier_Stormcrafter_Slow
 CDOTA_Modifier_Stunned
+CDOTA_Modifier_Suppress_Cleave
 CDOTA_Modifier_Sven_GodsStrength
 CDOTA_Modifier_Sven_GreatCleave
 CDOTA_Modifier_Sven_Stormbolt_Hide
@@ -9315,6 +9317,7 @@ CDOTA_Modifier_Underlord_Portal_Buff
 CDOTA_Modifier_Underlord_Portal_FX
 CDOTA_Modifier_Underlord_Portal_Fire
 CDOTA_Modifier_Underlord_Portal_Fire_Effect
+CDOTA_Modifier_Underlord_Portal_PhaseCheck
 CDOTA_Modifier_Underlord_Portal_Warp_Channel
 CDOTA_Modifier_Undying_CeaselessDirge
 CDOTA_Modifier_Undying_CeaselessDirge_Buff
@@ -15680,6 +15683,7 @@ DOTAMatchVote_POSITIVE
 DOTAMinimapEvent_t
 DOTAModifierAttribute_t
 DOTAMusicStatus_t
+DOTANeutralCampInfo_t
 DOTAOutgoingBonus_t
 DOTAOverworldCharacterOverrideConditional_t
 DOTAOverworldReleaseScheduledUnlock_t
@@ -19966,6 +19970,7 @@ GetModifierPropertyCustom2
 GetModifierPropertyCustom3
 GetModifierPropertyForbidIllusions
 GetModifierPropertyHealingAmplificationUnique
+GetModifierPropertyIgnoreForceTarget
 GetModifierPropertyManacostOverride
 GetModifierPropertyRedirectHealthGain
 GetModifierPropertyRestorationAmplification
@@ -19986,6 +19991,7 @@ GetModifierSlowResistance_Stacking
 GetModifierSpellAmplify_Percentage
 GetModifierSpellAmplify_PercentageTarget
 GetModifierSpellAmplify_PercentageUnique
+GetModifierSpellAmplify_PercentageUnique_2
 GetModifierSpellLifestealRegenAmplify_Percentage
 GetModifierSpellLifestealRegenAmplify_Percentage_Unique
 GetModifierSpellRedirectTarget
@@ -21646,6 +21652,7 @@ MODIFIER_PROPERTY_HP_REGEN_MULTIPLIER_PRE_AMPLIFICATION
 MODIFIER_PROPERTY_IGNORE_ATTACKSPEED_LIMIT
 MODIFIER_PROPERTY_IGNORE_CAST_ANGLE
 MODIFIER_PROPERTY_IGNORE_COOLDOWN
+MODIFIER_PROPERTY_IGNORE_FORCE_ATTACK_TARGET
 MODIFIER_PROPERTY_IGNORE_MOVESPEED_LIMIT
 MODIFIER_PROPERTY_IGNORE_PHYSICAL_ARMOR
 MODIFIER_PROPERTY_ILLUSION_LABEL
@@ -21791,6 +21798,7 @@ MODIFIER_PROPERTY_SPELLS_REQUIRE_HP
 MODIFIER_PROPERTY_SPELL_AMPLIFY_PERCENTAGE
 MODIFIER_PROPERTY_SPELL_AMPLIFY_PERCENTAGE_TARGET
 MODIFIER_PROPERTY_SPELL_AMPLIFY_PERCENTAGE_UNIQUE
+MODIFIER_PROPERTY_SPELL_AMPLIFY_PERCENTAGE_UNIQUE_2
 MODIFIER_PROPERTY_SPELL_LIFESTEAL_AMPLIFY_PERCENTAGE
 MODIFIER_PROPERTY_SPELL_LIFESTEAL_AMPLIFY_PERCENTAGE_UNIQUE
 MODIFIER_PROPERTY_SPELL_REDIRECT_TARGET
@@ -28569,6 +28577,7 @@ arrow_angle
 arrow_count
 arrow_count_per_wave
 arrow_damage_pct
+arrow_range_base
 arrow_range_multiplier
 arrow_speed
 arrow_spread
@@ -28963,6 +28972,7 @@ berserk_bonus_movement_speed_melee
 berserk_magic_resistance
 berserk_manacost_reduction
 berserk_slow_resist
+berserk_slow_resist_melee
 berserk_spell_amp
 bi_GameEvent_DEPRECATED
 bi_PredictionEvent
@@ -30229,7 +30239,6 @@ corrosive_duration
 corrosive_radius
 corruption_armor
 corruption_duration
-cost_increase
 cost_per_second
 costume
 count
@@ -30959,7 +30968,6 @@ dota_bingo_points_animation_duration_min_change
 dota_bingo_show_debug_button
 dota_bingo_use_fake_stats
 dota_black_screen_debug_messages
-dota_blog_image_accept_match
 dota_bloodstone_aoe_size
 dota_bot_allow_human_control
 dota_bot_assert_on_invalid_ability_usage
@@ -31316,6 +31324,10 @@ dota_compendium_2025_predictions_main_event_results_shown
 dota_compendium_2025_predictions_rtti_results_shown
 dota_compendium_2025_predictions_show_debug_node_names
 dota_compendium_2025_predictions_test_state
+dota_compendium_2026_predictions_main_event_results_shown
+dota_compendium_2026_predictions_rtti_results_shown
+dota_compendium_2026_predictions_show_debug_node_names
+dota_compendium_2026_predictions_test_state
 dota_compendium_levelup_interval_accel
 dota_compendium_levelup_interval_min
 dota_compendium_levelup_pitch_adjust_high
@@ -31694,6 +31706,8 @@ dota_fantasy_2024_force_results_period
 dota_fantasy_2024_tutorial_state
 dota_fantasy_2025_force_results_period
 dota_fantasy_2025_tutorial_state
+dota_fantasy_2026_force_results_period
+dota_fantasy_2026_tutorial_state
 dota_fantasy_craft_tutorial_state
 dota_fantasy_force_results_period
 dota_fantasy_league_region
@@ -31866,6 +31880,7 @@ dota_gamemode_ability_draft_set_draft_hero_and_team_clear
 dota_gamemode_ardm_hero_count
 dota_gamemode_ardm_sellback_percent
 dota_gamestate
+dota_gametime_notch_slider_overlay_items_merge_threshold
 dota_generate_potential_purchase_item_list
 dota_get_rp
 dota_get_team_info
@@ -31930,7 +31945,6 @@ dota_health_bar_death_effect_duration
 dota_health_bar_death_effects
 dota_health_bar_dispell_effect
 dota_health_bar_healing_effect
-dota_health_bar_hovered_always_top
 dota_health_bar_hurt_effect
 dota_health_bar_ice_blast_shatter_threshold
 dota_health_bar_madness
@@ -32147,8 +32161,11 @@ dota_international2024_rewards_level_animation_duration_max_seconds
 dota_international2024_rewards_level_animation_duration_min_change
 dota_international2024_rewards_level_animation_duration_min_seconds
 dota_international2025_force_ineligible
+dota_international2026_force_ineligible
 dota_international_2025_fandom_level_override
 dota_international_2025_favorite_team_override
+dota_international_2026_fandom_level_override
+dota_international_2026_favorite_team_override
 dota_intro_movie_volume
 dota_inventory_combine_ground_items_radius
 dota_inventory_neutral_item_teleport_throw
@@ -32791,6 +32808,7 @@ dota_radar
 dota_random_strength
 dota_range_display
 dota_ranked_role_queue
+dota_ranked_role_queue_automatically_select_all
 dota_rare_line_click_count
 dota_razor_arcana_disable_display
 dota_razor_arcana_force_display
@@ -32933,6 +32951,7 @@ dota_settings_reborn_dismissed_new_settings
 dota_settings_reborn_last_ability_direct_cast_type
 dota_settings_reborn_last_item_direct_cast_type
 dota_settings_reborn_last_selected_hero
+dota_settings_reborn_last_selected_neutral_unit
 dota_settings_reborn_last_selected_unit_type
 dota_settings_reborn_new_setting_newness_duration
 dota_settings_reborn_scroll_position
@@ -32965,9 +32984,9 @@ dota_shovel_baby_roshan_rise
 dota_shovel_baby_roshan_rise_height
 dota_shovel_baby_roshan_rot
 dota_show_2025_cta_collectors_cache_vote_page
+dota_show_ability_damage_contributions
 dota_show_ability_video_in_tooltips
 dota_show_accept_coaching_session_popup
-dota_show_accept_match_details
 dota_show_all_items
 dota_show_battle_pass_purchase_page_fall2021
 dota_show_battle_pass_purchase_page_international2022
@@ -33039,6 +33058,7 @@ dota_showcase_attachment_v2
 dota_showcase_show_report_popup
 dota_silent_roshan
 dota_skip_behavior_comms_check
+dota_skip_redundant_game_keyvalues_loads
 dota_skip_region_pings
 dota_slark_jailbreak_debug_collision
 dota_slark_jailbreak_debug_snapshots
@@ -34382,6 +34402,7 @@ fantasy_craft_decode_title_awards
 fantasy_craft_populate_league_data
 fantasy_craft_reset_2024_tutorial
 fantasy_craft_reset_2025_tutorial
+fantasy_craft_reset_2026_tutorial
 fantasy_craft_reset_tablets
 fantasy_craft_reset_tutorial
 fantasy_craft_set_roll_tokens
@@ -42762,6 +42783,7 @@ m_bSupportsTransitions
 m_bSuppressAllEntities
 m_bSuppressAnimEventSounds
 m_bSuppressAttackSounds
+m_bSuppressCleave
 m_bSuppressDamageEffects
 m_bSuppressDamageSounds
 m_bSuppressFlinch
@@ -43234,6 +43256,7 @@ m_cancelTime
 m_capsules
 m_castActivity
 m_castActivityGestureSlot
+m_castParticle
 m_cellX
 m_cellY
 m_cellZ
@@ -43529,6 +43552,7 @@ m_eDebugBits
 m_eDisplayType
 m_eDoorState
 m_eDrawCondition
+m_eEffigyEvent
 m_eEvent
 m_eExpireEvent
 m_eFSMShop
@@ -47315,11 +47339,13 @@ m_hDynamicEntity
 m_hEffect
 m_hEffectEntity
 m_hEffigy
+m_hEffigyParticleDef
 m_hEmoteTarget
 m_hEndEntity
 m_hEndGameCinematicEntity
 m_hEndPoint
 m_hEnemies
+m_hEnemiesHit
 m_hEnemiesSkewered
 m_hEnemy
 m_hEnemyAssisters
@@ -47683,6 +47709,7 @@ m_hStolenTree
 m_hStopAtNode
 m_hSubquests
 m_hSummonFamiliarsSourceAbility
+m_hSummonRaptorAbility
 m_hSwarmBug
 m_hTail
 m_hTarget
@@ -48457,6 +48484,7 @@ m_iWaves
 m_iWeight
 m_iWindSeed
 m_iWisdomRunesGained
+m_iWisdomShrinesTaken
 m_iXPBounty
 m_iXPBountyExtra
 m_iconName
@@ -49612,6 +49640,7 @@ m_nEffectedBoneCount
 m_nEffectorBoneIdx
 m_nEffectorTargetBoneIdx
 m_nEffectorTargetNodeIdx
+m_nEffigyLevel
 m_nEffigyStatusEffect
 m_nEidolonSpawnNum
 m_nElementCount
@@ -49837,6 +49866,7 @@ m_nGameState
 m_nGameWinner
 m_nGenerationId
 m_nGesture
+m_nGiveItemIndicatorID
 m_nGlowRange
 m_nGlowRangeMin
 m_nGlowTeam
@@ -50132,6 +50162,7 @@ m_nLevelCompletePoints
 m_nLevelUpChoices
 m_nLevelsBetweenUpgradesOverride
 m_nLevelupRule
+m_nLifeBreakProjectileHandle
 m_nLightChoice
 m_nLightHash
 m_nLightMapUniqueId
@@ -50525,6 +50556,7 @@ m_nOverclockFX
 m_nOverflowEnemySpawnCount
 m_nOverflowEnemySpawnCountOverride
 m_nOverheadFXIndex
+m_nOverheadParticleIndex
 m_nOverlayHealthBarType
 m_nOverlayRenderOrder
 m_nOverrideAnim
@@ -51002,6 +51034,7 @@ m_nSrcDrawIndex
 m_nSrcInstruction
 m_nSrcResult
 m_nStackCount
+m_nStacksSeenByTeam
 m_nStageCount
 m_nStageProgressionTimerIncrease
 m_nStartBrightness
@@ -53885,6 +53918,7 @@ m_vecItemStockInfo
 m_vecItems
 m_vecItemsPurchased
 m_vecKilledPlayers
+m_vecKnownCampStacks
 m_vecKnownClearCamps
 m_vecLandmarkAngles
 m_vecLandmarkOrigin
@@ -55022,6 +55056,7 @@ nFlags
 nFoWID
 nForwardSpeedMax
 nFxIndex
+nGiverPlayerSlot
 nGroup
 nHealthCost
 nHeroID
@@ -55082,6 +55117,7 @@ nQuestChallengeID
 nQuestID
 nRadius
 nRank
+nReceiverPlayerSlot
 nRedirectTick
 nReqLevel
 nRequiredHero
@@ -58813,6 +58849,11 @@ ti14_live_video_fake_timestamp
 ti14_live_video_fake_twitch_channel
 ti14_live_video_spoilers_blocked
 ti14_live_video_update_interval_s
+ti15_live_video_fake_steam_account
+ti15_live_video_fake_timestamp
+ti15_live_video_fake_twitch_channel
+ti15_live_video_spoilers_blocked
+ti15_live_video_update_interval_s
 tick_attack_damage_pct
 tick_count
 tick_damage

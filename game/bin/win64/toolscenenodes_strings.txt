@@ -5464,7 +5464,6 @@ $prefix_element$
 @#?write@QTableWidgetItem@@UEBAXAEAVQDataStream@@@Z
 @0pp
 @BH]f
-@CMapDeformerSimple
 @Integer overflow in %s
 @MfKZ
 @Pgl
@@ -6427,6 +6426,7 @@ CMapCordon
 CMapDeformer
 CMapDeformerLattice
 CMapDeformerPath
+CMapDeformerSimple
 CMapDoc::FrameUpdate(6715): 
 CMapDocMaterialAdjustStruct
 CMapDocTestStruct
@@ -9633,7 +9633,6 @@ Not yet supporting SetTintColor with multiple choices
 NotModelHasAnimgraph
 NotReloading
 NotUsingAnimGraph
-Nq^j
 NrPn
 Nu6Q
 Nudge

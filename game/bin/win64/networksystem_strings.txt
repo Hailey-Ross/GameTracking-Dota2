@@ -664,7 +664,6 @@ Order,'From','To',Bits\n
 OutSeqNumAck
 Overrides IP for multihomed hosts
 P08@J`j
-P08J
 P08N
 P2`j
 P60K

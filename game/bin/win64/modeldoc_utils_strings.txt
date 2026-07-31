@@ -7405,7 +7405,6 @@ $prefix_element$
 4-byte data pool
 4096
 4\r54t
-4q^j
 5;FJ$,XEK4<
 5a\v6;
 5sfm_v8
@@ -7640,6 +7639,7 @@ $prefix_element$
 ?catmullrom_normalize_x
 ?expf
 ?mesh_calculate_curvature_smooth_invert
+?mp_physics
 ?sqrt
 ?vtex
 @%s_lookFrame_0
@@ -15645,7 +15645,6 @@ mp_hitbox
 mp_keyvalues
 mp_materialgroup
 mp_model
-mp_physics
 mp_preprocess
 mp_root
 mtlName

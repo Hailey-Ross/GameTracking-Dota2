@@ -383,18 +383,17 @@ $\tV_expd
 (3 Independent Floats)
 (Cannot preview - no valid asset / resource name.)
 (Custom Colors Disabled)
-(Emz
 (Filter)
 (Max)
 (Multiple-select not supported)
 (No Active Session)
 (No Asset)
 (No class selected)
+(Ymz
 (\f?focusOutEvent@QAbstractButton@@MEAAXPEAVQFocusEvent@@@Z
 (\r?hideEvent@QAbstractSpinBox@@MEAAXPEAVQHideEvent@@@Z
 (\v?enterEvent@QToolButton@@MEAAXPEAVQEvent@@@Z
 (end - start) / (count - 1)
-(miz
 (no .fgd entry)
 (no args)
 (no messages)
@@ -2472,7 +2471,6 @@ $\tV_expd
 .?AVQValidator@@
 .?AVQWidget@@
 .?AVQWidgetAction@@
-.@0Hs
 .Acl_aggregate_particles
 .P6AXPEAVCPulseDocNode@@PEBD@Z
 .P6AXPEAVCQBindableCommandPushButton@@AEBUInitContext_t@CBaseDynamicWidgetFactory@@@Z
@@ -4636,6 +4634,7 @@ $\tV_expd
 @#?write@QTableWidgetItem@@UEBAXAEAVQDataStream@@@Z
 @Integer overflow in %s
 @Node
+@Ujz
 @\v?event@QFrame@@MEAA_NPEAVQEvent@@@Z
 @fff>fff>fff>fff>
 @spawn
@@ -4820,7 +4819,6 @@ AutoRestartChanged
 Autosaved %i
 Autosaves Enabled
 B channel not found!\n
-B8Lt
 BAD REF
 BEFORES:\n
 BUTTON
@@ -6335,7 +6333,7 @@ Group Name
 Group3Options
 Group4Options
 Growth Time
-H!jz
+H5kz
 H>2v
 HAC K  Unused Binding
 HELLO
@@ -6345,8 +6343,10 @@ HSLA\t
 HSVA
 HSVA\t
 HVertexGenericIntegerData
+H\rkz
 Hack Dota Layer Opaque
 Hack Dota Layer Opaque Translucent
+Hakz
 HalftoneHints
 Hammer
 HammerEntityPicker()
@@ -6387,6 +6387,7 @@ IDraggableTargetItem
 IGizmoListener
 IHelpChangeListener
 II>K:6?t\
+IJlz
 IKV3TransferInterface_ResourceSave
 INLINE
 INTERNAL ERROR. Failed to correlate temporary node with real node
@@ -8789,7 +8790,6 @@ YawCameraLeft
 YawCameraRight
 Yes - Discard and reload from disk
 Yes: Checkout, resolve conflicts later.
-Yfkz
 Yield, Resume=%s
 Z Component
 Z?setItalic@QFont@@QEAAX_N@Z
@@ -9102,6 +9102,8 @@ _not_pickable
 _toolsautosave
 _volumeatlas_
 _wjb
+`9jz
+`9mz
 `?validate@QDoubleValidator@@UEBA?AW4State@QValidator@@AEAVQString@@AEAH@Z
 `?validate@QIntValidator@@UEBA?AW4State@QValidator@@AEAVQString@@AEAH@Z
 `?validate@QRegularExpressionValidator@@UEBA?AW4State@QValidator@@AEAVQString@@AEAH@Z
@@ -9112,7 +9114,6 @@ _wjb
 `\r?entryInfoList@QDir@@QEBA?AV?$QList@VQFileInfo@@@@V?$QFlags@W4Filter@QDir@@@@V?$QFlags@W4SortFlag@QDir@@@@@Z
 `\tV_logd
 `\v?event@QSpinBox@@MEAA_NPEAVQEvent@@@Z
-`alz
 `t3C
 a:fulltype
 a:typeparam

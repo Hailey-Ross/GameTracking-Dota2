@@ -4094,7 +4094,6 @@ GlobalAssetBrowserContext
 GlobalHotkeys
 GlobalTopLevel
 GotoAsset
-Gq^j
 Gradient()
 GraphCanvasDebugger
 GraphCanvasViewMiniMap

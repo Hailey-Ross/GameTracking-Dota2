@@ -146,7 +146,6 @@ PTL\r
 PerVertexLighting
 Physics
 PivotPaint
-Pq^j
 PredictionDiffManager001
 PropWorldOrigin
 RSDS5

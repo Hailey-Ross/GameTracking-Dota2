@@ -167,9 +167,9 @@
  (%lu = 0x%lx)\n
  (%u = 0x%x)\n
  (+%d more due to usercommand delivery)
- (08@HPXb
- (08@HR
- (0X`hpz
+ (08@HPX`j@?
+ (08@HPXb 
+ (0X`hpz 
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -8648,7 +8648,6 @@ $hRh
 ,l0a
 ,name:
 ,oYR
-,ppD
 ,section=
 ,steammessages_steamlearn.steamworkssdk.proto"
 ,steammessages_steamlearn.steamworkssdk.proto"b\n
@@ -37341,7 +37340,9 @@ $hRh
 0234
 02V8[
 05=k
-08@J
+08@HR@?
+08@J 
+08B@?
 08bX
 09,h
 0:%02d
@@ -38083,7 +38084,6 @@ $hRh
 2\r.ELeaguePhase
 2\rlhp
 2\vp!d
-2\vp8
 2^pV
 2_bot
 2_mid
@@ -38097,7 +38097,7 @@ $hRh
 2nIg
 2ndry
 2p"6
-2pe<
+2p\C
 2prB
 3#DOTA_Hero_Selection_AllDraft_YouPicking_LosingGold
 3%3+3/353A3G3[3_3g3k3s3y3
@@ -38599,16 +38599,15 @@ $hRh
 8&Kx
 8+Qw
 80F2<
+81A{
 82\n:XPH
 851Pe
-85P{
 89 89 89
-89A{
 8<pl
 8= zp
 8@HPZ
+8@HPZ@?
 8A6j
-8B h<
 8Client ID for which to count the number of issued tokens"
 8GZS
 8Gets the list of nicknames this user has for other users
@@ -38676,11 +38675,11 @@ $hRh
 8]Vc2
 8ca1
 8dS2
-8eS{
 8oYSBkqnngo
 8pe7?
 8q-S*]X
 8sOy
+8uV|
 9#9%9)9/9=9A9M9[9k9y9}9
 9#DOTA_Hero_Selection_CaptainsMode_WaitingForChooseCaptain
 9)PF
@@ -39257,7 +39256,7 @@ $hRh
 ?uWS
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
-@08ND
+@08N
 @0pp
 @333333)@R
 @888
@@ -39266,8 +39265,8 @@ $hRh
 @BH]f
 @BoneSetup
 @DebugIndividualStyle
-@HPX`hv`
-@HPXf
+@HPXf 
+@HVp
 @Integer overflow in %s
 @MarketDataUpdated
 @MfKZ
@@ -39331,6 +39330,7 @@ A9ur
 A<fP
 A>x8
 AA Compromise
+AA:P
 AABB
 AABBDirection
 AACompromise
@@ -40902,6 +40902,7 @@ B-409
 B-571
 B-Spline
 B.z\85p
+B0,E
 B2I_DSS
 B2I_RSA
 B2pr
@@ -41589,7 +41590,6 @@ BoxFinished
 BoxFocused
 BoxIdle
 BoxOpening
-Bp-E
 Bracket
 Bracket%d
 BracketBoxContainer
@@ -66062,8 +66062,9 @@ P-224
 P-256
 P-384
 P-521
-P08@J
-P08ND
+P08@J 
+P08J0]8
+P08N
 P0WonMatch
 P1Avatar
 P1WonMatch
@@ -66071,7 +66072,6 @@ P1\t98"
 P2Avatar
 P2P ping to "%s". Timed out after %.2fms\n
 P5[1
-P6@S
 PAGN_4
 PAGrave
 PAIN: %2.2f\n
@@ -66819,7 +66819,6 @@ PersonalStatsBottomDisabled
 PersonalStatsTopDisabled
 Pet NPC Script Override:
 PetEffigy
-Pf@Z
 PhaseCalculatingResults
 PhaseDisplayingCorrectAnswer
 PhaseDisplayingPartyAnswers
@@ -68410,7 +68409,6 @@ RTTIPredictionsUnlocked
 RTTISelected
 RTTIState
 RT_txt
-R\fp8
 R\n\fActivityInfo
 R\n\fmap_variants
 R\n\fplayer_cards
@@ -68419,7 +68417,6 @@ R\n\vpredictions
 R\r1>Vp
 R\tV_iswcntrl
 R\vp!y
-R\vpd
 R]Di
 R_T5Y
 Rad Guys
@@ -77022,7 +77019,6 @@ Z~wl
 \n0CMsgGCToClientPurchaseFilteredPlayerSlotResponse
 \n0CMsgGCToClientRequestActiveBeaconPartiesResponse
 \n0CMsgGCtoGCAssociatedExploiterAccountInfoResponse
-\n0Z8
 \n1CDOTAClientMsg_AbilitySpecificChannelRequiresHalt
 \n1CDOTAUserMsg_MonsterHunter_InvestigationGameState
 \n1CHelpRequestLogs_UploadUserApplicationLog_Request
@@ -77130,10 +77126,8 @@ Z~wl
 \nLeagueID_t"
 \nLeagueID_t"9\n#CMsgDOTACompendiumSelectionResponse
 \nLeagueID_t"C\n-CMsgDOTACompendiumRemoveAllSelectionsResponse
-\nPZ8
 \nPlayerID_t
 \nPlayerID_t"
-\nPuB
 \nSimulating Entities:\n\n
 \nUnknown reward type '%s' for action '%s' at score '%s'
 \n\fAsyncRewards
@@ -79246,7 +79240,6 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBvD
 aD/x
 aDSS
 aECDH
@@ -80597,6 +80590,7 @@ a|gj(
 a|w9i
 b <= sizeof ctx->buf
 b <= sizeof ctx->final
+b0-E
 b0FCLlvCRJw
 b0M%
 b2i_PVK_bio
@@ -89185,8 +89179,8 @@ h*Ax
 h0XB
 h2Wl
 h2n_\
-h5G|
 h5N.
+hA4|
 hActivator
 hAttacker
 hCallbackFunc
@@ -89199,9 +89193,9 @@ hEntityA
 hEntityB
 hF\rDz
 hFcg
-hI4|
 hJxRX@_
 hN2D
+hQH|
 hRB.
 hRenderTexture != RENDER_TEXTURE_HANDLE_INVALID && m_image.IsValid()
 hThinkFunc
@@ -89209,7 +89203,6 @@ hW*m
 hW1M
 hW_z
 hX@e
-hYH|
 h\n"unlocked_chat_wheel_message_ranges
 h\n"unlocked_ping_wheel_message_ranges
 h\n/k_EHeroSelectionText_AllDraft_Planning_YouFirst
@@ -89754,6 +89747,7 @@ hours_remaining
 houseIdentifier
 hover
 how_to_play
+hpz 
 hr_H
 href="
 hscroll
@@ -91837,7 +91831,6 @@ j <= (int)sizeof(ctx->key)
 j <= sizeof(c->iv)
 j"MRX
 j&LQ
-j0P<
 j0ksJ
 j2ty
 j3kg
@@ -99705,8 +99698,9 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^D
-p2 h<
+p08@H^
+p0J@pE
+p0jp'8
 p2p_ping could not convert "%s" to a CPeerToPeerAddress\n
 p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n
@@ -99720,6 +99714,8 @@ p4Z3
 p5Z3
 p5\nL,
 p618
+p6P\n
+p6`T
 p>?Set@Template@v8@@QEAAXV?$Local@VName@v8@@@2@V?$Local@VData@v8@@@2@W4PropertyAttribute@2@@Z
 p@0pqE5tsO?|1
 pCheckpointName
@@ -102736,17 +102732,14 @@ rFur`7\t
 rIwdzZiHJbg
 rL[i+
 rOtk
-rPQ<
 rRfKR
 rX&O0
 rZ1VwGf5
 rZPM
-r\fpd
 r\n4k_EHeroSelectionText_AllDraft_TheyPicking_LosingGold
 r\n\nHuntReward
 r\n\vstart_index
 r\vDi
-r\vp8
 r_cleardecals
 r_deferred_additive_pass 1
 r_deferred_height_fog 1
@@ -103780,6 +103773,7 @@ rows_completed
 royal_jelly
 royal_jelly1
 royalblue
+rp,E
 rsa not implemented
 rsa operations not supported
 rsa routines

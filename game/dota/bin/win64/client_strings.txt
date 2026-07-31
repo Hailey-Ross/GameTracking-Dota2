@@ -168,8 +168,10 @@
  (%u = 0x%x)\n
  (+%d more due to usercommand delivery)
  (08@HPX`j@?
- (08@HPXb 
- (0X`hpz 
+ (08@HPXb0
+ (08@HR0
+ (08@J0
+ (0X`hpz0
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -8340,6 +8342,7 @@ $hRh
 *kf[R
 *laM-\SO
 *o\n\teRollType
+*p85
 *v\n\vEPingSource
 + <font color="#ffd825">%d</font><panel class="CombatEventGoldIcon" /> 
 + Added %s Player[%d]: %s\n
@@ -37341,7 +37344,7 @@ $hRh
 02V8[
 05=k
 08@HR@?
-08@J 
+08@J0
 08B@?
 08bX
 09,h
@@ -37760,6 +37763,8 @@ $hRh
 2013-01-01
 2022_diretide_collectors_cache
 2025_cta_collectors_cache_voting
+20f<
+20p<
 20t\f
 20x9
 21.CMsgClientToGCBingoGetUserDataResponse.EResponse
@@ -37952,6 +37957,7 @@ $hRh
 2J.CMsgClientToGCMonsterHunterDevClaimInvestigationRewardsResponse.EResponse"u\n\tEResponse
 2K.CMsgClientToGCGetAvailablePrivateCoachingSessionsSummaryResponse.EResponse
 2L.CMsgClientToGCMonsterHunterRequestMaterialsNeededByFriendResponse.EResponse
+2P\8
 2Set of published file Ids to retrieve details for.
 2Tm=#
 2Uiwp"9
@@ -38097,7 +38103,6 @@ $hRh
 2nIg
 2ndry
 2p"6
-2p\C
 2prB
 3#DOTA_Hero_Selection_AllDraft_YouPicking_LosingGold
 3%3+3/353A3G3[3_3g3k3s3y3
@@ -38599,10 +38604,11 @@ $hRh
 8&Kx
 8+Qw
 80F2<
-81A{
 82\n:XPH
 851Pe
+85P{
 89 89 89
+89A{
 8<pl
 8= zp
 8@HPZ
@@ -38675,11 +38681,11 @@ $hRh
 8]Vc2
 8ca1
 8dS2
+8eS{
 8oYSBkqnngo
 8pe7?
 8q-S*]X
 8sOy
-8uV|
 9#9%9)9/9=9A9M9[9k9y9}9
 9#DOTA_Hero_Selection_CaptainsMode_WaitingForChooseCaptain
 9)PF
@@ -38811,6 +38817,7 @@ $hRh
 :eaI
 :gN(dq
 :mIR
+:p85
 :w4v
 ;!;#;-;9;E;S;Y;_;q;{;
 ;"lY7
@@ -39265,8 +39272,7 @@ $hRh
 @BH]f
 @BoneSetup
 @DebugIndividualStyle
-@HPXf 
-@HVp
+@HPXf0
 @Integer overflow in %s
 @MarketDataUpdated
 @MfKZ
@@ -39330,7 +39336,6 @@ A9ur
 A<fP
 A>x8
 AA Compromise
-AA:P
 AABB
 AABBDirection
 AACompromise
@@ -40902,7 +40907,6 @@ B-409
 B-571
 B-Spline
 B.z\85p
-B0,E
 B2I_DSS
 B2I_RSA
 B2pr
@@ -62737,6 +62741,7 @@ LZWDecodeCompat: Not enough data at scanline %d (short %ld bytes)
 LZWDecodeCompat: Wrong length of decoded string: data probably corrupted at scanline %d
 LZWPreDecode
 LZWSetupEncode
+L\fP\8
 L\nHk_ECandyShopAuditAction_DEPRECATED_EventActionGrantInventorySizeIncrease
 L\n\fincludevotes
 L\n\rcontributions
@@ -66062,8 +66067,8 @@ P-224
 P-256
 P-384
 P-521
-P08@J 
-P08J0]8
+P08@J0
+P08J@]8
 P08N
 P0WonMatch
 P1Avatar
@@ -77683,6 +77688,7 @@ Z~wl
 \n\nnpc_dialog
 \n\norder_type
 \n\nother_gold
+\n\np85
 \n\npackage_id
 \n\nparty_game
 \n\npercentile
@@ -78662,6 +78668,8 @@ Z~wl
 \n\vzoom_amount
 \ng_flConfigMaxCoord
 \ngrant_periodic_action '%s' doesn't specify an action to grant
+\np85
+\npUE
 \nqYu
 \ntM(ie-V
 \nunit1: %s \nunit2: %s \nevent: %s \npriority: %d\n
@@ -79206,6 +79214,7 @@ _video
 _wjb
 _xU`u
 _}eOk
+`20f<
 `28)fk
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
 `:zQF
@@ -80590,7 +80599,6 @@ a|gj(
 a|w9i
 b <= sizeof ctx->buf
 b <= sizeof ctx->final
-b0-E
 b0FCLlvCRJw
 b0M%
 b2i_PVK_bio
@@ -81353,6 +81361,7 @@ box_outer_maxs
 box_outer_mins
 box_size
 box_state
+bp-E
 bpFh
 bp_amount
 bp_max
@@ -89179,8 +89188,8 @@ h*Ax
 h0XB
 h2Wl
 h2n_\
+h5G|
 h5N.
-hA4|
 hActivator
 hAttacker
 hCallbackFunc
@@ -89193,9 +89202,9 @@ hEntityA
 hEntityB
 hF\rDz
 hFcg
+hI4|
 hJxRX@_
 hN2D
-hQH|
 hRB.
 hRenderTexture != RENDER_TEXTURE_HANDLE_INVALID && m_image.IsValid()
 hThinkFunc
@@ -89203,6 +89212,7 @@ hW*m
 hW1M
 hW_z
 hX@e
+hYH|
 h\n"unlocked_chat_wheel_message_ranges
 h\n"unlocked_ping_wheel_message_ranges
 h\n/k_EHeroSelectionText_AllDraft_Planning_YouFirst
@@ -89747,7 +89757,7 @@ hours_remaining
 houseIdentifier
 hover
 how_to_play
-hpz 
+hpz0
 hr_H
 href="
 hscroll
@@ -99699,8 +99709,7 @@ p.ppBasis
 p.prime
 p.tpBasis
 p08@H^
-p0J@pE
-p0jp'8
+p0JPpE
 p2p_ping could not convert "%s" to a CPeerToPeerAddress\n
 p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n
@@ -99714,8 +99723,7 @@ p4Z3
 p5Z3
 p5\nL,
 p618
-p6P\n
-p6`T
+p6pT
 p>?Set@Template@v8@@QEAAXV?$Local@VName@v8@@@2@V?$Local@VData@v8@@@2@W4PropertyAttribute@2@@Z
 p@0pqE5tsO?|1
 pCheckpointName
@@ -102732,6 +102740,7 @@ rFur`7\t
 rIwdzZiHJbg
 rL[i+
 rOtk
+rP\8
 rRfKR
 rX&O0
 rZ1VwGf5
@@ -103773,7 +103782,6 @@ rows_completed
 royal_jelly
 royal_jelly1
 royalblue
-rp,E
 rsa not implemented
 rsa operations not supported
 rsa routines
@@ -103872,6 +103880,7 @@ runes_collected
 russian-channel
 rw4rs
 r~s-v7
+s#lj
 s%95
 s(Fdi
 s->d1->mtu >= dtls1_min_mtu(s)

@@ -168,10 +168,8 @@
  (%u = 0x%x)\n
  (+%d more due to usercommand delivery)
  (08@HPX`j@?
- (08@HPXb0
- (08@HR0
- (08@J0
- (0X`hpz0
+ (08@HPXb@
+ (0X`hpz@
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -8342,7 +8340,6 @@ $hRh
 *kf[R
 *laM-\SO
 *o\n\teRollType
-*p85
 *v\n\vEPingSource
 + <font color="#ffd825">%d</font><panel class="CombatEventGoldIcon" /> 
 + Added %s Player[%d]: %s\n
@@ -8518,6 +8515,7 @@ $hRh
 ,#,/,5,9,A,W,Y,i,w,
 ,#DOTA_Hero_Selection_CaptainsMode_TheySelect
 ,(Optional) Visibility of the published file.
+,0oD
 ,3g4
 ,7~5d
 ,?IsUint32@Value@v8@@QEBA_NXZ
@@ -37344,7 +37342,7 @@ $hRh
 02V8[
 05=k
 08@HR@?
-08@J0
+08@J@
 08B@?
 08bX
 09,h
@@ -37763,8 +37761,7 @@ $hRh
 2013-01-01
 2022_diretide_collectors_cache
 2025_cta_collectors_cache_voting
-20f<
-20p<
+20d<
 20t\f
 20x9
 21.CMsgClientToGCBingoGetUserDataResponse.EResponse
@@ -37957,7 +37954,6 @@ $hRh
 2J.CMsgClientToGCMonsterHunterDevClaimInvestigationRewardsResponse.EResponse"u\n\tEResponse
 2K.CMsgClientToGCGetAvailablePrivateCoachingSessionsSummaryResponse.EResponse
 2L.CMsgClientToGCMonsterHunterRequestMaterialsNeededByFriendResponse.EResponse
-2P\8
 2Set of published file Ids to retrieve details for.
 2Tm=#
 2Uiwp"9
@@ -38817,7 +38813,6 @@ $hRh
 :eaI
 :gN(dq
 :mIR
-:p85
 :w4v
 ;!;#;-;9;E;S;Y;_;q;{;
 ;"lY7
@@ -39272,7 +39267,8 @@ $hRh
 @BH]f
 @BoneSetup
 @DebugIndividualStyle
-@HPXf0
+@HPX`hv 
+@HPXf@
 @Integer overflow in %s
 @MarketDataUpdated
 @MfKZ
@@ -39336,6 +39332,7 @@ A9ur
 A<fP
 A>x8
 AA Compromise
+AA:p
 AABB
 AABBDirection
 AACompromise
@@ -40907,6 +40904,7 @@ B-409
 B-571
 B-Spline
 B.z\85p
+B0,E
 B2I_DSS
 B2I_RSA
 B2pr
@@ -41056,6 +41054,7 @@ BN_usub
 BOGUS
 BOOL ABSENT
 BOOLEAN
+BP,E
 BPEventLevelIcon
 BPIN_txt
 BPLevel
@@ -62741,7 +62740,6 @@ LZWDecodeCompat: Not enough data at scanline %d (short %ld bytes)
 LZWDecodeCompat: Wrong length of decoded string: data probably corrupted at scanline %d
 LZWPreDecode
 LZWSetupEncode
-L\fP\8
 L\nHk_ECandyShopAuditAction_DEPRECATED_EventActionGrantInventorySizeIncrease
 L\n\fincludevotes
 L\n\rcontributions
@@ -66067,8 +66065,8 @@ P-224
 P-256
 P-384
 P-521
-P08@J0
-P08J@]8
+P08@J@
+P08JP]8
 P08N
 P0WonMatch
 P1Avatar
@@ -77688,7 +77686,6 @@ Z~wl
 \n\nnpc_dialog
 \n\norder_type
 \n\nother_gold
-\n\np85
 \n\npackage_id
 \n\nparty_game
 \n\npercentile
@@ -78668,8 +78665,6 @@ Z~wl
 \n\vzoom_amount
 \ng_flConfigMaxCoord
 \ngrant_periodic_action '%s' doesn't specify an action to grant
-\np85
-\npUE
 \nqYu
 \ntM(ie-V
 \nunit1: %s \nunit2: %s \nevent: %s \npriority: %d\n
@@ -79214,7 +79209,6 @@ _video
 _wjb
 _xU`u
 _}eOk
-`20f<
 `28)fk
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
 `:zQF
@@ -80645,6 +80639,7 @@ bMutedText
 bMutedVoice
 bN.l
 bOverheadEffect
+bP-E
 bPb:L7X)
 bReturnUnslowed
 bSellable
@@ -81361,7 +81356,6 @@ box_outer_maxs
 box_outer_mins
 box_size
 box_state
-bp-E
 bpFh
 bp_amount
 bp_max
@@ -89757,7 +89751,7 @@ hours_remaining
 houseIdentifier
 hover
 how_to_play
-hpz0
+hpz@
 hr_H
 href="
 hscroll
@@ -99709,7 +99703,7 @@ p.ppBasis
 p.prime
 p.tpBasis
 p08@H^
-p0JPpE
+p0J`pE
 p2p_ping could not convert "%s" to a CPeerToPeerAddress\n
 p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n
@@ -99723,7 +99717,7 @@ p4Z3
 p5Z3
 p5\nL,
 p618
-p6pT
+p6p\n
 p>?Set@Template@v8@@QEAAXV?$Local@VName@v8@@@2@V?$Local@VData@v8@@@2@W4PropertyAttribute@2@@Z
 p@0pqE5tsO?|1
 pCheckpointName
@@ -102740,7 +102734,6 @@ rFur`7\t
 rIwdzZiHJbg
 rL[i+
 rOtk
-rP\8
 rRfKR
 rX&O0
 rZ1VwGf5
@@ -103880,7 +103873,6 @@ runes_collected
 russian-channel
 rw4rs
 r~s-v7
-s#lj
 s%95
 s(Fdi
 s->d1->mtu >= dtls1_min_mtu(s)

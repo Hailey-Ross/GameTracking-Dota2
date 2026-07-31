@@ -976,7 +976,8 @@ $SFXDetailBlendMode
 .?AVISceneObjectListener@@
 .?AVISequence@@
 0=don't clear particle attrs at init 1=clear to zero 2=clear to 0xdb -1=clear to zero at first sim
-0tB>
+0dB>
+2\vpt
 3E"F
 3E"W
 3E"g
@@ -1794,6 +1795,7 @@ ParticlesFoggedByDefault
 ParticlesLib
 Pass Outflow
 Pause particle simulation
+PdB>
 Per-Particle Force
 PerVertexLighting
 Physics
@@ -1842,7 +1844,6 @@ Profile particle
 Profile particle filter
 Profile particle spike
 PropWorldOrigin
-PtB>
 Pull towards control point
 Pulse domain which enables particle content to query leaf code to introspect game state.
 Q#B7
@@ -2255,7 +2256,7 @@ Z>wg}?0
 \tV_cosd
 \tV_tand
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\n\v\n\v\n\v\n\v\n\v\n\v\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
-\vPtB>
+\vPdB>
 _\tV_log2f
 __CursorQueue__
 __State_Child_Condition__

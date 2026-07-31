@@ -168,8 +168,9 @@
  (%u = 0x%x)\n
  (+%d more due to usercommand delivery)
  (08@HPX`j@?
- (08@HPXb@
- (0X`hpz@
+ (08@HPXb
+ (08@HR
+ (0X`hpz
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -8182,6 +8183,7 @@ $hRh
 *Enable the rendering of the hud
 *Gets the last-played times for the account
 *O\n\fDOTA_CM_PICK
+*P95
 *Returns the player's community preferences
 *UlS
 *Y$ve
@@ -8515,7 +8517,6 @@ $hRh
 ,#,/,5,9,A,W,Y,i,w,
 ,#DOTA_Hero_Selection_CaptainsMode_TheySelect
 ,(Optional) Visibility of the published file.
-,0oD
 ,3g4
 ,7~5d
 ,?IsUint32@Value@v8@@QEBA_NXZ
@@ -37342,7 +37343,7 @@ $hRh
 02V8[
 05=k
 08@HR@?
-08@J@
+08@J
 08B@?
 08bX
 09,h
@@ -37761,7 +37762,7 @@ $hRh
 2013-01-01
 2022_diretide_collectors_cache
 2025_cta_collectors_cache_voting
-20d<
+20]8
 20t\f
 20x9
 21.CMsgClientToGCBingoGetUserDataResponse.EResponse
@@ -38086,6 +38087,7 @@ $hRh
 2\r.ELeaguePhase
 2\rlhp
 2\vp!d
+2\vpt
 2^pV
 2_bot
 2_mid
@@ -38100,6 +38102,7 @@ $hRh
 2ndry
 2p"6
 2prB
+2pu<
 3#DOTA_Hero_Selection_AllDraft_YouPicking_LosingGold
 3%3+3/353A3G3[3_3g3k3s3y3
 3(Optional) Preview filename for the published file." \n
@@ -38766,6 +38769,7 @@ $hRh
 :EXTERNAL TYPE %s\n
 :LBN
 :NAy
+:P95
 :QYJ
 :Vlq
 :\n5kKillEaterEventType_Brewmaster_KillsDuringPrimalSplit
@@ -39267,8 +39271,7 @@ $hRh
 @BH]f
 @BoneSetup
 @DebugIndividualStyle
-@HPX`hv 
-@HPXf@
+@HPXf
 @Integer overflow in %s
 @MarketDataUpdated
 @MfKZ
@@ -39332,7 +39335,6 @@ A9ur
 A<fP
 A>x8
 AA Compromise
-AA:p
 AABB
 AABBDirection
 AACompromise
@@ -40904,7 +40906,6 @@ B-409
 B-571
 B-Spline
 B.z\85p
-B0,E
 B2I_DSS
 B2I_RSA
 B2pr
@@ -41054,7 +41055,6 @@ BN_usub
 BOGUS
 BOOL ABSENT
 BOOLEAN
-BP,E
 BPEventLevelIcon
 BPIN_txt
 BPLevel
@@ -43503,6 +43503,7 @@ CDOTA_Hud_RiverVial::Update
 CDOTA_Hud_RoshanTimer::Update
 CDOTA_Hud_Scoreboard::EventHudUpdate
 CDOTA_Hud_Scoreboard::EventPlayerGiftEveryone
+CDOTA_Hud_Shop::EventShopItemRightMouseDown
 CDOTA_Hud_Shop::EventUpdate
 CDOTA_Hud_SpectateHeroSelection::Update
 CDOTA_Hud_SpectatorGameStats::EventHudUpdate
@@ -62740,6 +62741,7 @@ LZWDecodeCompat: Not enough data at scanline %d (short %ld bytes)
 LZWDecodeCompat: Wrong length of decoded string: data probably corrupted at scanline %d
 LZWPreDecode
 LZWSetupEncode
+L\f0]8
 L\nHk_ECandyShopAuditAction_DEPRECATED_EventActionGrantInventorySizeIncrease
 L\n\fincludevotes
 L\n\rcontributions
@@ -66065,8 +66067,8 @@ P-224
 P-256
 P-384
 P-521
-P08@J@
-P08JP]8
+P08@J
+P08J ^8
 P08N
 P0WonMatch
 P1Avatar
@@ -68420,6 +68422,7 @@ R\n\vpredictions
 R\r1>Vp
 R\tV_iswcntrl
 R\vp!y
+R\vpt
 R]Di
 R_T5Y
 Rad Guys
@@ -69627,6 +69630,7 @@ RowReward%d
 RowType%d
 RowValueLabel
 RowsPerStrip
+Rpu<
 Rq[R
 RrBoN
 RtIF
@@ -71287,6 +71291,7 @@ Shmup Take Control Of Player
 ShmupGame
 Shoots a client-side decal
 Shop
+Shop item has invalid ability ID: %u, ancestor = %s
 Shop.Available
 Shop.Unavailable
 ShopClosing
@@ -77129,6 +77134,8 @@ Z~wl
 \nLeagueID_t"
 \nLeagueID_t"9\n#CMsgDOTACompendiumSelectionResponse
 \nLeagueID_t"C\n-CMsgDOTACompendiumRemoveAllSelectionsResponse
+\nP95
+\nPVE
 \nPlayerID_t
 \nPlayerID_t"
 \nSimulating Entities:\n\n
@@ -77511,6 +77518,7 @@ Z~wl
 \n\nNAME_TAKEN
 \n\nNOT_LEADER
 \n\nOAuthToken
+\n\nP95
 \n\nPARTY_FULL
 \n\nPrediction
 \n\nROLL_STATS
@@ -80639,7 +80647,7 @@ bMutedText
 bMutedVoice
 bN.l
 bOverheadEffect
-bP-E
+bP.E
 bPb:L7X)
 bReturnUnslowed
 bSellable
@@ -89751,7 +89759,6 @@ hours_remaining
 houseIdentifier
 hover
 how_to_play
-hpz@
 hr_H
 href="
 hscroll
@@ -99703,7 +99710,8 @@ p.ppBasis
 p.prime
 p.tpBasis
 p08@H^
-p0J`pE
+p0J0qE
+p0j`(8
 p2p_ping could not convert "%s" to a CPeerToPeerAddress\n
 p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n
@@ -99717,7 +99725,7 @@ p4Z3
 p5Z3
 p5\nL,
 p618
-p6p\n
+p6PU
 p>?Set@Template@v8@@QEAAXV?$Local@VName@v8@@@2@V?$Local@VData@v8@@@2@W4PropertyAttribute@2@@Z
 p@0pqE5tsO?|1
 pCheckpointName
@@ -102708,6 +102716,7 @@ qx(q
 r axis
 r$0I
 r-IE
+r0]8
 r184
 r1c1
 r1c2

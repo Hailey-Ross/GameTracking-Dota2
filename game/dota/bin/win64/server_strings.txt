@@ -154,8 +154,11 @@
  %s%lu (%s0x%lx)\n
  ' ) - 3 G M Q _ c e i w } 
  (%ld unused bits)\n
- (08@HPXb`
- (0X`hpz`
+ (08@HPX`j 9
+ (08@HPXb
+ (08@HPZ 9
+ (08@HR
+ (0X`hpz
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -1851,33 +1854,27 @@ $hRh
 (0'yX
 (0.1s interval)
 (0x%08X)'??'
-(18j
-(1Ej
-(1Jj
-(5Bj
+(1tj
 (5Me
 (5jP
-(9Cj
+(9Pj
+(9gj
+(9yj
 (ACTIVE)
-(Aej
+(AFj
+(AMj
 (BZq
 (D4D
 (DOTA_INVALID_ORDERS nReason) Return the error string of a failed order.
 (Deprecated: use GetNumConnectedHumanPlayers) Players on a valid team (radiant, dire, or custom*) who haven't abandoned the game
-(ERj
-(Ecj
-(Edj
-(Eij
-(Ewj
+(EXj
+(Ejj
 (HSCRIPT hTarget) Determine whether an issued command on a target is valid.
 (HSCRIPT hTarget) Return the error string of a failed command on a target.
 (HSCRIPT hTarget, VectorWS vLocation) Projectile has collided with a given target or reached its destination (target is invalid).
 (HSCRIPT hTarget, VectorWS vLocation, int nHandle) Projectile has collided with a given target or reached its destination (target is invalid).
 (HSCRIPT hTarget, VectorWS vLocation, table kv) Projectile has collided with a given target or reached its destination (target is invalid).
 (Has breakpieces or commands)
-(IDj
-(Ibj
-(Ioj
 (NAV IGNORED)
 (NAV_IGNORED)
 (NONE)
@@ -1885,12 +1882,13 @@ $hRh
 (Output drawable)
 (Preview/Unreleased) Gets the player's custom game account record, as it looked at the start of this session
 (Preview/Unreleased) Sets a callback to handle saving custom game account records (callback is passed a Player ID and should return a flat simple table)
-(Qmj
-(Qvj
+(Q8j
+(QEj
+(QJj
 (SERVER) Inventory for account (%d):\n
 (Server) 
 (U1h
-(U7j
+(UBj
 (Unknown error)
 (VectorWS vLocation) Determine whether an issued command on a location is valid.
 (VectorWS vLocation) Projectile is actively moving.
@@ -1898,6 +1896,7 @@ $hRh
 (VectorWS vLocation, table kv ) Projectile is actively moving.
 (VectorWS vOrigin, float flRadius )
 (WIPE AND EXTRACT)
+(YCj
 (ZdOt\n&
 (\f"#\n!CDOTABroadcastMsg_LANLobbyRequest"
 (\f";\n%CDOTAUserMsg_CustomHudElement_Destroy
@@ -2498,8 +2497,7 @@ $hRh
 (\v2\v.CMsgVector"l\n
 (\v2\v.CMsgVector"o\n)CDOTAUserMsg_UpdateLinearProjectileCPData
 (\v2\v.CMsgVector*
-(aLj
-(atj
+(aej
 (b IncludePregameTime b IncludeNegativeTime) Returns the actual DOTA in-game clock time.
 (bSafeToLeave) - Mark this game as safe to leave.
 (bool RemovePositiveBuffs, bool RemoveDebuffs, bool BuffsCreatedThisFrameOnly, bool RemoveStuns, bool RemoveExceptions)
@@ -2507,7 +2505,11 @@ $hRh
 (bool bSpent) Runs when item's charge count changes. bSpent is true when the charge count change is coming from SpendCharge.
 (d4t8
 (default)
-(eXj
+(eRj
+(ecj
+(edj
+(eij
+(ewj
 (fS{ggRcjh
 (flMinimapCreepIconScale) - Scale the creep icons on the minimap.
 (flMinimapHeroIconScale) - Scale the hero minimap icons on the minimap.
@@ -2519,6 +2521,8 @@ $hRh
 (hInflictor, hAttacker, flDamage) - Allocate a damageinfo object, used as an argument to TakeDamage(). Call DestroyDamageInfo( hInfo ) to free the object.
 (h`H1pqA
 (i/Al
+(iDj
+(ibj
 (index, bDestroyImmediately, bStatusEffect, priority, bHeroEffect, bOverheadEffect
 (int iIndex, int iPoint, Vector vecPosition)
 (int index, bool bDestroyImmediately) - Destroy a particle, if bDestroyImmediately destroy it without playing end caps.
@@ -2527,8 +2531,8 @@ $hRh
 (int nPct)
 (int nProjectileHandle) Projectile is actively moving.
 (int targets [0=all, 1=enemy, 2=ally], bool bNow, bool bPermanent, bool bDeath)
+(ioj
 (jvg;
-(mEj
 (nMusicStatus, flIntensity) - Set the music status for this player, note this will only really apply if dota_music_battle_enable is off.
 (nPlayerID)
 (nPlayerID, eEvent, nActionID)
@@ -2540,18 +2544,14 @@ $hRh
 (playerID, heroClassName, gold, XP) - replaces the player's hero with a new one of the specified class, gold and XP
 (playerID, heroClassName, gold, XP) - replaces the player's hero with a new one of the specified class, gold and XP, without transferring items/abilities if same hero
 (position, radius, checkFullTreeRadius?) Checks whether there are any trees overlapping the given point
-(q0j
-(qHj
+(qmj
 (quaternion,quaternion,float) very basic interpolation of v0 to v1 over t on [0,1]
 (quaternion,vector,float) rotates a quaternion by the specified angle around the specified vector axis
-(qwj
-(qxj
+(qvj
 (test) brawl
 (test) flee
 (test) pursue
-(uBj
-(uFj
-(uIj
+(u7j
 (update disabled)
 (vQF
 (vector,float) constructs a quaternion representing a rotation by angle around the specified vector axis
@@ -2559,7 +2559,6 @@ $hRh
 (vector,vector,float) lerp between two vectors by a float factor returning new vector
 (vector,vector,float) very basic interpolation of v0 to v1 over t on [0,1]
 (wMww
-(yfj
 )!)#)?)G)])e)i)o)u)
 ).CMsgSteamLearn_InferenceMetadata_Request
 )Ck?B
@@ -23563,9 +23562,12 @@ $hRh
 0123456789
 02V8[
 05=k
-08@J`
+08@HR 9
+08@J
+08B 9
 08bX
 09,h
+0:0Sn
 0;Q5[
 0<cz
 0M2~@p
@@ -23796,7 +23798,6 @@ $hRh
 2 .CMsgBattleReport_CompareContext"
 2 .CMsgConnectedPlayers.SendReason
 2 .CMsgGCRoutingInfo.RoutingMethod:
-2 Rn
 2!.CMsgAddSocketResponse.EAddSocket"
 2!.CMsgBattleReport_HighlightRarity
 2!.CMsgDevModifyCodexAction.EAction"#\n
@@ -23835,6 +23836,7 @@ $hRh
 2..CDOTAUserMsg_MadstoneAlert.EMadstoneAlertType
 2..CMvpData.MvpDatum.MvpAccolade.MvpAccoladeType
 20.CMsgClientToGCGetBattleReportResponse.EResponse
+209w
 20t\f
 21.CMsgClientToGCDotaLabsFeedbackResponse.EResponse"
 21.CMsgClientToGCUnpackBundleResponse.EUnpackBundle
@@ -23903,6 +23905,7 @@ $hRh
 2?.CMsgClientToGCMonsterHunterDevGrantMaterialsResponse.EResponse"u\n\tEResponse
 2?.CMsgClientToGCRemoveItemAttributeResponse.ERemoveItemAttribute
 2@.CMsgClientToGCMonsterHunterDevModifyHeroCodexResponse.EResponse"u\n\tEResponse
+2@Sn
 2C.CMsgClientToGCOverworldDevGrantFortuneTellerCoinResponse.EResponse"
 2C.CMsgClientToGCOverworldGetDynamicImageResponse.EDynamicImageFormat
 2C.CMsgServerToGCRequestPlayerRecentAccomplishmentsResponse.EResponse
@@ -24021,6 +24024,7 @@ $hRh
 2\r.DOTA_GC_TEAM:
 2\r.ELeaguePhase
 2\rlhp
+2\vpt
 2^pV
 2_bot
 2_mid
@@ -24427,15 +24431,19 @@ $hRh
 7sAP'
 7wKR
 7zRQ
+8%Yj
 8+Qw
 80F2<
 82\n:XPH
 851Pe
 8<pl
 8= zp
+8@J 9
 8A6j
-8B@ r
+8B 9
+8B`!r
 8DemoFile
+8E\fk
 8GZS
 8SIffK5W
 8TZvrv<
@@ -24559,7 +24567,6 @@ $hRh
 :LBN
 :NAy
 :Navigator
-:PQn
 :QYJ
 :Vlq
 :\n5kKillEaterEventType_Brewmaster_KillsDuringPrimalSplit
@@ -24838,11 +24845,13 @@ $hRh
 @08N
 @0pp
 @333?
-@6PM
+@60O
+@60W
+@6pN
 @@map tree
 @BH]f
 @BoneSetup
-@HPX`hv@
+@HPX`hv` 
 @Invalid attach type specified for particle effect anim event. Trying to spawn effect '%s' on model %s\n
 @MfKZ
 @Pgl
@@ -26041,6 +26050,7 @@ AwardAchievement
 AwardEventPoints failed as no lobby found!\n
 Axis
 AxisAngleToQuaternion
+B Qn
 B!rA
 B#B)B/BCBSBUB[BaBsB}B
 B*k@5
@@ -39887,11 +39897,12 @@ P-224
 P-256
 P-384
 P-521
-P08@J`
+P08@J
 P08N
 P1\t98"
+P2 9
 P5[1
-P6@V
+P6`W
 PA#DOTA_Chat_VictoryPredictionSingleUserConfirm
 PAGN_4
 PARALYZE
@@ -40308,6 +40319,7 @@ PingWheelMessageRange
 PitchShift
 PitchYawRoll
 PivotPaint
+Pj 9
 Place a rune in the bottle.
 Place a unit somewhere not already occupied.
 PlaceDecalEvent_t
@@ -40840,7 +40852,7 @@ RUNE_STATUS_MISSING
 RUNE_STATUS_UNKNOWN
 RUNE_WATER
 RUNE_XP
-R\fpT
+R\fpt
 R\n\fActivityInfo
 R\r1>Vp
 R\vp!y
@@ -45676,10 +45688,11 @@ XYD%
 X\n summary_description_embed_values
 X\n\rkilling_blows
 X\tQo
+X`hr 9
 Xbox VDP is not supported on this platform.
 Xd3h
+Xf@A
 XfJ7
-Xfp>
 XjfR
 XqgA+
 Xuub
@@ -45728,6 +45741,7 @@ You must type in
 You need to read the OpenSSL FAQ, http://www.openssl.org/support/faq.html
 You're missing a GetPreviewUnit in your encounter at %.3f %.3f!\n
 Ys/MA
+Z Qn
 Z"T-47\f8
 Z#Pe
 Z+5AS
@@ -46064,12 +46078,12 @@ Z~wl
 \n.steammessages_unified_base.steamworkssdk.proto
 \n/CMsgServerToGCCompendiumChosenInGamePredictions
 \n/CMsgServerToGCCompendiumInGamePredictionResults
+\n09w
 \n0CMsgClientToGCMonsterHunterGiftMaterialsResponse
 \n0CMsgClientToGCOverworldDevClearInventoryResponse
 \n0CMsgClientToGCSurvivorsGameTelemetryDataResponse
 \n0CMsgGCtoGCAssociatedExploiterAccountInfoResponse
 \n0CMsgServerToGCMatchPlayerNeutralItemEquipHistory
-\n0Ex
 \n1CDOTAClientMsg_AbilitySpecificChannelRequiresHalt
 \n1CDOTAUserMsg_MonsterHunter_InvestigationGameState
 \n1CMsgClientToGCFightingGameAnswerChallengeResponse
@@ -46142,7 +46156,7 @@ Z~wl
 \nLeagueID_t"
 \nLeagueID_t"M\n;CMsgServerToGCCloseCompendiumInGamePredictionVotingResponse
 \nLeagueID_t"N\n$CMsgServerToGCGetCheerConfigResponse
-\nPQn
+\nPFx
 \nPlayerID_t
 \nPlayerID_t"
 \nSimulating Entities:\n\n
@@ -46409,7 +46423,6 @@ Z~wl
 \n\fwhat_changed
 \n\fwinner_score
 \n\fwinning_team
-\n\n0Jx
 \n\nAddGesture
 \n\nAnswerTeam
 \n\nBuffRecord
@@ -46426,6 +46439,7 @@ Z~wl
 \n\nLANE_CREEP
 \n\nMapResults
 \n\nMatchState
+\n\nPKx
 \n\nPrediction
 \n\nROLL_STATS
 \n\nResultCode
@@ -46585,7 +46599,6 @@ Z~wl
 \n\nnpc_dialog
 \n\norder_type
 \n\nother_gold
-\n\npRn
 \n\npackage_id
 \n\nparty_game
 \n\npersona_id
@@ -47563,6 +47576,8 @@ _turbo
 _xU`u
 _}eOk
 `28)fk
+`60P
+`97j
 `:zQF
 `D$daM-l
 `DZG
@@ -47570,7 +47585,6 @@ _}eOk
 `ITS
 `VX:H
 `\n\rvector_values
-`aNj
 `fPw.\vM
 `h9T~
 `o_je
@@ -53811,7 +53825,6 @@ hoverposeposition
 howl_duration
 hp_cost
 hp_missing_per_extra_illusion_pct
-hpz`
 hr_H
 http request
 http://%s
@@ -55772,6 +55785,7 @@ joint_friction
 jointfriction
 jolt_bonus_cast_range
 joy_autoaimdampen
+jp\tr
 json
 jt(@L
 jtv2@
@@ -62525,14 +62539,14 @@ p.ppBasis
 p.prime
 p.tpBasis
 p08@H^
-p0j`
-p2@ r
+p2 9
+p2`!r
 p2{l
 p4Z3
 p5Z3
 p5\nL,
 p618
-p6P3
+p6p4
 p?33
 p@0pqE5tsO?|1
 pAbilityName1
@@ -65441,6 +65455,7 @@ payload + padding <= 16381
 payment gateway capabilities
 payment_row_usd
 payment_us_usd
+pb 9
 pbeWithMD2AndDES-CBC
 pbeWithMD2AndRC2-CBC
 pbeWithMD5AndCast5CBC
@@ -66384,7 +66399,6 @@ quill_stacks
 qx(q
 r$0I
 r-IE
-r0Jx
 r184
 r3A~
 r<\rND
@@ -66397,13 +66411,14 @@ rF6t
 rFC822localPart
 rFur`7\t
 rL[i+
+rPKx
 rRfKR
 rX&O0
 rZ1VwGf5
 rZPM
 r\n\nHuntReward
 r\vDi
-r\vpT
+r\vpt
 rad2deg
 radar_cooldown
 radial_count
@@ -67102,7 +67117,6 @@ round_start
 route_to_all_movers
 routing
 routing_app_id
-rp\tr
 rsa not implemented
 rsa operations not supported
 rsa routines
@@ -70258,7 +70272,6 @@ tips_received
 tips_received_leaderboard_name
 title
 title_loc_token
-tl\np9f
 tls client cert req with anon cipher
 tls illegal exporter label
 tls invalid ecpointformat list
@@ -71695,6 +71708,7 @@ ymax
 ymin
 ynormal
 yyen
+z Qn
 z(ov
 z/B,9d
 z<d2

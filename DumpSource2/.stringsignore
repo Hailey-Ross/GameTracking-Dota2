@@ -49914,6 +49914,7 @@ m_nHeadLocationMax
 m_nHeadLocationMin
 m_nHeal
 m_nHealAmount
+m_nHealQueue
 m_nHealth
 m_nHealthBarOffset
 m_nHealthBarOffsetOverride

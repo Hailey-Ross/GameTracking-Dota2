@@ -167,10 +167,10 @@
  (%lu = 0x%lx)\n
  (%u = 0x%x)\n
  (+%d more due to usercommand delivery)
- (08@HPX`j@?
- (08@HPXb
- (08@HR
- (0X`hpz
+ (08@HPX`jP?
+ (08@HPXb 
+ (08@HPZP?
+ (0X`hpz 
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -8183,7 +8183,6 @@ $hRh
 *Enable the rendering of the hud
 *Gets the last-played times for the account
 *O\n\fDOTA_CM_PICK
-*P95
 *Returns the player's community preferences
 *UlS
 *Y$ve
@@ -37342,9 +37341,9 @@ $hRh
 0234
 02V8[
 05=k
-08@HR@?
-08@J
-08B@?
+08@HRP?
+08@J 
+08BP?
 08bX
 09,h
 0:%02d
@@ -37762,7 +37761,6 @@ $hRh
 2013-01-01
 2022_diretide_collectors_cache
 2025_cta_collectors_cache_voting
-20]8
 20t\f
 20x9
 21.CMsgClientToGCBingoGetUserDataResponse.EResponse
@@ -38087,7 +38085,6 @@ $hRh
 2\r.ELeaguePhase
 2\rlhp
 2\vp!d
-2\vpt
 2^pV
 2_bot
 2_mid
@@ -38101,8 +38098,8 @@ $hRh
 2nIg
 2ndry
 2p"6
+2p]C
 2prB
-2pu<
 3#DOTA_Hero_Selection_AllDraft_YouPicking_LosingGold
 3%3+3/353A3G3[3_3g3k3s3y3
 3(Optional) Preview filename for the published file." \n
@@ -38605,14 +38602,15 @@ $hRh
 80F2<
 82\n:XPH
 851Pe
-85P{
 89 89 89
-89A{
+89P{
 8<pl
 8= zp
 8@HPZ
-8@HPZ@?
+8@HPZP?
+8@JP?
 8A6j
+8BP?
 8Client ID for which to count the number of issued tokens"
 8GZS
 8Gets the list of nicknames this user has for other users
@@ -38680,7 +38678,7 @@ $hRh
 8]Vc2
 8ca1
 8dS2
-8eS{
+8iS{
 8oYSBkqnngo
 8pe7?
 8q-S*]X
@@ -38769,7 +38767,6 @@ $hRh
 :EXTERNAL TYPE %s\n
 :LBN
 :NAy
-:P95
 :QYJ
 :Vlq
 :\n5kKillEaterEventType_Brewmaster_KillsDuringPrimalSplit
@@ -39271,7 +39268,8 @@ $hRh
 @BH]f
 @BoneSetup
 @DebugIndividualStyle
-@HPXf
+@HPXf 
+@HVp
 @Integer overflow in %s
 @MarketDataUpdated
 @MfKZ
@@ -39335,6 +39333,7 @@ A9ur
 A<fP
 A>x8
 AA Compromise
+AA:P
 AABB
 AABBDirection
 AACompromise
@@ -40906,6 +40905,7 @@ B-409
 B-571
 B-Spline
 B.z\85p
+B0-E
 B2I_DSS
 B2I_RSA
 B2pr
@@ -62741,7 +62741,6 @@ LZWDecodeCompat: Not enough data at scanline %d (short %ld bytes)
 LZWDecodeCompat: Wrong length of decoded string: data probably corrupted at scanline %d
 LZWPreDecode
 LZWSetupEncode
-L\f0]8
 L\nHk_ECandyShopAuditAction_DEPRECATED_EventActionGrantInventorySizeIncrease
 L\n\fincludevotes
 L\n\rcontributions
@@ -66067,8 +66066,8 @@ P-224
 P-256
 P-384
 P-521
-P08@J
-P08J ^8
+P08@J 
+P08J0^8
 P08N
 P0WonMatch
 P1Avatar
@@ -66076,6 +66075,7 @@ P1WonMatch
 P1\t98"
 P2Avatar
 P2P ping to "%s". Timed out after %.2fms\n
+P2P?
 P5[1
 PAGN_4
 PAGrave
@@ -66957,6 +66957,7 @@ Pitch: %6.1f   Yaw: %6.1f %38s
 PivotPaint
 PixarLog
 PixelArtScaler
+PjP?
 PlaceDecalEvent_t
 PlaceStickersButton
 PlaceholderText
@@ -68422,7 +68423,6 @@ R\n\vpredictions
 R\r1>Vp
 R\tV_iswcntrl
 R\vp!y
-R\vpt
 R]Di
 R_T5Y
 Rad Guys
@@ -69630,7 +69630,6 @@ RowReward%d
 RowType%d
 RowValueLabel
 RowsPerStrip
-Rpu<
 Rq[R
 RrBoN
 RtIF
@@ -76306,6 +76305,7 @@ X\n\fSearchResult
 X\n\rkilling_blows
 X\n\tGraphData
 X\tQo
+X`hrP?
 Xd3h
 Xdota
 XfJ7
@@ -77134,8 +77134,6 @@ Z~wl
 \nLeagueID_t"
 \nLeagueID_t"9\n#CMsgDOTACompendiumSelectionResponse
 \nLeagueID_t"C\n-CMsgDOTACompendiumRemoveAllSelectionsResponse
-\nP95
-\nPVE
 \nPlayerID_t
 \nPlayerID_t"
 \nSimulating Entities:\n\n
@@ -77518,7 +77516,6 @@ Z~wl
 \n\nNAME_TAKEN
 \n\nNOT_LEADER
 \n\nOAuthToken
-\n\nP95
 \n\nPARTY_FULL
 \n\nPrediction
 \n\nROLL_STATS
@@ -80601,6 +80598,7 @@ a|gj(
 a|w9i
 b <= sizeof ctx->buf
 b <= sizeof ctx->final
+b0.E
 b0FCLlvCRJw
 b0M%
 b2i_PVK_bio
@@ -80647,7 +80645,6 @@ bMutedText
 bMutedVoice
 bN.l
 bOverheadEffect
-bP.E
 bPb:L7X)
 bReturnUnslowed
 bSellable
@@ -89188,10 +89185,11 @@ g|MT
 h&eC
 h*Ax
 h0XB
+h1E|
 h2Wl
 h2n_\
-h5G|
 h5N.
+h9G|
 hActivator
 hAttacker
 hCallbackFunc
@@ -89204,8 +89202,8 @@ hEntityA
 hEntityB
 hF\rDz
 hFcg
-hI4|
 hJxRX@_
+hM4|
 hN2D
 hRB.
 hRenderTexture != RENDER_TEXTURE_HANDLE_INVALID && m_image.IsValid()
@@ -89214,7 +89212,6 @@ hW*m
 hW1M
 hW_z
 hX@e
-hYH|
 h\n"unlocked_chat_wheel_message_ranges
 h\n"unlocked_ping_wheel_message_ranges
 h\n/k_EHeroSelectionText_AllDraft_Planning_YouFirst
@@ -89759,6 +89756,7 @@ hours_remaining
 houseIdentifier
 hover
 how_to_play
+hpz 
 hr_H
 href="
 hscroll
@@ -99710,8 +99708,9 @@ p.ppBasis
 p.prime
 p.tpBasis
 p08@H^
-p0J0qE
-p0j`(8
+p0J@qE
+p0jp(8
+p2P?
 p2p_ping could not convert "%s" to a CPeerToPeerAddress\n
 p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n
@@ -99725,7 +99724,8 @@ p4Z3
 p5Z3
 p5\nL,
 p618
-p6PU
+p6P\v
+p6`U
 p>?Set@Template@v8@@QEAAXV?$Local@VName@v8@@@2@V?$Local@VData@v8@@@2@W4PropertyAttribute@2@@Z
 p@0pqE5tsO?|1
 pCheckpointName
@@ -101423,6 +101423,7 @@ payload + padding <= 16381
 payment gateway capabilities
 payment_row_usd
 payment_us_usd
+pbP?
 pbeWithMD2AndDES-CBC
 pbeWithMD2AndRC2-CBC
 pbeWithMD5AndCast5CBC
@@ -101700,6 +101701,7 @@ pitchaxis
 pitchmax
 pitchmin
 pixelAspectRatio
+pjP?
 pkL'
 pkcs
 pkcs decoding error
@@ -102716,7 +102718,6 @@ qx(q
 r axis
 r$0I
 r-IE
-r0]8
 r184
 r1c1
 r1c2
@@ -103784,6 +103785,7 @@ rows_completed
 royal_jelly
 royal_jelly1
 royalblue
+rp-E
 rsa not implemented
 rsa operations not supported
 rsa routines

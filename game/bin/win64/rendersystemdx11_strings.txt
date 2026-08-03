@@ -307,7 +307,6 @@ $\tV_expd
 0123456789ABCDEFabcdef-+Xx
 0123456789ABCDEFabcdef-+XxPp
 2\nP!E
-2\vpx
 3|am
 5;FJ$,XEK4<
 7&F|If
@@ -480,15 +479,15 @@ CRenderContextDx11_SoftwareCommandLists::ForceFlushGPU(2494):
 CRenderContextDx11_SoftwareCommandLists::ResolveUsingShaders(2011):  failed to get ID3D11ShaderResourceView for source texture '%s', skipping.\n
 CRenderContextDx11_SoftwareCommandLists::ResolveUsingShaders(2028):  failed to get view for dest texture '%s', skipping.\n
 CRenderDeviceBase
-CRenderDeviceBase::AllocatePooledIndexBuffer(3638): 
-CRenderDeviceBase::AllocatePooledIndexBuffer(3665): 
-CRenderDeviceBase::AllocatePooledVertexBuffer(3825): 
-CRenderDeviceBase::AllocatePooledVertexBuffer(3847): 
-CRenderDeviceBase::AsyncSetTextureData(3266): 
-CRenderDeviceBase::BeginRenderingToSwapChain(3520): 
+CRenderDeviceBase::AllocatePooledIndexBuffer(3643): 
+CRenderDeviceBase::AllocatePooledIndexBuffer(3670): 
+CRenderDeviceBase::AllocatePooledVertexBuffer(3830): 
+CRenderDeviceBase::AllocatePooledVertexBuffer(3852): 
+CRenderDeviceBase::AsyncSetTextureData(3271): 
+CRenderDeviceBase::BeginRenderingToSwapChain(3525): 
 CRenderDeviceBase::CreateConstantBuffer(1573): 
 CRenderDeviceBase::CreateConstantBufferInternal
-CRenderDeviceBase::EndRenderDocCapture(3500): 
+CRenderDeviceBase::EndRenderDocCapture(3505): 
 CRenderDeviceBase::FindOrCreateTexture(1715): 
 CRenderDeviceBase::FindOrCreateTexture: Trying to load multiple mipmaps into 3d or array texture: %s\n
 CRenderDeviceBase::Flush(889): 
@@ -497,7 +496,7 @@ CRenderDeviceBase::FreeTextureGPUResources(2032):
 CRenderDeviceBase::FreeTextureGPUResources(2036): 
 CRenderDeviceBase::InitPerFrameMemoryStack
 CRenderDeviceBase::Present(601): 
-CRenderDeviceBase::StartRenderDocCapture(3487): 
+CRenderDeviceBase::StartRenderDocCapture(3492): 
 CRenderDeviceDx11::BeginSubmittingDisplayLists(1126): 
 CRenderDeviceDx11::CreateDefaultShaders::<lambda_1>::operator ()
 CRenderDeviceDx11::DeleteQueryObject(3794): 
@@ -1314,7 +1313,7 @@ RDEF|\t
 RENDERDOC_GetAPI
 RESOURCE_MANIPULATION
 RESOURCE_TYPE_TEXTURE
-R\vphl
+R\vpxl
 R_T5Y
 RawDataUniqueID
 RayReconstruction.Hint.Render.Preset.Balanced
@@ -1653,7 +1652,6 @@ ZIPVSetField
 [%Y-%m-%d %H:%M:%S] 
 [FlipDiscard |    NoTear]
 [FlipDiscard | AllowTear]
-\fpxS
 \mfpmp.exe
 \n*** %s "%s" in %s does not follow the 0..N format!\n\n
 \n*** %s "%s" in %s has max(%d) > 254!\n\n
@@ -1726,7 +1724,7 @@ ZIPVSetField
 \nGetVfxDll(93): ERROR! Can't load %s dll, automatic RenderDoc shader debug info not available.\n
 \nMS,\nVS_MS_RTX
 \nPS_RENDER_STATE
-\nPhl
+\nPxl
 \nRTX
 \r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \src\shaders\
@@ -1752,7 +1750,7 @@ ZIPVSetField
 \tg_TSPointerListNodes
 \tpSubResource[ array %d mip %d ]: pSysMem = %p sysMemPitch = %d SysMemSlicePitch = %d\n
 \tpTextureBitsData = %p\n
-\vphl
+\vpxl
 _DOD3D
 _INTC_CreateDeviceExtensionContext
 _INTC_D3D11_BeginUAVOverlap
@@ -1841,7 +1839,7 @@ _psrs
 _rtx
 _tools.txt
 _wjb
-`\rP\f0hl
+`\rP\f0xl
 `\tV_logd
 agsDeInitialize
 agsDriverExtensionsDX11_CreateDevice
@@ -2055,7 +2053,7 @@ psrs
 q!T9MiZ
 r1?1
 rP1`=RO
-r\fphl
+r\fpxl
 r_dilatedDepth
 r_dilated_motion_vectors
 r_dilated_reactive_masks

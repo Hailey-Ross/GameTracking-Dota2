@@ -432,7 +432,6 @@ $\tV_expd
 0x%x
 2\fu24*
 2\nP!E
-2\vpx
 58x\t
 5;FJ$,XEK4<
 5\fE545
@@ -647,15 +646,15 @@ CRenderContextVulkan_SoftwareCommandLists::CopyFromVolumeTexture failed to get r
 CRenderContextVulkan_SoftwareCommandLists::CopyTexture failed to get resource.\n
 CRenderContextVulkan_SoftwareCommandLists::SemaphoreWaitAtBegin - already set semaphore to wait on, can't set another one.\n
 CRenderDeviceBase
-CRenderDeviceBase::AllocatePooledIndexBuffer(3638): 
-CRenderDeviceBase::AllocatePooledIndexBuffer(3665): 
-CRenderDeviceBase::AllocatePooledVertexBuffer(3825): 
-CRenderDeviceBase::AllocatePooledVertexBuffer(3847): 
-CRenderDeviceBase::AsyncSetTextureData(3266): 
-CRenderDeviceBase::BeginRenderingToSwapChain(3520): 
+CRenderDeviceBase::AllocatePooledIndexBuffer(3643): 
+CRenderDeviceBase::AllocatePooledIndexBuffer(3670): 
+CRenderDeviceBase::AllocatePooledVertexBuffer(3830): 
+CRenderDeviceBase::AllocatePooledVertexBuffer(3852): 
+CRenderDeviceBase::AsyncSetTextureData(3271): 
+CRenderDeviceBase::BeginRenderingToSwapChain(3525): 
 CRenderDeviceBase::CreateConstantBuffer(1573): 
 CRenderDeviceBase::CreateConstantBufferInternal
-CRenderDeviceBase::EndRenderDocCapture(3500): 
+CRenderDeviceBase::EndRenderDocCapture(3505): 
 CRenderDeviceBase::FindOrCreateTexture(1715): 
 CRenderDeviceBase::FindOrCreateTexture: Trying to load multiple mipmaps into 3d or array texture: %s\n
 CRenderDeviceBase::Flush(889): 
@@ -664,7 +663,7 @@ CRenderDeviceBase::FreeTextureGPUResources(2032):
 CRenderDeviceBase::FreeTextureGPUResources(2036): 
 CRenderDeviceBase::InitPerFrameMemoryStack
 CRenderDeviceBase::Present(601): 
-CRenderDeviceBase::StartRenderDocCapture(3487): 
+CRenderDeviceBase::StartRenderDocCapture(3492): 
 CRenderDeviceVulkan::AllocateBufferInPool - invalid memory pool handle.\n
 CRenderDeviceVulkan::AllocateBufferInPool(9934): failed to allocate GPU memory in custom pool for %s.\n
 CRenderDeviceVulkan::AllocateBufferInPool(9989): vmaBindImageMemory failed for buffer %s with error %d.\n
@@ -1522,7 +1521,6 @@ RESOURCE_TYPE_TEXTURE
 RJqn
 RSDS&c{3
 RTX\n
-R\vpx
 R_T5Y
 Ran out of query slots.\n
 Rasterizer state is VK_POLYGON_MODE_LINE but VkPhysicalDeviceFeatures.fillModeNonSolid is not supported.  Forcing to VK_POLYGON_MODE_FILL.  May result in incorrect rendering.\n

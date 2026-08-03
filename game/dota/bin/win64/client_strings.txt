@@ -167,10 +167,9 @@
  (%lu = 0x%lx)\n
  (%u = 0x%x)\n
  (+%d more due to usercommand delivery)
- (08@HPX`jP?
- (08@HPXb 
- (08@HPZP?
- (0X`hpz 
+ (08@HPXb
+ (08@HR
+ (0X`hpz
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -8341,6 +8340,7 @@ $hRh
 *kf[R
 *laM-\SO
 *o\n\teRollType
+*p0E
 *v\n\vEPingSource
 + <font color="#ffd825">%d</font><panel class="CombatEventGoldIcon" /> 
 + Added %s Player[%d]: %s\n
@@ -8516,6 +8516,7 @@ $hRh
 ,#,/,5,9,A,W,Y,i,w,
 ,#DOTA_Hero_Selection_CaptainsMode_TheySelect
 ,(Optional) Visibility of the published file.
+,0hE
 ,3g4
 ,7~5d
 ,?IsUint32@Value@v8@@QEBA_NXZ
@@ -37341,9 +37342,7 @@ $hRh
 0234
 02V8[
 05=k
-08@HRP?
-08@J 
-08BP?
+08@J
 08bX
 09,h
 0:%02d
@@ -37930,6 +37929,7 @@ $hRh
 2@.CMsgClientToGCFantasyCraftingPerformOperationResponse.EResponse
 2@.CMsgClientToGCJoinPrivateCoachingSessionLobbyResponse.EResponse"
 2@.CMsgClientToGCMonsterHunterDevModifyHeroCodexResponse.EResponse"u\n\tEResponse
+2@b8
 2A.CMsgClientToGCGetCurrentPrivateCoachingSessionResponse.EResponse
 2Array of text tags to apply to the published file.
 2B.CMsgClientToGCFantasyCraftingSelectGlobalPrefixResponse.EResponse
@@ -37953,6 +37953,7 @@ $hRh
 2J.CMsgClientToGCMonsterHunterDevClaimInvestigationRewardsResponse.EResponse"u\n\tEResponse
 2K.CMsgClientToGCGetAvailablePrivateCoachingSessionsSummaryResponse.EResponse
 2L.CMsgClientToGCMonsterHunterRequestMaterialsNeededByFriendResponse.EResponse
+2Pk<
 2Set of published file Ids to retrieve details for.
 2Tm=#
 2Uiwp"9
@@ -38085,6 +38086,7 @@ $hRh
 2\r.ELeaguePhase
 2\rlhp
 2\vp!d
+2\vph
 2^pV
 2_bot
 2_mid
@@ -38098,7 +38100,6 @@ $hRh
 2nIg
 2ndry
 2p"6
-2p]C
 2prB
 3#DOTA_Hero_Selection_AllDraft_YouPicking_LosingGold
 3%3+3/353A3G3[3_3g3k3s3y3
@@ -38602,15 +38603,15 @@ $hRh
 80F2<
 82\n:XPH
 851Pe
+85A{
+85X|
 89 89 89
-89P{
 8<pl
 8= zp
 8@HPZ
-8@HPZP?
-8@JP?
+8@HPZ@
 8A6j
-8BP?
+8BPk<
 8Client ID for which to count the number of issued tokens"
 8GZS
 8Gets the list of nicknames this user has for other users
@@ -38678,11 +38679,11 @@ $hRh
 8]Vc2
 8ca1
 8dS2
-8iS{
 8oYSBkqnngo
 8pe7?
 8q-S*]X
 8sOy
+8uA|
 9#9%9)9/9=9A9M9[9k9y9}9
 9#DOTA_Hero_Selection_CaptainsMode_WaitingForChooseCaptain
 9)PF
@@ -38694,9 +38695,11 @@ $hRh
 9:dzGN
 9@Xp&
 9B2C1229
+9BB{
 9IGv
 9J9;6
 9N1=@
+9NZ|
 9QTA
 9Y@nJM
 9Zr4
@@ -39259,17 +39262,17 @@ $hRh
 ?uWS
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
-@08N
+@08Nt
 @0pp
 @333333)@R
+@40^C
 @888
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @@DOTABPFall2021Labyrinth
 @BH]f
 @BoneSetup
 @DebugIndividualStyle
-@HPXf 
-@HVp
+@HPXf
 @Integer overflow in %s
 @MarketDataUpdated
 @MfKZ
@@ -39333,7 +39336,6 @@ A9ur
 A<fP
 A>x8
 AA Compromise
-AA:P
 AABB
 AABBDirection
 AACompromise
@@ -40905,7 +40907,6 @@ B-409
 B-571
 B-Spline
 B.z\85p
-B0-E
 B2I_DSS
 B2I_RSA
 B2pr
@@ -66066,17 +66067,17 @@ P-224
 P-256
 P-384
 P-521
-P08@J 
-P08J0^8
-P08N
+P08@J
+P08Nt
 P0WonMatch
 P1Avatar
 P1WonMatch
 P1\t98"
 P2Avatar
 P2P ping to "%s". Timed out after %.2fms\n
-P2P?
+P40^C
 P5[1
+P6pV
 PAGN_4
 PAGrave
 PAIN: %2.2f\n
@@ -66824,6 +66825,7 @@ PersonalStatsBottomDisabled
 PersonalStatsTopDisabled
 Pet NPC Script Override:
 PetEffigy
+Pfp]
 PhaseCalculatingResults
 PhaseDisplayingCorrectAnswer
 PhaseDisplayingPartyAnswers
@@ -66957,7 +66959,6 @@ Pitch: %6.1f   Yaw: %6.1f %38s
 PivotPaint
 PixarLog
 PixelArtScaler
-PjP?
 PlaceDecalEvent_t
 PlaceStickersButton
 PlaceholderText
@@ -67280,6 +67281,7 @@ PlusTab
 PlusWaitingOnSelections
 Pm8A?
 PmR"H?
+Pnp^
 PodsShowPlayerPictures
 PodsVisible
 Point entity.
@@ -68415,6 +68417,7 @@ RTTIPredictionsUnlocked
 RTTISelected
 RTTIState
 RT_txt
+R\fph
 R\n\fActivityInfo
 R\n\fmap_variants
 R\n\fplayer_cards
@@ -76305,7 +76308,6 @@ X\n\fSearchResult
 X\n\rkilling_blows
 X\n\tGraphData
 X\tQo
-X`hrP?
 Xd3h
 Xdota
 XfJ7
@@ -76597,6 +76599,7 @@ Z~wl
 \fevents.proto
 \fevents.proto"
 \fiaR
+\fp\vP4
 \ful2
 \fy&3Gl
 \l:ArR
@@ -79216,6 +79219,7 @@ _xU`u
 _}eOk
 `28)fk
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
+`6PM
 `:zQF
 `D$daM-l
 `DZG
@@ -79230,6 +79234,7 @@ _}eOk
 `fPw.\vM
 `h9T~
 `o_je
+`r 1E
 `yNT
 a moment...
 a null shared library handle was used
@@ -79248,6 +79253,7 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
+aBvt
 aD/x
 aDSS
 aECDH
@@ -80598,7 +80604,6 @@ a|gj(
 a|w9i
 b <= sizeof ctx->buf
 b <= sizeof ctx->final
-b0.E
 b0FCLlvCRJw
 b0M%
 b2i_PVK_bio
@@ -80646,6 +80651,7 @@ bMutedVoice
 bN.l
 bOverheadEffect
 bPb:L7X)
+bPk<
 bReturnUnslowed
 bSellable
 bSh&+
@@ -89185,11 +89191,10 @@ g|MT
 h&eC
 h*Ax
 h0XB
-h1E|
 h2Wl
 h2n_\
 h5N.
-h9G|
+hAJ|
 hActivator
 hAttacker
 hCallbackFunc
@@ -89203,7 +89208,6 @@ hEntityB
 hF\rDz
 hFcg
 hJxRX@_
-hM4|
 hN2D
 hRB.
 hRenderTexture != RENDER_TEXTURE_HANDLE_INVALID && m_image.IsValid()
@@ -89686,6 +89690,7 @@ hmacWithSHA224
 hmacWithSHA256
 hmacWithSHA384
 hmacWithSHA512
+hmh{
 hnM<
 hoho
 hold
@@ -89756,7 +89761,6 @@ hours_remaining
 houseIdentifier
 hover
 how_to_play
-hpz 
 hr_H
 href="
 hscroll
@@ -89958,6 +89962,7 @@ iStackCount
 iSuccessCount
 iU[&l
 iVY2L
+i\fqj
 i\n\ttotalonly
 ia5org
 ia7@\t H9
@@ -99707,10 +99712,8 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^
-p0J@qE
-p0jp(8
-p2P?
+p08@H^t
+p2Pk<
 p2p_ping could not convert "%s" to a CPeerToPeerAddress\n
 p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n
@@ -99724,8 +99727,6 @@ p4Z3
 p5Z3
 p5\nL,
 p618
-p6P\v
-p6`U
 p>?Set@Template@v8@@QEAAXV?$Local@VName@v8@@@2@V?$Local@VData@v8@@@2@W4PropertyAttribute@2@@Z
 p@0pqE5tsO?|1
 pCheckpointName
@@ -99737,6 +99738,7 @@ pDest
 pDifficultyLevel != nullptr
 pEventName
 pFilter
+pFpa
 pG_*h
 pGameModeDef != nullptr
 pGameModeDefinition != nullptr
@@ -101423,7 +101425,6 @@ payload + padding <= 16381
 payment gateway capabilities
 payment_row_usd
 payment_us_usd
-pbP?
 pbeWithMD2AndDES-CBC
 pbeWithMD2AndRC2-CBC
 pbeWithMD5AndCast5CBC
@@ -101701,7 +101702,6 @@ pitchaxis
 pitchmax
 pitchmin
 pixelAspectRatio
-pjP?
 pkL'
 pkcs
 pkcs decoding error
@@ -102734,6 +102734,7 @@ r3c3
 r3c4
 r<\rND
 r>RGBA8888
+r@b8
 rAGW
 rB2pBB
 rC3rp
@@ -102752,6 +102753,7 @@ r\n4k_EHeroSelectionText_AllDraft_TheyPicking_LosingGold
 r\n\nHuntReward
 r\n\vstart_index
 r\vDi
+r\vph
 r_cleardecals
 r_deferred_additive_pass 1
 r_deferred_height_fog 1
@@ -103785,7 +103787,6 @@ rows_completed
 royal_jelly
 royal_jelly1
 royalblue
-rp-E
 rsa not implemented
 rsa operations not supported
 rsa routines

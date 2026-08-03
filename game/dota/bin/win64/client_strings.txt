@@ -8340,7 +8340,6 @@ $hRh
 *kf[R
 *laM-\SO
 *o\n\teRollType
-*p0E
 *v\n\vEPingSource
 + <font color="#ffd825">%d</font><panel class="CombatEventGoldIcon" /> 
 + Added %s Player[%d]: %s\n
@@ -8516,7 +8515,6 @@ $hRh
 ,#,/,5,9,A,W,Y,i,w,
 ,#DOTA_Hero_Selection_CaptainsMode_TheySelect
 ,(Optional) Visibility of the published file.
-,0hE
 ,3g4
 ,7~5d
 ,?IsUint32@Value@v8@@QEBA_NXZ
@@ -8650,6 +8648,7 @@ $hRh
 ,l0a
 ,name:
 ,oYR
+,p2E
 ,section=
 ,steammessages_steamlearn.steamworkssdk.proto"
 ,steammessages_steamlearn.steamworkssdk.proto"b\n
@@ -37638,6 +37637,7 @@ $hRh
 1}oP
 2 .CMsgBattleReport_CompareContext"
 2 .CMsgGCRoutingInfo.RoutingMethod:
+2 a8
 2 arguments expected: %s <map name> <override map name>\n
 2!.CMsgAddSocketResponse.EAddSocket"
 2!.CMsgBattleReport_HighlightRarity
@@ -37929,7 +37929,6 @@ $hRh
 2@.CMsgClientToGCFantasyCraftingPerformOperationResponse.EResponse
 2@.CMsgClientToGCJoinPrivateCoachingSessionLobbyResponse.EResponse"
 2@.CMsgClientToGCMonsterHunterDevModifyHeroCodexResponse.EResponse"u\n\tEResponse
-2@b8
 2A.CMsgClientToGCGetCurrentPrivateCoachingSessionResponse.EResponse
 2Array of text tags to apply to the published file.
 2B.CMsgClientToGCFantasyCraftingSelectGlobalPrefixResponse.EResponse
@@ -37953,7 +37952,7 @@ $hRh
 2J.CMsgClientToGCMonsterHunterDevClaimInvestigationRewardsResponse.EResponse"u\n\tEResponse
 2K.CMsgClientToGCGetAvailablePrivateCoachingSessionsSummaryResponse.EResponse
 2L.CMsgClientToGCMonsterHunterRequestMaterialsNeededByFriendResponse.EResponse
-2Pk<
+2PaC
 2Set of published file Ids to retrieve details for.
 2Tm=#
 2Uiwp"9
@@ -38086,7 +38085,8 @@ $hRh
 2\r.ELeaguePhase
 2\rlhp
 2\vp!d
-2\vph
+2\vpd
+2\vpl
 2^pV
 2_bot
 2_mid
@@ -38601,17 +38601,15 @@ $hRh
 8&Kx
 8+Qw
 80F2<
+81A{
+81X|
 82\n:XPH
 851Pe
-85A{
-85X|
 89 89 89
 8<pl
 8= zp
 8@HPZ
-8@HPZ@
 8A6j
-8BPk<
 8Client ID for which to count the number of issued tokens"
 8GZS
 8Gets the list of nicknames this user has for other users
@@ -38682,8 +38680,9 @@ $hRh
 8oYSBkqnngo
 8pe7?
 8q-S*]X
+8qA|
 8sOy
-8uA|
+8yX|
 9#9%9)9/9=9A9M9[9k9y9}9
 9#DOTA_Hero_Selection_CaptainsMode_WaitingForChooseCaptain
 9)PF
@@ -38695,11 +38694,10 @@ $hRh
 9:dzGN
 9@Xp&
 9B2C1229
-9BB{
 9IGv
 9J9;6
+9JZ|
 9N1=@
-9NZ|
 9QTA
 9Y@nJM
 9Zr4
@@ -39262,10 +39260,9 @@ $hRh
 ?uWS
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
-@08Nt
+@08N
 @0pp
 @333333)@R
-@40^C
 @888
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @@DOTABPFall2021Labyrinth
@@ -39273,6 +39270,7 @@ $hRh
 @BoneSetup
 @DebugIndividualStyle
 @HPXf
+@HVP
 @Integer overflow in %s
 @MarketDataUpdated
 @MfKZ
@@ -39302,6 +39300,7 @@ $hRh
 @\n\venum_result
 @dKb]
 @fff>fff>fff>fff>
+@htp
 @i1V
 @keyframes 
 @keyframes '%s'\r\n{\r\n
@@ -39336,6 +39335,7 @@ A9ur
 A<fP
 A>x8
 AA Compromise
+AA:0
 AABB
 AABBDirection
 AACompromise
@@ -62742,6 +62742,7 @@ LZWDecodeCompat: Not enough data at scanline %d (short %ld bytes)
 LZWDecodeCompat: Wrong length of decoded string: data probably corrupted at scanline %d
 LZWPreDecode
 LZWSetupEncode
+L\f a8
 L\nHk_ECandyShopAuditAction_DEPRECATED_EventActionGrantInventorySizeIncrease
 L\n\fincludevotes
 L\n\rcontributions
@@ -66068,16 +66069,14 @@ P-256
 P-384
 P-521
 P08@J
-P08Nt
+P08N
 P0WonMatch
 P1Avatar
 P1WonMatch
 P1\t98"
 P2Avatar
 P2P ping to "%s". Timed out after %.2fms\n
-P40^C
 P5[1
-P6pV
 PAGN_4
 PAGrave
 PAIN: %2.2f\n
@@ -66825,7 +66824,6 @@ PersonalStatsBottomDisabled
 PersonalStatsTopDisabled
 Pet NPC Script Override:
 PetEffigy
-Pfp]
 PhaseCalculatingResults
 PhaseDisplayingCorrectAnswer
 PhaseDisplayingPartyAnswers
@@ -67281,7 +67279,6 @@ PlusTab
 PlusWaitingOnSelections
 Pm8A?
 PmR"H?
-Pnp^
 PodsShowPlayerPictures
 PodsVisible
 Point entity.
@@ -68417,7 +68414,6 @@ RTTIPredictionsUnlocked
 RTTISelected
 RTTIState
 RT_txt
-R\fph
 R\n\fActivityInfo
 R\n\fmap_variants
 R\n\fplayer_cards
@@ -68426,6 +68422,8 @@ R\n\vpredictions
 R\r1>Vp
 R\tV_iswcntrl
 R\vp!y
+R\vpd
+R\vpl
 R]Di
 R_T5Y
 Rad Guys
@@ -76599,7 +76597,7 @@ Z~wl
 \fevents.proto
 \fevents.proto"
 \fiaR
-\fp\vP4
+\fp4B
 \ful2
 \fy&3Gl
 \l:ArR
@@ -77020,6 +77018,7 @@ Z~wl
 \n/CMsgClientToGCSubmitCoachTeammateRatingResponse
 \n/CMsgDOTATeamInvite_GCImmediateResponseToInviter
 \n/steammessages_publishedfile.steamworkssdk.proto
+\n01E
 \n0CMsgClientToGCMonsterHunterGiftMaterialsResponse
 \n0CMsgClientToGCOverworldDevClearInventoryResponse
 \n0CMsgClientToGCPlayerCardSpecificPurchaseResponse
@@ -79219,7 +79218,6 @@ _xU`u
 _}eOk
 `28)fk
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
-`6PM
 `:zQF
 `D$daM-l
 `DZG
@@ -79234,7 +79232,7 @@ _}eOk
 `fPw.\vM
 `h9T~
 `o_je
-`r 1E
+`rp1E
 `yNT
 a moment...
 a null shared library handle was used
@@ -79253,7 +79251,6 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBvt
 aD/x
 aDSS
 aECDH
@@ -80609,6 +80606,7 @@ b0M%
 b2i_PVK_bio
 b5o-
 b=G3
+b@2E
 bAddToGroup
 bAlert
 bAlertable
@@ -80651,7 +80649,6 @@ bMutedVoice
 bN.l
 bOverheadEffect
 bPb:L7X)
-bPk<
 bReturnUnslowed
 bSellable
 bSh&+
@@ -89194,7 +89191,6 @@ h0XB
 h2Wl
 h2n_\
 h5N.
-hAJ|
 hActivator
 hAttacker
 hCallbackFunc
@@ -89646,6 +89642,7 @@ highlight_tier
 highlight_uni_fx
 highlight_value
 highqualityshadows
+hih{
 hill_troll_rally
 hint_name
 history_state
@@ -89690,7 +89687,6 @@ hmacWithSHA224
 hmacWithSHA256
 hmacWithSHA384
 hmacWithSHA512
-hmh{
 hnM<
 hoho
 hold
@@ -89962,7 +89958,6 @@ iStackCount
 iSuccessCount
 iU[&l
 iVY2L
-i\fqj
 i\n\ttotalonly
 ia5org
 ia7@\t H9
@@ -99712,8 +99707,9 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^t
-p2Pk<
+p08@H^
+p0J uE
+p0jP,8
 p2p_ping could not convert "%s" to a CPeerToPeerAddress\n
 p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n
@@ -99727,6 +99723,7 @@ p4Z3
 p5Z3
 p5\nL,
 p618
+p6@Y
 p>?Set@Template@v8@@QEAAXV?$Local@VName@v8@@@2@V?$Local@VData@v8@@@2@W4PropertyAttribute@2@@Z
 p@0pqE5tsO?|1
 pCheckpointName
@@ -99738,7 +99735,6 @@ pDest
 pDifficultyLevel != nullptr
 pEventName
 pFilter
-pFpa
 pG_*h
 pGameModeDef != nullptr
 pGameModeDefinition != nullptr
@@ -102715,6 +102711,7 @@ quiet
 quill_base_damage
 quill_stack_damage
 qx(q
+r a8
 r axis
 r$0I
 r-IE
@@ -102734,7 +102731,6 @@ r3c3
 r3c4
 r<\rND
 r>RGBA8888
-r@b8
 rAGW
 rB2pBB
 rC3rp
@@ -102745,6 +102741,7 @@ rFur`7\t
 rIwdzZiHJbg
 rL[i+
 rOtk
+rP1E
 rRfKR
 rX&O0
 rZ1VwGf5
@@ -102753,7 +102750,6 @@ r\n4k_EHeroSelectionText_AllDraft_TheyPicking_LosingGold
 r\n\nHuntReward
 r\n\vstart_index
 r\vDi
-r\vph
 r_cleardecals
 r_deferred_additive_pass 1
 r_deferred_height_fog 1

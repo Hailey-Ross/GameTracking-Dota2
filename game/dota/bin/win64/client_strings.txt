@@ -167,9 +167,12 @@
  (%lu = 0x%lx)\n
  (%u = 0x%x)\n
  (+%d more due to usercommand delivery)
- (08@HPXb
- (08@HR
- (0X`hpz
+ (08@HPX`jp@
+ (08@HPXbP
+ (08@HPZp@
+ (08@HRP
+ (08@JP
+ (0X`hpzP
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -266,6 +269,7 @@
  \n\voriginal_id
  \n\vplayer_hero
  \n\vtranslation
+ \npb8
  \t\n\r@()[]{}=&,:*|;'!
  ^LXjt
  _GDK\tZ
@@ -4704,14 +4708,6 @@
 #Dota_Score2025_FantasyPlacement_99
 #Dota_Score2025_FantasyPlacement_999
 #Dota_Score2025_FantasyPlacement_EveryoneElse
-#Dota_Score2026_FantasyPlacement_25
-#Dota_Score2026_FantasyPlacement_50
-#Dota_Score2026_FantasyPlacement_75
-#Dota_Score2026_FantasyPlacement_90
-#Dota_Score2026_FantasyPlacement_95
-#Dota_Score2026_FantasyPlacement_99
-#Dota_Score2026_FantasyPlacement_999
-#Dota_Score2026_FantasyPlacement_EveryoneElse
 #Econ_Additional_Crate_Drop
 #Econ_Color
 #Econ_Crate_Locks_Remaining
@@ -8520,6 +8516,7 @@ $hRh
 ,?IsUint32@Value@v8@@QEBA_NXZ
 ,ARu@y6
 ,I?Value@Number@v8@@QEBANXZ
+,Pc8
 ,Reason=
 ,Service for dealing with user-submitted logsB
 ,ShfPQ
@@ -8648,7 +8645,6 @@ $hRh
 ,l0a
 ,name:
 ,oYR
-,p2E
 ,section=
 ,steammessages_steamlearn.steamworkssdk.proto"
 ,steammessages_steamlearn.steamworkssdk.proto"b\n
@@ -37341,7 +37337,9 @@ $hRh
 0234
 02V8[
 05=k
-08@J
+08@HRp@
+08@JP
+08Bp@
 08bX
 09,h
 0:%02d
@@ -37637,7 +37635,6 @@ $hRh
 1}oP
 2 .CMsgBattleReport_CompareContext"
 2 .CMsgGCRoutingInfo.RoutingMethod:
-2 a8
 2 arguments expected: %s <map name> <override map name>\n
 2!.CMsgAddSocketResponse.EAddSocket"
 2!.CMsgBattleReport_HighlightRarity
@@ -37760,6 +37757,7 @@ $hRh
 2013-01-01
 2022_diretide_collectors_cache
 2025_cta_collectors_cache_voting
+20i<
 20t\f
 20x9
 21.CMsgClientToGCBingoGetUserDataResponse.EResponse
@@ -37952,7 +37950,8 @@ $hRh
 2J.CMsgClientToGCMonsterHunterDevClaimInvestigationRewardsResponse.EResponse"u\n\tEResponse
 2K.CMsgClientToGCGetAvailablePrivateCoachingSessionsSummaryResponse.EResponse
 2L.CMsgClientToGCMonsterHunterRequestMaterialsNeededByFriendResponse.EResponse
-2PaC
+2Pl<
+2Pv<
 2Set of published file Ids to retrieve details for.
 2Tm=#
 2Uiwp"9
@@ -38085,8 +38084,6 @@ $hRh
 2\r.ELeaguePhase
 2\rlhp
 2\vp!d
-2\vpd
-2\vpl
 2^pV
 2_bot
 2_mid
@@ -38100,6 +38097,7 @@ $hRh
 2nIg
 2ndry
 2p"6
+2pb8
 2prB
 3#DOTA_Hero_Selection_AllDraft_YouPicking_LosingGold
 3%3+3/353A3G3[3_3g3k3s3y3
@@ -38601,15 +38599,18 @@ $hRh
 8&Kx
 8+Qw
 80F2<
-81A{
-81X|
+81W|
 82\n:XPH
 851Pe
 89 89 89
 8<pl
 8= zp
 8@HPZ
+8@HPZp@
+8@Jp@
 8A6j
+8B #B
+8Bp@
 8Client ID for which to count the number of issued tokens"
 8GZS
 8Gets the list of nicknames this user has for other users
@@ -38619,6 +38620,7 @@ $hRh
 8SIffK5W
 8TZvrv<
 8TopArrow
+8UB|
 8\n0series_current_selection_priority_used_coin_toss
 8\n0ultimate_scepter_consumed_alchemist_bonus_health
 8\n3kKillEaterEventType_Broodmother_SpiderlingHeroKills
@@ -38677,12 +38679,11 @@ $hRh
 8]Vc2
 8ca1
 8dS2
+8eT{
 8oYSBkqnngo
 8pe7?
 8q-S*]X
-8qA|
 8sOy
-8yX|
 9#9%9)9/9=9A9M9[9k9y9}9
 9#DOTA_Hero_Selection_CaptainsMode_WaitingForChooseCaptain
 9)PF
@@ -38696,9 +38697,10 @@ $hRh
 9B2C1229
 9IGv
 9J9;6
-9JZ|
 9N1=@
+9NB{
 9QTA
+9RZ|
 9Y@nJM
 9Zr4
 9\n4kKillEaterEventType_Magnus_HeroesSlowedWithShockwave
@@ -38815,6 +38817,7 @@ $hRh
 :eaI
 :gN(dq
 :mIR
+:pb8
 :w4v
 ;!;#;-;9;E;S;Y;_;q;{;
 ;"lY7
@@ -39176,7 +39179,7 @@ $hRh
 >\vMax Healing
 >fN46R^
 >l\rur
->m_eLiveSpectatorTeam
+>m_unCoachRating
 >p00<
 >yhP
 >ztq
@@ -39269,8 +39272,8 @@ $hRh
 @BH]f
 @BoneSetup
 @DebugIndividualStyle
-@HPXf
-@HVP
+@HPX`hv0
+@HPXfP
 @Integer overflow in %s
 @MarketDataUpdated
 @MfKZ
@@ -39300,7 +39303,6 @@ $hRh
 @\n\venum_result
 @dKb]
 @fff>fff>fff>fff>
-@htp
 @i1V
 @keyframes 
 @keyframes '%s'\r\n{\r\n
@@ -39335,7 +39337,6 @@ A9ur
 A<fP
 A>x8
 AA Compromise
-AA:0
 AABB
 AABBDirection
 AACompromise
@@ -40907,6 +40908,7 @@ B-409
 B-571
 B-Spline
 B.z\85p
+B0u<
 B2I_DSS
 B2I_RSA
 B2pr
@@ -40917,6 +40919,7 @@ B64_WRITE_PKCS7
 B8Z"h
 B9mXw8Voch0
 B>J7I
+B@2E
 BAD ENUMERATED
 BAD INTEGER
 BAD RECURSION DEPTH\n
@@ -41110,6 +41113,7 @@ B\vP\n0
 B\vp\n0
 B\vp\nP
 B_txt
+B`2E
 B`4I
 Background
 Background Image
@@ -47187,11 +47191,13 @@ ClearJS
 ClearMapResults
 ClearMarkForBuy
 ClearModellistOverride
+ClearOwnedTeam
 ClearPanelEvent
 ClearPreviousHeroKilledMask
 ClearPropertyFromCode
 ClearScene
 ClearSelection
+ClearTeam
 ClearWorldDecalsEvent_t
 Cleared loaded pages.
 Clearing old .sav file %s\n
@@ -62742,7 +62748,7 @@ LZWDecodeCompat: Not enough data at scanline %d (short %ld bytes)
 LZWDecodeCompat: Wrong length of decoded string: data probably corrupted at scanline %d
 LZWPreDecode
 LZWSetupEncode
-L\f a8
+L\fpb8
 L\nHk_ECandyShopAuditAction_DEPRECATED_EventActionGrantInventorySizeIncrease
 L\n\fincludevotes
 L\n\rcontributions
@@ -66068,7 +66074,8 @@ P-224
 P-256
 P-384
 P-521
-P08@J
+P08@JP
+P08J`c8
 P08N
 P0WonMatch
 P1Avatar
@@ -66076,6 +66083,7 @@ P1WonMatch
 P1\t98"
 P2Avatar
 P2P ping to "%s". Timed out after %.2fms\n
+P2p@
 P5[1
 PAGN_4
 PAGrave
@@ -66098,6 +66106,7 @@ PARTY_MEMBER_IN_ANOTHER_GAME
 PARTY_MEMBER_IN_LOW_PRIORITY
 PASSABLE
 PATHBYADDR
+PAmodifier_alpha_wolf_critical_strike
 PBE-MD2-DES
 PBE-MD2-RC2-64
 PBE-MD5-DES
@@ -66957,6 +66966,7 @@ Pitch: %6.1f   Yaw: %6.1f %38s
 PivotPaint
 PixarLog
 PixelArtScaler
+Pjp@
 PlaceDecalEvent_t
 PlaceStickersButton
 PlaceholderText
@@ -68422,8 +68432,7 @@ R\n\vpredictions
 R\r1>Vp
 R\tV_iswcntrl
 R\vp!y
-R\vpd
-R\vpl
+R\vp4
 R]Di
 R_T5Y
 Rad Guys
@@ -76306,6 +76315,7 @@ X\n\fSearchResult
 X\n\rkilling_blows
 X\n\tGraphData
 X\tQo
+X`hrp@
 Xd3h
 Xdota
 XfJ7
@@ -76589,6 +76599,7 @@ Z~wl
 \fBlessingID_t
 \fCEntityIndex"
 \fKS1
+\fPc8
 \fW9c
 \fXu"L
 \f\tV_acosd
@@ -76597,7 +76608,6 @@ Z~wl
 \fevents.proto
 \fevents.proto"
 \fiaR
-\fp4B
 \ful2
 \fy&3Gl
 \l:ArR
@@ -77018,7 +77028,6 @@ Z~wl
 \n/CMsgClientToGCSubmitCoachTeammateRatingResponse
 \n/CMsgDOTATeamInvite_GCImmediateResponseToInviter
 \n/steammessages_publishedfile.steamworkssdk.proto
-\n01E
 \n0CMsgClientToGCMonsterHunterGiftMaterialsResponse
 \n0CMsgClientToGCOverworldDevClearInventoryResponse
 \n0CMsgClientToGCPlayerCardSpecificPurchaseResponse
@@ -77029,6 +77038,7 @@ Z~wl
 \n0CMsgGCToClientPurchaseFilteredPlayerSlotResponse
 \n0CMsgGCToClientRequestActiveBeaconPartiesResponse
 \n0CMsgGCtoGCAssociatedExploiterAccountInfoResponse
+\n0uE
 \n1CDOTAClientMsg_AbilitySpecificChannelRequiresHalt
 \n1CDOTAUserMsg_MonsterHunter_InvestigationGameState
 \n1CHelpRequestLogs_UploadUserApplicationLog_Request
@@ -78672,6 +78682,7 @@ Z~wl
 \n\vzoom_amount
 \ng_flConfigMaxCoord
 \ngrant_periodic_action '%s' doesn't specify an action to grant
+\npb8
 \nqYu
 \ntM(ie-V
 \nunit1: %s \nunit2: %s \nevent: %s \npriority: %d\n
@@ -78737,7 +78748,7 @@ Z~wl
 \r^mX
 \ri1I
 \rjwB\t
-\rm_gameModeID
+\rm_sLayout
 \roKK
 \rrCj
 \rstyle_index_t
@@ -79216,7 +79227,9 @@ _video
 _wjb
 _xU`u
 _}eOk
+`20i<
 `28)fk
+`2Pl<
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
 `:zQF
 `D$daM-l
@@ -79232,7 +79245,6 @@ _}eOk
 `fPw.\vM
 `h9T~
 `o_je
-`rp1E
 `yNT
 a moment...
 a null shared library handle was used
@@ -80606,7 +80618,6 @@ b0M%
 b2i_PVK_bio
 b5o-
 b=G3
-b@2E
 bAddToGroup
 bAlert
 bAlertable
@@ -80675,6 +80686,7 @@ b\tV_longjmp
 b\vP\n0
 b\vp\n0
 b]jY
+b`3E
 backdoor_protection
 backdoor_protection_in_base
 backend_response
@@ -89642,7 +89654,6 @@ highlight_tier
 highlight_uni_fx
 highlight_value
 highqualityshadows
-hih{
 hill_troll_rally
 hint_name
 history_state
@@ -89757,6 +89768,7 @@ hours_remaining
 houseIdentifier
 hover
 how_to_play
+hpzP
 hr_H
 href="
 hscroll
@@ -94620,7 +94632,6 @@ modifier_alchemist_self_corrosive_weaponry
 modifier_alchemist_unstable_concoction
 modifier_alpha_wolf_command_aura
 modifier_alpha_wolf_command_aura_bonus
-modifier_alpha_wolf_critical_strike
 modifier_ancient_apparition_bone_chill
 modifier_ancient_apparition_bone_chill_debuff
 modifier_ancient_apparition_death_rime
@@ -99708,8 +99719,8 @@ p.ppBasis
 p.prime
 p.tpBasis
 p08@H^
-p0J uE
-p0jP,8
+p0JpvE
+p2p@
 p2p_ping could not convert "%s" to a CPeerToPeerAddress\n
 p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n
@@ -99723,7 +99734,6 @@ p4Z3
 p5Z3
 p5\nL,
 p618
-p6@Y
 p>?Set@Template@v8@@QEAAXV?$Local@VName@v8@@@2@V?$Local@VData@v8@@@2@W4PropertyAttribute@2@@Z
 p@0pqE5tsO?|1
 pCheckpointName
@@ -101434,6 +101444,7 @@ pbeWithSHA1And40BitRC2-CBC
 pbeWithSHA1And40BitRC4
 pbeWithSHA1AndDES-CBC
 pbeWithSHA1AndRC2-CBC
+pbp@
 pcPathLengthConstraint
 pchSteamID
 peachpuff
@@ -101698,6 +101709,7 @@ pitchaxis
 pitchmax
 pitchmin
 pixelAspectRatio
+pjp@
 pkL'
 pkcs
 pkcs decoding error
@@ -102711,7 +102723,6 @@ quiet
 quill_base_damage
 quill_stack_damage
 qx(q
-r a8
 r axis
 r$0I
 r-IE
@@ -102741,11 +102752,11 @@ rFur`7\t
 rIwdzZiHJbg
 rL[i+
 rOtk
-rP1E
 rRfKR
 rX&O0
 rZ1VwGf5
 rZPM
+r\fp4
 r\n4k_EHeroSelectionText_AllDraft_TheyPicking_LosingGold
 r\n\nHuntReward
 r\n\vstart_index
@@ -103783,6 +103794,7 @@ rows_completed
 royal_jelly
 royal_jelly1
 royalblue
+rpb8
 rsa not implemented
 rsa operations not supported
 rsa routines
@@ -103833,6 +103845,7 @@ rt_identity_linked
 rtime32_gc_welcome_timestamp
 rtime_oldest_date
 rtime_vacban_starts
+rtti_percentile_string
 rubick_arcana
 rubick_arcana_follower
 rubick_arcana_green_spell_enabled
@@ -107791,6 +107804,7 @@ ti10_event_game_num_games_played
 ti11
 ti9_collectors_cache_voting
 ti_loading_screen
+ti_percentile_string
 ti_podseats
 ti_win_year
 ti_winners

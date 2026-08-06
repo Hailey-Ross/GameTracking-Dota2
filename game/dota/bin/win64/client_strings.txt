@@ -167,12 +167,9 @@
  (%lu = 0x%lx)\n
  (%u = 0x%x)\n
  (+%d more due to usercommand delivery)
- (08@HPX`jp@
- (08@HPXbP
- (08@HPZp@
- (08@HRP
- (08@JP
- (0X`hpzP
+ (08@HPXb
+ (08@HR
+ (0X`hpz
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -269,7 +266,6 @@
  \n\voriginal_id
  \n\vplayer_hero
  \n\vtranslation
- \npb8
  \t\n\r@()[]{}=&,:*|;'!
  ^LXjt
  _GDK\tZ
@@ -5596,7 +5592,6 @@
 #y"jl
 $$AG2Event::%s
 $$FakeOutput::AE_PULSE_GRAPH
-$$ums
 $)$=$A$C$M$_$g$k$y$}$
 $.CCloud_GetUploadServerInfo_Response":
 $.CPlayer_GetGameBadgeLevels_Response"U
@@ -7069,6 +7064,7 @@ $hRh
 (0'yX
 (0.1s interval)
 (0x%08X)'??'
+(2P&B
 (5Me
 (5jP
 (?333?DOTADiretide2020ToggleItemEquipped
@@ -8516,7 +8512,6 @@ $hRh
 ,?IsUint32@Value@v8@@QEBA_NXZ
 ,ARu@y6
 ,I?Value@Number@v8@@QEBANXZ
-,Pc8
 ,Reason=
 ,Service for dealing with user-submitted logsB
 ,ShfPQ
@@ -8645,6 +8640,7 @@ $hRh
 ,l0a
 ,name:
 ,oYR
+,pxD
 ,section=
 ,steammessages_steamlearn.steamworkssdk.proto"
 ,steammessages_steamlearn.steamworkssdk.proto"b\n
@@ -14532,6 +14528,7 @@ $hRh
 .?AV?$CModifierFactory@VCDOTA_Modifier_Silence@@@@
 .?AV?$CModifierFactory@VCDOTA_Modifier_Silencer_BlabberMouth@@@@
 .?AV?$CModifierFactory@VCDOTA_Modifier_Silencer_BrainDrain@@@@
+.?AV?$CModifierFactory@VCDOTA_Modifier_Silencer_BrainDrain_Permanent_Debuff@@@@
 .?AV?$CModifierFactory@VCDOTA_Modifier_Silencer_CurseOfTheSilent@@@@
 .?AV?$CModifierFactory@VCDOTA_Modifier_Silencer_CurseOfTheSilent_Intrinsic@@@@
 .?AV?$CModifierFactory@VCDOTA_Modifier_Silencer_GlaivesOfWisdom@@@@
@@ -27429,6 +27426,7 @@ $hRh
 .?AVCDOTA_Modifier_Silence@@
 .?AVCDOTA_Modifier_Silencer_BlabberMouth@@
 .?AVCDOTA_Modifier_Silencer_BrainDrain@@
+.?AVCDOTA_Modifier_Silencer_BrainDrain_Permanent_Debuff@@
 .?AVCDOTA_Modifier_Silencer_CurseOfTheSilent@@
 .?AVCDOTA_Modifier_Silencer_CurseOfTheSilent_Intrinsic@@
 .?AVCDOTA_Modifier_Silencer_GlaivesOfWisdom@@
@@ -37337,12 +37335,11 @@ $hRh
 0234
 02V8[
 05=k
-08@HRp@
-08@JP
-08Bp@
+08@J
 08bX
 09,h
 0:%02d
+0:P&B
 0;Q5[
 0<cz
 0M2~@p
@@ -37757,7 +37754,6 @@ $hRh
 2013-01-01
 2022_diretide_collectors_cache
 2025_cta_collectors_cache_voting
-20i<
 20t\f
 20x9
 21.CMsgClientToGCBingoGetUserDataResponse.EResponse
@@ -37950,8 +37946,7 @@ $hRh
 2J.CMsgClientToGCMonsterHunterDevClaimInvestigationRewardsResponse.EResponse"u\n\tEResponse
 2K.CMsgClientToGCGetAvailablePrivateCoachingSessionsSummaryResponse.EResponse
 2L.CMsgClientToGCMonsterHunterRequestMaterialsNeededByFriendResponse.EResponse
-2Pl<
-2Pv<
+2P&B
 2Set of published file Ids to retrieve details for.
 2Tm=#
 2Uiwp"9
@@ -38084,6 +38079,7 @@ $hRh
 2\r.ELeaguePhase
 2\rlhp
 2\vp!d
+2\vp8
 2^pV
 2_bot
 2_mid
@@ -38097,7 +38093,7 @@ $hRh
 2nIg
 2ndry
 2p"6
-2pb8
+2pm<
 2prB
 3#DOTA_Hero_Selection_AllDraft_YouPicking_LosingGold
 3%3+3/353A3G3[3_3g3k3s3y3
@@ -38233,6 +38229,7 @@ $hRh
 4(Optional) Sorting method to use on returned values.
 4)#bH
 4)m1
+4+$pms
 4.CPlayer_GetMutualFriendsForIncomingInvites_Response"^
 40 40 40 196
 400.0 -400.0 -50.0
@@ -38243,6 +38240,7 @@ $hRh
 4Ch;
 4F0I
 4Mv8
+4P&B
 4Redirection URI provided during client registration.2
 4Zis
 4\fPl
@@ -38599,18 +38597,15 @@ $hRh
 8&Kx
 8+Qw
 80F2<
-81W|
 82\n:XPH
 851Pe
 89 89 89
 8<pl
 8= zp
 8@HPZ
-8@HPZp@
-8@Jp@
 8A6j
-8B #B
-8Bp@
+8B p<
+8BP&B
 8Client ID for which to count the number of issued tokens"
 8GZS
 8Gets the list of nicknames this user has for other users
@@ -38620,7 +38615,6 @@ $hRh
 8SIffK5W
 8TZvrv<
 8TopArrow
-8UB|
 8\n0series_current_selection_priority_used_coin_toss
 8\n0ultimate_scepter_consumed_alchemist_bonus_health
 8\n3kKillEaterEventType_Broodmother_SpiderlingHeroKills
@@ -38679,7 +38673,8 @@ $hRh
 8]Vc2
 8ca1
 8dS2
-8eT{
+8eC|
+8mZ|
 8oYSBkqnngo
 8pe7?
 8q-S*]X
@@ -38689,6 +38684,7 @@ $hRh
 9)PF
 9)jx
 9*VU
+92D{
 95\r9{
 969p
 9966
@@ -38698,9 +38694,7 @@ $hRh
 9IGv
 9J9;6
 9N1=@
-9NB{
 9QTA
-9RZ|
 9Y@nJM
 9Zr4
 9\n4kKillEaterEventType_Magnus_HeroesSlowedWithShockwave
@@ -38817,7 +38811,6 @@ $hRh
 :eaI
 :gN(dq
 :mIR
-:pb8
 :w4v
 ;!;#;-;9;E;S;Y;_;q;{;
 ;"lY7
@@ -39263,7 +39256,7 @@ $hRh
 ?uWS
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
-@08N
+@08ND
 @0pp
 @333333)@R
 @888
@@ -39272,8 +39265,8 @@ $hRh
 @BH]f
 @BoneSetup
 @DebugIndividualStyle
-@HPX`hv0
-@HPXfP
+@HPX`hv`
+@HPXf
 @Integer overflow in %s
 @MarketDataUpdated
 @MfKZ
@@ -39308,6 +39301,7 @@ $hRh
 @keyframes '%s'\r\n{\r\n
 @merged
 @n2w
+@pangolier_lucky_shot
 @setlocal\n
 @type
 A Dota NPC Hero
@@ -40908,7 +40902,6 @@ B-409
 B-571
 B-Spline
 B.z\85p
-B0u<
 B2I_DSS
 B2I_RSA
 B2pr
@@ -40919,7 +40912,6 @@ B64_WRITE_PKCS7
 B8Z"h
 B9mXw8Voch0
 B>J7I
-B@2E
 BAD ENUMERATED
 BAD INTEGER
 BAD RECURSION DEPTH\n
@@ -41059,6 +41051,7 @@ BN_usub
 BOGUS
 BOOL ABSENT
 BOOLEAN
+BP&B
 BPEventLevelIcon
 BPIN_txt
 BPLevel
@@ -41113,7 +41106,6 @@ B\vP\n0
 B\vp\n0
 B\vp\nP
 B_txt
-B`2E
 B`4I
 Background
 Background Image
@@ -41598,6 +41590,7 @@ BoxFinished
 BoxFocused
 BoxIdle
 BoxOpening
+Bp5E
 Bracket
 Bracket%d
 BracketBoxContainer
@@ -54082,6 +54075,7 @@ DO_PVK_HEADER
 DO_RSA_PRINT
 DO_SIGVER_INIT
 DO_SSL3_WRITE
+DP&B
 DPCActiveInternational
 DPCActiveLeague
 DPCActiveLeagueFinals
@@ -62748,7 +62742,6 @@ LZWDecodeCompat: Not enough data at scanline %d (short %ld bytes)
 LZWDecodeCompat: Wrong length of decoded string: data probably corrupted at scanline %d
 LZWPreDecode
 LZWSetupEncode
-L\fpb8
 L\nHk_ECandyShopAuditAction_DEPRECATED_EventActionGrantInventorySizeIncrease
 L\n\fincludevotes
 L\n\rcontributions
@@ -66074,16 +66067,14 @@ P-224
 P-256
 P-384
 P-521
-P08@JP
-P08J`c8
-P08N
+P08@J
+P08ND
 P0WonMatch
 P1Avatar
 P1WonMatch
 P1\t98"
 P2Avatar
 P2P ping to "%s". Timed out after %.2fms\n
-P2p@
 P5[1
 PAGN_4
 PAGrave
@@ -66833,6 +66824,7 @@ PersonalStatsBottomDisabled
 PersonalStatsTopDisabled
 Pet NPC Script Override:
 PetEffigy
+Pf@b
 PhaseCalculatingResults
 PhaseDisplayingCorrectAnswer
 PhaseDisplayingPartyAnswers
@@ -66966,7 +66958,6 @@ Pitch: %6.1f   Yaw: %6.1f %38s
 PivotPaint
 PixarLog
 PixelArtScaler
-Pjp@
 PlaceDecalEvent_t
 PlaceStickersButton
 PlaceholderText
@@ -67289,6 +67280,7 @@ PlusTab
 PlusWaitingOnSelections
 Pm8A?
 PmR"H?
+Pn@c
 PodsShowPlayerPictures
 PodsVisible
 Point entity.
@@ -68424,6 +68416,7 @@ RTTIPredictionsUnlocked
 RTTISelected
 RTTIState
 RT_txt
+R\fp8
 R\n\fActivityInfo
 R\n\fmap_variants
 R\n\fplayer_cards
@@ -68432,7 +68425,7 @@ R\n\vpredictions
 R\r1>Vp
 R\tV_iswcntrl
 R\vp!y
-R\vp4
+R\vpd
 R]Di
 R_T5Y
 Rad Guys
@@ -76315,7 +76308,6 @@ X\n\fSearchResult
 X\n\rkilling_blows
 X\n\tGraphData
 X\tQo
-X`hrp@
 Xd3h
 Xdota
 XfJ7
@@ -76599,7 +76591,7 @@ Z~wl
 \fBlessingID_t
 \fCEntityIndex"
 \fKS1
-\fPc8
+\fPHf
 \fW9c
 \fXu"L
 \f\tV_acosd
@@ -77038,7 +77030,7 @@ Z~wl
 \n0CMsgGCToClientPurchaseFilteredPlayerSlotResponse
 \n0CMsgGCToClientRequestActiveBeaconPartiesResponse
 \n0CMsgGCtoGCAssociatedExploiterAccountInfoResponse
-\n0uE
+\n0b8
 \n1CDOTAClientMsg_AbilitySpecificChannelRequiresHalt
 \n1CDOTAUserMsg_MonsterHunter_InvestigationGameState
 \n1CHelpRequestLogs_UploadUserApplicationLog_Request
@@ -77146,6 +77138,7 @@ Z~wl
 \nLeagueID_t"
 \nLeagueID_t"9\n#CMsgDOTACompendiumSelectionResponse
 \nLeagueID_t"C\n-CMsgDOTACompendiumRemoveAllSelectionsResponse
+\nPb8
 \nPlayerID_t
 \nPlayerID_t"
 \nSimulating Entities:\n\n
@@ -78682,7 +78675,6 @@ Z~wl
 \n\vzoom_amount
 \ng_flConfigMaxCoord
 \ngrant_periodic_action '%s' doesn't specify an action to grant
-\npb8
 \nqYu
 \ntM(ie-V
 \nunit1: %s \nunit2: %s \nevent: %s \npriority: %d\n
@@ -79227,9 +79219,8 @@ _video
 _wjb
 _xU`u
 _}eOk
-`20i<
 `28)fk
-`2Pl<
+`2P&B
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
 `:zQF
 `D$daM-l
@@ -79238,6 +79229,7 @@ _}eOk
 `H(hqA1p
 `ITS
 `VX:H
+`ZP&B
 `\n+k_EHeroSelectionText_CaptainsMode_YouSelect
 `\n+k_EHeroSelectionText_RandomDraft_HeroReview
 `\n\rvector_values
@@ -79263,6 +79255,7 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
+aBvD
 aD/x
 aDSS
 aECDH
@@ -80659,6 +80652,7 @@ bMutedText
 bMutedVoice
 bN.l
 bOverheadEffect
+bP&B
 bPb:L7X)
 bReturnUnslowed
 bSellable
@@ -80686,7 +80680,6 @@ b\tV_longjmp
 b\vP\n0
 b\vp\n0
 b]jY
-b`3E
 backdoor_protection
 backdoor_protection_in_base
 backend_response
@@ -89200,6 +89193,7 @@ g|MT
 h&eC
 h*Ax
 h0XB
+h1L|
 h2Wl
 h2n_\
 h5N.
@@ -89768,7 +89762,6 @@ hours_remaining
 houseIdentifier
 hover
 how_to_play
-hpzP
 hr_H
 href="
 hscroll
@@ -89959,6 +89952,7 @@ iIndex
 iLayer
 iMaxVal
 iMinVal
+iP`s
 iPercentage
 iPoint
 iPriority
@@ -91852,6 +91846,7 @@ j <= (int)sizeof(ctx->key)
 j <= sizeof(c->iv)
 j"MRX
 j&LQ
+j0X<
 j0ksJ
 j2ty
 j3kg
@@ -97199,6 +97194,7 @@ modifier_shukuchi_geminate_attack_mark
 modifier_shukuchi_slow
 modifier_silence
 modifier_silencer_brain_drain
+modifier_silencer_brain_drain_permanent_debuff
 modifier_silencer_curse_of_the_silent
 modifier_silencer_curse_of_the_silent_intrinsic
 modifier_silencer_glaives_of_wisdom
@@ -99718,9 +99714,8 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^
-p0JpvE
-p2p@
+p08@H^D
+p2 p<
 p2p_ping could not convert "%s" to a CPeerToPeerAddress\n
 p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n
@@ -99744,6 +99739,7 @@ pDescription
 pDest
 pDifficultyLevel != nullptr
 pEventName
+pF@f
 pFilter
 pG_*h
 pGameModeDef != nullptr
@@ -99849,7 +99845,6 @@ pangolier_fortune_favors_the_bold
 pangolier_gyroshell
 pangolier_gyroshell_stop
 pangolier_heartpiercer
-pangolier_lucky_shot
 pangolier_rollup
 pangolier_rollup_stop
 pangolier_shield_crash
@@ -101444,7 +101439,6 @@ pbeWithSHA1And40BitRC2-CBC
 pbeWithSHA1And40BitRC4
 pbeWithSHA1AndDES-CBC
 pbeWithSHA1AndRC2-CBC
-pbp@
 pcPathLengthConstraint
 pchSteamID
 peachpuff
@@ -101709,7 +101703,6 @@ pitchaxis
 pitchmax
 pitchmin
 pixelAspectRatio
-pjp@
 pkL'
 pkcs
 pkcs decoding error
@@ -102726,6 +102719,7 @@ qx(q
 r axis
 r$0I
 r-IE
+r0e<
 r184
 r1c1
 r1c2
@@ -102752,15 +102746,19 @@ rFur`7\t
 rIwdzZiHJbg
 rL[i+
 rOtk
+rP&B
+rPY<
+rPe<
 rRfKR
 rX&O0
 rZ1VwGf5
 rZPM
-r\fp4
+r\fpd
 r\n4k_EHeroSelectionText_AllDraft_TheyPicking_LosingGold
 r\n\nHuntReward
 r\n\vstart_index
 r\vDi
+r\vp8
 r_cleardecals
 r_deferred_additive_pass 1
 r_deferred_height_fog 1
@@ -103794,7 +103792,7 @@ rows_completed
 royal_jelly
 royal_jelly1
 royalblue
-rpb8
+rp%C
 rsa not implemented
 rsa operations not supported
 rsa routines

@@ -154,7 +154,9 @@
  %s%lu (%s0x%lx)\n
  ' ) - 3 G M Q _ c e i w } 
  (%ld unused bits)\n
+ (08@HPX`jP?
  (08@HPXb
+ (08@HPZP?
  (08@HR
  (0X`hpz
  (Dirty Animation)
@@ -836,6 +838,7 @@ $d`D-laM
 $f;Zv9l\r
 $g#8lu#
 $hRh 
+$pIv
 %% 4d=[%%%d.%ds] at cycle %%6.4f weight %%5.3f
 %%%d.%ds [%%3.3s] (%%5d) %%%d.%ds:
 %%s  %%c %%10s : %c%%%ds%c %%s
@@ -1854,6 +1857,7 @@ $hRh
 (0x%08X)'??'
 (1Vj
 (1tj
+(4pIv
 (55j
 (5Me
 (5jP
@@ -2979,6 +2983,7 @@ $hRh
 , retcode=
 , value=
 ,#,/,5,9,A,W,Y,i,w,
+,0Wn
 ,3g4
 ,7~5d
 ,ARu@y6
@@ -23566,10 +23571,11 @@ $hRh
 0123456789
 02V8[
 05=k
+08@HRP?
 08@J
+08BP?
 08bX
 09,h
-0:PYn
 0;Q5[
 0<cz
 0M2~@p
@@ -23800,7 +23806,7 @@ $hRh
 2 .CMsgBattleReport_CompareContext"
 2 .CMsgConnectedPlayers.SendReason
 2 .CMsgGCRoutingInfo.RoutingMethod:
-2 2o
+2 Yn
 2!.CMsgAddSocketResponse.EAddSocket"
 2!.CMsgBattleReport_HighlightRarity
 2!.CMsgDevModifyCodexAction.EAction"#\n
@@ -23838,6 +23844,7 @@ $hRh
 2-.CMsgInGamePrediction.ERandomSelectionGroup_t
 2..CDOTAUserMsg_MadstoneAlert.EMadstoneAlertType
 2..CMvpData.MvpDatum.MvpAccolade.MvpAccoladeType
+20%r
 20.CMsgClientToGCGetBattleReportResponse.EResponse
 20t\f
 21.CMsgClientToGCDotaLabsFeedbackResponse.EResponse"
@@ -23907,7 +23914,7 @@ $hRh
 2?.CMsgClientToGCMonsterHunterDevGrantMaterialsResponse.EResponse"u\n\tEResponse
 2?.CMsgClientToGCRemoveItemAttributeResponse.ERemoveItemAttribute
 2@.CMsgClientToGCMonsterHunterDevModifyHeroCodexResponse.EResponse"u\n\tEResponse
-2@5r
+2@1r
 2C.CMsgClientToGCOverworldDevGrantFortuneTellerCoinResponse.EResponse"
 2C.CMsgClientToGCOverworldGetDynamicImageResponse.EDynamicImageFormat
 2C.CMsgServerToGCRequestPlayerRecentAccomplishmentsResponse.EResponse
@@ -23917,7 +23924,6 @@ $hRh
 2I y)
 2J.CMsgClientToGCMonsterHunterDevClaimInvestigationRewardsResponse.EResponse"u\n\tEResponse
 2L.CMsgClientToGCMonsterHunterRequestMaterialsNeededByFriendResponse.EResponse
-2P?w
 2Tm=#
 2Uiwp"9
 2Zq)
@@ -24027,6 +24033,7 @@ $hRh
 2\r.DOTA_GC_TEAM:
 2\r.ELeaguePhase
 2\rlhp
+2\vpL
 2^pV
 2_bot
 2_mid
@@ -24205,6 +24212,7 @@ $hRh
 4_bot
 4_top
 4f h
+4q\n2Af
 4tpD
 4zj@1;IJ
 5'0v2ZP
@@ -24440,11 +24448,11 @@ $hRh
 851Pe
 8<pl
 8= zp
+8@JP?
 8A(j
 8A6j
+8BP?
 8DemoFile
-8F0D
-8F@C
 8GZS
 8SIffK5W
 8TZvrv<
@@ -24611,7 +24619,6 @@ $hRh
 :eaI
 :gN(dq
 :mIR
-:p5r
 :parsed on tick %d of %d got %d new commands through command number %d [%s]\n
 :w4v
 ;!;#;-;9;E;S;Y;_;q;{;
@@ -24844,13 +24851,14 @@ $hRh
 ?uWS
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
-@08N
+@08ND
 @0pp
 @333?
-@6PU
+@60b
 @@map tree
 @BH]f
 @BoneSetup
+@HVP>
 @Invalid attach type specified for particle effect anim event. Trying to spawn effect '%s' on model %s\n
 @MfKZ
 @Pgl
@@ -24877,6 +24885,7 @@ $hRh
 @dKb]
 @end_camera
 @fff>fff>fff>fff>
+@htpIv
 @i1V
 @n2w
 @player_start_teleport_destination
@@ -24929,6 +24938,7 @@ A<fP
 A>x8
 A@d0I
 AA Compromise
+AA: Yn
 AABB
 AABBDirection
 AACompromise
@@ -26049,6 +26059,7 @@ AwardAchievement
 AwardEventPoints failed as no lobby found!\n
 Axis
 AxisAngleToQuaternion
+B 0r
 B!rA
 B#B)B/BCBSBUB[BaBsB}B
 B*k@5
@@ -26072,7 +26083,6 @@ B64_WRITE_ASN1
 B64_WRITE_PKCS7
 B8Z"h
 B>J7I
-B@Wn
 BAD ENUMERATED
 BAD INTEGER
 BAD RECURSION DEPTH\n
@@ -32086,6 +32096,7 @@ Download files with result code %d
 Download has stalled.  (Was at %llu bytes downloaded %.1fs ago, now is at %llu/%llu bytes downloaded)
 Downloaded %llu of %llu bytes.  %.1fs elapsed
 Downloading item
+DpIv
 Dq;n
 DraftPool
 Drag during mouse down required.
@@ -39898,8 +39909,10 @@ P-256
 P-384
 P-521
 P08@J
-P08N
+P08Jp
+P08ND
 P1\t98"
+P2P?
 P5[1
 PA#DOTA_Chat_AssassinFailed
 PAGN_4
@@ -40317,6 +40330,7 @@ PingWheelMessageRange
 PitchShift
 PitchYawRoll
 PivotPaint
+PjP?
 Place a rune in the bottle.
 Place a unit somewhere not already occupied.
 PlaceDecalEvent_t
@@ -40666,7 +40680,6 @@ R/Qs
 R2I_CERTPOL
 R2I_PCI
 R=1C&b
-R@5r
 RADIANT WIN PROBABILITY: %2.2f%%\n
 RADIATION
 RAND lib
@@ -40853,6 +40866,7 @@ RUNE_XP
 R\n\fActivityInfo
 R\r1>Vp
 R\vp!y
+R\vpL
 R]Di
 Rad2 Deg
 Radiant
@@ -45686,11 +45700,11 @@ XYD%
 X\n summary_description_embed_values
 X\n\rkilling_blows
 X\tQo
+X`hrP?
 Xbox VDP is not supported on this platform.
 Xd3h
-Xf@F
+Xf0G
 XfJ7
-Xf`G
 XjfR
 XqgA+
 Xuub
@@ -45739,6 +45753,7 @@ You must type in
 You need to read the OpenSSL FAQ, http://www.openssl.org/support/faq.html
 You're missing a GetPreviewUnit in your encounter at %.3f %.3f!\n
 Ys/MA
+Z Yn
 Z"T-47\f8
 Z#Pe
 Z+5AS
@@ -45746,7 +45761,6 @@ Z0000
 Z0zd
 Z7"c
 Z72\v
-Z@Wn
 ZH^r
 ZL9L
 ZLIB
@@ -45859,6 +45873,7 @@ Z~wl
 \f<<0A1pq
 \fCEntityIndex"
 \fKS1
+\fP5r
 \fW9c
 \fXu"L
 \f\rbad allocation
@@ -45867,6 +45882,8 @@ Z~wl
 \fdhWTh
 \fevents.proto"
 \fiaR
+\fpIv
+\fp\vPd
 \ful2
 \fy&3Gl
 \l:ArR
@@ -46081,7 +46098,6 @@ Z~wl
 \n0CMsgClientToGCSurvivorsGameTelemetryDataResponse
 \n0CMsgGCtoGCAssociatedExploiterAccountInfoResponse
 \n0CMsgServerToGCMatchPlayerNeutralItemEquipHistory
-\n0Vn
 \n1CDOTAClientMsg_AbilitySpecificChannelRequiresHalt
 \n1CDOTAUserMsg_MonsterHunter_InvestigationGameState
 \n1CMsgClientToGCFightingGameAnswerChallengeResponse
@@ -46154,6 +46170,7 @@ Z~wl
 \nLeagueID_t"
 \nLeagueID_t"M\n;CMsgServerToGCCloseCompendiumInGamePredictionVotingResponse
 \nLeagueID_t"N\n$CMsgServerToGCGetCheerConfigResponse
+\nPVn
 \nPlayerID_t
 \nPlayerID_t"
 \nSimulating Entities:\n\n
@@ -46595,8 +46612,6 @@ Z~wl
 \n\nnpc_dialog
 \n\norder_type
 \n\nother_gold
-\n\np5r
-\n\npQx
 \n\npackage_id
 \n\nparty_game
 \n\npersona_id
@@ -47368,8 +47383,7 @@ Z~wl
 \ng_VProfSignalSpike
 \ng_flConfigMaxCoord
 \ngrant_periodic_action '%s' doesn't specify an action to grant
-\np5r
-\npLx
+\npVn
 \nqYu
 \ntM(ie-V
 \r!\r+\r-\r=\r?\rO\rU\ri\ry\r
@@ -47574,8 +47588,10 @@ _tools_event_desc
 _turbo
 _xU`u
 _}eOk
+`2 Yn
 `28)fk
-`6PV
+`6Pe
+`6Pf
 `:zQF
 `D$daM-l
 `DZG
@@ -47603,6 +47619,7 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
+aBvD
 aD/x
 aDSS
 aECDH
@@ -48554,7 +48571,6 @@ axfb5
 aybSr
 a|gj(
 a|w9i
-b 2o
 b <= sizeof ctx->buf
 b <= sizeof ctx->final
 b0M%
@@ -55757,6 +55773,7 @@ jOJw"
 jTuf
 jV*d9O
 j[6Z
+j\n.Bf
 j\n\nOutputItem
 j\vIP{s
 jackpots
@@ -62537,7 +62554,8 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^
+p08@H^D
+p2P?
 p2{l
 p4Z3
 p5Z3
@@ -65451,6 +65469,7 @@ payload + padding <= 16381
 payment gateway capabilities
 payment_row_usd
 payment_us_usd
+pbP?
 pbeWithMD2AndDES-CBC
 pbeWithMD2AndRC2-CBC
 pbeWithMD5AndCast5CBC
@@ -67110,7 +67129,6 @@ round_start
 route_to_all_movers
 routing
 routing_app_id
-rpQx
 rsa not implemented
 rsa operations not supported
 rsa routines
@@ -71706,7 +71724,6 @@ z(ov
 z/B,9d
 z<d2
 z>Hz
-z@Wn
 zF):O4
 zFar
 zG2m8

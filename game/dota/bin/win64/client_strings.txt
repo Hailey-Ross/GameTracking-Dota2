@@ -8173,7 +8173,6 @@ $hRh
 *Enable the rendering of the hud
 *Gets the last-played times for the account
 *O\n\fDOTA_CM_PICK
-*P6E
 *Returns the player's community preferences
 *UlS
 *Y$ve
@@ -8512,6 +8511,7 @@ $hRh
 ,?IsUint32@Value@v8@@QEBA_NXZ
 ,ARu@y6
 ,I?Value@Number@v8@@QEBANXZ
+,PnE
 ,Reason=
 ,Service for dealing with user-submitted logsB
 ,ShfPQ
@@ -37340,7 +37340,6 @@ $hRh
 0:%02d
 0;Q5[
 0<cz
-0>p2
 0M2~@p
 0Marks latest announcement timestamp read by user
 0Name of the file to publish in the user's cloud.
@@ -37631,9 +37630,8 @@ $hRh
 1}oP
 2 .CMsgBattleReport_CompareContext"
 2 .CMsgGCRoutingInfo.RoutingMethod:
-2 18
 2 arguments expected: %s <map name> <override map name>\n
-2 h8
+2 gC
 2!.CMsgAddSocketResponse.EAddSocket"
 2!.CMsgBattleReport_HighlightRarity
 2!.CMsgDOTADPCFeed.EFeedElementType
@@ -37755,7 +37753,6 @@ $hRh
 2013-01-01
 2022_diretide_collectors_cache
 2025_cta_collectors_cache_voting
-20q<
 20t\f
 20x9
 21.CMsgClientToGCBingoGetUserDataResponse.EResponse
@@ -38080,12 +38077,14 @@ $hRh
 2\r.ELeaguePhase
 2\rlhp
 2\vp!d
-2\vpH
+2\vp4$
 2^pV
 2_bot
 2_mid
 2_top
 2_week_streak
+2`18
+2`h8
 2a"l
 2bT~
 2cb:RO
@@ -38094,7 +38093,7 @@ $hRh
 2nIg
 2ndry
 2p"6
-2pm<
+2pq<
 2prB
 3#DOTA_Hero_Selection_AllDraft_YouPicking_LosingGold
 3%3+3/353A3G3[3_3g3k3s3y3
@@ -38605,10 +38604,9 @@ $hRh
 8<pl
 8= zp
 8@HPZ
-8@HPZ 
+8@HPZ`
 8A6j
-8B0q<
-8B`'B
+8Bpq<
 8Client ID for which to count the number of issued tokens"
 8GZS
 8Gets the list of nicknames this user has for other users
@@ -39258,16 +39256,16 @@ $hRh
 ?uWS
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
-@08NT
+@08N
 @0pp
 @333333)@R
+@4PdC
 @888
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @@DOTABPFall2021Labyrinth
 @BH]f
 @BoneSetup
 @DebugIndividualStyle
-@HPX`hvp
 @HPXf
 @Integer overflow in %s
 @MarketDataUpdated
@@ -41591,7 +41589,6 @@ BoxFinished
 BoxFocused
 BoxIdle
 BoxOpening
-Bpy<
 Bracket
 Bracket%d
 BracketBoxContainer
@@ -66068,15 +66065,15 @@ P-256
 P-384
 P-521
 P08@J
-P08NT
+P08N
 P0WonMatch
 P1Avatar
 P1WonMatch
 P1\t98"
 P2Avatar
 P2P ping to "%s". Timed out after %.2fms\n
+P4PdC
 P5[1
-P6P\
 PAGN_4
 PAGrave
 PAIN: %2.2f\n
@@ -66825,7 +66822,6 @@ PersonalStatsBottomDisabled
 PersonalStatsTopDisabled
 Pet NPC Script Override:
 PetEffigy
-PfPc
 PhaseCalculatingResults
 PhaseDisplayingCorrectAnswer
 PhaseDisplayingPartyAnswers
@@ -67281,7 +67277,6 @@ PlusTab
 PlusWaitingOnSelections
 Pm8A?
 PmR"H?
-PnPd
 PodsShowPlayerPictures
 PodsVisible
 Point entity.
@@ -68417,7 +68412,6 @@ RTTIPredictionsUnlocked
 RTTISelected
 RTTIState
 RT_txt
-R\fpH
 R\n\fActivityInfo
 R\n\fmap_variants
 R\n\fplayer_cards
@@ -68426,7 +68420,7 @@ R\n\vpredictions
 R\r1>Vp
 R\tV_iswcntrl
 R\vp!y
-R\vpt
+R\vp4$
 R]Di
 R_T5Y
 Rad Guys
@@ -76600,6 +76594,7 @@ Z~wl
 \fevents.proto
 \fevents.proto"
 \fiaR
+\fp\vPT
 \ful2
 \fy&3Gl
 \l:ArR
@@ -78673,8 +78668,6 @@ Z~wl
 \n\vzoom_amount
 \ng_flConfigMaxCoord
 \ngrant_periodic_action '%s' doesn't specify an action to grant
-\np28
-\npyE
 \nqYu
 \ntM(ie-V
 \nunit1: %s \nunit2: %s \nevent: %s \npriority: %d\n
@@ -79220,9 +79213,8 @@ _wjb
 _xU`u
 _}eOk
 `28)fk
-`2pm<
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
-`60S
+`6pS
 `:zQF
 `D$daM-l
 `DZG
@@ -79237,6 +79229,7 @@ _}eOk
 `fPw.\vM
 `h9T~
 `o_je
+`r@7E
 `yNT
 a moment...
 a null shared library handle was used
@@ -79255,7 +79248,6 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBvT
 aD/x
 aDSS
 aECDH
@@ -80608,7 +80600,6 @@ b <= sizeof ctx->buf
 b <= sizeof ctx->final
 b0FCLlvCRJw
 b0M%
-b0q<
 b2i_PVK_bio
 b5o-
 b=G3
@@ -81375,6 +81366,7 @@ bp_max
 bp_remaining
 bp_start
 bp_total_cap
+bpq<
 bracket
 bracket_correct
 bracket_points
@@ -99714,12 +99706,13 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^T
-p20q<
+p08@H^
+p0j 28
 p2p_ping could not convert "%s" to a CPeerToPeerAddress\n
 p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n
 p2p_ping sending to "%s"\n
+p2pq<
 p2{l
 p4 add ..\..\..\content\dota\panorama\images\heroes\selection\%s.png\n
 p4 add ..\panorama\videos\heroes\%s.webm\n
@@ -99739,7 +99732,6 @@ pDescription
 pDest
 pDifficultyLevel != nullptr
 pEventName
-pFPg
 pFilter
 pG_*h
 pGameModeDef != nullptr
@@ -102716,8 +102708,8 @@ quiet
 quill_base_damage
 quill_stack_damage
 qx(q
+r 7E
 r axis
-r h8
 r$0I
 r-IE
 r184
@@ -102750,12 +102742,10 @@ rRfKR
 rX&O0
 rZ1VwGf5
 rZPM
-r\fpt
 r\n4k_EHeroSelectionText_AllDraft_TheyPicking_LosingGold
 r\n\nHuntReward
 r\n\vstart_index
 r\vDi
-r\vpH
 r_cleardecals
 r_deferred_additive_pass 1
 r_deferred_height_fog 1
@@ -102770,6 +102760,7 @@ r_dota_normal_maps 1
 r_dota_shadows 1
 r_printdecalinfo
 r_ssao 1
+r`h8
 rad2deg
 radar_cooldown
 radar_icon

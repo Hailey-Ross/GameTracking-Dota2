@@ -167,9 +167,9 @@
  (%lu = 0x%lx)\n
  (%u = 0x%x)\n
  (+%d more due to usercommand delivery)
- (08@HPX`jp2
- (08@HPZp2
- (08@Jp2
+ (08@HPX`jP2
+ (08@HPZP2
+ (08@JP2
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -7067,6 +7067,7 @@ $hRh
 (0'yX
 (0.1s interval)
 (0x%08X)'??'
+(2`GB
 (5Me
 (5jP
 (?333?DOTAGuildIntroPage
@@ -8176,6 +8177,7 @@ $hRh
 *Enable the rendering of the hud
 *Gets the last-played times for the account
 *O\n\fDOTA_CM_PICK
+*PVE
 *Returns the player's community preferences
 *UlS
 *Y$ve
@@ -8334,7 +8336,6 @@ $hRh
 *kf[R
 *laM-\SO
 *o\n\teRollType
-*pUE
 *v\n\vEPingSource
 + <font color="#ffd825">%d</font><panel class="CombatEventGoldIcon" /> 
 + Added %s Player[%d]: %s\n
@@ -37337,14 +37338,15 @@ $hRh
 0234
 02V8[
 05=k
-08@HRp2
-08Bp2
+08@HRP2
+08BP2
 08bX
 09,h
 0:%02d
+0:`GB
 0;Q5[
 0<cz
-0>pV
+0>PW
 0M2~@p
 0Marks latest announcement timestamp read by user
 0Name of the file to publish in the user's cloud.
@@ -37473,7 +37475,7 @@ $hRh
 0e\r8
 0pp@5tqE?|sO541
 0tU+xc:
-0vT%
+0v4&
 0x%4.4x 
 0x%X
 0x%X 
@@ -37636,6 +37638,7 @@ $hRh
 1}oP
 2 .CMsgBattleReport_CompareContext"
 2 .CMsgGCRoutingInfo.RoutingMethod:
+2 Q8
 2 arguments expected: %s <map name> <override map name>\n
 2!.CMsgAddSocketResponse.EAddSocket"
 2!.CMsgBattleReport_HighlightRarity
@@ -37927,7 +37930,6 @@ $hRh
 2@.CMsgClientToGCFantasyCraftingPerformOperationResponse.EResponse
 2@.CMsgClientToGCJoinPrivateCoachingSessionLobbyResponse.EResponse"
 2@.CMsgClientToGCMonsterHunterDevModifyHeroCodexResponse.EResponse"u\n\tEResponse
-2@P8
 2A.CMsgClientToGCGetCurrentPrivateCoachingSessionResponse.EResponse
 2Array of text tags to apply to the published file.
 2B.CMsgClientToGCFantasyCraftingSelectGlobalPrefixResponse.EResponse
@@ -38083,12 +38085,12 @@ $hRh
 2\r.ELeaguePhase
 2\rlhp
 2\vp!d
-2\vpH(
 2^pV
 2_bot
 2_mid
 2_top
 2_week_streak
+2`GB
 2a"l
 2bT~
 2cb:RO
@@ -38240,7 +38242,6 @@ $hRh
 4<Td
 4@AA
 4Ch;
-4E(0
 4F0I
 4Mv8
 4Redirection URI provided during client registration.2
@@ -38316,6 +38317,7 @@ $hRh
 4_bot
 4_top
 4_week_streak
+4`GB
 4f h
 4sdvk_DbH6U
 4tpD
@@ -38602,14 +38604,14 @@ $hRh
 82\n:XPH
 851Pe
 89 89 89
-89n|
 8<pl
 8= zp
-8@HPZ@
-8@HPZp2
-8@Jp2
+8@HPZ 
+8@HPZP2
+8@JP2
 8A6j
-8Bp2
+8BP2
+8B`GB
 8Client ID for which to count the number of issued tokens"
 8GZS
 8Gets the list of nicknames this user has for other users
@@ -38619,6 +38621,7 @@ $hRh
 8SIffK5W
 8TZvrv<
 8TopArrow
+8Uu{
 8\n0series_current_selection_priority_used_coin_toss
 8\n0ultimate_scepter_consumed_alchemist_bonus_health
 8\n3kKillEaterEventType_Broodmother_SpiderlingHeroKills
@@ -38664,6 +38667,7 @@ $hRh
 8\n4k_EGCMsgInitiateTradeResponse_Target_Already_Trading
 8\n4k_EGCMsgInitiateTradeResponse_Trade_Banned_Initiator
 8\n4k_EStartFindingMatchResult_WeekendTourneyNotUnlocked
+8\nP2
 8\n\fhunt_rewards
 8\n\ndire_stats
 8\n\nevent_ti10
@@ -38673,7 +38677,6 @@ $hRh
 8\n\rnotifications
 8\n\rready_members
 8\n\rsubscribe_msg
-8\np2
 8\v8!83858A8G8K8S8W8_8e8o8q8}8
 8]Vc2
 8ca1
@@ -38681,8 +38684,8 @@ $hRh
 8oYSBkqnngo
 8pe7?
 8q-S*]X
-8qs{
 8sOy
+8un|
 9#9%9)9/9=9A9M9[9k9y9}9
 9#DOTA_Hero_Selection_CaptainsMode_WaitingForChooseCaptain
 9)PF
@@ -38749,7 +38752,6 @@ $hRh
 9oB#
 9q6\r#m
 9r#xV
-9zu{
 :    %i/%i (%d) full repredict\n
 :    %i/%i (%d) skip to %i restore from slot %i\n
 :    %i/%i (%i) Prediction slot %d holds command %d instead of %d!  Deleting all predictions, will full repredict\n
@@ -39252,6 +39254,7 @@ $hRh
 ?gwL
 ?jOb
 ?minlevel
+?modifier_slark_pounce
 ?open
 ?srJO
 ?streamonly=1
@@ -39261,17 +39264,18 @@ $hRh
 ?uWS
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
-@08NT%
+@08N4&
 @0pp
-@2p2
+@2P2
 @333333)@R
 @888
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
 @BH]f
 @BoneSetup
+@C_DOTA_Ability_Kez_Shodo_Sai_Parry_Cancel
 @DebugIndividualStyle
-@HPX`hvp
-@HPXf
+@HPX`hvP
+@HPXfp
 @Integer overflow in %s
 @MarketDataUpdated
 @MfKZ
@@ -39305,7 +39309,6 @@ $hRh
 @keyframes 
 @keyframes '%s'\r\n{\r\n
 @merged
-@monkey_king_jingu_mastery
 @n2w
 @setlocal\n
 @type
@@ -39675,6 +39678,7 @@ AbilityCosts
 AbilityDamage
 AbilityDamageType
 AbilityData
+AbilityDefinitions
 AbilityDependency
 AbilityDescriptionContainer
 AbilityDetails
@@ -41111,6 +41115,7 @@ B\vp\n0
 B\vp\nP
 B_txt
 B`4I
+B`GB
 Background
 Background Image
 Background: Loading screen %u\n
@@ -54187,6 +54192,7 @@ D\n\tevent_ti6
 D\n\thunted_by
 D\n\vpredictions
 D\n\vtournaments
+D`GB
 Daily challenge: %s\n
 DailyBonusAvailable
 DailyBonusCountdown
@@ -56726,6 +56732,7 @@ FXScenePanel
 FX_RicochetSound.Ricochet
 F\n ParticleFreezeTransitionOverride
 F\nAk_EMsgClientToGCMonsterHunterDevClaimInvestigationRewardsResponse
+F\nP2
 F\n\fachievements
 F\n\finventories2
 F\n\finventories3
@@ -56737,7 +56744,6 @@ F\n\tEventGoal
 F\n\trow_range
 F\n\vanswer_type
 F\n\vxp_received
-F\np2
 F\rH'4
 F\tV_isalpha_str_fast
 Face %s
@@ -59049,7 +59055,6 @@ GraphPlayerLevel
 GraphPlayerLevelTooltip
 GraphPlayerNetWorth
 GraphPlayerNetWorthTooltip
-GraphPlayerPersonalGraphTooltip
 GraphRadiantSelectedToggleButton
 GraphSelectedToggleButton
 GraphSet
@@ -66080,14 +66085,14 @@ P-256
 P-384
 P-521
 P08J
-P08NT%
+P08N4&
 P0WonMatch
 P1Avatar
 P1WonMatch
 P1\t98"
 P2Avatar
 P2P ping to "%s". Timed out after %.2fms\n
-P2p2
+P2P2
 P5[1
 PAGN_4
 PAGrave
@@ -66970,7 +66975,7 @@ Pitch: %6.1f   Yaw: %6.1f %38s
 PivotPaint
 PixarLog
 PixelArtScaler
-Pjp2
+PjP2
 PlaceDecalEvent_t
 PlaceStickersButton
 PlaceholderText
@@ -68430,7 +68435,6 @@ RTTIPredictionsUnlocked
 RTTISelected
 RTTIState
 RT_txt
-R\fpH(
 R\n\fActivityInfo
 R\n\fmap_variants
 R\n\fplayer_cards
@@ -68439,7 +68443,7 @@ R\n\vpredictions
 R\r1>Vp
 R\tV_iswcntrl
 R\vp!y
-R\vpt!
+R\vpT"
 R]Di
 R_T5Y
 Rad Guys
@@ -76324,7 +76328,7 @@ X\n\fSearchResult
 X\n\rkilling_blows
 X\n\tGraphData
 X\tQo
-X`hrp2
+X`hrP2
 Xd3h
 Xdota
 XfJ7
@@ -76608,6 +76612,7 @@ Z~wl
 \fBlessingID_t
 \fCEntityIndex"
 \fKS1
+\fPGB
 \fW9c
 \fXu"L
 \f\tV_acosd
@@ -76616,7 +76621,6 @@ Z~wl
 \fevents.proto
 \fevents.proto"
 \fiaR
-\fpFB
 \ful2
 \fy&3Gl
 \l:ArR
@@ -78690,6 +78694,7 @@ Z~wl
 \n\vzoom_amount
 \ng_flConfigMaxCoord
 \ngrant_periodic_action '%s' doesn't specify an action to grant
+\npR8
 \nqYu
 \ntM(ie-V
 \nunit1: %s \nunit2: %s \nevent: %s \npriority: %d\n
@@ -78703,6 +78708,7 @@ Z~wl
 \rCandyShopID_t"Y\n+CMsgClientToGCCandyShopDevResetShopResponse
 \rCandyShopID_t"^\n0CMsgClientToGCCandyShopDevClearInventoryResponse
 \rCandyShopID_t"_\n1CMsgClientToGCCandyShopDevShuffleExchangeResponse
+\rGraphPlayerPersonalGraphTooltip
 \rGuildRoleID_t
 \rGuildRoleID_t"
 \rHeroFacetID_t
@@ -78812,7 +78818,7 @@ Z~wl
 \tC_BaseEntity::Instance([%s]->InVRContinuous()) == [%s]\n
 \tCloseOpportunity()\n
 \tDd22
-\tDwave_damage
+\tDwave_interval
 \tEntity param "%s" returned NULL.\n
 \tFClassnameIs( [%s] 
 \tFailed delayed player swap!
@@ -79234,9 +79240,9 @@ _wjb
 _xU`u
 _}eOk
 `28)fk
-`2p2
+`2P2
+`2`GB
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
-`60w
 `:zQF
 `D$daM-l
 `DZG
@@ -79244,16 +79250,16 @@ _}eOk
 `H(hqA1p
 `ITS
 `VX:H
+`Z`GB
 `\n+k_EHeroSelectionText_CaptainsMode_YouSelect
 `\n+k_EHeroSelectionText_RandomDraft_HeroReview
 `\n\rvector_values
 `\tV_logd
-`bp2
-`dp2
+`bP2
+`dP2
 `fPw.\vM
 `h9T~
 `o_je
-`r VE
 `yNT
 a moment...
 a null shared library handle was used
@@ -79272,7 +79278,7 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBvT%
+aBv4&
 aD/x
 aDSS
 aECDH
@@ -80696,6 +80702,7 @@ b\tV_longjmp
 b\vP\n0
 b\vp\n0
 b]jY
+b`GB
 backdoor_protection
 backdoor_protection_in_base
 backend_response
@@ -89226,11 +89233,13 @@ hEntityA
 hEntityB
 hF\rDz
 hFcg
+hIy|
 hJxRX@_
 hN2D
 hRB.
 hRenderTexture != RENDER_TEXTURE_HANDLE_INVALID && m_image.IsValid()
 hThinkFunc
+hU7|
 hW*m
 hW1M
 hW_z
@@ -89375,6 +89384,7 @@ heartbeat
 heartbeat request already pending
 heat_delay
 heavy_steps
+heh|
 height-percentage
 height-percentage( %s )
 height_fog_caustic_amplitude_scale
@@ -89700,7 +89710,6 @@ hltv_replay
 hltv_replay_status
 hltv_title
 hltv_versioninfo
-hm5|
 hmac
 hmac-md5
 hmac-sha1
@@ -97281,7 +97290,6 @@ modifier_slark_essence_shift_permanent_buff
 modifier_slark_essence_shift_permanent_debuff
 modifier_slark_fish_bait_post
 modifier_slark_fish_bait_pre
-modifier_slark_pounce
 modifier_slark_pounce_charge_counter
 modifier_slark_pounce_leash
 modifier_slark_saltwater_shiv
@@ -97915,6 +97923,7 @@ momentumType
 money
 monitor_pid
 monkey_king_boundless_strike
+monkey_king_jingu_mastery
 monkey_king_jingu_mastery;monkey_king_transfiguration
 monkey_king_mischief
 monkey_king_primal_spring
@@ -99730,8 +99739,8 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^T%
-p2p2
+p08@H^4&
+p2P2
 p2p_ping could not convert "%s" to a CPeerToPeerAddress\n
 p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n
@@ -101442,6 +101451,7 @@ payload + padding <= 16381
 payment gateway capabilities
 payment_row_usd
 payment_us_usd
+pbP2
 pbeWithMD2AndDES-CBC
 pbeWithMD2AndRC2-CBC
 pbeWithMD5AndCast5CBC
@@ -101455,7 +101465,6 @@ pbeWithSHA1And40BitRC2-CBC
 pbeWithSHA1And40BitRC4
 pbeWithSHA1AndDES-CBC
 pbeWithSHA1AndRC2-CBC
-pbp2
 pcPathLengthConstraint
 pchSteamID
 peachpuff
@@ -101720,7 +101729,7 @@ pitchaxis
 pitchmax
 pitchmin
 pixelAspectRatio
-pjp2
+pjP2
 pkL'
 pkcs
 pkcs decoding error
@@ -101988,7 +101997,7 @@ plus_subscription_end_date
 plus_subscription_item_def
 plus_subscription_renew_price
 plus_subscription_start_date
-pnT%
+pn4&
 pod_id
 point
 point arithmetic failure
@@ -102768,12 +102777,11 @@ rRfKR
 rX&O0
 rZ1VwGf5
 rZPM
-r\fpt!
+r\fpT"
 r\n4k_EHeroSelectionText_AllDraft_TheyPicking_LosingGold
 r\n\nHuntReward
 r\n\vstart_index
 r\vDi
-r\vpH(
 r_cleardecals
 r_deferred_additive_pass 1
 r_deferred_height_fog 1
@@ -102788,6 +102796,7 @@ r_dota_normal_maps 1
 r_dota_shadows 1
 r_printdecalinfo
 r_ssao 1
+r`GB
 rad2deg
 radar_cooldown
 radar_icon
@@ -104298,7 +104307,6 @@ scripts/npc/activelist.txt
 scripts/npc/bot_builds.txt
 scripts/npc/bot_loadouts.txt
 scripts/npc/bot_roles.txt
-scripts/npc/heroes/%s.txt
 scripts/npc/herolist.txt
 scripts/npc/items.txt
 scripts/npc/neutral_items.txt

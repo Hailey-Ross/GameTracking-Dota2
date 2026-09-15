@@ -989,6 +989,7 @@ $prefix_element$
 */portrait_image
 */visuals/*/
 */visuals/alternate_icons/*/icon_path
+*0O7
 *0fT
 *1~Pt
 *5pB
@@ -996,6 +997,7 @@ $prefix_element$
 *I?Value@Int32@v8@@QEBAHXZ
 *No ID Set*
 *No ID*
+*PM7
 *UlS
 *Y$ve
 *\fhsD
@@ -21401,6 +21403,9 @@ $prefix_element$
 2)Ab`
 2+~,@\r;Zj09
 2048
+20K7
+20O7
+20h=
 20t\f
 241:1: FLOAT : ( ( MINUS )? ( DIGIT )+ '.' ( DIGIT )* ( EXP )? ( FLOATSUFFIX )? | ( MINUS )? ( DIGIT )+ ( EXP )? ( FLOATSUFFIX )? | ( MINUS )? '.' ( DIGIT )+ ( EXP )? ( FLOATSUFFIX )? );
 24U\n
@@ -21424,6 +21429,7 @@ $prefix_element$
 2\fWQx
 2\rE2h
 2\rlhp
+2\vpd
 2^pV
 2_BONE_IK
 2a"l
@@ -21469,6 +21475,7 @@ $prefix_element$
 4Ch;
 4F0I
 4Mv8
+4Pi=
 4Zis
 4\fPl
 4\r54t
@@ -21559,6 +21566,7 @@ $prefix_element$
 8= zp
 8@JP
 8A6j
+8B0O7
 8GZS
 8SIffK5W
 8TZvrv<
@@ -21598,6 +21606,7 @@ $prefix_element$
 9q6\r#m
 9r#xV
 :':+:1:K:Q:[:c:g:m:y:
+:0O7
 :: <NO TARGET BONE>
 :BAD OBJECT
 :Blowfish part of OpenSSL 1.0.2j  26 Sep 2016
@@ -21607,8 +21616,7 @@ $prefix_element$
 :NetworkedCycle:CycleZeroTime
 :NetworkedCycle:CyclesPerSecond
 :NetworkedCycle:ResetCount
-:PtB
-:PvB
+:PM7
 :QYJ
 :Vlq
 :const char *__cdecl Reflection::Internal::GetFuncName<class CAnimGraphDoc_WayPointHelperNode>(void)
@@ -21633,7 +21641,6 @@ $prefix_element$
 :m_hSequence
 :m_resetCount
 :m_resetCycleValue
-:pzB
 :w4v
 ; tris:
 ;!;#;-;9;E;S;Y;_;q;{;
@@ -21743,6 +21750,7 @@ $prefix_element$
 ??1HandleScope@v8@@QEAA@XZ
 ??1TryCatch@v8@@QEAA@XZ
 ??1Utf8Value@String@v8@@QEAA@XZ
+?Animation node must have a name!
 ?Compile@Script@v8@@SA?AV?$MaybeLocal@VScript@v8@@@2@V?$Local@VContext@v8@@@2@V?$Local@VString@v8@@@2@PEAVScriptOrigin@2@@Z
 ?Create@FbxIOSettings@fbxsdk@@SAPEAV12@PEAVFbxManager@2@PEBD@Z
 ?Create@FbxManager@fbxsdk@@SAPEAV12@XZ
@@ -21766,7 +21774,6 @@ $prefix_element$
 ?ResourceCompiler
 ?SelectionSource_t
 ?VBH;
-?clip
 ?d86L
 ?dt]X
 ?func_ladder
@@ -21784,8 +21791,9 @@ $prefix_element$
 @%s_lookFrame_0
 @%s_lookFrame_1
 @%s_lookFrame_2
-@08N$
+@08Nt
 @0pp
+@:pmB
 @?m_hBasePoseCacheHandle
 @BH]f
 @CMixControlAutomatic
@@ -22446,7 +22454,6 @@ Animation Source
 Animation has no underlying CModelAnim in DNA anim file: %s
 Animation in DNA anim file has invalid frame rate (%f): %s
 Animation in DNA anim file has no frames: %s
-Animation node must have a name!
 Animation references itself as blend target
 Animation references itself as the source animation
 Animation/AccumulatePose
@@ -23378,6 +23385,7 @@ C:\buildworker\source2_dota_rel_2019_win64\build\src\utils\resourcecompiler\comp
 C:\buildworker\source2_dota_rel_2019_win64\build\src\utils\resourcecompiler\compilematerial.cpp
 C:\buildworker\source2_dota_rel_2019_win64\build\src\utils\resourcecompiler\compilepanorama.cpp
 C:\buildworker\source2_dota_rel_2019_win64\build\src\utils\resourcecompiler\compileparticle.cpp
+C:\buildworker\source2_dota_rel_2019_win64\build\src\utils\resourcecompiler\compilepostprocessing.cpp
 C:\buildworker\source2_dota_rel_2019_win64\build\src\utils\resourcecompiler\compilesound.cpp
 C:\buildworker\source2_dota_rel_2019_win64\build\src\utils\resourcecompiler\compilesoundcontainer.cpp
 C:\buildworker\source2_dota_rel_2019_win64\build\src\utils\resourcecompiler\compilesoundstackscript.cpp
@@ -26144,8 +26152,8 @@ DNGPrivateData
 DNGVersion
 DNS:%s
 DNkv
-DOTAAbilities/*/
 DOTAHeroes
+DOTAHeroes/*/AbilityDefinitions/*/
 DOTAUnits
 DOTA_Patch_%s
 DOTA_Patch_%s_%s
@@ -31884,7 +31892,7 @@ P-256
 P-384
 P-521
 P08J
-P08N$
+P08Nt
 P1\t98"
 P5[1
 PAGN_4
@@ -32502,7 +32510,6 @@ PostMapLoadCommands
 PostProcessing
 PostProcessingEnabled
 PosterSettings
-Postprocessing Compiler Version
 Posture
 Power scale for applying the supplemental ambient occlusion map.
 Pr"V
@@ -32931,6 +32938,7 @@ RT Proxy albedo: %s verts / %s.  %i/%i instances with unique data.\n
 RT Proxy emissive: %s of data.\n
 RT Proxy geometry: %s verts / %s, %s indices / %s.  Duplicated %i verts due to partitions\n
 RT60 for low, mid, and high frequency bands for the probe.
+R\fpd
 R\r1>Vp
 R\vp!y
 R]Di
@@ -33455,7 +33463,6 @@ S8#w
 S<Fb
 S<hN-AO
 SAXPY2
-SC:\buildworker\source2_dota_rel_2019_win64\build\src\utils\resourcecompiler\compilepostprocessing.cpp
 SCENE
 SECG curve over a 112 bit prime field
 SECG curve over a 113 bit binary field
@@ -33525,6 +33532,7 @@ SNtu
 SO~c
 SPEAK
 SPV_KHR_storage_buffer_storage_class
+SPostprocessing Compiler Version
 SQ8_d`\
 SRTP_AES128_CM_SHA1_32
 SRTP_AES128_CM_SHA1_80
@@ -36563,6 +36571,9 @@ Z~wl
 \n//\n// Fog Irradiance Volume\n//\n
 \n//\n// Light Probe Volumes\n//\n
 \n//\n// Lightmap\n//\n
+\n0K7
+\n0O7
+\n0sB
 \n5a=Z
 \n:82H
 \n==============================================================================================\n
@@ -36572,7 +36583,6 @@ Z~wl
 \nMS,\nVS_MS_RTX
 \nNo game entities will be available for creation.\n
 \nPS_RENDER_STATE
-\nPtB
 \nRTX
 \nRay Tracing Environment\n
 \nVCS file format is invalid for %s\n
@@ -36581,8 +36591,10 @@ Z~wl
 \n[ERR] Not enough memory, shop for some more RAM. See you!\n
 \n\n ******   LIGHTMAP PACKER ERROR   ******* \n\n Failed to pack charts - please specify a higher resolution lightmap \n\n ******   LIGHTMAP PACKER ERROR   ******* \n\n
 \n\n... Building '%s'\n
+\n\n0K7
 \n\nERROR: This map uses > 100%% of the available kv3 file for '%s' before passing to vrad.\n
 \n\nIf not bad formatting, could be because comments stripping is off, and a comment had a single quote.\n
+\n\nPM7
 \n\nThis map uses %.2f%% of the available kv3 file for '%s' before passing to vrad.\n
 \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n
 \n\tIPSec/IKE/Oakley curve #3 over a 155 bit binary field.\n\tNot suitable for ECDSA.\n\tQuestionable extension field!
@@ -36594,6 +36606,7 @@ Z~wl
 \nfog_irradiance_volume:\n
 \ng default\n
 \ng_flConfigMaxCoord
+\npmB
 \nqYu
 \nrun compute_all_lightmap_blocks\n
 \nrun fog_irradiance_volume\n
@@ -36602,7 +36615,7 @@ Z~wl
 \r!\r+\r-\r=\r?\rO\rU\ri\ry\r
 \r@h!Aq8
 \rB6uZ
-\rCTwistConstraint
+\rCPointConstraint
 \rKT8v
 \rLAM
 \rMinghuaQu\f
@@ -36719,6 +36732,7 @@ Z~wl
 \tvoice_duck %d\r\n
 \t}BzJ88
 \v#\v)\v-\v?\vG\vQ\vW\v]\ve\vo\v{\v
+\v:0O7
 \vBCeA
 \vGt5
 \vHCK/
@@ -36916,8 +36930,10 @@ _wjb
 _xU`u
 _zero
 _}eOk
+`20h=
 `28)fk
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
+`:pmB
 `:zQF
 `=IhC?zm6>
 `D$daM-l
@@ -36946,7 +36962,7 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBv$
+aBvt
 aD/x
 aDSS
 aECDH
@@ -37450,6 +37466,7 @@ a|w9i
 b <= sizeof ctx->buf
 b <= sizeof ctx->final
 b0M%
+b0O7
 b2i_PVK_bio
 b5o-
 b=G3
@@ -38139,6 +38156,7 @@ client finished
 client write key
 clientAuth
 clienthello tlsext
+clip
 clipType
 clip_compressed_size
 clip_compression_ratio
@@ -43814,8 +43832,8 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^$
-p0j`
+p08@H^t
+p20O7
 p2{l
 p4Z3
 p4lib
@@ -43823,6 +43841,7 @@ p5Z3
 p5\nL,
 p618
 p=f3G=
+p>83
 p@0pqE5tsO?|1
 pCheckpointName
 pD4t
@@ -44464,7 +44483,7 @@ quiet
 qx(q
 r$0I
 r-IE
-r0?F
+r0K7
 r184
 r3A~
 r<\rND
@@ -44481,6 +44500,7 @@ rX&O0
 rZ1VwGf5
 rZPM
 r\vDi
+r\vpd
 rad2deg
 radians
 radius0_key
@@ -45002,6 +45022,7 @@ scripts/moods_default.vdata
 scripts/nav_hulls.vdata
 scripts/nav_hulls_presets.vdata
 scripts/navlinks.vdata
+scripts/npc/heroes
 scripts/npc/npc_heroes.txt
 scripts/npc/npc_units.txt
 scripts/npc_units.vdata

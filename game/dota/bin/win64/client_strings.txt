@@ -167,14 +167,15 @@
  (%lu = 0x%lx)\n
  (%u = 0x%x)\n
  (+%d more due to usercommand delivery)
- (08@HPX`jP2
- (08@HPZP2
- (08@JP2
+ (08@HPX`j04
+ (08@HPZ04
+ (08@J04
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
  (classmap missing)
  ** Entrypoint For Method '%s'
+ *PIB
  - %s (%s)\n
  - (Additive)
  -0000
@@ -7067,7 +7068,7 @@ $hRh
 (0'yX
 (0.1s interval)
 (0x%08X)'??'
-(2`GB
+(2PIB
 (5Me
 (5jP
 (?333?DOTAGuildIntroPage
@@ -8177,7 +8178,7 @@ $hRh
 *Enable the rendering of the hud
 *Gets the last-played times for the account
 *O\n\fDOTA_CM_PICK
-*PVE
+*PIB
 *Returns the player's community preferences
 *UlS
 *Y$ve
@@ -37338,15 +37339,14 @@ $hRh
 0234
 02V8[
 05=k
-08@HRP2
-08BP2
+08@HR04
+08B04
 08bX
 09,h
 0:%02d
-0:`GB
+0:PIB
 0;Q5[
 0<cz
-0>PW
 0M2~@p
 0Marks latest announcement timestamp read by user
 0Name of the file to publish in the user's cloud.
@@ -37475,7 +37475,6 @@ $hRh
 0e\r8
 0pp@5tqE?|sO541
 0tU+xc:
-0v4&
 0x%4.4x 
 0x%X
 0x%X 
@@ -37638,7 +37637,6 @@ $hRh
 1}oP
 2 .CMsgBattleReport_CompareContext"
 2 .CMsgGCRoutingInfo.RoutingMethod:
-2 Q8
 2 arguments expected: %s <map name> <override map name>\n
 2!.CMsgAddSocketResponse.EAddSocket"
 2!.CMsgBattleReport_HighlightRarity
@@ -37953,6 +37951,7 @@ $hRh
 2J.CMsgClientToGCMonsterHunterDevClaimInvestigationRewardsResponse.EResponse"u\n\tEResponse
 2K.CMsgClientToGCGetAvailablePrivateCoachingSessionsSummaryResponse.EResponse
 2L.CMsgClientToGCMonsterHunterRequestMaterialsNeededByFriendResponse.EResponse
+2PIB
 2Set of published file Ids to retrieve details for.
 2Tm=#
 2Uiwp"9
@@ -38090,7 +38089,6 @@ $hRh
 2_mid
 2_top
 2_week_streak
-2`GB
 2a"l
 2bT~
 2cb:RO
@@ -38244,6 +38242,7 @@ $hRh
 4Ch;
 4F0I
 4Mv8
+4PIB
 4Redirection URI provided during client registration.2
 4Zis
 4\fPl
@@ -38317,7 +38316,6 @@ $hRh
 4_bot
 4_top
 4_week_streak
-4`GB
 4f h
 4sdvk_DbH6U
 4tpD
@@ -38606,12 +38604,12 @@ $hRh
 89 89 89
 8<pl
 8= zp
-8@HPZ 
-8@HPZP2
-8@JP2
+8@HPZ
+8@HPZ04
+8@J04
 8A6j
-8BP2
-8B`GB
+8B04
+8BPIB
 8Client ID for which to count the number of issued tokens"
 8GZS
 8Gets the list of nicknames this user has for other users
@@ -38621,7 +38619,7 @@ $hRh
 8SIffK5W
 8TZvrv<
 8TopArrow
-8Uu{
+8\n04
 8\n0series_current_selection_priority_used_coin_toss
 8\n0ultimate_scepter_consumed_alchemist_bonus_health
 8\n3kKillEaterEventType_Broodmother_SpiderlingHeroKills
@@ -38667,7 +38665,6 @@ $hRh
 8\n4k_EGCMsgInitiateTradeResponse_Target_Already_Trading
 8\n4k_EGCMsgInitiateTradeResponse_Trade_Banned_Initiator
 8\n4k_EStartFindingMatchResult_WeekendTourneyNotUnlocked
-8\nP2
 8\n\fhunt_rewards
 8\n\ndire_stats
 8\n\nevent_ti10
@@ -38685,7 +38682,6 @@ $hRh
 8pe7?
 8q-S*]X
 8sOy
-8un|
 9#9%9)9/9=9A9M9[9k9y9}9
 9#DOTA_Hero_Selection_CaptainsMode_WaitingForChooseCaptain
 9)PF
@@ -38770,6 +38766,7 @@ $hRh
 :EXTERNAL TYPE %s\n
 :LBN
 :NAy
+:PIB
 :QYJ
 :Vlq
 :\n5kKillEaterEventType_Brewmaster_KillsDuringPrimalSplit
@@ -39254,7 +39251,6 @@ $hRh
 ?gwL
 ?jOb
 ?minlevel
-?modifier_slark_pounce
 ?open
 ?srJO
 ?streamonly=1
@@ -39264,9 +39260,9 @@ $hRh
 ?uWS
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
-@08N4&
+@0:PIB
 @0pp
-@2P2
+@204
 @333333)@R
 @888
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
@@ -39274,8 +39270,8 @@ $hRh
 @BoneSetup
 @C_DOTA_Ability_Kez_Shodo_Sai_Parry_Cancel
 @DebugIndividualStyle
-@HPX`hvP
-@HPXfp
+@HPX`hv@
+@HPXf`
 @Integer overflow in %s
 @MarketDataUpdated
 @MfKZ
@@ -41062,6 +41058,7 @@ BOGUS
 BOOL ABSENT
 BOOLEAN
 BPEventLevelIcon
+BPIB
 BPIN_txt
 BPLevel
 BReadyForDisplay
@@ -41115,7 +41112,6 @@ B\vp\n0
 B\vp\nP
 B_txt
 B`4I
-B`GB
 Background
 Background Image
 Background: Loading screen %u\n
@@ -41600,6 +41596,7 @@ BoxFinished
 BoxFocused
 BoxIdle
 BoxOpening
+BpXE
 Bracket
 Bracket%d
 BracketBoxContainer
@@ -48362,7 +48359,6 @@ Cycle: %.5f (%.5f)
 CycleButton
 D"bu
 D#D)D;D?DEDKDQDSDYDeDoD
-D(J5
 D(n%6
 D*64
 D.Hog^
@@ -49012,7 +49008,6 @@ DOTACancelHeroPick
 DOTACancelInProgressPurchase
 DOTACancelJoinChatChannel
 DOTACancelNewGuildRoleOrder
-DOTACancelOpeningSelectedTreasure
 DOTACancelPartyInvite
 DOTACancelPartyMergeRequest
 DOTACancelWatchGame
@@ -51917,6 +51912,7 @@ DOTARankTierTooltip
 DOTARankTypeUpdated
 DOTARankUpdated
 DOTARankedPhonePopupAssociate
+DOTAReadyUpPlayerSlot
 DOTAReadyUpPlayers
 DOTARealtimeGameStatsUpdated
 DOTARecalibrateMMR
@@ -52675,6 +52671,7 @@ DOTAShowNewPlayerHomePage()
 DOTAShowNewPlayerHomePageTier
 DOTAShowNextHeroPageV2
 DOTAShowNextTreasurePage
+DOTAShowOpenTreasureTooltip
 DOTAShowOverwatchReports
 DOTAShowOverworldHeroTooltip
 DOTAShowOverworldNodeTooltip
@@ -54108,6 +54105,7 @@ DPCStandings
 DPCStandingsSnippet
 DPCTeamLogo
 DPC_POINT_STANDINGS
+DPIB
 DPS: %.2f
 DREAMCOIL
 DROWN
@@ -54192,7 +54190,6 @@ D\n\tevent_ti6
 D\n\thunted_by
 D\n\vpredictions
 D\n\vtournaments
-D`GB
 Daily challenge: %s\n
 DailyBonusAvailable
 DailyBonusCountdown
@@ -56665,7 +56662,7 @@ FCVAR_UNLOGGED
 FCVAR_USERINFO
 FCVAR_VCONSOLE_SET_FOCUS
 FDA~i
-FDOTAShowOpenTreasureTooltip
+FDOTACancelOpeningSelectedTreasure
 FEATURED_GAMEMODE
 FEED_ALERT_FANTASY
 FEED_ALERT_PREDICTIONS
@@ -56731,8 +56728,8 @@ FXAA
 FXScenePanel
 FX_RicochetSound.Ricochet
 F\n ParticleFreezeTransitionOverride
+F\n04
 F\nAk_EMsgClientToGCMonsterHunterDevClaimInvestigationRewardsResponse
-F\nP2
 F\n\fachievements
 F\n\finventories2
 F\n\finventories3
@@ -63551,7 +63548,6 @@ MBb!\v
 MD5 part of OpenSSL 1.0.2j  26 Sep 2016
 MD5-SHA1
 MDC2
-MDOTAReadyUpPlayerSlot
 MDebugSnapshotDataRenderFn
 MDebugSnapshotDataSummaryFn
 MEATHOOK
@@ -63993,6 +63989,7 @@ Maybe
 MaybeAllocateAligned cannot fail here.
 Maynard Bot
 Mc]T=
+Mcheckedvalue
 Measure
 Measurement: Failed to convert JSON to KeyValues\n
 Measurement: Failed with HTTP status %d\n
@@ -66085,15 +66082,16 @@ P-256
 P-384
 P-521
 P08J
-P08N4&
+P08N$(
 P0WonMatch
 P1Avatar
 P1WonMatch
 P1\t98"
+P204
 P2Avatar
 P2P ping to "%s". Timed out after %.2fms\n
-P2P2
 P5[1
+P6p 
 PAGN_4
 PAGrave
 PAIN: %2.2f\n
@@ -66975,7 +66973,7 @@ Pitch: %6.1f   Yaw: %6.1f %38s
 PivotPaint
 PixarLog
 PixelArtScaler
-PjP2
+Pj04
 PlaceDecalEvent_t
 PlaceStickersButton
 PlaceholderText
@@ -68443,7 +68441,7 @@ R\n\vpredictions
 R\r1>Vp
 R\tV_iswcntrl
 R\vp!y
-R\vpT"
+R\vpD$
 R]Di
 R_T5Y
 Rad Guys
@@ -76328,7 +76326,7 @@ X\n\fSearchResult
 X\n\rkilling_blows
 X\n\tGraphData
 X\tQo
-X`hrP2
+X`hr04
 Xd3h
 Xdota
 XfJ7
@@ -76612,9 +76610,12 @@ Z~wl
 \fBlessingID_t
 \fCEntityIndex"
 \fKS1
-\fPGB
+\fPIB
+\fPkf
 \fW9c
 \fXu"L
+\f\fPIB
+\f\nPIB
 \f\tV_acosd
 \f]ne3
 \fdhWTh
@@ -77051,6 +77052,7 @@ Z~wl
 \n0CMsgGCToClientPurchaseFilteredPlayerSlotResponse
 \n0CMsgGCToClientRequestActiveBeaconPartiesResponse
 \n0CMsgGCtoGCAssociatedExploiterAccountInfoResponse
+\n0HC
 \n1CDOTAClientMsg_AbilitySpecificChannelRequiresHalt
 \n1CDOTAUserMsg_MonsterHunter_InvestigationGameState
 \n1CHelpRequestLogs_UploadUserApplicationLog_Request
@@ -77158,6 +77160,8 @@ Z~wl
 \nLeagueID_t"
 \nLeagueID_t"9\n#CMsgDOTACompendiumSelectionResponse
 \nLeagueID_t"C\n-CMsgDOTACompendiumRemoveAllSelectionsResponse
+\nPHC
+\nPIB
 \nPlayerID_t
 \nPlayerID_t"
 \nSimulating Entities:\n\n
@@ -78694,7 +78698,6 @@ Z~wl
 \n\vzoom_amount
 \ng_flConfigMaxCoord
 \ngrant_periodic_action '%s' doesn't specify an action to grant
-\npR8
 \nqYu
 \ntM(ie-V
 \nunit1: %s \nunit2: %s \nevent: %s \npriority: %d\n
@@ -78818,7 +78821,6 @@ Z~wl
 \tC_BaseEntity::Instance([%s]->InVRContinuous()) == [%s]\n
 \tCloseOpportunity()\n
 \tDd22
-\tDwave_interval
 \tEntity param "%s" returned NULL.\n
 \tFClassnameIs( [%s] 
 \tFailed delayed player swap!
@@ -79239,10 +79241,11 @@ _video
 _wjb
 _xU`u
 _}eOk
+`204
 `28)fk
-`2P2
-`2`GB
+`2PIB
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
+`:PIB
 `:zQF
 `D$daM-l
 `DZG
@@ -79250,13 +79253,13 @@ _}eOk
 `H(hqA1p
 `ITS
 `VX:H
-`Z`GB
+`ZPIB
 `\n+k_EHeroSelectionText_CaptainsMode_YouSelect
 `\n+k_EHeroSelectionText_RandomDraft_HeroReview
 `\n\rvector_values
 `\tV_logd
-`bP2
-`dP2
+`b04
+`d04
 `fPw.\vM
 `h9T~
 `o_je
@@ -79278,7 +79281,7 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBv4&
+aBv$(
 aD/x
 aDSS
 aECDH
@@ -80675,6 +80678,7 @@ bMutedText
 bMutedVoice
 bN.l
 bOverheadEffect
+bPIB
 bPb:L7X)
 bReturnUnslowed
 bSellable
@@ -80702,7 +80706,6 @@ b\tV_longjmp
 b\vP\n0
 b\vp\n0
 b]jY
-b`GB
 backdoor_protection
 backdoor_protection_in_base
 backend_response
@@ -82222,7 +82225,6 @@ chatwheel_id
 chatwheelindex
 cheating_conviction
 checked
-checkedvalue
 cheer_types_valid_all_users
 cheers
 cheers_crowd_burst
@@ -89222,6 +89224,7 @@ h2Wl
 h2n_\
 h5N.
 hActivator
+hAq}
 hAttacker
 hCallbackFunc
 hCallbackScope
@@ -89233,13 +89236,11 @@ hEntityA
 hEntityB
 hF\rDz
 hFcg
-hIy|
 hJxRX@_
 hN2D
 hRB.
 hRenderTexture != RENDER_TEXTURE_HANDLE_INVALID && m_image.IsValid()
 hThinkFunc
-hU7|
 hW*m
 hW1M
 hW_z
@@ -89268,6 +89269,7 @@ handle
 handshake
 handshake_enum
 hapticsType
+hap}
 hardlight
 hardstopspeakevent
 hardsupporticon
@@ -89384,7 +89386,6 @@ heartbeat
 heartbeat request already pending
 heat_delay
 heavy_steps
-heh|
 height-percentage
 height-percentage( %s )
 height_fog_caustic_amplitude_scale
@@ -89879,6 +89880,7 @@ https://www.youtube.com/watch?v=vem9TLjyrkg
 https://www.youtube.com/watch?v=wWoW9-HBIwI
 https://www.youtube.com/watch?v=xZnB5t8h2Xo
 https://www.youtube.com/watch?v=yIeu0x_v2tE
+huL|
 hud.equip.agh_scepter
 hud.equip.agh_shard
 hud_flip_changed
@@ -97290,6 +97292,7 @@ modifier_slark_essence_shift_permanent_buff
 modifier_slark_essence_shift_permanent_debuff
 modifier_slark_fish_bait_post
 modifier_slark_fish_bait_pre
+modifier_slark_pounce
 modifier_slark_pounce_charge_counter
 modifier_slark_pounce_leash
 modifier_slark_saltwater_shiv
@@ -99739,8 +99742,7 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^4&
-p2P2
+p204
 p2p_ping could not convert "%s" to a CPeerToPeerAddress\n
 p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n
@@ -101451,7 +101453,7 @@ payload + padding <= 16381
 payment gateway capabilities
 payment_row_usd
 payment_us_usd
-pbP2
+pb04
 pbeWithMD2AndDES-CBC
 pbeWithMD2AndRC2-CBC
 pbeWithMD5AndCast5CBC
@@ -101729,7 +101731,7 @@ pitchaxis
 pitchmax
 pitchmin
 pixelAspectRatio
-pjP2
+pj04
 pkL'
 pkcs
 pkcs decoding error
@@ -101997,7 +101999,6 @@ plus_subscription_end_date
 plus_subscription_item_def
 plus_subscription_renew_price
 plus_subscription_start_date
-pn4&
 pod_id
 point
 point arithmetic failure
@@ -102773,11 +102774,12 @@ rFur`7\t
 rIwdzZiHJbg
 rL[i+
 rOtk
+rPIB
 rRfKR
 rX&O0
 rZ1VwGf5
 rZPM
-r\fpT"
+r\fpD$
 r\n4k_EHeroSelectionText_AllDraft_TheyPicking_LosingGold
 r\n\nHuntReward
 r\n\vstart_index
@@ -102796,7 +102798,6 @@ r_dota_normal_maps 1
 r_dota_shadows 1
 r_printdecalinfo
 r_ssao 1
-r`GB
 rad2deg
 radar_cooldown
 radar_icon
@@ -103816,6 +103817,7 @@ rows_completed
 royal_jelly
 royal_jelly1
 royalblue
+rpHC
 rsa not implemented
 rsa operations not supported
 rsa routines

@@ -167,15 +167,15 @@
  (%lu = 0x%lx)\n
  (%u = 0x%x)\n
  (+%d more due to usercommand delivery)
- (08@HPX`j04
- (08@HPZ04
- (08@J04
+ (08@HPXbPE@
+ (08@HRPE@
+ (08@JPE@
+ (0X`hpzPE@
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
  (classmap missing)
  ** Entrypoint For Method '%s'
- *PIB
  - %s (%s)\n
  - (Additive)
  -0000
@@ -5595,7 +5595,6 @@
 #y"jl
 $$AG2Event::%s
 $$FakeOutput::AE_PULSE_GRAPH
-$$uos
 $)$=$A$C$M$_$g$k$y$}$
 $.CCloud_GetUploadServerInfo_Response":
 $.CPlayer_GetGameBadgeLevels_Response"U
@@ -7068,7 +7067,7 @@ $hRh
 (0'yX
 (0.1s interval)
 (0x%08X)'??'
-(2PIB
+(2 JB
 (5Me
 (5jP
 (?333?DOTAGuildIntroPage
@@ -8178,7 +8177,6 @@ $hRh
 *Enable the rendering of the hud
 *Gets the last-played times for the account
 *O\n\fDOTA_CM_PICK
-*PIB
 *Returns the player's community preferences
 *UlS
 *Y$ve
@@ -8517,6 +8515,7 @@ $hRh
 ,?IsUint32@Value@v8@@QEBA_NXZ
 ,ARu@y6
 ,I?Value@Number@v8@@QEBANXZ
+,PKC
 ,Reason=
 ,Service for dealing with user-submitted logsB
 ,ShfPQ
@@ -37339,12 +37338,11 @@ $hRh
 0234
 02V8[
 05=k
-08@HR04
-08B04
+08@JPE@
 08bX
 09,h
+0: JB
 0:%02d
-0:PIB
 0;Q5[
 0<cz
 0M2~@p
@@ -37637,6 +37635,7 @@ $hRh
 1}oP
 2 .CMsgBattleReport_CompareContext"
 2 .CMsgGCRoutingInfo.RoutingMethod:
+2 JB
 2 arguments expected: %s <map name> <override map name>\n
 2!.CMsgAddSocketResponse.EAddSocket"
 2!.CMsgBattleReport_HighlightRarity
@@ -37951,7 +37950,7 @@ $hRh
 2J.CMsgClientToGCMonsterHunterDevClaimInvestigationRewardsResponse.EResponse"u\n\tEResponse
 2K.CMsgClientToGCGetAvailablePrivateCoachingSessionsSummaryResponse.EResponse
 2L.CMsgClientToGCMonsterHunterRequestMaterialsNeededByFriendResponse.EResponse
-2PIB
+2PE@
 2Set of published file Ids to retrieve details for.
 2Tm=#
 2Uiwp"9
@@ -38228,6 +38227,7 @@ $hRh
 3w2URu
 3wQ]
 3|rN>
+4 JB
 4#DOTA_Hero_Selection_AllDraft_TheyPicking_LosingGold
 4(Optional) Sorting method to use on returned values.
 4)#bH
@@ -38241,8 +38241,8 @@ $hRh
 4@AA
 4Ch;
 4F0I
+4F\vP[u
 4Mv8
-4PIB
 4Redirection URI provided during client registration.2
 4Zis
 4\fPl
@@ -38601,15 +38601,14 @@ $hRh
 80F2<
 82\n:XPH
 851Pe
+858|
 89 89 89
+89D|
 8<pl
 8= zp
 8@HPZ
-8@HPZ04
-8@J04
 8A6j
-8B04
-8BPIB
+8B JB
 8Client ID for which to count the number of issued tokens"
 8GZS
 8Gets the list of nicknames this user has for other users
@@ -38619,7 +38618,6 @@ $hRh
 8SIffK5W
 8TZvrv<
 8TopArrow
-8\n04
 8\n0series_current_selection_priority_used_coin_toss
 8\n0ultimate_scepter_consumed_alchemist_bonus_health
 8\n3kKillEaterEventType_Broodmother_SpiderlingHeroKills
@@ -38766,7 +38764,6 @@ $hRh
 :EXTERNAL TYPE %s\n
 :LBN
 :NAy
-:PIB
 :QYJ
 :Vlq
 :\n5kKillEaterEventType_Brewmaster_KillsDuringPrimalSplit
@@ -39260,9 +39257,7 @@ $hRh
 ?uWS
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
-@0:PIB
 @0pp
-@204
 @333333)@R
 @888
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
@@ -39270,8 +39265,8 @@ $hRh
 @BoneSetup
 @C_DOTA_Ability_Kez_Shodo_Sai_Parry_Cancel
 @DebugIndividualStyle
-@HPX`hv@
-@HPXf`
+@HPX`hv
+@HPXf0
 @Integer overflow in %s
 @MarketDataUpdated
 @MfKZ
@@ -40895,6 +40890,7 @@ AwayTeamLogoVisible
 Axis
 AxisAngleToQuaternion
 Azwraith
+B JB
 B Load Layout Snippet
 B!rA
 B#B)B/BCBSBUB[BaBsB}B
@@ -40918,6 +40914,7 @@ B64_WRITE_PKCS7
 B8Z"h
 B9mXw8Voch0
 B>J7I
+B@YE
 BAD ENUMERATED
 BAD INTEGER
 BAD RECURSION DEPTH\n
@@ -41058,7 +41055,6 @@ BOGUS
 BOOL ABSENT
 BOOLEAN
 BPEventLevelIcon
-BPIB
 BPIN_txt
 BPLevel
 BReadyForDisplay
@@ -41107,11 +41103,13 @@ B\n\tbuildings
 B\n\tfavorites
 B\n\venum_result
 B\np\t0
+B\vP[u
 B\vP\n0
 B\vp\n0
 B\vp\nP
 B_txt
 B`4I
+B`YE
 Background
 Background Image
 Background: Loading screen %u\n
@@ -41596,7 +41594,6 @@ BoxFinished
 BoxFocused
 BoxIdle
 BoxOpening
-BpXE
 Bracket
 Bracket%d
 BracketBoxContainer
@@ -48357,6 +48354,7 @@ CustomizeSound
 CutToDefaultCamera
 Cycle: %.5f (%.5f)
 CycleButton
+D JB
 D"bu
 D#D)D;D?DEDKDQDSDYDeDoD
 D(n%6
@@ -54105,7 +54103,6 @@ DPCStandings
 DPCStandingsSnippet
 DPCTeamLogo
 DPC_POINT_STANDINGS
-DPIB
 DPS: %.2f
 DREAMCOIL
 DROWN
@@ -56728,7 +56725,6 @@ FXAA
 FXScenePanel
 FX_RicochetSound.Ricochet
 F\n ParticleFreezeTransitionOverride
-F\n04
 F\nAk_EMsgClientToGCMonsterHunterDevClaimInvestigationRewardsResponse
 F\n\fachievements
 F\n\finventories2
@@ -62480,6 +62476,7 @@ JDesired number of items in the voting queue.  May be clamped by the server",\n*
 JInferences using supplied data, or data associated with the specified key.
 JM0L
 JOINT-ISO-ITU-T
+JPE@
 JPEG
 JPQv
 JSConsoleInput
@@ -66081,17 +66078,17 @@ P-224
 P-256
 P-384
 P-521
-P08J
-P08N$(
+P08@JPE@
+P08J`
 P0WonMatch
 P1Avatar
 P1WonMatch
 P1\t98"
-P204
 P2Avatar
 P2P ping to "%s". Timed out after %.2fms\n
+P2PE@
 P5[1
-P6p 
+P:PE@
 PAGN_4
 PAGrave
 PAIN: %2.2f\n
@@ -66973,7 +66970,6 @@ Pitch: %6.1f   Yaw: %6.1f %38s
 PivotPaint
 PixarLog
 PixelArtScaler
-Pj04
 PlaceDecalEvent_t
 PlaceStickersButton
 PlaceholderText
@@ -68441,7 +68437,6 @@ R\n\vpredictions
 R\r1>Vp
 R\tV_iswcntrl
 R\vp!y
-R\vpD$
 R]Di
 R_T5Y
 Rad Guys
@@ -76326,7 +76321,6 @@ X\n\fSearchResult
 X\n\rkilling_blows
 X\n\tGraphData
 X\tQo
-X`hr04
 Xd3h
 Xdota
 XfJ7
@@ -76441,6 +76435,7 @@ ZL9L
 ZLIB
 ZLONG
 ZOffset
+ZPE@
 ZSz@
 ZXF,`i
 Z\n(k_EHeroSelectionText_CaptainsMode_YouBan
@@ -76610,12 +76605,8 @@ Z~wl
 \fBlessingID_t
 \fCEntityIndex"
 \fKS1
-\fPIB
-\fPkf
 \fW9c
 \fXu"L
-\f\fPIB
-\f\nPIB
 \f\tV_acosd
 \f]ne3
 \fdhWTh
@@ -77052,7 +77043,7 @@ Z~wl
 \n0CMsgGCToClientPurchaseFilteredPlayerSlotResponse
 \n0CMsgGCToClientRequestActiveBeaconPartiesResponse
 \n0CMsgGCtoGCAssociatedExploiterAccountInfoResponse
-\n0HC
+\n0U8
 \n1CDOTAClientMsg_AbilitySpecificChannelRequiresHalt
 \n1CDOTAUserMsg_MonsterHunter_InvestigationGameState
 \n1CHelpRequestLogs_UploadUserApplicationLog_Request
@@ -77160,8 +77151,6 @@ Z~wl
 \nLeagueID_t"
 \nLeagueID_t"9\n#CMsgDOTACompendiumSelectionResponse
 \nLeagueID_t"C\n-CMsgDOTACompendiumRemoveAllSelectionsResponse
-\nPHC
-\nPIB
 \nPlayerID_t
 \nPlayerID_t"
 \nSimulating Entities:\n\n
@@ -78698,6 +78687,7 @@ Z~wl
 \n\vzoom_amount
 \ng_flConfigMaxCoord
 \ngrant_periodic_action '%s' doesn't specify an action to grant
+\npKC
 \nqYu
 \ntM(ie-V
 \nunit1: %s \nunit2: %s \nevent: %s \npriority: %d\n
@@ -79241,11 +79231,10 @@ _video
 _wjb
 _xU`u
 _}eOk
-`204
+`2 JB
 `28)fk
-`2PIB
+`2PE@
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
-`:PIB
 `:zQF
 `D$daM-l
 `DZG
@@ -79253,13 +79242,11 @@ _}eOk
 `H(hqA1p
 `ITS
 `VX:H
-`ZPIB
+`Z JB
 `\n+k_EHeroSelectionText_CaptainsMode_YouSelect
 `\n+k_EHeroSelectionText_RandomDraft_HeroReview
 `\n\rvector_values
 `\tV_logd
-`b04
-`d04
 `fPw.\vM
 `h9T~
 `o_je
@@ -79281,7 +79268,6 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBv$(
 aD/x
 aDSS
 aECDH
@@ -80632,6 +80618,7 @@ a|gj(
 a|w9i
 b <= sizeof ctx->buf
 b <= sizeof ctx->final
+b JB
 b0FCLlvCRJw
 b0M%
 b2i_PVK_bio
@@ -80678,7 +80665,6 @@ bMutedText
 bMutedVoice
 bN.l
 bOverheadEffect
-bPIB
 bPb:L7X)
 bReturnUnslowed
 bSellable
@@ -80706,6 +80692,7 @@ b\tV_longjmp
 b\vP\n0
 b\vp\n0
 b]jY
+b`ZE
 backdoor_protection
 backdoor_protection_in_base
 backend_response
@@ -89224,7 +89211,6 @@ h2Wl
 h2n_\
 h5N.
 hActivator
-hAq}
 hAttacker
 hCallbackFunc
 hCallbackScope
@@ -89241,6 +89227,7 @@ hN2D
 hRB.
 hRenderTexture != RENDER_TEXTURE_HANDLE_INVALID && m_image.IsValid()
 hThinkFunc
+hUq}
 hW*m
 hW1M
 hW_z
@@ -89269,7 +89256,6 @@ handle
 handshake
 handshake_enum
 hapticsType
-hap}
 hardlight
 hardstopspeakevent
 hardsupporticon
@@ -89790,6 +89776,7 @@ hours_remaining
 houseIdentifier
 hover
 how_to_play
+hpzPE@
 hr_H
 href="
 hscroll
@@ -89880,7 +89867,6 @@ https://www.youtube.com/watch?v=vem9TLjyrkg
 https://www.youtube.com/watch?v=wWoW9-HBIwI
 https://www.youtube.com/watch?v=xZnB5t8h2Xo
 https://www.youtube.com/watch?v=yIeu0x_v2tE
-huL|
 hud.equip.agh_scepter
 hud.equip.agh_shard
 hud_flip_changed
@@ -89924,6 +89910,7 @@ hunter_rank_points
 hunter_rank_points_per_level
 hunter_rank_reward
 hunter_rank_unlock_level
+hup}
 hurtmebad
 huskar_berserkers_blood
 huskar_blood_magic
@@ -89938,7 +89925,6 @@ hype_loc
 hypothermia
 h|gg
 i <= EVP_MAX_MD_SIZE
-i bs
 i%YR
 i%|kB
 i(ERemoteStoragePublishedFileVisibility) Visibility of the published file (private, friends, public, etc.)
@@ -91888,6 +91874,7 @@ jLTKTz
 jM?5^Z?
 jNXcA
 jOJw"
+jPE@
 jTuf
 jV*d9O
 j[6Z
@@ -99742,7 +99729,8 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p204
+p0Jp
+p2PE@
 p2p_ping could not convert "%s" to a CPeerToPeerAddress\n
 p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n
@@ -99757,6 +99745,7 @@ p5Z3
 p5\nL,
 p618
 p>?Set@Template@v8@@QEAAXV?$Local@VName@v8@@@2@V?$Local@VData@v8@@@2@W4PropertyAttribute@2@@Z
+p>TY
 p@0pqE5tsO?|1
 pCheckpointName
 pD4t
@@ -101453,7 +101442,6 @@ payload + padding <= 16381
 payment gateway capabilities
 payment_row_usd
 payment_us_usd
-pb04
 pbeWithMD2AndDES-CBC
 pbeWithMD2AndRC2-CBC
 pbeWithMD5AndCast5CBC
@@ -101731,7 +101719,6 @@ pitchaxis
 pitchmax
 pitchmin
 pixelAspectRatio
-pj04
 pkL'
 pkcs
 pkcs decoding error
@@ -102745,6 +102732,7 @@ quiet
 quill_base_damage
 quill_stack_damage
 qx(q
+r JB
 r axis
 r$0I
 r-IE
@@ -102764,6 +102752,7 @@ r3c3
 r3c4
 r<\rND
 r>RGBA8888
+r@IC
 rAGW
 rB2pBB
 rC3rp
@@ -102774,12 +102763,10 @@ rFur`7\t
 rIwdzZiHJbg
 rL[i+
 rOtk
-rPIB
 rRfKR
 rX&O0
 rZ1VwGf5
 rZPM
-r\fpD$
 r\n4k_EHeroSelectionText_AllDraft_TheyPicking_LosingGold
 r\n\nHuntReward
 r\n\vstart_index
@@ -103817,7 +103804,6 @@ rows_completed
 royal_jelly
 royal_jelly1
 royalblue
-rpHC
 rsa not implemented
 rsa operations not supported
 rsa routines
@@ -110147,6 +110133,7 @@ zF):O4
 zFar
 zG2m8
 zNear
+zPE@
 zRXU 
 z\tV_sind
 zchangespeed

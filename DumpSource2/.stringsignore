@@ -30927,6 +30927,7 @@ dota_arty_cam_yaw
 dota_arty_cam_z
 dota_assisted_camera_operator_pure_interp_multiplier
 dota_attack_timer_buffer_ticks
+dota_audio_language_storage
 dota_auto_connect
 dota_auto_courier_auto_burst
 dota_auto_courier_deliver_visible_only

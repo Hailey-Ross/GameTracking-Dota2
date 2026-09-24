@@ -15879,11 +15879,8 @@ Animation Stack Information\n
 Animation references itself as blend target
 Animation references itself as the source animation
 Animation/AccumulatePose
-AnimationGraph
 AnimationSystem/DisableMoveMgrNetworkVars
-AnimationSystem: IK
 Animations from the specified model will be loaded and merged into this model at runtime.  Akin to QC's $includemodel
-Animgraph
 Animgraph File saved: %s<br>\n
 Animgraph Model base mismatch %s, %s\n
 AnimgraphPicker()
@@ -16279,7 +16276,6 @@ BoneName
 BoneOverlay
 BoneRelativeNode
 BoneReplacements
-BoneSetup
 Bonemerged
 Bonemerged With Morphs
 Bones to discard the specified motion from.  If no bones are specified, motion is discarded from all root bones, i.e. bones without a parent.
@@ -18407,7 +18403,6 @@ Draw grid points
 Draw ray segments X
 Draw ray segments Y
 Draw ray segments Z
-Draw ray tracing environment debug visualization in Hammer
 Draw wireframe
 DrawInstanceOverlay
 DrawMaterialSamplePoints: no ToolsVis mode for shader?\n
@@ -19064,7 +19059,6 @@ FaxMode
 FaxRecvParams
 FaxRecvTime
 FaxSubAddress
-FbxSystem
 FeEffectName
 Features
 FeetSettings
@@ -19400,7 +19394,6 @@ HSPHERE
 HairShader
 HalfLife
 HalftoneHints
-Hammer
 Hammer Map File Load
 Hammer temp export
 Hammer/ForceHighPrecisionTexcoords
@@ -20048,7 +20041,6 @@ Light Probe %s
 LightCookie
 LightMapMipCount
 LightMapResolution
-LightMapper
 Lightbinner Setup
 Lighting Dummy
 Lighting Origin
@@ -20274,7 +20266,6 @@ Map File
 Map Name
 Map Type
 MapAtom
-MapBuilder
 MapClass
 MapDoc Cloth World
 MapGrassTile
@@ -21104,7 +21095,6 @@ Particle snapshot data for file %s is empty. File will not be generated.\n
 Particle system that handles the generated model/snapshot (Must be authored specifically for this case to work properly)
 ParticleCompileBinaryIdenticalHack_underlying_struct
 ParticleParamID_t
-ParticlesLib
 Pass Outflow
 Path Deformer
 Path Locator
@@ -21142,7 +21132,6 @@ Photometric tag is missing, assuming data is YCbCr
 Photometric tag value assumed incorrect, assuming data is YCbCr instead of RGB
 PhotometricInterpretation
 Photoshop
-Physics
 Physics Joint Modification Mode
 Physics Particle
 Physics Pin
@@ -21649,7 +21638,6 @@ Render Order
 Render Probe Radius
 Render Properties
 Render Resolution
-Render Steam Audio Probes even when probes are unselected.
 Render To Cubemaps
 Render With Dynamic
 Render internally at this size for effective super-sampling.
@@ -21871,7 +21859,6 @@ Scales existing wrinkle map values on morphs
 ScalpD
 Scene
 SceneInfo
-SceneSystem
 SceneSystem/ComputeShaderSkinning
 Schema description file
 Scratch Float
@@ -22198,7 +22185,6 @@ Smoothing Angle
 Snap to grid
 SnappingEnabled
 SnapshotFile
-SnapshotVertexExtraction
 Soft Link
 Softbody
 Software
@@ -22770,7 +22756,6 @@ Tool Brushes
 Tool Material
 ToolAttributes
 ToolDrag
-ToolEvents
 ToolSelect
 Tools - Hammer
 Tools Auto-Checkout
@@ -23064,7 +23049,6 @@ VFX_RULE_UNKNOWN
 VLJN
 VMAP %d Char/Wpn %d
 VNOTIFY_DISABLE
-VNotify
 VNotify Abandoned (ActiveProtocolIsNewer)\n
 VNotify Abandoned (No ProcessUtils)\n
 VNotify Abandoned (Not enabled)\n
@@ -23187,7 +23171,6 @@ Visualize Values
 Volume Random Minimum Scale - to randomize the amount of contents - 0 = none to full range
 Volume scale - to have more or less contents
 Volumetric Solve Strength
-VolumetricFog
 Voronoi Plane Primitive
 Vortices
 Voxel volume (%i components)
@@ -25723,43 +25706,8 @@ hammer
 hammerClipboard
 hammerMeshDataBuffer
 hammerUniqueId
-hammer_analytic_grid
-hammer_analytic_grid_transparent
-hammer_bevel_leave_edges
-hammer_dota_path_falloff
-hammer_dota_path_fixup
-hammer_dota_path_opacity
-hammer_dota_path_sharpness
-hammer_dota_path_use_material_settings
-hammer_dota_path_width
-hammer_draw_bounds
-hammer_draw_dirty_bounds
-hammer_draw_model_raytrace_data
-hammer_draw_model_skeleton
-hammer_draw_overlay_triangles_in_box
 hammer_embedded_properties
-hammer_face_debug_info
-hammer_gridnav_always_update
-hammer_gridnav_preview_radius
-hammer_gridnav_show_creature_blocking
-hammer_gridnav_show_hero_blocking
-hammer_gridnav_show_impassable
-hammer_gridnav_show_obstructions
-hammer_gridnav_show_ward_blocking
-hammer_isosurface_merge_tolerance
-hammer_isosurface_remove_interior
-hammer_isosurface_sample_offset
-hammer_isosurface_subtract
-hammer_overlay_draw_projection_triangles
-hammer_parallel_terrain_update
 hammer_preview_lighting
-hammer_raytrace_debug_draw
-hammer_render_model_bounding_spheres
-hammer_tile_border_size
-hammer_use_minimum_element_count_for_loop
-hammer_vis_opacity
-hammer_world_trace_multisample
-hammer_world_trace_pack_rays
 handshake
 handshakeTypes
 hard_lock
@@ -26718,7 +26666,6 @@ modeldoc_utils
 modeldocattr
 modeldocnode.%s
 modelgamedata
-modellib
 models/dev/error.vmdl
 models/editor/axis_helper.vmdl
 models/editor/axis_helper_disabled.vmdl
@@ -26823,7 +26770,6 @@ nav_link_movement_reverse
 nav_link_preview
 nav_link_preview_reverse
 nav_unmark; nav_mark ladder %d; nav_warp_to_mark\n
-nav_validate
 navclip
 navlink
 navlink_type
@@ -27698,8 +27644,6 @@ small_terrain_vmap_3
 smartPropConfigurationHelper
 smartPropFilename
 smartPropPartSet
-smartprop_print_timings
-smartprops
 smooth_by_distance
 smooth_distance
 smooth_normals_across_uv_seams
@@ -27717,11 +27661,6 @@ snapshotOverride
 snapshot_file
 snapshot_mesh
 snd_event_box_helper
-snd_steamaudio_baked_occlusion_mode
-snd_steamaudio_baked_occlusion_pathing_deviation_slope
-snd_steamaudio_baked_occlusion_pathing_exponent
-snd_steamaudio_baked_occlusion_reflection_factor
-snd_steamaudio_hammer_probes_always_render
 soft_hinge_link
 soft_x
 soft_y

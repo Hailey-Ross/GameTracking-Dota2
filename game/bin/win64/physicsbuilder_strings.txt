@@ -8661,7 +8661,6 @@ Draw Order
 DrawMaterialSamplePoints: no ToolsVis mode for shader?\n
 Drive a morph channel based on a remapped range of the angle between a bone's up-vector and the direction to a target bone.
 DriverBone
-DualHull
 DumpModeDecode: Not enough data for scanline %d
 Duplicate Faces
 Duplicate Faces Reset Pivot
@@ -10594,7 +10593,6 @@ Smooth Normals Across UV Seams
 Smooth Rate
 Smooth Vertex Normals
 Snap to grid
-SnapshotVertexExtraction
 Soft Link
 Softbody
 Software
@@ -10898,7 +10896,6 @@ TongueV
 TongueWidth
 Too much
 Tool Material
-ToolEvents
 Top Vortex Wind Speed, mph
 Torsion Stiffness
 Totals
@@ -12734,7 +12731,6 @@ modeldoc_editor
 modeldocattr
 modeldocnode.%s
 modelgamedata
-modellib
 models/editor/axis_helper_thick.vmdl
 models/editor/camera.vmdl
 models_gamedata

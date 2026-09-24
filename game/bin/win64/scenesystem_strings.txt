@@ -1782,7 +1782,6 @@ CharWidth
 CharacterDecal
 CharacterDecalMonitorViewDS.vtex
 CharacterDecalMonitorViewRT.vtex
-CharacterDecalRenderer
 CharacterDecalRendererManifest
 CharacterSet
 Characters
@@ -2130,7 +2129,6 @@ DecalNormals_%d.vtex
 DecalRenderTarget_Staging.vtex
 DecalRenderingLayer
 DecalRenderingView
-Decals
 Declared shortcut routes automatically set key owner when mods matches.
 DecompressTextureBits
 Decoration
@@ -2287,7 +2285,6 @@ DrawShadowMapsForLight
 Drawing aggregates without valid meshlets, please recompile the map!
 Drawing instanced meshes without meshlets, please recompile the map!
 Dsmall
-DualHull
 Dummy
 Dynamic Decals
 Dynamic list with Delete key support.
@@ -3297,7 +3294,6 @@ L@33
 LATE_FRAGMENT_TESTS
 LEVERAGE\nBUZZWORD
 LHLQ
-LIGHTBINNER
 LLLLLLL
 LOD Debugging
 LPVIndex
@@ -3960,7 +3956,6 @@ PerViewLightingConstantBufferGpu_t
 Period
 Perry
 Pf`\fV
-Physics
 PiYG
 Picker Mode
 Pie Charts
@@ -4257,12 +4252,10 @@ Render3DLineOverlays
 Render3DSolidSphereOverlays
 Render3DSphereOverlays
 Render3DVectorTextOverlays
-RenderGraph
 RenderLayerDrawListPart
 RenderPipelineAliases
 Rendering more items on the same line
 RenderingPipelineForwardManifest
-RenderingPipelines_001
 Reorderable Tabs
 Reorderable, hideable, with headers
 Requested Blend Weight Limit of %d is too large, setting to system max of %d
@@ -4411,7 +4404,6 @@ SceneLPVDebugGridObjectDesc
 SceneLPVDebugGridObjectVB
 SceneObjects
 SceneObjects drawn: %s in %s draw calls and %s meshlet dispatches\n
-SceneSystem
 SceneSystem/AssertViewportWithinFramebuffer
 SceneSystem/CMTAtlasHeight
 SceneSystem/CMTAtlasWidth
@@ -4738,7 +4730,6 @@ SourceIdx: %d
 South
 Space
 Space to activate a widget.
-SparseShadowTree
 SparseShadowTreeManifest
 Specify height of the Selectable item.
 Spectral
@@ -5035,7 +5026,6 @@ To TTY
 To call IM_DEBUG_BREAK() %s:
 Toggle..
 Tomato
-ToneMapping
 TonemapManifest
 Tonemapping_DefaultAutoExposureMax
 Tonemapping_DefaultAutoExposureMin
@@ -5258,7 +5248,6 @@ VisualizeCulled
 Voltage
 VolumeMaxs
 VolumeMins
-VolumetricFog
 VolumetricFogManifest
 Voxelize Density
 Voxelize Tangents
@@ -5411,7 +5400,6 @@ WidthStretch
 Wiki
 Wiki page:
 Will call the IM_DEBUG_BREAK() macro to break in debugger.\nWarning: If you don't have a debugger attached, this will probably crash.
-Wind
 WindControllerManifest
 Window
 Window '%s' -> DockId %08X DockOrder=%d

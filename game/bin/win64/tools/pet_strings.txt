@@ -4862,7 +4862,6 @@ Base Properties
 Base-10 logarithm
 Base-2 logarithm
 BaseConnection
-BaseEditor
 BaseExprOp
 BaseExprOpBinary
 BaseExprOpUnary
@@ -5922,7 +5921,6 @@ Draw Shadows
 DrawBoneNamesChanged
 DrawSkyboxChanged
 Dslow
-DualHull
 DummyNoOp
 DumpModeDecode: Not enough data for scanline %d
 Duplicate
@@ -6348,7 +6346,6 @@ Hack Dota Layer Opaque
 Hack Dota Layer Opaque Translucent
 Hakz
 HalftoneHints
-Hammer
 HammerEntityPicker()
 Has All Flags
 Has Any Flags
@@ -6473,7 +6470,6 @@ Input Sequence
 Input type '%s' not supported
 Input value which will be compared to the cases below.
 Input:
-InputBindSystem
 Insert 'element' in the given index in 'a', increasing its count by one and moving the elements after index.
 Instead of calling an Input on an Entity, call it on the associated Game Blackboard.
 Insufficient data length.\n
@@ -7493,14 +7489,12 @@ ParticleFunctionType_t
 ParticleParamID_t
 ParticlePreview
 ParticleVariableRef
-Particles
 Particles/Budget_ActualTraces
 Particles/Budget_EstimatedTraceCostUS
 Particles/Budget_IntersectionTests
 Particles/Budget_OverallocationThreshold
 Particles/Budget_RenderUS
 Particles/Budget_SimulationUS
-ParticlesLib
 Pass Outflow
 Paste
 Paste (Overwrite)
@@ -7565,7 +7559,6 @@ Photometric tag is missing, assuming data is YCbCr
 Photometric tag value assumed incorrect, assuming data is YCbCr instead of RGB
 PhotometricInterpretation
 Photoshop
-Physics
 Physics Debug Draw
 Pick
 Pick Global Background
@@ -7996,7 +7989,6 @@ Scale:
 Scale: (%g,%g,%g) 
 SceneCameraChanged
 ScenePreview
-SceneSystem
 ScrLk
 ScrToggle
 Scripted Sequence '%s'
@@ -8425,15 +8417,12 @@ Too much
 ToolAttr command '%s' failed.
 ToolBarArea
 ToolEditContext_ID_AttributeEditorOptions
-ToolEvents
 ToolFramework
-ToolScene
 ToolSceneDebugOverlays
 ToolSceneGizmo
 ToolSceneTraceResult_t*
 ToolSceneWidget
 ToolSceneWidget%d
-ToolSystem2_001
 ToolWindowGrid
 Tools  
 Tools audio currently muted
@@ -8455,7 +8444,6 @@ Tools_Unlit_Translucent
 Tools_Unlit_TranslucentNOZ
 Tools_Unlit_Wireframe
 Toolscene screen space view
-Toolutils
 Total
 Track Largest System Bounds
 Track Mouse & Focus
@@ -8600,7 +8588,6 @@ VDataChoice
 VDataChoice( %s )
 VDataChoice()
 VNOTIFY_DISABLE
-VNotify
 VNotify Abandoned (ActiveProtocolIsNewer)\n
 VNotify Abandoned (No ProcessUtils)\n
 VNotify Abandoned (Not enabled)\n
@@ -9620,7 +9607,6 @@ gamedata
 gameitemclass
 gameunitclass
 geometry
-gizmo_rot_max_dist
 global
 graph_def
 graph_is_public
@@ -9637,12 +9623,6 @@ h\v?event@QTabWidget@@MEAA_NPEAVQEvent@@@Z
 h^>zV
 ha?window@QPalette@@QEBAAEBVQBrush@@XZ
 halfgridsnap
-hammer_gizmo_2dscale
-hammer_gizmo_axis_length
-hammer_gizmo_axis_scale
-hammer_gizmo_compute_matrix
-hammer_gizmo_line_thickness
-hammer_gizmo_rot_inflate
 has_cursor_interrupt_priority
 hbox
 hcenter
@@ -10007,7 +9987,6 @@ model_runtime_cloth_node
 modelanimevent
 modelbreakcommand
 modelgamedata
-modellib
 models/editor/axis_helper_thick.vmdl
 models/editor/camera.vmdl
 modelstatechoices
@@ -10148,11 +10127,6 @@ pathclass
 pathnode
 pathnodeclass
 pet.dll
-pet_disable_test_mode
-pet_named_value_cache_debug
-pet_preview_gravity
-pet_preview_underwater
-pet_preview_wind
 pickedColor
 pixelAspectRatio
 point
@@ -10179,7 +10153,6 @@ propattr_flatten_into_parent_row
 propattr_flatten_stretch_factor
 propattr_force_readonly
 propdataname
-proped_attr_logging
 property_editor_settings
 propertyeditor
 pseudo-
@@ -10188,7 +10161,6 @@ public.vsnd_files
 pulse_bindings
 pulse_editor
 pulse_editor_map_entities
-pulse_fgd_debug_path
 pulse_node_custom_attributes
 pulse_open_graph_id %u %u
 pulse_runtime_lib
@@ -10297,9 +10269,6 @@ snapshot
 snapshot_local_bone
 snapshot_max_verts
 snapshot_original
-snd_event_browser_default_stack
-snd_event_browser_default_vsnd_field
-snd_event_browser_focus_events
 solid
 solidclass
 sort_priority
@@ -10379,7 +10348,6 @@ tool_request_args
 tool_request_text
 tool_request_tool
 toolbarArea
-toolhud_enable
 tools code
 tools.reference_notrace
 tools/colors/shared_colors.txt
@@ -10430,8 +10398,6 @@ tools/keybindings/shared_tool_key_bindings.txt
 toolsMaterial
 toolsVisModeIndex
 tools_preview
-tools_renderscenes
-toolscene_gizmo_algorithm
 toolscenenodes
 toolscenevismodes.txt
 transparency

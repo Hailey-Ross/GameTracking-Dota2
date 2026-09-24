@@ -15157,7 +15157,6 @@ $worldspacetype
 08BP
 08bX
 09,h
-0: detect, 1: single param, 2: multi param
 0;Q5[
 0<cz
 0HVG
@@ -20127,7 +20126,6 @@ BakedLightingBuilderEnabledChanged
 BakedLightingBuilderQualityChanged
 BakedLightingBuilderResolutionChanged
 BakedLightingQuality
-Bakes all cubemaps with distinct solid colors, for debugging purposes
 Baking %i tile meshes
 Baking mesh deformers requires a selecting one or more meshes with deformers applied.
 Ball Offset
@@ -20168,7 +20166,6 @@ BaseAnimModifier
 BaseBoneListMeshModifier
 BaseConfigElementWithNestedConfigs
 BaseConfigNode
-BaseEditor
 BaseIKJointConstraint
 BaseItem
 BaseItem "%s" in item "%s" not found.\n
@@ -23688,7 +23685,6 @@ DebugWidgetUnderMouse
 DebugWidgetWithFocus
 Debuger Break With Widget
 Debugger break with widget: 0x%p\n
-Decals
 Decay Time
 Decipher Only
 DecompressTextureBits
@@ -24242,7 +24238,6 @@ Draw grid points
 Draw ray segments X
 Draw ray segments Y
 Draw ray segments Z
-Draw ray tracing environment debug visualization in Hammer
 Draw wireframe
 DrawBoneNamesChanged
 DrawDistance
@@ -24263,7 +24258,6 @@ Drop Thicken Tool
 DropTool
 DsBV
 Dual sequence combine mode
-DualHull
 DummyNoOp
 DumpModeDecode: Not enough data for scanline %d
 Duplicate
@@ -24842,7 +24836,6 @@ Error reading attribute "%s"
 Error reading from loaded packed store "%s"
 Error reading in array attribute "%s" element %d
 Error reading sub-version number.\n
-Error tolerance for adaptive sampling.
 Error unable to find studio model "%s" in "SOURCE_1_EXPORT_CONTENT_PATH_ID" referred to by %s!\n
 Error writing TIFF header
 Error writing data for field "%s"
@@ -26143,7 +26136,6 @@ HairShader
 Half-Lambert Normals
 HalfLife
 HalftoneHints
-Hammer
 Hammer %s
 Hammer Active Material
 Hammer Auto-Checkout
@@ -26733,7 +26725,6 @@ Input morph control for a specific delta
 Input morph params
 Input/output error
 Input:
-InputBindSystem
 InputLayoutBuilder
 Inputs
 Insert 'element' in the given index in 'a', increasing its count by one and moving the elements after index.
@@ -27031,7 +27022,6 @@ Kochanek-Bartels Late
 KsF8
 Ksg4X
 KuBEN
-KubeJobs
 K{"Kb,p
 K|oT
 L Ankle
@@ -27238,7 +27228,6 @@ Light Probe %s
 LightCookie
 LightMapMipCount
 LightMapResolution
-LightMapper
 Lightbinner Setup
 LighterToolbar
 Lighting Dummy
@@ -27298,7 +27287,6 @@ Load Source Asset in Associated Editor
 Load Vis Data
 Load at runtime
 Load certs from files in a directory
-Load debug_path_trace_scene_info.dat for RT baked lighting visualization instead of using the current map.
 Load file into cache
 Load if nested
 Load in engine after building
@@ -27594,7 +27582,6 @@ Map does not contain any blend data that needs to be remapped.
 Map file(*.vmap)
 Map not loaded
 MapAtom
-MapBuilder
 MapBuilderSettingsChanged
 MapChoiceGroupEditor
 MapClass
@@ -27749,7 +27736,6 @@ Max angle
 Max distance value
 Max number of LODs
 Max number of Nav Areas limit reached (%i).
-Max number of samples per triangle. Higher is more quality/slower.
 Max total triangle count (all LODs)
 Max total vertex count (all LODs)
 Max triangle count of LOD0
@@ -27883,7 +27869,6 @@ Min Yaw
 Min angle
 Min distance from plane
 Min distance value
-Min number of samples per triangle. Higher is more quality/slower.
 Min: %1
 MinExposure
 MinSampleValue
@@ -29782,10 +29767,7 @@ Particle snapshot data for file %s is empty. File will not be generated.\n
 Particle system that handles the generated model/snapshot (Must be authored specifically for this case to work properly)
 ParticleCompileBinaryIdenticalHack_underlying_struct
 ParticleConfigName
-ParticleImport
 ParticleParamID_t
-Particles
-ParticlesLib
 Pass Outflow
 Paste
 Paste &Special...
@@ -29863,7 +29845,6 @@ PhotometricInterpretation
 Photoshop
 Physical Specular + Diffuse
 Physical Specular Only
-Physics
 Physics Debug Draw
 Physics Joint Modification Mode
 Physics Particle
@@ -31030,7 +31011,6 @@ Render Screen Shake
 Render Sound
 Render State
 Render Status Effect
-Render Steam Audio Probes even when probes are unselected.
 Render Tint:
 Render To Cubemaps
 Render UI material to RT
@@ -31115,7 +31095,6 @@ Replaced %d occurrences of the string '%s' with '%s'.
 Replacement
 Replacement String
 Replacing objects
-Report RTX perf stats at N bounces. -1 means no report
 ReportEventW
 Reposition To Match Local Offset
 Reposition to match local offset
@@ -31726,7 +31705,6 @@ ScalpD
 SceneCameraChanged
 SceneInfo
 ScenePreview
-SceneSystem
 SceneSystem/ComputeShaderSkinning
 Schema description file
 ScrLk
@@ -32404,9 +32382,6 @@ Should baked lighting be generated for this object. If default is selected, the 
 Should have already been loaded via CVDataTypeManager::RegisterExtRefs
 Should it be considered an error if this bone isn't found to rename?
 Should the pin apply to the angles of this node. If disabled this node will only translate with the target node, its rotation will be unaffected by the rotation of node it is pinned to.
-Should we bake cubemaps?
-Should we bake light probe volumes?
-Should we bake vertex lighting?
 ShouldPunchThroughPolymorphism
 Show &Key Bindings...
 Show 2D Grid
@@ -32471,7 +32446,6 @@ Show fog entity far Z
 Show helpers
 Show hidden
 Show node ids
-Show only bounce N in path-tracing views. -1 means show all bounces
 Show regardless of user setting
 Show tools materials
 ShowAllCommandsPopup
@@ -32666,7 +32640,6 @@ Smooth blend values
 Smooth edges
 SmoothModifier
 Smoothing Angle
-Smoothing amount, if != 0, smooths lighting at vertex.
 Sn^G
 Snap Edge To Edge
 Snap Edges
@@ -32700,7 +32673,6 @@ Snapshot Simulation State
 Snapshot simulation
 SnapshotFile
 SnapshotSimulation
-SnapshotVertexExtraction
 Soft Link
 Soft Normals
 Softbody
@@ -32747,7 +32719,6 @@ Source node has no mesh data
 Source1 env_fog_controller input "%s" does not map to a Source2 input
 Source1 env_tonemap_controller input "BlendTonemapScale" does not map to a Source2 input
 Source1 env_tonemap_controller input "SetBloomExponent" does not map to a Source2 input
-Source1Import
 Source\Tools\Settings
 South
 Space
@@ -32932,7 +32903,6 @@ Steam Audio: No data set to create materials probe nodes!\n
 Steam Audio: No data set to create occlusion probe nodes!\n
 Steam Audio: No data set to create pathing probe nodes!\n
 Steam Audio: No data set to create reverb probe nodes!\n
-SteamAudio
 SteamAudioBakeData
 SteamAudioBuilderEnabledChanged
 SteamAudioCreateProbeExclusionVolume
@@ -33262,7 +33232,6 @@ Test Enum
 Test Items
 Test Mode Assert True
 Test Terrain Item
-Test baking preview lighting
 Test/example node - has no effect.
 TestCheckpoint: %s
 TestNode
@@ -33807,7 +33776,6 @@ ToolEdgeSelection
 ToolEditContext_ID_AnimGraphEnumName
 ToolEditContext_ID_AttributeEditorOptions
 ToolEntity
-ToolEvents
 ToolFaceBevel
 ToolFaceSelection
 ToolFastTexture
@@ -33830,7 +33798,6 @@ ToolPivotPicker
 ToolPlaceNavWalkable
 ToolPolygon
 ToolPropertyBar
-ToolScene
 ToolSceneDebugOverlays
 ToolSceneTraceResult_t*
 ToolSceneWidget
@@ -33838,7 +33805,6 @@ ToolSceneWidget%d
 ToolSelect
 ToolSelection
 ToolStaticOverlay
-ToolSystem2_001
 ToolTerrain
 ToolTextureProjection
 ToolThicken
@@ -33941,7 +33907,6 @@ Treat Warnings as Errors
 Treat as one
 Tree Type
 Trees
-Triangle batch size.
 Triangle count of hammer geometry
 Tried to load a polymorphic pointer with no '%s' key
 Tried to rename from '%s' to '%s', but '%s' already exists\n
@@ -33960,8 +33925,6 @@ Trying to load model data from a non-model resource: %s\n
 Tu\t(OR
 Turn a time in seconds into a display string. NOT localized.
 Turn off animation compression for this animation.<p><span style="color:#aa0000"><b>NOTE</b></span>: This significantly increases the size of the animation data.<p>Normally it should be false but if there are obvious compression artifacts, typically in tiny rotations, disabling compression may fix those.
-Turns on gpu preview lighting for a view
-Turns on gpu ray tracing for a view
 Twist Relax
 Twist:
 Two Sided
@@ -34433,7 +34396,6 @@ VMS_LOAD
 VMS_MERGER
 VMS_UNLOAD
 VNOTIFY_DISABLE
-VNotify
 VNotify Abandoned (ActiveProtocolIsNewer)\n
 VNotify Abandoned (No ProcessUtils)\n
 VNotify Abandoned (Not enabled)\n
@@ -34663,13 +34625,10 @@ Visualize Mover
 Visualize Values
 Visualize Wobbler
 VisualizeWindSceneObject
-VmfToVmap
-VmtToVmat
 VoidSlot
 Volume Random Minimum Scale - to randomize the amount of contents - 0 = none to full range
 Volume scale - to have more or less contents
 Volumetric Solve Strength
-VolumetricFog
 Voronoi Plane Primitive
 Vortices
 Voxel volume (%i components)
@@ -34907,7 +34866,6 @@ World/Static Props
 World/Tile Meshes
 WorldHeight
 WorldModel
-WorldRenderer
 WorldRenderer/DirectLightBaking
 WorldRenderer/EnvironmentMapColorSpace
 WorldRenderer/EnvironmentMapFaceSize
@@ -39264,7 +39222,6 @@ gameitemclass
 gameplay_identifier
 gamepreview
 gameunitclass
-gamma_to_linear
 gangindex
 gangtotal
 gb`X
@@ -39307,7 +39264,6 @@ ggen
 gi%3e
 givenName
 gizmo
-gizmo_rot_max_dist
 gj8(
 global
 globalPos
@@ -39434,100 +39390,10 @@ hammer.dll
 hammerClipboard
 hammerMeshDataBuffer
 hammerUniqueId
-hammer_add_edge_fade_size
-hammer_analytic_grid
-hammer_analytic_grid_transparent
 hammer_asset_tag_visualizations.txt
-hammer_bake_cubemap_debug_colors
-hammer_bake_light_bake_cubemaps
-hammer_bake_light_bake_light_probe_volumes
-hammer_bake_light_bake_vertex_lighting
-hammer_bake_light_debug_path_trace_scene_info_from_build
-hammer_bake_light_sample_smoothing
-hammer_bake_light_samples_per_triangle_error
-hammer_bake_light_samples_per_triangle_max
-hammer_bake_light_samples_per_triangle_min
-hammer_bake_light_triangle_batch_size
-hammer_bevel_leave_edges
-hammer_bridge_drag_pixels_per_step
 hammer_commands
-hammer_diff_gridnav
-hammer_dota_paint_flat_radius
-hammer_dota_path_falloff
-hammer_dota_path_fixup
-hammer_dota_path_opacity
-hammer_dota_path_preview
-hammer_dota_path_sharpness
-hammer_dota_path_use_material_settings
-hammer_dota_path_width
-hammer_dota_proxy_handle_spacing
-hammer_dota_rebuild_paths
-hammer_draw_bounds
-hammer_draw_dirty_bounds
-hammer_draw_model_raytrace_data
-hammer_draw_model_skeleton
-hammer_draw_overlay_triangles_in_box
-hammer_edge_debug_info
 hammer_embedded_properties
-hammer_enable_debug_overlays
-hammer_entity_report_refresh
-hammer_extended_box_gizmo_handles
-hammer_face_debug_info
-hammer_force_autosave
-hammer_force_io_param_widget
-hammer_gizmo_2dscale
-hammer_gizmo_axis_length
-hammer_gizmo_axis_scale
-hammer_gizmo_compute_matrix
-hammer_gizmo_line_thickness
-hammer_gizmo_rot_inflate
-hammer_gridnav_always_update
-hammer_gridnav_preview_radius
-hammer_gridnav_show_creature_blocking
-hammer_gridnav_show_hero_blocking
-hammer_gridnav_show_impassable
-hammer_gridnav_show_obstructions
-hammer_gridnav_show_ward_blocking
-hammer_hud_enable
-hammer_isosurface_merge_tolerance
-hammer_isosurface_remove_interior
-hammer_isosurface_sample_offset
-hammer_isosurface_subtract
-hammer_map_files
-hammer_open_edge_hash_length
-hammer_open_edge_hash_spacing
-hammer_overlay_draw_projection_triangles
-hammer_parallel_terrain_update
-hammer_prefab_tree
 hammer_preview_lighting
-hammer_raytrace_debug_draw
-hammer_render_model_bounding_spheres
-hammer_rotate_up_dot
-hammer_save_gridnav
-hammer_show_face_uvs
-hammer_show_input_debugger
-hammer_show_light_truncation_error
-hammer_spawn_area_base_alpha
-hammer_spawn_area_outline_alpha
-hammer_ssao_enable
-hammer_stroke_steps
-hammer_test_bake_preview_lighting
-hammer_test_turn_on_gpu_preview_lighting
-hammer_test_turn_on_gpu_raytracing
-hammer_tile_border_size
-hammer_tileset_maps
-hammer_translucent_enable
-hammer_vertex_normal_paint_brush_screensize
-hammer_vertex_normal_paint_brush_size_max
-hammer_vertex_normal_paint_cached_mesh_evict_distance
-hammer_vertex_normal_paint_debug_triangulation
-hammer_vertex_normal_paint_initial_brush_radius
-hammer_vertex_normal_paint_initial_strength
-hammer_vis_opacity
-hammer_worklight_brightness
-hammer_worklight_range
-hammer_world_trace_multisample
-hammer_world_trace_pack_rays
 hammermesh-%s
 handle_to_door
 handshake
@@ -40671,7 +40537,6 @@ linear_freqeuncy
 linear_frequency
 linear_interp
 linear_only
-linear_to_gamma
 link_existing_asset
 list cannot be null
 list error
@@ -41494,7 +41359,6 @@ modeldoc_utils
 modeldocattr
 modeldocnode.%s
 modelgamedata
-modellib
 models/dev/error.vmdl
 models/editor/axis_helper.vmdl
 models/editor/axis_helper_disabled.vmdl
@@ -41692,7 +41556,6 @@ nav_link_movement_reverse
 nav_link_preview
 nav_link_preview_reverse
 nav_unmark; nav_mark ladder %d; nav_warp_to_mark\n
-nav_validate
 navclip
 navgen_on_ref_ent
 navlink
@@ -42392,9 +42255,6 @@ permittedSubtrees
 personalSignature
 personalTitle
 pervertexlighting
-pet_preview_gravity
-pet_preview_underwater
-pet_preview_wind
 phonememap
 photo
 phrase is too short, needs to be at least %d chars\n
@@ -42711,7 +42571,6 @@ propattr_flatten_stretch_factor
 propattr_force_readonly
 propattr_stretch_editor_into_label_column
 propdataname
-proped_attr_logging
 property:
 propertyNameIndices
 propertyNames
@@ -43148,8 +43007,6 @@ rtcReleaseGeometry
 rtcReleaseScene
 rtcSetDeviceErrorFunction
 rtcSetSharedGeometryBuffer
-rtx_perf_stats
-rtx_show_bounce
 run for killed parent particles
 run length compression
 rw4rs
@@ -43788,8 +43645,6 @@ small
 smartPropConfigurationHelper
 smartPropFilename
 smartPropPartSet
-smartprop_print_timings
-smartprops
 smime text error
 smime.p7m
 smime.p7z
@@ -43817,14 +43672,6 @@ snapshot_control_point
 snapshot_file
 snapshot_mesh
 snd_event_box_helper
-snd_event_browser_default_stack
-snd_event_browser_default_vsnd_field
-snd_event_browser_focus_events
-snd_steamaudio_baked_occlusion_mode
-snd_steamaudio_baked_occlusion_pathing_deviation_slope
-snd_steamaudio_baked_occlusion_pathing_exponent
-snd_steamaudio_baked_occlusion_reflection_factor
-snd_steamaudio_hammer_probes_always_render
 snmpv2
 so=H*m
 socket
@@ -44518,7 +44365,6 @@ tool_request_args
 tool_request_text
 tool_request_tool
 toolbarArea
-toolhud_enable
 tools code
 tools.reference_notrace
 tools.tilebase
@@ -44847,9 +44693,7 @@ toolsMaterial
 toolsVisModeIndex
 tools_fog
 tools_preview
-tools_renderscenes
 toolsblack
-toolscene_gizmo_algorithm
 toolscenevismodes.txt
 toolshint
 toolsnodraw

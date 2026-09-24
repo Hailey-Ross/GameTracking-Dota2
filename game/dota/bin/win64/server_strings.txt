@@ -25497,7 +25497,6 @@ ActiveSpawnGroupChanged
 Activity %s
 Activity %s has %d sequences with a total weight of %d!\n
 Activity Modifiers (%d):\n
-ActivityEventGameSystem
 ActivityEventType
 ActivityModifier
 ActorName
@@ -25732,13 +25731,11 @@ AnimTickUpdate
 AnimTime
 AnimateDuringGameplayPause
 Animating models
-Animation 2
 AnimationAttack
 AnimationIgnoresModelScale
 AnimationLoopMode
 AnimationModifier
 AnimationPlaybackRate
-AnimationSystem: IK
 AnimationTime
 AnimationTransitionAggressive
 AnimationTransitionName
@@ -26357,7 +26354,6 @@ Blocking nav: %s
 BloodImpact
 BoX5
 Body Component Scriptdesc
-BodyGameSystem
 BodyGroup: Group = %s, Choice = %s
 Bogus constraint %s (attaches %s to ENTITY NOT FOUND:%s)\n
 Bogus constraint %s (attaches ENTITY NOT FOUND:%s to %s)\n
@@ -26402,7 +26398,6 @@ BotModeScriptScope
 BotPopulate
 BotRoles
 BotTeamCommander%d
-Bots
 Bottle.
 Bottle.Cork
 Bottle.Drink
@@ -26438,7 +26433,6 @@ Breakable.Metal
 BreakableContentsParticleOverride
 BreakableContentsPropGroupOverride
 BreakableContentsType
-Breakables
 Breaks in the debugger
 Brewmaster_Earth.Boulder.Cast
 Brewmaster_Earth.Boulder.Target
@@ -30731,7 +30725,6 @@ CleavePercent
 CleaveRadius
 Client Messages
 ClientGamePrecache_server
-ClientMessages
 ClientPrecacheRegistry_server
 ClientPutInServer create new player controller [%s]\n
 ClientPutInServer reconnecting player controller [%s]\n
@@ -30764,14 +30757,11 @@ ColorCorrectionName
 ColorCorrectionSystem
 ColorGreenValue
 ColorRedValue
-Combat Analyzer
 Combat involving this creature will have this weight added to the music calcuations.
 CombatLog allocations: %dKB\n
 CombatLogNames
 Combatlog allocations: %dKB\n
 ComicBookSchema_global_server
-Command Queue Events
-Command Queue SAMPLES
 Command only works in tools mode.\n
 CommandCastHere
 CommandLineCheck
@@ -31138,7 +31128,6 @@ Custom Game name required for DOTA_GAMEMODE_EVENT Featured Game Mode with id %d.
 Custom game state is out of sync with lobby likely due to disconnects, switch to post game to allow proper cleanup\n
 Custom time span %d
 Custom*
-CustomGameCache
 CustomGameData
 CustomGameEventManager
 CustomGameSetup_SetAutoLaunchDelay
@@ -31148,7 +31137,6 @@ CustomGameSetup_SetTeamAssignmentLocked
 CustomHeroList
 CustomItemScalar
 CustomNPCName
-CustomNetTable
 CustomNetTableManager
 CustomNetTable_
 CustomNetTables
@@ -31164,7 +31152,6 @@ CustomOutput8
 CustomOutput9
 CustomPostGameTable
 CustomShop
-CustomUI
 CustomUIs:Create
 CustomUIs:Destroy
 CustomUIs:SetDialogVariables
@@ -31380,7 +31367,6 @@ DOTACompendiumData
 DOTACourierHandle_t
 DOTAFogOfWarSystem
 DOTAGameManager
-DOTAHLTVDirector
 DOTAHeroes
 DOTAInGamePredictionGameSystem
 DOTALobby: ID:%llu  %d member(s) allow_spectators: %d\n
@@ -31402,7 +31388,6 @@ DOTA_BOT_SEMI_CARRY
 DOTA_BOT_STUN_SUPPORT
 DOTA_BOT_TANK
 DOTA_BotCommander
-DOTA_CLIENT_GCCLIENT
 DOTA_Chat_All
 DOTA_Chat_AutoUnpaused
 DOTA_Chat_Bot_Defend
@@ -31754,7 +31739,6 @@ DebugDrawCircle
 DebugDrawClear
 DebugDrawLine
 DebugDrawLine_vCol
-DebugDrawQueueManager001
 DebugDrawScreenTextLine
 DebugDrawSphere
 DebugDrawText
@@ -31770,7 +31754,6 @@ Debugging stopped\n
 DecalEmitterSystem
 DecalGameSystem
 DecalGameSystemManifest_server
-Decals
 Decipher Only
 DeclareFunctions
 Decrease this modifier's stack count by 1.
@@ -32027,7 +32010,6 @@ DotaFeaturedGamemodes_global_server
 DotaGameOver
 DotaItemPurchase
 DotaLabyrithBlessings_global_server
-DotaMapUtils001
 DotaMatchHero
 DotaMatchHeroes
 DotaMatchInfo
@@ -32111,7 +32093,6 @@ DropNeutralItemAtPositionForHeroWithOffset
 DropParentItem
 Drops the selected item out of this unit's stash.
 DsBV
-DualHull
 DumpScriptBindings()
 Dumping %i/%i largest CPhysAggregateData - %zu KB total\n
 Dungeon.BloodSplatterImpact
@@ -32543,7 +32524,6 @@ EchoSlamPotion.EchoSlam
 EchoSlamPotion.EchoSlamEcho
 EchoSlamPotion.EchoSlamSmall
 EchoSlamPotion.Single
-Econ
 EconEntity_QueueKillEaterEvent
 EconItem
 EconItemCount
@@ -32578,7 +32558,6 @@ Effects
 EhQ,[3
 EjNG
 EjectItemFromStash
-Elapsed
 Element Access R%d <- R%d[R%d]
 Element Weight: %f\n
 Element.CNmGraphVariationUserData
@@ -32599,7 +32578,6 @@ EmitAnnouncerSoundForTeam
 EmitAnnouncerSoundForTeamOnLocation
 EmitBaseMessageV
 EmitGlobalSound
-EmitSound
 EmitSoundByHandle
 EmitSoundOn
 EmitSoundOnClient
@@ -32751,7 +32729,6 @@ EntityNames
 EntitySkeleton
 EntitySubclassGameSystem
 EntitySubclassID_t
-EntitySubclassUtilsV001
 EntitySystem - Class Tables
 EntitySystem - Entity Networking - finish
 EntitySystem - Entity Networking - start
@@ -33461,7 +33438,6 @@ GAME_STATE_WAIT_FOR_PLAYERS_TO_LOAD
 GBd<}v
 GC Connection established for server version %d\n
 GC replied with ClientRequestDropped, when we were expecting %u.  Simulating message timeout\n
-GCClient
 GCHost
 GCInfo
 GCSDK::CGCClient::ProcessCompressedMsg
@@ -33560,7 +33536,6 @@ GameHeader
 GameInit - PreCache - Finish
 GameInit - PreCache - Start
 GameManager
-GameModelInfo001
 GameRules
 GameRulesGameSystem
 GameSessionManifest
@@ -33570,7 +33545,6 @@ GameSoundsFile
 GameStart.DireAncient
 GameStart.RadiantAncient
 GameState: 
-GameSystem2HostHook
 GameTime
 GameTime_t[DOTA_DEFAULT_MAX_TEAM_PLAYERS]
 GameTime_t[DOTA_MAX_TEAM_PLAYERS]
@@ -34772,7 +34746,6 @@ Glass.Window
 GlassBreak
 GlobalMemoryStatus
 GlobalShop
-GlobalState
 GlobalSys
 GlowProxySize
 GoDown
@@ -36579,7 +36552,6 @@ Hit: hitbox %d, hitgroup %d, bone %d, solid %d, surfaceprop %s, contents %llx, s
 Hit: hitbox %d, hitgroup %d, bone %d, solid %d, surfaceprop %s, contents %llx, shape type: %s\n
 Hit: hitbox %d, hitgroup %d, bone %d, solid %d, surfaceprop %s, shape type: %s\n
 Hits: %d, Misses: %d, percentage = %2.2f\n
-Hltv Director
 Hofw
 Hold
 Hold Event
@@ -36592,7 +36564,6 @@ HoldAnimation
 HoldEvent
 HorizontalControlFunction
 HorzArrow
-HostUtils001
 Hostname mismatch
 HotKeyOverride
 Hours
@@ -40252,7 +40223,6 @@ PhysFrictionEffectPrecache_server
 Phys_motor %s does not have a valid axis helper, and self-destructed!\n
 Physical Armor: %f - Magical Armor: %f
 PhysicalImmune
-Physics
 Physics Game System is not initialized\n
 Physics KV3 Write
 Physics props
@@ -40460,7 +40430,6 @@ Precaches a DOTA item by its dota_npc_items.txt name
 Precaches a DOTA unit by its dota_npc_units.txt name
 Precaches a DOTA unit from a table of entity key values.
 Precompute Distance Metrics [start=%.2f end=%.2f]
-PredictionDiffManager001
 PredictionItem
 PredictionResult
 PreloaderGameSystem,
@@ -40684,7 +40653,6 @@ RESPONSE CRITERIA FOR: %s (%s)\n
 RESPONSERULES: %s spoke '%s'. Found no matching response.\n
 RESPONSERULES: %s spoke '%s'. Found response '%s'.\n
 RESPONSESYSTEM_SAVE_RESTORE_VERSION
-RESPONSE_RULES
 RETREAT
 REVENANT
 REWARD_TYPE_CONSUMABLES
@@ -41108,7 +41076,6 @@ ResponseContext
 ResponseHeader
 ResponseKeys
 ResponseQueueManager
-ResponseRulesCache001
 ResponseRulesManifest_global_server
 ResponseSystem
 ResponseSystemMgr
@@ -41498,7 +41465,6 @@ SMIME_read_PKCS7
 SMIME_text
 SNMPv2
 SNtu
-SOCache
 SONIC
 SOURCE2 SAVE COMMENT
 SOURCE:\n
@@ -41651,7 +41617,6 @@ SUPPORT
 SUSPEND_FOR
 SUSTAIN
 SUWs
-SV CommandQueue
 SV EngineTime
 SV GameInit
 SV:     %d:  '%s'\n
@@ -41728,11 +41693,6 @@ SaveHeaders
 SaveHeaders KV3 Write
 SaveImportant
 SaveJob
-SaveRestore
-SaveRestoreDataVersion001
-SaveRestoreIO
-SaveRestoreIOFiltered
-SaveRestoreSyncIO
 Saving crash sentinel: %s\n
 Saving game to %s...\n
 Scale INV R%d <- R%d / R%d
@@ -41769,9 +41729,7 @@ ScenarioLod: Unable to load neutral choices for hero '%s'
 Scene %s has %d actors, but scene entity only has %d actors\n
 Scene '%s' with two stop point events!\n
 SceneFile
-SceneFileCache002
 SceneNode Hierarchy For %d:\n
-ScenePrint
 Scenes
 ScepterRequiredFacet
 ScepterUpgradeID
@@ -43745,7 +43703,6 @@ Simulated GC communications failure is not active.\n
 Sine of angle. Input in radians, output in radians
 SingleCodeExecution
 SingleItemDescription
-SinglePlayerSharedMemory001
 Skin
 Skin:
 Skin: %d
@@ -43768,7 +43725,6 @@ Snapshot of the entire state of a Dota match
 SnapshotHistogram
 SnapshotProject
 SnapshotProjectAccessToken
-SndEmitterSystem
 SndOpEventGuid_t
 Sniper.AssassinateProjectile_Scatter
 Solar Crest Bonus Armor prevented a lethal attack!\n
@@ -43785,7 +43741,6 @@ SoundControllerImp
 SoundDelayOrSkip
 SoundEmitterSystem
 SoundEventGuid
-SoundOpGameSystem
 SoundSet
 Soundscape warning: Event '%s' is being triggered by a soundscape entity and does not have dsp_override enabled!\n
 SoundscapeSystem
@@ -43795,7 +43750,6 @@ Source1LegacyGameEvent_t
 Source1LegacyListenEvents_t
 Source2EntitySystem
 Source2EntitySystemDeallocator
-Source2GameDirector001
 SourceAttachment
 SourceEntityName
 SourceTV camera is now controlled by %s.
@@ -44009,7 +43963,6 @@ Starts the vertical motion controller effects for this buff.  Returns true if su
 Stat
 StatID
 StatName
-StatTracker
 StatValue
 State = %d
 State: %s
@@ -44071,7 +44024,6 @@ SteamLearn: Unknown result from RegisterDataSource (%s)\n
 SteamLearn: Unknown result from SnapshotModel\n
 SteamLearn: missing cache duration in SnapshotModel\n
 SteamUGCQueryCompleted_t result code %d
-SteamUnifiedMessages
 Steamlearn %s completed, but no response waiting?
 Steamlearn %s request (handle %u) timed out (%2.2fs) \n
 StepSimulationFuncRotatingAnglesSerializer
@@ -45194,7 +45146,6 @@ VMS_UNLOAD
 VMatrix
 VMatrix-world
 VNOTIFY_DISABLE
-VNotify
 VNotify Abandoned (ActiveProtocolIsNewer)\n
 VNotify Abandoned (No ProcessUtils)\n
 VNotify Abandoned (Not enabled)\n
@@ -45211,7 +45162,6 @@ VScript error: Invalid entity handle passed to IsMarkedForDelete.\n
 VScriptFilter::SetFilterFunction - Failed to copy function or context\n
 VScriptFilter::SetFilterFunction - Invalid context\n
 VScriptFilter::SetFilterFunction - Invalid function\n
-VScriptScripts
 VScriptServerScriptErrorFunc
 VScript_CreateItemOnPositionForLaunch
 VScript_CreateItemOnPositionSync
@@ -45431,7 +45381,6 @@ We are arbitrarily blowing up the dire ancient, just so we can end the game!  Th
 We are arbitrarily blowing up the radiant ancient, just so we can end the custom game!  This is probably going to confuse people, but we really don't know what else to do!\n
 We_A0
 Weather Type:
-WebApi
 Weight: %.2f%%
 WeightedAbilitySuggestion_t[30]
 WeightedAbilitySuggestion_t[50 * 5]
@@ -56596,7 +56545,6 @@ lowprecisionuv
 lowprecisionuv1
 ltime
 lua_name
-lua_shipping_assert_on_error
 lucent_beam_bounce_range
 luckyshot
 luna_eclipse
@@ -61270,7 +61218,6 @@ nav_select_hull %d is outside the range for this navmesh (with %d generated hull
 nav_set_movable_mesh_dormant_flag <movable mesh id> <0|1>\n
 nav_test_hull_level: Entity '%s'/'%s' of class '%s' at (%0.2f,%0.2f,%0.2f) is intruding into navmesh\n
 nav_unmark; nav_mark ladder %d; nav_warp_to_mark\n
-nav_validate
 navlib
 navlinkclass
 navplace.db
@@ -61310,8 +61257,6 @@ nested asn1 error
 nested asn1 string
 net_debug_%s_%02d%02d%02d-%02d%02d%02d.csv
 net_gold
-net_max_message_process_count
-net_max_message_queue_size
 net_payment_row_usd
 net_payment_us_usd
 net_speed

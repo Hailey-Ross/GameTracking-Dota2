@@ -227,8 +227,6 @@ LOC_Ordinal_Prefix_%u
 LOC_Ordinal_Prefix_Default
 LOC_Ordinal_Suffix_%u
 LOC_Ordinal_Suffix_Default
-List all loaded localization files
-List information on the given token
 Loaded localization files:\n
 Loc token '%s' not found\n
 Loc token '%s': index %d\n
@@ -241,7 +239,6 @@ Loc variable reference incomplete\n
 Loc variable reference missing ':' after type\n
 Loc variable reference too large (%u chars)\n
 LocTest_
-Localization System
 Localization stats for %s data:\n
 Localization watching these dirs for changes:\n
 Localize
@@ -270,8 +267,6 @@ WARNING: Duplicate string token '%s' found in %s (original in %s) - new value '%
 \t_V_StringAfterPrefixCaseSensitive
 \{s:foo} {s:bar}
 \{s:foo} {} {,:} {s:} {s:bar} extra
-dump_loc_token
-dump_localization_files
 duplicate selector case
 ends_with_000
 english]

@@ -29232,7 +29232,6 @@ Animated Length
 AnimatedMaterialAttribute
 AnimatedMaterialAttributeColor
 AnimatedMaterialAttributeValue
-Animation 2
 Animation Bone Flags
 Animation Configuration File
 Animation Order
@@ -29478,9 +29477,7 @@ AssetBrowse( vnmclip )
 AssetBrowse( vnmgraph )
 AssetBrowse()
 AssetPreviewToolScene
-AssetThumbnail
 AssetThumbnailDBWriteThread
-AssetThumbnailWebClient
 AssetThumbnails batch check failed to build JSON: %s\n
 AssetThumbnails check failed (%d) `%s`: %s\n
 AssetThumbnails check failed to parse response: %s\n
@@ -32826,7 +32823,6 @@ Clear any previous material overrides.
 Clear auth, redirects scheme from %s to %s
 Clear auth, redirects to port from %u to %u
 Clear selection of mesh vertices, edges, or faces.
-Clear thumbnail cache
 ClearCache
 ClearInputHistory
 Clears and populates the list from the current model
@@ -34478,7 +34474,6 @@ Dt2:
 DtH 
 Dtz,
 DuDu
-DualHull
 Dual_Joining
 DummyNoOp
 DumpModeDecode: Not enough data for scanline %d
@@ -38353,7 +38348,6 @@ Hongkong
 Horizontal Pose Param
 Horizontal differencing "Predictor" not supported with %d-bit samples
 HorizontalStrafeCamera
-Host
 Host %s:%d was resolved.
 Host down
 Host not found
@@ -39329,7 +39323,6 @@ Input dynamic mesh deformation params
 Input morph control for a specific delta
 Input morph params
 Input/output error
-InputBindSystem
 Inseparable
 Inseperable
 Insert 'element' in the given index in 'a', increasing its count by one and moving the elements after index.
@@ -42511,7 +42504,6 @@ ModelBoneName()
 ModelContentDataList
 ModelDataFlags
 ModelDataList
-ModelDoc
 ModelDoc "%s" node "%s" incompatible with AnimGraph
 ModelDoc "%s" node "%s" incompatible with AnimGraph due to child markup nodes
 ModelDoc "%s" node incompatible with AnimGraph
@@ -45366,7 +45358,6 @@ Particle Binding (Real)
 Particle Configuration File
 Particle system that handles the generated model/snapshot (Must be authored specifically for this case to work properly)
 ParticleCompileBinaryIdenticalHack_underlying_struct
-ParticlesLib
 Pashto-Latin/BGN
 Pass Outflow
 Password too long: [%zu]
@@ -45443,7 +45434,6 @@ Photometric tag is missing, assuming data is YCbCr
 Photometric tag value assumed incorrect, assuming data is YCbCr instead of RGB
 PhotometricInterpretation
 Photoshop
-Physics
 Physics Debug Draw
 Physics Joint Modification Mode
 Physics Particle
@@ -48707,7 +48697,6 @@ ScalpD
 ScbBe
 SceneCameraChanged
 ScenePreview
-SceneSystem
 Scf}
 Schannel
 Schema description file
@@ -48848,7 +48837,6 @@ Set specific model flags.  This node is rarely used
 Set the number of elements in the array.
 Set the target height for the morph texture.  It will automatically grow if necessary.  This is the starting size for the best fit atlas algorithm, setting it close to the best atlas size will speed up compilation if best fit atlas is true.
 Set the target width for the morph texture.  It will automatically grow if necessary.  This is the starting size for the best fit atlas algorithm, setting it close to the best atlas size will speed up compilation if best fit atlas is true.
-Set to true to revert to old behavior
 Set true if this is a break piece the player should be able to pickup.
 Set-Cookie:
 SetAlphaEditFromSlider
@@ -49079,7 +49067,6 @@ SnW/[
 Snap Frame (%s)
 Snap to grid
 SnapCameraToSelection
-SnapshotVertexExtraction
 SnfW
 So2!
 Socket has been shut down
@@ -51812,7 +51799,6 @@ VNOTIFY_DISABLE
 VNVPV6V2V8VkVdV
 VN[m\-e
 VNhMh
-VNotify
 VNotify Abandoned (ActiveProtocolIsNewer)\n
 VNotify Abandoned (No ProcessUtils)\n
 VNotify Abandoned (Not enabled)\n
@@ -63488,14 +63474,9 @@ asset_preview_thumbnail
 asset_preview_thumbnail_format
 asset_specific_keys_source
 asset_thumbnail
-asset_thumbnails_server_download
-asset_thumbnails_server_url
-asset_thumbnails_timeout_sec
 assetpreview
 assetpreview.dll
 assetsystem
-assetsystem_clear_thumbnail_cache
-assetthumbnail_old_fingerprint_style
 assign_a
 assign_b
 assign_g
@@ -78459,7 +78440,6 @@ modeldoc_editor
 modeldocattr
 modeldocnode.%s
 modelgamedata
-modellib
 models/dev/error.vmdl
 models/dev/sphere.vmdl
 models/editor/axis_helper_thick.vmdl
@@ -80346,9 +80326,6 @@ personNames
 personNamesDefaults
 peru
 pervertexlighting
-pet_preview_gravity
-pet_preview_underwater
-pet_preview_wind
 petabyte
 pf[0
 pfaN
@@ -81411,7 +81388,6 @@ r^s.w
 r^tn{n}
 r_dgY
 r_rFs
-r_renderdoc_capture_thumbnail_rendering
 r`L9
 raHPAaDAaAUa
 rable?
@@ -82729,8 +82705,6 @@ smY\M`
 sma_NO
 sma_SE
 small_form_variant
-smartprop_print_timings
-smartprops
 smbs
 smiley
 smileys_people
@@ -83687,7 +83661,6 @@ tool_request_args
 tool_request_text
 tool_request_tool
 toolbarArea
-toolhud_enable
 tools.reference_notrace
 tools/colors/shared_colors.txt
 tools/images/common/blank_sm.png
@@ -83984,7 +83957,6 @@ tools/keybindings/shared_tool_key_bindings.txt
 toolsMaterial
 toolsVisModeIndex
 tools_preview
-tools_renderscenes
 tools_thumbnail_cache.sqlite3
 toolscene
 toolscenenodes

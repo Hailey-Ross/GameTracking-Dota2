@@ -3946,7 +3946,6 @@ Draw in stereo using overlapping red and cyan images
 DrawBoneNamesChanged
 DrawSkyboxChanged
 DtmC
-DualHull
 DummyNoOp
 DumpModeDecode: Not enough data for scanline %d
 E$PZ
@@ -4319,7 +4318,6 @@ Inport Color Settings
 Input Binding Error
 Input Debugger [%1]
 Input Sequence
-InputBindSystem
 Insert 'element' in the given index in 'a', increasing its count by one and moving the elements after index.
 Insufficient data length.\n
 Insufficient data size for attributes.\n
@@ -4970,7 +4968,6 @@ ParseEXRHeaderFromMemory failed! Error message: %s\n
 ParseEXRHeaderFromMemory() failed! Error message: %s\n
 Particle Binding
 Particle Binding (Real)
-ParticlesLib
 Pass Outflow
 Paste
 Paste (Overwrite)
@@ -5315,7 +5312,6 @@ Scale INV R%d <- R%d / R%d
 Scale R%d <- R%d * R%d
 SceneCameraChanged
 ScenePreview
-SceneSystem
 ScrLk
 ScrToggle
 Screen %d: %dx%d DPI Scale: %.2f %s\n
@@ -5590,7 +5586,6 @@ ToolButtonActiveBackground
 ToolButtonActiveBorder
 ToolButtonBackground
 ToolButtonBorder
-ToolScene
 ToolSceneDebugOverlays
 ToolSceneTraceResult_t*
 ToolSceneWidget
@@ -5700,7 +5695,6 @@ VConsole_SubTool_001_
 VData:%s
 VJby4"
 VNOTIFY_DISABLE
-VNotify
 VNotify Abandoned (ActiveProtocolIsNewer)\n
 VNotify Abandoned (No ProcessUtils)\n
 VNotify Abandoned (Not enabled)\n
@@ -6924,9 +6918,6 @@ p`?type@QStandardItem@@UEBAHXZ
 parent
 parent_cursor_id
 pdG@
-pet_preview_gravity
-pet_preview_underwater
-pet_preview_wind
 pfG@
 ph5@
 phG@
@@ -7115,7 +7106,6 @@ tool_request_args
 tool_request_text
 tool_request_tool
 toolbarArea
-toolhud_enable
 tools.reference_notrace
 tools/colors/shared_colors.txt
 tools/images/pulse_editor/cursor_kill.png
@@ -7127,7 +7117,6 @@ tools/stylesheets/qtabbedstyle_colors.vsc
 tools/vconsole_subtools.txt
 toolsVisModeIndex
 tools_preview
-tools_renderscenes
 toolscene
 toolscenenodes
 toolscenevismodes.txt

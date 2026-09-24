@@ -5,9 +5,10 @@
 //	"m_bInvert": false,
 //	"m_bSharedVert": false
 //}
-// MVDataComponentValidGrandParents (UNKNOWN FOR PARSER)
+// MVDataComponentValidGrandParents = "CSmartPropElement_PlaceOnMesh"
 // MPropertyFriendlyName = "Filter Faces By Open Edges"
 // MPropertyDescription = ""
+// MHasKV3TransferPolymorphicClassname
 class CSmartPropSelectionCriteria_TopoEdgeCountCriteria : public CSmartPropSelectionCriteria
 {
 	// MPropertyFriendlyName = "Edge Count"

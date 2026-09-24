@@ -38,6 +38,8 @@
 # of children to set
 # of control points to set
 # of seconds to wait after final client leaves before hibernating.
+#42bff5
+#fcba03
 $AMBIENTSCALE
 $COLORWARPINTENSITY
 $DETAIL2BLENDFACTOR
@@ -87,6 +89,7 @@ $SPECULARSCALE
 ( m_PlaceAtPositions == ALL ) || ( m_PlaceAtPositions == START_AND_END ) || ( m_PlaceAtPositions == CONTROL_POINTS )
 ( m_SelectionMode != SPECIFIC )
 ( m_nTextureType == SPRITECARD_TEXTURE_NORMALMAP || m_nTextureType == SPRITECARD_TEXTURE_ANIMMOTIONVEC || m_nTextureType == SPRITECARD_TEXTURE_6POINT_XYZ_A || m_nTextureType == SPRITECARD_TEXTURE_6POINT_NEGXYZ_E || m_nTextureType == SPRITECARD_TEXTURE_SPHERICAL_HARMONICS_A || m_nTextureType == SPRITECARD_TEXTURE_SPHERICAL_HARMONICS_B || m_nTextureType == SPRITECARD_TEXTURE_SPHERICAL_HARMONICS_C || m_nTextureType == SPRITECARD_TEXTURE_ILLUMINATION_GRADIENT || m_nTextureType == SPRITECARD_TEXTURE_DEPTH )
+(Dev command - regenerate the asset sort indicies)
 (optional) index buffer size (k)
 (optional) vertex buffer size (k)
 (viewmodel) depth to increment candidate plane values per iteration to satisfy selection.
@@ -190,6 +193,7 @@ $SPECULARSCALE
 -1 1
 -1 128
 -1 255
+-1 for all asleep, 1 for all awake
 -1 to pretend they're not a plus subcriber, 1 to pretend they are, 0 for default.
 -1.0 1.0
 -12 12
@@ -292,6 +296,9 @@ $SPECULARSCALE
 0.5 14
 0: Bilinear, 1: Trilinear, 2: Aniso 2x, 3: Aniso 4x, 4: Aniso 8x, 5: Aniso 16x
 0: Normal, 1:RTTI Available Main Unavailable, 2: RTTI Locked Main Unavailable, 3: RTTI Locked Main Available, 4: RTTI Locked Main Locked
+0: Use order-truncated Ambisonics HRTF without correction. 1: Use diffuse field equalization to correct order-truncated Ambisonics HRTFs.
+0: detect, 1: single param, 2: multi param
+0: distance ratio only. 1: deviation only (1/r). 2: deviation only (linear). 3: Mode 0 and Mode 1, 4: Mode 0 and Mode 2
 0: run all send jobs on main thread; 1: send jobs run asynchronously (except on dedicated server); 2: send jobs asynchronously; 3: send jobs run in parallel but block to not overlap the next tick; 4: main server clients' send jobs run in parallel, then HLTV server jobs; this approximately matches pre-async profile for a single HLTV server configuration
 0: spheres, 1: cubes
 0:Off, 1:All (for tracking accumulated duplicate read times), >1:Microsecond threashold
@@ -299,6 +306,7 @@ $SPECULARSCALE
 0:Off, 1:Warn main thread, 2:Warn other threads
 0=Off, 1=Surface Wireframe, 2=Transparent Wireframe
 0=Off, 1=Visualize trace from camera, 2=Visualize occlusion, 3=Visualize far field trace from camera
+0=don't clear particle attrs at init 1=clear to zero 2=clear to 0xdb -1=clear to zero at first sim
 0=off, 1=on, 2=debug visualization
 1 100
 1 1000
@@ -336,6 +344,7 @@ $SPECULARSCALE
 <b>Main Graph Only</b><br>This refers to a piece of code in the sound engine that will select specific voices to be mixed into this track and at what mix level each voice will be mixed.<br>If you want to drive that with data, choose "By Named Send" and author a list of send names for this track.  Then any sound event can send to one of those names and the audio will be mixed here.
 <camera_file>
 <challenger account id> Show the popup pretending you received a fighting game challenge.
+<classname> <fieldname>:  spew why field was excluded from networking for classname.
 <comic_name> <optional page #> - Comic up the comic viewer 
 <control_num> <stream_name> [t1_wins] [t2_wins] Overrides an entry in the list to have specific match data.
 <custom game ID> [<expected_timestamp>].  Test code to cache UGC to dedicated server
@@ -393,6 +402,7 @@ A list of quest difficulties. This defines the pattern for each period and total
 A local offset to apply to the base volume of the deformer that will not apply to its children.
 A local rotation to apply to apply the base volume of the deformer that will not apply to its children. This can be used to alter the direction of the deformation.
 A master convar that effectively disables the entire footlock node.
+A minimum on particle simulation time, particle simulation happening more frequently than this will lerp.
 A set of points defining a path to use when an external path isn't specified. This will be used in the preview and thumbnail for the smart prop. It will also be used when the smart prop is placed in Hammer before a path is selected.
 A short time delay with modulation for flange and chorus effects.
 A simple delay with separate left & right delay times.
@@ -1945,6 +1955,7 @@ Activate speed shield on courier
 Activate the 'boundary edges only' constraint when testing the 'on path' search mode for tactical searches.
 Activates SourceTV on server.
 Activates SourceTV[1] on server.
+Activates/deactivates net message validation
 Active
 Active When Listening
 Active When Talking
@@ -1952,6 +1963,7 @@ Active While Current
 ActiveModelConfig_t
 ActiveNode
 ActivityDataOps
+ActivityEventGameSystem
 Actor Name
 ActorMapping_t
 Actually show diffcheck results.
@@ -1994,7 +2006,11 @@ Adds all areas in a radius to the selection set
 Adds dummy members to a chat channel
 Adds to list of names to display text debugging information about the given entity(ies) on top of the entity (See Overlay Text)\n\tArguments:   \t{entity_name} / {class_name} / {entity_index} / {no argument = pick what player is looking at}
 Adjust deformation falloff from the center of the region to the endpoints.
+Adjust how much occlusion goes does with deviation angle.
 Adjust overall volume (dB) of the output from Steam Audio Reverb processor.
+Adjust overall volume of the default HRTF by the specified gain (dB).
+Adjust scaling for reflection energy when combining it to calculate occlusion value.
+Adjust scaling of pathing energy by exponentiall scaling with pathing delta.
 Adjust shadow penumbra based on light size
 Adjust the amount of time the combo animation state persists after an attack starts. Set to -1 to disable attack combos entirely.
 Adjust the pitch of an audio track.  This happens in real-time so the timing of the track is unaffected.  Generally the time domain processor will produce better results for small shifts downward.  For shifting upward it will alias where the frequency space shifter will apply anti-aliasing.
@@ -2047,6 +2063,7 @@ All nians on the map will cast the specified ability
 All positions
 All values connected to this node must be 'observable'. Variables on this graph will be automatically promoted to observable. Other value nodes must take an explicit context, look for those nodes with a corresponding icon.
 AllGuides
+Allow Low GPU Memory mode (i.e. when building maps).
 Allow N late commands to run at 0 timescale prior to running an on-time command. Negative values for network round trip based calculation with a hard cap of the of absolute value
 Allow SourceTV to control server hibernation state.
 Allow alternate baseline system, set to 2 for debugging spew.
@@ -2055,6 +2072,7 @@ Allow chat channels to be set to global, causing their chat to show up in other 
 Allow cheats on server
 Allow claiming event rewards out of order for testing.
 Allow clients to use rcon commands on server.
+Allow disabling memory aliasing in the device memory pool.  This is just intended for testing/ruling out aliasing issues.
 Allow drag move of selected objects
 Allow dynamic BLAS creation for geometry going through the compute shader skinning path.
 Allow immediately loading mips of textures (when possible) when their headers are loaded, saving IO & reducing latency.
@@ -2108,6 +2126,8 @@ Always use fallback hinge
 Always use public market pricing for Main Branch builds, even in other Steam universes
 AlwaysNetwork
 AlwaysVisible
+Ambisonics order to use for convolution reverb. 0th order = 1 channel, 1st order = 4 channels.
+Ambisonics order to use for simulating reverb.
 Ammo
 AmmoFlags_t
 AmmoIndex_t
@@ -2115,6 +2135,7 @@ AmmoPosition_t
 AmmoTypeInfo_t
 Amount of damage done on the first drowning tick (+1 each subsequent interval)
 Amount of lag used when matching offset to ideal angles in thirdperson view
+Amount of simulation time that can elapse before new systems start falling back to cheaper versions
 Amount of time after the talker starts talking we should keep listening regardless of how loud they are speaking.
 Amount of time in seconds it takes to fade in the audio before or after replay
 Amount of time in seconds it takes to fade out the audio before or after replay
@@ -2143,6 +2164,8 @@ An event action to grant whenever a node is unlocked.
 An event action used to determine.
 An example of requirement data with ports
 An identifier for this physics body.
+An old command that has been renamed to 'net_option'
+Analog axis range before a button press is registered.
 Analysis Container
 Analysis Window
 Anchor point source
@@ -2174,6 +2197,7 @@ AnimParamID
 AnimParamNetworkSetting
 AnimParamType_t
 AnimParamVectorType_t
+AnimResource
 AnimScriptHandle
 AnimScriptType
 AnimStateID
@@ -2181,6 +2205,7 @@ AnimTagID
 AnimValueSource
 AnimVectorSource
 Animation
+Animation 2
 Animation Clip
 Animation Driven
 Animation Frame
@@ -2194,11 +2219,17 @@ Animation Time
 AnimationAlgorithm_t
 AnimationDecodeDebugDumpElement_t
 AnimationDecodeDebugDump_t
+AnimationGraph
 AnimationProcessingType_t
 AnimationSnapshotBase_t
 AnimationSnapshotType_t
 AnimationSnapshot_t
+AnimationSystem
+AnimationSystem: IK
+AnimationSystemUtils_001
+AnimationSystem_001
 AnimationType_t
+Animgraph
 Animgraph Orientation Parameter
 Animgraph Parameter
 Animgraph Position Parameter
@@ -2284,6 +2315,7 @@ ArtyUnitDef_t
 ArtyWeaponID_t
 ArtyWeaponInfo_t
 Asleep
+Assert
 Assert if peak memory use is over the limit.
 Assert on shader used based on substring of shader name
 Asset Types
@@ -2303,7 +2335,18 @@ AssetBrowse( vpost, *showassetpreview )
 AssetBrowse( vsnd )
 AssetBrowse( vsubgrph, *requiredoubleclick  )
 AssetBrowse( vtex, *showassetpreview )
+AssetBrowser
+AssetBrowserSystem_001
 AssetEngineCommand_t
+AssetFileHelper
+AssetListModel
+AssetPreviewSystem_001
+AssetRenameSystem_001
+AssetSystem
+AssetSystem001
+AssetSystemTest001
+AssetThumbnail
+AssetThumbnailWebClient
 AssetWarningFixType_t
 Associated emitter Index
 Assume that a reliable entity delta will be ack'ed and send future deltas relative to the last reliable delta.
@@ -2362,6 +2405,7 @@ AutoTagVDataCondition_t
 Autoaim Radius
 Autogenerates a drop file
 Automates fov command to server.
+Automatic cursor size scaling.
 Automatically assign all curently unassigned player to teams.
 Automatically broadcasts all games as GOTV demos through Steam.
 Automatically broadcasts all games as GOTV[1] demos through Steam.
@@ -2470,6 +2514,7 @@ Background options for minimap. 0 = None, 1 = Simple, 2 = Realistic
 Backplane distance
 BakedLightingInfo_t
 BakedLightingInfo_t::BakedShadowAssignment_t
+Bakes all cubemaps with distinct solid colors, for debugging purposes
 Bandwidth
 Bar
 Barrel smoke after firing this weapon
@@ -2482,9 +2527,11 @@ Base Sequence
 Base Sequence Frame
 Base Structured Data
 Base Value
+Base for falling back to cheaper effects under load.
 Base resolution for dynamic shadowmap sizing.  Shadowmap size of a screen sized light
 Base time scale of Killer Replay.Experimental.
 BaseActivity_t
+BaseEditor
 BaseSceneObjectOverride_t
 Batch entity list adds / removes while latching interpolated variables to avoid mutex contention.
 Battle Report Highlight Category
@@ -2495,10 +2542,13 @@ Be quiet Rosh, the pros are trying to kill you
 BeamType_t
 Beat
 Beat Pattern Library
+Before triggering a resource recompile, wait for input dependencies to stop being written
+Before triggering a resource reload, wait for input dependencies to stop being written
 BeginDeathLifeStateTransition_t
 Beginning
 Behavior
 Below Threshold(dB)
+BenchmarkService001
 Bend Angle
 Bend Deformer
 Bend Point
@@ -2528,6 +2578,7 @@ Bit masks of game modes to search for in ranked matchmaking
 Bit masks of game modes to search for in unranked matchmaking
 Bit masks of languages to search for in matchmaking
 Bit masks of match groups to search in for matchmaking
+BitBuf Error
 Bitfield describing which cascades to generate/use SST for. (OR'd 1UL<<cascadeIndex, default is 1UL<<2 only, i.e. just cascade 2)
 Bitfield of playerslots to listen to voice messages from when connected to SourceTV, default is none
 Bitrate of the resulting clip
@@ -2604,6 +2655,7 @@ Body Group Setting
 Body Group Settings
 Body Group Tag
 Body group to set when this damage level is broken.
+BodyGameSystem
 BodyGroup
 BodyGroup Option
 BodyGroup SubModel
@@ -2624,6 +2676,7 @@ BoneDemoCaptureSettings_t
 BoneMask
 BoneMaskBlendSpace
 BoneMaskID()
+BoneSetup
 BoneTransformSpace_Invalid
 BoneTransformSpace_Model
 BoneTransformSpace_Parent
@@ -2640,6 +2693,7 @@ Border Erosion
 Border erosion in voxel units ( -1 to use default value based on agent radius ).
 Bot script ID to use for local games.
 BotAttackScoreBonus
+Bots
 Bots always buddha 0
 Bots will call 'missing' on a lane if an opponent has been gone this many seconds.
 Bots will call 'missing' on a lane no more than once per this many seconds.
@@ -2669,6 +2723,7 @@ Break between rounds
 Break in debugger when missing resource match is found.\nFormat: cl_break_on_missing_resource <substring> /(empty to break on all) / 0 to turn off.\n
 Break on unknown stall cause
 BreakableContentsType_t
+Breakables
 Brightness of player halos
 Broadcast server debug overlays
 Broadcast server debug overlays traffic
@@ -2680,9 +2735,14 @@ BrushSolidities_e
 Buddha Mode
 Buffer size for writing string table baselines
 Buffer to add to agent radius before passing to nav gen
+Bug Reporter
+BugBugService001
+BugService001
 Build Cubemaps
 Build Sparse Shadow Tree
 Build the full frames on a seperate job thread
+BuildCubemaps
+BuildSparseShadowTree
 Bump Strength
 By default, player must ack delta ticks in order. How to enforce it: 2 = kick all clients, 1 = kick only TV clients, 0 = do not kick.
 By default, player must maintain a reliable connection to Steam servers. When player Steam session drops, enforce it: 2 = instantly kick, 1 = kick at next spawn, 0 = do not kick.
@@ -10243,6 +10303,7 @@ CJiggleBoneUpdateNode
 CJumpHelperUpdateNode
 CKeepUpright
 CKeyValueTagWorkshopFileFilter
+CL CommandQueue
 CLAMP
 CLAMP_EXTEND
 CLASS_CROWNFALL_SURVIVOR_UNIT
@@ -15048,6 +15109,7 @@ Cache sendtables
 Cache size for recently-used pose recipe shapes.
 Cache version to use. Increment this number if the files on the CDN have changed but the URL has not.
 Calculate a return path from cursor position to the path calculated by nav_test_path.
+Calculate a skin diffusion profile using scattering constants.
 Calculate and draw a path from player/camera position to the test position.
 Calculate the nearest point on the navmesh to the trace point.  Uses selection from nav_select_hull.
 Calculates the total allocations for a combatlog
@@ -15056,6 +15118,8 @@ Called when timer reaches the duration OR is stopped. NOTE: This will run a litt
 Calls dota_event_override_clear for the current event
 Camera Joint
 Camera Only Parameter
+Camera orbit scale.
+Camera pan speed
 Can this object be scaled. If enabled the minimum and maximum lengths must be set to specify the size range of allowable scale.
 CanPlaySequence_t
 Cancel GG call
@@ -15080,6 +15144,7 @@ Capture a specific cubemap with RenderDoc during buildcubemaps.
 Capture dual shadow maps during sparseshadowtree generation.
 CaptureAllBones
 CaptureSelectedBones
+Captures low-level data to replay path culling algorithm behavior in controlled unit test environment
 Cast Shadows
 Casts a ray and starts a sound event where the ray hits. The sound event will retrigger periodically if cl_snd_cast_retrigger is set. The sound event will clear previous snd_cast events if cl_snd_cast_clear is set. Usage: snd_cast <eventname> [<retrigger time>] [<max distance>]. Arguments that are specified will become defaults for the remainder of the session.
 Cause the engine to crash by Plat_FatalError on job thread (Debug!!)
@@ -15087,6 +15152,7 @@ Cause the engine to crash by Plat_FatalError on main thread (Debug!!)
 Cause the engine to crash by Plat_FatalError on non-main thread (Debug!!)
 Cause the engine to crash in a brand new non-main thread (Debug!!)
 Cause the engine to crash in a job thread (Debug!!)
+Causes all single-fire particle assertions to trigger once more.
 Causes each execution cursor to pause at this node for a fixed period of time. Each cursor will wake up and resume execution when the time expires, unless aborted or early-woken.
 Causes each execution cursor to wait for the completion of all prior cursors that have visited this node. Use this to safely support multiple triggers to areas of the graph that take time to complete.
 Causes radius damage where you're looking, at the passed in radius.
@@ -15121,7 +15187,9 @@ Changes's player's model
 Channel Mix
 Channel Name
 Channels
+CharacterDecalRenderer
 Chase cam's ideal distance from target
+Chat
 ChatIgnoreType_t
 ChatWheelMessageID_t
 Cheat to test regenerative health systems
@@ -15174,13 +15242,16 @@ Clavicle Right Joint
 Cleans up all ragdolls.
 Clear Active Overrides
 Clear all nav attributes of selected area.
+Clear all simulated network conditions
 Clear all watches from the game debug overlay
+Clear buffered logging
 Clear console output from all views.
 Clear console output.
 Clear the list of deferred soundevents for loading.
 Clear the list of files that have been opened.
 Clear the pause state of the server.
 Clear the selected set.
+Clear thumbnail cache
 Clear voice attachment data.
 Clearance Distance
 Clears all debug overlays
@@ -15188,12 +15259,17 @@ Clears list of viewed updates
 Clears the list of names to display text debugging information about the given entity(ies) on top of the entity (See Overlay Text)\n\tArguments:   \t{entity_name} / {class_name} / {entity_index} / {no argument = pick what player is looking at}
 Clears the marked Area or Ladder.
 Clears the shader cache used for dynamic shader compile.
+Client
 Client Simulate
 Client predicts what the ability bar and ability states should be before receiving response from server
 ClientAndServer
+ClientMessages
 ClientOnly
 ClientQuickBuyItemState
+ClientServerEngineLoopService_001
+ClientServerSharedHandleSystem001
 ClientSimulate
+ClientToolsInfo_001
 Clip Data
 Clip Data Manager
 Clips
@@ -15280,11 +15356,17 @@ ColorGreen
 ColorOptionsEditableData_t
 ColorRed
 ColorYellow
+Combat Analyzer
 Combine base and bonus move speed numbers on the HUD
+Comma delimited list of stristr filters for excluding validation messages.  Any messages matching filter will be excluded.
+Comma delimited list of stristr filters for including validation messages.  Only messages matching filter will be included.
 Comma separated list of IDs to exclude from custom games overview page
 Comma separated list of hero names to show on the versus scene.
 Comma separated list of params to filter against when drawing debug text overlays
 Comma separated list of tags to filter against when drawing debug text overlays
+Command Queue Events
+Command Queue SAMPLES
+CommandLine
 Comment
 Common
 Common items list for the shop
@@ -15304,6 +15386,7 @@ Complexity
 Component
 Component Scale
 Compress leaf node depths using scale & offset.
+Compress network traffic
 Compress the dynamic range of a signal when it is louder than some threshold.
 Compress the dynamic range of both ends of a signal.
 Compression Ratio
@@ -15314,6 +15397,7 @@ Compute a dot or cross product between two 3D vectors
 Compute the distance between two 3D points
 Compute the spacing distance in the 2d plane defined by the up direction. Most useful when using a fixed up direction, if maintaining a distance in the 2d plane is more important than maintaing distance along the path.
 Compute the vector between two 3D points
+Computes a table of color temperatures
 Condition to evaluate when any of its dependent values change.
 Conditionally Allowed
 ConditionallyAllowTransition
@@ -15330,6 +15414,7 @@ Connect to a remote HLTV server.
 Connect to a remote server.
 Connected
 Connecting
+Console
 Constant
 Constant - No Falloff
 Constant Interpolation
@@ -15342,6 +15427,8 @@ Container List
 Container Set
 Container Switch
 Contains a refernce to a subroutine that is authored as a separate graph.  Used to collapse common functions into single blocks.
+Continue using previous occlusion if probe lookup for occlusion fails.
+Continue using previous reverb if probe lookup for reverb fails.
 Continuous Injection From Particles
 Continuous Interpolation
 Continuously retriggers a sound and optionally fades to the new instance.
@@ -15414,6 +15501,8 @@ Create a sizer that will be displayed at the current location, allowing the user
 Create a toast for an achievement
 Create a variable that can contain the name of a vsnd file that can be modified by code/operator stack.  This can be used to select the IR for a convolution node.
 Create an ability for the player's hero at the first unused ability index
+Create an animationset for every character
+Create and destroy N particle systems for every one created normally
 Create multiple copies of a track at different volumes for processing or mixing separately.
 Create test character proxy
 Create_CFG
@@ -15470,6 +15559,7 @@ Currently gets info for a single operator field
 Currently sets a single float operator field
 Cursor Pack
 Cursor Queue
+Cursor size scaling factor.
 Curve
 Curve Foot Paths
 Curve Paths
@@ -15485,6 +15575,9 @@ Custom game library filter type
 Custom game library sort type
 Custom panorama classes associated with relevant dashboard elements.
 Custom tip style name to force being used
+CustomGameCache
+CustomNetTable
+CustomUI
 Cycle Condition
 Cycle Control
 Cycle Control Clip
@@ -15499,6 +15592,7 @@ Cyclic Coordinate Descent solver - A solver that can handle any number of bones 
 Cylinder - Centered (SLOW PERF)
 Cylinder - Ground (SLOW PERF)
 D
+D3D
 DAMAGE_EVENTS_ONLY
 DAMAGE_NO
 DAMAGE_TYPES
@@ -15659,6 +15753,8 @@ DOTACustomCameraEventFlags_t
 DOTACustomHeroPickRulesPhase_t
 DOTADamageFlag_t
 DOTAFacetAbilityBonus_t
+DOTAHLTVCamera
+DOTAHLTVDirector
 DOTAHUDVisibility_t
 DOTAInventoryFlags_t
 DOTAJoinLobbyResult
@@ -15842,6 +15938,7 @@ DOTA_BOT_MODE_WISDOM_SHRINE
 DOTA_BUFF_REMOVE_ALL
 DOTA_BUFF_REMOVE_ALLY
 DOTA_BUFF_REMOVE_ENEMY
+DOTA_CHAT
 DOTA_CHAT_INFORMATIONAL
 DOTA_CHAT_MESSAGE
 DOTA_CLICK_BEHAVIOR_ATTACK
@@ -15857,6 +15954,7 @@ DOTA_CLICK_BEHAVIOR_PATROL
 DOTA_CLICK_BEHAVIOR_RADAR
 DOTA_CLICK_BEHAVIOR_UNUSED
 DOTA_CLICK_BEHAVIOR_VECTOR_CAST
+DOTA_CLIENT_GCCLIENT
 DOTA_CM_AbilityAlert
 DOTA_CM_AbilityDraftRequestAbility
 DOTA_CM_AbilityLearnModeToggled
@@ -17552,6 +17650,7 @@ Debug utility for inventory
 Debug utility for swap
 Debug visualization of VR closed caption placement
 DebugDrawBoneTransforms_t
+DebugDrawQueueManager001
 DebugOverlayBits_t
 DebugSnapshotBaseStructuredData_t
 Debugging convar to force late dispatch of game events.
@@ -17564,6 +17663,7 @@ Decal to use when this explosion occurs
 DecalFlags_t
 DecalGroupOption_t
 DecalRtEncoding_t
+Decals
 Decay
 Decay From Wake
 Decay Time (Seconds)
@@ -17598,6 +17698,7 @@ Default number of non-spectator players supported.
 Default number of players per team.
 Default path entity to select in the path tool
 Default point entity to select in the entity tool
+Default size of stack region v8 is allowed to use (in kBytes)
 Default solid entity to create when using tie to entity
 Default team for quick bot practice games
 Default volume scale (0-1) if not automated by connecting the volume input.
@@ -17610,7 +17711,10 @@ Defined in world units.
 Defines a color gradient from which a color can be selected based on the selection mode.
 Defines a color gradient from which a random color will be piked.
 Deformable Entity Settings
+DeformableSurfaceBuilder
+DeformableSurfaceBuilderSystem
 Deformation Enabled
+Defrag algorithm 0=Fast 1=Balanced 2=full 3=Extensive
 Degrees
 Delay
 Delay (ms)
@@ -17629,6 +17733,8 @@ Delta encode svc_UserCmds message
 DeltaOrientationX
 DeltaOrientationY
 DeltaOrientationZ
+Demo
+DemoFile
 Demonstrates finding random points that are connected in the nav mesh to the start point.
 Demonstrates searching hexagonal lattice over nav mesh.
 Denominator
@@ -17667,10 +17773,14 @@ Detail2Combo_t
 DetailCombo_t
 Detect from CP's Object
 Determine how child elements are oriented when mapped to face.
+Determine which constant(s) to use to preserve flat normals under HemiOctohedron normal map encoding
 Determines how someone can join this demo mode session. 0 means invite only, 1 means any friend can join.
 Determines whether or not to autoplay trivia sounds.
 Dev
 Dev reload the camp pull data
+Developer
+DeveloperConsole
+DeveloperVerbose
 Diamond
 Different camera/zoom levels, for use in 3D scene
 Difficulties of bots to matchmake for.
@@ -17716,8 +17826,10 @@ Disable map color-correction entities
 Disable portrait backgrounds. Mostly useful for rendering portrait movies with alpha.
 Disable ragdoll_fixup_joint_limits on joints too high in the hierarchy because long chains tend to depend on violating limits
 Disable ragdoll_fixup_joint_orientation on joints too high in the hierarchy because small differences can massively accumulate (e.g. long chains)
+Disable runtime allocation of executable memory for V8.
 Disable the Showcase View button unless sv_cheats is enabled.
 Disable the rendering of particle local lights.
+Disable to get a better look at what's happening offscreen
 Disable vprof
 DisableShadows_t
 Disabled
@@ -17742,13 +17854,16 @@ Display Panorama JavaScript bindings
 Display Panorama JavaScript bindings as TypeScript declarations
 Display all registered Panorama JavaScript bindings in wiki syntax
 Display all thinking scene entities and its data.
+Display baked data stats for the current mod.
 Display data for entity matching specified index.\nFormat: find_ent_index <index>\n
 Display fake data for the TI10 front page schedule
 Display fake data for the TI10 live game front page cell
 Display ground entity list <index>
 Display hero selection in broadcaster mode.
 Display in game lessons that teach new players.
+Display info about a message (by classname or id)
 Display information about the specified key or button.
+Display memory used by the SFM, add shots to break down on per-shot basis
 Display more verbose information for lessons have this name.
 Display net statistics on the hud
 Display options for primary minimap mode. 0 = Hero icon with arrow, 1 = Arrow with player colors, 2 = Arrow with team colors, 3 = Hero icon only
@@ -17844,6 +17959,7 @@ Domain Class
 Don't Break
 Don't Reset Same Selection
 Don't Set
+Don't bother compressing packets below this size.
 Don't contribute to the priority system, but volume is affected by it (bool)
 Don't ever hide tooltips. Helpful when debugging complicated tooltip layouts.
 Don't load the frontpage streaming video.
@@ -17861,13 +17977,21 @@ Dont Apply Decals to Owner
 DoorState_t
 Dop26_t
 Dot Product
+DotA
 DotA dev commands
 DotaAbilityRelationship_t
 DotaCustomUIType_t
 DotaDefaultUIElement_t
 DotaGestureSlot_t
+DotaGuide
+DotaHeroListCompiler
+DotaItemCompiler
+DotaItemSetCompiler
+DotaMapUtils001
 DotaModifierPathNode_t
+DotaPatchNotesCompiler
 DotaPseudoRandomType
+DotaVisualNovelsCompiler
 DotaWorkshopAssetType_t
 Download a UGC image file by handle
 Downward Ratio
@@ -17892,6 +18016,8 @@ Draw human blood
 Draw metal spark effects.
 Draw only nav blocks with this attribute
 Draw or print debug information about nav volume queries.
+Draw particle children with parents (-1=use gameinfo, 0=no, 1=yes)
+Draw ray tracing environment debug visualization in Hammer
 Draw some basic client-side debug info for each hero.
 Draw the boundaries of the 3d nav space. 1 = draw flying space, 2 = draw swimming space
 Draw the mesh's spatial grid structure around the edit cursor position.
@@ -17903,7 +18029,10 @@ Draws selection hitboxes. 0 = off, 1 = non-trees, 2 = trees, 3 = all entities.
 Drive (dB)
 Drop every Nth fragment
 Dry/Wet
+DualHull
+Dump .json file for use by GpuMemDumpVis.py
 Dump Behavior score info.
+Dump UDP packets summary to console
 Dump a list of the objects in a sceneworld (Usage: sc_dumpworld <world_index>)
 Dump a named stackstats structure to disk. Usage: stackstats_dump "structname" ["filename"]
 Dump a record of current soundevents and profile data
@@ -17930,6 +18059,8 @@ Dump main graph control output values
 Dump memory stats to log.
 Dump memory stats to text file or <stdout>.
 Dump memory usage
+Dump non-loopback udp only
+Dump output of v8::Isolate::GetHeapStatistics.
 Dump physics main world to file
 Dump split screen workarounds.
 Dump the contents of an entity lump
@@ -17960,6 +18091,9 @@ Duration that the camera should stay on the spawned hero before resetting back t
 Duration to show a ping on the the minimap.
 Duration value for path point
 Duration victory message is shown in game end
+During a VMA defrag, number of MB in moves per pass.
+During a VMA defrag, number of moves per pass.
+During a VMA defrag, number of moves to process for a pass in a single frame update.
 Dynamic
 Dynamic Bounce (RTGI)
 Dynamic Entities Only
@@ -18373,12 +18507,15 @@ EXIT_DIRECTION_LEFT
 EXIT_DIRECTION_RIGHT
 EXIT_DIRECTION_TOP
 EXPAND_ITEM
+EXPORTSYSTEM_INTERFACE_VERSION_001
 EXPORT_ENCODING_BINARY
 EXPORT_ENCODING_TEXT
 EXPRESSION
 EXPRESSION_CONCAT
 EXPRESSION_TEXT
 EXPRESSION_URL
+EXR containing sky model limb darkening datasets
+EXR containing sky model solar datasets
 Each element will be scaled to is maximum allowable size that will still fit on the line.
 EarlyPremiumPassHolder
 EaseIn
@@ -18387,6 +18524,7 @@ Echo log information to the console.
 Echo text to console.
 Echo the command arguments on the console
 Echo to the console changes caused by toggling.
+Econ
 EconEntityParticleDisableMode_t
 Edge Count
 Editor
@@ -18396,6 +18534,7 @@ Effect Preset Name
 Effect Size
 Effect when firing this weapon
 Effector
+Elapsed
 Elapsed Time
 ElapsedTime
 Electrified
@@ -18404,6 +18543,7 @@ Element space transform, includes the transform of the current element, which is
 Emission
 Emit a warning if we spend more than N ms executing user commands for a single player
 Emit an overhead particle effect on receiving an item from an ally.
+EmitSound
 Emits a closed caption
 Emitter Index
 Enable
@@ -18434,6 +18574,7 @@ Enable Rotation Correction
 Enable SIMD code path for diffusor processor.
 Enable SIMD code path for shoebox reverb processor.
 Enable Software Command lists for DX11 (Avoid using deferred contexts)
+Enable Software Command lists for Vulkan
 Enable SourceTV threading of delta merging
 Enable Spectator Hltv Replay when killed by bot
 Enable Speed Scaling
@@ -18448,8 +18589,10 @@ Enable animation graph networking. The setting is only read at graph creation ti
 Enable animation sequence transitioner.
 Enable async client connect optimization
 Enable autosaves while spectating a match from lobby
+Enable caching listener probe neighborhood for pathing.
 Enable cheats UI
 Enable close captioning.
+Enable custom HRTF loading.
 Enable debug printing about constraint sounds.
 Enable delta entity bit stream cache
 Enable display of console messages on screen. 1 = Enabled, 0 = Disabled, -1 = Enabled if vgui is not present
@@ -18457,23 +18600,29 @@ Enable even shorter navigating agent capsules ( crawl ) in addition to regular h
 Enable floating point exceptions to find bugs
 Enable fog
 Enable framerate-related warnings, such as sv_long_frame_ms.  Disabling warnings is useful when running in situations such a debug where a slow frame rate is expected
+Enable input path in particle ops
 Enable instance streams
 Enable instanced baselines. Saves network overhead.
 Enable instant replay recording.
+Enable joystick input
 Enable logging about events that disable frame time warnings
 Enable map stats tracking on the client
 Enable more aggressive ragdoll settling
 Enable new query panel
+Enable optimization of slow path that makes HLTV CPU consumption high in AnimGraph-using mods. Will switch to this on by default soon.
 Enable or Disable debug display of visibility boxes
 Enable or Disable showing trigger entities
 Enable or disable automatically launching the game when all players are assigned to a team.
 Enable or disable shopkeepers' speech.
+Enable order-truncated Ambisonics HRTF loading.
 Enable panorama joystick input
 Enable path optimization for nav_edit_path paths.
 Enable path visualization for steam_audio_source operator.
+Enable perspective correction for 3D audio.
 Enable polling for network messages every frame, instead of every tick
 Enable precomputed visibility when true
 Enable publish all feature for guides
+Enable raw keyboard input
 Enable real-time pathing validation against dynamic geometry.
 Enable rendering of translucent geometry
 Enable scenario ui in private lobbies
@@ -18489,6 +18638,7 @@ Enable the rendering of panorama UI
 Enable the rendering of the hud
 Enable to calculate soundscape audio params for bots.
 Enable to output stats about latching
+Enable to print detailed info every time an assetfingerprint is calculated
 Enable to show interpolation profile timing\n
 Enable to skip game animations
 Enable to test the Aegis UI.
@@ -18517,6 +18667,8 @@ Enables quickcast for legacy keys.
 Enables simple shop mode
 Enables super node nav information to be generated
 Enables the ability for the mic to remain open if the window loses focus such as when a caster tabs out to adjust settings
+Enables tracy profiling when baking steam audio data in Hammer.
+Enables/Disables Particle Simulation
 Enables/disables portrait worlds
 Encrypt the question_value and correct_answer_index fields of trivia questions
 End
@@ -18540,7 +18692,11 @@ Enemy heroes nearer than this distance will poll for the TLK_ENEMY_NEARBY concep
 Enforce Limits
 Enforce Shared Vert
 EngineCountdownTimer
+EngineGameUI001
 EngineLoopState_t
+EngineServiceManager
+EngineServiceMgr001
+Ensure that interactive film clip operations always stay on frame
 Ent Text
 EntComponentInfo_t
 EntFinderMethod_t
@@ -18549,10 +18705,13 @@ Enter demo mode with given hero. Usage: dota_demo_hero <hero_name> <optional: de
 Enter the mode where ability points can be spent
 Entire Path
 Entities That Block LOS
+Entity Dump
 Entity Handle
 Entity Hitbox Cache Field (Requires Stick on Collision)
+Entity Load Unserialize
 Entity Name
 Entity Normal Cache Field (Requires Stick on Collision)
+Entity System
 Entity index to report NPC Controller logging information for.
 Entity to watch for prediction system changes.
 Entity variable to watch in prediction system for changes.
@@ -18571,6 +18730,7 @@ EntityPlatformTypes_t
 EntityPos
 EntityRenderAttribute_t
 EntitySubclassScope_t
+EntitySubclassUtilsV001
 Entry
 EntryOverrideTree
 Enum
@@ -18584,6 +18744,7 @@ Envelope Curve
 Envelope Mode
 Epsilon to trigger movement of VR subtitle panel in world space
 Equal
+Error tolerance for adaptive sampling.
 Escape key allowed to hide game UI
 Escape key allowed to show game UI
 Escape key doesn't hide game UI
@@ -18639,6 +18800,7 @@ EventSimpleLoopFrameUpdate_t
 EventSimulate_t
 EventSplitScreenStateChanged_t
 EventTypeSelection_t
+Events
 Every N positions
 Every N seconds, we must make download progress of at least sv_dota_custom_game_cache_download_stuck_mb megabytes, or else we'll assume the download is stuck and give up
 Everything
@@ -19183,6 +19345,7 @@ Fantasy_Selection_Mode
 Fantasy_Team_Slots
 Fast
 FavoritedByFriendsRankedByPublicationDate
+FbxSystem
 FeAnimStrayRadius_t
 FeAntiTunnelGroupBuild_t
 FeAntiTunnelProbeBuild_t
@@ -19251,9 +19414,11 @@ Feet
 Field of View (degrees)
 FieldNetworkOption
 Fifty Percent/Zero Percent Distance
+FightingGame
 File
 File Type
 Filename of crash detection sentinel
+Filesystem
 Fill
 Fill the area based on the largest bounds of child elements as specified in their selection criteria.
 Filter
@@ -19288,6 +19453,7 @@ Find entities that intrude into the nav mesh.  List those entities in console ou
 Find help about a convar/concommand.
 Find key bound to specified command string.
 Find or clear the vis LOS to here
+Find the number of assets registered with the asset system
 Finger Curl - Index
 Finger Curl - Middle
 Finger Curl - Pinky
@@ -19345,6 +19511,7 @@ Flags
 Flags_t
 Flash when enemies take damage from the player
 Flashlight
+FlattenedSerializersVersion001
 FlexOpCode_t
 Flip U or V texcoords if pitch or yaw go over PI
 FlipHemisphere
@@ -19361,6 +19528,7 @@ Flush all unlocked async audio data
 Flush and re-parse the sound operator system
 Flush the log file to disk on each write (slow).
 Flush writing the demo file every network update
+Flushes sfm clip preview sample cache.
 Flushes the client side soundscapes
 Flushes the server & client side soundscapes
 Flushes the specified cache
@@ -19388,6 +19556,7 @@ FollowTargetOpFixedSettings_t
 Font size for text in 2d and 3d viewports
 Font size for the debug font
 Font()
+FontManager_001
 Foot
 Foot 3
 Foot 4
@@ -19437,6 +19606,7 @@ For k_ePlayerTrackedStatImpl_HeroAdjective, what is the adjective information.
 For k_ePlayerTrackedStatImpl_KillEater, what is the kill eater information.
 For k_eTeamTrackedStatImpl_Expression, what is the expression information.
 For k_eTeamTrackedStatImpl_PlayerAggregate, what is the aggregate information.
+For servers behind NAT/DHCP meant to be exposed to the public internet, this is the public facing ip address string: ("x.x.x.x" )
 For testing the audio input pathway with a sine tone instead of SDL3.
 For testing using legacy nav data
 Force ALL async data panels to be in a specific state. -1:disabled, 0:failure, 1:loading, 2:success
@@ -19448,6 +19618,7 @@ Force Static
 Force a breakable to break
 Force a busy wait for the specified number of milliseconds during save to simulate a hitch
 Force a full update for all clients.
+Force a reload of a vmdl resource
 Force a single render of the engine viewport.
 Force a specific lesson to be triggered
 Force all bots to reselect their current task.
@@ -19457,6 +19628,7 @@ Force auto-equip on all items acknowledged.
 Force bots to pick one of these heroes before falling back to random selection (should be a comma-separated list with no spaces)
 Force client to ignore packets (for debugging).
 Force close all the popups, useful when popup layout breaks after live editing
+Force defragmenting memory with VMA
 Force desired layout traverse, even if the cached values are up to date.
 Force disable client validation for spectating.
 Force enable (=1) or disable (=0) all divisions to be marked as free.
@@ -19588,6 +19760,7 @@ GAME_PARTICLE_MANAGER_EVENT_UPDATE_FORWARD
 GAME_PARTICLE_MANAGER_EVENT_UPDATE_OFFSET
 GAME_PARTICLE_MANAGER_EVENT_UPDATE_ORIENTATION
 GAME_PARTICLE_MANAGER_EVENT_UPDATE_TRANSFORM
+GCClient
 GCConnectionStatus
 GCConnectionStatus_GC_GOING_DOWN
 GCConnectionStatus_HAVE_SESSION
@@ -19675,9 +19848,18 @@ Game/Sound System Debugger
 GameActivity_t
 GameAnimEventIndex_t
 GameChatLogEntry_t
+GameClientExports001
+GameEventSystem
+GameEventSystemClientV001
+GameEventSystemServerV001
 GameManagedItems
+GameModelInfo001
+GameResourceServiceClientV001
+GameResourceServiceServerV001
+GameSystem2HostHook
 GameTick_t
 GameTime_t
+GameUIService_001
 Gameplay Effect
 Gameplay Outcome to Highlight
 Gameplay State High
@@ -19691,21 +19873,36 @@ Gem Type
 General
 GeneralOptionsEditableData_t
 Generate 4 recipes.
+Generate Halton Sequence for a given order and number of samples.
+Generate LUTs for modified GGX
 Generate Movement
 Generate a control signal that represents the envelope/level of an audio track.  Think of this as behaving like a meter but driving some graph logic.
 Generate a minidump comment and spew the results to the console
+Generate a poisson disk of N samples using best-candidate sampling.
+Generate a pre-integrated BRDF LUT
 Generate a random float between min and max (inclusive)
 Generate a random integer between min and max (inclusive)
 Generate a report to the console based on budget group.
 Generate a report to the console.
+Generate a sine pulse texture
 Generate all recipes.
 Generate an assert to test shipping assertion code
+Generate solar radiance image
 Generate the Layout XML Schema Definition for the current run-time (types are dependent on which game DLL is running).
+Generate the diffuse warp lookup texture used for pre-integrated skin shading.
 Generate the grid by placing N x N children.
+Generate the shadow warp lookup texture used for pre-integrated skin shading.
 GenerateBreakpieces
 Generated a nulled out container.
 Generates Path Positions
+Generates SH skyboxes
+Generates a LUT for AO cone vs. sphere
+Generates a LUT for AO proxy calculations
+Generates a LUT for cone-cone union
+Generates a LUT to give a cone angle from parameterized ellipse
 Generates a list of items that should be considered for purchase.
+Generates a reference 6-point lighting ball
+Generates a reference spherical harmonics lighting ball
 Generates a tone as an audio track.
 Generates an Envelope Curve on compile
 Generates set of child instances arranged in a regular grid layout.
@@ -19715,7 +19912,9 @@ Get Fake Entity Name
 Get a list of top dota streams on twitch
 Get data related to mix group matching string
 Get help on registered script API functions and tables.
+Get or set SteamNetworkingSockets options such as fake packet lag and loss
 Get physics surface properties for all the materials.
+Get physics surface property of models.
 Get request X-Origin-Auth string
 GetAbsoluteNoDamageMagical
 GetAbsoluteNoDamagePhysical
@@ -20060,6 +20259,7 @@ Gives the game time in seconds (server's curtime)
 Glide
 Glide Time (ms)
 Global UI
+GlobalState
 GlobalTransitionConduit
 Go to next ability cast
 Goal Assist
@@ -20096,6 +20296,8 @@ GraphCanvasTextClipMode_t
 GraphCanvasVAlign_t
 GraphCanvasVisibilityState_t
 Graphs
+Graphs CIE1931 functions to make sure they look right
+Graphs the old broken filter kernel and candidates for new ones
 Gravity
 Greater Than
 Greater Than Or Equal
@@ -20156,6 +20358,8 @@ HITGROUP_SPECIAL
 HITGROUP_STOMACH
 HITGROUP_UNUSED
 HITSTUN_ACTION_DEFINITION
+HLTV Broadcast
+HLTV Server
 HLTV streams will include player usercommands each tick
 HORIZ_JUSTIFICATION_CENTER
 HORIZ_JUSTIFICATION_LEFT
@@ -20189,10 +20393,12 @@ HULL_TINY
 HULL_TINY_CENTERED
 HULL_WIDE_HUMAN
 Half Blend Add
+Hammer
 Handle Settings
 HandshakeTagState_t
 HandshakeTagType_t
 Hard Support
+Hard limit for the v8 heap size (in mBytes)
 Hard limit on per-token quantities. It's impossible to have more than this number of tokens.
 HardCancel
 Harmonics
@@ -20210,6 +20416,8 @@ Height Reflectivity
 Height of navigating agent capsule.
 Height of volume fog texture
 HeldItem
+HelpSystem
+HelpSystem_001
 Helper Tooltip Available
 Helper Tooltip Loc String
 Hermite
@@ -20269,6 +20477,7 @@ Hitboxes
 Hitboxes fall back to collision hulls
 Hitboxes fall back to render bounds
 Hitboxes fall back to snapshot
+Hltv Director
 Hold Time (seconds)
 Hold time (ms)
 Holds game events until client has received the tick the event was fired on.
@@ -20277,11 +20486,17 @@ Honors the per-particle radius (multiplied by radius scale) but is more expensiv
 HorizJustification_e
 Horizontal Axis
 Horizontal Parameter
+Host
 Host SourceTV[0] port
 Host SourceTV[1] port
+Host game server ip
 Host game server port
+HostStateManager
+HostStateMgr001
+HostUtils001
 Hostname for server.
 HoverPoseFlags_t
+How aggressive the switch to fallbacks will be depending on how far over the cl_particle_sim_fallback_threshold_ms the sim time is.  Higher numbers are more aggressive.
 How damage to this damage level is handled.
 How far back before our current playback head in seconds to hold onto fragments.
 How far in the future should the camera continue to process mousewheel events after they occur. In seconds.
@@ -20394,6 +20609,8 @@ IKTARGETSOURCE_COUNT
 IKTargetCoordinateSystem
 IKTargetSettings_t
 IKTargetSource
+IME
+IMEManager001
 IMMEDIATE_HALT
 IMPORT
 IMPORTANT
@@ -20404,6 +20621,7 @@ IMPULSE_TYPE_NONE
 IMPULSE_TYPE_PARTICLE_SYSTEM
 IMPULSE_TYPE_ROPE
 INCLUDE
+INETSUPPORT_001
 INFO_COOP_BATTLE_POINTS_RULES
 INFO_COOP_LOW_PRIORITY_PASSIVE_REMINDER
 INFO_CUSTOM_GAME_PENALTY_REMINDER
@@ -20478,6 +20696,7 @@ IPhysicsMotionController
 IPhysicsParticleRope
 IPhysicsPlayerController
 IPhysicsRagdollControl
+IPulseSystem_001
 IRagdoll
 ISkeletonAnimationController
 ISndSeqInstruments
@@ -20570,9 +20789,16 @@ If set to 1, running the english language set of assets.
 If set to 1, the server calculates data and fills packets to bots. Used for perf testing.
 If set to >= 0, we will use this mix modifier for source-specific DSP effects. Otherwise we will use the listener DSP value.
 If set to the name of the rule, that rule's score will be shown whenever a concept is passed into the response rules system.
+If set, OBJ export and Hammer visualization only shows sound blocking geometry used for baking simulation and runtime queries.
 If set, all pose parameters on client/server are forced to neutral value
+If set, all the probes near a source withing probe range are used to find paths instead of nearest probe.
 If set, animgraph_debug_variables won't show debug for variable sets that don't change the value.
 If set, animgraph_debug_variables won't show debug for warnings about sets to missing variables.
+If set, baked dimensions data is loaded.
+If set, baked materials data is loaded.
+If set, baked occlusion data is loaded.
+If set, baked pathing data is loaded. Steam Audio Hammer entities can successfully use pathing in this case.
+If set, baked reverb data is loaded. Reset it to zero during an format changes of baked data until all data is updated.
 If set, bots will be set to the level specified with appropriate gold on game start
 If set, brings Dota to the foreground on a ready check
 If set, brings Dota to the foreground when hero picking starts
@@ -20593,6 +20819,7 @@ If set, notarget will cause entities to never think they are in the pvs
 If set, objects blink in/out of pvs randomly.
 If set, only allows this ent index to network (other than players and things that force sending).
 If set, only members of Steam group will be able to join the server when it's empty, public people will be able to join the server only if it has players.
+If set, only net_showmsg spew for data inbound on this socket name e.g. client, server, etc.
 If set, orientation warp pivots around the model center instead of abs origin.
 If set, party and lobby invites from non-friends are ignored
 If set, party status will not be sent to friends via rich presence, unless the party is open
@@ -20630,6 +20857,7 @@ If true, never mark a player as AFK.
 If true, player pawn will filter lag compensation targets by their view angle.
 If true, resets the input device when there was a long enough hitch between callbacks.
 If true, server buoyancy motion controllers are updated in an async job after the tick has completed.
+If true, the main thread pauses and unpauses the Vulkan worker threads around each texture deallocation, which allows the workers to make a little bit of progress but results in main thread stalls. If false, we keep the workers paused until all deallocations are done, allowing the deallocations to complete significantly faster.
 If true, the minimap will show a simplified background image.  No longer used, please use dota_minimap_background_option instead
 If true, the parent element will be discarded there is no state with the specified name. If false, and there is no state with the specified name then no changes are made.
 If true, treat the specified up direction as fixed up direction to apply to all elements placed on the path. If false the up direction is just an initial direction.
@@ -20664,6 +20892,7 @@ IkTarget_Parameter_WorldSpace
 Illumination Gradient
 Image file extension.
 Image shown while customizing ping wheel
+ImageCompiler
 Immediate
 Impact Options
 ImportExportOptionsEditableData_t
@@ -20696,6 +20925,7 @@ Increment Index
 Increment specified convar value.
 Increment the timescale by one step
 Index
+Index of active HRTF.
 IndexAndPercentage
 IndexOnly
 Indicate to a test script that a checkpoint has been reached
@@ -20754,6 +20984,7 @@ InfoForResourceTypeManifestTestResource_t
 InfoForResourceTypeProceduralTestResource_t
 InfoForResourceTypeVMapResourceData_t
 InfoForResourceTypeWorld_t
+Information about the current assetsystem database.
 Inherit from Parent
 InheritableBoolType_t
 Initial Trace Down
@@ -20781,13 +21012,20 @@ Input Type
 Input Vector
 Input candy count for variable exchange recipe
 Input toggle control
+InputBindSystem
 InputBitMask_t
 InputLayoutVariation_t
+InputService
+InputService_001
+InputStackSystemVersion001
+InputSystem
+InputSystemVersion001
 InputType_PlayerShootPosition
 InputType_PlayerShootPositionAroundAxis
 Inside
 Instant Impulse On Each Particle Event
 Instant Stop
+InstantReplay
 Int Parameter
 IntParameter
 Integer
@@ -20870,6 +21108,7 @@ JOINT_MOTION_FREE
 JOINT_MOTION_LOCKED
 JUMP
 JUMP_COND
+JavaScriptCompiler
 Jiggle Bone
 Jiggle Bones
 JiggleBoneSettingsList_t
@@ -20903,6 +21142,7 @@ Key Type
 Key for overriding datasource registration key
 Key for when posting to vac related webapis.
 KeyGroup_t
+KeyValueCache001
 Keyed Floats
 Keyed Midi
 Keyed Sound Events
@@ -20935,6 +21175,7 @@ Kills to show on post-game graph 0 = All, 1 = Units, 2 = Structures, 3 = None
 Knee Twist Limits
 Knee Width (dB)
 Knee width (dB) 0 = hard knee
+KubeJobs
 LANE_TYPE_JUNGLE
 LANE_TYPE_MID
 LANE_TYPE_OFF
@@ -21086,9 +21327,11 @@ LIFE_DEAD
 LIFE_DYING
 LIFE_RESPAWNABLE
 LIFE_RESPAWNING
+LIGHTBINNER
 LIGHT_STYLE_NEW
 LIGHT_STYLE_OLD
 LINE
+LOADING
 LOGIC_BRANCH_LISTENER_ALL_FALSE
 LOGIC_BRANCH_LISTENER_ALL_TRUE
 LOGIC_BRANCH_LISTENER_MIXED
@@ -21161,6 +21404,7 @@ LeftFootPassing
 LeftPhase
 Leg Extension Scale
 Legacy VMix Shoebox Reverb Node
+LegacyGameUI001
 Length
 Length (beats)
 Lerp
@@ -21174,21 +21418,25 @@ LessThanEqual
 LessonPanelLayoutFileTypes_t
 Level Override
 Level Volume
+Level of validation for nav system.  Higher will be slower.
 Level up talent attribute.
 Level up talent on the left.
 Level up talent on the right.
 LifeState_t
 Light Radius
+LightMapper
 LightRigType_t
 Lighten
 Lighting
 Lighting and Shadows
 Lightmap set to use, only works on map load
+Like net_showmsg, but only spew reliable messages
 Likelyhood we'll re-allocate a timesliced shadowmap (to try to improve packing)
 Limit Count
 Limit Foot Rotation
 Limit Leg Twist
 Limit available remaining playtime.  Requires -antiaddiction_test.
+Limit debug visualizations to substring match of effect name
 LimitSearchToSourceState
 Limiter
 Limiter Ratio
@@ -21216,18 +21464,22 @@ List all clientside simulations and time - will report and turn itself off.
 List all current deferred load soundevents
 List all known entity lumps
 List all known sounds.
+List all loaded localization files
 List all mix groups to dev console.
 List all mix layers to dev console.
 List all mixers to dev console.
 List all physics component contents of every entity in the game;\n    -stream [1|0]         initiate|terminate streaming to physics debugger\n    -allents              include non-physical entities\n    -classes              print class names\n    -sdk                  Rubikon-wide memory short status\n    -sdk -struct          Rubikon-wide memory use per struct\n    -sdk -rebuildsvms     Rubikon-wide SVM force rebuild and status\n    -world                current state of the world\n    -world -touch         list body pairs (bodies in contact)\n    -world -save <name>   save world to a file\n    -world -mem           memory dump (separately per game dll)\n    -world -snapshots     Start/Stop dumping snapshots of the world into the current directory\n    -world -agg           current aggregate data registry (loaded resources)\n
+List all registered net messages
 List all the active pulse graph instances
 List all the active sceneworlds
 List all the currently registered anim events.\n
 List all world layers
 List bound keys with bindings.
 List client entities, sorted by spawn group
+List connections
 List currently known peers.
 List demo file contents.
+List information on the given token
 List leaver status of players
 List loaded resources matching a substring
 List of Pro Players for the role
@@ -21252,9 +21504,13 @@ Lists banned users.
 Lists secondary scene worlds and ref counts
 Lists the item definitions that have a specified tag.
 Literal Value
+Load a custom skin diffusion profile.
+Load a measured diffusion profile.
 Load all available items.
 Load all the probes from a file and display probes based on the passed on arguments.
 Load camera setup from a specific portrait file
+Load debug_path_trace_scene_info.dat for RT baked lighting visualization instead of using the current map.
+Load sum-of-gaussians skin diffusion profile.
 Load the inventory layout from the Steam servers.
 Load the rays and run the benchmark
 Loading Screen
@@ -21274,6 +21530,7 @@ Local graph expected values
 Local space position translation to apply to the current transform
 Local space rotation (in degrees) to apply to the current transform
 Localization String describing the operation
+Localization System
 Localization name of the gem
 Localization name of the title when used as an aggregate
 Localization name of the title when used on it's own
@@ -21282,6 +21539,7 @@ Localization token for explaining what the title does
 Localization token for explaining what the title does in sitations that allow mouseover
 Localization token for the name of the quality
 Localization token for the name of the shape
+Localize_001
 Localized name for this highlight
 Lock Blend When Waning
 Lock Blend on Reset
@@ -21300,6 +21558,7 @@ Lock to inputs.  This makes each input "sticky" instead of smoothly varying betw
 Lock to output (0-1)
 Lock vis LOS origin to current
 LockedNode
+LockpickingGame
 Locks the showcase behind the hero
 Lod at level at which visemes stops always considering two phonemes, regardless of duration.
 Log FUL_FULL_EDICT_CHANGED calls.
@@ -21307,6 +21566,8 @@ Log SO cache messages
 Log caption names and contents (0 = off, 1 = found captions, 2 = unfound captions, 3 = all captions)
 Log debug messages when interacting with Steam duration control API
 Log game events being considered by the director
+Log network processing
+Log packets to files
 Log server bans in the server logs.
 Log server information in the log file.
 Log server information to only one file.
@@ -21403,6 +21664,7 @@ MESH_DRAW_FLAGS_USE_COMPRESSED_PER_VERTEX_LIGHTING
 MESH_DRAW_FLAGS_USE_SHADOW_FAST_PATH
 MESH_DRAW_FLAGS_USE_UNCOMPRESSED_PER_VERTEX_LIGHTING
 MESH_DRAW_INPUT_LAYOUT_IS_NOT_MATCHED_TO_MATERIAL
+MET
 MIRROR_SPACE_BONE_RELATIVE
 MIRROR_SPACE_MODEL_RELATIVE
 MISSING_PARENT_DO_NOTHING
@@ -21425,6 +21687,7 @@ MODEL_HITBOX_TYPE_RAW_BONES
 MODEL_HITBOX_TYPE_RENDERBOUNDS
 MODEL_HITBOX_TYPE_SNAPSHOT
 MODEL_HITBOX_TYPE_STANDARD
+MODEL_PROCESSING_SERVICES_INTERFACE_001
 MODIFIER_ATTRIBUTE_AURA_PRIORITY
 MODIFIER_ATTRIBUTE_DUPLICATED
 MODIFIER_ATTRIBUTE_IGNORE_DODGE
@@ -21968,6 +22231,7 @@ Maintain Closest Triangle Offset
 Maintain Parent Orientation
 Maintain Up Direction
 MaintainParentOrientation
+Make some code for me
 Makes ropes use average of cubemap lighting instead of max intensity.
 Makes the debug overlay dashboard visible.
 Makes the tutorial end
@@ -21981,6 +22245,10 @@ Manual Turn Offset
 ManualTarget_WorldSpace
 Manually causes a refresh of the item sequence
 Manually select which heroes will be assigned during Ability Draft lobby game. Usage: dota_gamemode_ability_draft_set_draft_hero_and_team <hero> <team:radiant/dire/extra>
+MapBuilder
+MapBuilderSystem
+MapListService_001
+MapVisibilityV001RESOURCE_TYPE_COMPILER_002
 Maps the shape to it's code behavior.
 Mark all of the trees on the map as visible.
 Mark all the trees on the map as hidden.
@@ -22034,6 +22302,7 @@ Material Replacements
 Material group (skin) to assign to use with the model.
 Material group variable to set to the selected choice.
 Material to which color tint is to be applied.
+MaterialCompiler
 MaterialGroupChoice_t
 MaterialGroup_t
 MaterialOverride_t
@@ -22046,7 +22315,9 @@ MaterialParamVector_t
 MaterialParam_t
 MaterialProxyType_t
 MaterialResourceData_t
+MaterialSystem
 MaterialTrader
+MaterialUtils_001
 MaterialVariable_t
 Materials
 MatterialAttributeTagType_t
@@ -22106,12 +22377,14 @@ Max Win Streak
 Max XPM
 Max Yaw Angle
 Max abrupt orientation difference an NPC can tolerate when moving through the mesh (degrees).
+Max amount of time to wait (in ms) for input dependencies to stop being written before abandoning the compile
 Max bandwidth rate allowed on server, 0 == unlimited
 Max buyin allowed for a single member
 Max buyin allowed for entire team
 Max damage done by a drowning tick
 Max ground slope to be considered walkable.
 Max horizontal offset over which to create a jump connection ( actually a parameter into the true threshold function ).
+Max length of strings to dump in assetsystem_dump_table
 Max number of array entries to spew when using SaveRestoreIO spewing.
 Max number of bad intervals to count for a player
 Max number of broadcast http requests in flight. If there is a network issue, the requests may start piling up, degrading server performance. If more than the specified number of requests are in flight, the new requests are dropped.
@@ -22125,12 +22398,14 @@ Max number of non-spectator players supported.
 Max number of player teams supported.
 Max number of players connected to the server including spectators.
 Max number of players per team.
+Max number of samples per triangle. Higher is more quality/slower.
 Max number of ticks to simulate per frame, after which simulation will start to slow down compared to real time.
 Max number of tiers above the party's assigned level that you can compete at
 Max number of times a user can fail rcon authentication before being banned
 Max number of video resolutions to show in UI.
 Max number of viewers in a spectator lobby.
 Max orientation range allowed within a region before it gets further split.
+Max polymorphic variants to spew when spewing a flattened serializer.
 Max proportion of search term allowed to be wrong in fuzzy search
 Max reverb gain amount for listener DSP.
 Max reverb gain amount for source-specific DSP.
@@ -22161,6 +22436,7 @@ Maximum blend weight value for which the model will be placed. If the blend weig
 Maximum camera distance. Higher means more zoom out possible
 Maximum client number on SourceTV server.
 Maximum depth of smart prop evaluation stack during evaluation.
+Maximum gain any HRTF could have during volume normalization.
 Maximum lag compensation in seconds
 Maximum length
 Maximum length of the trace. Surfaces beyond this distance will not be hit.
@@ -22170,11 +22446,18 @@ Maximum lobby age to be visible in overview.
 Maximum number of fixed exchange recipes.
 Maximum number of input or output candies for fixed exchange recipes.
 Maximum number of instances of this object and its children to be placed.
+Maximum number of messages to allow waiting in queue after processing; exceeding this disconnects the client. 0 == no limit
+Maximum number of messages to process from a client in a single frame (0 == no limit).
+Maximum number of probes to create when baking custom data (dimensions).
+Maximum number of probes to create when baking custom data (occlusion).
+Maximum number of probes to create when baking paths.
+Maximum number of probes to create when baking reverb.
 Maximum number of ragdolls to show (-1 disables limit)
 Maximum number of retries when the GC connection is down.
 Maximum number of steamlearn requests that we can have in flight at once
 Maximum number of ticks the clock is allowed to drift before the client snaps its clock to the server's.
 Maximum number of undo levels
+Maximum order for Ambisonics binaural rendering and Ambisonics panning.
 Maximum ping for custom game overview.
 Maximum prop breakable piece count per frame (-1 = model default)
 Maximum queries per second to respond to from a single IP address.
@@ -22204,6 +22487,9 @@ Memory Level - Default: High
 MeshDrawPrimitiveFlags_t
 MeshGroup Index
 MeshGroup Mask
+MeshSystem
+MeshSystem001
+MeshUtils
 Message
 Method
 Mid EQ gain (dB)
@@ -22213,6 +22499,7 @@ Midpoint Deformer
 Midpoint Offset
 Midpoint Rotation
 Midpoint Scale
+Millisecond delay between typing in the assetbrowser filter and the filter being applied
 Min
 Min Angle
 Min Blend Weight
@@ -22235,6 +22522,7 @@ Min Value
 Min Win Duration
 Min bandwidth rate allowed on server, 0 == unlimited
 Min bytes/sec the host can receive data
+Min number of samples per triangle. Higher is more quality/slower.
 Min reverb gain amount amount for listener DSP.
 Min reverb gain amount for source-specific DSP.
 Min size of the recv margin queue when async usercmd send is disabled
@@ -22242,6 +22530,7 @@ Min size of the recv margin queue when in tools/debug mode
 Min value property name
 Min/Max number parts to destroy when gibbing
 MinAttributeLevel
+MinesweeperGame
 Minimal Text
 Minimap on Left = 0, Minimap on Right = 1.
 Minimum Angle
@@ -22258,6 +22547,7 @@ Minimum allowable pause between replay requests in seconds
 Minimum blend weight value for which the model will be placed. If the blend weight value is less than this value, the model will not be placed.
 Minimum camera center position.
 Minimum camera distance. Lower means more zoom in possible
+Minimum distance (in meters) of a source from a surface for the purposes of energy calculations.
 Minimum edge overlap required for jump connection consideration as a percentage of agent radius
 Minimum length
 Minimum mouse movement in pixels before a move is treated as a drag scroll
@@ -22310,6 +22600,7 @@ Mod Depth (milliseconds)
 Mod Frequency (Hz)
 Mod Rate (# of delay intervals before mod)
 Mod2X
+ModTools
 Mode
 Model
 Model Asset Variable
@@ -22332,16 +22623,21 @@ ModelAnimGraph2Ref_t
 ModelBoneFlexComponent_t
 ModelBoneFlexDriverControl_t
 ModelBoneFlexDriver_t
+ModelCombiner
 ModelConfigAttachmentType_t
 ModelConfigHandle_t
+ModelDoc
 ModelDocAssetBrowse( dmx, fbx, smd, *requiredoubleclick, *ShowRelatedFile )
+ModelDocCompiler
 ModelDocPicker( MODELDOC_PICK_TYPE_BODY_GROUP )
 ModelDocPicker( MODELDOC_PICK_TYPE_BREAKPIECE )
+ModelDocUtils001
 ModelEmbeddedMesh_t
 ModelHitboxType_t
 ModelInput()
 ModelMeshBufferData_t
 ModelMeshBufferUsage_t
+ModelProcessingSystem
 ModelReference_t
 ModelSkeletonData_t
 ModelSkeletonData_t::BoneFlags_t
@@ -22420,12 +22716,14 @@ Movement Velocity Parameter
 MovementCapability_t
 MovementData
 Mover
+Movie
 MsDirection
 MsPosition
 Mul
 Multi Blender
 Multipler on frametime, used for broadcasters only.
 Multipler on frametime.
+Multiplier for falling back to cheaper effects under load.
 Multiplier for flick velocity off of actual measured velocity
 Multiplier of the animation duration
 Multiplier on direction
@@ -22720,10 +23018,13 @@ Nav Hulls
 NavAttributeDynamicType
 NavAttributeEnum
 NavDirType
+NavGameTest001
 NavGravity_t
 NavHull_t
+NavMesh
 NavScopeFlags_t
 NavScope_t
+NavSystem001
 Navigator
 NearEqual
 Nearest
@@ -22733,13 +23034,26 @@ Negative Half Blend Add
 Negative X Axis
 Negative Y Axis
 Negative Z Axis
+NetSteamConn
 NetVarConfigIndex
 Network
 Network Facing
 Network Look Target
 Network Mode
 Network Path
+NetworkClientService
+NetworkClientService_001
+NetworkCodeGen
+NetworkMessagesVersion001
+NetworkP2PService
+NetworkP2PService_001
+NetworkServerService
+NetworkServerService_001
+NetworkService
+NetworkService_001
+NetworkSystemVersion001
 Networking
+Networking Reliable
 NeutralCampStackPullAlarmType_t
 NeutralCampStackPullAlarm_t
 NeutralSpawnBoxes_t
@@ -22812,6 +23126,7 @@ Normal Map
 Normal fade out. The object will fade at when at the standard size on screen.
 Normalize Vector
 Normalize the value of a 3d vector.
+Normalize volume of default HRTF dataset across all directions.
 Normalized (Direction Vector)
 Normally the orientation warp will take the shortest arc to align entity's forward vector with the target. With this option enabled it will rotate in the direction that includes passing through the preferred rotation direction parameter unless the resulting rotion is larger than the threshold specified.
 Not-Imported
@@ -22845,6 +23160,7 @@ Number of minutes to ban users who fail rcon authentication
 Number of most recent news events to pull
 Number of packets per second of updates you are requesting from the server
 Number of pets allowed in a single match.
+Number of rays to trace for estimating inside outside status of a probe.
 Number of reward slots that are available by default
 Number of samples used to guess players lane selection
 Number of seconds after which the game will automatically unpause
@@ -23272,6 +23588,7 @@ Override width/height of individual cascades in the CSM
 Override. Old default was 3.0
 Override. Old default was 45.
 Override. Old value was 1.0
+Overrides IP for multihomed hosts
 Overrides the SourceTV master root address.
 Overrides the map's fog settings (-1 populates fog_ vars with map's values)
 Overrides the max players reported to prospective clients
@@ -23290,6 +23607,7 @@ OverworldSplineInfo_t
 OverworldTarotCardID_t
 OverworldTokenID_t
 P2P_Messages
+P4File
 PANEL
 PANEL_ATTRIBUTE
 PANEL_ATTRIBUTE_VALUE
@@ -23884,7 +24202,15 @@ PairedSequenceData
 PairedSequence_t
 Pan Speed
 Panning Control Input Name
+Panorama
 Panorama Panel Handle
+PanoramaCompiler
+PanoramaContent
+PanoramaScript
+PanoramaTextServices001
+PanoramaUIClient001
+PanoramaUIEngine001
+PanoramaVideoPlayer
 Parallalelize Filter
 ParamSpanSample_t
 ParamSpan_t
@@ -23917,6 +24243,7 @@ Particle System
 Particle Tag
 Particle system of ping effect
 Particle system of ping effect when targetting an npc (optional)
+Particle systems larger than this in every dimension skip culling to save CPU.  They will be drawn anyway.
 ParticleAlphaReferenceType_t
 ParticleAttachment_t
 ParticleAttrBoxFlags_t
@@ -23947,6 +24274,7 @@ ParticleFloatType_t
 ParticleFogType_t
 ParticleHitboxBiasType_t
 ParticleHitboxDataSelection_t
+ParticleImport
 ParticleImpulseType_t
 ParticleIndex_t
 ParticleLightBehaviorChoiceList_t
@@ -23980,6 +24308,7 @@ ParticleSelection_t
 ParticleSequenceCropOverride_t
 ParticleSetMethod_t
 ParticleSortingChoiceList_t
+ParticleSystemMgr003
 ParticleTextureLayerBlendType_t
 ParticleToolsState_t
 ParticleTopology_t
@@ -23991,6 +24320,8 @@ ParticleVariableRef()
 ParticleVecType_t
 ParticleVolumetricSmokeCreationType_t
 ParticleVolumetricSmokeType_t
+Particles
+ParticlesLib
 PartnerAccountType
 Passthrough
 Passthrough Root Motion
@@ -24002,6 +24333,7 @@ Path Metric
 Path Motor
 Path Positions
 Path control points
+Path length of invalid path in inches. Set this to .0 to use direct distance as path length.
 PathEntity
 PathMoverEntitySpawn
 Pathing Coefficients
@@ -24012,6 +24344,7 @@ Pattern Name
 Pattern Priority
 Patterns
 Pause at the end of replays
+Pause particle simulation
 Pause the game when hammer is activated
 Pause the specified soundevent in the list
 Pauses demo playback.
@@ -24043,6 +24376,7 @@ Percentage of the transition between two lods we will apply a dither
 PercentageOnly
 PercentageThroughState
 PercentageThroughSyncEvent
+Perform a detailed check of an asset's compile state
 Perform a trace between the specified origin and a specified target point.
 Perform a trace from a specified origin point to a the closest point on a line.
 Perform a trace in a direction from a specified origin and stop when a surface is hit.
@@ -24060,6 +24394,8 @@ PermModelData_t
 PermModelExtPart_t
 PermModelInfo_t
 PermModelInfo_t::FlagEnum
+Perspective correction factor, ratio of screen size and view depth from screen, for 3D audio.
+Pet
 PetCoopStates_t
 PetGroundType_t
 PetLevelup_Rule_t
@@ -24074,7 +24410,9 @@ PhysInterfaceId_t
 PhysObjectHeader_t
 PhysShapeMarkup_t
 PhysSoftbodyDesc_t
+Physics
 Physics Body Data By Bone Name
+PhysicsBuilderMgr001
 PhysicsParticleId_t
 PhysicsRagdollPose_t
 Pick a choice specified by an additional authored value.
@@ -24142,6 +24480,7 @@ Play on Server
 Play the given VCD as an instanced scripted scene.
 Play the specified animation sequence on a NON-ANIMGRAPH entity, and wait for it to complete.
 PlayBackMode_t
+PlayButtonService001
 Playback
 Playback Event Beat/Bar/Phrase/Length Multiplier
 Playback Event Type
@@ -24219,11 +24558,13 @@ Possible Values: 'start_at_attachment', 'follow_attachment', 'start_at_origin', 
 Post Processing File
 Post Processing Priority Group
 Post Processing Strength
+PostProcessing
 PostProcessingBloomParameters_t
 PostProcessingFogScatteringParameters_t
 PostProcessingLocalContrastParameters_t
 PostProcessingLocalExposureParameters_t
 PostProcessingResource_t
+PostProcessingSystem_001
 PostProcessingTonemapParameters_t
 PostProcessingVignetteParameters_t
 Pre Evaluate Passthrough Transition Path
@@ -24238,6 +24579,9 @@ PreDelayMS:5
 PreDelayMS:6
 PreDelayMS:7
 PrecipitationFilter_t
+Prediction
+PredictionDiffManager001
+Prefer shader loop unrolling.
 PreferClosestSyncEventID
 PreferHighestProgress
 PreferHighestWeight
@@ -24271,16 +24615,23 @@ Print a summary report of Source2 engine networking statistics.  (Ticks, netchan
 Print all anim graph parameters for the specified entity.\n\tArguments:   \t{entity_name} / {class_name} / {entity_index} / {no argument = pick what player is looking at}
 Print all entities that get touch callbacks. Each entity is printed only once.
 Print all response rules
+Print assets in the specified dir.
+Print assetsystem dir tree.
 Print connection status
 Print current game state
+Print current ping times to SDR points of presence, and selected route
 Print current shader quality setting
+Print current simulated network condifions
+Print debug message every time a particle collection is created
 Print demo sequence list.
 Print detailed info about a single shader. Takes a shader name (hero.vfx) as an argument.
+Print detailed network statistics for each network connection
 Print info about a specific material
 Print info about animevents emitted by AnimGraph
 Print info about each animevent fired
 Print information about currently playing demo.
 Print information from cl_showfps.
+Print internal assetsystem data.
 Print internal panorama refcounts for every file
 Print loaded materials that are using the error shader or material.
 Print loaded materials that have no valid layers due to not supporting any of the modes in gameinfo.gi.
@@ -24298,6 +24649,7 @@ Print model load-time conversion info
 Print out broadcast status
 Print out gold info
 Print out hltv events
+Print out information on existing particle systems
 Print out latency information
 Print out non-hidden buffs.
 Print out number of active projected textures
@@ -24330,12 +24682,18 @@ Prints local weekend tourney object(s), if any
 Prints out GPU perf statistics to the console.  Requires stats_display > 0, and stats_collect_gpu = true.  Optional argument of CSV filename
 Prints out all entity classes which inherit from a specified base class
 Prints out all valid panorama CSS properties and their documentation
+Prints out detailed memory fragmentation stats for the Vulkan memory manager
 Prints out live D3D11 objects (requires -dx11debug)
 Prints out perf statistics to the console, clears perf history
+Prints out stats for the Vulkan Framebuffer manager
+Prints out stats for the Vulkan Pipeline manager
+Prints out stats for the Vulkan memory manager
+Prints out stats for the Vulkan shader table
 Prints out the current render coordination state.
 Prints out the overall extra data allocation counts
 Prints server lobby object
 Prints server performance variables
+Prints the bind pose of the specified model. Optionally limits to a particular bone and its parent chain, otherwise prints the entire skeleton.
 Prints the camera position. If you are trying to set DOTA's main camera position, you probably want to use dota_camera_get_lookatpos and dota_camera_set_lookatpos.
 Prints the current stack execution list
 Prints the current state of the groups system
@@ -24360,6 +24718,9 @@ Proceed Immediately
 Proceed Immediately.
 Processes network messages on the server before entities think, instead of at the end of the tick.
 Profile Name
+Profile particle
+Profile particle filter
+Profile particle spike
 Project Vector
 Project Vector A onto Vector B
 Projection to plane
@@ -24369,10 +24730,13 @@ Prop Dynamic
 Prop Joints
 Prop Physics
 Propagation Scale
+PropertyEditor
+PropertyEditorSystem_001
 Props
 Public
 Public field 'delay' name.
 Public field name to query.
+Pulse
 PulseApiFeature_t
 PulseBestOutflowRules_t
 PulseCursorCancelPriority_t
@@ -24441,6 +24805,7 @@ QUILLSPRAY_3_ACTION_DEFINITION
 QUILLSPRAY_4_ACTION_DEFINITION
 QUILLSPRAY_FINISH_ACTION_DEFINITION
 QUILLSPRAY_START_ACTION_DEFINITION
+Qt
 Quad
 Quadratic/Linear Bias
 Quadrilaterals
@@ -24457,6 +24822,7 @@ Queue Event Type
 Queues a specific custom client tip to be displayed
 Queues a specific tip ID to be displayed
 Quick example for how we'd derive traits from voice containers.
+QuickBuy
 QuickBuyPurchasable_t
 QuickBuySlot_t
 Quietest Volume
@@ -24477,6 +24843,7 @@ RARITY_COUNT
 RARITY_INVALID
 RBox
 RCAS sharpness when using FSR + RCAS upsample.
+RCon
 READ_ONLY
 RED
 REFERENCE_COMPILED
@@ -24556,6 +24923,8 @@ RESOURCE_ENCODING_TEXT
 RESOURCE_ENCODING_VRMAN
 RESOURCE_ENCODING_VSNAP
 RESOURCE_ENCODING_VTEX
+RESPONSEDOC_LIB
+RESPONSE_RULES
 RETURN_VALUE
 RETURN_VOID
 RGB
@@ -24617,6 +24986,7 @@ RTPROXY_INSTANCE_UNIQUE_MESH
 RTProxyBLAS_t
 RTProxyInstanceFlags_t
 RTProxyInstanceInfo_t
+RTX
 RUMBLE_357
 RUMBLE_AIRBOAT_GUN
 RUMBLE_AR2
@@ -24812,6 +25182,7 @@ Remap a control value using a clamped linear range or clamped power curve.  Allo
 Remap a control variable through a curve that you define.
 RemapFloatInput()
 RemapValueType
+Remapped width of the shadow penumbra
 Remaps a vsnd to an impulse response.
 RemnantData_t
 Remove a filter from the game debug overlay
@@ -24833,10 +25204,12 @@ Removes records of any already dismissed help tips.
 Removes records of intro tips.
 Removes the given NPC(s) from the universe\n\tArguments:   \t{entity_name} / {class_name} / {entity_index} / {no argument = pick what player is looking at}
 Removes the given entity(s)\n\tArguments:   \t{entity_name} / {class_name} / {entity_index} / {no argument = pick what player is looking at}
+Render Steam Audio Probes even when probes are unselected.
 Render blank instead of the game world
 Render cables into SST.
 Render debug overlays from server.
 Render dev visualizers
+Render each particle system N times for perf testing
 Render safe area insets as wireframe.
 Render sun lighting
 Render the 2d skybox.
@@ -24845,21 +25218,29 @@ Render unlit maps as fullbright
 Render view model
 Render world node bounds
 RenderBufferFlags_t
+RenderDeviceMgr001
 RenderFx_t
+RenderGraph
 RenderHairStrandInfo_t
 RenderInputLayoutField_t
 RenderMeshSlotType_t
 RenderMode_t
 RenderModelSubModelFieldType_t
 RenderMultisampleType_t
+RenderPipelineDota
 RenderPrimitiveType_t
 RenderProjectedMaterial_t
+RenderService
+RenderService_001
 RenderSkeletonBone_t
 RenderSlotType_t
+RenderSystem
+RenderUtils_001
 Renderer Modifiers
 Rendering
 Rendering Options
 Rendering filter
+RenderingPipelines_001
 Renders the hero on a gray background for translucency blending testing
 Rendersystem option in use (changing this does not change the rendersystem).
 Rendersystem option requested (changing this does not change the rendersystem).
@@ -24881,6 +25262,7 @@ Replicate for each parent particle
 Replication
 Replication mode
 Replication settings
+Report RTX perf stats at N bounces. -1 means no report
 Report crashes during map compile
 Report prediction copy overrides
 Reports the average fps for this dota game
@@ -24934,14 +25316,19 @@ Resonant filter with adjustable slope. NOTE: This is a clean filter, not an anal
 Resource
 Resource Name
 ResourceBlockTypeInfo_t
+ResourceCompilerSystem
+ResourceCompilerSystem001
 ResourceDataEncodingType_t
 ResourceId_t
+ResourceSystem
+ResourceSystem013
 Respawn Roshan
 Respawns all trees on the map.
 Respawns the player from death!\n
 ResponseContext_t
 ResponseFollowup
 ResponseParams
+ResponseRulesCache001
 Restore State
 Restore previously pushed convars and config values
 Restrict area selection to areas that can support a hull of the given category
@@ -24955,6 +25342,7 @@ Resumes instant replay.
 Retain Initial Velocity 
 Retrieves the rich presence of the user (leave blank for local or specify user with SteamID.Render() format).
 Retry delay when request fails
+Return back to the last active tool from the engine.
 Reverb Time
 Reverb Time (RT60), High Frequency
 Reverb Time (RT60), Low Frequency
@@ -25118,6 +25506,7 @@ SET_EXPRESSION_UNINITIALIZED
 SET_VAR
 SET_VAR_ARRAY_ELEMENT_1D
 SET_VAR_OBSERVABLE
+SFM
 SHADOWS_NONE
 SHADOWS_SIMPLE
 SHAKE_AMPLITUDE
@@ -25149,6 +25538,7 @@ SMALL
 SNAP
 SNAPSHOT_INDEX_DIRECT
 SNAPSHOT_INDEX_INCREMENT
+SND
 SNDLVL_100dB
 SNDLVL_105dB
 SNDLVL_110dB
@@ -25182,6 +25572,7 @@ SNDLVL_TALKING
 SNIPPET
 SNIPPETS
 SNewSettingsDefinition
+SOCache
 SOLID_BBOX
 SOLID_BSP
 SOLID_CAPSULE
@@ -25399,6 +25790,7 @@ SUB_VEC3WS_VEC3
 SUB_VEC3WS_VEC3WS
 SUB_VEC4
 SURROUNDING_TYPE_BIT_COUNT
+SV CommandQueue
 SVC_Messages
 SVC_Messages_LowFrequency
 SWAP_ACTION_DEFINITION
@@ -25442,6 +25834,12 @@ Save the inventory layout to the Steam servers.
 Save the results of a control value (e.g. envelope level) so that code/stack can query it by name.
 Save the specified direction vector to a specified variable, in the requested coordinate space
 Save/Load debug snapshot data
+SaveRestore
+SaveRestoreDataVersion001
+SaveRestoreIO
+SaveRestoreIOFiltered
+SaveRestoreSpawnKeys
+SaveRestoreSyncIO
 SaveRestoreTableFlags_t
 Saves current key bindings to disk.
 Saves out the user config values.
@@ -25484,8 +25882,12 @@ Scales the unit to the target multiplier
 Scan all of the loaded modules and validate any resource manifests found
 Scans for fights
 SceneEventId_t
+SceneFileCache
+SceneFileCache002
 SceneObject_t
 SceneOnPlayerDeath_t
+ScenePrint
+SceneSystem
 SceneSystem/Aggregates/Debug Visualizer
 SceneSystem/Aggregates/Draw Aggregates
 SceneSystem/Aggregates/RT Proxy Debug Visualizer
@@ -25518,14 +25920,21 @@ SceneSystem/LightBinner/Enable Mixed Shadows
 SceneSystem/LightBinner/Enable Sunlight
 SceneSystem/LightBinner/Shadow Rotation
 SceneSystem/LightBinner/Use Illumination Bounds
+SceneSystem/Particles/Debug Visualizer
+SceneSystem/Particles/Draw Particles
 SceneSystem/RenderGraph Visualizer
 SceneSystem/SceneObject Browser
 SceneSystem/Texture Visualizer
 SceneSystem/View Profiler
 SceneSystem/Visualize Base SceneObject Meshlets
 SceneSystem/Visualize SceneObject Mode
+SceneSystem/Vulkan GPU Memory Visualizer
+SceneSystem_002
+SceneUtils_001
 SceneViewId_t
 Schema Enum
+SchemaSystem
+SchemaSystem_001
 Score data for Castle Carnage
 ScoutState_t
 Screen
@@ -25537,8 +25946,10 @@ Screen space size [ 0, 1 ] (where 1 is the whole screen) at which the model will
 Screen-Z Align
 Screen-size where clutter will be full density
 Screen-size where clutter will be gone
+ScreenShot
 Screenshot height. -1 for screen height.
 Screenshot width. -1 for screen width.
+ScreenshotService001
 Screenshots
 Screenspace Fading and culling
 Script File
@@ -25666,17 +26077,26 @@ SequencePicker( 1 )
 SequencePicker( 2 )
 SequenceWeightedList_t
 Sequential
+SerializedEntitiesVersion001
 Series ID for match quests
+Server
 Server Authoritative
 Server is a lan server ( no heartbeat, no authentication, no non-class C addresses )
 Server min buffer size.
 Server password for entry into multiplayer games
 Server queue reservation
 Server tags. Used to provide extra information to clients when they're browsing for servers. Separate tags with a comma.
+Server will listen for direct UDP connections on the configured port.  This can be turned off to only listen for P2P/SDR connections.
 Server will not allow the client to buffer up more than N ms of commands.
+Server will not buffer more than N kb from connected clients
+Server will not buffer more than N messages from connected clients
+Server will reject message larger than N kb
+Server will reject packets with more than N segments
 Server will stop generating substitute commands if client hasn't sent one, after N in a row
 ServerAuthoritative
+ServerLog
 ServerOnly
+ServerToolsInfo_001
 Set 0 to disable emotes.
 Set Alpha
 Set Color
@@ -25743,15 +26163,18 @@ Set the current orientation from a specified forward and up vector.
 Set the default chat group size
 Set the flags on a logging channel.
 Set the max dimension for the map.  This determines the far clipping plane
+Set the maximum update rate (in Hz) for reverb.
 Set the movable mesh dormant flag (0=active, 1=dormant)
 Set the number of gifts set to this account. Argument: [0-5], -1 to turn off
 Set the number of seconds remaining before the game starts.
+Set the overlap fraction (0 to 1) for hybrid reverb.
 Set the particle for a top bar streak effect for testing purposes
 Set the pause state of the server.
 Set the position of the current transform.
 Set the screenshot auto naming prefix.
 Set the screenshot directory.
 Set the spew level of a logging channel.
+Set the transition time (in seconds) between convolution and parametric reverb.
 Set the value of a variable.
 Set the verbosity of a logging channel.
 Set this to automatically apply this tag based on an asset filter string. (NOTE: Auto tag names MUST start with an '@' character!)
@@ -25796,6 +26219,7 @@ Set to override challenge states
 Set to override contract slot states
 Set to render debug overlays
 Set to render decals
+Set to true to revert to old behavior
 Set to use direct lighting
 Set to use indirect lighting
 Set to use screen-space ambient occlusion
@@ -25822,6 +26246,7 @@ Sets the fog color override
 Sets the main camera's look-at position from (x,y) coordinates.
 Sets the mood's animation buckets to be active when the character is listening
 Sets the mood's animation buckets to be active when the character is talking
+Sets the number of threads used for realtime reflection by Steam Audio.
 Sets the server to shutdown when all games have completed
 Sets the specified cache to the specified size
 Sets the targetname of the given entity(s)\n\tArguments:   \t<new entity name> <{entity_name} / {class_name} / {entity_index} / {no argument = pick what player is looking at}>
@@ -25855,13 +26280,19 @@ Shifts every other cell row and/or column.
 Shmup Wait For Duration
 ShmupEnemyID_t
 ShmupEventID_t
+ShmupGame
 ShmupPathID_t
+Shooting
 Shoots a phys object.
 ShopItemViewMode_t
 Shortcut
+Shortcut to set both FakePacketLag_Recv and FakePacketLag_Send net options
+Shortcut to set both FakePacketLoss_Recv and FakePacketLoss_Send net options
+Shortcut to set jitter net options.  Run with no arguments for usage.
 Should Steam China clients use HTTPS
 Should a control to select the specific choice be shown when this prop is placed in Hammer.
 Should both primary and secondary attacks be cooled down together (so cooling down primary attack would cooldown both primary + secondary attacks)?
+Should dedicated server listen for new-style P2P?
 Should instances of this model generate shadows in the lightmap. Note that shadows in the light map will persist even after the model fades out.
 Should labels try to wrap text before using text-overflow: shrink
 Should nav_test_path test 3d navigation?  1 = space to space, 2 = multi-modal space/ground
@@ -25880,6 +26311,9 @@ Should this element be placed at the first positions on the path
 Should this element be placed at the last positions on the path
 Should this physics prop start in a sleeping (non-simulating) state such that it won't update until it is woken up by an external event.
 Should we apply an abs to the result (is performed before we take into account the negate option)
+Should we bake cubemaps?
+Should we bake light probe volumes?
+Should we bake vertex lighting?
 Should we calculate the additives for the secondary weapons from their reference pose or try to look up a pose in the specified animation
 Should we check at compile time that this is an optional mask?
 Should we ignore any invalid option and remove them from the selection. This is useful if different variations has different sets of options filled
@@ -25903,13 +26337,16 @@ Show ability videos in tooltips while not in game.
 Show additional lobbies in the lobby list
 Show alien gib entities
 Show all convars which are not at their default values (optional restricted to specific flags).
+Show all used controlpoints
 Show alphabetical dividers in the hero list.
 Show angles between selected edge pairs
 Show area vertex positions
+Show areas that are potentially visible from the current nav area
 Show async memory stats
 Show async memory stats for just non-streamed music
 Show brief async memory stats
 Show client rates.
+Show connectionless UDP traffic.
 Show connections to selected area when true
 Show current framenumber
 Show current tick/time values.  Bitmask:  1='render time'  2='GameTime'   4=time of predicted entities  8=offset of predicted entities    (-1 means 'everything')
@@ -25919,6 +26356,7 @@ Show debugging info for Puck's curve ball facet.
 Show diff only.
 Show diff with matching filter substring only.
 Show distance when using the translation gizmo
+Show dropped packets in console
 Show edge length on edge selection preview
 Show entity contexts in ent_text display
 Show entity packing stats, pass 'clear' as argument to reset counts.
@@ -25927,10 +26365,14 @@ Show gamestate round transitions.
 Show health bars when the game or camera mode would ordinarily hide them.
 Show hero immortal items as animated tiles rather then static ones.
 Show human gib entities
+Show incoming message: <0|1|2|name> where 1 == all and 2 == all except net_NOP
 Show item details pages with minimal UI, for recording hero movies
 Show listening addition/removals
+Show messages for large packets only: <size>
 Show missing closecaptions (0 = no, 1 = devconsole, 2 = show in hud)
+Show only bounce N in path-tracing views. -1 means show all bounces
 Show or hide the specified world layer
+Show or launch the specified engine tool
 Show page allowing purchase of the battle pass. Argument: [gift]
 Show post game lobby with a historical matchid
 Show post game lobby with current lobby
@@ -25938,12 +26380,14 @@ Show precache info (client).
 Show precipitation volumes
 Show prediction errors, 2 for above plus detailed field deltas, 3 to filter out serverside known prediction errors, -entindex for specific entity.
 Show prop health and bounds
+Show rope segments when debugging particle systems - specify a number to isolate to that segment id
 Show scenesystem object bounding boxes
 Show selection bounding box
 Show selection dimensions
 Show selection mode notification icons
 Show server hostname in client status.
 Show set tiles always as animated unless high quality dashboard is off.
+Show specific attribute when debugging particle systems
 Show splash ads
 Show steam messages as whispers inline in chat.
 Show talents popup
@@ -25955,6 +26399,7 @@ Show the dota credits page.
 Show the econ item picker popup for a specific hero ID.
 Show the filesystem path.
 Show the free split line.
+Show the global asset browser.
 Show the hero token popup.
 Show the idle, walk, run, and/or sprint activities.
 Show the initial skill popup
@@ -25966,6 +26411,7 @@ Show the occlusion proxies
 Show the overhead dispel effect.
 Show the rank calibration popup
 Show the reset debug button.
+Show the sorting position when debugging particle systems
 Show the steering regulations associated with the NPC
 Show tool notification icons
 Show trophy upgraded dialog
@@ -25981,7 +26427,9 @@ Show/hide the vis debug visualization
 Showing clusters for sun/csm rendering. Red (full sun csm & lighting), Orange (no viewmodel sun or csm), Green (no sun at all)
 Shows a page with two heroes side by side.
 Shows a test toast
+Shows current network status
 Shows list of connected SourceTV clients.
+Shows net channel info
 Shows next free ID for items, abilities and heroes.
 Shows pip if you haven't seen AD patch note, compares to k_nADPatchVersion
 Shows the acquisition range for selected units (Green circle)
@@ -25996,6 +26444,7 @@ Shuts down all open lessons and reloads them from the script file.
 SideQuest
 SignatureOutflow_Continue
 SignatureOutflow_Resume
+SignonState
 SignonState_t
 Sim Rate (FPS)
 Sim Space
@@ -26004,6 +26453,7 @@ SimSpace_Model
 SimSpace_World
 Similar to tv_grouprelaydata, but controls whether or not the voice channels should be routed into the grouped data for the relays
 SimpleConstraintSoundProfile
+SimpleEngineLoopService_001
 Simulate the opening of card packs.
 Simulation Options
 Sine
@@ -26011,8 +26461,10 @@ Single Blend Time
 Single Frame
 SingleBlendTime
 SingleFrameSelection
+SinglePlayerSharedMemory001
 Sink
 Size
+Size (in KBs) above which textures should be allocated in dedicated memory (NV-only).
 Size in Overworld coordinates. This should completely encompass the dynamic prop entity.
 Size in world units of the minimap icon.
 Size of minimap texture generated with dota_minimap_create (512 default)
@@ -26108,6 +26560,7 @@ Smear boneflags across the model.  Costs computation, but tests to make sure you
 Smooth client's view after prediction error over this many seconds
 Smooth player eye z coordinate when traversing stairs.
 Smooth view/eye origin after prediction errors
+Smoothing amount, if != 0, smooths lighting at vertex.
 Snap player eyes and orientation to specified pitch yaw <roll:optional> (must have sv_cheats).
 Snap player eyes to specified pitch yaw <roll:optional> (must have sv_cheats).
 Snap to Surface
@@ -26118,6 +26571,7 @@ Snapshot Read Type
 Snapshot increment amount
 Snapshot start point
 SnapshotIndexType_t
+SnapshotVertexExtraction
 Snapshots broadcast per second
 Snapshots broadcast per second, GOTV[1]
 SndBeatEventKeyedFloats_t
@@ -26131,6 +26585,8 @@ SndBeatSyncStartType_t
 SndBeatSyncType_t
 SndBeatTimeSignature_t
 SndBeatTrackPlaybackType_t
+SndEmitterSystem
+SndOperators
 SndSeqInstrumentType_t
 SndSeqMidiStatusChannelPressure
 SndSeqMidiStatusCtrlChange
@@ -26170,13 +26626,22 @@ Sound device synchronization shift (ms)
 Sound merge method (0 == sum and clip, 1 == max, 2 == avg).
 Sound played when pinging
 Sound volume
+SoundBugBugService001_Client
 SoundCommand_t
 SoundEvent
 SoundEvent Instance Handle
 SoundEvent Name
 SoundEvent on Start
+SoundOpGameSystem
+SoundOpSystem001
+SoundOpSystemEdit001
+SoundOperatorSystem
 SoundOpvarTraceResult_t
 SoundPicker()
+SoundService_001
+SoundSystem
+SoundSystem001
+SoundSystemLowLevel
 Soundevent Cluster
 Soundevent Count
 Soundevent Min/Max Values
@@ -26189,7 +26654,21 @@ Sounds To Play
 Sounds To play
 Source Control Point offset
 Source State Blend Weight
+Source1Import
 Source2/Composite Material Debug
+Source2Client002
+Source2ClientConfig001
+Source2ClientPrediction001
+Source2ClientUI001
+Source2EngineToClient001
+Source2EngineToClientStringTable001
+Source2EngineToServer001
+Source2EngineToServerStringTable001
+Source2GameClients001
+Source2GameDirector001
+Source2GameEntities001
+Source2Host001
+Source2ModTools001
 Source2PlayStats_Bool
 Source2PlayStats_Float32
 Source2PlayStats_Float64
@@ -26208,6 +26687,9 @@ Source2PlayStats_UInt32
 Source2PlayStats_UInt64
 Source2PlayStats_UInt8
 Source2PlayStats_UTCDateTime
+Source2Server001
+Source2ServerConfig001
+Source2V8System001
 SourceStateBlendWeight
 SourceTV broadcast delay in seconds
 SourceTV connection timeout in seconds.
@@ -26223,8 +26705,10 @@ Space in which the up direction is defined.
 Space in which the up target is defined.
 Spacing Scale
 Spacing between points on the path
+SparseShadowTree
 Spawn Fake Entity
 Spawn a tormentor if one doesn't exist
+SpawnGroup
 SpawnGroupFlags_t
 Spawned
 Spawns a rune
@@ -26323,17 +26807,26 @@ Speed Scale
 Speed Scaling
 Speed in units/second.
 Speed to stop when sticking
+Spew CSerializedEntity memory
+Spew CSerializedEntity metadata information
+Spew IME info.
 Spew PVS debug info for entity
+Spew QoS interval data as we gather it
+Spew a warning if packet loss percentage is above this threshold
 Spew all current markup groups and their members
 Spew all manifest add/updates.
 Spew both interpolated var debug info and history for entity.
 Spew button deltas, 0 = off, 1 = server, 2 = client, 3 = both
 Spew button hold times, 0 = off, 1 = server, 2 = client, 3 = both
 Spew data about the list of block entries.
+Spew info for assets that match the specified substring
 Spew information about font manager fonts
 Spew input, 0 = off, 1 = server, 2 = client, 3 = both
 Spew interpolated var info for entity.
+Spew list of installed IMEs.
 Spew message to console any time async sound loading blocks on file i/o.
+Spew serializer counts, client only by default, specify server to spew server counts\n
+Spew serializer info\n
 Spew serializer meta
 Spew serializers
 Spew state on when client entities become dormant or active.
@@ -26351,6 +26844,8 @@ Spherical Harmonics C
 Spine IK Chain
 Split SST tile generation into threadjobs (0 - disabled, 1 - wait on readpixels for job batch, 2 - async readpixels).
 Split screen users mimic base player's CUserCmds
+SplitScreen
+SplitScreenService_001
 Spoof a wager for a specific player
 Spoofs a player resource request
 Spot Light
@@ -26366,6 +26861,7 @@ SpriteCardTextureType_t
 Square
 Ss Pos and Dot OUT CP
 Stabilize camera orientation/position during demo playback.  1 == remove roll, 2 == steadycam
+Stack unwinding
 StackStats_Dump
 Stance Override
 Stance Scale
@@ -26406,6 +26902,7 @@ Starts live debugging & recording the AG2 graph for a given entity\n\tArguments:
 Starts timedemo on given tick.
 Starts/stops a timespan with an ever increasing name.
 StartupBehavior_t
+StatTracker
 State
 State Machine
 State Status Condition
@@ -26430,11 +26927,15 @@ Statistical standard deviation of League Phase Main Event game.
 Statistical standard deviation of League Phase Playoffs game.
 Stats that share the same exclusive group cannot be generated in the same card.
 Stats to Track
+StatsService_001
 Status
 Status Effect
 Status Tag
 Steal focus on mouse hover
+Steam
 Steam Group to use when searching for matchmaking
+SteamAudio
+SteamAudio001
 SteamAudioCustomDataDimensionsSettings_t
 SteamAudioCustomDataOcclusionSettings_t
 SteamAudioHRTFInterpolationType_t
@@ -26443,8 +26944,10 @@ SteamAudioPathSettings_t
 SteamAudioReverbClusteringSettings_t
 SteamAudioReverbCompressionSettings_t
 SteamAudioReverbSettings_t
+SteamNetSockets
 SteamUGCMatchingUGCType
 SteamUGCQuery
+SteamUnifiedMessages
 SteamUniverse
 Stencil
 Step
@@ -26492,7 +26995,10 @@ Stops SourceTV demo recording.
 Stops a specified soundevent
 Stops all active screen shakes.\n
 Stops all currently playing patterns
+Stops all particle systems currently playing
 Stops all particle systems on the selected entities.\n\tArguments:   \t{entity_name} / {class_name} / {entity_index} / {no argument = pick what player is looking at}
+Stops all particle systems that don't match specified name
+Stops all particle systems that match specified name
 Stops all soundevents currently on the execution list
 Stops all soundscape processing and fades current looping sounds
 Stops subscribing to a specific custom game. It will be uninstalled when you exit Dota 2.
@@ -26517,6 +27023,7 @@ SubclassVDataChangeType_t
 Subsurface sample count
 Subtitle offset distance (forward, in front of player)
 Subtitle vertical offset distance (positive is up)
+Subtitles and Captions
 Subtract
 Subtract Foot Motion
 Suffix to append to the console log, may be changed to reopen the log
@@ -26554,6 +27061,7 @@ Switch to thirdperson-shoulder camera.
 Switches between a selection of vsnds based on a provided index.
 Switches to navmesh for the specified spawngroup
 Symbol Parameter
+Symbols
 Sync Cycles
 Sync Start Type
 Sync To Voice
@@ -26749,6 +27257,7 @@ Test Enums
 Test Handle
 Test a clientside dispatch effect.\n\tUsage: test_dispatcheffect <effect name> <distance away> <flags> <magnitude> <scale>\n\tDefaults are: <distance 1024> <flags 0> <magnitude 0> <scale 0>\n
 Test a punch-style screen shake.\n
+Test baking preview lighting
 Test cavern post-game
 Test command that drops an entity blocker out in front of the player.
 Test custom game saving, only available from dota_launch_custom_game
@@ -26756,6 +27265,7 @@ Test depth.
 Test different custom game download states
 Test disconnect icon
 Test flight paths
+Test generate mips 32 bits
 Test nesting voice containers.
 Test node that just generates the integer 50. Nothing to see here!
 Test node that picks between two outflows as specified in the test domain.
@@ -26774,6 +27284,7 @@ Test vote popup for specified custom game ID
 Test wraith king arcana post-game
 TestComponent_t
 TestInputOutputCombinationsEnum_t
+TestScriptMgr001
 Test_Checkpoint
 Test_ExitProcess
 Test_ExitProcess <exit code> - immediately kill the process.
@@ -26806,10 +27317,13 @@ Texel Alpha & Particle Alpha & Alpha Reference
 Text
 Text Input
 TextBlock()
+TextLayout_001
 Texture
 Texture Controls
 Texture Type
+Texture compression quality used in tools mode
 Texture stats
+TextureCompiler
 TextureControls_t
 TextureGroup_t
 TextureRepetitionMode_t
@@ -26823,6 +27337,8 @@ The VData file to read
 The adjective
 The aggregate function
 The amount of attenuation .
+The amount of directional detail in the rendered audio by Steam Audio.
+The amount of directional detail in the simulated by Steam Audio.
 The amount of seconds that you must wait before you can salute again.
 The amount of time after a taunt is finished that you always have to wait before taunting again.
 The amount of time needed to determine a fight is over (no one involved in a fight did anything to anyone else involved in the fight).
@@ -26860,9 +27376,14 @@ The likelihood of seeing an investigation with a rare drop in turbo
 The likelihood of seeing an investigation with a second common drop
 The likelihood of seeing an investigation with a second uncommon drop
 The likelihood of seeing an investigation with a super rare
+The maximum detail level of particle to create
+The maximum distance that particles will render
 The maximum multiplier to the distance to the unit allowed when diverting. Must pass this or the length check
 The maximum number of areas to draw in edit mode
+The maximum number of rays that can be traced for volumetric occlusion by Steam Audio.
+The maximum number of simultaneous sources that can be modeled by Steam Audio.
 The maximum number of this reward option to grant. 0 means infinite
+The maximum number of times any ray can bounce when using Steam Audio.
 The maximum slope the player can overcome [-]
 The maximum threshold value to exclude sounds.
 The minimum threshold value to exclude sounds.
@@ -26870,7 +27391,9 @@ The mousewheel delay timer is reset after this interval. Does not apply to spect
 The name for the body (bone) that we're targeting.
 The name of the dynamic prop entity in the vmap that this room group is visually parented to.
 The name of the weapon entity to spawn for this NPC weapon.
+The number of directions considered for ray bounce by Steam Audio.
 The number of frames to render when a
+The number of rays to trace for reflection modeling by Steam Audio.
 The offset of the nav drag volume bottom from center
 The offset of the nav drag volume top from center
 The origin node for the hero. Must be unlocked for the hero to appear, and can only path to nodes accessible from here.
@@ -26889,6 +27412,7 @@ The target point to trace to from the origin.
 The targets forward vector will be used to build a look orientation while preserving the rotation of the end effector after the solve as much as possible.
 The targets orientation will be stamped onto the end effector.
 The threshold, in seconds, that we'll spew about the snapshot tick
+The time delay between a sound being emitted and the last audible reflection in Steam Audio.
 The trailing time, in seconds, of replay past the event, including fade-out
 The various damage levels for this hitgroup.
 The weights from the tip of the chain to the base. 0 is the effector/tip of the chain weight, N is the base of the chain.
@@ -26922,6 +27446,7 @@ This soundevent is called to stop the desired soundevents when the game is disco
 This token can be used to unlock any node with non-special token costs.
 This value used to determine this weapon's importance in autoselection
 This value, multiplied by the tick interval, is added to cl_tickpacket_recvmargin_desired to obtain the effective desired recv margin.
+This variable is checked by soundstack to globally enabling pathing for audio processing.
 This will automatically forward a variable from the sound event that can be used to drive graph behavior.
 This will copy a control value from this soundevent's operator stack.  Works with any stack/variable without modifying the stack itself.
 Thread pool option
@@ -26938,6 +27463,7 @@ Threshold for 'nearly stopped' linear velocity (inches/second)
 Threshold of indirect draws when we will do compaction
 Threshold of screen size percentage below which objects get culled
 Threshold of shadow map size percentage below which objects get culled
+Threshold to warn about when rendering particles.
 Tick count to pause on
 Tier 1
 Tier 2
@@ -26950,6 +27476,7 @@ Tilt Plane Pitch Spring Strength
 Tilt Plane Roll Spring Strength
 Time
 Time (in seconds) between updating texture memory budget.
+Time (sec) to pause assetsystem reload behavior if a requeue is requested
 Time Condition
 Time Limiter
 Time Remaining Metric
@@ -27009,6 +27536,7 @@ Toggle display of box around text
 Toggle dynamic weather on/off
 Toggle enabling or disabling showing of tooltips.
 Toggle enabling/disabling the destructible parts system for debug.
+Toggle field path tracing to file\n
 Toggle free camera mode. Only available in DotaTV and replays.
 Toggle prop debug mode. If on, props will show colorcoded bounding boxes. Red means ignore all damage. White means respond physically to damage but never break. Green maps health in the range of 100 down to 1.
 Toggle replay play/pause
@@ -27038,16 +27566,29 @@ Toggles specified convar value on and off.
 Toggles the Hud on and off
 Toggles the cursor on the onstage panel, helpful for pano debugging
 Toggles the spectator mode: 0=Directed - 1=Free Cam - 2=Hero Chase - 3=PlayerView
+Toggles the speculative fix for low-frequency issues when using spatial blend.
 Toggles viewport size between small + full window.
 Toggles visibility of the debug overlay system.
 Tolerance
 Tolerance for the Dead Shot ignoring the user's vector target and just shooting straight.
+ToneMapping
 ToolEditContext_ID_SmartProp_Variable
 ToolEditContext_ID_VMDL
 ToolEditContext_ID_VPCF
+ToolEvents
+ToolFramework2
+ToolFramework2_002
 ToolImage( 16 )
 ToolImage( 64 )
+ToolScene
+ToolSceneNodeFactory_001
+ToolService_001
+ToolServices_002
+ToolSystem2_001
+ToolSystem2_ModelDoc
 ToolsOptionsEditableData_t
+ToolsStallMonitor
+Toolutils
 Top
 Topdown games set this to handle distance and offscreen location differently.
 Total Camps Stacked
@@ -27106,6 +27647,7 @@ TrackedStatNetworkData_t
 TrackedStatValue_t
 Tracks
 Tracks an entity in spec mode
+Tracy
 Trail Head & Tail
 Trail UV Controls
 Trail forward shift (fraction)
@@ -27160,6 +27702,7 @@ Treat Translation Separately
 Treat path as a loop
 TreeModelReplacement_t
 Triangle
+Triangle batch size.
 Triangles
 Trigger
 Trigger Bounds
@@ -27195,6 +27738,8 @@ Turn to Face
 Turn to Face Limit
 Turn to Face Offset
 Turns buyback protection on/off
+Turns on gpu preview lighting for a view
+Turns on gpu ray tracing for a view
 Turns on the absbox for all active physics objects.\n  0 : un-highlight.\n
 Tutorial
 Tweak this parameter to adjust Free Camera mouse rotation.
@@ -27211,6 +27756,8 @@ Type
 Type 0=time domain, 1 = freq domain
 Type of anim event
 Type of mood
+TypeManager
+TypeScriptCompiler
 Typesafe Int
 Typesafe Int64
 U
@@ -27244,7 +27791,9 @@ UF_FAIL_OUT_OF_WORLD
 UF_FAIL_RANGED
 UF_FAIL_SUMMONED
 UF_SUCCESS
+UGCOperation
 UI
+UIMemory
 UINT16
 UINT32
 UINT8
@@ -27363,12 +27912,15 @@ Up to 8 bands of EQ.  Boost/cut up to 8 bands with adjustable Q.  Filters can al
 Up to which league phase this stat is usable
 Up vector which is used to determine the rotation of each element around the line.
 Update Existing
+Update config preview document for attribute changes on MODELDOC_NODE_RESOLVE_COST_NONE nodes rather than refinalizing and rebuilding it.
 Update delay for shadow size
 Update gold bounty for lane creeps.
 Update gold bounty for neutral creeps.
 Update hysteresis for shadow size
 Updated After
 Updated Before
+Updates game keyboard layout to current windows keyboard setting.
+Updates physics surface property of models from default to the ones associated in their material files.
 Updates visibility bits.
 Upper limit on texture pool size.
 UpscalerType_t
@@ -27377,6 +27929,8 @@ UsableInGame
 Usage:  dumpstringtable <tablename |all> <sv | cl> <verbose | simple> <element>      Print string tables to console, verbose to dump data, simple to show name and count only, can specifiy a single numeric element index to restrict spew.
 Usage: dota_custom_ui_debug_panel <panel_type_index>
 Usage: pulse_debug_print <vpulse_resource>
+Usage: test_vqlayout tools/layout/examples/simple.vqlayout
+Usage: tool_request <tool_name> { request_kv3_data }
 Usage:\n   ent_fire <target> [action] [value] [delay]\n
 Usage:\n   ent_fire_output <target> [output name] [value] [delay]\n
 Usage:\n   ent_info <class name>\n
@@ -27408,7 +27962,9 @@ Use a model of GPU memory use to determine budget rather than querying the OS.
 Use a particular weapon\t\nArguments: <weapon_name>
 Use block solving for constraint entities
 Use camera position/activity from the portrait setup
+Use compressed reverb data if available.
 Use compute shader for Bloom downsample
+Use compute shader for mipgen.
 Use default items only when recording heroes.
 Use deferred rendering for portraits.
 Use depth for selection outline
@@ -27417,6 +27973,7 @@ Use fake 10th anniversary data
 Use fake dummy data for profile cards instead of the real data from the GC.
 Use fake map stats
 Use fast frame skipping when available for demo_goto commands.
+Use fixed seeds for easier debugging
 Use fog_override convars instead of world fog data
 Use group colors for brush color
 Use legacy vsync mode -- for testing for a couple user machines.
@@ -27427,10 +27984,12 @@ Use native FS or STDIO
 Use networked compatibility serialization context in demo playback.
 Use networked compatibility serialization context in games.
 Use networkvar system.
+Use old behavior of calling ProcessFileChanges() immediately after recompiling a resource
 Use old settings for Dota camera.
 Use parallel processing of snapshot reading if above this many entries.
 Use parent density instead of ours
 Use perspective correction for 3D audio only in the frontal directions.
+Use random seeds in debug
 Use renderable meshes instead of hitboxes
 Use scalar attribute for texture coordinate
 Use sequential CP pairs between start and end point
@@ -27458,12 +28017,20 @@ User Event 4
 User facing name or localization token to the user facing name.
 User-facing description of the tag
 User-facing tag name
+UserMessages
 UserSpecifiedFrame
 Using mesh shaders if available instead of drawcalls
 V
 V Spacing
+V8System
+VAsyncFileSystem2_001
+VAvi001
 VBOX
 VBOX_REVERSE
+VConComm
+VConComm001
+VConsole_SubTool_001_BugReporterTool
+VConsole_SubTool_001_NetGraphTool
 VDATA
 VData Choice
 VDataChoice( scripts/ammo.vdata )
@@ -27491,6 +28058,7 @@ VECTOR_FLOAT_EXPRESSION_INPUT1_LENGTH
 VECTOR_FLOAT_EXPRESSION_INPUT1_LENGTHSQR
 VECTOR_FLOAT_EXPRESSION_INPUT1_NOISE
 VECTOR_FLOAT_EXPRESSION_UNINITIALIZED
+VENGINE_GAMEUIFUNCS_VERSION005
 VERTEX_ALBEDO_565
 VERTEX_ALBEDO_8888
 VERTEX_ALBEDO_NONE
@@ -27499,6 +28067,8 @@ VERT_JUSTIFICATION_CENTER
 VERT_JUSTIFICATION_NONE
 VERT_JUSTIFICATION_TOP
 VERY EXPENSIVE: serialize non-delta-encoded commands along with delta-encoded for validation
+VEngineCvar007
+VFileSystem017
 VICTORY_ACTION_DEFINITION
 VIEW_FADE_CONSTANT_COLOR
 VIEW_FADE_MOD2X
@@ -27515,6 +28085,8 @@ VMIX_CHAN_RIGHT
 VMIX_CHAN_STEREO
 VMIX_CHAN_SWAP
 VMapResourceData_t
+VMaterialSystem2_001
+VMediaFoundation001
 VMix 3 Band Dynamics Node
 VMix Apply Pre-Delay to Impulse Response Node
 VMix Audio Convolution Node
@@ -27585,6 +28157,7 @@ VMixDynamicsBand_t
 VMixDynamicsCompressorDesc_t
 VMixDynamicsDesc_t
 VMixEQ8Desc_t
+VMixEditTool001
 VMixEffectChainDesc_t
 VMixEnvelopeDesc_t
 VMixFilterDesc_t
@@ -27678,6 +28251,7 @@ VN_TEXT_COLOR_RED
 VN_TEXT_COLOR_TITLE
 VN_TEXT_COLOR_WHITE
 VN_TEXT_COLOR_YELLOW
+VNotify
 VOICEDATA_FORMAT_ENGINE
 VOICEDATA_FORMAT_OPUS
 VOICEDATA_FORMAT_STEAM
@@ -27697,6 +28271,7 @@ VOTE_FAILED_TEAM_CANT_CALL
 VOTE_FAILED_TRANSITIONING_PLAYERS
 VOTE_FAILED_WAITINGFORPLAYERS
 VOTE_FAILED_YES_MUST_EXCEED_NO
+VP4003
 VPhysEntityId_t
 VPhysXAggregateData_t
 VPhysXAggregateData_t::VPhysXFlagEnum_t
@@ -27710,15 +28285,26 @@ VPhysXJoint_t
 VPhysXJoint_t::Flags_t
 VPhysXRange_t
 VPhysics2ShapeDef_t
+VPhysics2_Interface_001
 VPhysicsCollisionAttribute_t
+VProcessUtils002
+VProf
+VProfService_001
+VR
 VR_HAND_HAPTIC_PULSE_LIGHT
 VR_HAND_HAPTIC_PULSE_MEDIUM
 VR_HAND_HAPTIC_PULSE_STRONG
+VRenderDeviceMgrBackdoor001
 VSND Container
 VSND Enum
 VS_PLAYER_BEHAVIOR_CHAT_WHEEL
 VS_PLAYER_BEHAVIOR_PLAYBACK_RATE
 VS_PLAYER_BEHAVIOR_PLAY_ACTIVITY
+VScript
+VScriptDbg
+VScriptManager010
+VScriptScripts
+VStringTokenSystem001
 Valid Path Positions
 Valid Range [0 : 10], 1 = Critically Damped
 Valid Range [0.1 : 30]
@@ -27790,6 +28376,7 @@ Vertical offset for Muerta's double shot debug render.
 Vertical offset for drawing the mesh (useful for flat planes where the mesh is often a fixed offset from the physical ground
 Vertical view fixup when eyes are near water plane.
 VeryFast
+Vfx
 Videos
 View Offset
 View offset during demo playback (+/- 1.25 is a good default for human average left/right eye offset)
@@ -27797,6 +28384,8 @@ View2DOptionsEditableData_t
 View3DOptionsEditableData_t
 ViewFadeMode_t
 VirtualParameterValueTree
+VisBuilder
+VisBuilder_001
 VisibilityInputs
 VisualNovelDialogueLineType_t
 Visualization Box
@@ -27812,6 +28401,8 @@ Visualize shading complexity
 Visualize the volume transmitted with the icon displaying speech.
 Visualizes all entity input/output activity.
 Visuals
+VmfToVmap
+VmtToVmat
 Vocoder Band Count
 Voice Container Base
 Voice Container Default
@@ -27841,7 +28432,9 @@ Volume:5
 Volume:6
 Volume:7
 Volume:8
+VolumetricFog
 VoxelVisBlockOffset_t
+Vrad3_001
 Vs All Players
 Vs Personal History
 Vs Rank Population
@@ -27960,7 +28553,9 @@ WeaponSound_t
 WeaponSwitchReason_t
 Wearable
 WearableData_t
+WebApi
 WebGuides
+WeekendTourney
 Weight
 Weight Parameter
 Weight for when rolling which operations to add to the roll board
@@ -28079,9 +28674,11 @@ Whether this explosion has explosive forces
 Whether this explosion relates to fire
 Whether this weapon is safe to automatically switch to (should be false for eg. explosives that can the player may accidentally hurt themselves with)
 Whether to draw chat bubbles int the UI or not
+Whether to explicitly reload child resources of a QueueReloadIfLoaded
 Whether to mirror relative to the parent bone or to the model.
 Whether to reuse a unit's search cache every frame to avoid obstruction manager queries.
 Whether to start a local game when the map loads
+Whether to support legacy (pre-modeldoc) models
 Whether to use new courier logic (Courier Controller)
 Whether we negate the hero adjective when displaying tooltip
 Whether we should be submitting data to SteamLearn
@@ -28112,6 +28709,7 @@ Width of volume fog texture
 Will offset the warped root motion if we are pass warp events
 Will spew if a job takes longer than the specified number of microseconds
 Will transmit all entities to client, regardless of PVS conditions (will still skip based on transmit flags, however).
+Wind
 Wind Generator Container
 Window (in seconds) that we track damage events for future health value extrapolation.
 Window for item suggestions.
@@ -28119,8 +28717,11 @@ Window over which to average queries per second averages.
 With Cloth Effect
 Within-Cluster Fire Count Before Cooldown
 Within-Cluster Refire Time
+Workshop
 WorkshopFileImportMode_t
 WorkshopFileListerSort_t
+WorkshopManager
+WorkshopOperation
 World
 World Only
 World Position
@@ -28137,6 +28738,9 @@ World-Z Align
 WorldBuilderParams_t
 WorldNodeOnDiskBufferData_t
 WorldNode_t
+WorldRenderer
+WorldRendererBuilder
+WorldRendererMgr001
 WorldSpace
 WorldTextPanelHorizontalAlign_t
 WorldTextPanelOrientation_t
@@ -28595,6 +29199,31 @@ aspd_increase_smoothness
 aspd_per_second
 aspd_per_stack
 aspd_slow
+asset_thumbnails_server_download
+asset_thumbnails_server_url
+asset_thumbnails_timeout_sec
+assetbrowser
+assetbrowser_name_filter_delay
+assetsystem_check_compile_state
+assetsystem_clear_thumbnail_cache
+assetsystem_count
+assetsystem_debug_substring
+assetsystem_dump_all_dirs
+assetsystem_dump_one_dir
+assetsystem_dump_string_threshold
+assetsystem_dump_table
+assetsystem_fail_compile_on_dependants
+assetsystem_legacy_explicit_reload_child_resources
+assetsystem_legacy_process_file_changes_after_compile
+assetsystem_old_loop_algorithm
+assetsystem_quiet_inputs_before_recompile
+assetsystem_quiet_inputs_before_recompile_max_pause
+assetsystem_quiet_inputs_before_reload
+assetsystem_reload_queue_requeue_pause
+assetsystem_stats
+assetsystem_test_resort
+assetsystem_verbose_fingerprints
+assetthumbnail_old_fingerprint_style
 assist_reward_damage
 attached_output_stall_ms
 attachment to follow
@@ -29580,6 +30209,8 @@ chat_wheel_phrase_8
 chat_wheel_phrase_9
 chatwheel_say
 check full bbox only
+check_collision_saveload
+check_collision_saveload_dir
 check_game_mode
 check_nofilefd
 check_transmit_dump_ents
@@ -29605,6 +30236,7 @@ cl_animgraph_dump_update_list
 cl_async_restore_server_authoritative_state
 cl_async_usercmd_send
 cl_async_usercmd_send_recvmargin_min
+cl_auto_cursor_scale
 cl_axis
 cl_batch_entity_list_ops_during_latch
 cl_bone_cache_optimization
@@ -29634,6 +30266,7 @@ cl_clockdbg
 cl_clockdrift_max_ticks
 cl_connectionretrytime_p2p
 cl_cq_min_queue
+cl_cursor_scale
 cl_debug_build_recvmargin_min
 cl_debug_force_push_to_talk
 cl_debug_overlay_fullposition
@@ -29800,6 +30433,7 @@ cl_imgui_debug_entity
 cl_imgui_set_selection
 cl_imgui_set_status_text
 cl_in_forcebuttonstate
+cl_input_enable_raw_keyboard
 cl_interp
 cl_interp_ag2_for_non_ag2_entities
 cl_interp_all
@@ -29813,6 +30447,7 @@ cl_interp_threadmodeticks
 cl_interpolate
 cl_interpolate_report
 cl_jitter_bad_threshold_up
+cl_joystick_enabled
 cl_lagcompensation
 cl_language
 cl_latch_report
@@ -29822,6 +30457,7 @@ cl_lock_camera
 cl_log_tick
 cl_log_tick_skips
 cl_massreport
+cl_max_particle_pvs_aabb_edge_length
 cl_net_printsummary
 cl_net_showeventlisteners
 cl_net_showevents
@@ -29834,9 +30470,12 @@ cl_panorama_typescript_declarations
 cl_parallel_readpacketentities
 cl_parallel_readpacketentities_threshold
 cl_particle_batch_mode
+cl_particle_create_duplicate_work_for_profiling
 cl_particle_fallback_base
 cl_particle_fallback_multiplier
+cl_particle_log_creates
 cl_particle_max_count
+cl_particle_newinit
 cl_particle_retire_cost
 cl_particle_sim_fallback_base_multiplier
 cl_particle_sim_fallback_threshold_ms
@@ -30115,6 +30754,12 @@ color blend type
 color fade
 color fade max
 color fade min
+color for highlighting of the sfm skeleton display
+color for selection of the sfm skeleton display
+color for the center of the sfm skeleton display
+color for the left side of the sfm skeleton display
+color for the misc bones of the sfm skeleton display
+color for the right side of the sfm skeleton display
 color map offset along path
 color map offset around cable
 color per batch
@@ -32677,6 +33322,7 @@ dota_poor_network_detection_num_intervals_total
 dota_portrait_animate
 dota_portrait_debug_item_def_index
 dota_portrait_debug_no_modifier
+dota_portrait_editor_background_override
 dota_portrait_hide_background
 dota_portrait_hide_hero
 dota_portrait_reload
@@ -33581,6 +34227,7 @@ dota_windrunner_arcana_enable_second_style
 dota_windrunner_arcana_hud_summary_delay
 dota_windrunner_arcana_hud_summary_duration
 dota_windrunner_focus_fire_fx_threshold
+dota_workshop_dump_item_kv
 dota_workshoptest
 dota_workshoptest_modelnew0
 dota_workshoptest_modelnew1
@@ -33636,9 +34283,14 @@ drain_range
 drain_range_buffer
 drain_rate
 draw as opaque
+draw bone axes for models
+draw bounding boxes for models
 draw caps at each end of the cable
+draw debugging geometry
 draw range indicators for all abilities on the NPC
+draw sound waveforms in the SFM
 draw the route for this npc
+draw wireframe for models
 drawcross
 drawline
 drop_damage
@@ -33674,6 +34326,8 @@ dump_client_projectiles
 dump_emoticons_csv
 dump_entity_report
 dump_globals
+dump_loc_token
+dump_localization_files
 dump_modifier_list
 dump_panorama_css_properties
 dump_panorama_events
@@ -33683,6 +34337,7 @@ dump_quests
 dump_response_symbols
 dump_secondary_scene_worlds
 dump_visible_buffs
+dumpparticlelist
 dumpstringtable
 duration
 duration at which to stop
@@ -34761,6 +35416,7 @@ fow_team
 fow_tile_update_time
 fow_viewer
 fow_viz
+fp_trace
 fps
 fps_max
 fps_max_tools
@@ -34815,6 +35471,7 @@ fs_fake_read_delay_ms
 fs_report_async_io
 fs_report_long_reads
 fs_report_sync_opens
+fs_spew_readfieldlist
 fs_warning_mode
 full_heart
 func_break_max_pieces
@@ -34875,6 +35532,7 @@ gameui_allowescapetoshow
 gameui_hide
 gameui_preventescape
 gameui_preventescapetoshow
+gamma_to_linear
 geminate_attack_mark_duration
 generate normals for cylinder
 generate_challenge_vdata
@@ -34889,6 +35547,34 @@ getpos
 getpos_exact
 getposcopy
 getposcopy_exact
+gfx_calculate_skin_diffusion_profile_dipole
+gfx_generate_6point_ball
+gfx_generate_ao_cone_response
+gfx_generate_ao_sphere_response
+gfx_generate_arhosek_solar_radiance_image
+gfx_generate_color_temperature_table
+gfx_generate_cone_cone_union_LUT
+gfx_generate_cone_cone_union_slice
+gfx_generate_ellipse_coneangle_LUT
+gfx_generate_ggx_luts
+gfx_generate_limb_darkening_datasets
+gfx_generate_poisson_disk
+gfx_generate_preintegrated_brdf
+gfx_generate_sh_ball
+gfx_generate_sh_skyboxes
+gfx_generate_sin_pulse_texture
+gfx_generate_skin_diffuse_warp
+gfx_generate_skin_shadow_warp
+gfx_generate_skin_shadow_warp_shadow_width
+gfx_generate_solar_datasets
+gfx_generatemips_test
+gfx_graph_cie_color_matching_approx_funcs
+gfx_graph_lightmap_filter_kernels
+gfx_hemioct_flat_normal_test
+gfx_load_skin_diffusion_profile
+gfx_load_skin_diffusion_profile_image
+gfx_load_skin_diffusion_profile_sum_of_gaussians
+gfx_make_gpu_scrambled_halton_code
 ghost_spawn_rate
 ghostship_absorb
 ghostship_width
@@ -34897,6 +35583,7 @@ give
 give_oriented
 give_up_distance
 givecurrentammo
+gizmo_rot_max_dist
 gl_clear
 glacier_formation_speed
 glancing_shot_damage_pct
@@ -34948,6 +35635,23 @@ grant_debuff_immunity
 grant_flying
 grants_restore_amp
 graph_names
+graphcanvas_auto_repaint_tick_ms
+graphcanvas_auto_repaints_ticks_when_inactive
+graphcanvas_build_pregather_list
+graphcanvas_cache_curve_clip_to_viewport
+graphcanvas_cache_item_pixmap
+graphcanvas_cache_item_pixmap_max_render
+graphcanvas_cache_item_pixmap_max_render_debug
+graphcanvas_cache_item_pixmap_zoom_scale
+graphcanvas_cache_item_pixmap_zoom_step
+graphcanvas_debug_layout
+graphcanvas_hover_item_info
+graphcanvas_random_background_color
+graphcanvas_threaded_find_items_overlapping
+graphcanvas_threaded_gather_styles
+graphcanvas_threaded_resolve_styles
+graphcanvas_threaded_update_pseudo_classes
+graphcanvas_tooltip_keepalive
 graphcontroller_dumpparams
 grapple_speed
 gravity
@@ -35007,8 +35711,99 @@ hairsim_reset
 half-lambert normals
 half_bonus_aoe
 half_heal
+hammer_add_edge_fade_size
+hammer_analytic_grid
+hammer_analytic_grid_transparent
 hammer_aoe_radius
+hammer_bake_cubemap_debug_colors
+hammer_bake_light_bake_cubemaps
+hammer_bake_light_bake_light_probe_volumes
+hammer_bake_light_bake_vertex_lighting
+hammer_bake_light_debug_path_trace_scene_info_from_build
+hammer_bake_light_sample_smoothing
+hammer_bake_light_samples_per_triangle_error
+hammer_bake_light_samples_per_triangle_max
+hammer_bake_light_samples_per_triangle_min
+hammer_bake_light_triangle_batch_size
+hammer_bevel_leave_edges
+hammer_bridge_drag_pixels_per_step
 hammer_damage
+hammer_diff_gridnav
+hammer_dota_paint_flat_radius
+hammer_dota_path_falloff
+hammer_dota_path_fixup
+hammer_dota_path_opacity
+hammer_dota_path_preview
+hammer_dota_path_sharpness
+hammer_dota_path_use_material_settings
+hammer_dota_path_width
+hammer_dota_proxy_handle_spacing
+hammer_dota_rebuild_paths
+hammer_draw_bounds
+hammer_draw_dirty_bounds
+hammer_draw_model_raytrace_data
+hammer_draw_model_skeleton
+hammer_draw_overlay_triangles_in_box
+hammer_edge_debug_info
+hammer_enable_debug_overlays
+hammer_entity_report_refresh
+hammer_extended_box_gizmo_handles
+hammer_face_debug_info
+hammer_force_autosave
+hammer_force_io_param_widget
+hammer_gizmo_2dscale
+hammer_gizmo_axis_length
+hammer_gizmo_axis_scale
+hammer_gizmo_compute_matrix
+hammer_gizmo_line_thickness
+hammer_gizmo_rot_inflate
+hammer_gridnav_always_update
+hammer_gridnav_preview_radius
+hammer_gridnav_show_creature_blocking
+hammer_gridnav_show_hero_blocking
+hammer_gridnav_show_impassable
+hammer_gridnav_show_obstructions
+hammer_gridnav_show_ward_blocking
+hammer_hud_enable
+hammer_isosurface_merge_tolerance
+hammer_isosurface_remove_interior
+hammer_isosurface_sample_offset
+hammer_isosurface_subtract
+hammer_map_files
+hammer_open_edge_hash_length
+hammer_open_edge_hash_spacing
+hammer_overlay_draw_projection_triangles
+hammer_parallel_terrain_update
+hammer_prefab_tree
+hammer_raytrace_debug_draw
+hammer_render_model_bounding_spheres
+hammer_rotate_up_dot
+hammer_save_gridnav
+hammer_show_face_uvs
+hammer_show_input_debugger
+hammer_show_light_truncation_error
+hammer_spawn_area_base_alpha
+hammer_spawn_area_outline_alpha
+hammer_ssao_enable
+hammer_stroke_steps
+hammer_test_bake_preview_lighting
+hammer_test_turn_on_gpu_preview_lighting
+hammer_test_turn_on_gpu_raytracing
+hammer_tile_border_size
+hammer_tileset_maps
+hammer_translucent_enable
+hammer_use_minimum_element_count_for_loop
+hammer_vertex_normal_paint_brush_screensize
+hammer_vertex_normal_paint_brush_size_max
+hammer_vertex_normal_paint_cached_mesh_evict_distance
+hammer_vertex_normal_paint_debug_triangulation
+hammer_vertex_normal_paint_initial_brush_radius
+hammer_vertex_normal_paint_initial_strength
+hammer_vis_opacity
+hammer_worklight_brightness
+hammer_worklight_range
+hammer_world_trace_multisample
+hammer_world_trace_pack_rays
 hand
 hand control point number
 handleA
@@ -35170,6 +35965,7 @@ host_timescale_dec
 host_timescale_inc
 host_writeconfig
 hostfile
+hostip
 hostname
 hostname_in_client_status
 hostport
@@ -35331,6 +36127,8 @@ images_do_damage_percent_melee
 images_do_damage_percent_ranged
 images_movespeed_bonus
 images_take_damage_percent
+ime_info
+ime_installed_names
 imgui_cycle_undocked_window_focus
 imgui_debug_draw_dashboard_toggle_pause
 imgui_debug_draw_dashboard_window
@@ -35362,6 +36160,7 @@ impacthard
 impactsoft
 impale_damage
 impale_duration
+import_wizard_spew
 impulse
 impulse is wind
 impulse magnitude
@@ -35398,6 +36197,7 @@ increase_time
 increase_xp
 increased_damage
 incrementvar
+index <threshold bytes>: spew changes to ent index, optionally only spewing if update is > than threshold bytes
 infinite bounds - don't cull
 infinite_stomps
 inflictor
@@ -35554,6 +36354,7 @@ invprevselect
 invul_duration
 invuln_period
 invulnerable
+ip
 is this trophy still obtainable? This way we can have different presentations based on past and current trophies
 isActive
 is_all_barrier
@@ -35603,6 +36404,7 @@ joy_advaxisx
 joy_advaxisy
 joy_advaxisz
 joy_autosprint
+joy_axisbutton_threshold
 joy_axisr_deadzone
 joy_axisr_relative
 joy_axisu_deadzone
@@ -38295,6 +39097,7 @@ katana_strikes
 katana_swap_bonus_damage
 key_findbinding
 key_listboundkeys
+key_updatelayout
 kez
 kez_flutter
 kez_shadowhawk
@@ -38374,6 +39177,7 @@ latched_unit_offset
 latched_unit_offset_short
 latency CP
 latency CP field
+launchable_dll_1
 launched_attack
 lb_allow_shadow_rotation
 lb_barnlight_shadow_use_precomputed_vis
@@ -38464,6 +39268,7 @@ leashed_movespeed
 leech_damage
 leech_heal
 left_swipe_time
+legacy_models_supported
 legs
 legs_persona_1
 length
@@ -38564,6 +39369,7 @@ limit active children to parent particle count
 limit per update
 limit rope impulses to Z
 linear
+linear_to_gamma
 linger_after_latch_duration
 linger_damage
 linger_duration
@@ -38630,6 +39436,10 @@ lrucache_reset_stats
 lrucache_set_size
 lrucache_stats
 lservercfgfile
+lua_assert_on_error
+lua_is_currently_executing
+lua_report_memory
+lua_shipping_assert_on_error
 luminosity
 m_AbilitiesPendingDelete
 m_AbilityDraftAbilities
@@ -54850,6 +55660,11 @@ model_scale_min
 model_scale_per_chainmail
 model_scale_per_stack
 model_scale_time
+modeldoc_config_doc_cache_enable
+modeldoc_rotate_max
+modeldoc_rotate_power
+modeldoc_rotate_scale
+modellib
 models
 modelscale
 modifiedconvars_t
@@ -55182,6 +55997,7 @@ nav_bfs_debug
 nav_clear_attribute
 nav_clear_attributes
 nav_clear_selected_set
+nav_corner_adjust_adjacent
 nav_create_indirect_connection
 nav_create_indirect_connection_from_to
 nav_create_indirect_connection_set_from
@@ -55296,6 +56112,7 @@ nav_lower_drag_volume_max
 nav_lower_drag_volume_min
 nav_mark
 nav_mark_attribute
+nav_max_vis_delta_list_length
 nav_obstacle_validate
 nav_obstruction_async_update
 nav_obstruction_draw
@@ -55347,6 +56164,7 @@ nav_show_elem_info
 nav_show_elem_info_font
 nav_show_elem_info_font_size
 nav_show_elem_info_font_voffset
+nav_show_potentially_visible
 nav_smooth_constrain_spline
 nav_smooth_constrain_spline_relax
 nav_smooth_constrain_spring
@@ -55459,6 +56277,7 @@ nav_toggle_selected_set
 nav_toggle_selecting
 nav_type
 nav_unmark
+nav_validate
 nav_volume_debug
 navigator
 navproperties_t
@@ -55516,12 +56335,59 @@ net_StringCmd
 net_Tick
 net_async_clientconnect
 net_async_job_random_sleep
+net_captureculldata
+net_channels
+net_compresspackets_minsize
+net_connections_stats
+net_culloptimization
 net_debug_to_file
+net_detailed_canpacket_log
+net_fakeclear
+net_fakejitter
+net_fakelag
+net_fakeloss
+net_fakestatus
+net_filelogging
 net_force_steamdatagram
+net_fs_showindirections
+net_limit_sv_recv_max_message_size_kb
+net_limit_sv_recv_segments_per_packet
+net_limit_sv_recvbuffer_kb
+net_limit_sv_recvbuffer_msg
+net_listallmessages
+net_log_processing
+net_max_message_process_count
+net_max_message_queue_size
+net_max_polymorphic_spew
+net_messageinfo
+net_option
+net_p2p_listen_dedicated
+net_permutation_info
+net_print_sdr_ping_times
+net_public_adr
+net_qosinterval_spew
+net_qospacketloss_percentage_threshold
 net_reloadgameevents
+net_restrict_showmsg_socket
+net_serializedentitymemory
+net_serializedentitymetadatainfo
+net_showdrop
 net_showeventlisteners
 net_showevents
+net_showmsg
+net_showoob
+net_showpeaks
+net_showreliable
+net_showudp
+net_showudp_remoteonly
+net_skip_redundant_change_callbacks
+net_spewcounts
+net_spewserializer
 net_stats_json
+net_status
+net_use_packet_compression
+net_validatemessages
+net_why_field_excluded
 nethertoxin_bonus_pct
 neutralSpawnBoxes
 neutral_camp_arrow_offset
@@ -55934,6 +56800,16 @@ particle_cluster_manager_search_dist
 particle_cluster_nodraw
 particle_cluster_use_collision_hulls
 particle_debug_creation_filter
+particle_layer_id_whitelist
+particle_powsimd_random_range_exp
+particle_profile
+particle_profile_filter
+particle_profile_spike
+particle_reset_assertions
+particle_snapshot_allow_combined_models
+particle_stop_all
+particle_stop_specified
+particle_stop_unspecified
 particle_system_start
 particle_system_stop
 particle_test_attach_attachment
@@ -56021,7 +56897,12 @@ perma_mp_per_kill
 permanent_int_steal_amount
 permanent_int_steal_range
 persona_selector
+pet_disable_test_mode
 pet_effigy
+pet_named_value_cache_debug
+pet_preview_gravity
+pet_preview_underwater
+pet_preview_wind
 phantom_ass_dagger
 phantom_lance
 phase_duration
@@ -56041,6 +56922,7 @@ phys_dump_memory
 phys_dynamic_scaling
 phys_expensive_shape_threshold
 phys_force_controller_debug
+phys_get_model_materials
 phys_highlight_expensive_objects
 phys_highlight_expensive_objects_strength
 phys_impactforcescale
@@ -56055,6 +56937,7 @@ phys_min_motion_controller_count_to_run_in_job
 phys_multithreading_enabled
 phys_powered_ragdoll_debug
 phys_pushscale
+phys_set_model_materials
 phys_shoot
 phys_shoot_angular_speed
 phys_shoot_speed
@@ -56221,7 +57104,9 @@ print origin in script format
 print panorama event types and their documentation
 print soundscapes
 print_changed_convars
+print_model_bind_pose
 print_ti8_challenges
+print_video_card_config
 priority
 proc_chance
 proc_chance_pct
@@ -56271,7 +57156,12 @@ prop_nav_obstacle_block_mass_a
 prop_nav_obstacle_block_mass_b
 prop_nav_obstacle_block_mass_c
 prop_physics_create
+proped_attr_logging
+proped_debug_margin
+proped_debug_splitter
+proped_sync_timings
 properties
+property_editor_use_overlay
 proportional 0/1
 proportional fade in time
 proportional fade out time
@@ -56308,6 +57198,7 @@ pulse_attack_slow_pct
 pulse_damage
 pulse_debuff_duration
 pulse_debug_print
+pulse_fgd_debug_path
 pulse_interval
 pulse_list_graphs
 pulse_model_sequence_name
@@ -56365,6 +57256,7 @@ r_RainAllowInSplitScreen
 r_RainParticleDensity
 r_add_views_in_pre_output
 r_allow_all_objects_to_refract
+r_allow_low_gpu_memory_mode
 r_allow_onesweep_gpusort
 r_allow_refracted_particles
 r_always_render_all_windows
@@ -56380,6 +57272,7 @@ r_aoproxy_min_dist
 r_aoproxy_min_dist_box
 r_aspectratio
 r_async_shader_compile_notify_frequency
+r_cache_pool_allocations
 r_character_decal_monitor_draw_frustum
 r_character_decal_monitor_emissive
 r_character_decal_monitor_render_res
@@ -56471,11 +57364,13 @@ r_draw3dskybox
 r_draw_first_tri_only
 r_draw_instances
 r_draw_overlays
+r_draw_particle_children_with_parents
 r_draw_selected_ring
 r_drawblankworld
 r_drawdecals
 r_drawdevvisualizers
 r_drawpanorama
+r_drawparticles
 r_drawpixelvisibility
 r_drawropes
 r_drawskybox
@@ -56568,6 +57463,8 @@ r_low_latency
 r_low_latency_trigger_flash
 r_mapextents
 r_max_texture_pool_size
+r_memory_aliasing
+r_mipgen_compute_shader
 r_mixed_shadows_fade_in_time
 r_mixed_shadows_fade_out_time
 r_morphing_enabled
@@ -56576,14 +57473,60 @@ r_multigpu_num_gpus_used
 r_muzzleflashbrightness
 r_muzzleflashlinear
 r_nearz
+r_particle_allowprerender
+r_particle_batch_collections
+r_particle_batch_in_fullsort
+r_particle_cables_cast_shadows
+r_particle_cables_culling
+r_particle_cables_culling_bounds_scale
+r_particle_cables_dynamic_roundness
+r_particle_cables_dynamic_roundness_threshold
+r_particle_cables_render
+r_particle_cables_render_meshlets
+r_particle_cables_visualize_roundness
+r_particle_debug_filter
+r_particle_debug_force_simulation
+r_particle_debug_randomseeds
+r_particle_debug_show_attribute
+r_particle_debug_show_control_points
+r_particle_debug_show_rope_segments
+r_particle_debug_show_sort_position
+r_particle_enable_fastpath
+r_particle_explicit_fetch
+r_particle_fixedrandomseeds
+r_particle_gpu_implicit
+r_particle_gpu_implicit_cull_columns
+r_particle_gpu_implicit_debug_bricks
+r_particle_gpu_implicit_debug_stats
+r_particle_gpu_implicit_debug_wireframe
+r_particle_gpu_implicit_lds_cache
 r_particle_max_detail_level
+r_particle_max_draw_distance
+r_particle_max_size_cull
+r_particle_max_texture_layers
+r_particle_min_timestep
+r_particle_mixed_resolution_viewstart
+r_particle_model_new
+r_particle_model_new8
+r_particle_model_per_thread_count
+r_particle_multiplier
+r_particle_newinput
+r_particle_render_refreshes_sleep_timer
+r_particle_render_sprites_issue_vizquery
+r_particle_render_test
+r_particle_skip_postsim
+r_particle_testbuffers
 r_particle_timescale
+r_particle_warn_threshold_ms
+r_particles_memset_at_init
+r_physics_particle_op_spawn_scale
 r_pipeline_stats_command_flush
 r_pipeline_stats_flush_before_sleeping
 r_pipeline_stats_present_flush
 r_pipeline_stats_use_flush_api
 r_pixelvisibility_partial
 r_pixelvisibility_spew
+r_prefer_loop_unrolling
 r_print_buffers
 r_print_texture_stats
 r_propsmaxdist
@@ -56593,7 +57536,9 @@ r_render_to_cubemap_debug
 r_render_world_node_bounds
 r_renderdoc_auto_shader_pdbs
 r_renderdoc_capture_frame
+r_renderdoc_capture_thumbnail_rendering
 r_renderdoc_capture_window_dx11
+r_renderdoc_capture_window_vulkan
 r_renderdoc_open_captures
 r_renderdoc_validation_error_capture_limit
 r_rendersun
@@ -56603,6 +57548,7 @@ r_ropetranslucent
 r_screen_size_expansion
 r_shadows
 r_shadowtile_waveops
+r_show_gpu_memory_visualizer
 r_showdebugoverlays
 r_showsceneobjectbounds
 r_size_cull_threshold
@@ -56654,6 +57600,16 @@ r_use_memory_budget_model
 r_validate_texture_streaming
 r_vconsole_foregroundforcerender
 r_viewport
+r_vma_defrag_algorithm
+r_vma_defrag_enabled
+r_vma_defrag_max_allocation_count_per_pass
+r_vma_defrag_max_allocation_size_per_pass
+r_vma_defrag_moves_per_frame
+r_vma_defrag_threshold_mb
+r_vulkan_force_sync1
+r_vulkan_sw_cmd_lists
+r_vulkan_validation_filter_in
+r_vulkan_validation_filter_out
 r_wait_on_present
 r_world_frame_load_threshold_ms
 r_world_wind_dir
@@ -56679,10 +57635,12 @@ radius max (-1 procedural growth)
 radius min
 radius min 
 radius multiplier
+radius of the sfm skeleton display
 radius random exponent
 radius scale
 radius scale component
 radius start scale
+radius used to raise/lower corners in nearby areas when raising/lowering corners.
 radius_ally
 radius_base
 radius_grow
@@ -56743,6 +57701,8 @@ rate scale
 ray trace environment cp
 ray trace environment name
 ray_bench
+rc_default_texture_encode_quality
+rc_relaxedcones_cpu
 rcon
 rcon_address
 rcon_connected_clients_allow
@@ -56797,6 +57757,7 @@ relative desired height
 release_at_max_stacks
 reload_challenges
 reload_game_keyvalues
+reload_model
 reload_neutral_camp_pull
 reload_portrait_background_maps
 reloadgame
@@ -56816,6 +57777,7 @@ removeip
 render attribute
 render diffuse
 render filter
+render particles 100 times and show perf
 render radius
 render specular
 repeat_buff
@@ -56861,6 +57823,7 @@ resource_manifest_validate_modules
 resource_repeated_reload
 resource_repeated_reload <count> <resource_name> (<resource name> ...): Load and unload the specified resource(s)
 resource_reset_allocate_timing
+resourcecompiler_log_compile_stats
 respawn_player
 restart
 restart behavior (0 = bounce, 1 = loop )
@@ -56881,6 +57844,7 @@ return_distance
 return_projectile_speed
 return_speed
 return_time
+return_to_tools_from_engine
 return_travel_speed
 reveal_delay
 reveal_duration
@@ -56989,9 +57953,13 @@ rr_thenany_score_slop
 rs_dump_stats
 rs_dump_stats - Dump resourcesystem stats.
 rt env control point component
+rtx_allow_blas_compact
+rtx_allow_blas_create
 rtx_dynamic_blas
 rtx_dynamic_blas_caching
 rtx_force_default_hitgroup
+rtx_perf_stats
+rtx_show_bounce
 rtx_texture_resolution
 rum_factor
 run in a square, # represents how many usercommands to run before turning.
@@ -57033,6 +58001,7 @@ sParticleTarget
 sPendingTreeModelChange
 sPendingTreeRemoval
 sPlayerSnapshot
+sRGB to CIEXYZ conversion
 sRevenantDef
 sSharedCooldownInfo
 sSound
@@ -57173,6 +58142,7 @@ sc_no_cull
 sc_no_vis
 sc_only_render_opaque
 sc_only_render_shadowcasters
+sc_particle_debug_visualizer
 sc_reject_all_objects
 sc_rendergraph_debug_visualizer
 sc_screen_size_lod_scale_override
@@ -57335,6 +58305,7 @@ scripted_demo_restart
 scripts/detail_prop_types.vdata
 scripts/explosion_types.vdata
 scrubber
+sdr
 search econ items
 search_distance
 search_radius
@@ -57439,6 +58410,31 @@ sf_loadout_rotate_drag
 sf_loadout_rotate_frametime_multiplier
 sf_loadout_rotate_grab_scale
 sf_loadout_rotate_scale
+sfm_bone_display_center_color
+sfm_bone_display_highlight_color
+sfm_bone_display_left_color
+sfm_bone_display_misc_color
+sfm_bone_display_radius
+sfm_bone_display_right_color
+sfm_bone_display_selection_color
+sfm_create_every_character
+sfm_debug_draw
+sfm_draw_model_bone_axes
+sfm_draw_model_bounds
+sfm_draw_model_wireframe
+sfm_draw_sound_waveform
+sfm_ensurefilmcliponframe
+sfm_flushsfmsoundsamplecache
+sfm_memory
+sfm_only_opaque_objects_cast_shadows
+sfm_orbitspeed
+sfm_panspeed
+sfm_print_sound_debug_messages
+sfm_record_sound_events
+sfm_render_half_float
+sfm_show_ao_proxies
+sfm_sound_event_picker_delay
+sfm_vis_mode
 shackle_count
 shackle_distance
 shadow_wave_cdr
@@ -57568,6 +58564,7 @@ show npc schedule task details
 show npc's enemies
 show npc's viewcone
 show path query processing
+show permutation information for serializer
 show pivot for this entity
 show relationships between target and all children
 show shop
@@ -57580,6 +58577,7 @@ show trigger bounds
 show usercmd payload sizing info for packets with more than this many usercmds
 show_comic
 show_sf_shop
+show_tool
 show_visibility_boxes
 showcase_debug
 showconsole
@@ -57702,6 +58700,8 @@ slow_steps
 smaller_shield
 smart_prop
 smartprop_choice_options
+smartprop_print_timings
+smartprops
 smash_damage
 smash_distance_from_hero
 smash_radius
@@ -57759,6 +58759,9 @@ snd_enable_imgui
 snd_enable_subgraph_corenull_passthrough
 snd_enable_subgraph_log
 snd_envelope_rate
+snd_event_browser_default_stack
+snd_event_browser_default_vsnd_field
+snd_event_browser_focus_events
 snd_event_cone_debug
 snd_event_oriented_box_debug
 snd_event_oriented_lerp_max_distance
@@ -57933,19 +58936,71 @@ snd_soundmixer_setmixlayer_amount
 snd_soundmixer_update_maximum_frame_rate
 snd_soundmixer_version
 snd_spatialize_lerp
+snd_steamaudio_active_hrtf
+snd_steamaudio_ambisonics_correction_type
+snd_steamaudio_baked_data_stats
+snd_steamaudio_baked_occlusion_mode
+snd_steamaudio_baked_occlusion_pathing_deviation_slope
+snd_steamaudio_baked_occlusion_pathing_exponent
+snd_steamaudio_baked_occlusion_reflection_factor
+snd_steamaudio_default_hrtf_volume_gain
 snd_steamaudio_display_dimension_data_inside
 snd_steamaudio_display_dimension_data_outside
 snd_steamaudio_display_dimension_data_size
 snd_steamaudio_display_probes
 snd_steamaudio_dynamicpathing_max_samples
+snd_steamaudio_enable_compressed_reverb_lookup
+snd_steamaudio_enable_custom_hrtf
+snd_steamaudio_enable_editor_profiling
+snd_steamaudio_enable_occlusion_caching
+snd_steamaudio_enable_ordertruncated_ambisonics_hrtf
+snd_steamaudio_enable_pathing
+snd_steamaudio_enable_perspective_correction
+snd_steamaudio_enable_probeneighborhood_caching
 snd_steamaudio_enable_reverb
+snd_steamaudio_enable_reverb_caching
+snd_steamaudio_enable_spatial_blend_fix
+snd_steamaudio_halton_sequence
+snd_steamaudio_hammer_probes_always_render
+snd_steamaudio_hybrid_reverb_overlap
+snd_steamaudio_hybrid_reverb_transition_time
+snd_steamaudio_invalid_path_length
+snd_steamaudio_ir_duration
+snd_steamaudio_irradiancemindistance_reverb
+snd_steamaudio_load_dimensions_data
+snd_steamaudio_load_materials_data
+snd_steamaudio_load_occlusion_data
+snd_steamaudio_load_pathing_data
+snd_steamaudio_load_reverb_data
+snd_steamaudio_max_ambisonics_order
+snd_steamaudio_max_convolution_sources
+snd_steamaudio_max_hrtf_normalization_gain_db
+snd_steamaudio_max_occlusion_samples
+snd_steamaudio_max_probes_customdata
+snd_steamaudio_max_probes_customdata_dimensions
+snd_steamaudio_max_probes_customdata_materials
+snd_steamaudio_max_probes_pathing
+snd_steamaudio_max_probes_reverb
+snd_steamaudio_normalize_default_hrtf_volume
+snd_steamaudio_num_bounces
+snd_steamaudio_num_diffuse_samples
+snd_steamaudio_num_rays
+snd_steamaudio_num_threads
 snd_steamaudio_pathing_caching_threshold
 snd_steamaudio_pathing_enable_caching
+snd_steamaudio_pathing_enable_source_probe_interp
+snd_steamaudio_pathing_order
+snd_steamaudio_pathing_order_rendering
+snd_steamaudio_perspective_correction_factor
 snd_steamaudio_perspective_correction_front_only
 snd_steamaudio_reverb_level_db
+snd_steamaudio_reverb_order
+snd_steamaudio_reverb_order_rendering
+snd_steamaudio_reverb_update_rate
 snd_steamaudio_source_pathing_debug
 snd_steamaudio_source_pathing_debug_duration
 snd_steamaudio_source_pathing_enable_validation
+snd_steamaudio_use_soundblocking_shapes_only
 snd_stereo_speaker_pan_exponent
 snd_stereo_speaker_pan_radial_weight
 snd_surround_speaker_pan_exponent
@@ -58191,6 +59246,7 @@ spring_channel_pct
 sprout_heal_interval
 sprout_heal_per_second
 square
+srgb_to_xyz
 ss_add
 ss_mimic
 ss_remove
@@ -58302,6 +59358,7 @@ status_resistance_per_upgrade
 steal_pct
 steal_radius
 steals_damage
+steamaudio_customdata_dimensions_numrays
 steamlearn_data_submit_enable
 steamlearn_inference_http
 steamlearn_max_in_flight
@@ -58393,6 +59450,7 @@ strike_slow_duration
 strike_target_count
 strikes
 string
+stringtables
 strong_dispel
 strong_illusion
 struckEntities
@@ -58511,6 +59569,7 @@ sv_lagcompensationforcerestore
 sv_lan
 sv_late_commands_allowed
 sv_lightquery_debug
+sv_listen_directudp
 sv_log_onefile
 sv_logbans
 sv_logblocks
@@ -58788,6 +59847,7 @@ test_shipping_assert
 test_trophy_achieved
 test_voice_container_nesting
 test_voice_containers
+test_vqlayout
 testscript_debug
 tether_attack_damage_pct
 tether_heal_amp
@@ -58896,7 +59956,9 @@ tombstone_grab_radius
 tombstone_heal
 tombstone_health
 tombstone_stun_penalty
+tool_request
 tool_spawned_model_scales
+toolhud_enable
 tools/images/pulse_editor/cursor_tag.png
 tools/images/pulse_editor/cursor_wait_zone.png
 tools/images/pulse_editor/exit_cycle_random.png
@@ -58905,7 +59967,9 @@ tools/images/pulse_editor/inflow_wait.png
 tools/images/pulse_editor/node_timer.png
 tools/images/pulse_editor/observable_variable_listener.png
 tools/images/pulse_editor/requirements.png
+tools_renderscenes
 tools_stall_monitor_break_on_unknown_cause
+toolscene_gizmo_algorithm
 toolscenelightrigs.vdata
 top_bar_message
 tormentor
@@ -59020,6 +60084,7 @@ truesight_force_ended
 truesight_force_live
 truesight_linger_duration
 truesight_radius
+turn on optimized particle init
 turn on sse4.2 optimizations in the engine
 turn on, off, or toggle origin changes on server for entity by index
 turn_angle
@@ -59195,6 +60260,8 @@ unit_distance
 unleash
 unlink_vision
 unlit segment color
+unload the specified tool
+unloadTool
 unpack SST directly into shadow atlas cascade vs via staging texture PS copy (NOTE - rendersystem fix reqd for AMD + driver fix required for NV + VK only.
 unpause
 unslowable
@@ -59254,6 +60321,11 @@ v0
 v1
 v1x
 v2
+v8_dump_heap_snapshot
+v8_jitless
+v8_maximum_heap_size_mb
+v8_stack_size
+v8_write_heap_stats
 vAttemptedKnockbackDirection
 vCameraEdgeThresholds
 vCameraOffset
@@ -59308,6 +60380,8 @@ value2
 valueB
 vampiric_aura
 var change info histogram\n
+vcon_clear_buffered_log
+vcon_clients
 vconsole_rcon_server_details
 vdata_choice:scripts/events/crownfall/artillery_graphics.vdata
 vdata_choice:scripts/events/crownfall/artillery_weapons.vdata
@@ -59399,6 +60473,7 @@ vmem_dump
 vmix_debug_list
 vmix_input
 vmix_output
+vmixtool
 voice
 voice_all_icons
 voice_always_sample_mic
@@ -59480,6 +60555,20 @@ vsmart
 vsnd
 vt_sim_streaming_delay_ms
 vtune
+vulkan_batch_size
+vulkan_batch_submits
+vulkan_dedicated_allocation_threshold
+vulkan_framebuffermgr_print
+vulkan_link_time_optimize_libraries
+vulkan_memgr_fragmentation_print
+vulkan_memgr_print
+vulkan_pipeline_compile_spew
+vulkan_pipeline_compile_throttle_ms
+vulkan_pipelinemgr_print
+vulkan_shader_table_print
+vulkan_unpause_workers_after_each_texture_deallocation
+vulkan_vma_defrag
+vulkan_vma_gpu_mem_dump
 vuln_duration
 vuln_slow
 w

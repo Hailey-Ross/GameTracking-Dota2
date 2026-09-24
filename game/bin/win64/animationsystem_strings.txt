@@ -2215,13 +2215,8 @@ AnimPathData:IsStop
 AnimPathData:Pos
 AnimPathData:m_count
 AnimPathData:m_startIndex
-AnimResource
-Animation 2
 Animation/AccumulatePose
-AnimationGraph
 AnimationResourceData_t
-AnimationSystem
-AnimationSystem: IK
 Any Other Cursors Have Tag
 AppendDataChannels( %s, %d, %s )\n
 Arc Cos
@@ -2647,7 +2642,6 @@ Domain: %s\n
 Dot Product Vector
 Dot Product of Vector a 
 Down
-DualHull
 ENUM_
 Effector: %s
 Element Access R%d <- R%d[R%d]
@@ -3036,11 +3030,9 @@ Particle (%s) (%s)
 Particle Binding
 Particle Binding (Real)
 ParticleParamID_t
-ParticlesLib
 Pass Outflow
 PerTickSettings
 PerVertexLighting
-Physics
 PivotPaint
 Plane normal
 Playback:m_SequenceCycleZeroTime
@@ -3209,7 +3201,6 @@ Trying to set an offset on an unset node!
 Turn a time in seconds into a display string. NOT localized.
 TurnHelperNode
 Two Bone IK
-TypeManager
 Unable to parse AE_SV_DUSTTRAIL event "%s"\n
 Unknown Morph Control :: %s WeightList :: %s Model :: %s\n
 Unknown binary operator
@@ -3775,7 +3766,6 @@ maxStretch
 medium
 missing all pose parameters\n
 model bone %d is out of bounds, probably attempting to use an animation from different model\n
-modellib
 morph_texture
 nFormat
 nKillPriority

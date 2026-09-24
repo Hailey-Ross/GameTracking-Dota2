@@ -6,6 +6,7 @@
 //	"m_bIncludeMissing": true
 //}
 // MPropertyFriendlyName = "Review Status"
+// MHasKV3TransferPolymorphicClassname
 class CReviewStatusWorkshopFileFilter : public CKeyValueTagWorkshopFileFilter
 {
 };

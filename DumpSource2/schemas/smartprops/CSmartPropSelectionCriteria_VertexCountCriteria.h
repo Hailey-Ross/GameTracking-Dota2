@@ -3,9 +3,10 @@
 //	"m_bEnabled": true,
 //	"m_nTargetVertexCount": 0
 //}
-// MVDataComponentValidGrandParents (UNKNOWN FOR PARSER)
+// MVDataComponentValidGrandParents = "CSmartPropElement_PlaceOnMesh"
 // MPropertyFriendlyName = "Filter Faces By Vertex Count"
 // MPropertyDescription = ""
+// MHasKV3TransferPolymorphicClassname
 class CSmartPropSelectionCriteria_VertexCountCriteria : public CSmartPropSelectionCriteria
 {
 	// MPropertyFriendlyName = "Target Vertex Count"

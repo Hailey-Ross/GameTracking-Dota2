@@ -5,9 +5,10 @@
 //	"m_flMaxAngle": 0.000000,
 //	"m_bInvert": false
 //}
-// MVDataComponentValidGrandParents (UNKNOWN FOR PARSER)
+// MVDataComponentValidGrandParents = "CSmartPropElement_PlaceOnMesh"
 // MPropertyFriendlyName = "Filter Edges by Angle"
 // MPropertyDescription = ""
+// MHasKV3TransferPolymorphicClassname
 class CSmartPropSelectionCriteria_EdgeAngleCriteria : public CSmartPropSelectionCriteria
 {
 	// MPropertyFriendlyName = "Min Angle"

@@ -7842,8 +7842,6 @@ CalibrationIlluminant1
 CalibrationIlluminant2
 Call C%d:I%d (%s)
 Camera
-Camera orbit scale.
-Camera pan speed
 CameraCalibration1
 CameraCalibration2
 CameraLookAtSelection
@@ -8157,7 +8155,6 @@ Create Shot For Every Character
 Create Spline Rig
 Create Track
 Create Track Group
-Create an animationset for every character
 Create bookmarks at phoneme start times
 CreateAnimationSet
 CreateAnimationSetForCamera
@@ -8334,7 +8331,6 @@ Disabled engine frame syncing\n
 Disconnect
 DisconnectSelectedChannels
 Display
-Display memory used by the SFM, add shots to break down on per-shot basis
 Display sequence attributes in sortable columns
 DisplayGrid
 Distance Between Control Points Scale
@@ -8603,7 +8599,6 @@ Drop Clips Operation
 Drop Film Clips Operation
 Drop: Blend each control towards that control's values prior to starting the floating modification layer
 DropClipDialog
-DualHull
 DummyNoOp
 Dump float log to console
 DumpModeDecode: Not enough data for scanline %d
@@ -8723,7 +8718,6 @@ Engine Synced to Fixed FPS
 EngineSyncedToFixedFPS
 Ensure Info Attribute
 Ensure Info Data
-Ensure that interactive film clip operations always stay on frame
 EnsureCapacity
 Enter
 Enter Game Mode
@@ -9031,7 +9025,6 @@ Floating point "Predictor" not supported with %d data format
 Floor - round float down to nearest integer
 Floor Float
 Flow Node ID
-Flushes sfm clip preview sample cache.
 Fly [Toggle: %s]
 Foc:N 
 Foc:Y 
@@ -9381,7 +9374,6 @@ InnerProduct
 Input Binding Error
 Input Debugger [%1]
 Input Sequence
-InputBindSystem
 Insert
 Insert 'element' in the given index in 'a', increasing its count by one and moving the elements after index.
 Insert Track
@@ -10509,10 +10501,8 @@ Particle Configuration File
 Particle Definition Browser
 Particle Rename
 ParticleSystem
-Particles
 Particles Outside Camera Frustum
 Particles:
-ParticlesLib
 Pass Outflow
 Paste
 Paste (Overwrite)
@@ -10566,7 +10556,6 @@ Photometric tag is missing, assuming data is YCbCr
 Photometric tag value assumed incorrect, assuming data is YCbCr instead of RGB
 PhotometricInterpretation
 Photoshop
-Physics
 Physics Debug Draw
 Pick
 Pick Background Texture For %d Shots
@@ -11682,7 +11671,6 @@ Sound Track
 Sound event '%1'\n(referencing %2 vsnds) has zero duration.\n\n
 Sound event '%1'\nreferencing vsnd '%2'\nhas zero duration.\n\nThis can happen if the sound event refers to a missing vsnd.
 SoundDelayOrSkip
-SoundSystemLowLevel
 SoundThink
 Source
 Source Filmmaker
@@ -12042,13 +12030,11 @@ ToolObjects/CubeMap
 ToolObjects/GlobalLight
 ToolObjects/LightInfo
 ToolObjects/LightProbeVolume
-ToolScene
 ToolSceneDebugOverlays
 ToolSceneTraceResult_t*
 ToolSceneWidget
 ToolSceneWidget%d
 ToolScene_FindOrLoadParticleSnapshot
-ToolSystem2_001
 ToolWindowGrid
 Tools  
 Tools audio currently muted
@@ -12314,7 +12300,6 @@ VDmSerializers001
 VMatrixDialog
 VN>EG
 VNOTIFY_DISABLE
-VNotify
 VNotify Abandoned (ActiveProtocolIsNewer)\n
 VNotify Abandoned (No ProcessUtils)\n
 VNotify Abandoned (Not enabled)\n
@@ -13265,12 +13250,6 @@ cloth_enable$0
 cmdLine
 collapsed
 collisionmesh
-color for highlighting of the sfm skeleton display
-color for selection of the sfm skeleton display
-color for the center of the sfm skeleton display
-color for the left side of the sfm skeleton display
-color for the misc bones of the sfm skeleton display
-color for the right side of the sfm skeleton display
 color log
 color$%d
 color$0
@@ -13464,11 +13443,6 @@ done
 doneTextColor
 dota_
 dqe-KO{/3
-draw bone axes for models
-draw bounding boxes for models
-draw debugging geometry
-draw sound waveforms in the SFM
-draw wireframe for models
 drawBones
 drawExtents
 drawGameRenderablesMask
@@ -14439,7 +14413,6 @@ modelPath
 model_attachment
 model_bone
 model_path
-modellib
 models/editor/axis_helper_thick.vmdl
 models/editor/camera.vmdl
 models/heroes/
@@ -14685,9 +14658,6 @@ path_trajectory
 pattern
 per-camera settings
 permitresponses
-pet_preview_gravity
-pet_preview_underwater
-pet_preview_wind
 phoneme
 phonemeextractors/%s
 phonemeextractors/*.dll
@@ -14749,7 +14719,6 @@ presetRemap
 presets
 preview
 previous_value
-print_video_card_config
 procedural
 procedural model '%s' is named differently than '%s' stored in session, and '%s' probably won't be drawn\n
 proceduralPresets
@@ -14784,7 +14753,6 @@ quiet
 r>TR'>O
 rQ?lineTo@QPainterPath@@QEAAXNN@Z
 rad2deg
-radius of the sfm skeleton display
 radiusScale
 radius_random
 radius_scale
@@ -14967,36 +14935,14 @@ settings
 sfm.dll
 sfm_accumulate_alpha_layer
 sfm_accumulate_color_layer
-sfm_bone_display_center_color
-sfm_bone_display_highlight_color
-sfm_bone_display_left_color
-sfm_bone_display_misc_color
-sfm_bone_display_radius
-sfm_bone_display_right_color
-sfm_bone_display_selection_color
 sfm_clear_layer
 sfm_clear_view
 sfm_clip_fade_layer
-sfm_create_every_character
-sfm_debug_draw
-sfm_draw_model_bone_axes
-sfm_draw_model_bounds
-sfm_draw_model_wireframe
-sfm_draw_sound_waveform
 sfm_effects_view
-sfm_ensurefilmcliponframe
-sfm_flushsfmsoundsamplecache
 sfm_geometry
 sfm_highlight_layer
 sfm_hsl_grain_layer
 sfm_light_volumetrics
-sfm_memory
-sfm_only_opaque_objects_cast_shadows
-sfm_orbitspeed
-sfm_panspeed
-sfm_print_sound_debug_messages
-sfm_record_sound_events
-sfm_render_half_float
 sfm_rt_accumulation_%dx%d
 sfm_rt_output_depth_%dx%d
 sfm_rt_refined_%dx%d
@@ -15007,8 +14953,6 @@ sfm_selection_layer
 sfm_session
 sfm_settings
 sfm_shadow_depth_texture_array[%d]
-sfm_show_ao_proxies
-sfm_sound_event_picker_delay
 sfm_texture_overlay
 sfm_texture_overlay_layer
 sfm_texture_plane
@@ -15024,7 +14968,6 @@ sfm_v6
 sfm_v7
 sfm_v9
 sfm_viewport_target
-sfm_vis_mode
 sfmlightfrustum
 sfmvolumetrics
 shadowDepthBias
@@ -15278,7 +15221,6 @@ tool_request_args
 tool_request_text
 tool_request_tool
 toolbarArea
-toolhud_enable
 tools.reference_notrace
 tools.toolsmaterial
 tools/colors/shared_colors.txt
@@ -15289,7 +15231,6 @@ tools/keybindings/global_key_bindings.txt
 tools/keybindings/shared_tool_key_bindings.txt
 toolsVisModeIndex
 tools_preview
-tools_renderscenes
 toolscenevismodes.txt
 topLeft
 totadisconls\n

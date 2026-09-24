@@ -3358,7 +3358,6 @@ DragOffsetRelativeStart
 DragOffsetRelativeUpdate
 DragStarted
 DragUpdated
-DualHull
 DummyNoOp
 DumpModeDecode: Not enough data for scanline %d
 Dynamic Expression
@@ -3685,7 +3684,6 @@ InkSet
 Input Binding Error
 Input Debugger [%1]
 Input Sequence
-InputBindSystem
 Insert 'element' in the given index in 'a', increasing its count by one and moving the elements after index.
 Insufficient data length.\n
 Insufficient data size for attributes.\n
@@ -4286,7 +4284,6 @@ ParseEXRHeaderFromMemory failed! Error message: %s\n
 Parser encountered %i errors parsing compile targets expression "%s"\n
 Particle Binding
 Particle Binding (Real)
-ParticlesLib
 Pass Outflow
 Paste
 Paste (Overwrite)
@@ -4304,7 +4301,6 @@ Photometric tag is missing, assuming data is YCbCr
 Photometric tag value assumed incorrect, assuming data is YCbCr instead of RGB
 PhotometricInterpretation
 Photoshop
-Physics
 PhysicsSurfaceProperties
 PhysicsSurfaceProperties%d
 PhysicsSurfaceProperties1
@@ -4871,8 +4867,6 @@ Tool
 ToolAttributes
 ToolBarArea
 ToolFramework
-ToolScene
-ToolSystem2_001
 ToolTip - "%s" not found.
 ToolTips
 Tools  
@@ -4968,7 +4962,6 @@ VFX_RULE_TYPE_STATIC
 VFX_RULE_TYPE_UNKNOWN
 VFX_RULE_UNKNOWN
 VNOTIFY_DISABLE
-VNotify
 VNotify Abandoned (ActiveProtocolIsNewer)\n
 VNotify Abandoned (No ProcessUtils)\n
 VNotify Abandoned (Not enabled)\n
@@ -6213,9 +6206,6 @@ p\n?dragLeaveEvent@QAbstractItemView@@MEAAXPEAVQDragLeaveEvent@@@Z
 p\v?event@QWidget@@MEAA_NPEAVQEvent@@@Z
 p`?type@QStandardItem@@UEBAHXZ
 paste
-pet_preview_gravity
-pet_preview_underwater
-pet_preview_wind
 pickedColor
 pixelAspectRatio
 polymorphic_arg
@@ -6345,7 +6335,6 @@ tool_request_args
 tool_request_text
 tool_request_tool
 toolbarArea
-toolhud_enable
 tools/colors/shared_colors.txt
 tools/images/pulse_editor/cursor_kill.png
 tools/images/pulse_editor/kill_cursor_with_tag.png

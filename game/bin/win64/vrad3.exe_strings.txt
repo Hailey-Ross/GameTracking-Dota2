@@ -14,5 +14,4 @@ PATH
 PATH=%s;%s
 RSDSit
 \nPl8
-launchable_dll_1
 local_AppendSlash: ran out of space on %s.

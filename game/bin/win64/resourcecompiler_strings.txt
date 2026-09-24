@@ -22441,7 +22441,6 @@ Animated Length
 AnimatedMaterialAttribute
 AnimatedMaterialAttributeColor
 AnimatedMaterialAttributeValue
-Animation 2
 Animation Bone Flags
 Animation Clip Compiler Version
 Animation Configuration File
@@ -22457,12 +22456,9 @@ Animation in DNA anim file has no frames: %s
 Animation references itself as blend target
 Animation references itself as the source animation
 Animation/AccumulatePose
-AnimationGraph
 AnimationGroupResourceData_t
 AnimationSystem/DisableMoveMgrNetworkVars
-AnimationSystem: IK
 Animations from the specified model will be loaded and merged into this model at runtime.  Akin to QC's $includemodel
-Animgraph
 Animgraph Is Public
 Animgraph Model base mismatch %s, %s\n
 Animgraph Public Name
@@ -23185,7 +23181,6 @@ BoneName
 BoneOverlay
 BoneRelativeNode
 BoneReplacements
-BoneSetup
 Bonemerged
 Bonemerged With Morphs
 Bones To Sample In Model Space
@@ -26328,8 +26323,6 @@ Deflate
 Deflate After Blur
 Deform Children
 DeformablePropModelGameData_t
-DeformableSurfaceBuilder
-DeformableSurfaceBuilderSystem
 Deformation Axis
 Deformation Mode
 Deformer
@@ -26732,13 +26725,8 @@ Dota Patch Notes Compiler Version
 Dota Sky Box
 Dota Visual Novel Compiler Reference Table Hash
 Dota Visual Novel Compiler Version
-DotaHeroListCompiler
-DotaItemCompiler
-DotaItemSetCompiler
 DotaMaxTrees
-DotaPatchNotesCompiler
 DotaTileGrid
-DotaVisualNovelsCompiler
 DoubleSided
 Down
 Downsample
@@ -26764,7 +26752,6 @@ Drawcall has %i rigid subsections (%i/%i faces with multiple influences)\n
 Drive a morph channel based on a remapped range of the angle between a bone's up-vector and the direction to a target bone.
 DriverBone
 DsBV
-DualHull
 DumpModeDecode: Not enough data for scanline %d
 Dumping mesh %s, %d joints, %d roots. %d vtx, %d tri. %s %s\n
 Duplicate AnimGameplayTiming: '%s'\n
@@ -28430,7 +28417,6 @@ FaxMode
 FaxRecvParams
 FaxRecvTime
 FaxSubAddress
-FbxSystem
 Fconst char *__cdecl Reflection::Internal::GetFuncName<class CLODComponentUpdater>(void)
 FeAntiTunnel group is too large (%d), clamping to 16 bits\n
 FeEffectCompile: invalid Wind strength\n
@@ -29135,7 +29121,6 @@ HWyn
 HairShader
 HalfLife
 HalftoneHints
-Hammer
 Hammer Map File Load
 Hammer temp export
 Hammer/CreateRenderClusters
@@ -29511,7 +29496,6 @@ Image Too Large
 Image data size is zero or too large: width = 
 Image packing validation failed!
 ImageArg
-ImageCompiler
 ImageDepth
 ImageDescription
 ImageFullLength
@@ -29984,7 +29968,6 @@ JZIX
 J\nHBF
 J`KL
 JavaScript Compiler Version
-JavaScriptCompiler
 JawD
 JawH
 JawV
@@ -30082,7 +30065,6 @@ Kochanek-Bartels Late
 KsF8
 Ksg4X
 KuBEN
-KubeJobs
 Kv Container
 K{"Kb,p
 K|oT
@@ -30243,7 +30225,6 @@ Light mapper didn't return valid triangles: failing.\n
 LightCookie
 LightMapMipCount
 LightMapResolution
-LightMapper
 LightSim_DiffuseAlbedoTexture
 Lightbinner Setup
 Lighting Dummy
@@ -30589,8 +30570,6 @@ Map Type
 Map contains %i trees, a maximum of %i trees are allowed, %i trees will be skipped.\n
 Map of Named Nodes
 MapAtom
-MapBuilder
-MapBuilderSystem
 MapClass
 MapDoc Cloth World
 MapGrassTile
@@ -30603,7 +30582,6 @@ MapNavLinkType_t::VAULT_OVER
 MapNode
 MapPoint
 MapSmartProp
-MapVisibilityV001RESOURCE_TYPE_COMPILER_002
 Mappings
 Marker ID To Match
 Mask
@@ -30661,7 +30639,6 @@ Material attribute %s specified with different types. All markup for a material 
 Material groups cannot be named '%s'
 Material to be applied to the grass cards
 MaterialAdjustmentParamsStruct
-MaterialCompiler
 MaterialFindOrBlockingLoad
 MaterialGroup
 MaterialGroupEditor
@@ -30940,7 +30917,6 @@ ModelContentDataList
 ModelDataFlags
 ModelDataList
 ModelDistance
-ModelDoc
 ModelDoc "%s" node "%s" incompatible with AnimGraph
 ModelDoc "%s" node "%s" incompatible with AnimGraph due to child markup nodes
 ModelDoc "%s" node incompatible with AnimGraph
@@ -30957,7 +30933,6 @@ ModelDoc/content_consider_missing_materials_fatal
 ModelDoc/content_consider_warnings_as_errors
 ModelDoc/disallowed_materials
 ModelDoc/use_document_skeleton
-ModelDocCompiler
 ModelDocEditorSession
 ModelDocEvent_NodeAddedToDocument_t
 ModelDocEvent_NodeRemovedFromDocument_t
@@ -30980,7 +30955,6 @@ ModelModifierList
 ModelModifier_DisableMorph
 ModelModifier_ScaleAndMirror
 ModelModifier_Translate
-ModelProcessingSystem
 ModelScale
 ModelSpaceBlendTask - Trying to perform a model-space blend using an additive pose
 Modelconfig error - details above.
@@ -32168,8 +32142,6 @@ Panorama Panel IDs must only contain letters, numbers, underscores, and hyphens.
 Panorama Preprocessor Presence/Version
 Panorama Style Compiler Version
 Panorama/PreprocessResources
-PanoramaCompiler
-PanoramaContent
 PanoramaImage()
 PanoramaLayout()
 PanoramaStyle()
@@ -32256,7 +32228,6 @@ ParticleAnimTag %s is missing a particle system
 ParticleAnimTag %s is referencing an invalid particle system "%s"
 ParticleCompileBinaryIdenticalHack_underlying_struct
 ParticleParamID_t
-ParticlesLib
 Pass Outflow
 Passthrough input texture feature only supported for 2D textures (file "%s")!\n
 Passthrough input texture feature only supported for a single output texture channel specification (file "%s")!\n
@@ -32317,7 +32288,6 @@ Photometric tag is missing, assuming data is YCbCr
 Photometric tag value assumed incorrect, assuming data is YCbCr instead of RGB
 PhotometricInterpretation
 Photoshop
-Physics
 Physics Data
 Physics Joint Modification Mode
 Physics Particle
@@ -32507,7 +32477,6 @@ Position progress\t\t\t[%f]
 Post Action Idle Animation
 PostLoadFromFile
 PostMapLoadCommands
-PostProcessing
 PostProcessingEnabled
 PosterSettings
 Posture
@@ -32833,8 +32802,6 @@ RESOURCE_TYPE_PULSE_GRAPH_DEF
 RESOURCE_TYPE_RESPONSE_RULES_LIST
 RESOURCE_TYPE_SMART_PROP
 RESPONSE
-RESPONSEDOC_LIB
-RESPONSE_RULES
 RFC 3779 resource not subset of parent's resources
 RFC 5639 curve over a 160 bit prime field
 RFC 5639 curve over a 192 bit prime field
@@ -33141,7 +33108,6 @@ Render Order
 Render Probe Radius
 Render Properties
 Render Resolution
-Render Steam Audio Probes even when probes are unselected.
 Render To Cubemaps
 Render With Dynamic
 Render internally at this size for effective super-sampling.
@@ -33302,7 +33268,6 @@ ResourceCompiler/WorldRendererBuilder/PrecomputedShadowmapResolutionDirectional
 ResourceCompiler/WorldRendererBuilder/UseAggregateInstances
 ResourceCompiler/WorldRendererBuilder/UseStaticEnvMapForObjectsWithLightingOrigin
 ResourceCompiler/WorldRendererBuilder/VisibilityGuidedMeshClustering
-ResourceCompilerSystem
 ResourceManifest_EnableMissingResourceReferenceWarnings
 ResourceManifest_t
 Resourcecompiler/BakedLighting/UseStaticLightProbes
@@ -33728,7 +33693,6 @@ ScalpD
 Scene (vcd)
 Scene Depth
 SceneDepth
-SceneSystem
 SceneSystem/ComputeShaderSkinning
 SceneSystem/MeshletMaxTriangleCount
 SceneSystem/MeshletMaxVertexCount
@@ -34168,7 +34132,6 @@ Snap to grid
 SnappingEnabled
 Snapshot
 SnapshotFile
-SnapshotVertexExtraction
 Snippet elements must have 'name' attribute.
 Snippet elements must have only a single 'name' attribute (plus compiler directives).
 Soft Link
@@ -34208,7 +34171,6 @@ Sound event attached to an attach point, and driven off of physical parameters.
 SoundContainer
 SoundDelayOrSkip
 SoundStack
-SoundSystemLowLevel
 Soundevent file %s is not a KeyValues3 file and will be converted.\n
 Soundevent file not readable as KeyValues3 text: %s\n
 Soundevent in %s referencing '%s' (should have extension .vsnd)\n
@@ -34846,12 +34808,10 @@ Texture Handle
 Texture Map
 Texture Orientation
 Texture Scale
-Texture compression quality used in tools mode
 Texture offset along path
 Texture offset around circumference
 Texture repeats around circumference
 TextureAverageColor
-TextureCompiler
 TextureDim
 TextureDimLog2
 TextureFormat
@@ -35142,7 +35102,6 @@ Tool Brushes
 Tool Material
 ToolAttributes
 ToolDrag
-ToolEvents
 ToolSelect
 Tools - Hammer
 Tools Auto-Checkout
@@ -35156,7 +35115,6 @@ Tools_Unlit_Overlay1
 Tools_Unlit_Overlay2
 Tools_Unlit_Overlay3
 Tools_Unlit_PreOverlay
-Toolutils
 Top 10 largest meshes:\n
 Top Chart Counts [%i total]\n
 Top Edge
@@ -35280,7 +35238,6 @@ Type of faceposer keys, Gesture or Posture
 Type of probes to filter for visualization.
 Type=
 TypeScript Compiler Version
-TypeScriptCompiler
 Tz$o
 T~a@E
 U RDn
@@ -35690,7 +35647,6 @@ VMS_MERGER
 VMS_UNLOAD
 VMix Compiler Version
 VNOTIFY_DISABLE
-VNotify
 VNotify Abandoned (ActiveProtocolIsNewer)\n
 VNotify Abandoned (No ProcessUtils)\n
 VNotify Abandoned (Not enabled)\n
@@ -35905,7 +35861,6 @@ Volume Random Minimum Scale - to randomize the amount of contents - 0 = none to 
 Volume scale - to have more or less contents
 VolumeMatchesRamp
 Volumetric Solve Strength
-VolumetricFog
 Voronoi Plane Primitive
 Vortices
 Voxel volume (%i components)
@@ -36084,7 +36039,6 @@ Whole object tint color
 Width Target
 Will be placed in a group with other properties that share the same group name.
 Will use the second uv channel in the model to generate lightmap uvs.  This can help improve the quality of lightmap uvs by providing a better unwrap that has fewer shards and generates fewer charts.
-Wind
 Wind Speed, mph
 WindController
 Windage Normal
@@ -36132,7 +36086,6 @@ WorldRenderer/LightProbeVolumeAlgorithm
 WorldRenderer/LightProbeVolumeColorSpace
 WorldRenderer/LightProbeVolumeCompressedFormat
 WorldRenderer/LightProbeVolumeUncompressedFormat
-WorldRendererBuilder
 WorldSpaceTextureCoords
 WrapGaussian
 WrgoI
@@ -40733,47 +40686,9 @@ hammer
 hammerClipboard
 hammerMeshDataBuffer
 hammerUniqueId
-hammer_analytic_grid
-hammer_analytic_grid_transparent
-hammer_bevel_leave_edges
-hammer_dota_path_falloff
-hammer_dota_path_fixup
-hammer_dota_path_opacity
-hammer_dota_path_sharpness
-hammer_dota_path_use_material_settings
-hammer_dota_path_width
-hammer_draw_bounds
-hammer_draw_dirty_bounds
-hammer_draw_model_raytrace_data
-hammer_draw_model_skeleton
-hammer_draw_overlay_triangles_in_box
 hammer_embedded_properties
-hammer_face_debug_info
-hammer_gridnav_always_update
-hammer_gridnav_preview_radius
-hammer_gridnav_show_creature_blocking
-hammer_gridnav_show_hero_blocking
-hammer_gridnav_show_impassable
-hammer_gridnav_show_obstructions
-hammer_gridnav_show_ward_blocking
-hammer_isosurface_merge_tolerance
-hammer_isosurface_remove_interior
-hammer_isosurface_sample_offset
-hammer_isosurface_subtract
 hammer_mesh_%i
-hammer_overlay_draw_projection_triangles
-hammer_parallel_terrain_update
 hammer_preview_lighting
-hammer_raytrace_debug_draw
-hammer_render_model_bounding_spheres
-hammer_show_light_truncation_error
-hammer_spawn_area_base_alpha
-hammer_spawn_area_outline_alpha
-hammer_tile_border_size
-hammer_use_minimum_element_count_for_loop
-hammer_vis_opacity
-hammer_world_trace_multisample
-hammer_world_trace_pack_rays
 handshake
 handshakeTypes
 handshake_enum
@@ -41763,7 +41678,6 @@ lastModifiedTime
 lastUpdate
 last_frame
 latestValue
-launchable_dll_1
 layer%i
 layerData
 layerData0
@@ -43129,7 +43043,6 @@ modeldoc_utils
 modeldocattr
 modeldocnode.%s
 modelgamedata
-modellib
 models/dev/error.vmdl
 models/editor/axis_helper.vmdl
 models/editor/axis_helper_disabled.vmdl
@@ -43311,7 +43224,6 @@ nav_link_preview
 nav_link_preview_reverse
 nav_mesh
 nav_unmark; nav_mark ladder %d; nav_warp_to_mark\n
-nav_validate
 navclip
 navdbg
 navgen_on_ref_ent
@@ -44438,7 +44350,6 @@ pulse_domain
 pulse_domain_subtype
 pulse_editor
 pulse_editor_map_entities
-pulse_fgd_debug_path
 pulse_fingerprints
 pulse_node_custom_attributes
 pulse_open_graph_id %u %u
@@ -44544,8 +44455,6 @@ rc5-cbc
 rc5-cfb
 rc5-ecb
 rc5-ofb
-rc_default_texture_encode_quality
-rc_relaxedcones_cpu
 read bio not set
 read key
 read timeout expired
@@ -44723,7 +44632,6 @@ resourcecompiler: Tried to add related file "%s" to Perforce but it doesn't exis
 resourcecompiler: Unable to read file "%s"!\n
 resourcecompiler: Unexpected key value type for: "%s"\n
 resourcecompiler_generate_reference_fbx
-resourcecompiler_log_compile_stats
 resourcecompilerwarnings_lastrun.txt
 resourcecompilerwarnings_log.txt
 resourcesystem
@@ -45550,8 +45458,6 @@ small
 smartPropConfigurationHelper
 smartPropFilename
 smartPropPartSet
-smartprop_print_timings
-smartprops
 smime text error
 smime.p7m
 smime.p7z
@@ -45580,11 +45486,6 @@ snapshot_mesh
 snd_event_box_helper
 snd_opvar_set_point
 snd_reverb_movable
-snd_steamaudio_baked_occlusion_mode
-snd_steamaudio_baked_occlusion_pathing_deviation_slope
-snd_steamaudio_baked_occlusion_pathing_exponent
-snd_steamaudio_baked_occlusion_reflection_factor
-snd_steamaudio_hammer_probes_always_render
 snippet
 snippets
 snmpv2
@@ -47109,7 +47010,6 @@ vmatrix
 vmatrix log
 vmdl_c
 vmesh
-vmixtool
 vmks
 vmmd
 vmodulemetadata

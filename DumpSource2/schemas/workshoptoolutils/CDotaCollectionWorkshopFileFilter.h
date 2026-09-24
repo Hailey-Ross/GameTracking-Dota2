@@ -4,6 +4,7 @@
 //	"m_bSingleHero": false
 //}
 // MPropertyFriendlyName = "Collection"
+// MHasKV3TransferPolymorphicClassname
 class CDotaCollectionWorkshopFileFilter : public IWorkshopFileListerFilter
 {
 	bool m_bSameCreator;

@@ -39996,7 +39996,6 @@ Activity
 Activity %s
 Activity %s has %d sequences with a total weight of %d!\n
 Activity Modifiers (%d):\n
-ActivityEventGameSystem
 ActorAnger
 ActorAnnoyed
 ActorAnxiety
@@ -40359,7 +40358,6 @@ AnimatingDown
 AnimatingIntro
 AnimatingText
 AnimatingUp
-Animation 2
 Animation%d
 AnimationActive
 AnimationContainer
@@ -40374,7 +40372,6 @@ AnimationName
 AnimationPlaybackRate
 AnimationSelectFrameToggleButton
 AnimationStart
-AnimationSystem: IK
 AnimationTransitionAggressive
 AnimationTransitionName
 AnimationTransitionRegular
@@ -41454,7 +41451,6 @@ BoX5
 BoardOnCooldown
 Body Component Scriptdesc
 BodyContainer
-BodyGameSystem
 BodyGroup: Group = %s, Choice = %s
 BoldText
 BombCountLabel
@@ -41616,7 +41612,6 @@ BreakPiece
 BreakableContentsParticleOverride
 BreakableContentsPropGroupOverride
 BreakableContentsType
-Breakables
 BreakdownsBaseStatsContributionOption
 BreakdownsLoading
 BreakdownsNonHeroContributionOption
@@ -41712,11 +41707,9 @@ BuildCacheSubscribed(CEconItem)
 BuildCacheSubscribed(CEconItemDropRateBonus)
 BuildCacheSubscribed(CEconItemTournamentPassport)
 BuildCommentEditMode
-BuildCubemaps
 BuildCubemapsGameSystem
 BuildCustomFields_R( %s ) -- \n
 BuildParticleSimList
-BuildSparseShadowTree
 Building
 Building %d cubemaps, rendering: %dx%d, storage: %dx%d\n
 Building Cubemaps
@@ -46926,7 +46919,6 @@ Charms
 CharmsCarousel
 Chase Target 2: %s
 Chase Target: %s
-Chat
 Chat wheel file is missing messages section.
 Chat wheel has multiple sections for hero id %d
 Chat wheel message %s has invalid message id %u.
@@ -48321,7 +48313,6 @@ CustomLoadScreenPanel
 CustomLoadingScreenContainer
 CustomLobby
 CustomLobbyPlayer
-CustomNetTable
 CustomNetTableManager
 CustomNetTable_
 CustomNetTables
@@ -48331,7 +48322,6 @@ CustomTeamLogo
 CustomTextureTeamFavoriteLogoOnProp
 CustomTip
 CustomToggleButton
-CustomUI
 CustomUIConfig
 CustomUIContainer
 CustomUIContainer_EndScreen
@@ -50248,7 +50238,6 @@ DOTAGuildWelcomeViewHomeActivated
 DOTAGuildZooPage
 DOTAGuildsLeaderboardPage
 DOTAH264SupportUpdated
-DOTAHLTVCamera
 DOTAHPQWarningResult
 DOTAHTMLPanel
 DOTAHUDAbilityHeroIcons
@@ -53823,8 +53812,6 @@ DOTA_BUYBACK_COOLDOWN_MINUTES
 DOTA_BUYBACK_RESPAWN_TIME_PENALTY
 DOTA_BattlePassLog_UnknownQuest
 DOTA_Buffs
-DOTA_CHAT
-DOTA_CLIENT_GCCLIENT
 DOTA_CUSTOM_GAME_MODE_SORT_INSTALLED
 DOTA_CUSTOM_GAME_MODE_SORT_MOST_PLAYED
 DOTA_CUSTOM_GAME_MODE_SORT_OPEN_LOBBIES
@@ -54386,7 +54373,6 @@ DebugDrawCircle
 DebugDrawClear
 DebugDrawLine
 DebugDrawLine_vCol
-DebugDrawQueueManager001
 DebugDrawScreenTextLine
 DebugDrawSphere
 DebugDrawText
@@ -54485,7 +54471,6 @@ DecalEmitterSystem
 DecalGameSystem
 DecalGameSystemClientDebug
 DecalGameSystemManifest_client
-Decals
 Decipher Only
 DeclareFunctions
 DeclineChallenge
@@ -55020,7 +55005,6 @@ DontCloseOnSubmit
 Dormant: %d\n
 Dot Product Vector
 Dot Product of Vector a 
-DotA
 DotIcon
 DotIcon_%s
 DotRange
@@ -55098,7 +55082,6 @@ DotaGameDetailsToggleFullscreen
 DotaGameDetailsUpcomingSetReminder
 DotaGameRulesStreamingData
 DotaGlobaLightManifest
-DotaGuide
 DotaHideTeammateItemIndicator
 DotaHud
 DotaHudPortrait
@@ -55115,7 +55098,6 @@ DotaLabyrinthMapReloaded
 DotaLabyrithBlessings_global_client
 DotaLoadingScreen
 DotaLockpicking_global_client
-DotaMapUtils001
 DotaMatch3_global_client
 DotaMinesweeper_global_client
 DotaMinimapCreatorGameSystem
@@ -55381,7 +55363,6 @@ DrowRangerArcana
 DrowRangerArcanaProgressButton
 Druud\t\t
 DsBV
-DualHull
 DuelObjectiveMinimizeImage
 Dummy Spectator Lobby
 DumpModeDecode: Not enough data for scanline %d
@@ -55903,7 +55884,6 @@ Ease In/Out
 Ease Out
 East
 EasyDifficulty
-Econ
 Econ Description
 EconBrandBanner
 EconBrandIcon
@@ -56021,7 +56001,6 @@ EffigyZoomOut
 EhQ,[3
 EightAbilities
 EjNG
-Elapsed
 Element
 Element Access R%d <- R%d[R%d]
 Element Style
@@ -56041,7 +56020,6 @@ EmbeddedAbilityRow
 Emblems
 Emit a sound for the local player. Returns an integer handle that can be passed to StopSound. (Returns 0 on failure.)
 EmitBaseMessageV
-EmitSound
 EmitSoundByHandle
 EmitSoundOn
 EmitSoundOnClient
@@ -56219,7 +56197,6 @@ Entity Attribute Base
 Entity Attribute Float
 Entity Attribute Int
 Entity Attributes: None
-Entity Dump
 Entity GameTime
 Entity Health Fraction [0.0, 1.0]
 Entity Hierarchy For %d:\n
@@ -56255,7 +56232,6 @@ EntityNames
 EntitySkeleton
 EntitySubclassGameSystem
 EntitySubclassID_t
-EntitySubclassUtilsV001
 EntitySystem - Class Tables
 EntitySystem - Entity Networking - finish
 EntitySystem - Entity Networking - start
@@ -57299,7 +57275,6 @@ Fighter1
 Fighter2
 Fighting
 FightingBar
-FightingGame
 FightingGameMenu
 FightingGameMenuSounds
 FightingGamePanel
@@ -57820,7 +57795,6 @@ GC rejected our request for a ticket for server %s.  %s\n
 GC replied with ClientRequestDropped, when we were expecting %u.  Simulating message timeout\n
 GC replied with ticket for server %s, but we are trying to connect to %s???\n
 GC reported matchgroups version %d\n
-GCClient
 GCHost
 GCInfo
 GCPlayerSlot_t"A\n"CMsgClientToGCOverwatchReplayError
@@ -57957,7 +57931,6 @@ GameAlliesChat
 GameBackground
 GameBoard
 GameBoardScene
-GameClientExports001
 GameClothManager
 GameCoachingChat
 GameConfigClientV001
@@ -58019,7 +57992,6 @@ GameMode_Ranked_AllDraft
 GameMode_ShowAll
 GameMode_SingleDraft
 GameMode_Turbo
-GameModelInfo001
 GameName
 GameNameRequired
 GameNameTextEntry
@@ -58082,7 +58054,6 @@ GameStyle_NewPlayerMode
 GameStyle_Normal
 GameStyle_PracticeBots
 GameStyle_Ranked
-GameSystem2HostHook
 GameSystemClientFullySignedOn
 GameSystemClientUpdate
 GameSystemGameActivate
@@ -58891,7 +58862,6 @@ GlobalMemoryStatus
 GlobalRow
 GlobalSetRootEntity: Cannot find entity %s!\n
 GlobalShop
-GlobalState
 GlobalStatsContents
 GlobalSys
 GlossaryAssemblyItemCombines
@@ -60738,7 +60708,6 @@ Hit bottom obstacle: Player(%f) < %f\n
 Hit the wrong entity (%s, expected %s)
 Hit top obstacle: Player(%f) > %f\n
 Hitbox indexing is incorrect for set %s, hitbox %s. Hitboxes will not be setup properly.\n
-Hltv Director
 Hofw
 Hold
 Hold Event
@@ -60766,7 +60735,6 @@ HorizontalSplitter
 HorzArrow
 HostComputer
 HostNotFound
-HostUtils001
 Hostname mismatch
 HotKeyOverride
 HotkeyAlt
@@ -60863,7 +60831,6 @@ IKV3TransferInterface_WorldGroupId_Load
 IKV3TransferInterface_WorldGroupId_Save
 ILLUSION
 ILLUSORYORB
-IMEManager001
 IMPALEMENTARTS
 IMPLICIT
 IMsgNetPacketFromCNetPacket: malformed packet, size %d bytes\n
@@ -63403,7 +63370,6 @@ LockedWeek
 LockpickPanel
 LockpickParticle
 LockpickingBoard
-LockpickingGame
 LockpickingSounds
 Locomotion and choreo handshake
 Loda
@@ -64230,7 +64196,6 @@ Model%d
 Model: %s
 ModelAlternate
 ModelCombineMaterial
-ModelCombiner
 ModelLabel
 ModelName
 ModelPreview
@@ -66512,7 +66477,6 @@ PanelStyleChanged
 PanelStylesInvalidated
 PanningToNext
 PanningToPrev
-Panorama
 Panorama Console
 Panorama Panel
 Panorama Renderer View
@@ -66536,7 +66500,6 @@ PanoramaSnippet
 PanoramaUI
 PanoramaUIEngine interface not set up\n
 PanoramaUIEngine setup failed\n
-PanoramaVideoPlayer
 PanoramaWorldPanelGenerateMips
 PanoramaWorldPanelSystem
 ParallaxMapToggle
@@ -66584,8 +66547,6 @@ ParticleSkipToTime
 ParticleSystemQueryGameSystem
 ParticleTracer
 ParticleTracer_global_client
-Particles
-ParticlesLib
 ParticlesOverlay
 PartnerItemPaymentRule
 Party
@@ -66866,7 +66827,6 @@ PhysicalBarrierProgress
 PhysicalDamage
 PhysicalDamageBar
 PhysicalResistRow
-Physics
 Physics Game System is not initialized\n
 Physics KV3 Write
 Physics.WaterSplash
@@ -66993,7 +66953,6 @@ PlayBotsSolo
 PlayButton
 PlayButtonActive
 PlayButtonHidden
-PlayButtonService001
 PlayButtonStartsSearching
 PlayButtonWeekendTourneyRelated
 PlayDataDrivenCamera
@@ -67646,7 +67605,6 @@ PredictionCopyDataMap_t::m_CustomFields only allows fields of type PREDFIELD_CUS
 PredictionCorrect
 PredictionCountdown
 PredictionCountdownLabel
-PredictionDiffManager001
 PredictionDropDown
 PredictionGameSystem
 PredictionIcons
@@ -68207,7 +68165,6 @@ Queuing toast based on party state: %s\n
 Queuing tourney state advance sequence.\n
 Quibbins
 QuibbinsDrunk
-QuickBuy
 QuickBuyDraggingOver
 QuickBuyInset%d
 QuickBuyItemDragging
@@ -68311,7 +68268,6 @@ RESOURCE_HANDLE_INVALID
 RESOURCE_LOAD_RELOAD
 RESOURCE_TYPE_DOTA_NOVELS
 RESOURCE_TYPE_DOTA_PATCH_NOTES
-RESPONSE_RULES
 RESULTS
 RESULTS (%.2f packs)  PLAYERS empty: %.2f, normal: %.2f, silver: %.2f, gold: %.2f   TEAMS normal: %.2f, silver: %.2f, gold: %.2f\n
 REVENANT
@@ -69019,7 +68975,6 @@ RenderDirtied
 RenderGameSystem
 RenderOrder
 RenderPanel
-RenderPipelineDota
 RenderQuality
 RenderSystem/VulkanSteamShaderCacheReplay
 RenderSystemCurrent
@@ -69194,7 +69149,6 @@ RespawnLabel
 RespondingToFriendCoachRequest
 ResponseHeader
 ResponseKeys
-ResponseRulesCache001
 ResponseRulesManifest_global_client
 ResponseSystemMgr
 RestartGesture
@@ -69821,7 +69775,6 @@ SMinSampleValue
 SNDLVL_
 SNMPv2
 SNtu
-SOCache
 SONIC
 SOURCE2 SAVE COMMENT
 SO~c
@@ -70043,11 +69996,6 @@ SaveGame_Start is only valid on the server\n
 SaveHeaders
 SaveInProgress
 SavePersistentEventGameData
-SaveRestore
-SaveRestoreDataVersion001
-SaveRestoreIO
-SaveRestoreIOFiltered
-SaveRestoreSyncIO
 SaveSettingsToggle
 Saved includes list at %s\n
 Saved log to '%s'\n
@@ -70094,7 +70042,6 @@ Scene Objects/Rigid Animated Skeleton Scene Object Updates
 Scene Objects/Rigid Body Scene Object Updates
 Scene Objects/Skeleton Scene Object Updates
 SceneContainer
-SceneFileCache002
 SceneImage
 SceneLoaded
 SceneLoading
@@ -70102,7 +70049,6 @@ SceneNode Hierarchy For %d:\n
 ScenePanel
 ScenePanel%d
 ScenePending
-ScenePrint
 SceneReward
 SceneSystem/SparseShadowTrees
 SceneUnloaded
@@ -71301,7 +71247,6 @@ Shiki
 Shine
 Shmup Return Player Control To User
 Shmup Take Control Of Player
-ShmupGame
 Shoots a client-side decal
 Shop
 Shop item has invalid ability ID: %u, ancestor = %s
@@ -71931,7 +71876,6 @@ SingleItemReward
 SingleOption
 SinglePatchNotes
 SinglePlayer
-SinglePlayerSharedMemory001
 SingleRanking
 SingleTeam
 SingleUseActionContainerLeft
@@ -72048,7 +71992,6 @@ SnapshotHistogram
 SnapshotIndex%d
 SnapshotProject
 SnapshotProjectAccessToken
-SndEmitterSystem
 SndOpEventGuid_t
 Sniper\t\t\t
 Snotty Body
@@ -72120,7 +72063,6 @@ SoundEmitterSystem
 SoundEventGuid
 SoundIcon
 SoundLevel string appears to be a Volume level %f\n
-SoundOpGameSystem
 SoundPreviewItem
 SoundSet
 Soundmixer
@@ -72707,7 +72649,6 @@ SteamLeaderboardUpdated
 SteamMessage
 SteamNotificationsPlaceholder
 SteamOverlayFinished
-SteamUnifiedMessages
 SteamUserIgnoreStateChanged
 SteamUtils
 SteamWhispers
@@ -74683,7 +74624,6 @@ UFJ\ns
 UGC %llu
 UGC bitmap %lld size %d x %d does not match the texture size %d x %d
 UGCImage%d
-UGCOperation
 UGCRead failed? (UGC=%08X%08X).\n
 UGCRead failed? (UGC=%llu).\n
 UI.Bounty.Claimed
@@ -75300,7 +75240,6 @@ UserFeedButton
 UserHideVideo
 UserIDToControllerHScript
 UserIneligible
-UserMessages
 UserName
 UserPaused
 UserRichPresence
@@ -75381,7 +75320,6 @@ VMatrix
 VMatrix-world
 VModEnable %d
 VNOTIFY_DISABLE
-VNotify
 VNotify Abandoned (ActiveProtocolIsNewer)\n
 VNotify Abandoned (No ProcessUtils)\n
 VNotify Abandoned (Not enabled)\n
@@ -75400,7 +75338,6 @@ VPhysicsCollisionAttribute_t::m_nOwnerId
 VRSceneID
 VSCRIPT: Started VScript virtual machine using script language '%s'\n
 VScript error: Invalid entity handle passed to IsMarkedForDelete.\n 
-VScriptScripts
 VSyncToggle
 VY5[;o
 VZ#-DLU[3=h
@@ -75888,7 +75825,6 @@ WebVTT Parse Error %d: %s:%u:%u - %s.\n
 Week%d
 Week=%u
 WeekData
-WeekendTourney
 WeekendTourneyDivisionRegion
 WeekendTourneyDivisionSelectContextMenu
 WeekendTourneyLink
@@ -76059,7 +75995,6 @@ WordBubbleOffsetY
 WordFilterCache
 Work Item for Work Pool %s completed but job no longer existed to notify\n
 WorksInEventGame
-Workshop
 WorkshopDirectPaymentRule
 WorkshopItemContributorsUpdated
 WorkshopItemDetailsArrived
@@ -76074,7 +76009,6 @@ WorkshopItemToggleFavorite
 WorkshopItemUnsubscribed
 WorkshopItemUserVoteChanged
 WorkshopLink
-WorkshopOperation
 WorkshopPageButton
 WorkshopVoteGameImage
 WorkshopVoteGameName
@@ -76098,7 +76032,6 @@ WorldItemEntry
 WorldItemPreview
 WorldItem_Height
 WorldItem_Width
-WorldRenderer
 WorldRenderer/EnvironmentMapColorSpace
 WorldRenderer/EnvironmentMapFaceSize
 WorldRenderer/EnvironmentMapFormat
@@ -82285,7 +82218,6 @@ citadel_snd_opvar_set_obb
 city
 cl: %d ===========================\n
 cl: %d: %s\n
-cl_auto_cursor_scale
 cl_decal_clear_all_entities
 cl_decal_clear_world
 cl_decal_debug
@@ -94379,7 +94311,6 @@ modelanimevent
 modelbreakcommand
 modelgamedata
 modelindex
-modellib
 modelname is
 models/creeps/lane_creeps/creep_bad_melee/creep_bad_melee_mega.vmdl
 models/creeps/lane_creeps/creep_radiant_melee/radiant_melee_mega.vmdl
@@ -102970,7 +102901,6 @@ rc5-cbc
 rc5-cfb
 rc5-ecb
 rc5-ofb
-rc_default_texture_encode_quality
 read bio not set
 read key
 read timeout expired

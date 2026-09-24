@@ -221,7 +221,6 @@
 #17b5d4
 #17d469
 #3bd47d
-#42bff5
 #80d1a3
 #?widgetAt@QApplication@@SAPEAVQWidget@@AEBVQPoint@@@Z
 #?winId@QWidget@@QEBA_KXZ
@@ -600,7 +599,6 @@
 #a117d4
 #cf331f
 #d48f17
-#fcba03
 #k+ka\T
 #lyj
 #y"jl
@@ -15631,7 +15629,6 @@ Input dynamic mesh deformation params
 Input morph control for a specific delta
 Input morph params
 Input/output error
-InputBindSystem
 Insert 'element' in the given index in 'a', increasing its count by one and moving the elements after index.
 Insert Foot Cycle
 Instead of referencing the mesh directly in this LOD group, instead copy it and apply a simplification operation.\n(The resulting mesh will be automatically added to any bodygroups that reference the original mesh.)
@@ -17324,7 +17321,6 @@ Particle Binding (Real)
 Particle Configuration File
 Particle system that handles the generated model/snapshot (Must be authored specifically for this case to work properly)
 ParticleCompileBinaryIdenticalHack_underlying_struct
-ParticlesLib
 Partner Rule
 Partner Share
 Pass Outflow
@@ -17353,7 +17349,6 @@ Photometric tag is missing, assuming data is YCbCr
 Photometric tag value assumed incorrect, assuming data is YCbCr instead of RGB
 PhotometricInterpretation
 Photoshop
-Physics
 Physics Debug Draw
 Physics Joint Modification Mode
 Physics Particle
@@ -18428,7 +18423,6 @@ Scales existing wrinkle map values on morphs
 ScalpD
 SceneCameraChanged
 ScenePreview
-SceneSystem
 SceneSystem/ComputeShaderSkinning
 Schema description file
 ScrLk
@@ -18688,7 +18682,6 @@ Smooth Vertex Normals
 Sn^G
 Snap to grid
 SnapCameraToSelection
-SnapshotVertexExtraction
 Soft Link
 Softbody
 Software
@@ -19174,9 +19167,7 @@ Too many simultaneously active particle systems!\n
 Too much
 Tool Material
 ToolBarArea
-ToolEvents
 ToolObjects/GlobalLight
-ToolScene
 ToolScene Portrait Overlay
 ToolSceneBackgroundMaterial
 ToolSceneBitmapOverlay.vtex
@@ -19186,7 +19177,6 @@ ToolSceneTraceResult_t*
 ToolSceneWidget
 ToolSceneWidget%d
 ToolScene_FindOrLoadParticleSnapshot
-ToolSystem2_001
 ToolWindowGrid
 ToolsEnvironment
 ToolsUploadImage.vtex
@@ -19478,7 +19468,6 @@ VMS_LOAD
 VMS_MERGER
 VMS_UNLOAD
 VNOTIFY_DISABLE
-VNotify
 VNotify Abandoned (ActiveProtocolIsNewer)\n
 VNotify Abandoned (No ProcessUtils)\n
 VNotify Abandoned (Not enabled)\n
@@ -19720,7 +19709,6 @@ Workshop Session Import
 Workshop Share
 Workshop Template Error: %s: %s\n
 Workshop Test Items
-WorkshopManager
 WorkshopManagerMainWindow
 World Collision Penetration
 World Files
@@ -21977,10 +21965,8 @@ domainRelatedObject
 domain_scope
 dominators
 dota_portrait_background_textures
-dota_portrait_editor_background_override
 dota_portrait_light_presets
 dota_portrait_positions
-dota_workshop_dump_item_kv
 downloaded_archive_name
 downloaded_preview.jpg
 dqe-KO{/3
@@ -22758,7 +22744,6 @@ gf2m not supported
 ggen
 gi%3e
 givenName
-gizmo_rot_max_dist
 gj8(
 global
 globalState
@@ -22833,11 +22818,6 @@ hair_count
 halfEdges %d,%d faces %d,%d angle %.1f deg.
 halfgridsnap
 hammer
-hammer_gizmo_2dscale
-hammer_gizmo_axis_scale
-hammer_gizmo_compute_matrix
-hammer_gizmo_line_thickness
-hammer_gizmo_rot_inflate
 hard_lock
 has_angle_constraint
 has_attack_point
@@ -24255,7 +24235,6 @@ modeldoc_editor
 modeldocattr
 modeldocnode.%s
 modelgamedata
-modellib
 models/%s
 models/%s%s.%s
 models/%s.vmdl
@@ -24914,9 +24893,6 @@ permittedSubtrees
 personalSignature
 personalTitle
 pervertexlighting
-pet_preview_gravity
-pet_preview_underwater
-pet_preview_wind
 phonememap
 photo
 phrase is too short, needs to be at least %d chars\n
@@ -26512,7 +26488,6 @@ tool_request_args
 tool_request_text
 tool_request_tool
 toolbarArea
-toolhud_enable
 tools.reference_notrace
 tools/colors/shared_colors.txt
 tools/images/common/control_pause_sm.png
@@ -26808,9 +26783,7 @@ toolsMaterial
 toolsVisModeIndex
 tools_asset_info.bin
 tools_preview
-tools_renderscenes
 tools_thumbnail_cache.
-toolscene_gizmo_algorithm
 toolscenevismodes.txt
 torsion_spring
 total_triangle_count

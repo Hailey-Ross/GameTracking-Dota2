@@ -15344,7 +15344,6 @@ Animated-Length Cloth Rod4
 AnimatedMaterialAttribute
 AnimatedMaterialAttributeColor
 AnimatedMaterialAttributeValue
-Animation 2
 Animation Clip ( *.vnmclip );
 Animation Controls
 Animation Details
@@ -15362,7 +15361,6 @@ Animation references itself as the source animation
 Animation/AccumulatePose
 Animation: %1
 Animation: (None)
-AnimationSystem: IK
 Animations
 Animations from the specified model will be loaded and merged into this model at runtime.  Akin to QC's $includemodel
 AnimgraphPicker()
@@ -15662,7 +15660,6 @@ BaseAnimModifier
 BaseBoneListMeshModifier
 BaseConfigElementWithNestedConfigs
 BaseConfigNode
-BaseEditor
 BaseIKJointConstraint
 BaseItem
 BaseItem "%s" in item "%s" not found.\n
@@ -18017,7 +18014,6 @@ DrawBoneNamesChanged
 DrawSkyboxChanged
 Drive a morph channel based on a remapped range of the angle between a bone's up-vector and the direction to a target bone.
 DriverBone
-DualHull
 DummyNoOp
 DumpModeDecode: Not enough data for scanline %d
 Duplicate
@@ -18997,7 +18993,6 @@ Gesture
 Gesture Type
 Get Pose From Game
 Get all the combination shapes from the model and populate the combination shape list
-Get physics surface property of models.
 GetArrayElement R%d <- R%d[ R%d ]
 GetAsyncKeyState
 GetBlackboardReference R%d <- BR%d (%s)
@@ -19101,7 +19096,6 @@ Hack Dota Layer Opaque
 Hack Dota Layer Opaque Translucent
 HairShader
 HalftoneHints
-Hammer
 HammerEntityPicker()
 HandPosePairEditor
 Hard Lock
@@ -19489,7 +19483,6 @@ Input mesh is missing texture coordinate stream.\n
 Input morph control for a specific delta
 Input morph params
 Input not connected!
-InputBindSystem
 Insert 'element' in the given index in 'a', increasing its count by one and moving the elements after index.
 Insert Column
 Insert Foot Cycle
@@ -20302,7 +20295,6 @@ ModelBoneName()
 ModelContentDataList
 ModelDataFlags
 ModelDataList
-ModelDoc
 ModelDoc "%s" node "%s" incompatible with AnimGraph
 ModelDoc "%s" node "%s" incompatible with AnimGraph due to child markup nodes
 ModelDoc "%s" node incompatible with AnimGraph
@@ -21634,7 +21626,6 @@ Particle Binding (Real)
 Particle Collision Spheres
 Particle system that handles the generated model/snapshot (Must be authored specifically for this case to work properly)
 ParticleCompileBinaryIdenticalHack_underlying_struct
-ParticlesLib
 Pass Outflow
 Paste
 Paste (Overwrite)
@@ -21670,7 +21661,6 @@ Photometric tag is missing, assuming data is YCbCr
 Photometric tag value assumed incorrect, assuming data is YCbCr instead of RGB
 PhotometricInterpretation
 Photoshop
-Physics
 Physics Bodies
 Physics Debug Draw
 Physics Detail Layers
@@ -22599,7 +22589,6 @@ Scales existing wrinkle map values on morphs
 Scanning graphs and updating any found references...
 SceneCameraChanged
 ScenePreview
-SceneSystem
 SceneSystem/ComputeShaderSkinning
 ScrLk
 ScrToggle
@@ -23041,7 +23030,6 @@ Snap attachment to another attachment
 Snap to grid
 SnapCameraToSelection
 Snapped
-SnapshotVertexExtraction
 Soft Link
 Softbody
 Software
@@ -23638,15 +23626,12 @@ ToolEditContext_ID_BodyGroupName
 ToolEventExternal_CopyData_t
 ToolEventExternal_SetCamera_t
 ToolEventExternal_SetPreviewCycle_t
-ToolEvents
 ToolFramework
-ToolScene
 ToolSceneDebugOverlays
 ToolSceneTraceResult_t*
 ToolSceneWidget
 ToolSceneWidget%d
 ToolScene_FindOrLoadParticleSnapshot
-ToolSystem2_ModelDoc
 ToolWindowGrid
 Tool_Picker
 Tool_Selection
@@ -23859,7 +23844,6 @@ Untested code path - Morph layers without morphset/flex rules. Will try to map m
 Up Type
 Up Vector
 UpArrowPressed
-Update config preview document for attribute changes on MODELDOC_NODE_RESOLVE_COST_NONE nodes rather than refinalizing and rebuilding it.
 Update referring nodes
 Update version %d->%d
 UpdateAssetMenu
@@ -23887,7 +23871,6 @@ UpdatePlayStopButton
 UpdatePropertyEditorFromDomain
 UpdateSliderFromEdit
 UpdateVersionControlSubmenu
-Updates physics surface property of models from default to the ones associated in their material files.
 Updating graph references...
 Updating window size to preserve settings for maximized window:\n
 Upload
@@ -23947,7 +23930,6 @@ VDataModelVersion001
 VDmElementFrameworkVersion001
 VMDL Prefab Files (*.vmdl_prefab);;All Files (*)
 VNOTIFY_DISABLE
-VNotify
 VNotify Abandoned (ActiveProtocolIsNewer)\n
 VNotify Abandoned (No ProcessUtils)\n
 VNotify Abandoned (Not enabled)\n
@@ -24187,7 +24169,6 @@ Wildcard Filter
 Will automatically resize the property editor label column.  If on and column is manually resized, new size will stick until property editor focus is changed.
 Will automatically try to compile when the document has no internal unsaved changes and an external file changes and the compile state contains no errors.
 Will use the second uv channel in the model to generate lightmap uvs.  This can help improve the quality of lightmap uvs by providing a better unwrap that has fewer shards and generates fewer charts.
-Wind
 Wind Speed, mph
 Windage Normal
 Windage Tangent
@@ -25152,8 +25133,6 @@ channel_random
 channel_skip
 channel_unchanged
 channel_white
-check_collision_saveload
-check_collision_saveload_dir
 check_consistent_eyes
 check_consistent_materials
 check_has_activity
@@ -25985,7 +25964,6 @@ gesture_leftarmonly
 gesture_rightarmonly
 gesture_spine_only
 gesture_type
-gizmo_rot_max_dist
 global
 global_default_material
 global_skeleton_transform
@@ -26029,12 +26007,6 @@ ha?window@QPalette@@QEBAAEBVQBrush@@XZ
 hair_count
 halfEdges %d,%d faces %d,%d angle %.1f deg.
 halfgridsnap
-hammer_gizmo_2dscale
-hammer_gizmo_axis_length
-hammer_gizmo_axis_scale
-hammer_gizmo_compute_matrix
-hammer_gizmo_line_thickness
-hammer_gizmo_rot_inflate
 hand_pose
 hard_lock
 has_angle_constraint
@@ -26733,21 +26705,16 @@ model_subkey
 modelanimevent
 modelbreakcommand
 modelconfig
-modeldoc_config_doc_cache_enable
 modeldoc_editor
 modeldoc_editor.dll
 modeldoc_editor_preview_model
 modeldoc_export
 modeldoc_prefab_asset
-modeldoc_rotate_max
-modeldoc_rotate_power
-modeldoc_rotate_scale
 modeldoc_utils
 modeldoc_wizard_export_anim
 modeldocattr
 modeldocnode.%s
 modelgamedata
-modellib
 models/editor/axis_helper_thick.vmdl
 models/editor/camera.vmdl
 models_gamedata
@@ -27036,11 +27003,6 @@ peaktailend
 per_material_options
 permissive
 pervertexlighting
-pet_preview_gravity
-pet_preview_underwater
-pet_preview_wind
-phys_get_model_materials
-phys_set_model_materials
 physicsHideSourceMesh
 physicsHighlightSilhouette
 physicsSelfCollision
@@ -27164,7 +27126,6 @@ propattr_flatten_stretch_factor
 propattr_force_readonly
 propattr_stretch_editor_into_label_column
 propdataname
-proped_attr_logging
 prune
 pseudo-
 public.vsnd_files
@@ -27489,9 +27450,6 @@ snapshot
 snapshot_local_bone
 snapshot_max_verts
 snapshot_original
-snd_event_browser_default_stack
-snd_event_browser_default_vsnd_field
-snd_event_browser_focus_events
 soft_hinge_link
 solid
 solidclass
@@ -27688,7 +27646,6 @@ tool_request_args
 tool_request_text
 tool_request_tool
 toolbarArea
-toolhud_enable
 tools code
 tools.reference_notrace
 tools/colors/shared_colors.txt
@@ -28200,8 +28157,6 @@ toolsMaterial
 toolsVisMode
 toolsVisModeIndex
 tools_preview
-tools_renderscenes
-toolscene_gizmo_algorithm
 toolscenevismodes.txt
 torsion_spring
 total_triangle_count

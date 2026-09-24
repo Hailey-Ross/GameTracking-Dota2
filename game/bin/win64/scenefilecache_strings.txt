@@ -567,7 +567,6 @@ Disable auto blink for BaseActor
 Discarded rule %s\n
 Don't Attenuate Captions
 Dota
-DualHull
 Duplicate include: %s\n
 Dynamic Actor
 ENTITYIO
@@ -698,7 +697,6 @@ PULSE
 Parameter [%s=%s] 
 PerVertexLighting
 Permit Responses
-Physics
 PivotPaint
 Play Sequence Overtop Script
 PlaySequenceOverScript
@@ -713,13 +711,11 @@ PulseRequirementName
 RESOURCE_TYPE_CHOREO_SCENE
 RESOURCE_TYPE_RESPONSE_RULES_LIST
 RESPONSE
-RESPONSEDOC_LIB
 RESPONSE_ENTITYIO
 RESPONSE_NONE
 RESPONSE_PRINT
 RESPONSE_PULSE
 RESPONSE_RESPONSE
-RESPONSE_RULES
 RESPONSE_SCENE
 RESPONSE_SPEAK
 RULE MATCHED!\n
@@ -739,7 +735,6 @@ Response group '%s' is trying to use embedded responses, but it has no embedded 
 ResponseGroup '%s' is NOT named uniquely!\n
 ResponseGroup '%s' isn't referenced by any rule - adding a dummy embedded rule\n
 ResponseGroup has no name, and no embedded rule - adding a dummy embedded rule\n
-ResponseRulesCache001
 Rule '%s' and ResponseGroup '%s' names don't match!\n
 Rule '%s' and ResponseGroup '%s' notes don't match!\n
 Rule '%s' is %s but ResponseGroup '%s' is %s!\n
@@ -749,8 +744,6 @@ Rule is disabled.\n
 SCENE
 SPEAK
 Scene (vcd)
-SceneFileCache
-SceneFileCache002
 Scoring rule '%s' (%i)\n{\n
 Search criteria:\n
 SectionPause
@@ -798,7 +791,6 @@ Unsupported version %d for resource '%s' (Expected %d)\n
 VDataChoice( %s )
 VDataChoice()
 VNOTIFY_DISABLE
-VNotify
 VNotify Abandoned (ActiveProtocolIsNewer)\n
 VNotify Abandoned (No ProcessUtils)\n
 VNotify Abandoned (Not enabled)\n

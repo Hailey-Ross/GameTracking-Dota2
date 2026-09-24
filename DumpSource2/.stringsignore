@@ -18027,6 +18027,8 @@ Draws a cross at the given location\n\tArguments: x y z
 Draws line between two 3D Points.\n\tGreen if no collision\n\tRed is collides with something\n\tArguments: x1 y1 z1 x2 y2 z2
 Draws selection hitboxes. 0 = off, 1 = non-trees, 2 = trees, 3 = all entities.
 Drive (dB)
+Drop a client if processing their messages consumes more than N ms of CPU time in a burst (token bucket capacity)
+Drop a client if processing their messages consumes more than N ms of CPU time per second, sustained (token bucket fill rate)
 Drop every Nth fragment
 Dry/Wet
 DualHull
@@ -28519,6 +28521,8 @@ Wake all physics objects in the Main physics up
 WakeElegantly
 WakeImmediate
 Ward
+Warn if processing messages from a client consumes more than N ms of CPU time in a burst (token bucket capacity)
+Warn if processing messages from a client consumes more than N ms of CPU time per second, sustained (token bucket fill rate)
 Warp Orientation
 Warp Position
 Warp Section Tag
@@ -59603,6 +59607,10 @@ sv_mmqueue_reservation_timeout
 sv_mover_maxslope
 sv_mover_pogodampingratio
 sv_mover_pogofrequency
+sv_net_client_message_process_time_ms_drop_burst
+sv_net_client_message_process_time_ms_drop_rate
+sv_net_client_message_process_time_ms_warn_burst
+sv_net_client_message_process_time_ms_warn_rate
 sv_networkvar_log_fullchanges
 sv_networkvar_perfieldtracking
 sv_no_navmesh

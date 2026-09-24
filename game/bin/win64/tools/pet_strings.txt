@@ -381,6 +381,7 @@ $\tV_expd
 (#?windowModality@QWidget@@QEBA?AW4WindowModality@Qt@@XZ
 (%.2f %.2f %.2f)
 (3 Independent Floats)
+(9mz
 (Cannot preview - no valid asset / resource name.)
 (Custom Colors Disabled)
 (Filter)
@@ -389,7 +390,6 @@ $\tV_expd
 (No Active Session)
 (No Asset)
 (No class selected)
-(Ymz
 (\f?focusOutEvent@QAbstractButton@@MEAAXPEAVQFocusEvent@@@Z
 (\r?hideEvent@QAbstractSpinBox@@MEAAXPEAVQHideEvent@@@Z
 (\v?enterEvent@QToolButton@@MEAAXPEAVQEvent@@@Z
@@ -4632,9 +4632,9 @@ $\tV_expd
 ?valueToKeys@QMetaEnum@@QEBA?AVQByteArray@@H@Z
 ?z5X?
 @#?write@QTableWidgetItem@@UEBAXAEAVQDataStream@@@Z
+@5jz
 @Integer overflow in %s
 @Node
-@Ujz
 @\v?event@QFrame@@MEAA_NPEAVQEvent@@@Z
 @fff>fff>fff>fff>
 @spawn
@@ -6331,9 +6331,9 @@ Group Name
 Group3Options
 Group4Options
 Growth Time
-H5kz
 H>2v
 HAC K  Unused Binding
+HAkz
 HELLO
 HELPER_BONE
 HSLA
@@ -6341,10 +6341,8 @@ HSLA\t
 HSVA
 HSVA\t
 HVertexGenericIntegerData
-H\rkz
 Hack Dota Layer Opaque
 Hack Dota Layer Opaque Translucent
-Hakz
 HalftoneHints
 HammerEntityPicker()
 Has All Flags
@@ -6373,6 +6371,7 @@ HostComputer
 HoverItemChanged
 How many emitted values there should be, including start and stop.
 I ?toggleViewAction@QDockWidget@@QEBAPEAVQAction@@XZ
+I*lz
 I.Test
 IAsset*
 IBindTarget
@@ -6384,7 +6383,6 @@ IDraggableTargetItem
 IGizmoListener
 IHelpChangeListener
 II>K:6?t\
-IJlz
 IKV3TransferInterface_ResourceSave
 INLINE
 INTERNAL ERROR. Failed to correlate temporary node with real node
@@ -8748,6 +8746,7 @@ XResolution
 XYZ, Luv
 X\r?horizontalHeader@QTableView@@QEBAPEAVQHeaderView@@XZ
 X\v?event@QPushButton@@MEAA_NPEAVQEvent@@@Z
+Xykz
 Y Component
 Y?Mi
 Y?setData@QStandardItem@@UEAAXAEBVQVariant@@H@Z
@@ -9089,8 +9088,6 @@ _not_pickable
 _toolsautosave
 _volumeatlas_
 _wjb
-`9jz
-`9mz
 `?validate@QDoubleValidator@@UEBA?AW4State@QValidator@@AEAVQString@@AEAH@Z
 `?validate@QIntValidator@@UEBA?AW4State@QValidator@@AEAVQString@@AEAH@Z
 `?validate@QRegularExpressionValidator@@UEBA?AW4State@QValidator@@AEAVQString@@AEAH@Z

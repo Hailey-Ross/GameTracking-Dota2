@@ -15457,6 +15457,18 @@ sv_mover_pogodampingratio 1 (developmentonly gamedll clientdll notify replicated
 sv_mover_pogofrequency 10 (developmentonly gamedll clientdll notify replicated defensive)
 	The capsule pogo stick frequency [hz].
 
+sv_net_client_message_process_time_ms_drop_burst 200 (developmentonly defensive)
+	Drop a client if processing their messages consumes more than N ms of CPU time in a burst (token bucket capacity)
+
+sv_net_client_message_process_time_ms_drop_rate 20 (developmentonly defensive)
+	Drop a client if processing their messages consumes more than N ms of CPU time per second, sustained (token bucket fill rate)
+
+sv_net_client_message_process_time_ms_warn_burst 50 (developmentonly defensive)
+	Warn if processing messages from a client consumes more than N ms of CPU time in a burst (token bucket capacity)
+
+sv_net_client_message_process_time_ms_warn_rate 5 (developmentonly defensive)
+	Warn if processing messages from a client consumes more than N ms of CPU time per second, sustained (token bucket fill rate)
+
 sv_networkvar_log_fullchanges false (developmentonly gamedll)
 	Log FUL_FULL_EDICT_CHANGED calls.
 

@@ -26,7 +26,7 @@
   R%d: %15s %25s %s\n
   Top-level Mesh Op '%s' returning a cached result.\n
   V%d: '%s' (%s)\n
- !"#$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$0[P
+ !"#$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$h[P
  !"#$%%&'()*+,-../0123456789:;<=>?@ABCDEFGHIJKLLMNOPQRSTUVWXY[]_`bdefhjlnprtvz|~
  #%d: %d Faces, %d Verts, %d Edges\n
  %dw %dl %dh @(%.0f %.0f %.0f)
@@ -563,9 +563,8 @@ $prefix_element$
 (%.2f, %.2f, %.2f)
 (%1 clips)
 (%d tracks)
-(10T
-(12T
-(9HT
+(1GT
+(5DT
 (? Queued)
 (?!\d)[\w_]*
 (Advanced Feature) Used to specify special interaction rules or exclusions. References a name in scripts/collision_properties.txt.
@@ -573,7 +572,7 @@ $prefix_element$
 (Cannot dynamically spawn a prop_static)
 (Custom Colors Disabled)
 (Debug Feature) Used to draw collision with the same material in Physics Debugger as in Hammer.
-(EOT
+(EVT
 (Edges to Faces)
 (Edges to Vertices)
 (Error)
@@ -589,26 +588,24 @@ $prefix_element$
 (No class selected)
 (Outliner Filter)
 (Preview Outliner Filter)
+(Q0T
+(Q2T
 (Specified in project's gameinfo.gi)
 (Steam Audio) Update physics surface property of VMDL files. They are used for picking acoustic material property for Steam Audio.
-(U1T
-(UIT
-(UTT
 (Vertices to Edges)
 (Vertices to Faces)
+(YHT
 (\f?focusOutEvent@QAbstractButton@@MEAAXPEAVQFocusEvent@@@Z
 (\r?hideEvent@QAbstractSpinBox@@MEAAXPEAVQHideEvent@@@Z
 (\v?enterEvent@QToolButton@@MEAAXPEAVQEvent@@@Z
-(e3T
+(eOT
 (export) %d %s %d %s %s\n
 (export) %d %s %d %s\n
 (layer %d)
 (no-compile)
-(qET
-(qPT
-(uKT
-(uST
-(yFT
+(u1T
+(uIT
+(uTT
 ) ?timerEvent@QTableView@@MEAAXPEAVQTimerEvent@@@Z
 )\f?focusOutEvent@QAbstractItemView@@MEAAXPEAVQFocusEvent@@@Z
 )\n?displayText@QStyledItemDelegate@@UEBA?AVQString@@AEBVQVariant@@AEBVQLocale@@@Z
@@ -14927,9 +14924,9 @@ $prefix_element$
 @%s_lookFrame_1
 @%s_lookFrame_2
 @AuthPhysCollisionAttributesModeEnum_t
+@Bottom
 @HPX`hv
 @Integer overflow in %s
-@ModelDocViewMode_t::ORTHO_FRONT
 @\v?event@QFrame@@MEAA_NPEAVQEvent@@@Z
 @bonemerge
 @cl_aggregate_particles
@@ -19083,8 +19080,9 @@ Grow Selection
 Grow or Shrink
 Grow or shrink a selection
 Grow the selection by adding contiguous components to the selection.
+H55[
+H57[
 HAC K  Unused Binding
-HE4[
 HELPER_BONE
 HSLA
 HSLA\t
@@ -19110,6 +19108,7 @@ Has Up Frame
 Has World Collision
 Has Yaw Constraint
 HasEditedDataInSelectedCells
+He4[
 Health Override
 Heat
 Heel Land
@@ -20434,6 +20433,7 @@ ModelDocViewMode_t::ATTACHMENT
 ModelDocViewMode_t::INVALID
 ModelDocViewMode_t::ORTHO_BACK
 ModelDocViewMode_t::ORTHO_BOTTOM
+ModelDocViewMode_t::ORTHO_FRONT
 ModelDocViewMode_t::ORTHO_LEFT
 ModelDocViewMode_t::ORTHO_RIGHT
 ModelDocViewMode_t::ORTHO_TOP
@@ -24254,7 +24254,6 @@ YO?insertColumns@QStandardItemModel@@UEAA_NHHAEBVQModelIndex@@@Z
 YPosition
 YResolution
 YY?setDropAction@QDropEvent@@QEAAXW4DropAction@Qt@@@Z
-YZ6[
 Y\v?event@QRadioButton@@MEAA_NPEAVQEvent@@@Z
 Yaw Bounce
 Yaw Friction
@@ -24270,6 +24269,7 @@ You need to have either the direction or the offset node connected!
 You selected the joint chain, but that chain branches. Please select all joints in the chain that you want to make into a dynamically simulated rope.
 You selected the root of the joint chain, but that chain either branches or is empty. Please select all joints in the chain that you want to make into a dynamically simulated rope.
 You're loading a VMODEL file, which is no longer an active extension for ModelDoc files.<br><br><font color='red' size='+2'>Save this file with a VMDL extension before proceeding!</font><br>
+Yz6[
 Z (Blue  / Up)
 Z?setItalic@QFont@@QEAAX_N@Z
 Z?setItemData@QStandardItemModel@@UEAA_NAEBVQModelIndex@@AEBV?$QMap@HVQVariant@@@@@Z
@@ -24541,7 +24541,6 @@ ZoomOut
 \r[WRN] %d crossing edges detected - unfixed\n
 \r\f?focusInEvent@QLineEdit@@MEAAXPEAVQFocusEvent@@@Z
 \r\r?heightForWidth@QGridLayout@@UEBAHH@Z
-\rheM
 \s*([+-*/])\s*=\s*([\-0-9.e]*)
 \t"?update@QWidget@@QEAAXAEBVQRect@@@Z
 \t?addPixmap@QIcon@@QEAAXAEBVQPixmap@@W4Mode@1@W4State@1@@Z
@@ -24739,7 +24738,6 @@ _zero
 `\r?entryInfoList@QDir@@QEBA?AV?$QList@VQFileInfo@@@@V?$QFlags@W4Filter@QDir@@@@V?$QFlags@W4SortFlag@QDir@@@@@Z
 `\tV_logd
 `\v?event@QSpinBox@@MEAA_NPEAVQEvent@@@Z
-`m5T
 a:fulltype
 a:typeparam
 a?windowText@QPalette@@QEBAAEBVQBrush@@XZ

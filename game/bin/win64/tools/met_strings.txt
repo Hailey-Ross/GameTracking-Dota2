@@ -3730,6 +3730,7 @@ J%f%f%f%f%f%f%f%f
 JPEG
 J\r?hitButton@QPushButton@@MEBA_NAEBVQPoint@@@Z
 J\v?event@QLabel@@MEAA_NPEAVQEvent@@@Z
+Jul 30 2026
 Jump to Instr I%d
 K ?toggled@QAbstractButton@@QEAAX_N@Z
 KT?pixel@QImage@@QEBAIAEBVQPoint@@@Z

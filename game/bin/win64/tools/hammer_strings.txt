@@ -16868,7 +16868,6 @@ $worldspacetype
 ??UQRectF@@QEBA?AV0@AEBV0@@Z
 ??YQString@@QEAAAEAV0@AEBV0@@Z
 ??YQString@@QEAAAEAV0@PEBD@Z
-?Alignment
 ?BeginGetMeshEdgeVertices@FbxMesh@fbxsdk@@QEAAXXZ
 ?BeginPolygon@FbxMesh@fbxsdk@@QEAAXHHH_N@Z
 ?Bind@FbxPathUtils@fbxsdk@@SA?AVFbxString@2@PEBD0_N@Z
@@ -19418,6 +19417,7 @@ Aligned %i objects to the object under the cursor.
 Aligned %i objects to the workplane.
 Aligned snap
 AlignedSnap
+Alignment
 All Files (*)
 All Groups
 All Hidden
@@ -27759,7 +27759,6 @@ Maximum of two values (int)
 Maximum projection angle
 Maximum radius for created lights
 Maximum segment length %
-MbP?p2
 Mc]T=
 MdiArea
 Merge
@@ -35563,7 +35562,6 @@ Z~wl
 \rjwB\t
 \roKK
 \rrCj
-\rtext
 \sG7tPD
 \smartprops
 \sound\

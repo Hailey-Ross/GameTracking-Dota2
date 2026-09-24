@@ -167,10 +167,6 @@
  (%lu = 0x%lx)\n
  (%u = 0x%x)\n
  (+%d more due to usercommand delivery)
- (08@HPXbPE@
- (08@HRPE@
- (08@JPE@
- (0X`hpzPE@
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
@@ -197,7 +193,7 @@
  <span class="GameplayVariable">
  ACTIVE GROUP
  Ability:%s[%s](%d)
- BCDOTACrateDropLevelDef
+ BCDOTACrateDropGameDef
  BDownloading() = %d\n
  BFullyInstalled() = %d\n
  BInstalled() = %d\n
@@ -645,7 +641,7 @@
 #7FFF00
 #82CAFF
 #8B008B
-#<MinesweeperGame
+#<CDOTAMinesweeperGameDefinition
 #AbilityDamage
 #Action_GoToPlayerCards
 #Action_Use
@@ -7067,10 +7063,9 @@ $hRh
 (0'yX
 (0.1s interval)
 (0x%08X)'??'
-(2 JB
 (5Me
 (5jP
-(?333?DOTAGuildIntroPage
+(?333?DOTADarkCarnivalOverworldOpenTokenTrader
 (ACTIVE)
 (App Id to retrieve published files from.
 (BZq
@@ -8174,7 +8169,6 @@ $hRh
 *BaseAnimatingActivity::C_BodyComponentBaseAnimating
 *BaseEntity::CBodyComponent
 *BaseModelEntity::CBodyComponentBaseModelEntity
-*Enable the rendering of the hud
 *Gets the last-played times for the account
 *O\n\fDOTA_CM_PICK
 *Returns the player's community preferences
@@ -8332,6 +8326,7 @@ $hRh
 *gFBk
 *hbJ1
 *it%2
+*joy_advanced
 *kf[R
 *laM-\SO
 *o\n\teRollType
@@ -8515,7 +8510,6 @@ $hRh
 ,?IsUint32@Value@v8@@QEBA_NXZ
 ,ARu@y6
 ,I?Value@Number@v8@@QEBANXZ
-,PKC
 ,Reason=
 ,Service for dealing with user-submitted logsB
 ,ShfPQ
@@ -37167,7 +37161,7 @@ $hRh
 .bmxz
 .dotaunitorder_t
 .dx_LV9
-.eBinfo_world_layer
+.eBXy
 .google.protobuf.Any*.\n
 .google.protobuf.EnumValue
 .google.protobuf.Field
@@ -37338,10 +37332,8 @@ $hRh
 0234
 02V8[
 05=k
-08@JPE@
 08bX
 09,h
-0: JB
 0:%02d
 0;Q5[
 0<cz
@@ -37472,7 +37464,9 @@ $hRh
 0\r0#0)070;0U0Y0[0g0q0y0}0
 0e\r8
 0pp@5tqE?|sO541
+0r0>D
 0tU+xc:
+0vt<
 0x%4.4x 
 0x%X
 0x%X 
@@ -37635,7 +37629,6 @@ $hRh
 1}oP
 2 .CMsgBattleReport_CompareContext"
 2 .CMsgGCRoutingInfo.RoutingMethod:
-2 JB
 2 arguments expected: %s <map name> <override map name>\n
 2!.CMsgAddSocketResponse.EAddSocket"
 2!.CMsgBattleReport_HighlightRarity
@@ -37950,7 +37943,6 @@ $hRh
 2J.CMsgClientToGCMonsterHunterDevClaimInvestigationRewardsResponse.EResponse"u\n\tEResponse
 2K.CMsgClientToGCGetAvailablePrivateCoachingSessionsSummaryResponse.EResponse
 2L.CMsgClientToGCMonsterHunterRequestMaterialsNeededByFriendResponse.EResponse
-2PE@
 2Set of published file Ids to retrieve details for.
 2Tm=#
 2Uiwp"9
@@ -38083,11 +38075,13 @@ $hRh
 2\r.ELeaguePhase
 2\rlhp
 2\vp!d
+2\vph?
 2^pV
 2_bot
 2_mid
 2_top
 2_week_streak
+2`g8
 2a"l
 2bT~
 2cb:RO
@@ -38227,7 +38221,6 @@ $hRh
 3w2URu
 3wQ]
 3|rN>
-4 JB
 4#DOTA_Hero_Selection_AllDraft_TheyPicking_LosingGold
 4(Optional) Sorting method to use on returned values.
 4)#bH
@@ -38240,8 +38233,8 @@ $hRh
 4<Td
 4@AA
 4Ch;
+4E(P
 4F0I
-4F\vP[u
 4Mv8
 4Redirection URI provided during client registration.2
 4Zis
@@ -38601,20 +38594,22 @@ $hRh
 80F2<
 82\n:XPH
 851Pe
-858|
+85H|
 89 89 89
-89D|
+89T|
 8<pl
 8= zp
 8@HPZ
+8@HPZ`
 8A6j
-8B JB
 8Client ID for which to count the number of issued tokens"
 8GZS
 8Gets the list of nicknames this user has for other users
 8If set, remove from ignore/block list instead of adding "\\n
 8If true, return tag information in the returned details.
 8Name of the file to use as the published file's preview.
+8Q5|
+8QL}
 8SIffK5W
 8TZvrv<
 8TopArrow
@@ -38742,6 +38737,7 @@ $hRh
 9dYeiJ
 9fkj
 9g3|3\rX
+9jN}
 9o!5
 9oB#
 9q6\r#m
@@ -38811,6 +38807,7 @@ $hRh
 :eaI
 :gN(dq
 :mIR
+:m_bModelOverrodeBlockLOS
 :w4v
 ;!;#;-;9;E;S;Y;_;q;{;
 ;"lY7
@@ -38850,7 +38847,7 @@ $hRh
 ;`Fzc
 ;bwP*
 ;dota_
-;env_volumetric_fog_volume
+;m_hSkyMaterialLightingOnly
 ;models/heroes/pedestal/pedestal_2_ground.vmdl
 ;models/heroes/pedestal/pedestal_2_ground_dire.vmdl
 ;sv_pausable;sv_cheats
@@ -39117,14 +39114,13 @@ $hRh
 =\n\tkill_type
 =\n\vPredictions
 =cdE
-=dota_turbo_game_mode
 =ff>BZU
 =trF6,#
 >#>)>/>3>A>W>c>e>w>
 >(Pct Games With Enemy Lane T1 Taken First
 >4|6eXg_e
 >7^0g
->@DOTALobbyAutomaticSelectionPriorityChoose
+>@DOTAShowArmoryStickerCapsules
 >FPct Games With Roshan Advantage (Player team killed Roshan more times)
 >HTotal Games With Roshan Advantage (Player team killed Roshan more times)
 >Sem
@@ -39172,7 +39168,6 @@ $hRh
 >\vMax Healing
 >fN46R^
 >l\rur
->m_iPlayerTeam
 >p00<
 >yhP
 >ztq
@@ -39189,16 +39184,17 @@ $hRh
 ?BooleanValue@Value@v8@@QEBA_NPEAVIsolate@2@@Z
 ?Call@Function@v8@@QEAA?AV?$MaybeLocal@VValue@v8@@@2@V?$Local@VContext@v8@@@2@V?$Local@VValue@v8@@@2@HQEAV52@@Z
 ?CreateHandle@HandleScope@v8@@KAPEA_KPEAVIsolate@internal@2@_K@Z
-?DOTAArmoryTagsPopup
-?DOTAShareLobby
-?DOTASurvivorsDebugCreateSnapshot
+?DOTABroadcasterToastTemplateTable
+?DOTAHeroGuideDelete
+?DOTAHeroSetPicker
+?DOTARubickArcanaProgress
+?DOTASurvivorsChooseDifficulty
 ?DisposeGlobal@api_internal@v8@@YAXPEA_K@Z
 ?Enter@Context@v8@@QEAAXXZ
 ?Enter@Isolate@v8@@QEAAXXZ
 ?Escape@EscapableHandleScope@v8@@AEAAPEA_KPEA_K@Z
 ?Exit@Context@v8@@QEAAXXZ
 ?Exit@Isolate@v8@@QEAAXXZ
-?Fantasy2024ToggleHelp
 ?For@Symbol@v8@@SA?AV?$Local@VSymbol@v8@@@2@PEAVIsolate@2@V?$Local@VString@v8@@@2@@Z
 ?FromJustIsNothing@api_internal@v8@@YAXXZ
 ?Get@Object@v8@@QEAA?AV?$MaybeLocal@VValue@v8@@@2@V?$Local@VContext@v8@@@2@I@Z
@@ -39239,15 +39235,15 @@ $hRh
 ?\n\rminigame_data
 ?\n\rplayer_grants
 ?\n\vPartyMember
+?cast_delay
 ?d86L
-?dota_survivors_pickup_particle_cull_radius
 ?dt]X
 ?expf
 ?fff@
 ?ffffff
 ?gwL
 ?jOb
-?minlevel
+?maptexture
 ?open
 ?srJO
 ?streamonly=1
@@ -39257,16 +39253,17 @@ $hRh
 ?uWS
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
+@08Nt<
 @0pp
 @333333)@R
 @888
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
+@@dota_crownfall_most_recent_active_season_id
 @BH]f
 @BoneSetup
-@C_DOTA_Ability_Kez_Shodo_Sai_Parry_Cancel
 @DebugIndividualStyle
 @HPX`hv
-@HPXf0
+@HPXf
 @Integer overflow in %s
 @MarketDataUpdated
 @MfKZ
@@ -39295,6 +39292,7 @@ $hRh
 @\n\vBloodImpact
 @\n\venum_result
 @dKb]
+@dota_periodic_resource_cache_duration_s
 @fff>fff>fff>fff>
 @i1V
 @keyframes 
@@ -40887,7 +40885,6 @@ AwayTeamLogoVisible
 Axis
 AxisAngleToQuaternion
 Azwraith
-B JB
 B Load Layout Snippet
 B!rA
 B#B)B/BCBSBUB[BaBsB}B
@@ -40911,7 +40908,6 @@ B64_WRITE_PKCS7
 B8Z"h
 B9mXw8Voch0
 B>J7I
-B@YE
 BAD ENUMERATED
 BAD INTEGER
 BAD RECURSION DEPTH\n
@@ -40932,7 +40928,7 @@ BAsyncSend
 BAsyncSendProto
 BC (default)
 BCanSeeInParentScroll
-BDOTAMinigameWhackAMeepo
+BDOTAMinigameFindTheHeroes
 BEOS_BIND_FUNC
 BEOS_BIND_VAR
 BEOS_LOAD
@@ -41051,6 +41047,7 @@ BN_usub
 BOGUS
 BOOL ABSENT
 BOOLEAN
+BPBUFSteamLeaderboardUpdated
 BPEventLevelIcon
 BPIN_txt
 BPLevel
@@ -41100,13 +41097,11 @@ B\n\tbuildings
 B\n\tfavorites
 B\n\venum_result
 B\np\t0
-B\vP[u
 B\vP\n0
 B\vp\n0
 B\vp\nP
 B_txt
 B`4I
-B`YE
 Background
 Background Image
 Background: Loading screen %u\n
@@ -42709,7 +42704,6 @@ CDOTAGuildsController::EventLeaveGuild
 CDOTAHealthBars::Render_Internal
 CDOTAHeroSetsController::EventDeleteSavedHeroSet
 CDOTAHighlightReelDirector
-CDOTAHudUnitDamageArmor
 CDOTAInternational2022SwagBagController::ClaimSwagBagAction
 CDOTAInventoryManager
 CDOTAInventoryManager::PostInit - Called Base
@@ -42845,6 +42839,7 @@ CDOTAStoreController::RequestStoreData failed\n
 CDOTAStructuredReticleBuilder::ApplyEffects
 CDOTASurvivorsGameSystem
 CDOTATeamsController::SaveCachedTeamInfo
+CDOTATooltipUnitBounty
 CDOTATournament
 CDOTATriviaController::SubmitTriviaAnswer
 CDOTATrophyGameSystem
@@ -48344,7 +48339,6 @@ CustomizeSound
 CutToDefaultCamera
 Cycle: %.5f (%.5f)
 CycleButton
-D JB
 D"bu
 D#D)D;D?DEDKDQDSDYDeDoD
 D(n%6
@@ -48379,15 +48373,13 @@ DBM&(
 DBPlayCustomGameVisible
 DBWeekendTourneySetupVisible
 DC CROWS - cannot find the skeleton for the chosen roost on object '%s' using model '%s'.\n
-DCSurvivorsSpawnerEliteTurret
 DDBBody
 DDB_Promo_Announce
 DDB_Promo_Column
 DDB_Promo_Release
 DDB_Promo_Teaser
 DDB_Promo_Trailer
-DDOTAGuildEventAccountDataUpdated
-DDOTATooltipGuildContractsInfo
+DDOTATooltipGroupRegionPings
 DEADLINE_EXCEEDED
 DEAFENINGBLAST
 DEBRIS
@@ -48676,6 +48668,7 @@ DOTAArmoryItemLoaded
 DOTAArmoryItemUsed
 DOTAArmoryPage
 DOTAArmoryTagCheckboxActivated
+DOTAArmoryTagsPopup
 DOTAArmoryToggleCrafting
 DOTAArmoryUpdate
 DOTAArmoryUpdateFilter
@@ -48977,7 +48970,6 @@ DOTABroadcasterToastTemplateBasic
 DOTABroadcasterToastTemplateDualImage
 DOTABroadcasterToastTemplateMultiline
 DOTABroadcasterToastTemplateSingleImage
-DOTABroadcasterToastTemplateTable
 DOTABruiserSpellCard
 DOTABruiserSpellCardRow
 DOTABuff
@@ -48996,6 +48988,7 @@ DOTACancelHeroPick
 DOTACancelInProgressPurchase
 DOTACancelJoinChatChannel
 DOTACancelNewGuildRoleOrder
+DOTACancelOpeningSelectedTreasure
 DOTACancelPartyInvite
 DOTACancelPartyMergeRequest
 DOTACancelWatchGame
@@ -49637,7 +49630,6 @@ DOTADarkCarnivalNodeDebugShowDialogue
 DOTADarkCarnivalNodeDebugShowEncounter
 DOTADarkCarnivalNodeDebugShowNarration
 DOTADarkCarnivalOverworldMap
-DOTADarkCarnivalOverworldOpenTokenTrader
 DOTADarkCarnivalOverworldPage
 DOTADarkCarnivalPurchaseButton
 DOTADarkCarnivalPurchaseButtonActivated
@@ -50202,6 +50194,7 @@ DOTAGuildDetailsStartModifyingExistingGuild
 DOTAGuildDetailsStopModifyingExistingGuild
 DOTAGuildDetailsSubmitNewGuild
 DOTAGuildEventAccountDataExpired
+DOTAGuildEventAccountDataUpdated
 DOTAGuildEventLeaderboardUpdated
 DOTAGuildEventMembersUpdated
 DOTAGuildFeed
@@ -50214,6 +50207,7 @@ DOTAGuildHeaderReport
 DOTAGuildHomePage
 DOTAGuildImage
 DOTAGuildIntroCreateGuild
+DOTAGuildIntroPage
 DOTAGuildMemberListPage
 DOTAGuildMembershipUpdated
 DOTAGuildPatternPicked
@@ -50542,7 +50536,6 @@ DOTAHeroGuideBuilderFinished
 DOTAHeroGuideBuilderTab
 DOTAHeroGuideCancel
 DOTAHeroGuideCreate
-DOTAHeroGuideDelete
 DOTAHeroGuideEdit
 DOTAHeroGuidePublish
 DOTAHeroGuidePublishAll
@@ -50607,7 +50600,6 @@ DOTAHeroSetCarouselMouseOverStyle
 DOTAHeroSetCarouselSelectStyle
 DOTAHeroSetMouseOut
 DOTAHeroSetMouseOver
-DOTAHeroSetPicker
 DOTAHeroSetPickerActivated
 DOTAHeroSetPickerContextMenuShown
 DOTAHeroSetPickerSet
@@ -50758,6 +50750,7 @@ DOTAHudPromo
 DOTAHudQuestStatusClicked
 DOTAHudSpectatorOverwatchFocusDefendant
 DOTAHudTalentDisplay
+DOTAHudUnitDamageArmor
 DOTAHudUpdate
 DOTAHudVersusScene
 DOTAHudVersusSceneAccolade
@@ -51093,6 +51086,7 @@ DOTALoadoutSaveEquippedAsCustomSet
 DOTALobby
 DOTALobbyApplySettings
 DOTALobbyAutomaticSelectionCoinTossAdvance
+DOTALobbyAutomaticSelectionPriorityChoose
 DOTALobbyBroadcastChannel
 DOTALobbyBroadcastCloseChannel
 DOTALobbyBroadcastEditChannel
@@ -51191,8 +51185,8 @@ DOTAMiniShowcaseShowTitleTooltip
 DOTAMinigame
 DOTAMinigameBase
 DOTAMinigameChairs
-DOTAMinigameFindTheHeroes
 DOTAMinigameMinority
+DOTAMinigameWhackAMeepo
 DOTAMinimap
 DOTAMinimapGrid
 DOTAMinorityChoose
@@ -51725,7 +51719,6 @@ DOTAPostGameShowKillsSelected
 DOTAPostGameShowMVPProgress
 DOTAPostGameShowNetWorthTooltip
 DOTAPostGameShowPersonalGraphTooltip
-DOTAPostGameShowPlayerItemsTooltip
 DOTAPostGameSupportItemsItemEntry
 DOTAPostGameSupportItemsRow
 DOTAPostGameSwitchGraph
@@ -51981,7 +51974,6 @@ DOTARoleOrderMoveUp
 DOTARoshanTimer
 DOTARouteKeybinderV2Creation
 DOTARubickArcanaPage
-DOTARubickArcanaProgress
 DOTARuneSpawnToast
 DOTARuneTooltip
 DOTASaveCachedTeamInfo
@@ -52189,6 +52181,7 @@ DOTASetupPlayDOTAForMatch
 DOTAShardsButton
 DOTAShardsButtonShowShardShop
 DOTAShardsMenu
+DOTAShareLobby
 DOTAShareParty
 DOTASharedContent
 DOTASharedContentChanged
@@ -52255,7 +52248,6 @@ DOTAShowArmoryItem
 DOTAShowArmoryItem( %llu, %u )
 DOTAShowArmoryPage
 DOTAShowArmoryPageCategory
-DOTAShowArmoryStickerCapsules
 DOTAShowAtlasTestPage
 DOTAShowAttributesHelpTooltip
 DOTAShowBPCrownfallArchivePage
@@ -53121,8 +53113,8 @@ DOTASurvivorsCheatsShowStats
 DOTASurvivorsCheatsSpawnEvent
 DOTASurvivorsCheatsToggleInvincible
 DOTASurvivorsCheatsWinGame
-DOTASurvivorsChooseDifficulty
 DOTASurvivorsChooseHero
+DOTASurvivorsDebugCreateSnapshot
 DOTASurvivorsDebugLoadSnapshot
 DOTASurvivorsGameMenuDifficultyScreen
 DOTASurvivorsGameMenuHeroScreen
@@ -53374,7 +53366,7 @@ DOTATooltipGraphPlayerLevel
 DOTATooltipGraphPlayerNetWorth
 DOTATooltipGraphTeam
 DOTATooltipGraphTrends
-DOTATooltipGroupRegionPings
+DOTATooltipGuildContractsInfo
 DOTATooltipGuildGuildSummary
 DOTATooltipGuildTierInfo
 DOTATooltipHero
@@ -53426,7 +53418,6 @@ DOTATooltipTeammateItems
 DOTATooltipTopBarUltimate
 DOTATooltipTormentorTimer
 DOTATooltipTrophy
-DOTATooltipUnitBounty
 DOTATooltipUnitDamageArmor
 DOTATopBar
 DOTATopBarPlayer
@@ -54336,6 +54327,7 @@ DayTime
 Day_Night_Cycle
 DcO/lcK+hSK
 Dd g4X3
+Ddota_cache_duration_team_info_s
 DeMoN
 Deactivate
 Dead
@@ -55693,7 +55685,6 @@ ENUMERATED
 ENotificationSetting
 EOF on memory BIO
 EPlayerOutcome
-EPopupItemPicker
 EPredictionType
 EProtoExecutionSite
 EQuM}
@@ -56331,6 +56322,7 @@ Ester Bot
 EstimateStripByteCounts
 Estimated wait time remaining is %02d:%02d.\n
 Ethreain \t\t\t
+Eusage:  dota_test_popup <popup id> [<int param>]\n
 EvLa
 Evaluate the curve at the specified input position
 Evaluate the gradient at a position between 0 and 1
@@ -56635,7 +56627,6 @@ FCVAR_UNLOGGED
 FCVAR_USERINFO
 FCVAR_VCONSOLE_SET_FOCUS
 FDA~i
-FDOTACancelOpeningSelectedTreasure
 FEATURED_GAMEMODE
 FEED_ALERT_FANTASY
 FEED_ALERT_PREDICTIONS
@@ -57070,6 +57061,7 @@ Fantasy2024SelectPlayer
 Fantasy2024SelectTablet
 Fantasy2024SelectTitle
 Fantasy2024SetRosterPlayer
+Fantasy2024ToggleHelp
 Fantasy2024TutorialHighlight
 Fantasy2024UpgradeTablets
 Fantasy2025AdvanceEmblemTutorial
@@ -59018,6 +59010,7 @@ GraphPlayerLevel
 GraphPlayerLevelTooltip
 GraphPlayerNetWorth
 GraphPlayerNetWorthTooltip
+GraphPlayerPersonalGraphTooltip
 GraphRadiantSelectedToggleButton
 GraphSelectedToggleButton
 GraphSet
@@ -62443,7 +62436,6 @@ JDesired number of items in the voting queue.  May be clamped by the server",\n*
 JInferences using supplied data, or data associated with the specified key.
 JM0L
 JOINT-ISO-ITU-T
-JPE@
 JPEG
 JPQv
 JSConsoleInput
@@ -63952,7 +63944,6 @@ Maybe
 MaybeAllocateAligned cannot fail here.
 Maynard Bot
 Mc]T=
-Mcheckedvalue
 Measure
 Measurement: Failed to convert JSON to KeyValues\n
 Measurement: Failed with HTTP status %d\n
@@ -66043,17 +66034,15 @@ P-224
 P-256
 P-384
 P-521
-P08@JPE@
-P08J`
+P08J
+P08Nt<
 P0WonMatch
 P1Avatar
 P1WonMatch
 P1\t98"
 P2Avatar
 P2P ping to "%s". Timed out after %.2fms\n
-P2PE@
 P5[1
-P:PE@
 PAGN_4
 PAGrave
 PAIN: %2.2f\n
@@ -66075,7 +66064,6 @@ PARTY_MEMBER_IN_ANOTHER_GAME
 PARTY_MEMBER_IN_LOW_PRIORITY
 PASSABLE
 PATHBYADDR
-PAmodifier_alpha_wolf_critical_strike
 PBE-MD2-DES
 PBE-MD2-RC2-64
 PBE-MD5-DES
@@ -66094,7 +66082,6 @@ PBES2
 PBKDF2
 PBKDF2PARAM
 PBMAC1
-PBUF
 PCG`R
 PC_NETWORKED_ONLY
 PC_NON_NETWORKED_ONLY
@@ -67342,6 +67329,7 @@ PopupInitialSkill
 PopupInternational2023Welcome
 PopupInternational2024Welcome
 PopupItemDetails
+PopupItemPicker
 PopupItemReceived
 PopupItemStack
 PopupJoinChatChannel
@@ -68385,6 +68373,7 @@ RTTIPredictionsUnlocked
 RTTISelected
 RTTIState
 RT_txt
+R\fph?
 R\n\fActivityInfo
 R\n\fmap_variants
 R\n\fplayer_cards
@@ -72645,7 +72634,6 @@ SteamGameCoordinator001
 SteamGuide
 SteamID
 SteamID %llu %s\n
-SteamLeaderboardUpdated
 SteamMessage
 SteamNotificationsPlaceholder
 SteamOverlayFinished
@@ -76368,7 +76356,6 @@ ZL9L
 ZLIB
 ZLONG
 ZOffset
-ZPE@
 ZSz@
 ZXF,`i
 Z\n(k_EHeroSelectionText_CaptainsMode_YouBan
@@ -76546,6 +76533,7 @@ Z~wl
 \fevents.proto
 \fevents.proto"
 \fiaR
+\fp\vP4
 \ful2
 \fy&3Gl
 \l:ArR
@@ -76976,7 +76964,6 @@ Z~wl
 \n0CMsgGCToClientPurchaseFilteredPlayerSlotResponse
 \n0CMsgGCToClientRequestActiveBeaconPartiesResponse
 \n0CMsgGCtoGCAssociatedExploiterAccountInfoResponse
-\n0U8
 \n1CDOTAClientMsg_AbilitySpecificChannelRequiresHalt
 \n1CDOTAUserMsg_MonsterHunter_InvestigationGameState
 \n1CHelpRequestLogs_UploadUserApplicationLog_Request
@@ -78620,7 +78607,6 @@ Z~wl
 \n\vzoom_amount
 \ng_flConfigMaxCoord
 \ngrant_periodic_action '%s' doesn't specify an action to grant
-\npKC
 \nqYu
 \ntM(ie-V
 \nunit1: %s \nunit2: %s \nevent: %s \npriority: %d\n
@@ -78629,12 +78615,13 @@ Z~wl
 \r"b\n CMsgDOTASubmitPlayerAvoidRequest
 \r@h!Aq8
 \rB6uZ
+\rCDOTA_Modifier_Radar_Thinker
 \rCandyShopID_t
 \rCandyShopID_t"
 \rCandyShopID_t"Y\n+CMsgClientToGCCandyShopDevResetShopResponse
 \rCandyShopID_t"^\n0CMsgClientToGCCandyShopDevClearInventoryResponse
 \rCandyShopID_t"_\n1CMsgClientToGCCandyShopDevShuffleExchangeResponse
-\rGraphPlayerPersonalGraphTooltip
+\rDOTAPostGameShowPlayerItemsTooltip
 \rGuildRoleID_t
 \rGuildRoleID_t"
 \rHeroFacetID_t
@@ -78744,6 +78731,7 @@ Z~wl
 \tC_BaseEntity::Instance([%s]->InVRContinuous()) == [%s]\n
 \tCloseOpportunity()\n
 \tDd22
+\tDm_vCastLoc
 \tEntity param "%s" returned NULL.\n
 \tFClassnameIs( [%s] 
 \tFailed delayed player swap!
@@ -79164,9 +79152,7 @@ _video
 _wjb
 _xU`u
 _}eOk
-`2 JB
 `28)fk
-`2PE@
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
 `:zQF
 `D$daM-l
@@ -79175,7 +79161,6 @@ _}eOk
 `H(hqA1p
 `ITS
 `VX:H
-`Z JB
 `\n+k_EHeroSelectionText_CaptainsMode_YouSelect
 `\n+k_EHeroSelectionText_RandomDraft_HeroReview
 `\n\rvector_values
@@ -79183,6 +79168,7 @@ _}eOk
 `fPw.\vM
 `h9T~
 `o_je
+`r@mE
 `yNT
 a moment...
 a null shared library handle was used
@@ -79201,6 +79187,7 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
+aBvt<
 aD/x
 aDSS
 aECDH
@@ -80551,7 +80538,6 @@ a|gj(
 a|w9i
 b <= sizeof ctx->buf
 b <= sizeof ctx->final
-b JB
 b0FCLlvCRJw
 b0M%
 b2i_PVK_bio
@@ -80625,7 +80611,6 @@ b\tV_longjmp
 b\vP\n0
 b\vp\n0
 b]jY
-b`ZE
 backdoor_protection
 backdoor_protection_in_base
 backend_response
@@ -82145,6 +82130,7 @@ chatwheel_id
 chatwheelindex
 cheating_conviction
 checked
+checkedvalue
 cheer_types_valid_all_users
 cheers
 cheers_crowd_burst
@@ -84841,6 +84827,7 @@ dota_tournament_item_event
 dota_tower_deny
 dota_tower_kill
 dota_trophy_name
+dota_turbo_game_mode
 dota_turbo_hero_pick_rules
 dota_ui_popup_collectors_cache_available_force_gc_load
 dota_ui_popup_collectors_cache_available_force_load_state
@@ -85516,6 +85503,7 @@ env_sprite_oriented
 env_tonemap_controller
 env_tonemap_controller2
 env_volumetric_fog_controller
+env_volumetric_fog_volume
 env_wind_clientside
 env_wind_controller
 env_wind_volume
@@ -89159,7 +89147,6 @@ hN2D
 hRB.
 hRenderTexture != RENDER_TEXTURE_HANDLE_INVALID && m_image.IsValid()
 hThinkFunc
-hUq}
 hW*m
 hW1M
 hW_z
@@ -89708,7 +89695,6 @@ hours_remaining
 houseIdentifier
 hover
 how_to_play
-hpzPE@
 hr_H
 href="
 hscroll
@@ -89842,7 +89828,6 @@ hunter_rank_points
 hunter_rank_points_per_level
 hunter_rank_reward
 hunter_rank_unlock_level
-hup}
 hurtmebad
 huskar_berserkers_blood
 huskar_blood_magic
@@ -90365,6 +90350,7 @@ info_target_choreo
 info_target_portrait_root
 info_trigger_fan
 info_visibility_box
+info_world_layer
 infos
 infraction
 infuser_count
@@ -91806,7 +91792,6 @@ jLTKTz
 jM?5^Z?
 jNXcA
 jOJw"
-jPE@
 jTuf
 jV*d9O
 j[6Z
@@ -93469,7 +93454,6 @@ maps/scenes/crownfall/survivors_arena/world_physics.vmdl
 maps\
 mapscale
 mapscroll
-maptexture
 marci_bodyguard
 marci_companion_run
 marci_grapple
@@ -94200,6 +94184,7 @@ minimum_page_time
 minimum_priority
 minimum_recent_item_id
 minimumrows
+minlevel
 minlogexposure
 minor
 minorTickColor
@@ -94573,6 +94558,7 @@ modifier_alchemist_self_corrosive_weaponry
 modifier_alchemist_unstable_concoction
 modifier_alpha_wolf_command_aura
 modifier_alpha_wolf_command_aura_bonus
+modifier_alpha_wolf_critical_strike
 modifier_ancient_apparition_bone_chill
 modifier_ancient_apparition_bone_chill_debuff
 modifier_ancient_apparition_death_rime
@@ -99660,8 +99646,8 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p0Jp
-p2PE@
+p08@H^t<
+p0j h8
 p2p_ping could not convert "%s" to a CPeerToPeerAddress\n
 p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n
@@ -99675,8 +99661,8 @@ p4Z3
 p5Z3
 p5\nL,
 p618
+p6P0
 p>?Set@Template@v8@@QEAAXV?$Local@VName@v8@@@2@V?$Local@VData@v8@@@2@W4PropertyAttribute@2@@Z
-p>TY
 p@0pqE5tsO?|1
 pCheckpointName
 pD4t
@@ -101917,6 +101903,7 @@ plus_subscription_end_date
 plus_subscription_item_def
 plus_subscription_renew_price
 plus_subscription_start_date
+pnt<
 pod_id
 point
 point arithmetic failure
@@ -102663,10 +102650,11 @@ quiet
 quill_base_damage
 quill_stack_damage
 qx(q
-r JB
 r axis
+r mE
 r$0I
 r-IE
+r0>D
 r184
 r1c1
 r1c2
@@ -102683,7 +102671,6 @@ r3c3
 r3c4
 r<\rND
 r>RGBA8888
-r@IC
 rAGW
 rB2pBB
 rC3rp
@@ -102702,6 +102689,7 @@ r\n4k_EHeroSelectionText_AllDraft_TheyPicking_LosingGold
 r\n\nHuntReward
 r\n\vstart_index
 r\vDi
+r\vph?
 r_cleardecals
 r_deferred_additive_pass 1
 r_deferred_height_fog 1
@@ -109033,7 +109021,6 @@ usage:  chat_join <channel name>\n
 usage:  chat_join_hltv <matchid>\n
 usage:  chat_leave <channel name>\n
 usage:  chat_say <user channel name> <message>\n
-usage:  dota_test_popup <popup id> [<int param>]\n
 usage:  stat_dropdown <category name>\n
 usage: dota_contextual_tips_queue_custom_tip <tip_text_locstring> [tip_annotation_locstring] [tip_display_duration]
 usage: dota_contextual_tips_queue_tip_id <tip_id>
@@ -109959,6 +109946,7 @@ x509_pkey
 x509_req
 x509_store
 x931
+xA\niC$
 xFKF
 xOu\vsF
 xQfF
@@ -110063,7 +110051,6 @@ zF):O4
 zFar
 zG2m8
 zNear
-zPE@
 zRXU 
 z\tV_sind
 zchangespeed

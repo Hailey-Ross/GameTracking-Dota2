@@ -64,11 +64,14 @@
    Body (%d bytes): %s\n
    Frames: %u\n
    Header "%s": %s\n
+   Max:%.2fms
    Maximum frame time: %f ms (%f FPS)\n
    Minimum frame time: %f ms (%f FPS)\n
    P95:%.1f
    P95:%.1f%%
+   P95:%.2fms
    P99:%.1f
+   P99:%.2fms
    Reliable:%.1fkb
    Settings: WarmTime: %f, BenchTime: %f, BenchFrames: %u\n
    Standard deviation: %f ms\n
@@ -90,6 +93,7 @@
   * r_vconsole_foregroundforcerender = %d\n
   Actual   : 
   Arrived on time . . . : %u (%.1f%%)
+  Avg per call. . . . . : P50:%.2fms
   Comment started here.
   Corrected/smoothed. . : %u (%.1f%%)
   Currently playing %d of %d ticks. Minutes:%.2f File:%s\n
@@ -103,6 +107,8 @@
   Misdelivered lifetime : %u (%.2f%%)
   Misdelivery rate. . . : P50:%.1f%%
   Missed. . . . . . . . : %u (%.1f%%)
+  Msgs per frame. . . . : P50:%u
+  Msgs queued on entry. : P50:%u
   Not hidden by buffering.
   Not hidden by interpolation.
   Not hidden; no interpolation/buffering.
@@ -114,6 +120,7 @@
   Size. . . . . . . . . : Avg:%u
   Specify nocodecprompt to use the default raw output.
   Ss=%d, Se=%d, Ah=%d, Al=%d
+  Uncompressed size . . : P50:%u
   addons : %s\n
   cl_ticktiming <N>   [summary|detail]   Print stats periodically, every N ticks.\n
   cl_ticktiming print [summary|detail]   Print stats now.  Default detail level is 'detail'\n
@@ -1031,6 +1038,7 @@ $tI(knN
 *\n"host_computationtime_std_deviation
 *\n&Source2PlayStats_SteamIDTrustBucketMin
 *\tV_fflush
+*hIB
 *h\n\vDIALOG_TYPE
 *zvC
 ++CBaseSpawnGroup
@@ -1131,8 +1139,8 @@ $tI(knN
 ../src/shaders
 ..\content
 .00cfg
-.0DG
-.0EG
+.0XG
+.0bG
 .9GXdx
 .>\rfJBGo
 .?AU?$Container@VUnknownFieldSet@protobuf@google@@@InternalMetadata@internal@protobuf@google@@
@@ -2531,10 +2539,11 @@ $tI(knN
 .ESource2PlayStatsFieldType
 .ESplitScreenMessageType
 .P6AXPEBD@Z
-.PDG
+.P8G
+.P9G
 .PEAVCEntityIdentity@@
-.PEG
 .PLACEHOLDER_VALUE
+.PRG
 .ProtoFlattenedSerializer_t
 .RequestPause_t
 .SignonState_t
@@ -2575,8 +2584,9 @@ $tI(knN
 .log
 .los
 .lzh
-.p0G
-.pEG
+.p7G
+.p9G
+.pMG
 .pdata
 .placeholder.proto
 .rdata
@@ -2656,8 +2666,7 @@ $tI(knN
 0:<\n\fdelta_ignore
 0=Off, 1=Surface Wireframe, 2=Transparent Wireframe
 0=Off, 1=Visualize trace from camera, 2=Visualize occlusion, 3=Visualize far field trace from camera
-0>`6G
-0@hB
+0>pPG
 0B_u
 0C&C
 0E>X
@@ -2666,7 +2675,6 @@ $tI(knN
 0\n\vserializers
 0\tV_fopen
 0iN>/
-0tvB
 0x%x,
 0|t?L
 0|t?uj
@@ -2679,7 +2687,7 @@ $tI(knN
 1.2.11
 11Y@
 127.0.0.1
-14:36:17
+15:37:13
 16777215"R\n\nCMsg_CVars
 16777215B$
 1:1: Tokens : ( T__40 | T__41 | T__42 | T__43 | T__44 | T__45 | T__46 | T__47 | T__48 | T__49 | T__50 | T__51 | T__52 | TOK_COLON | OPEN_BRACE | CLOSE_BRACE | OPEN_PAREN | CLOSE_PAREN | OPEN_BRACKET | CLOSE_BRACKET | SEMICOLON | OP_EQUAL | COMMA | DOUBLE_AND | NEGATIVE_TOK | DOUBLE_OR | LITERAL_TRUE | LITERAL_FALSE | POS_INTLITERAL | POS_FLOATLITERAL | SCOPE_QUALIFIER | ID | DOUBLE_QUOTED_STRING | SINGLE_QUOTED_STRING | SINGLE_LINE_COMMENT | ML_COMMENT | WS | UNRECOGNIZED );
@@ -2721,10 +2729,9 @@ $tI(knN
 2\r.PrefetchType"h\n
 2\rU2t
 2\tV_fpclassifyd
-2\vp@hB
-2h/B
+2hIB
 2i0/
-2pY+
+2ps+
 3$EE\f
 3'F^7
 30000
@@ -2763,23 +2770,22 @@ $tI(knN
 5\n\vnested_type
 5c;3E
 5y?4
-6 4G
-60#G
+602G
+60NG
 64-bit
 6?k 6?t
 6GQ^h~
 6KT3c7
 6NK>
+6P0G
 6\fXO>\ntA
 6\n\fmessage_type
 6\r56t
-6f\G
-6pHG
-6pLG
 6s?fBbEcJYG[I[NYVP\B]@f;g<h<u4{,
 6tmT
 6uu?>
 6uu?uj
+6vvG
 7>I0
 7?GX
 7K[iu
@@ -2808,6 +2814,7 @@ $tI(knN
 9=aA\E
 9>70
 9?\rm4?2
+9F9^
 9\n\noneof_decl
 9\n\vplayer_info
 9_rO\r
@@ -2831,6 +2838,7 @@ $tI(knN
 <EOF>
 <EOR>
 <L7g
+<P0J
 <Unknown>
 <\n<\ng\t\n\tZ\t?\t
 <array: %u elements>
@@ -2865,6 +2873,7 @@ $tI(knN
 =e2m
 =imb;D
 =rF`JXKXWJYB[Cd;l2x(z%a+N2SNTQXKVJWGZI]J]Jm(r$u"u"
+>0FG
 >0|t?z7
 >5dK
 >6uu
@@ -2873,7 +2882,7 @@ $tI(knN
 >>> %s: %s\n
 >K7z6
 >O-p?A6
->P7G
+>PHG
 >Rdx
 >\tV_ftell
 >cQ6
@@ -3237,14 +3246,16 @@ $tI(knN
 @ Current  :  %s\n
 @08@HPX`hpx
 @08N
+@6p%G
 @GetProfile_ultrafast
 @HPX
 @HPX&I
-@HPX`hvP$G
-@HV02G
+@HPX`hv`>G
+@HV@LG
+@Np?G
 @\tV_fwrite
 @^8U)zj
-@ht0(
+@htp.
 @i-kuX
 A command with the specified name already exists. Cannot create an alias with the same name.\n
 A dB floor of when to stop transmitting packets, the volume between this and voice_threshold will still transmit packets to allow for volume ramping.
@@ -3640,8 +3651,8 @@ C:\buildworker\source2_dota_rel_2019_win64\build\src\engine2\networkgameclient.c
 C:\buildworker\source2_dota_rel_2019_win64\build\src\engine2\networkgameclient.cpp:4593
 C:\buildworker\source2_dota_rel_2019_win64\build\src\engine2\networkgameclientbase.cpp
 C:\buildworker\source2_dota_rel_2019_win64\build\src\engine2\networkgameclientbase.cpp:2804
-C:\buildworker\source2_dota_rel_2019_win64\build\src\engine2\networkgameclientbase.cpp:4321
-C:\buildworker\source2_dota_rel_2019_win64\build\src\engine2\networkgameclientbase.cpp:4363
+C:\buildworker\source2_dota_rel_2019_win64\build\src\engine2\networkgameclientbase.cpp:4329
+C:\buildworker\source2_dota_rel_2019_win64\build\src\engine2\networkgameclientbase.cpp:4371
 C:\buildworker\source2_dota_rel_2019_win64\build\src\engine2\networkgameserver.cpp
 C:\buildworker\source2_dota_rel_2019_win64\build\src\engine2\networkgameserver.cpp:982
 C:\buildworker\source2_dota_rel_2019_win64\build\src\engine2\networkgameserverbase.cpp
@@ -4700,7 +4711,6 @@ CopyExistingEntity: invalid serializer for ent %d.\n
 CopyExistingEntity: missing client entity %d.\n
 CopyNewEntity:  Error creating entity %s(%i)\n
 CopyNewEntity:  Skipping create of %d %s [fake class] for replay\n
-CopyNewEntity: GetClassBaseline(%s) failed.
 CopyNewEntity: invalid class index (%d), classname '%s'\n
 CopyNewEntity: invalid class index (%d), out of range %d\n
 CopyNewEntity: invalid serializer for ent %d.\n
@@ -5242,8 +5252,8 @@ Extensions to non-lite types can only be declared in non-lite files.  Note that 
 Extra arguments given after name\n
 ExtractModuleMetadata
 Extraneous token
-F0>G
 F>qUxv
+F@XG
 FAIL
 FALSE
 FATAL
@@ -5288,7 +5298,6 @@ Failed to parse DEM_SignonPacket.  %s\n
 Failed to parse KeyValues
 Failed to parse P2P message from '%s'.  %s\n
 Failed to parse archived ConVar '%s' from string '%s'\n
-Failed to parse delta header for Packet Entities, see log for details\n
 Failed to parse import splitscreen ConVar '%s'[%d] from string '%s'\n
 Failed to parse imported ConVar '%s' from string '%s'\n
 Failed to parse input ConVar '%s' from string '%s'\n
@@ -5704,9 +5713,7 @@ HLTV send full frame %d: %d bytes\n
 HLTV:  SetSignonState( %s )\n
 HLTV:maxplayers set to %i\n
 HLTVServerAsync
-HLTV_CopyNewEntity: GetDynamicBaseline(%d) failed.
 HSR_GAME_REMOTE_CHANGELEVEL_RECONNECT
-HUx_
 HammerMapLoader001
 Hangul
 Hanunoo
@@ -5814,7 +5821,6 @@ Ignoring unknown field steam.inf: '%s'\n
 Ignoring user config file '%s' because host_readconfig_ignore_userconfig is set\n
 Ignoring user configuration because host_readconfig_ignore_userconfig is set.\n
 IiGM>nw
-Ijy_
 Il?333333c?
 Illegal jstype for int64, uint64, sint64, fixed64 or sfixed64 field: 
 Illegal to wait on a task in a Windows Runtime STA
@@ -5949,7 +5955,6 @@ Japanese
 Javanese
 JiYMm
 Joystick
-Jul 30 2026
 July
 JumpOrLeap( C%d:I%d )
 Jumping to random tick %d (%.2f min)\n
@@ -6348,6 +6353,7 @@ Moves the camera position + orientation to the named entity
 Moves the camera position + orientation to the specified position
 Movie
 Movie recording failed! Missing expected pixels!\n
+Msg processing time . . : P50:%.2fms
 MultiByteToWideChar
 Multiple NextMsgPredicted?\n
 Multiple extension registrations for type "
@@ -6642,7 +6648,8 @@ P08@J
 P08J 
 P08N
 P4File
-P6`HG
+P6p8G
+P6pbG
 P:S;A
 P?fff?33s?{
 P@HPX`hpx\f
@@ -6769,6 +6776,7 @@ PerFrameSleepChanged
 PerFrameSleepMS
 Perf stats buffer full, no more data will be collected.\n
 Performs a bind <key> "increment var <cvar> 0 1 1".
+Pf ,G
 Phags_Pa
 Phoenician
 PhysicsBuilderMgr001
@@ -6985,7 +6993,6 @@ ProcessBC6HResults
 ProcessBaselineAck: invalid packed entity bit (%i)\n
 ProcessClassInfo: can't allocate %d C_ServerClassInfos.\n
 ProcessClassInfo: invalid class index (%d).\n
-ProcessPacketEntitiesWorkItem_Decode: DecodeClassBaseline(%d) failed for class %s.
 ProcessReadPacketEntitiesWorkItems
 ProcessServerInfo failed
 ProcessServerInfo( %s : %s : #%d ) - client requesting connection abort!\n
@@ -7010,7 +7017,6 @@ Protobuf: %s(%d): %s\n
 Protocol Buffer map usage error:\n
 Protocol Buffer reflection usage error:\n  Method      : google::protobuf::Reflection::
 Psapi.dll
-PtvB
 Public :  %s\n
 Pulse
 PulseCursorCancelPriority_t
@@ -7105,8 +7111,7 @@ RP_PAUSE
 RP_TOGGLEPAUSE
 RSDS
 RST%d
-R\fp@hB
-R\vptvB
+R\vpt
 RaiseException
 Random Float
 Random Integer
@@ -7130,7 +7135,8 @@ ReadDemoHeader: invalid pBuffer.\n
 ReadFile
 ReadOnly
 ReadPacketEntities
-ReadPacketEntities:  buffer read overflow\n
+ReadPacketEntities:  failed to deserialize entity data
+ReadPacketEntities:  failed to deserialize entity data\n
 ReadPacketEntities: unknown updatetype %i\n
 ReadPreserveEnt: u.m_nNewEntity == MAX_SNAPSHOT_ENTITIES
 Reads a spawn key
@@ -7559,6 +7565,7 @@ Sending connect to %s\n
 Sending network quality stats to server, summary over %d seconds\n
 Sending voice from: %s - playerslot: %d [ xuid %llx ]\n
 Sending vprof lite summary to server.  %d frames, %d detailed line items\n
+Sep 24 2026
 September
 SerializedEntitiesVersion001
 Server
@@ -8418,7 +8425,6 @@ U}g7x~
 V/?[w8rV
 V<@ss
 V?wm\v
-V@GG
 VApplication001
 VAsyncFileSystem2_001
 VAvi001
@@ -8438,6 +8444,7 @@ VOICEDATA_FORMAT_OPUS
 VOICEDATA_FORMAT_STEAM
 VP4003
 VPK overrides: 
+VPaG
 VPhysics2_Interface_001
 VProcessUtils002
 VProf Disabled.\n
@@ -8859,12 +8866,12 @@ Zq",9\fB
 \nConsole History (reversed)\n\n
 \nCrash\n
 \nDLL load denials: %u, last '%s'\n
+\nDTB
 \nEnd mem_test\n
 \nGame: "%s"\nMap: "%s"\nPlayers: %i (%i bots) / %i humans\nBuild: %u (revision %s)\nServer Number: %i\n\n
 \nIHDRPLTEIDATIENDtRNScHRMgAMAiCCPsBITsRGBtEXtzTXtiTXtbKGDhISTpHYssPLTtIMEoFFseXIf
 \nParsing attempt:  
 \nProcess Memory:\nWorking set: %.2f MiB\nPeak working set: %.2f MiB\n
-\nPtvB
 \nRegistered comments:\n
 \nScene information:\n
 \nSimpleEngineLoop\n{\n
@@ -9144,6 +9151,7 @@ Zq",9\fB
 \ng_flThreadedJobWaitTimeAccumulator
 \ngen_codes: max_code %d 
 \nh?oT
+\nhIB
 \nk>oB
 \nlast_lit %u, last_dist %u, in %ld, out ~%ld(%ld%%) 
 \nlit data: dyn %ld, stat %ld
@@ -9178,7 +9186,7 @@ Zq",9\fB
 \t?\tZ\tZ\tZ\tZ\t?\tg\t\n\t
 \t?\tZ\tt\tt\tt\t
 \tN1a
-\tTPHJ
+\tTPXJ
 \tV_asinf
 \tV_atan2f
 \tV_atof
@@ -9245,14 +9253,11 @@ Zq",9\fB
 \vm\vm\vm\vH\vm\vm\v
 \vm\vm\vm\vm\vH\v
 \vnJH
-\vp@hB
-\vptvB
 \vxYT
 ] is an invalid data character in JavaScript compatibility mode
 ]\n,NETWORK_DISCONNECT_REJECT_INVALIDRESERVATION
 ]\tV_log2_uint
 ^<V7w
-^P4G
 ^RfN>
 ^\n*NETWORK_DISCONNECT_KICKED_CONVICTEDACCOUNT
 ^\n*NETWORK_DISCONNECT_KICKED_UNTRUSTEDACCOUNT
@@ -9262,6 +9267,7 @@ Zq",9\fB
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 ^hmpsv
 ^oEZ_
+^pPG
 _MainLoop
 _RDATA
 _Target
@@ -9313,11 +9319,10 @@ _spawngroup_logging/log_%s_group_%s.txt
 _temp_mapcycle.txt
 `-uRQg
 `3Q"X
-`60FG
-`6@FG
+`60VG
+`6P`G
 `?m'_?&~]?(
 `RTTI
-`\rP\f0tvB
 `adjustor{
 `anonymous namespace'
 `copy constructor closure'
@@ -9333,7 +9338,7 @@ _temp_mapcycle.txt
 `generic-method-parameter-
 `generic-type-
 `hp\nU
-`ht0(
+`htp.
 `hyz
 `local static destructor helper'
 `local static guard'
@@ -9354,7 +9359,6 @@ _temp_mapcycle.txt
 `template-parameter
 `template-parameter-
 `template-type-parameter-
-`tvB
 `typeof'
 `udt returning'
 `unknown ecsu'
@@ -10821,12 +10825,22 @@ mp_disable_autokick
 mp_disable_autokick %d\n
 msg_data
 msg_type
+msgproc_usec_avg_max
+msgproc_usec_avg_p50
+msgproc_usec_avg_p95
+msgproc_usec_avg_p99
+msgproc_usec_max
+msgproc_usec_p50
+msgproc_usec_p95
+msgproc_usec_p99
 msgs
 mu?B0u?A
 multvar
 multvar: cvar "%s" not found\n
 multvar: no varname specified!\n
 mx=E
+n CG
+n RG
 n03>Pu
 n>sak><
 n?A6
@@ -10836,12 +10850,12 @@ nGh>
 nI9>h
 nMax
 nMin
-nPKG
 nReadHandle != UINT64_MAX
 nTries < 10000000
 n\n0NETWORK_DISCONNECT_KICKED_VACNETABNORMALBEHAVIOR
 n\tV_qsort
 n]?iJ
+n`eG
 n`xBF|7T
 name
 nan(ind)
@@ -10870,10 +10884,18 @@ netchan timeout: %.2fs since recv
 netframe_jitter_p50
 netframe_jitter_p99
 netframes_dropped
+netframes_msgs_max
+netframes_msgs_p50
+netframes_msgs_p95
+netframes_msgs_p99
 netframes_outoforder
 netframes_size_exceeds_mtu
 netframes_size_p95
 netframes_size_p99
+netframes_size_uncompressed_max
+netframes_size_uncompressed_p50
+netframes_size_uncompressed_p95
+netframes_size_uncompressed_p99
 netframes_total
 netmessages.proto
 netmessages.proto"I\n
@@ -11059,14 +11081,14 @@ p0p@
 p2p_listpeers
 p2p_ping "%s"
 p4edit
+p6`+G
 p?ff
 p@HPX`h\f
-p@hB
 pClass
 pClass->m_ClassID(%i) >= %i\n
 pClient
 pCm)
-pF0>G
+pF@XG
 pH\fy
 pMessage
 pNewSet->m_readPipe.OpenPipe_Named( false, szReadPipeParam, true )
@@ -11187,7 +11209,6 @@ protocol not supported
 proxies
 pt_BR
 pt_PT
-ptvB
 public
 public: 
 public_dependency
@@ -11216,6 +11237,10 @@ qfefkv}
 quality
 quality %d 
 quaternion
+queuedmsgs_max
+queuedmsgs_p50
+queuedmsgs_p95
+queuedmsgs_p99
 queuing %s for async execution\n
 quick
 quit
@@ -11226,9 +11251,8 @@ r?dar?\n
 rA?7
 rEy5
 rFg7
-r\fptvB
+r\fpt
 r\tVr.>T
-r\vp@hB
 r_always_render_all_windows
 r_aspectratio
 r_camerapos
@@ -12304,12 +12328,12 @@ zx?L
 }sKI
 }uxa
 }vpjd^WQKE?8-
+~09G
 ~AEh
 ~CServerChangelevelState with non empty m_Clients, failed change level to %s!!!\n
 ~CSteam3ServerS1 is active at destruction - must be shut down properly in the main server shutdown sequence\n
 ~\naS0
 ~\tV_snprintf
 ~ltvO
-~pGG
 ~szn
 ~wph_YSNHB<6/' 

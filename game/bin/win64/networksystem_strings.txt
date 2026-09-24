@@ -16,11 +16,10 @@
   system status: %s\n
   version max  : %u.%u\n
   version used : %u.%u\n
- !"#$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$0
+ !"#$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
  %dms faster than direct ping of %dms
- (08@HPXb`j
- (08@HR`j
- (0X`hpz`j
+ (08@HPXb@
+ (0X`hpz@
  - keeping around as cacheable shared connection
  [+add recip %d]
  [COMPLEX]
@@ -179,6 +178,11 @@
 - total: in %.1f, out %.1f MB\n\n
 --- %s has duplicate fields\n
 -FLT_MAX
+.?AU?$NetFlow_t@UNetFrameIn_t@CNetChan@@@CNetChan@@
+.?AU?$NetFlow_t@UNetFrameOut_t@CNetChan@@@CNetChan@@
+.?AUNetFlowBase_t@CNetChan@@
+.?AUNetFlowIn_t@CNetChan@@
+.?AUNetFlowOut_t@CNetChan@@
 .?AV<lambda_1>@?N@??OnShowPermutations@CFlattenedSerializers@@AEAAXAEBVCCommandContext@@AEBVCCommand@@@Z@
 .?AV?$CBaseAppSystem@VINetworkSystem@@@@
 .?AV?$CConCommandMemberAccessor@VCFlattenedSerializers@@@@
@@ -256,12 +260,11 @@
 0 bit issue, spot 2
 0 bit issue, spot 3
 0 bit issue, spot 4
-08@J`j
-85q$
+08@J@
+2\vphm
 ::Storage_t
-@6Pt
 @HPX`hv
-AA:0
+@ht0
 Accepting Steam Net connection %s\n
 AckSeqNum
 AddOrUpdateFieldMetadata:  adding/updating %s with invalid array count %d!
@@ -589,8 +592,7 @@ NETWORK_FIELD_HIGHEST_PRIORITY
 NETWORK_FIELD_LOWEST_PRIORITY
 Net graph %s\n
 Net status for host %s:\n
-NetChan %s ProcessMessages has taken more than %dms to process %d messages.  (Current message type: '%s')\n
-NetChan %s ProcessMessages tok %dms to process %d messages.\n
+NetChan %s ProcessMessages has exhausted its CPU time warning budget.  %dms to process %d messages this call.  (Current message type: '%s')\n
 NetChanFlowIncomingAck
 NetChanRecv
 NetChanRecvMisdelivery
@@ -638,11 +640,8 @@ Obtained direct RTT measurements to relays in %d POPs.  Closest %d are:\n
 Opened Steam Net Connection on socket '%s' to %s, connection %s\n
 Order,'From','To',Bits\n
 OutSeqNumAck
-P08@J`j
+P08@J@
 P08J
-P2`j
-P60K
-P6px
 PACKET_STATUS_DROPPED
 PACKET_STATUS_INVALID
 PACKET_STATUS_NORMAL
@@ -650,13 +649,11 @@ PACKET_STATUS_OUT_OF_ORDER
 Path_Remove failed for read only CFieldPath
 Path_RemoveAll failed for read only CFieldPath
 Peer To Peer
-Pfpy
 PlusFour
 PlusN
 PlusOne
 PlusThree
 PlusTwo
-PnP{
 Polymorphic
 PopAllButOnePlusN
 PopAllButOnePlusNPack3Bits
@@ -700,6 +697,7 @@ QueueChange
 QueueReplayCompatFieldChange( %s ): can't place MNetworkReplayCompatField callback on a fully fake struct (e.g., a pointed to component or object), game code should move callback on entity %d to a C_BaseEntity derived class!\n
 QueueTimeMS
 RSDSMf
+R\fphm
 RadianEuler
 ReadFields
 Recv
@@ -806,8 +804,8 @@ VectorWS
 WriteFields
 WriteToBuffer Message %s is not initialized! Probably missing required fields!\n
 Writing %d bits for path %s of serializer %s entity %d, this will fail to parse\n
-Xf@o
 [ Net Message Info: %s ]\n
+[%s] DISCONNECTING. ProcessMessages has exhausted its CPU time budget.  %dms to process %d messages this call.  (Current message type: '%s')\n
 [%s] Queued message count %d exceeds limit of %s=%d.  Allowing due to engine_frametime_warnings_enable=false\n
 [%s] high frame misdelivery %.1f%%, %d/%d of %d frames dropped/reordered, %.0fms ping, %.0fms peak jitter\n
 [%s] misdelivery %.1f%%, %d/%d of %d frames dropped/reordered, %.0fms ping\n
@@ -830,7 +828,8 @@ Xf@o
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
 \vInSeqNum
 \vMsgTick
-`6pN
+`60x
+`ht0
 activated
 added
 aggegated
@@ -907,7 +906,7 @@ g_pSteamNetworkingUtils
 groupindex
 groupnames
 has_network_encoding_data
-hpz`j
+hpz@
 huge
 identified %d entity related c++ field shadowing issues:\n
 include
@@ -964,8 +963,7 @@ out-of-order
 outgoing_data_bytespersecond
 outgoing_sequence
 outgoing_sequence_start
-p0j0
-p2`j
+pF`g
 p\rP\f0!h
 packet_status
 parallel
@@ -985,6 +983,7 @@ pri(%u)
 problem detected locally
 qangle_pitch_yaw
 qangle_precise
+r\vphm
 records
 regex
 regex_error

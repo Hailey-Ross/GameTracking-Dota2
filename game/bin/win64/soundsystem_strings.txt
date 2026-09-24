@@ -1382,6 +1382,7 @@ $toolgraphs
 33s?
 6\tV_fread
 8fff?fff?fff?fff?
+:HIO
 ;1#INF
 ;\tV_fseek
 <EMPTY>
@@ -1392,7 +1393,6 @@ $toolgraphs
 <invalid soundevent name>
 <non-RTTI type>
 =X94=
->0jM
 >EJtM
 ?333?
 ?amN2
@@ -1799,7 +1799,6 @@ Exponential
 Exponential Ramp
 Extra taps
 Extract Source
-FHKO
 FIELDATA COMPARE FAIL: %s->%s\n
 FIELDATASIZE COMPARE FAIL: %s->%s\n
 FIELINFO COMPARE FAIL: %s->%s\n
@@ -3922,4 +3921,5 @@ yaw.cos
 yaw.sin
 zG(knN
 }\tV_sinhf
+~?HLO
 ~CSosOperatorSystem: Deleting orphaned CSosOperatorStack pointer for %s via shutdown\n

@@ -8171,6 +8171,7 @@ $hRh
 *BaseModelEntity::CBodyComponentBaseModelEntity
 *Gets the last-played times for the account
 *O\n\fDOTA_CM_PICK
+*Pz5
 *Returns the player's community preferences
 *UlS
 *Y$ve
@@ -37464,9 +37465,8 @@ $hRh
 0\r0#0)070;0U0Y0[0g0q0y0}0
 0e\r8
 0pp@5tqE?|sO541
-0r0>D
+0rp?D
 0tU+xc:
-0vt<
 0x%4.4x 
 0x%X
 0x%X 
@@ -38075,13 +38075,12 @@ $hRh
 2\r.ELeaguePhase
 2\rlhp
 2\vp!d
-2\vph?
+2\vpT`
 2^pV
 2_bot
 2_mid
 2_top
 2_week_streak
-2`g8
 2a"l
 2bT~
 2cb:RO
@@ -38233,7 +38232,6 @@ $hRh
 4<Td
 4@AA
 4Ch;
-4E(P
 4F0I
 4Mv8
 4Redirection URI provided during client registration.2
@@ -38594,22 +38592,20 @@ $hRh
 80F2<
 82\n:XPH
 851Pe
-85H|
 89 89 89
-89T|
 8<pl
 8= zp
 8@HPZ
-8@HPZ`
+8A4|
 8A6j
 8Client ID for which to count the number of issued tokens"
 8GZS
 8Gets the list of nicknames this user has for other users
+8IO|
 8If set, remove from ignore/block list instead of adding "\\n
 8If true, return tag information in the returned details.
 8Name of the file to use as the published file's preview.
-8Q5|
-8QL}
+8Q6}
 8SIffK5W
 8TZvrv<
 8TopArrow
@@ -38669,8 +38665,10 @@ $hRh
 8\n\rsubscribe_msg
 8\v8!83858A8G8K8S8W8_8e8o8q8}8
 8]Vc2
+8aH|
 8ca1
 8dS2
+8eT|
 8oYSBkqnngo
 8pe7?
 8q-S*]X
@@ -38687,8 +38685,10 @@ $hRh
 9@Xp&
 9B2C1229
 9IGv
+9J6|
 9J9;6
 9N1=@
+9NN}
 9QTA
 9Y@nJM
 9Zr4
@@ -38737,7 +38737,6 @@ $hRh
 9dYeiJ
 9fkj
 9g3|3\rX
-9jN}
 9o!5
 9oB#
 9q6\r#m
@@ -38760,6 +38759,7 @@ $hRh
 :EXTERNAL TYPE %s\n
 :LBN
 :NAy
+:Pz5
 :QYJ
 :Vlq
 :\n5kKillEaterEventType_Brewmaster_KillsDuringPrimalSplit
@@ -39253,7 +39253,6 @@ $hRh
 ?uWS
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
-@08Nt<
 @0pp
 @333333)@R
 @888
@@ -40886,6 +40885,7 @@ Axis
 AxisAngleToQuaternion
 Azwraith
 B Load Layout Snippet
+B nE
 B!rA
 B#B)B/BCBSBUB[BaBsB}B
 B*k@5
@@ -66034,8 +66034,6 @@ P-224
 P-256
 P-384
 P-521
-P08J
-P08Nt<
 P0WonMatch
 P1Avatar
 P1WonMatch
@@ -68373,7 +68371,6 @@ RTTIPredictionsUnlocked
 RTTISelected
 RTTIState
 RT_txt
-R\fph?
 R\n\fActivityInfo
 R\n\fmap_variants
 R\n\fplayer_cards
@@ -68382,6 +68379,7 @@ R\n\vpredictions
 R\r1>Vp
 R\tV_iswcntrl
 R\vp!y
+R\vpT`
 R]Di
 R_T5Y
 Rad Guys
@@ -76533,7 +76531,7 @@ Z~wl
 \fevents.proto
 \fevents.proto"
 \fiaR
-\fp\vP4
+\fp\vPt
 \ful2
 \fy&3Gl
 \l:ArR
@@ -77073,6 +77071,7 @@ Z~wl
 \nLeagueID_t"C\n-CMsgDOTACompendiumRemoveAllSelectionsResponse
 \nPlayerID_t
 \nPlayerID_t"
+\nPz5
 \nSimulating Entities:\n\n
 \nUnknown reward type '%s' for action '%s' at score '%s'
 \n\fAsyncRewards
@@ -77455,6 +77454,7 @@ Z~wl
 \n\nOAuthToken
 \n\nPARTY_FULL
 \n\nPrediction
+\n\nPz5
 \n\nROLL_STATS
 \n\nResultCode
 \n\nSeriesInfo
@@ -79154,6 +79154,7 @@ _xU`u
 _}eOk
 `28)fk
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
+`6PL
 `:zQF
 `D$daM-l
 `DZG
@@ -79168,7 +79169,6 @@ _}eOk
 `fPw.\vM
 `h9T~
 `o_je
-`r@mE
 `yNT
 a moment...
 a null shared library handle was used
@@ -79187,7 +79187,6 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
-aBvt<
 aD/x
 aDSS
 aECDH
@@ -80538,6 +80537,7 @@ a|gj(
 a|w9i
 b <= sizeof ctx->buf
 b <= sizeof ctx->final
+b oE
 b0FCLlvCRJw
 b0M%
 b2i_PVK_bio
@@ -80585,6 +80585,7 @@ bMutedVoice
 bN.l
 bOverheadEffect
 bPb:L7X)
+bPoE
 bReturnUnslowed
 bSellable
 bSh&+
@@ -99646,8 +99647,8 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p08@H^t<
-p0j h8
+p0J0
+p0j`i8
 p2p_ping could not convert "%s" to a CPeerToPeerAddress\n
 p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n
@@ -99660,8 +99661,8 @@ p4 edit ..\panorama\videos\heroes\%s.webm\n
 p4Z3
 p5Z3
 p5\nL,
+p6 Q
 p618
-p6P0
 p>?Set@Template@v8@@QEAAXV?$Local@VName@v8@@@2@V?$Local@VData@v8@@@2@W4PropertyAttribute@2@@Z
 p@0pqE5tsO?|1
 pCheckpointName
@@ -101903,7 +101904,6 @@ plus_subscription_end_date
 plus_subscription_item_def
 plus_subscription_renew_price
 plus_subscription_start_date
-pnt<
 pod_id
 point
 point arithmetic failure
@@ -102651,10 +102651,8 @@ quill_base_damage
 quill_stack_damage
 qx(q
 r axis
-r mE
 r$0I
 r-IE
-r0>D
 r184
 r1c1
 r1c2
@@ -102689,7 +102687,6 @@ r\n4k_EHeroSelectionText_AllDraft_TheyPicking_LosingGold
 r\n\nHuntReward
 r\n\vstart_index
 r\vDi
-r\vph?
 r_cleardecals
 r_deferred_additive_pass 1
 r_deferred_height_fog 1
@@ -102704,6 +102701,7 @@ r_dota_normal_maps 1
 r_dota_shadows 1
 r_printdecalinfo
 r_ssao 1
+r`nE
 rad2deg
 radar_cooldown
 radar_icon
@@ -103722,6 +103720,7 @@ rows_completed
 royal_jelly
 royal_jelly1
 royalblue
+rp?D
 rsa not implemented
 rsa operations not supported
 rsa routines
@@ -109946,7 +109945,6 @@ x509_pkey
 x509_req
 x509_store
 x931
-xA\niC$
 xFKF
 xOu\vsF
 xQfF

@@ -35687,6 +35687,7 @@ hCurrentEntity
 hDeadHero
 hEntitiesToIgnore
 hEntity
+hFlingHandles
 hGivenToNPC
 hHeroOwner
 hIllusion

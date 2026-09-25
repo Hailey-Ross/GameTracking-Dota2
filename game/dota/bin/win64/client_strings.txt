@@ -46,7 +46,6 @@
     error: %s\n
    %d (%s)\n
    %d: %.2f %.2f %.2f\n
-   %d: '%s'\n
    '%s' : '%s' (entindex %d) \n
    Base Event Reward. Event %s (%d)\n
    CREATE: %s\n
@@ -167,11 +166,14 @@
  (%lu = 0x%lx)\n
  (%u = 0x%x)\n
  (+%d more due to usercommand delivery)
+ (08@HPX`j@K
+ (08@HPZ@K
  (Dirty Animation)
  (INVALID PSS PARAMETERS)\n
  (Negative)
  (classmap missing)
  ** Entrypoint For Method '%s'
+ *PaB
  - %s (%s)\n
  - (Additive)
  -0000
@@ -7063,9 +7065,10 @@ $hRh
 (0'yX
 (0.1s interval)
 (0x%08X)'??'
+(2PaB
 (5Me
 (5jP
-(?333?DOTADarkCarnivalOverworldOpenTokenTrader
+(?333?DOTADarkCarnivalFeedbackPopupSubmit
 (ACTIVE)
 (App Id to retrieve published files from.
 (BZq
@@ -8171,7 +8174,7 @@ $hRh
 *BaseModelEntity::CBodyComponentBaseModelEntity
 *Gets the last-played times for the account
 *O\n\fDOTA_CM_PICK
-*Pz5
+*PaB
 *Returns the player's community preferences
 *UlS
 *Y$ve
@@ -8327,7 +8330,7 @@ $hRh
 *gFBk
 *hbJ1
 *it%2
-*joy_advanced
+*joy_name
 *kf[R
 *laM-\SO
 *o\n\teRollType
@@ -36221,7 +36224,7 @@ $hRh
 .CMsgCraftworksQuestReward
 .CMsgCraftworksUserData"
 .CMsgCraftworksUserData"{\n#CMsgClientToGCCraftworksCraftRecipe
-.CMsgCustomGameInstallStatus"*\n
+.CMsgCustomGameInstallStatus"9\n
 .CMsgDOTABotDebugInfo.Bot
 .CMsgDOTABotDebugInfo.Bot.Mode
 .CMsgDOTAChatMember
@@ -37162,7 +37165,7 @@ $hRh
 .bmxz
 .dotaunitorder_t
 .dx_LV9
-.eBXy
+.eBEnable or Disable debug display of visibility boxes
 .google.protobuf.Any*.\n
 .google.protobuf.EnumValue
 .google.protobuf.Field
@@ -37333,9 +37336,12 @@ $hRh
 0234
 02V8[
 05=k
+08@HR@K
+08B@K
 08bX
 09,h
 0:%02d
+0:PaB
 0;Q5[
 0<cz
 0M2~@p
@@ -37465,7 +37471,6 @@ $hRh
 0\r0#0)070;0U0Y0[0g0q0y0}0
 0e\r8
 0pp@5tqE?|sO541
-0rp?D
 0tU+xc:
 0x%4.4x 
 0x%X
@@ -37943,6 +37948,8 @@ $hRh
 2J.CMsgClientToGCMonsterHunterDevClaimInvestigationRewardsResponse.EResponse"u\n\tEResponse
 2K.CMsgClientToGCGetAvailablePrivateCoachingSessionsSummaryResponse.EResponse
 2L.CMsgClientToGCMonsterHunterRequestMaterialsNeededByFriendResponse.EResponse
+2P\f9
+2PaB
 2Set of published file Ids to retrieve details for.
 2Tm=#
 2Uiwp"9
@@ -38075,7 +38082,6 @@ $hRh
 2\r.ELeaguePhase
 2\rlhp
 2\vp!d
-2\vpT`
 2^pV
 2_bot
 2_mid
@@ -38234,6 +38240,7 @@ $hRh
 4Ch;
 4F0I
 4Mv8
+4PaB
 4Redirection URI provided during client registration.2
 4Zis
 4\fPl
@@ -38592,23 +38599,28 @@ $hRh
 80F2<
 82\n:XPH
 851Pe
+85K}
 89 89 89
 8<pl
 8= zp
 8@HPZ
-8A4|
+8@HPZ@K
+8@J@K
 8A6j
+8B@K
+8BPaB
 8Client ID for which to count the number of issued tokens"
 8GZS
 8Gets the list of nicknames this user has for other users
-8IO|
+8I4|
 8If set, remove from ignore/block list instead of adding "\\n
 8If true, return tag information in the returned details.
 8Name of the file to use as the published file's preview.
-8Q6}
+8QO|
 8SIffK5W
 8TZvrv<
 8TopArrow
+8Y6}
 8\n0series_current_selection_priority_used_coin_toss
 8\n0ultimate_scepter_consumed_alchemist_bonus_health
 8\n3kKillEaterEventType_Broodmother_SpiderlingHeroKills
@@ -38665,10 +38677,10 @@ $hRh
 8\n\rsubscribe_msg
 8\v8!83858A8G8K8S8W8_8e8o8q8}8
 8]Vc2
-8aH|
 8ca1
 8dS2
-8eT|
+8iH|
+8mT|
 8oYSBkqnngo
 8pe7?
 8q-S*]X
@@ -38685,11 +38697,11 @@ $hRh
 9@Xp&
 9B2C1229
 9IGv
-9J6|
 9J9;6
 9N1=@
-9NN}
 9QTA
+9R6|
+9VN}
 9Y@nJM
 9Zr4
 9\n4kKillEaterEventType_Magnus_HeroesSlowedWithShockwave
@@ -38759,7 +38771,8 @@ $hRh
 :EXTERNAL TYPE %s\n
 :LBN
 :NAy
-:Pz5
+:PaB
+:Physics Body Data By Bone Name
 :QYJ
 :Vlq
 :\n5kKillEaterEventType_Brewmaster_KillsDuringPrimalSplit
@@ -38807,7 +38820,6 @@ $hRh
 :eaI
 :gN(dq
 :mIR
-:m_bModelOverrodeBlockLOS
 :w4v
 ;!;#;-;9;E;S;Y;_;q;{;
 ;"lY7
@@ -39114,13 +39126,14 @@ $hRh
 =\n\tkill_type
 =\n\vPredictions
 =cdE
+=dota_turbo_matches_played
 =ff>BZU
 =trF6,#
 >#>)>/>3>A>W>c>e>w>
 >(Pct Games With Enemy Lane T1 Taken First
 >4|6eXg_e
 >7^0g
->@DOTAShowArmoryStickerCapsules
+>@DOTAGoToHeroPageProgression
 >FPct Games With Roshan Advantage (Player team killed Roshan more times)
 >HTotal Games With Roshan Advantage (Player team killed Roshan more times)
 >Sem
@@ -39184,11 +39197,12 @@ $hRh
 ?BooleanValue@Value@v8@@QEBA_NPEAVIsolate@2@@Z
 ?Call@Function@v8@@QEAA?AV?$MaybeLocal@VValue@v8@@@2@V?$Local@VContext@v8@@@2@V?$Local@VValue@v8@@@2@HQEAV52@@Z
 ?CreateHandle@HandleScope@v8@@KAPEA_KPEAVIsolate@internal@2@_K@Z
-?DOTABroadcasterToastTemplateTable
+?DOTABroadcasterToastTemplateSingleImage
 ?DOTAHeroGuideDelete
-?DOTAHeroSetPicker
+?DOTALargeModelLoadoutLoaded
 ?DOTARubickArcanaProgress
-?DOTASurvivorsChooseDifficulty
+?DOTASurvivorsGoToDifficultySelect
+?DOTASurvivorsMinimap
 ?DisposeGlobal@api_internal@v8@@YAXPEA_K@Z
 ?Enter@Context@v8@@QEAAXXZ
 ?Enter@Isolate@v8@@QEAAXXZ
@@ -39213,6 +39227,7 @@ $hRh
 ?ParseEXRHeaderFromMemory() failed! Error message: %s\n
 ?The most recent last-played time the client already knows about"
 ?VBH;
+?WaterLevel_t
 ?\n:kKillEaterEventType_Antimage_SpellsBlockedWithCounterspell
 ?\n:kKillEaterEventType_Largo_AmphibianRhapsodyKillsAndAssists
 ?\n:k_EMsgClientToGCGetAvailablePrivateCoachingSessionsSummary
@@ -39235,7 +39250,6 @@ $hRh
 ?\n\rminigame_data
 ?\n\rplayer_grants
 ?\n\vPartyMember
-?cast_delay
 ?d86L
 ?dt]X
 ?expf
@@ -39243,26 +39257,26 @@ $hRh
 ?ffffff
 ?gwL
 ?jOb
-?maptexture
+?modifier_troll_warlord_whirling_axes_blind
 ?open
 ?srJO
 ?streamonly=1
 ?t=0m5s
-?thinkfunc_t
 ?tya
 ?uWS
 ?x29
 @!@%@+@1@?@C@E@]@a@g@m@
+@0:PaB
 @0pp
 @333333)@R
 @888
 @?SlowGetInternalField@Object@v8@@AEAA?AV?$Local@VData@v8@@@2@H@Z
-@@dota_crownfall_most_recent_active_season_id
+@@DOTACrownfallBackgroundActSelected
 @BH]f
 @BoneSetup
 @DebugIndividualStyle
-@HPX`hv
-@HPXf
+@HPX`hv@
+@HPXf`2
 @Integer overflow in %s
 @MarketDataUpdated
 @MfKZ
@@ -39298,6 +39312,7 @@ $hRh
 @keyframes '%s'\r\n{\r\n
 @merged
 @n2w
+@outer_attack_buffer
 @setlocal\n
 @type
 A Dota NPC Hero
@@ -40885,7 +40900,6 @@ Axis
 AxisAngleToQuaternion
 Azwraith
 B Load Layout Snippet
-B nE
 B!rA
 B#B)B/BCBSBUB[BaBsB}B
 B*k@5
@@ -40898,6 +40912,7 @@ B-409
 B-571
 B-Spline
 B.z\85p
+B0\n9
 B2I_DSS
 B2I_RSA
 B2pr
@@ -41051,6 +41066,7 @@ BPBUFSteamLeaderboardUpdated
 BPEventLevelIcon
 BPIN_txt
 BPLevel
+BPaB
 BReadyForDisplay
 BRouteMsgToJob
 BRouteWorkItemCompleted called for a job that could not be found!\n
@@ -41585,6 +41601,7 @@ BoxFinished
 BoxFocused
 BoxIdle
 BoxOpening
+BppE
 Bracket
 Bracket%d
 BracketBoxContainer
@@ -42839,7 +42856,7 @@ CDOTAStoreController::RequestStoreData failed\n
 CDOTAStructuredReticleBuilder::ApplyEffects
 CDOTASurvivorsGameSystem
 CDOTATeamsController::SaveCachedTeamInfo
-CDOTATooltipUnitBounty
+CDOTATooltipTopBarUltimate
 CDOTATournament
 CDOTATriviaController::SubmitTriviaAnswer
 CDOTATrophyGameSystem
@@ -43195,6 +43212,7 @@ CDOTA_DB_ContextMenu_DarkCarnival_OverworldNodeDebug::EventShowDialogue
 CDOTA_DB_ContextMenu_GuildPlayer::EventKickPlayer
 CDOTA_DB_ContextMenu_GuildPlayer::EventLeaveGuild
 CDOTA_DB_ContextMenu_GuildPlayer::EventModifyPlayer
+CDOTA_DB_CustomLobby::Event_CustomLobbyLaunch
 CDOTA_DB_CustomLobby::OnLobbyStateChanged
 CDOTA_DB_CustomLobbyListRow::OnScrolledIntoView
 CDOTA_DB_Lobby::EventLobbyAutomaticSelectionPriorityChoose
@@ -44926,7 +44944,7 @@ CMsgPracticeLobbyJoinResponse
 CMsgPracticeLobbyKick
 CMsgPracticeLobbyKickFromTeam
 CMsgPracticeLobbyLaunch
-CMsgPracticeLobbyLeave"1\n
+CMsgPracticeLobbyLeave"@\n
 CMsgPracticeLobbyList
 CMsgPracticeLobbyListResponse
 CMsgPracticeLobbySetCoach
@@ -48379,6 +48397,7 @@ DDB_Promo_Column
 DDB_Promo_Release
 DDB_Promo_Teaser
 DDB_Promo_Trailer
+DDOTAHeroGridConfigListChanged
 DDOTATooltipGroupRegionPings
 DEADLINE_EXCEEDED
 DEAFENINGBLAST
@@ -48871,7 +48890,6 @@ DOTABattleReportAggregateStatsUpdated
 DOTABattleReportColumnChanged
 DOTABattleReportColumnToggled
 DOTABattleReportCurrentInfoUpdated
-DOTABattleReportDBPageChangeColumns
 DOTABattleReportDBPageFilterChanged
 DOTABattleReportDBPagePresetFilterSelected
 DOTABattleReportDBPageToggleHeroExpanded
@@ -48969,7 +48987,7 @@ DOTABroadcasterToast
 DOTABroadcasterToastTemplateBasic
 DOTABroadcasterToastTemplateDualImage
 DOTABroadcasterToastTemplateMultiline
-DOTABroadcasterToastTemplateSingleImage
+DOTABroadcasterToastTemplateTable
 DOTABruiserSpellCard
 DOTABruiserSpellCardRow
 DOTABuff
@@ -49438,7 +49456,6 @@ DOTACrownfallActSelected
 DOTACrownfallActSelector
 DOTACrownfallArtilleryTerrain
 DOTACrownfallArtilleryTerrainLayer
-DOTACrownfallBackgroundActSelected
 DOTACrownfallBackgroundLaunchSurvivors
 DOTACrownfallButton
 DOTACrownfallCandyShopOpenBag
@@ -49598,7 +49615,6 @@ DOTADarkCarnivalEncounterFortuneTeller
 DOTADarkCarnivalEncounterLockpickingPopup
 DOTADarkCarnivalEncounterMinigamePopup
 DOTADarkCarnivalEncounterWhackAMole
-DOTADarkCarnivalFeedbackPopupSubmit
 DOTADarkCarnivalFortuneTellerAlreadyHasFortune
 DOTADarkCarnivalFortuneTellerClaimFortuneReward
 DOTADarkCarnivalFortuneTellerClaimPermanentUnlock
@@ -49630,6 +49646,7 @@ DOTADarkCarnivalNodeDebugShowDialogue
 DOTADarkCarnivalNodeDebugShowEncounter
 DOTADarkCarnivalNodeDebugShowNarration
 DOTADarkCarnivalOverworldMap
+DOTADarkCarnivalOverworldOpenTokenTrader
 DOTADarkCarnivalOverworldPage
 DOTADarkCarnivalPurchaseButton
 DOTADarkCarnivalPurchaseButtonActivated
@@ -50144,7 +50161,6 @@ DOTAGlossaryShowSubpageWithIndex
 DOTAGlossaryXPBarClicked
 DOTAGlyph
 DOTAGoToHeroPage
-DOTAGoToHeroPageProgression
 DOTAGoToHeroPageStats
 DOTAGoToTreasury
 DOTAGrantItem
@@ -50506,7 +50522,6 @@ DOTAHeroGridCategoryDeleted
 DOTAHeroGridCategoryNameChanged
 DOTAHeroGridClearQuickSearch
 DOTAHeroGridConfigChanged
-DOTAHeroGridConfigListChanged
 DOTAHeroGridConfigSelected
 DOTAHeroGridDeleteSelectedConfig
 DOTAHeroGridEditCategorySettings
@@ -50600,6 +50615,7 @@ DOTAHeroSetCarouselMouseOverStyle
 DOTAHeroSetCarouselSelectStyle
 DOTAHeroSetMouseOut
 DOTAHeroSetMouseOver
+DOTAHeroSetPicker
 DOTAHeroSetPickerActivated
 DOTAHeroSetPickerContextMenuShown
 DOTAHeroSetPickerSet
@@ -51022,7 +51038,6 @@ DOTALaneSelectionConVarsUpdated
 DOTALaneSuggestDebugPage
 DOTALaneSuggestHero
 DOTALargeModelLoadout
-DOTALargeModelLoadoutLoaded
 DOTALargeModelLoadoutModelChanged
 DOTALargeModelLoadoutSetParticleColor
 DOTALargeModelPreview
@@ -51276,7 +51291,6 @@ DOTAMusic.MainLoop
 DOTAMusic.StateLaningMusic
 DOTAMutations
 DOTAMyTeamInfosUpdated
-DOTAMysteryBoxAttempt
 DOTAMysteryBoxNext
 DOTAMysteryBoxPopup
 DOTANPXHomeWidget
@@ -51719,6 +51733,7 @@ DOTAPostGameShowKillsSelected
 DOTAPostGameShowMVPProgress
 DOTAPostGameShowNetWorthTooltip
 DOTAPostGameShowPersonalGraphTooltip
+DOTAPostGameShowPlayerItemsTooltip
 DOTAPostGameSupportItemsItemEntry
 DOTAPostGameSupportItemsRow
 DOTAPostGameSwitchGraph
@@ -52248,6 +52263,7 @@ DOTAShowArmoryItem
 DOTAShowArmoryItem( %llu, %u )
 DOTAShowArmoryPage
 DOTAShowArmoryPageCategory
+DOTAShowArmoryStickerCapsules
 DOTAShowAtlasTestPage
 DOTAShowAttributesHelpTooltip
 DOTAShowBPCrownfallArchivePage
@@ -52784,7 +52800,6 @@ DOTAShowTournamentDetailsPopup
 DOTAShowTreasurePage
 DOTAShowTreasurePageFocusItem
 DOTAShowTreasureStickerPage
-DOTAShowTreasureStickerPageCollection
 DOTAShowTreasuryPage
 DOTAShowTrendGraphTooltipV2
 DOTAShowTrophyDetails
@@ -53113,13 +53128,13 @@ DOTASurvivorsCheatsShowStats
 DOTASurvivorsCheatsSpawnEvent
 DOTASurvivorsCheatsToggleInvincible
 DOTASurvivorsCheatsWinGame
+DOTASurvivorsChooseDifficulty
 DOTASurvivorsChooseHero
 DOTASurvivorsDebugCreateSnapshot
 DOTASurvivorsDebugLoadSnapshot
 DOTASurvivorsGameMenuDifficultyScreen
 DOTASurvivorsGameMenuHeroScreen
 DOTASurvivorsGameMenuSelectTab
-DOTASurvivorsGoToDifficultySelect
 DOTASurvivorsGoToHeroSelect
 DOTASurvivorsHideInvalidMetaProgressionTooltip
 DOTASurvivorsHidePowerUpTooltip
@@ -53132,7 +53147,6 @@ DOTASurvivorsMetaDevResetUpgrades
 DOTASurvivorsMetaDevUnlockDifficulty
 DOTASurvivorsMetaProgressionUpgradeButtonHovered
 DOTASurvivorsMetaUpgradeAttribute
-DOTASurvivorsMinimap
 DOTASurvivorsOnCancel
 DOTASurvivorsRerollLevelUpChoices
 DOTASurvivorsResize
@@ -53415,9 +53429,9 @@ DOTATooltipTalentPickWin
 DOTATooltipTeamItemExplainer
 DOTATooltipTeamMiniProfile
 DOTATooltipTeammateItems
-DOTATooltipTopBarUltimate
 DOTATooltipTormentorTimer
 DOTATooltipTrophy
+DOTATooltipUnitBounty
 DOTATooltipUnitDamageArmor
 DOTATopBar
 DOTATopBarPlayer
@@ -54082,6 +54096,7 @@ DPCStandingsSnippet
 DPCTeamLogo
 DPC_POINT_STANDINGS
 DPS: %.2f
+DPaB
 DREAMCOIL
 DROWN
 DROWNRECOVER
@@ -55621,6 +55636,7 @@ EChallengeType
 EDH-DSS-DES-CBC3-SHA
 EDH-RSA-DES-CBC3-SHA
 EDIPARTYNAME
+EDOTAMysteryBoxAttempt
 EDynamicImageFormat
 EECDH
 EFeedElementType
@@ -56302,6 +56318,7 @@ Error: CDOTA_Hud_Main not initialized; please do this again later.\n
 Error: Grid nav cell size or offset is inconsistent with other grid navs!\n
 Error: Grid nav range lies outside the valid range for the game!\n
 Error: Grid nav world offset %.3f %.3f %.3f is not a multiple of the grid size %.1f!\n
+Error: dota_db_custom_lobby without a custom game lobby?
 Error: dota_spectator_skip expects the number of seconds (negative permitted) to skip in a replay.\n
 ErrorBox
 ErrorLoading
@@ -56322,7 +56339,6 @@ Ester Bot
 EstimateStripByteCounts
 Estimated wait time remaining is %02d:%02d.\n
 Ethreain \t\t\t
-Eusage:  dota_test_popup <popup id> [<int param>]\n
 EvLa
 Evaluate the curve at the specified input position
 Evaluate the gradient at a position between 0 and 1
@@ -56627,6 +56643,7 @@ FCVAR_UNLOGGED
 FCVAR_USERINFO
 FCVAR_VCONSOLE_SET_FOCUS
 FDA~i
+FDOTAShowTreasureStickerPageCollection
 FEATURED_GAMEMODE
 FEED_ALERT_FANTASY
 FEED_ALERT_PREDICTIONS
@@ -66034,13 +66051,17 @@ P-224
 P-256
 P-384
 P-521
+P08J
+P08N$@
 P0WonMatch
 P1Avatar
 P1WonMatch
 P1\t98"
+P2@K
 P2Avatar
 P2P ping to "%s". Timed out after %.2fms\n
 P5[1
+P6p8
 PAGN_4
 PAGrave
 PAIN: %2.2f\n
@@ -66915,6 +66936,7 @@ Pitch: %6.1f   Yaw: %6.1f %38s
 PivotPaint
 PixarLog
 PixelArtScaler
+Pj@K
 PlaceDecalEvent_t
 PlaceStickersButton
 PlaceholderText
@@ -68379,7 +68401,7 @@ R\n\vpredictions
 R\r1>Vp
 R\tV_iswcntrl
 R\vp!y
-R\vpT`
+R\vpD<
 R]Di
 R_T5Y
 Rad Guys
@@ -76240,6 +76262,7 @@ X\n\fSearchResult
 X\n\rkilling_blows
 X\n\tGraphData
 X\tQo
+X`hr@K
 Xd3h
 Xdota
 XfJ7
@@ -76333,6 +76356,7 @@ Z+5AS
 Z,google.golang.org/protobuf/types/known/anypb
 Z-google.golang.org/protobuf/types/known/typepb
 Z0000
+Z0\n9
 Z0zd
 Z1google.golang.org/protobuf/types/known/wrapperspb
 Z6google.golang.org/protobuf/types/known/sourcecontextpb
@@ -76523,15 +76547,17 @@ Z~wl
 \fBlessingID_t
 \fCEntityIndex"
 \fKS1
+\fPaB
 \fW9c
 \fXu"L
+\f\fPaB
+\f\nPaB
 \f\tV_acosd
 \f]ne3
 \fdhWTh
 \fevents.proto
 \fevents.proto"
 \fiaR
-\fp\vPt
 \ful2
 \fy&3Gl
 \l:ArR
@@ -77069,9 +77095,9 @@ Z~wl
 \nLeagueID_t"
 \nLeagueID_t"9\n#CMsgDOTACompendiumSelectionResponse
 \nLeagueID_t"C\n-CMsgDOTACompendiumRemoveAllSelectionsResponse
+\nPaB
 \nPlayerID_t
 \nPlayerID_t"
-\nPz5
 \nSimulating Entities:\n\n
 \nUnknown reward type '%s' for action '%s' at score '%s'
 \n\fAsyncRewards
@@ -77454,7 +77480,6 @@ Z~wl
 \n\nOAuthToken
 \n\nPARTY_FULL
 \n\nPrediction
-\n\nPz5
 \n\nROLL_STATS
 \n\nResultCode
 \n\nSeriesInfo
@@ -78615,13 +78640,12 @@ Z~wl
 \r"b\n CMsgDOTASubmitPlayerAvoidRequest
 \r@h!Aq8
 \rB6uZ
-\rCDOTA_Modifier_Radar_Thinker
 \rCandyShopID_t
 \rCandyShopID_t"
 \rCandyShopID_t"Y\n+CMsgClientToGCCandyShopDevResetShopResponse
 \rCandyShopID_t"^\n0CMsgClientToGCCandyShopDevClearInventoryResponse
 \rCandyShopID_t"_\n1CMsgClientToGCCandyShopDevShuffleExchangeResponse
-\rDOTAPostGameShowPlayerItemsTooltip
+\rDOTABattleReportDBPageChangeColumns
 \rGuildRoleID_t
 \rGuildRoleID_t"
 \rHeroFacetID_t
@@ -78676,6 +78700,7 @@ Z~wl
 \rjwB\t
 \roKK
 \rrCj
+\rseasonal_summon_cny_tree
 \rstyle_index_t
 \rusercmd.proto"
 \sG7tPD
@@ -78730,8 +78755,8 @@ Z~wl
 \tC_BaseEntity::Instance([%s]->InVRContinuous()) != [%s]\n
 \tC_BaseEntity::Instance([%s]->InVRContinuous()) == [%s]\n
 \tCloseOpportunity()\n
+\tDC_DOTA_Ability_KeeperOfTheLight_IlluminateEnd
 \tDd22
-\tDm_vCastLoc
 \tEntity param "%s" returned NULL.\n
 \tFClassnameIs( [%s] 
 \tFailed delayed player swap!
@@ -79153,8 +79178,9 @@ _wjb
 _xU`u
 _}eOk
 `28)fk
+`2PaB
 `3?New@Array@v8@@SA?AV?$Local@VArray@v8@@@2@PEAVIsolate@2@H@Z
-`6PL
+`:PaB
 `:zQF
 `D$daM-l
 `DZG
@@ -79162,6 +79188,7 @@ _}eOk
 `H(hqA1p
 `ITS
 `VX:H
+`ZPaB
 `\n+k_EHeroSelectionText_CaptainsMode_YouSelect
 `\n+k_EHeroSelectionText_RandomDraft_HeroReview
 `\n\rvector_values
@@ -79187,6 +79214,7 @@ a:typeparam
 a;Tg
 a@XZ
 aA0k
+aBv$@
 aD/x
 aDSS
 aECDH
@@ -80537,7 +80565,6 @@ a|gj(
 a|w9i
 b <= sizeof ctx->buf
 b <= sizeof ctx->final
-b oE
 b0FCLlvCRJw
 b0M%
 b2i_PVK_bio
@@ -80584,8 +80611,8 @@ bMutedText
 bMutedVoice
 bN.l
 bOverheadEffect
+bPaB
 bPb:L7X)
-bPoE
 bReturnUnslowed
 bSellable
 bSh&+
@@ -93455,6 +93482,7 @@ maps/scenes/crownfall/survivors_arena/world_physics.vmdl
 maps\
 mapscale
 mapscroll
+maptexture
 marci_bodyguard
 marci_companion_run
 marci_grapple
@@ -97539,7 +97567,6 @@ modifier_troll_warlord_fervor
 modifier_troll_warlord_melee
 modifier_troll_warlord_rampage
 modifier_troll_warlord_switch_stance
-modifier_troll_warlord_whirling_axes_blind
 modifier_troll_warlord_whirling_axes_melee
 modifier_troll_warlord_whirling_axes_slow
 modifier_truesight
@@ -98554,6 +98581,7 @@ nonRepudiation
 non_default
 non_priority_team_choice
 nonameplate
+nonce
 nonce mismatch
 nonce not returned
 none 
@@ -99647,8 +99675,7 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p0J0
-p0j`i8
+p2@K
 p2p_ping could not convert "%s" to a CPeerToPeerAddress\n
 p2p_ping could not ping "%s" because they are an unknown peer\n
 p2p_ping requires a destination address\n
@@ -99661,7 +99688,6 @@ p4 edit ..\panorama\videos\heroes\%s.webm\n
 p4Z3
 p5Z3
 p5\nL,
-p6 Q
 p618
 p>?Set@Template@v8@@QEAAXV?$Local@VName@v8@@@2@V?$Local@VData@v8@@@2@W4PropertyAttribute@2@@Z
 p@0pqE5tsO?|1
@@ -101360,6 +101386,7 @@ payload + padding <= 16381
 payment gateway capabilities
 payment_row_usd
 payment_us_usd
+pb@K
 pbeWithMD2AndDES-CBC
 pbeWithMD2AndRC2-CBC
 pbeWithMD5AndCast5CBC
@@ -101637,6 +101664,7 @@ pitchaxis
 pitchmax
 pitchmin
 pixelAspectRatio
+pj@K
 pkL'
 pkcs
 pkcs decoding error
@@ -102679,10 +102707,12 @@ rFur`7\t
 rIwdzZiHJbg
 rL[i+
 rOtk
+rPaB
 rRfKR
 rX&O0
 rZ1VwGf5
 rZPM
+r\fpD<
 r\n4k_EHeroSelectionText_AllDraft_TheyPicking_LosingGold
 r\n\nHuntReward
 r\n\vstart_index
@@ -102701,7 +102731,6 @@ r_dota_normal_maps 1
 r_dota_shadows 1
 r_printdecalinfo
 r_ssao 1
-r`nE
 rad2deg
 radar_cooldown
 radar_icon
@@ -103720,7 +103749,7 @@ rows_completed
 royal_jelly
 royal_jelly1
 royalblue
-rp?D
+rp`C
 rsa not implemented
 rsa operations not supported
 rsa routines
@@ -103839,8 +103868,8 @@ s6!TYK
 s=%(nh0
 s=QT
 s?uj
+s@   %d: '%s'\n
 s@'0q
-s@m_pManager
 sC3pcG'd
 sClaimRewardText
 sComicName
@@ -104363,7 +104392,6 @@ seasonal_firecrackers
 seasonal_party_hat
 seasonal_reward_line_event
 seasonal_summon_cny_balloon
-seasonal_summon_cny_tree
 seasonal_summon_dragon
 seasonal_summon_penguin
 seasonal_summon_snowman
@@ -109020,6 +109048,7 @@ usage:  chat_join <channel name>\n
 usage:  chat_join_hltv <matchid>\n
 usage:  chat_leave <channel name>\n
 usage:  chat_say <user channel name> <message>\n
+usage:  dota_test_popup <popup id> [<int param>]\n
 usage:  stat_dropdown <category name>\n
 usage: dota_contextual_tips_queue_custom_tip <tip_text_locstring> [tip_annotation_locstring] [tip_display_duration]
 usage: dota_contextual_tips_queue_tip_id <tip_id>
@@ -110043,6 +110072,7 @@ z(ov
 z-index
 z-offset
 z/B,9d
+z0\n9
 z<d2
 z>Hz
 zF):O4

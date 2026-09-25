@@ -1,5 +1,6 @@
  !"#$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
- (08@HPXb \n
+ (08@HPX`j@
+ (08@HPZ@
 %%s%%s%%d:  sv[%%%d.%ds] cl[%%%d.%ds]\n
 %s:  IGameSystem::LoopActivateAllSystems {\n
 %s:  IGameSystem::LoopDeactivateAllSystems {\n
@@ -96,14 +97,15 @@
 .?AVISequence@@
 .?AVISinglePlayerSharedMemory@@
 .?AVISource2Host@@
-0:px\n
-0TL\r
-0pP\r
-2\vpTL\r
-2\vppP\r
-8B@R
+08@HR@
+08B@
+0T4\r
+0vT@\r
+20y\n
+2\vpdG
 ?expf
-@HPX`hv
+@08NT@\r
+@HPX`hv0
 APPSYSTEM: In ConnectGameInterfaces(), s_nRegistrationCount is %d!\n
 APPSYSTEM: In ConnectGameInterfaces(), tried to use different connection modes!\n
 APPSYSTEM: In ReconnectGameInterface(), tried to use different connection modes!\n
@@ -131,15 +133,13 @@ IND)ind)"
 LightmapUV
 LightmapUVW
 OverlayProjectionDirection
-P08@J \n
-P08Jp\n
-PTL\r
+P08J \v
+P08NT@\r
+PT4\r
 PerVertexLighting
 PivotPaint
 PropWorldOrigin
 RSDS5
-R\fppP\r
-R\vpTL\r
 Shared memory space %s (%i) still has %i references.\n
 System %s failed to init\n
 TanFrameQuat
@@ -151,10 +151,10 @@ VertexGenericIntegerData
 VertexPaintBlendParams
 VertexPaintBlendParams1
 VertexPaintTintColor
-\fpTL\r
+X`hr@
 \ng_flConfigMaxCoord
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\n\v\n\v\n\v\n\v\n\v\n\v\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
-\vpTL\r
+aBvT@\r
 bad 
 bentnormal
 blendindices
@@ -166,18 +166,17 @@ fast
 footstep_modifier
 forcing demo version '%s' : %s\n
 host.dll
-hpz \n
 lowprecisionuv
 lowprecisionuv1
 maps/%s.trm
 maps/%s.vhcg
 medium
 optionallycompressedtangentframe
-p2@R
-pTL\r
+p08@H^T@\r
+p0j 
+pT4\r
+pnT@\r
 posxyz
-ppP\r
-r\vppP\r
 runleft
 runright
 scripts/surfaceproperties_footsteps.txt

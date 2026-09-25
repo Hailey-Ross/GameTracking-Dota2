@@ -6986,6 +6986,7 @@ $name_$id
 2\nYH
 2\r?hideEvent@QWidget@@MEAAXPEAVQHideEvent@@@Z
 2\v?event@QAction@@MEAA_NPEAVQEvent@@@Z
+2\vpL
 2_BONE_IK
 2aboutToShow()
 2changed()
@@ -12565,6 +12566,7 @@ R\n@Z*oG8
 R\r?hitTestComplexControl@QProxyStyle@@UEBA?AW4SubControl@QStyle@@W4ComplexControl@3@PEBVQStyleOptionComplex@@AEBVQPoint@@PEBVQWidget@@@Z
 R\t?canFetchMore@QAbstractItemModel@@UEBA_NAEBVQModelIndex@@@Z
 R\v?event@QMenuBar@@MEAA_NPEAVQEvent@@@Z
+R\vpL
 R^?supportedDropActions@QStandardItemModel@@UEBA?AV?$QFlags@W4DropAction@Qt@@@@XZ
 R_T5Y
 Radial Basis Function Type
@@ -14842,7 +14844,6 @@ extrude_twist
 f?3333{
 f@ffff
 fH5\n
-fO[k
 fQo@
 fWkrB
 f\n?dragEnterEvent@QAbstractScrollArea@@MEAAXPEAVQDragEnterEvent@@@Z
@@ -14943,6 +14944,7 @@ fixed_height
 fixed_size
 fixed_width
 fj".T\CMek2>x
+fk[k
 fl_override_timing_value
 flagchoices
 flamingo
@@ -15935,6 +15937,7 @@ p=lb@
 p=zC
 p=zo
 p=zw
+p>4[k
 p?}WF
 p@33333
 pAffff

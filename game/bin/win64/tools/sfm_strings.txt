@@ -107,6 +107,7 @@
 !?triggered@QAction@@QEAAX_N@Z
 !\f?focusNextPrevChild@QScrollArea@@UEAA_N_N@Z
 !\r?end@QListData@@QEBAPEAPEAXXZ
+!\tV_exp2f
 !root
 " ?timerEvent@QListView@@MEAAXPEAVQTimerEvent@@@Z
 ""?updateEditorGeometry@QStyledItemDelegate@@UEBAXPEAVQWidget@@AEBVQStyleOptionViewItem@@AEBVQModelIndex@@@Z
@@ -183,6 +184,7 @@
 "X?setAlpha@QColor@@QEAAXH@Z
 "\f?focusNextPrevChild@QTextBrowser@@MEAA_N_N@Z
 "\n?ascent@QFontMetrics@@QEBAHXZ
+"\tV_expd
 "b}b*XhUu
 "channels" attribute not found in the header.
 "compression" attribute not found in the header.
@@ -206,7 +208,6 @@
 #\f?focusNextPrevChild@QTextEdit@@MEAA_N_N@Z
 #\n?columnCount@QSortFilterProxyModel@@UEBAHAEBVQModelIndex@@@Z
 #\r?hide@QWidget@@QEAAXXZ
-#\tV_exp2f
 $#?windowIcon@QWidget@@QEBA?AVQIcon@@XZ
 $COLORWARP
 $ChamberLight
@@ -241,7 +242,6 @@ $SlideLight
 $WristIconFrame
 $[?setRange@QDoubleValidator@@UEAAXNNH@Z
 $\f?focusNextPrevChild@QWidget@@MEAA_N_N@Z
-$\tV_expd
 $cloakfactor
 $fullycloakedrefractfactor
 $keys
@@ -9282,6 +9282,7 @@ I[?setRgbF@QColor@@QEAAXNNNN@Z
 I\n?compare@QString@@QEBAHAEBV1@W4CaseSensitivity@Qt@@@Z
 I\r?endsWith@QString@@QEBA_NVQChar@@W4CaseSensitivity@Qt@@@Z
 I\r?hitButton@QCheckBox@@MEBA_NAEBVQPoint@@@Z
+I\tV_isinfd
 IdleAnim
 If "Trim Type" is "Trim To Shot With Handles", this value is added to "Shot End Frame" to determine the last frame of exported animation
 If "Trim Type" is "Trim To Shot With Handles", this value is subtracted from "Shot Start Frame" to determine the first frame of exported animation
@@ -9490,7 +9491,6 @@ KYF>
 KYv?
 K\r?hitButton@QRadioButton@@MEBA_NAEBVQPoint@@@Z
 K\t?canConvert@QVariant@@QEBA_NH@Z
-K\tV_isinfd
 K\v?event@QLineEdit@@UEAA_NPEAVQEvent@@@Z
 Key Bindings
 KeyState
@@ -12658,7 +12658,7 @@ ZoomOutFromClip
 \f\n?deselect@QLineEdit@@QEAAXXZ
 \f\r?heightForWidth@QFormLayout@@UEBAHH@Z
 \f\t?beginReadArray@QSettings@@QEAAHAEBVQString@@@Z
-\f\tV_acosd
+\f\tV_asind
 \game\
 \n ?textValue@QInputDialog@@QEBA?AVQString@@XZ
 \n,?sReflection@FbxSurfaceMaterial@fbxsdk@@2PEBDEB
@@ -12719,6 +12719,7 @@ ZoomOutFromClip
 \n?editorEvent@QItemDelegate@@MEAA_NPEAVQEvent@@PEAVQAbstractItemModel@@AEBVQStyleOptionViewItem@@AEBVQModelIndex@@@Z
 \n?editorEvent@QStyledItemDelegate@@MEAA_NPEAVQEvent@@PEAVQAbstractItemModel@@AEBVQStyleOptionViewItem@@AEBVQModelIndex@@@Z
 \n\r?heightForWidth@QBoxLayout@@UEBAHH@Z
+\n\tV_acosd
 \nfinished rendering %d frames\n
 \ng_flConfigMaxCoord
 \ng_flToolsDefaultFarZ
@@ -12805,7 +12806,6 @@ ZoomOutFromClip
 \tNAN encountered in element '%s' guid %s attribute '%s'!\n
 \tSubSystem / Rev:     0x%x / 0x%x\n
 \tT?parent@QWindow@@QEBAPEAV1@XZ
-\tV_asind
 \tV_atan2d
 \tV_atand
 \tV_atanf
@@ -12864,6 +12864,7 @@ ZoomOutFromClip
 ]?sharedPainter@QPaintDevice@@MEBAPEAVQPainter@@XZ
 ]?staticMetaObject@QWindow@@2UQMetaObject@@B
 ]\r?horizontalOffset@QListView@@MEBAHXZ
+]\tV_log2f
 ]\v?currentDateTime@QDateTime@@SA?AV1@XZ
 ]\v?event@QShortcut@@MEAA_NPEAVQEvent@@@Z
 ^#?([0-9A-Fa-f]{6}|[0-9A-Fa-f]{3})
@@ -12874,6 +12875,7 @@ ZoomOutFromClip
 ^L7B
 ^Q?lighter@QColor@@QEBA?AV1@H@Z
 ^\r?horizontalOffset@QTableView@@MEBAHXZ
+^\tV_logd
 _CustomCommand
 _CustomCommand%d
 _Q?lightness@QColor@@QEBAHXZ
@@ -12882,7 +12884,6 @@ _TIFFSetupFieldInfo
 _TIFFVGetField
 _TIFFVSetField
 _\r?horizontalOffset@QTreeView@@MEBAHXZ
-_\tV_log2f
 _\v??GFbxVector4@fbxsdk@@QEBA?AV01@AEBV01@@Z
 _\v?event@QSlider@@UEAA_NPEAVQEvent@@@Z
 _]?source@QDropEvent@@QEBAPEAVQObject@@XZ
@@ -12919,7 +12920,6 @@ _wjb
 `?value@QColor@@QEBAHXZ
 `?valueF@QColor@@QEBANXZ
 `Q?lightnessF@QColor@@QEBANXZ
-`\tV_logd
 `\v?event@QSpinBox@@MEAA_NPEAVQEvent@@@Z
 a1?I.
 a:fulltype
@@ -13167,6 +13167,7 @@ cR?metaObject@QDrag@@UEBAPEBUQMetaObject@@XZ
 cUt : lower-mid back unrounded vowel
 c\r?entryList@QDir@@QEBA?AVQStringList@@V?$QFlags@W4Filter@QDir@@@@V?$QFlags@W4SortFlag@QDir@@@@@Z
 c\r?horizontalScrollBar@QAbstractScrollArea@@QEBAPEAVQScrollBar@@XZ
+c\tV_modfd
 c\v?event@QSplitterHandle@@MEAA_NPEAVQEvent@@@Z
 cable_static
 camera
@@ -13461,7 +13462,6 @@ eG??5
 eGenerateResourceNameFromFileName: Invalid extension specified in file name "%s"!\n
 e\f?foregroundRole@QWidget@@QEBA?AW4ColorRole@QPalette@@XZ
 e\n?dragEnterEvent@QAbstractItemView@@MEAAXPEAVQDragEnterEvent@@@Z
-e\tV_modfd
 e\v?event@QStatusBar@@MEAA_NPEAVQEvent@@@Z
 easein
 easeinout
@@ -14109,6 +14109,7 @@ jMS?Ttd
 jMc?
 jY?setFamily@QFont@@QEAAXAEBVQString@@@Z
 jZ?setMimeData@QDrag@@QEAAXPEAVQMimeData@@@Z
+j\tV_powd
 j\v??HFbxVector4@fbxsdk@@QEBA?AV01@AEBV01@@Z
 j\v?event@QTextBrowser@@MEAA_NPEAVQEvent@@@Z
 jitteriterations
@@ -14166,7 +14167,6 @@ l7?N
 lO?insertRow@QStandardItem@@QEAAXHAEBV?$QList@PEAVQStandardItem@@@@@Z
 lR?metaObject@QIntValidator@@UEBAPEBUQMetaObject@@XZ
 l\n?dragEnterEvent@QLineEdit@@MEAAXPEAVQDragEnterEvent@@@Z
-l\tV_powd
 l\ti?e
 l\v?event@QToolBar@@MEAA_NPEAVQEvent@@@Z
 l_?toString@QKeySequence@@QEBA?AVQString@@W4SequenceFormat@1@@Z
@@ -15433,6 +15433,7 @@ xOffset
 xScale
 xSpeed
 x\n?dragLeaveEvent@QListView@@MEAAXPEAVQDragLeaveEvent@@@Z
+x\tV_sind
 x\v?changeOverrideCursor@QGuiApplication@@SAXAEBVQCursor@@@Z
 xxxx
 xy?P
@@ -15455,7 +15456,6 @@ zO?insertText@QTextCursor@@QEAAXAEBVQString@@AEBVQTextCharFormat@@@Z
 zU?qt_metacall@QDrag@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 z\n?connectNotify@QFutureWatcherBase@@MEAAXAEBVQMetaMethod@@@Z
 z\n?dragLeaveEvent@QTextEdit@@MEAAXPEAVQDragLeaveEvent@@@Z
-z\tV_sind
 z\v?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
 z\v?eventFilter@QDialog@@MEAA_NPEAVQObject@@PEAVQEvent@@@Z
 zero_value

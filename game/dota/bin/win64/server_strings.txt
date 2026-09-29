@@ -323,6 +323,7 @@
 !\n\tgame_mode
 !\n\tstat_type
 !\n\vping_source
+!\tV_exp2f
 !absorigin
 !activator
 !any
@@ -652,7 +653,6 @@
 #\n\rinterior_item
 #\n\tnode_type
 #\t#\v#'#)#/#3#5#E#Q#S#Y#c#k#
-#\tV_exp2f
 #\v+(bF&drJ:x#
 #dota_chatwheel_header_international2018_sounds_desc
 #dota_hud_error_ability_disabled_by_root
@@ -1806,6 +1806,7 @@ $hRh
 '\n\nitem_alert
 '\n\tcontracts
 '\n\tdata_type
+'\tV_ferror
 'dota_gcmessages_common_craftworks.proto
 'g0dW
 'id' or 'name' missing
@@ -2668,7 +2669,6 @@ $hRh
 )\n\tvictim_id
 )\n\vAbilityList
 )\n\vcontract_id
-)\tV_ferror
 )binary_zstd
 )fuG
 )haI
@@ -2694,6 +2694,7 @@ $hRh
 *DEAD*(TEAM)
 *DISABLED*
 *O\n\fDOTA_CM_PICK
+*Pkq
 *UlS
 *Y$ve
 *\fhsD
@@ -23420,7 +23421,7 @@ $hRh
 /'/)/A/E/K/M/Q/W/o/u/}/
 /2x1
 /5dJ
-/Citem_recipe_cyclone
+/Citem_cyclone
 /RIv
 /\*<>{}[]() 
 /\n eligible_for_periodic_adjustment
@@ -23867,6 +23868,8 @@ $hRh
 2?.CMsgClientToGCMonsterHunterDevGrantMaterialsResponse.EResponse"u\n\tEResponse
 2?.CMsgClientToGCRemoveItemAttributeResponse.ERemoveItemAttribute
 2@.CMsgClientToGCMonsterHunterDevModifyHeroCodexResponse.EResponse"u\n\tEResponse
+2@3m
+2@xn
 2C.CMsgClientToGCOverworldDevGrantFortuneTellerCoinResponse.EResponse"
 2C.CMsgClientToGCOverworldGetDynamicImageResponse.EDynamicImageFormat
 2C.CMsgServerToGCRequestPlayerRecentAccomplishmentsResponse.EResponse
@@ -23985,12 +23988,10 @@ $hRh
 2\r.DOTA_GC_TEAM:
 2\r.ELeaguePhase
 2\rlhp
-2\vpt)
 2^pV
 2_bot
 2_mid
 2_top
-2`oq
 2a"l
 2bT~
 2cb:RO
@@ -23999,7 +24000,6 @@ $hRh
 2nIg
 2ndry
 2p"6
-2p6m
 2prB
 3%3+3/353A3G3[3_3g3k3s3y3
 31tPR
@@ -24161,6 +24161,7 @@ $hRh
 4\n\vPersonaName
 4\n\vall_members
 4\re4h#
+4\tV_fread
 4\vU44
 4_bot
 4_top
@@ -24257,7 +24258,7 @@ $hRh
 65535"j\n
 65535B$
 666666666666666666666666666666666666666666666666\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\.\ssl\s3_enc.c
-6666666666666666pine_cone_shield_bash
+6666666666666666item_aghsfort_travel_boots_2
 67-s
 6H,N
 6O|T%
@@ -24300,7 +24301,6 @@ $hRh
 6\n\nevent_data
 6\n\rTokenQuantity
 6\n\tstructure
-6\tV_fread
 6_wEX
 6afD
 6bX+
@@ -24403,7 +24403,6 @@ $hRh
 8<pl
 8= zp
 8A6j
-8B`oq
 8DemoFile
 8GZS
 8SIffK5W
@@ -24461,6 +24460,7 @@ $hRh
 8\n\rready_members
 8\n\rsubscribe_msg
 8\rXj
+8\tV_fscanf
 8\v8!83858A8G8K8S8W8_8e8o8q8}8
 8]Vc2
 8]Xj
@@ -24527,16 +24527,17 @@ $hRh
 9r#xV
 : unrecognized parent "%s"\n
 :':+:1:K:Q:[:c:g:m:y:
-:0Xq
-:0dq
+:04m
+:0Vq
 :4\n\vdescription
 :9\n\tkey_field
 :BAD OBJECT
 :Blowfish part of OpenSSL 1.0.2j  26 Sep 2016
 :EXTERNAL TYPE %s\n
+:ExternalAnimGraphInactiveBehavior_t
 :LBN
-:Motor Services
 :NAy
+:PVq
 :QYJ
 :Vlq
 :\n5kKillEaterEventType_Brewmaster_KillsDuringPrimalSplit
@@ -24574,12 +24575,13 @@ $hRh
 :\n\tdata_bits
 :\n\vmap_variant
 :\n\vpredictions
-:\tV_fscanf
 :cwd|
 :eaI
 :gN(dq
 :mIR
+:pVq
 :parsed on tick %d of %d got %d new commands through command number %d [%s]\n
+:pbq
 :w4v
 ;!;#;-;9;E;S;Y;_;q;{;
 ;"lY7
@@ -24771,7 +24773,7 @@ $hRh
 >fN46R^
 >l\rur
 >p00<
->special_bonus_unique_underlord_9
+>special_bonus_unique_ancient_apparition_7
 >yhP
 >ztq
 ?CColorGradient
@@ -24805,6 +24807,7 @@ $hRh
 ?ffffff
 ?gwL
 ?jOb
+?m_OnTowerKilled
 ?srJO
 ?tya
 ?uWS
@@ -24812,12 +24815,14 @@ $hRh
 @!@%@+@1@?@C@E@]@a@g@m@
 @0pp
 @333?
+@:P2m
 @@map tree
 @BH]f
 @BoneSetup
-@HPX`hv`n
+@HPX`hv
 @Invalid attach type specified for particle effect anim event. Trying to spawn effect '%s' on model %s\n
 @MfKZ
+@N0o
 @Pgl
 @Pu\rm
 @Requests the metadata that was generated from a specified fetch.
@@ -24841,7 +24846,8 @@ $hRh
 @dKb]
 @end_camera
 @fff>fff>fff>fff>
-@fff@CFoWRevealerEntity_API
+@fff@dota_allow_orders_while_paused
+@ht0
 @i1V
 @n2w
 @player_start_teleport_destination
@@ -25246,7 +25252,6 @@ A\n\vHeroAbility
 A\n\vdescriptors
 A\n\vdiagnostics
 A\rjW
-A\v:pmq
 AbW_
 Abilities
 AbilitiesEntry
@@ -26054,6 +26059,7 @@ BAddToMessage
 BAsyncSend
 BAsyncSendProto
 BC (default)
+BDisplay status of the query cache (client only)
 BEOS_BIND_FUNC
 BEOS_BIND_VAR
 BEOS_LOAD
@@ -26310,7 +26316,6 @@ Batched Snapshot response without corresponding waiting handle! (%d)
 BattlePointsPerContractMultipler
 BcT`
 Bd]U
-Bdebug - disable trace query cache
 Became invisible.
 Begin Async Server Work
 Begin an iteration over the list of entities
@@ -28364,6 +28369,7 @@ CFoW::GetTileLocationVisibilityDegree: Not Initialized!\n
 CFoW::SolveVisibility
 CFoW::UpdateViewerSize
 CFoWBlockerRegion_API
+CFoWRevealerEntity_API
 CFogControllerSetLerpValues
 CFuncMoveLinearNavMovableThink
 CFuncMoveLinearNavObstacleThink
@@ -31189,6 +31195,7 @@ DAMAGE_TYPE_Pure
 DAZZLEWEAVE
 DBDc
 DBF-
+DCDOTA_Modifier_Item_Heavy_Blade
 DEAFENINGBLAST
 DEBRIS
 DEBUGGING: Bad Guys Avoidance\n
@@ -33350,7 +33357,6 @@ Found the queued event %ld! Let's do this!\n
 Found\n
 FourVectors
 FowViz toggling '%s'\n
-FpFilter
 Frac
 Fractional component (ie. returns 0.34 for 12.34)
 Frame %8d/tick %8d: frame out of budget (%.2fms > %.2fms)\n
@@ -38098,6 +38104,7 @@ LOTUS_POOL
 LT[N
 LXKQ
 LY\r5
+L\f@3m
 L\n\rcontributions
 LadderConnect
 LagCompensate
@@ -39831,9 +39838,10 @@ P-224
 P-256
 P-384
 P-521
-P08J
+P08J04m
 P1\t98"
 P5[1
+P60b
 PAGN_4
 PARALYZE
 PARAMETER NAME: %s | OPTIONAL: %s, TYPE: %s, BOUND: %s\n
@@ -39850,7 +39858,7 @@ PARTICLE_REPLACE_SPELL_EFFECT
 PASSABLE
 PATH
 PATHBYADDR
-PAmodifier_harpy_scout_take_off
+PAmodifier_greevil_miniboss_red_overpower
 PBE-MD2-DES
 PBE-MD2-RC2-64
 PBE-MD5-DES
@@ -40626,7 +40634,6 @@ RC5-CFB
 RC5-ECB
 RC5-OFB
 RC5_CTRL
-RCAllows minigames to work on single player games
 RD6O
 RDNS
 RE!r
@@ -40778,7 +40785,6 @@ RUNE_STATUS_MISSING
 RUNE_STATUS_UNKNOWN
 RUNE_WATER
 RUNE_XP
-R\fpt)
 R\n\fActivityInfo
 R\r1>Vp
 R\vp!y
@@ -45600,6 +45606,7 @@ XYD%
 X\n summary_description_embed_values
 X\n\rkilling_blows
 X\tQo
+X\tV_localeconv
 Xbox VDP is not supported on this platform.
 Xd3h
 XfJ7
@@ -45667,7 +45674,6 @@ ZXF,`i
 Z\n\fPositionPair
 Z\n\fSubChallenge
 Z\n\nmap_values
-Z\tV_localeconv
 Zd[w
 Ze2Zh@
 Zero Pose Task
@@ -45757,7 +45763,6 @@ Z~wl
 \43n7
 \5Ok\n
 \6Sp
-\Poq
 \SO7tsG
 \U%04lX
 \W%08lX
@@ -45774,7 +45779,7 @@ Z~wl
 \fW9c
 \fXu"L
 \f\rbad allocation
-\f\tV_acosd
+\f\tV_asind
 \f]ne3
 \fdhWTh
 \fevents.proto"
@@ -45984,12 +45989,12 @@ Z~wl
 \n.steammessages_unified_base.steamworkssdk.proto
 \n/CMsgServerToGCCompendiumChosenInGamePredictions
 \n/CMsgServerToGCCompendiumInGamePredictionResults
+\n04m
 \n0CMsgClientToGCMonsterHunterGiftMaterialsResponse
 \n0CMsgClientToGCOverworldDevClearInventoryResponse
 \n0CMsgClientToGCSurvivorsGameTelemetryDataResponse
 \n0CMsgGCtoGCAssociatedExploiterAccountInfoResponse
-\n0Wq
-\n0tq
+\n0Uq
 \n1CDOTAClientMsg_AbilitySpecificChannelRequiresHalt
 \n1CDOTAUserMsg_MonsterHunter_InvestigationGameState
 \n1CMsgClientToGCFightingGameAnswerChallengeResponse
@@ -46062,9 +46067,8 @@ Z~wl
 \nLeagueID_t"
 \nLeagueID_t"M\n;CMsgServerToGCCloseCompendiumInGamePredictionVotingResponse
 \nLeagueID_t"N\n$CMsgServerToGCGetCheerConfigResponse
-\nPWq
-\nPXq
-\nPjq
+\nPUq
+\nPcq
 \nPlayerID_t
 \nPlayerID_t"
 \nSimulating Entities:\n\n
@@ -46503,7 +46507,6 @@ Z~wl
 \n\nnpc_dialog
 \n\norder_type
 \n\nother_gold
-\n\np6m
 \n\npackage_id
 \n\nparty_game
 \n\npersona_id
@@ -46830,6 +46833,7 @@ Z~wl
 \n\tTE_FizzId
 \n\tTeamState
 \n\tUpdateFan
+\n\tV_acosd
 \n\tabilities
 \n\taccountid
 \n\taction_id
@@ -47270,10 +47274,8 @@ Z~wl
 \ng_VProfSignalSpike
 \ng_flConfigMaxCoord
 \ngrant_periodic_action '%s' doesn't specify an action to grant
-\np6m
-\npVq
-\npXq
-\npjw
+\npUq
+\nprq
 \nqYu
 \ntM(ie-V
 \r!\r+\r-\r=\r?\rO\rU\ri\ry\r
@@ -47310,7 +47312,6 @@ Z~wl
 \r\n\tkManaCost
 \r\n\tlast_hits
 \r\n\tnet_worth
-\r\nnexttoken
 \r\vpL1
 \r^mX
 \ri1I
@@ -47362,7 +47363,6 @@ Z~wl
 \tTHREAT NOW %.2f (TGT %.2f)\n
 \tText
 \tTotals: %d/%d (%.3f%%) EvaluatePoses Used, %dx using bones without eval [Ave Eval/tick: %.3f]\n
-\tV_asind
 \tV_atand
 \tV_cosd
 \tV_strupper_fast
@@ -47399,6 +47399,7 @@ Z~wl
 \vNCE\v
 \vUY6[E
 \v\n\tRemoveFan
+\v\nnexttoken
 \v\vTSG
 \vj0k
 \vjC7
@@ -47408,6 +47409,7 @@ Z~wl
 ]G\nY1
 ]MSd
 ][LK~lO
+]\tV_log2f
 ^.om5r
 ^DnJ
 ^DqPt
@@ -47429,7 +47431,6 @@ _OnLogicBranchChanged
 _OnLogicBranchRemoved
 _YWL
 _\n\fmap_mappings
-_\tV_log2f
 __CursorQueue__
 __DefaultScriptThinkContext
 __DumpScope
@@ -47479,7 +47480,8 @@ _turbo
 _xU`u
 _}eOk
 `28)fk
-`6Pc
+`:02m
+`:Pbq
 `:zQF
 `D$daM-l
 `DZG
@@ -47489,6 +47491,7 @@ _}eOk
 `\n\rvector_values
 `fPw.\vM
 `h9T~
+`ht0
 `o_je
 `yNT
 a null shared library handle was used
@@ -48462,6 +48465,7 @@ b0M%
 b2i_PVK_bio
 b5o-
 b=G3
+b@xn
 bAggro
 bAllChat
 bAllow
@@ -48621,7 +48625,6 @@ b\vP\n0
 b\vp\n0
 b\vp\nP
 b]jY
-b`oq
 backdoor_protection
 backdoor_protection_in_base
 backend_response
@@ -54861,7 +54864,6 @@ item_aghanims_shard_roshan
 item_aghanims_tome
 item_aghsfort_refresher_shard
 item_aghsfort_travel_boots
-item_aghsfort_travel_boots_2
 item_ammo_ar2
 item_ammo_ar2_large
 item_ammo_pistol
@@ -54950,7 +54952,6 @@ item_crippling_crossbow.target
 item_crown
 item_crozier.cast
 item_crozier.pulse
-item_cyclone
 item_dagger_of_ristul
 item_dagon
 item_dagon_2
@@ -55297,6 +55298,7 @@ item_recipe_consecrated_wraps
 item_recipe_cornucopia
 item_recipe_crellas_crozier
 item_recipe_crimson_guard
+item_recipe_cyclone
 item_recipe_dagon
 item_recipe_dagon_2
 item_recipe_dagon_3
@@ -55660,6 +55662,7 @@ jTuf
 jV*d9O
 j[6Z
 j\n\nOutputItem
+j\tV_powd
 j\vIP{s
 jackpots
 jaja
@@ -55686,7 +55689,6 @@ joint_friction
 jointfriction
 jolt_bonus_cast_range
 joy_autoaimdampen
-jpWq
 json
 jt(@L
 jtv2@
@@ -56062,7 +56064,6 @@ lDcW
 lM2p
 l\n\tDimension
 l\n\vPreviewItem
-l\tV_powd
 lag compensation: Lag compensation hitboxes lerp fraction was %.4f\n
 lag_compensation_time
 laguna
@@ -58307,7 +58308,6 @@ modifier_greevil_miniboss_green_overgrowth
 modifier_greevil_miniboss_orangelight_strike_array
 modifier_greevil_miniboss_purple_venomous_gale
 modifier_greevil_miniboss_red_earthshock
-modifier_greevil_miniboss_red_overpower
 modifier_greevil_miniboss_sight
 modifier_greevil_miniboss_white_degen_aura
 modifier_greevil_miniboss_white_degen_aura_effect
@@ -58342,6 +58342,7 @@ modifier_gyrocopter_rocket_barrage
 modifier_gyrocopter_rocket_barrage_movespeed
 modifier_gyrocopter_side_gunner
 modifier_halloffame_glow
+modifier_harpy_scout_take_off
 modifier_harpy_storm_chain_lightning
 modifier_havoc_hammer_slow
 modifier_healing_campfire_aura
@@ -60835,7 +60836,6 @@ modifier_witchdoctor_voodoorestoration
 modifier_woodland_striders_active
 modifier_wraith_king_arcana
 modifier_wraith_king_scepter_tracker
-modifier_xp_fountain
 modifier_xp_fountain_aura
 modifier_xp_fountain_building
 modifier_yasha_and_kaya_buff
@@ -62435,13 +62435,12 @@ p.other
 p.ppBasis
 p.prime
 p.tpBasis
-p2`oq
 p2{l
 p4Z3
 p5Z3
 p5\nL,
-p6 6
 p618
+p6`4
 p?33
 p@0pqE5tsO?|1
 pAbilityName1
@@ -62452,6 +62451,7 @@ pAttachment
 pAttachmentName
 pAttachmentname
 pAttributeName
+pBmodifier_xp_fountain
 pBodyGroupName
 pCheckpointName
 pClassName
@@ -62462,6 +62462,7 @@ pData->GetDataDescMap() == pTemplateDataMap
 pDefault
 pDescription
 pEntity
+pFilter
 pG_*h
 pHeroFilename
 pHeroName
@@ -65275,7 +65276,6 @@ particles/world_shrine/radiant_shrine_regen.vpcf
 particles_list
 partner
 partner_accounts
-partner_txn_id
 partners
 partoffow
 partyName
@@ -65528,6 +65528,7 @@ pilotOrganization
 pilotPerson
 pinStateChanged
 pine_cone_acorn_shot
+pine_cone_shield_bash
 ping pong %d %s\n
 ping_deviation
 ping_minimap
@@ -66294,6 +66295,7 @@ r184
 r3A~
 r<\rND
 r@33
+r@3m
 rAGW
 rB2pBB
 rC3rp
@@ -66308,7 +66310,6 @@ rZ1VwGf5
 rZPM
 r\n\nHuntReward
 r\vDi
-r\vpt)
 rad2deg
 radar_cooldown
 radial_count
@@ -67007,8 +67008,6 @@ round_start
 route_to_all_movers
 routing
 routing_app_id
-rp6m
-rpdq
 rsa not implemented
 rsa operations not supported
 rsa routines
@@ -68762,7 +68761,6 @@ special_bonus_unique_ancient_apparition_2
 special_bonus_unique_ancient_apparition_3
 special_bonus_unique_ancient_apparition_5
 special_bonus_unique_ancient_apparition_6
-special_bonus_unique_ancient_apparition_7
 special_bonus_unique_antimage_2
 special_bonus_unique_antimage_3
 special_bonus_unique_antimage_4
@@ -69113,6 +69111,7 @@ special_bonus_unique_underlord_4
 special_bonus_unique_underlord_5
 special_bonus_unique_underlord_6
 special_bonus_unique_underlord_8
+special_bonus_unique_underlord_9
 special_bonus_unique_undying
 special_bonus_unique_undying_2
 special_bonus_unique_undying_3
@@ -71536,6 +71535,7 @@ xPos
 xQfF
 xTransform
 xUN'
+x\tV_sind
 x\v6V
 x_normal
 x_return
@@ -71607,7 +71607,6 @@ zG2m8
 zNear
 zPos
 zRXU 
-z\tV_sind
 zealots
 zero_value
 zfriction

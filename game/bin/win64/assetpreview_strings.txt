@@ -327,7 +327,6 @@
  \t'$'6(@+L@PA
  \t0W0!10H\I
  \t7<7<8Z9
- \tV_coshf
  \t\f0\fM\f5\f?\f2\fM\f2\fG\f
  \t\f0\fM\f5\f?\f2\fM\f2\fG\f 
  \t\n\r@()[]{}=&,:*|;'!
@@ -1037,6 +1036,7 @@
 !\tM\t0\t>\t.\t 
 !\tM\t0\t>\t.\tM\t8\t
 !\tM\t0\tE\t.\t 
+!\tV_exp2f
 !\v,\v2\v?\v(\vM\v
 !\v8n=@=6H>I
 !\v<;A)A,BXD
@@ -1314,6 +1314,7 @@
 "\t"\n"\v"\f"\r"
 "\t&\t,\t2\t8\t>\tD\tJ\tP\tV\tY\t_\tb\th\tn\t^
 "\tNMO
+"\tV_expd
 "\v"\v"\v"\v"\v"\v"\v"\v"\v"\v"\v"\v"\v"\v"\v"\v"\v"\v"\v"\v"\v"\v"\v"\v"\v"\v"\v"\v"\v"\v"\v"\v"\v"\v
 "\v#&#:#I#X#g#v#
 "\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v,\v+""
@@ -1535,7 +1536,6 @@
 #\r?hide@QWidget@@QEAAXXZ
 #\rNOe
 #\t#\n#\v#\f#\r#
-#\tV_exp2f
 #\v$\v%\v&\v'\v(\v
 #_HTI
 #b'b)b+b9b
@@ -1814,7 +1814,6 @@ $\tM\t6\t?\t$\t>\t
 $\tM\t8\t?\t.\t@\t6\t?\t/\t(\t
 $\tM\t8\t@\t.\t6\t@\t
 $\tM\t8\tA\t(\t@\t8\t@\t/\t>\t(\t?\t 
-$\tV_expd
 $\v9\v2\v$\v>\v(\vM\v
 $\v>\v$\v>\v0\vM\v
 $\v>\v.\v>\v6\vG\v
@@ -21980,6 +21979,7 @@ $zorum.communi
 7\t7\t7\r7\r7
 7\t;\tC\tK\tO\tW\t
 7\tR\t6
+7\tV_frexpf
 7\v7!98;
 7\v7dD
 7\v\v\v77\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v
@@ -23622,7 +23622,6 @@ $zorum.communi
 9\tM\t/\t>\t2\t?\t+\tM\t/\t>\t
 9\tM\t0\t@\t-\t(\t?\t/\t>\t
 9\tM\t5\t>\t0\tG\t
-9\tV_frexpf
 9\tsu
 9\v0\v?\v_\v>\v(\v-\v?\v
 9\v0\vM\v8\v*\v>\vq\v>\v0\vM\v
@@ -39075,6 +39074,7 @@ I\t2t
 I\tI\nI\vI\fI\rI
 I\tI\rI
 I\tM+4
+I\tV_isinfd
 I\vI\vI\vI\vI\vI\vI\vI\vI\vI\vI\vI\vI\vI\vI\vI\v
 I\vI\vI\vI\vI\vI\vI\vI\vI\vI\vI\vI\vI\vI\vI\vI\v^
 I_I_qa
@@ -40475,7 +40475,6 @@ K\tK\nK\vK\fK\rK
 K\tK\rK
 K\tK\tK\tK\tK\tK\tK\tK\tK\tK\t\v
 K\tL@L
-K\tV_isinfd
 K\v?event@QLineEdit@@UEAA_NPEAVQEvent@@@Z
 K\we
 K]%DC8d
@@ -46919,6 +46918,7 @@ R\tSES
 R\tScSrS
 R\v?event@QMenuBar@@MEAA_NPEAVQEvent@@@Z
 R\vR\vR\vR\vR\vR\vR\vR\vR\vR\vR\vR\vR\vR\vR\vR\vR\vR\vR\v
+R\vpX
 R]8]8]8]8
 R]IQS]
 R]IQS]j
@@ -57193,7 +57193,7 @@ Z~00
 \f\r\r%\r5\rM\r]\ru\r
 \f\r\r\r\r\r\r\r\r\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \f\tR\tH! \t\v3\v
-\f\tV_acosd
+\f\tV_asind
 \f\t\f\n\f\v\f\f\f\r\f
 \f\t\f\t\f\t\f\t\f\t\f\t\f\t\f\t\f\t\f\t\f\t\f\t\\r\\r\\r\\rL
 \f\tqSSINE 
@@ -57590,6 +57590,8 @@ Z~00
 \n\t(\t@\t&\t>\t&\tG\t8\t 
 \n\t(\t@\t&\t>\t&\tK\t8\t 
 \n\t2\tM\t/\t>\t(\t
+\n\tV_acosd
+\n\t\n\n\n\v\n\f\n\r\n
 \n\t\tCREATE TABLE IF NOT EXISTS Thumbnails (\n\t\t\tAssetPath TEXT PRIMARY KEY,\n\t\t\tFingerprint INTEGER,\n\t\t\tPNGData BLOB\n\t\t);\n\t
 \n\t\tDELETE FROM Thumbnails WHERE AssetPath IN ( SELECT AssetPath FROM AssetsToDelete );\n\t\tDROP TABLE AssetsToDelete;\n\t\tCOMMIT;\n\t
 \n\t\tDELETE FROM Thumbnails WHERE AssetPath IN (\n\t\t\tSELECT T.AssetPath\n\t\t\tFROM Thumbnails T\n\t\t\tLEFT JOIN ExistingAssets EA\n\t\t\t\tON T.AssetPath = EA.AssetPath\n\t\t\tWHERE EA.AssetPath IS NULL\n\t\t\t\tOR T.Fingerprint != EA.Fingerprint\n\t\t);\n\t\tDROP TABLE ExistingAssets;\n\t\tCOMMIT;\n\t
@@ -60560,11 +60562,11 @@ Z~00
 \tVCQ 
 \tVCQ(
 \tVVY
-\tV_asind
 \tV_atan2d
 \tV_atand
 \tV_atanf
 \tV_cosd
+\tV_coshf
 \tV_sscanf_s
 \tV_tand
 \tV_tanhf
@@ -61732,6 +61734,7 @@ Z~00
 ]\r?horizontalOffset@QListView@@MEBAHXZ
 ]\rcNeYe
 ]\t@GN9h
+]\tV_log2f
 ]\t]FX8Zr[ZU\rY4XaX
 ]\t]\n]\v]\f]\r]
 ]\t^\n^\v^\f^\r^
@@ -61932,6 +61935,7 @@ Z~00
 ^[h[n[o[|[}[~[
 ^\nmnr1
 ^\r?horizontalOffset@QTableView@@MEBAHXZ
+^\tV_logd
 ^\t_0_1_2_3_g_h_I
 ^\tb\te\ti\tl\tn\t
 ^\ttBf
@@ -62196,7 +62200,6 @@ _\nc5cQvH
 _\ncQvH
 _\r?horizontalOffset@QTreeView@@MEBAHXZ
 _\rFDDDDDDDDDDDDDDDD
-_\tV_log2f
 _\tbPb
 _\v>\v*\v@\v8\vM\v
 _\v>\v0\vM\v!\vM\v
@@ -62517,7 +62520,6 @@ _~`Wggg
 `\r`)`+`\n`?`!`x`y`{`z`B`
 `\r`)`+`\n`?`!`x`y`{`z`B`F
 `\r`)`+`\n`?`!`x`y`{`z`B`j`}`
-`\tV_logd
 `\t`\n`\v`\f`\r`
 `\t`\t`\t`\t`\t`\t`\t`\t`\t`\t`\t`\t`\t`\t`\t`\t`\t
 `\v?event@QSpinBox@@MEAA_NPEAVQEvent@@@Z
@@ -64594,6 +64596,7 @@ c\nc\vc\rc
 c\rc\rc
 c\rd;b
 c\rf\rf
+c\tV_modfd
 c\tc\nc\vc\fc\rc
 c\td\nd
 c\vc\vi
@@ -66651,7 +66654,6 @@ e\nNn
 e\ne\ve\fe\re
 e\re\rR
 e\re\te\fe
-e\tV_modfd
 e\te\ne
 e\te\ne\ve\fe\re
 e\tf=fbf^flf
@@ -76053,6 +76055,7 @@ j\fr\ft
 j\fs\fy\fy\fv
 j\ro\r5
 j\ro\r8
+j\tV_powd
 j\tj\nj\vj\fj\rj
 j\tj\vj\fj\rj
 j\trO
@@ -77057,7 +77060,6 @@ l\r}iO
 l\r}iOBf
 l\t@XK
 l\t@iU
-l\tV_powd
 l\tl\nl
 l\tl\nl\vl\fl
 l\tl\rl
@@ -86487,6 +86489,7 @@ x\n?dragLeaveEvent@QListView@@MEAAXPEAVQDragLeaveEvent@@@Z
 x\nJ\ta
 x\nx\vx
 x\t6\vq\ts\tB
+x\tV_sind
 x\tx\nx\vx\fx\rx
 x\tx\rx
 x\z\z
@@ -87307,7 +87310,6 @@ z[Pz
 z\n?dragLeaveEvent@QTextEdit@@MEAAXPEAVQDragLeaveEvent@@@Z
 z\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\n}\nw\nt\nE
 z\rmB
-z\tV_sind
 z\tYUO\h|_
 z\tz\nz\fz
 z\tz\nz\vz\fz\rz
@@ -87599,6 +87601,7 @@ z}y}y
 {\fisi
 {\n?connectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
 {\n?dragLeaveEvent@QWidget@@MEAAXPEAVQDragLeaveEvent@@@Z
+{\tV_sinhf
 {\t{\n{\v{\f{\r{
 {^;P7Uqn
 {_ZHb
@@ -87903,7 +87906,6 @@ z}y}y
 }\n?dragMoveEvent@QAbstractItemView@@MEAAXPEAVQDragMoveEvent@@@Z
 }\n}E}K}.}2}?}5}F}s}V}N}r}h}n}O}c}
 }\n}E}K}.}2}?}5}H}F}\}s}V}N}h}n}O}c}
-}\tV_sinhf
 }`cloud.
 }bzb
 }cRT

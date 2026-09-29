@@ -135,6 +135,7 @@
 "Predictor" value %d not supported
 "[?setQuitOnLastWindowClosed@QGuiApplication@@SAX_N@Z
 "\f?focusNextPrevChild@QTextBrowser@@MEAA_N_N@Z
+"\tV_expd
 "b}b*XhUu
 "channels" attribute not found in the header.
 "compression" attribute not found in the header.
@@ -171,7 +172,6 @@ $EdX
 $ModelPath$/transmission
 $SO0
 $\f?focusNextPrevChild@QWidget@@MEAA_N_N@Z
-$\tV_expd
 $dir
 $modelname$
 $modelname$_cavity
@@ -6986,7 +6986,6 @@ $name_$id
 2\nYH
 2\r?hideEvent@QWidget@@MEAAXPEAVQHideEvent@@@Z
 2\v?event@QAction@@MEAA_NPEAVQEvent@@@Z
-2\vpL
 2_BONE_IK
 2aboutToShow()
 2changed()
@@ -7155,6 +7154,7 @@ $name_$id
 7L4HA
 7T2,
 7\f?focusOutEvent@QPushButton@@MEAAXPEAVQFocusEvent@@@Z
+7\tV_frexpf
 7`ZKV?e
 8 @ffff
 8"3hrf
@@ -7189,7 +7189,6 @@ $name_$id
 9D7V=
 9Px? FcH
 9\f?focusOutEvent@QTextEdit@@MEAAXPEAVQFocusEvent@@@Z
-9\tV_frexpf
 9jsA{
 9n@3333
 9rIz
@@ -12566,7 +12565,6 @@ R\n@Z*oG8
 R\r?hitTestComplexControl@QProxyStyle@@UEBA?AW4SubControl@QStyle@@W4ComplexControl@3@PEBVQStyleOptionComplex@@AEBVQPoint@@PEBVQWidget@@@Z
 R\t?canFetchMore@QAbstractItemModel@@UEBA_NAEBVQModelIndex@@@Z
 R\v?event@QMenuBar@@MEAA_NPEAVQEvent@@@Z
-R\vpL
 R^?supportedDropActions@QStandardItemModel@@UEBA?AV?$QFlags@W4DropAction@Qt@@@@XZ
 R_T5Y
 Radial Basis Function Type
@@ -13823,7 +13821,6 @@ Z}uU
 \f\f?focusInEvent@QLabel@@MEAAXPEAVQFocusEvent@@@Z
 \f\n?deselect@QLineEdit@@QEAAXXZ
 \f\r?heightForWidth@QFormLayout@@UEBAHH@Z
-\f\tV_acosd
 \mEQ
 \n================================================================================\n
 \n?bits@QImage@@QEAAPEAEXZ
@@ -13882,6 +13879,7 @@ Z}uU
 \nFas@
 \n\nThe chosen shader doesn't have an input for this texture.\nIf selected, this texture will be copied, but not used.
 \n\r?heightForWidth@QBoxLayout@@UEBAHH@Z
+\n\tV_acosd
 \ng default\n
 \nh"lx
 \r/9AF
@@ -13987,6 +13985,7 @@ Z}uU
 ^?text@QPalette@@QEBAAEBVQBrush@@XZ
 ^T?pixmap@QIcon@@QEBA?AVQPixmap@@AEBVQSize@@W4Mode@1@W4State@1@@Z
 ^\r?horizontalOffset@QTableView@@MEBAHXZ
+^\tV_logd
 ^f3b
 _%02d
 _%03d
@@ -14071,7 +14070,6 @@ _zero
 `TRg
 `TRge@
 `\r?entryInfoList@QDir@@QEBA?AV?$QList@VQFileInfo@@@@V?$QFlags@W4Filter@QDir@@@@V?$QFlags@W4SortFlag@QDir@@@@@Z
-`\tV_logd
 `\v?event@QSpinBox@@MEAA_NPEAVQEvent@@@Z
 `awpf*
 `obH
@@ -14844,6 +14842,7 @@ extrude_twist
 f?3333{
 f@ffff
 fH5\n
+fO[k
 fQo@
 fWkrB
 f\n?dragEnterEvent@QAbstractScrollArea@@MEAAXPEAVQDragEnterEvent@@@Z
@@ -14944,7 +14943,6 @@ fixed_height
 fixed_size
 fixed_width
 fj".T\CMek2>x
-fk[k
 fl_override_timing_value
 flagchoices
 flamingo
@@ -15373,6 +15371,7 @@ jIGI
 jMVy@
 jMs|@h
 jY?setFamily@QFont@@QEAAXAEBVQString@@@Z
+j\tV_powd
 j\v?event@QTextBrowser@@MEAA_NPEAVQEvent@@@Z
 jackal
 jaguar
@@ -15419,7 +15418,6 @@ lVU=@
 lV}f@
 l\n?dragEnterEvent@QLineEdit@@MEAAXPEAVQDragEnterEvent@@@Z
 l\tTZ
-l\tV_powd
 l\v?event@QToolBar@@MEAA_NPEAVQEvent@@@Z
 large
 lark
@@ -15937,7 +15935,6 @@ p=lb@
 p=zC
 p=zo
 p=zw
-p>4[k
 p?}WF
 p@33333
 pAffff
@@ -17078,6 +17075,7 @@ xP A
 x\TK
 x\f?generatedIconPixmap@QCommonStyle@@UEBA?AVQPixmap@@W4Mode@QIcon@@AEBV2@PEBVQStyleOption@@@Z
 x\n?dragLeaveEvent@QListView@@MEAAXPEAVQDragLeaveEvent@@@Z
+x\tV_sind
 xb1E
 xfade
 xim@
@@ -17104,7 +17102,6 @@ zSl?
 z\f?generatedIconPixmap@QProxyStyle@@UEBA?AVQPixmap@@W4Mode@QIcon@@AEBV2@PEBVQStyleOption@@@Z
 z\n?dragLeaveEvent@QTextEdit@@MEAAXPEAVQDragLeaveEvent@@@Z
 z\nA7
-z\tV_sind
 z\v?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
 z\v?eventFilter@QDialog@@MEAA_NPEAVQObject@@PEAVQEvent@@@Z
 zebra

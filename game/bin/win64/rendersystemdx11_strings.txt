@@ -30,6 +30,7 @@
 "%s": Bad mode
 "%s": Information lost writing value (%g) as (unsigned) RATIONAL
 "Predictor" value %d not supported
+"\tV_expd
 "b8i
 "b}b*XhUu
 "channels" attribute not found in the header.
@@ -48,7 +49,6 @@
 #RenderSystem_IncompatibleAmdDriver
 #RenderSystem_UnableToStartGame
 #line
-$\tV_expd
 %-100s %-6s %-6s\n
 %.0Lf
 %.100s: Can not read TIFF directory
@@ -1749,6 +1749,7 @@ ZIPVSetField
 \tpSubResource[ array %d mip %d ]: pSysMem = %p sysMemPitch = %d SysMemSlicePitch = %d\n
 \tpTextureBitsData = %p\n
 \vpxl
+^\tV_logd
 _DOD3D
 _INTC_CreateDeviceExtensionContext
 _INTC_D3D11_BeginUAVOverlap
@@ -1838,7 +1839,6 @@ _rtx
 _tools.txt
 _wjb
 `\rP\f0xl
-`\tV_logd
 agsDeInitialize
 agsDriverExtensionsDX11_CreateDevice
 agsDriverExtensionsDX11_CreateDevice failed %x, disabling AGS.\n
@@ -1993,7 +1993,7 @@ incorrect count for field "%s" (%u, expecting %u); tag ignored
 incorrect count for field "%s" (%u, expecting %u); tag trimmed
 invalid handle
 invalid vector subscript
-l\tV_powd
+j\tV_powd
 lib_6_4
 lineOrder
 ltmX.

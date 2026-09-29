@@ -37,6 +37,7 @@
 "%s": Bad mode
 "%s": Information lost writing value (%g) as (unsigned) RATIONAL
 "Predictor" value %d not supported
+"\tV_expd
 "b}b*XhUu
 "channels" attribute not found in the header.
 "compression" attribute not found in the header.
@@ -53,7 +54,6 @@
 #Vulkan_InitializationFailure
 #Vulkan_RequiredExtensionMissing
 #line
-$\tV_expd
 %-100s %-6s %-6s\n
 %.0Lf
 %.100s: Can not read TIFF directory
@@ -2232,6 +2232,7 @@ ZIPVSetField
 \tg_TSPointerListNodes
 \ysK
 ]rHa
+^\tV_logd
 _DOVK
 _DOVK_RESULT
 _TIFFMergeFieldInfo
@@ -2261,7 +2262,6 @@ _psrs
 _rtx
 _tools.txt
 _wjb
-`\tV_logd
 addressModeU
 addressModeV
 addressModeW
@@ -2552,9 +2552,9 @@ inputpatch
 intersectionShader
 invalid handle
 invalid vector subscript
+j\tV_powd
 k*do^
 k0V(
-l\tV_powd
 layout
 layoutBindingFlags
 layoutBindings

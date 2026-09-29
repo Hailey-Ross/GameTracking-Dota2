@@ -33,7 +33,7 @@
  mat_print_material_info <mod\path\file.vmat>\n
  mat_print_shader_info <file.vfx> [options]\n
  using substring "%s"
-#\tV_exp2f
+!\tV_exp2f
 #line
 %10s
 %15.15s 
@@ -188,7 +188,7 @@
 0123456789)"
 333?+
 33s?+
-4xt\v
+4xt\r
 7\rE7h
 <<unknown_mod>>\
 <Unknown font>
@@ -474,6 +474,7 @@ PROGRAM
 PS_RENDER_STATE
 PS_RS
 PS_RTX
+P\tV_iswcntrl
 Parser encountered %i errors parsing compile targets expression "%s"\n
 PerViewConstantBufferVR_t
 PerViewConstantBuffer_t
@@ -487,7 +488,6 @@ RD11<
 RDEFH
 RESOURCE_TYPE_MATERIAL
 RSDSqc
-R\tV_iswcntrl
 RayTrace
 Raytracing Shader
 Remap01ScaleOffset
@@ -713,7 +713,6 @@ WARNING: Invalid resource version (%d): %s\n
 \n\t%02i%% (%i/%i)
 \n\t\tDynamic:
 \src\shaders\
-\tV_ZSTD_decompress_usingDDict
 \tV_ZSTD_freeDCtx
 \tV_ZSTD_getDictID_fromDDict
 \tV_ZSTD_getDictID_fromFrame
@@ -724,9 +723,9 @@ WARNING: Invalid resource version (%d): %s\n
 \t\tStatic:
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\n\v\n\v\n\v\n\v\n\v\n\v\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \t_V_strcspn
+]\tV_log2f
 ^^^ Attribute-based texture warning is now disabled after outputting 50 warnings.\n
 ^^^ Constant buffer warning is now disabled after outputting 50 warnings.\n
-_\tV_log2f
 __Attribute__
 __Expression__
 __FROM_ATTRIBUTE_OR_FEATURE__
@@ -900,7 +899,7 @@ iEJA+
 int2
 int3
 int4
-l\tV_powd
+j\tV_powd
 lerp
 lib_6_4
 log2

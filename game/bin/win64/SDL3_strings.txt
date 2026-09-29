@@ -599,7 +599,6 @@ $E4A(
 28O0b`
 2>X94>
 2@Q0b
-2\vpH
 2scRGB_output
 3-bit IMA ADPCM currently not supported
 3333

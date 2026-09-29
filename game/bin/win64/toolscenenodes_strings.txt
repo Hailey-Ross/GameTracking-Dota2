@@ -76,7 +76,6 @@
  Xia
  [*OBSERVABLE*]
  [curvetype %s]\n
- \tV_coshf
  \t\n\r@()[]{}=&,:*|;'!
  ^LXjt
  _GDK\tZ
@@ -114,6 +113,7 @@
 !AECO
 !HRN
 !\f?focusNextPrevChild@QScrollArea@@UEAA_N_N@Z
+!\tV_exp2f
 !expected_len || s->s3->previous_client_finished_len
 !expected_len || s->s3->previous_server_finished_len
 !fUY\n
@@ -182,6 +182,7 @@
 "Wlw
 "YEu
 "\f?focusNextPrevChild@QTextBrowser@@MEAA_N_N@Z
+"\tV_expd
 "`bB303
 "b}b*XhUu
 "channels" attribute not found in the header.
@@ -209,7 +210,6 @@
 #\n?columnCount@QSortFilterProxyModel@@UEBAHAEBVQModelIndex@@@Z
 #\r?hide@QWidget@@QEAAXXZ
 #\t#\v#'#)#/#3#5#E#Q#S#Y#c#k#
-#\tV_exp2f
 #\v+(bF&drJ:x#
 #k+ka\T
 #lyj
@@ -226,7 +226,6 @@ $J6"t
 $JXsZ
 $XI(6
 $\f?focusNextPrevChild@QWidget@@MEAA_N_N@Z
-$\tV_expd
 $d`D-laM
 $f;Zv9l\r
 $g#8lu#
@@ -12144,7 +12143,7 @@ Z~wl
 \f\f?columnCount@QStandardItemModel@@UEBAHAEBVQModelIndex@@@Z
 \f\f?focusInEvent@QLabel@@MEAAXPEAVQFocusEvent@@@Z
 \f\n?deselect@QLineEdit@@QEAAXXZ
-\f\tV_acosd
+\f\tV_asind
 \f]ne3
 \fdhWTh
 \fiaR
@@ -12197,6 +12196,7 @@ Z~wl
 \n\r?heightForWidth@QBoxLayout@@UEBAHH@Z
 \n\tIPSec/IKE/Oakley curve #3 over a 155 bit binary field.\n\tNot suitable for ECDSA.\n\tQuestionable extension field!
 \n\tIPSec/IKE/Oakley curve #4 over a 185 bit binary field.\n\tNot suitable for ECDSA.\n\tQuestionable extension field!
+\n\tV_acosd
 \ndummyfilename.tif
 \ng_flConfigMaxCoord
 \nqYu
@@ -12266,12 +12266,12 @@ Z~wl
 \tLa0+
 \tNAN encountered in element '%s' guid %s attribute '%s'!\n
 \tT?parent@QWindow@@QEBAPEAV1@XZ
-\tV_asind
 \tV_atan2d
 \tV_atand
 \tV_atanf
 \tV_atofloat64
 \tV_cosd
+\tV_coshf
 \tV_sscanf_s
 \tV_strnchr
 \tV_tand
@@ -12316,6 +12316,7 @@ Z~wl
 ]MSd
 ][LK~lO
 ]\r?horizontalOffset@QListView@@MEBAHXZ
+]\tV_log2f
 ^.om5r
 ^DnJ
 ^DqPt
@@ -12324,6 +12325,7 @@ Z~wl
 ^Nij
 ^RB!r
 ^\r?horizontalOffset@QTableView@@MEBAHXZ
+^\tV_logd
 ^v5\n^v5\n^v5\n^v5\n
 _CustomCommand
 _CustomCommand%d
@@ -12338,7 +12340,6 @@ _TIFFVGetField
 _TIFFVSetField
 _YWL
 _\r?horizontalOffset@QTreeView@@MEBAHXZ
-_\tV_log2f
 _\v?event@QSlider@@UEAA_NPEAVQEvent@@@Z
 __CACHED_editcontext_provider_lookup
 __CursorQueue__
@@ -12377,7 +12378,6 @@ _}eOk
 `H(hqA1p
 `ITS
 `VX:H
-`\tV_logd
 `\v?event@QSpinBox@@MEAA_NPEAVQEvent@@@Z
 `fPw.\vM
 `h9T~
@@ -14973,6 +14973,7 @@ jTuf
 jV*d9O
 jY?setFamily@QFont@@QEAAXAEBVQString@@@Z
 j[6Z
+j\tV_powd
 j\v?event@QTextBrowser@@MEAA_NPEAVQEvent@@@Z
 j\vIP{s
 janetMailbox
@@ -15118,7 +15119,6 @@ lC57
 lDcW
 lM2p
 l\n?dragEnterEvent@QLineEdit@@MEAAXPEAVQDragEnterEvent@@@Z
-l\tV_powd
 l\v?event@QToolBar@@MEAA_NPEAVQEvent@@@Z
 ladder
 language
@@ -18173,6 +18173,7 @@ xOu\vsF
 xQfF
 xUN'
 x\n?dragLeaveEvent@QListView@@MEAAXPEAVQDragLeaveEvent@@@Z
+x\tV_sind
 x\v6V
 xg-9Ja
 xp$=S
@@ -18213,7 +18214,6 @@ zF):O4
 zG2m8
 zRXU 
 z\n?dragLeaveEvent@QTextEdit@@MEAAXPEAVQDragLeaveEvent@@@Z
-z\tV_sind
 z\v?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
 z\v?eventFilter@QDialog@@MEAA_NPEAVQObject@@PEAVQEvent@@@Z
 zfar
@@ -18231,6 +18231,7 @@ zz2K
 {H}yq
 {\n?connectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
 {\n?dragLeaveEvent@QWidget@@MEAAXPEAVQDragLeaveEvent@@@Z
+{\tV_sinhf
 {ghz6
 {ry\W
 {zFd
@@ -18251,7 +18252,6 @@ zz2K
 }W70d
 }Xee+
 }\n?dragMoveEvent@QAbstractItemView@@MEAAXPEAVQDragMoveEvent@@@Z
-}\tV_sinhf
 }gE3
 }n2W
 ~9ob

@@ -35,6 +35,7 @@
 "%s": Bad mode
 "%s": Information lost writing value (%g) as (unsigned) RATIONAL
 "Predictor" value %d not supported
+"\tV_expd
 "b}b*XhUu
 "channels" attribute not found in the header.
 "compression" attribute not found in the header.
@@ -48,7 +49,6 @@
 # Exported by vrad3 command %s\n
 # of channels is zero.\n
 #CfU7
-$\tV_expd
 $prefix_attribute$
 $prefix_element$
 $timer
@@ -1709,17 +1709,17 @@ ZIPVSetField
 \t_V_StringAfterPrefixCaseSensitive
 ] Done (%.2f seconds)
 ]Gsfm_v2
+]\tV_log2f
+^\tV_logd
 _TIFFMergeFieldInfo
 _TIFFSetupFieldInfo
 _TIFFVGetField
 _TIFFVSetField
-_\tV_log2f
 _light
 _linked_type_
 _name
 _volumeatlas_
 _wjb
-`\tV_logd
 a?76
 activeBookmarkSet
 alpha_fade
@@ -2005,6 +2005,7 @@ isOrientation
 isPosition
 is_line_mesh
 item_item_crate
+j\tV_powd
 jointIndices
 jointIndicesIndices
 jointList
@@ -2018,7 +2019,6 @@ keyvalues2_flat
 keyvalues2_flat_v
 keyvalues2_noids
 keyvalues2_v
-l\tV_powd
 layers
 leftEdgeActive
 leftEdgeCurveType
@@ -2250,7 +2250,7 @@ path_trace_triangles_gpu_init
 path_trace_triangles_gpu_shutdown
 path_trajectory
 pattern
-pc64 Jul 30 2026 14:36:14
+pc64 Sep 29 2026 11:07:38
 physicsSimplificationError
 physicsSimplificationOverride
 pinEnabled

@@ -126,6 +126,7 @@
  to break in item call-stack, or 
  trying to move layer %s after unfound layer %s
  trying to move non existent layer
+!\tV_exp2f
 !pObj->HasFlags( SCENEOBJECTFLAG_DELETED )
 !pObj->IsDeleted()
 "%s" [window]
@@ -323,7 +324,6 @@
 #TabBar
 #UNHIDE
 #WindowMenu
-#\tV_exp2f
 $153
 $Rcvt 
 $\nY8O
@@ -5649,6 +5649,7 @@ Zsmall
 \vDC\vL
 \vMn1Y?
 \x%02x
+]\tV_log2f
 _AngledHeader
 _COL3F
 _COL4F
@@ -5688,7 +5689,6 @@ _TX%d_TY%d
 _WidthFixed
 _WidthStretch
 _XFREE86_GLYPH_RANGES
-_\tV_log2f
 _atlas
 a'aCaYb"b8b
 a-a8

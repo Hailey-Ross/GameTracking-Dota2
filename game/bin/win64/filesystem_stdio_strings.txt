@@ -196,6 +196,7 @@ $hRh
 'DAE
 'O6n
 'Z9t%
+'\tV_ferror
 'g0dW
 'id' or 'name' missing
 'pSN.F
@@ -225,7 +226,6 @@ $hRh
 )J9o
 )TpH
 )Urz
-)\tV_ferror
 )fuG
 )haI
 *%*/*O*U*_*e*k*m*s*
@@ -704,6 +704,7 @@ $hRh
 4Mv8
 4Zis
 4\fPl
+4\tV_fread
 4f h
 4tpD
 4zj@1;IJ
@@ -736,7 +737,6 @@ $hRh
 6H,N
 6O|T%
 6Qd=
-6\tV_fread
 6_wEX
 6afD
 6bX+
@@ -804,6 +804,7 @@ $hRh
 9Y@nJM
 9Zr4
 9\not
+9\tV_fseek
 9\tiI
 9]ZV
 9aDW
@@ -822,6 +823,7 @@ $hRh
 :NAy
 :QYJ
 :Vlq
+:\tV_fseeki64
 :cwd|
 :eaI
 :gN(dq
@@ -833,7 +835,6 @@ $hRh
 ;83\v\nHBJ7
 ;LGEW
 ;Qo0
-;\tV_fseek
 ;`Fzc
 ;bwP*
 ;xsK
@@ -858,12 +859,12 @@ $hRh
 <SVX
 <YGr+
 <YVtV&
-<\tV_fseeki64
 <unsupported>
 =!=-=3=7=?=C=o=s=u=y={=
 =&sf9
 =O?AqP
 =Q9M
+=\tV_ftelli64
 =cdE
 =trF6,#
 >#>)>/>3>A>W>c>e>w>
@@ -880,7 +881,6 @@ $hRh
 ?HAI\t81\t9dcG'
 ?HP4
 ?VBH;
-?\tV_ftelli64
 ?d86L
 ?dt]X
 ?gwL

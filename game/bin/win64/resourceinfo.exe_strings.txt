@@ -5060,6 +5060,7 @@ Z~wl
 ]G\nY1
 ]MSd
 ][LK~lO
+]\tV_log2f
 ^.om5r
 ^DnJ
 ^DqPt
@@ -5070,7 +5071,6 @@ _Ek6b]
 _Lx6
 _OPENSSL_isservice
 _YWL
-_\tV_log2f
 _f%02i
 _flt.vpk
 _g@Cg

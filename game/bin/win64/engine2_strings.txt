@@ -528,6 +528,7 @@
 #Valve_SelectLanguage_Ukrainian
 #Valve_SelectLanguage_Vietnamese
 #\n\npause_type
+#\tV_expf
 #bML"
 #end\n
 $#GameUI_Disconnect_BadServerPassword
@@ -553,6 +554,7 @@ $Ib?s
 $\n\fsignon_state
 $\n\rresource_type
 $\n\vorientation
+$\tV_fclose
 $lZT
 $schemasystem/schema_enable_defines.h
 $tI(knN
@@ -646,7 +648,7 @@ $tI(knN
 %>>C@;Li_=)
 %Y-%m-%d-%H_%M_%S
 %\n!eQueryCvarValueStatus_ValueIntact
-%\tV_expf
+%\tV_fdopen
 %\v%\v%\v%\v%\v%\v%\v%\v%\v%\v%\v%\v%\v%\v%\v%\v
 %c%c%c%c%c%s
 %cIy
@@ -894,7 +896,7 @@ $tI(knN
 &Sgw
 &\n"SPAWN_GROUP_IS_INITIAL_SPAWN_GROUP
 &\n"eQueryCvarValueStatus_CvarNotFound
-&\tV_fclose
+&\tV_feof
 &final
 '#GameUI_Disconnect_BadSpectatorPassword
 '#GameUI_Disconnect_DifferentClassTables
@@ -913,7 +915,6 @@ $tI(knN
 '\n#eQueryCvarValueStatus_CvarProtected
 '\n#k_EProtoDebugVisibility_ValveServer
 '\n\fworldgroupid
-'\tV_fdopen
 'k|7O
 (#GameUI_Disconnect_LoopLevelLoadActivate
 (#GameUI_Disconnect_RemoteProblem_BadCert
@@ -941,7 +942,7 @@ $tI(knN
 (\t"9\n\fCCLCMsg_Move
 (\t"<\n\fCSVCMsg_Menu
 (\t"\r\n\vCNETMsg_NOP"'\n
-(\tV_feof
+(\tV_fflush
 (\v2 .ProtoFlattenedSerializerField_t:
 (\v2 .google.protobuf.DescriptorProto
 (\v2!.CSVCMsg_GameSessionConfiguration
@@ -1013,6 +1014,7 @@ $tI(knN
 )7ESbp
 )BIV_o
 )\n%Source2PlayStats_LowCardinalityString
+)\tV_fgetc
 )yIx
 )yto
 *                                                  *\n
@@ -1037,7 +1039,6 @@ $tI(knN
 *\f*\f*\f*\f*\f*\f*\f*\f*\f*\f*\f*\f*\f*\f*\f*\f
 *\n"host_computationtime_std_deviation
 *\n&Source2PlayStats_SteamIDTrustBucketMin
-*\tV_fflush
 *hIB
 *h\n\vDIALOG_TYPE
 *zvC
@@ -1052,7 +1053,7 @@ $tI(knN
 +[V~jHZ
 +\n'SPAWN_GROUP_CREATE_CLIENT_ONLY_ENTITIES
 +\n\rReservedRange
-+\tV_fgetc
++\tV_fileno
 +alt
 +bugvoice
 +ctrl
@@ -1074,6 +1075,7 @@ $tI(knN
 ,\n$host_frame_irregular_arrival_pct_x10
 ,\n$polymorphic_field_serializer_version
 ,\n\vplayer_slot
+,\tV_fmodd
 ,d3c&
 ,j.b0^2`4^6`8^:f<
 ,p\tX4
@@ -1108,7 +1110,7 @@ $tI(knN
 -\n%polymorphic_field_serializer_name_sym
 -\n\fplayer_index
 -\n\fsystem_specs
--\tV_fileno
+-\tV_fmodf
 -all
 -applaunch %d
 -auto -title "auto_bug %04d-%02d-%02d %02d:%02d:%02d"
@@ -2550,7 +2552,7 @@ $tI(knN
 .TBMD
 .VoiceDataFormat_t:
 .\n\fentity_index
-.\tV_fmodd
+.\tV_fopen
 .arc
 .arj
 .bak
@@ -2638,7 +2640,7 @@ $tI(knN
 /R?jjU?
 /TF<)VGy#WH
 /\n\nfield_type
-/\tV_fmodf
+/\tV_fopenUTF8
 /content/
 /cwG
 /game/
@@ -2673,7 +2675,7 @@ $tI(knN
 0T.Q
 0X8b?~
 0\n\vserializers
-0\tV_fopen
+0\tV_fpclassifyd
 0iN>/
 0x%x,
 0|t?L
@@ -2685,9 +2687,9 @@ $tI(knN
 1#QNAN
 1#SNAN
 1.2.11
+11:08:41
 11Y@
 127.0.0.1
-15:14:25
 16777215"R\n\nCMsg_CVars
 16777215B$
 1:1: Tokens : ( T__40 | T__41 | T__42 | T__43 | T__44 | T__45 | T__46 | T__47 | T__48 | T__49 | T__50 | T__51 | T__52 | TOK_COLON | OPEN_BRACE | CLOSE_BRACE | OPEN_PAREN | CLOSE_PAREN | OPEN_BRACKET | CLOSE_BRACKET | SEMICOLON | OP_EQUAL | COMMA | DOUBLE_AND | NEGATIVE_TOK | DOUBLE_OR | LITERAL_TRUE | LITERAL_FALSE | POS_INTLITERAL | POS_FLOATLITERAL | SCOPE_QUALIFIER | ID | DOUBLE_QUOTED_STRING | SINGLE_QUOTED_STRING | SINGLE_LINE_COMMENT | ML_COMMENT | WS | UNRECOGNIZED );
@@ -2703,7 +2705,7 @@ $tI(knN
 1\n\fsplitplayers
 1\n\fvprof_report
 1\r%1t
-1\tV_fopenUTF8
+1\tV_fprintf
 1h8o
 1s3\t
 1sAL"
@@ -2728,7 +2730,6 @@ $tI(knN
 2\r%2t
 2\r.PrefetchType"h\n
 2\rU2t
-2\tV_fpclassifyd
 2hIB
 2i0/
 2ps+
@@ -2744,7 +2745,6 @@ $tI(knN
 3C"2\t
 3\f53
 3\r53h
-3\tV_fprintf
 3y2\t
 4 uH
 4*p0
@@ -2841,6 +2841,7 @@ $tI(knN
 <P0J
 <Unknown>
 <\n<\ng\t\n\tZ\t?\t
+<\tV_ftell
 <array: %u elements>
 <binary blob: %u bytes>
 <ellipsis>
@@ -2884,7 +2885,7 @@ $tI(knN
 >O-p?A6
 >PHG
 >Rdx
->\tV_ftell
+>\tV_fwrite
 >cQ6
 >fff?fff?fff?fff?invalid_hitbox
 >jtm}S
@@ -3253,7 +3254,6 @@ $tI(knN
 @HPX`hv`>G
 @HV@LG
 @Np?G
-@\tV_fwrite
 @^8U)zj
 @htp.
 @i-kuX
@@ -5495,6 +5495,7 @@ GOTV[%d] not active.\n
 GOTV[%u]\n
 GPU Frame Time
 GPUTimeAvgMS,GPUTimeRangeMS,GPUTimeMinMS,GPUTimeMaxMS,rendersystemdll,width,height,msaa\n
+G\tV_isdigit_str
 Game
 Game Engine
 Game Server is not running\n
@@ -5793,7 +5794,6 @@ IPulseSystem_001
 IRCU
 I\n NETWORK_DISCONNECT_STEAM_DROPPED
 I\n%NETWORK_DISCONNECT_REJECT_HIDDEN_GAME
-I\tV_isdigit_str
 IdempotencyLevel
 Idle (%s)
 IdleSleep
@@ -5950,6 +5950,7 @@ JPEGMEM
 JSType
 J\n NETWORK_DISCONNECT_SNAPSHOTERROR
 J\n'NETWORK_DISCONNECT_DISCONNECT_BY_SERVER
+J\tV_isnand
 January
 Japanese
 Javanese
@@ -6028,7 +6029,6 @@ LWW>
 L\n!NETWORK_DISCONNECT_HLTVRESTRICTED
 L\n!NETWORK_DISCONNECT_KICKED_SUICIDE
 L\n!NETWORK_DISCONNECT_LOOPDEACTIVATE
-L\tV_isnand
 Label
 Language
 Last received command number going in reverse from server!  (Out of order delivery?)  %d -> (%d+%d=%d)
@@ -7565,7 +7565,7 @@ Sending connect to %s\n
 Sending network quality stats to server, summary over %d seconds\n
 Sending voice from: %s - playerslot: %d [ xuid %llx ]\n
 Sending vprof lite summary to server.  %d frames, %d detailed line items\n
-Sep 25 2026
+Sep 29 2026
 September
 SerializedEntitiesVersion001
 Server
@@ -8765,6 +8765,7 @@ Z\n(NETWORK_DISCONNECT_KICKED_INSECURECLIENT
 Z\n(NETWORK_DISCONNECT_REMOTE_CERTNOTTRUSTED
 Z\n*NETWORK_DISCONNECT_REJECT_INVALIDKEYLENGTH
 Z\n+NETWORK_DISCONNECT_CONNECT_REQUEST_TIMEDOUT
+Z\tV_log10f
 Zjz\v
 Zmbw
 Zpm"U
@@ -8789,6 +8790,7 @@ Zq",9\fB
 [Unreliable payload]
 [Voice payload]
 [\n+NETWORK_DISCONNECT_REJECT_INVALIDCONNECTION
+[\tV_log2_uint
 [aOni*{
 [client]
 [demoscrub]
@@ -8826,7 +8828,6 @@ Zq",9\fB
 \\n)NETWORK_DISCONNECT_PURESERVER_CLIENTEXTRA
 \\n*NETWORK_DISCONNECT_LOOP_LEVELLOAD_ACTIVATE
 \\n.NETWORK_DISCONNECT_REQUEST_HOSTSTATE_HLTVRELAY
-\\tV_log10f
 \c at end of pattern
 \c must be followed by an ASCII character
 \cnlauncher.txt
@@ -8837,7 +8838,7 @@ Zq",9\fB
 \fV0U
 \fV4U
 \fX\fm\vH\vH\vm\v
-\f\ng_pThreadPool
+\f\nvtune
 \g is not followed by a braced, angle-bracketed, or quoted name/number or by a plain number
 \n    Actual    : 
 \n    Field type: 
@@ -8973,7 +8974,7 @@ Zq",9\fB
 \n\nfakeplayer
 \n\nfield_name
 \n\nfriends_id
-\n\ng_pMemAlloc
+\n\ng_pThreadPool
 \n\ngo_package
 \n\nhigh_value
 \n\ninput_type
@@ -9149,6 +9150,7 @@ Zq",9\fB
 \ndist tree: sent %ld
 \ndyn trees: dyn %ld, stat %ld
 \ng_flThreadedJobWaitTimeAccumulator
+\ng_pMemAlloc
 \ngen_codes: max_code %d 
 \nh?oT
 \nhIB
@@ -9157,7 +9159,6 @@ Zq",9\fB
 \nlit data: dyn %ld, stat %ld
 \nlit tree: sent %ld
 \nopt %lu(%lu) stat %lu(%lu) stored %lu lit %u dist %u 
-\nvtune
 \p{Xan}
 \p{Xps}
 \p{Xsp}
@@ -9173,7 +9174,7 @@ Zq",9\fB
 \r\n\tTYPE_ENUM
 \r\n\tsvc_Print
 \r\r\f\f\f\f\v\v\v\n\n\n\t\t\t\t\t\t
-\r\tV_acosf
+\r\tV_asinf
 \rmj>zjZ
 \t The lexer was matching from line %d, offset %d, which\n\t 
 \t"%s" has %d known peers:\n
@@ -9187,7 +9188,6 @@ Zq",9\fB
 \t?\tZ\tt\tt\tt\t
 \tN1a
 \tTPXJ
-\tV_asinf
 \tV_atan2f
 \tV_atof
 \tV_atofloat32
@@ -9208,6 +9208,7 @@ Zq",9\fB
 \tWorldsize_Init
 \t[%d]Demo playback max rate capped at %f.\n
 \t\n\v\n\v\n\v\n\v\n\v\n\v\n\v\n\v\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r
+\t\ng_pScheduledFunctions
 \t\t\n\n\v\v\f\f\f\f\r\r\r\r
 \t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t
@@ -9248,7 +9249,7 @@ Zq",9\fB
 \vSimulationTicks
 \vSource
 \vVyC
-\v\ng_pScheduledFunctions
+\v\tV_acosf
 \vbasetypes.h
 \vm\vm\vm\vH\vm\vm\v
 \vm\vm\vm\vm\vH\v
@@ -9256,7 +9257,6 @@ Zq",9\fB
 \vxYT
 ] is an invalid data character in JavaScript compatibility mode
 ]\n,NETWORK_DISCONNECT_REJECT_INVALIDRESERVATION
-]\tV_log2_uint
 ^<V7w
 ^RfN>
 ^\n*NETWORK_DISCONNECT_KICKED_CONVICTEDACCOUNT
@@ -9273,6 +9273,7 @@ _RDATA
 _Target
 _\n,NETWORK_DISCONNECT_STEAM_DENY_BAD_ANTI_CHEAT
 _\n-NETWORK_DISCONNECT_REJECT_INVALIDSTEAMCERTLEN
+_\tV_logf
 __UNKNOWN__
 ___clientsideitemsplaceholder0___
 ___clientsideitemsplaceholder1___
@@ -9379,7 +9380,6 @@ a numbered reference must not be zero
 a&M-=Z]<i*k)n-t&q&p&|
 a6>r
 a?wSa?\
-a\tV_logf
 a\v4+Wk
 abcdefghijklmnopqrstuvwxyz
 abortflag
@@ -9859,6 +9859,7 @@ dQy/
 dRL>
 d\n-NETWORK_DISCONNECT_KICKED_COMPETITIVECOOLDOWN
 d\n-NETWORK_DISCONNECT_LOCALPROBLEM_NETWORKCONFIG
+d\tV_modff
 da_DK
 danish
 data
@@ -10085,7 +10086,6 @@ fD>b
 fDD"AUDT$t
 fP~V
 fWi?
-f\tV_modff
 fabs
 failed
 failed to get memory
@@ -10343,6 +10343,7 @@ hungarian
 i3V.
 i91k
 iController
+i\tV_open_osfhandle
 i]Wb
 id_ID
 idempotency_level
@@ -10514,7 +10515,7 @@ k=E.x=i
 k=yI
 k?n_m?P
 kF?j
-k\tV_open_osfhandle
+k\tV_powf
 k_EProtoDebugVisibility_Always
 k_EProtoDebugVisibility_Always:@\n
 k_EProtoDebugVisibility_GC
@@ -10547,6 +10548,7 @@ kv 0x%p Release refcount == %d\n
 l6qnk
 l:Iv
 lDa>
+l\tV_qsort
 l`UROM=;98310-*)(&$"
 label
 lambda
@@ -10627,7 +10629,7 @@ m?@Zl?~\vk?k
 m?H7
 mG4>
 m\nXo
-m\tV_powf
+m\tV_qsort_s
 m\vm\vm\vm\vm\vm\vm\vm\vm\vm\vm\v
 m_Args
 m_Attributes
@@ -10853,7 +10855,6 @@ nMin
 nReadHandle != UINT64_MAX
 nTries < 10000000
 n\n0NETWORK_DISCONNECT_KICKED_VACNETABNORMALBEHAVIOR
-n\tV_qsort
 n]?iJ
 n`eG
 n`xBF|7T
@@ -10985,7 +10986,6 @@ o"""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 o?GS
 oG!t
 oI>O7
-o\tV_qsort_s
 o\v3b
 objc_class_prefix
 objectid
@@ -11232,6 +11232,7 @@ qIU<
 qM1H
 qS>g?h3
 q\n\vCPlayerInfo
+q\tV_roundd
 qangle
 qfefkv}
 quality
@@ -11252,6 +11253,7 @@ rA?7
 rEy5
 rFg7
 r\fpt
+r\tV_roundf
 r\tVr.>T
 r_always_render_all_windows
 r_aspectratio
@@ -11429,7 +11431,6 @@ s5J5J5J5J5J5J5J5J5J5J5J5J5J5J5J5Jx
 sAmTb
 sHF'
 sUIL\s
-s\tV_roundd
 satisfied
 save
 save LowBattery_AutoSave\n
@@ -11817,7 +11818,6 @@ tCR;\HdY\
 tL75}
 tM_y
 tTOw}
-t\tV_roundf
 table
 table %32.32s  %5i\n
 table_id
@@ -12017,6 +12017,7 @@ type.googleprod.com/
 typesafe_float, 
 typesafe_int, 
 uV<c
+u\tV_setvbuf
 ub?L
 udp/ip   : %s:%i
 udp_port
@@ -12237,7 +12238,7 @@ wPj}
 wU9%
 wXR\r
 w\fg3
-w\tV_setvbuf
+w\tV_sincosf
 waC+
 wait_time
 waiting
@@ -12291,7 +12292,7 @@ y22]
 y9*O
 y?Zzy?
 yM+7
-y\tV_sincosf
+y\tV_sinf
 yields
 yiq-
 yslf`ZTMGA;5.
@@ -12307,7 +12308,6 @@ zx?L
 { standard_yielding_flow = true }
 {%%%d.%ds} %%%d.%ds: %%-%d.%ds %%-%d.%ds: %%%d.%ds %%%d.%ds %%%d.%ds %%%d.%ds %%%d.%ds %%%d.%ds [%%-%d.%ds bits]\n
 {A7Dd
-{\tV_sinf
 {flat}
 {for 
 {kHw
@@ -12318,6 +12318,7 @@ zx?L
 {wwgEbDgxvvfGb
 |MoM
 |O1(i
+|\tV_snprintf
 |bK7(
 |nhZNLFE9-"
 |obXOF>82,'#
@@ -12333,7 +12334,6 @@ zx?L
 ~CServerChangelevelState with non empty m_Clients, failed change level to %s!!!\n
 ~CSteam3ServerS1 is active at destruction - must be shut down properly in the main server shutdown sequence\n
 ~\naS0
-~\tV_snprintf
 ~ltvO
 ~szn
 ~wph_YSNHB<6/' 

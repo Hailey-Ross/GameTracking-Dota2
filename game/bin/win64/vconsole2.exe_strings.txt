@@ -81,6 +81,7 @@
 !?unpolish@QProxyStyle@@UEAAXPEAVQApplication@@@Z
 !?unsetCursor@QWidget@@QEAAXXZ
 !\f?focusNextPrevChild@QScrollArea@@UEAA_N_N@Z
+!\tV_exp2f
 !root
 " ?timerEvent@QListView@@MEAAXPEAVQTimerEvent@@@Z
 " id="W5M0MpCehiHzreSzNTczkc9d"?> <x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 9.0-c001 79.14ecb42, 2022/12/02-19:12:44        "> <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"> <rdf:Description rdf:about="" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#" xmlns:stRef="http://ns.adobe.com/xap/1.0/sType/ResourceRef#" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:exif="http://ns.adobe.com/exif/1.0/" xmp:CreatorTool="Adobe Photoshop CS6 (Windows)" xmp:CreateDate="2013-11-27T12:05:26-08:00" xmp:ModifyDate="2023-05-02T14:36:57-07:00" xmp:MetadataDate="2023-05-02T14:36:57-07:00" dc:format="image/png" photoshop:ColorMode="3" xmpMM:InstanceID="xmp.iid:151f0a0f-c466-c241-b635-d5ce3063e5be" xmpMM:DocumentID="adobe:docid:photoshop:4a1dab67-1829-dd47-9ecb-fd44469a1804" xmpMM:OriginalDocumentID="xmp.did:EF3389583DDDE3118C3ECAFAE0F72564" tiff:Orientation="1" tiff:XResolution="720000/10000" tiff:YResolution="720000/10000" tiff:ResolutionUnit="2" exif:ColorSpace="1" exif:PixelXDimension="14" exif:PixelYDimension="14"> <photoshop:DocumentAncestors> <rdf:Bag> <rdf:li>xmp.did:0DA87AAC3A55E2118DBBDA9058FCA566</rdf:li> <rdf:li>xmp.did:10A87AAC3A55E2118DBBDA9058FCA566</rdf:li> <rdf:li>xmp.did:1B97DD56E482E2119488E083CDE1C6C4</rdf:li> <rdf:li>xmp.did:2E108DF13B55E2118DBBDA9058FCA566</rdf:li> <rdf:li>xmp.did:5979FD2FE782E2119488E083CDE1C6C4</rdf:li> <rdf:li>xmp.did:5E21FDEF3B55E2118DBBDA9058FCA566</rdf:li> <rdf:li>xmp.did:6AA1FDF03B55E2118DBBDA9058FCA566</rdf:li> <rdf:li>xmp.did:838786823055E211B880E99C4437BD69</rdf:li> <rdf:li>xmp.did:865F2DED3B55E2118DBBDA9058FCA566</rdf:li> <rdf:li>xmp.did:8B326DEE3B55E2118DBBDA9058FCA566</rdf:li> <rdf:li>xmp.did:98F3DC0A6F5FE2118FD08EF6150E58D8</rdf:li> <rdf:li>xmp.did:BF596EF03B55E2118DBBDA9058FCA566</rdf:li> <rdf:li>xmp.did:C30BBB84D781E211BDA5F45C1030E076</rdf:li> <rdf:li>xmp.did:C70BBB84D781E211BDA5F45C1030E076</rdf:li> <rdf:li>xmp.did:EF3389583DDDE3118C3ECAFAE0F72564</rdf:li> <rdf:li>xmp.did:FD84F65A4085E2119488E083CDE1C6C4</rdf:li> <rdf:li>xmp.did:FFC6261B1AE1E3118A4DD0FB6B6DA7B8</rdf:li> </rdf:Bag> </photoshop:DocumentAncestors> <xmpMM:History> <rdf:Seq> <rdf:li stEvt:action="created" stEvt:instanceID="xmp.iid:EF3389583DDDE3118C3ECAFAE0F72564" stEvt:when="2013-11-27T12:05:26-08:00" stEvt:softwareAgent="Adobe Photoshop CS6 (Windows)"/> <rdf:li stEvt:action="converted" stEvt:parameters="from image/png to application/vnd.adobe.photoshop"/> <rdf:li stEvt:action="saved" stEvt:instanceID="xmp.iid:F03389583DDDE3118C3ECAFAE0F72564" stEvt:when="2014-05-16T14:32:17-07:00" stEvt:softwareAgent="Adobe Photoshop CS6 (Windows)" stEvt:changed="/"/> <rdf:li stEvt:action="saved" stEvt:instanceID="xmp.iid:f7caaef1-6a96-2a48-9847-6211a71c9d6e" stEvt:when="2023-05-02T14:36:57-07:00" stEvt:softwareAgent="Adobe Photoshop 24.2 (Windows)" stEvt:changed="/"/> <rdf:li stEvt:action="converted" stEvt:parameters="from application/vnd.adobe.photoshop to image/png"/> <rdf:li stEvt:action="derived" stEvt:parameters="converted from application/vnd.adobe.photoshop to image/png"/> <rdf:li stEvt:action="saved" stEvt:instanceID="xmp.iid:151f0a0f-c466-c241-b635-d5ce3063e5be" stEvt:when="2023-05-02T14:36:57-07:00" stEvt:softwareAgent="Adobe Photoshop 24.2 (Windows)" stEvt:changed="/"/> </rdf:Seq> </xmpMM:History> <xmpMM:DerivedFrom stRef:instanceID="xmp.iid:f7caaef1-6a96-2a48-9847-6211a71c9d6e" stRef:documentID="xmp.did:EF3389583DDDE3118C3ECAFAE0F72564" stRef:originalDocumentID="xmp.did:EF3389583DDDE3118C3ECAFAE0F72564"/> </rdf:Description> </rdf:RDF> </x:xmpmeta> <?xpacket end="r"?>
@@ -152,6 +153,7 @@
 "Qdm
 "X?setAlpha@QColor@@QEAAXH@Z
 "\f?focusNextPrevChild@QTextBrowser@@MEAA_N_N@Z
+"\tV_expd
 "b}b*XhUu
 "channels" attribute not found in the header.
 "compression" attribute not found in the header.
@@ -174,7 +176,6 @@
 #\f?focusNextPrevChild@QTextEdit@@MEAA_N_N@Z
 #\n?columnCount@QSortFilterProxyModel@@UEBAHAEBVQModelIndex@@@Z
 #\r?hide@QWidget@@QEAAXXZ
-#\tV_exp2f
 #bnS
 #gx5\v
 #syy2
@@ -185,7 +186,6 @@ $5RJ'
 $B0B
 $[?setRange@QDoubleValidator@@UEAAXNNH@Z
 $\f?focusNextPrevChild@QWidget@@MEAA_N_N@Z
-$\tV_expd
 $hab
 $t5\tEi\fo
 % ?timerEvent@QMenu@@MEAAXPEAVQTimerEvent@@@Z
@@ -956,17 +956,18 @@ $t5\tEi\fo
 066@
 06G@
 076@
+087@
 096@
+097@
 099i 
 0B5@
 0BCDEFGHIJKLMNOPQRSTUVWXYZ1BCDEFGHIJKLMNOPQRSTUVWXYZ2BCDEFGHIJKLMNOPQRSTUVWXYZ3BCDEFGHIJKLMNOPQRSTUVWXYZ4BCDEFGHIJKLMNOPQRSTUVWXYZ\n
-0C7@
 0DG@
+0E7@
 0I2@
 0IDAT8
 0J2@
 0L2@
-0L7@
 0M2@
 0M6@
 0N6@
@@ -974,8 +975,10 @@ $t5\tEi\fo
 0Ou"@
 0P2@
 0PG@
+0T7@
 0UG@
 0VG@
+0X7@
 0XG@
 0a)Y
 0bG@
@@ -996,10 +999,10 @@ $t5\tEi\fo
 0zG@
 1"?updateGeometry@QWidget@@QEAAXXZ
 1&im*
+11:14:04
+11:14:20
 127.0.0.0
 127.0.0.1:%d
-14:33:32
-14:34:08
 16];h
 16yd
 172.16.0.0
@@ -1385,13 +1388,13 @@ $t5\tEi\fo
 86G@
 884@
 886@
-887@
-897@
 8:9a
 8C5@
-8F7@
+8G7@
+8J7@
 8K2@
 8N2@
+8N7@
 8O6@
 8P6@
 8Q2@
@@ -1408,6 +1411,7 @@ $t5\tEi\fo
 8WWWs
 8XG@
 8XU%
+8Z7@
 8\f?focusOutEvent@QTextBrowser@@MEAAXPEAVQFocusEvent@@@Z
 8\v?event@QCompleter@@MEAA_NPEAVQEvent@@@Z
 8]?size@QPixmap@@QEBA?AVQSize@@XZ
@@ -4168,23 +4172,20 @@ GvZ<3
 H!0kZj
 H36@
 H46@
-H5 C
 H6G@
 H76@
-H77@
 H84@
 HAC K  Unused Binding
 HB5@
 HCto
-HG7@
-HJ7@
+HD7@
 HK2@
 HKEY_CURRENT_USER\Software\Valve\GeoView
 HN2@
-HN7@
 HO6@
 HP2@
 HP6@
+HP7@
 HQ6@
 HR6@
 HS2@
@@ -4192,16 +4193,13 @@ HS5@
 HS6@
 HT6@
 HU6@
-HU7@
 HV &G
 HV.J
 HV6@
 HW6@
 HWG@
 HXG@
-HZ7@
 H\fBp
-Ha C
 Hack Dota Layer Opaque
 Hack Dota Layer Opaque Translucent
 HalftoneHints
@@ -4280,6 +4278,7 @@ IVLogViewer
 I[?setRgbF@QColor@@QEAAXNNNN@Z
 I\n?compare@QString@@QEBAHAEBV1@W4CaseSensitivity@Qt@@@Z
 I\r?hitButton@QCheckBox@@MEBA_NAEBVQPoint@@@Z
+I\tV_isinfd
 If (R%d) Jump to Instr I%d
 If (R%d) Leap to Chunk C%d
 If specified, each wait interval will vary randomly between WaitInterval this value
@@ -4373,7 +4372,6 @@ J\r?hitButton@QPushButton@@MEBA_NAEBVQPoint@@@Z
 J\v?event@QLabel@@MEAA_NPEAVQEvent@@@Z
 Jcqj<
 Je@4
-Jul 30 2026
 Jump to Instr I%d
 K ?toggled@QAbstractButton@@QEAAX_N@Z
 K"O*i
@@ -4383,7 +4381,6 @@ K8w~\v
 KCL+
 KTHE
 K\r?hitButton@QRadioButton@@MEBA_NAEBVQPoint@@@Z
-K\tV_isinfd
 K\v?event@QLineEdit@@UEAA_NPEAVQEvent@@@Z
 K`FV
 Ker(io
@@ -4929,6 +4926,7 @@ P66@
 P6G@
 P86@
 P96@
+P97@
 P=B A
 P?isValid@QColor@@QEBA_NXZ
 P?isValidColor@QColor@@SA_NAEBVQString@@@Z
@@ -4936,7 +4934,8 @@ P?itemData@QStandardItemModel@@UEBA?AV?$QMap@HVQVariant@@@@AEBVQModelIndex@@@Z
 P?jumpToNextImage@QImageReader@@QEAA_NXZ
 P?keyboardModifiers@QGuiApplication@@SA?AV?$QFlags@W4KeyboardModifier@Qt@@@@XZ
 PA5@
-PF7@
+PC7@
+PG7@
 PI2@
 PIDAT8
 PJ2@
@@ -4946,15 +4945,16 @@ PJIa"\v
 PL2@
 PM2@
 PM6@
-PO7@
 POISONED 
 PQ2@
 PQP@
 PQ]D?
 PRP\vI
+PT7@
 PURH
 PWG@
 PXG@
+PY7@
 P\f?font@QTableWidgetItem@@QEBA?AVQFont@@XZ
 P\vFE
 PackBits
@@ -5619,6 +5619,7 @@ Truncated header.
 TrySendVNotify - SendKV3 failed\n
 Turn a time in seconds into a display string. NOT localized.
 Ty1@
+Tz7@
 U5B$z
 U?qt_metacall@QIntValidator@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 U?qt_metacall@QRegularExpressionValidator@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
@@ -5801,8 +5802,8 @@ X54@
 X64@
 X6G@
 X76@
+X87@
 X8\r,z
-X97@
 X?setBrush@QPainter@@QEAAXAEBVQBrush@@@Z
 X?setBrush@QPainter@@QEAAXW4BrushStyle@Qt@@@Z
 X?setBrush@QPalette@@QEAAXW4ColorGroup@1@W4ColorRole@1@AEBVQBrush@@@Z
@@ -5822,7 +5823,6 @@ X?setDashPattern@QPen@@QEAAXAEBV?$QVector@N@@@Z
 XB5@
 XC5@
 XClipPathUnits
-XD7@
 XJpQ
 XM3w
 XMLPacket
@@ -5833,7 +5833,6 @@ XO2@
 XO6@
 XP2@
 XP6@
-XP7@
 XPosition
 XQ6@
 XR6@
@@ -5864,6 +5863,7 @@ XiG@
 XjG@
 XkG@
 Xm8;
+Xz7@
 X}zl
 Y?setData@QStandardItem@@UEAAXAEBVQVariant@@H@Z
 Y?setData@QStandardItemModel@@UEAA_NAEBVQModelIndex@@AEBVQVariant@@H@Z
@@ -6001,7 +6001,7 @@ Z~!|L8\v1H
 \f\f?columnCount@QStandardItemModel@@UEBAHAEBVQModelIndex@@@Z
 \f\f?focusInEvent@QLabel@@MEAAXPEAVQFocusEvent@@@Z
 \f\t?beginReadArray@QSettings@@QEAAHAEBVQString@@@Z
-\f\tV_acosd
+\f\tV_asind
 \fj0F
 \fz0$vZ 
 \n------------------------------\n
@@ -6091,6 +6091,7 @@ Z~!|L8\v1H
 \nYou have data or important state in the "%1" Tool.\n\nAbandon and continue closing?\n
 \n\f?data@QStringListModel@@UEBA?AVQVariant@@AEBVQModelIndex@@H@Z
 \n\r?heightForWidth@QBoxLayout@@UEBAHH@Z
+\n\tV_acosd
 \ng_flConfigMaxCoord
 \ng_flToolsDefaultFarZ
 \p4u
@@ -6160,7 +6161,6 @@ Z~!|L8\v1H
 \tNew Line Indented 1 Tab...
 \tT?parent@QWindow@@QEBAPEAV1@XZ
 \tTwZ
-\tV_asind
 \tV_atan2d
 \tV_atand
 \tV_atanf
@@ -6206,6 +6206,7 @@ Z~!|L8\v1H
 ]Q?light@QPalette@@QEBAAEBVQBrush@@XZ
 ]X?setBackgroundMode@QPainter@@QEAAXW4BGMode@Qt@@@Z
 ]\r?horizontalOffset@QListView@@MEBAHXZ
+]\tV_log2f
 ]\v?event@QShortcut@@MEAA_NPEAVQEvent@@@Z
 ]blt$O
 ]gq4>b
@@ -6221,6 +6222,7 @@ Z~!|L8\v1H
 ^T?pixmap@QIcon@@QEBA?AVQPixmap@@AEBVQSize@@W4Mode@1@W4State@1@@Z
 ^W?wQ
 ^\r?horizontalOffset@QTableView@@MEBAHXZ
+^\tV_logd
 ^aza
 ^h/5O
 ^xHm
@@ -6230,7 +6232,6 @@ _TIFFSetupFieldInfo
 _TIFFVGetField
 _TIFFVSetField
 _\r?horizontalOffset@QTreeView@@MEBAHXZ
-_\tV_log2f
 _\v?event@QSlider@@UEAA_NPEAVQEvent@@@Z
 __CursorQueue__
 __Frame
@@ -6260,7 +6261,6 @@ _wjb
 `Q?lightnessF@QColor@@QEBANXZ
 `T?pixmap@QIcon@@QEBA?AVQPixmap@@HW4Mode@1@W4State@1@@Z
 `W?rgba@QColor@@QEBAIXZ
-`\tV_logd
 `\v?event@QSpinBox@@MEAA_NPEAVQEvent@@@Z
 `qok
 a { text-decoration: underline; color: %1; }
@@ -6332,6 +6332,7 @@ c=F+L
 cA4Z;|
 cK9*6J
 c\fgkMR
+c\tV_modfd
 c\v?event@QSplitterHandle@@MEAA_NPEAVQEvent@@@Z
 cannot parse filter header
 cannot parse partitions
@@ -6433,7 +6434,6 @@ e9,X
 eQ@i
 e\f?foregroundRole@QWidget@@QEBA?AW4ColorRole@QPalette@@XZ
 e\n?dragEnterEvent@QAbstractItemView@@MEAAXPEAVQDragEnterEvent@@@Z
-e\tV_modfd
 e]bi
 element
 end_as_info
@@ -6595,6 +6595,7 @@ h64@
 h6G@
 h76@
 h<7s
+hA7@
 hB5@
 hM2@
 hO6@
@@ -6607,8 +6608,11 @@ hS6@
 hSnX
 hT6@
 hU6@
+hU7@
 hV6@
+hV7@
 hW6@
+hZ7@
 h\r?horizontalScrollbarAction@QTreeView@@MEAAXH@Z
 h\v?event@QTabWidget@@MEAA_NPEAVQEvent@@@Z
 ha?window@QPalette@@QEBAAEBVQBrush@@XZ
@@ -6657,6 +6661,7 @@ italic
 i}tT
 jIDAT8
 jY?setFamily@QFont@@QEAAXAEBVQString@@@Z
+j\tV_powd
 j\v?event@QTextBrowser@@MEAA_NPEAVQEvent@@@Z
 jl\fI
 jpqq
@@ -6676,7 +6681,6 @@ lELp
 lJoH
 lR?metaObject@QIntValidator@@UEBAPEBUQMetaObject@@XZ
 l\n?dragEnterEvent@QLineEdit@@MEAAXPEAVQDragEnterEvent@@@Z
-l\tV_powd
 l\v?event@QToolBar@@MEAA_NPEAVQEvent@@@Z
 labelPos
 labelText
@@ -6705,7 +6709,6 @@ lowprecisionuv
 lowprecisionuv1
 lp={S
 ly1@
-lz7@
 m4UPh
 mX?setBlueF@QColor@@QEAAXN@Z
 m\f?frameGeometry@QWidget@@QEBA?AVQRect@@XZ
@@ -6877,33 +6880,35 @@ p84@
 p86@
 p8d8
 p96@
+p97@
 p9G@
 p>,iO~L
+pC7@
 pCheckpointName
 pCurrentFocusWidget
 pD3o
+pD7@
 pDescription
 pDevice
 pFilter
 pFromWidget
-pG7@
 pH7@
 pI2@
+pI7@
 pItem
 pJ2@
 pK2@
+pK7@
 pL2@
 pLightRigButton
 pLogViewer
 pM6@
 pModule->%s( 0x%llX )\n
 pN6@
-pN7@
 pO2@
 pObject
 pP2@
 pPrevFocusWidget
-pT7@
 pTagName
 pToWidget
 pToolButton
@@ -6912,7 +6917,6 @@ pTraceResult
 pV?read@QImageReader@@QEAA?AVQImage@@XZ
 pWG@
 pWidget
-pX7@
 p\n?dragLeaveEvent@QAbstractItemView@@MEAAXPEAVQDragLeaveEvent@@@Z
 p\v?event@QWidget@@MEAA_NPEAVQEvent@@@Z
 p`?type@QStandardItem@@UEBAHXZ
@@ -6944,7 +6948,6 @@ pvG@
 pxF@
 pxG@
 pz1@
-pz7@
 q12_
 q1AVpx
 q3\f5e{
@@ -7123,7 +7126,6 @@ toolscenenodes
 toolscenevismodes.txt
 transparency
 type_restriction_is_enum_flags
-tz7@
 t|AO
 u>DE*
 uE O
@@ -7250,15 +7252,15 @@ x64@
 x6G@
 x74@
 x76@
-x97@
 x9G@
 xA5@
-xA7@
 xB5@
 xEIh
 xIDAT(
+xJ7@
 xN2@
 xO6@
+xO7@
 xOIIQd
 xP6@
 xQ2@
@@ -7268,14 +7270,13 @@ xS2@
 xS6@
 xT6@
 xU6@
-xU7@
 xV6@
-xV7@
 xW6@
+xY7@
 xZ1@
-xZ7@
 x\f?generatedIconPixmap@QCommonStyle@@UEBA?AVQPixmap@@W4Mode@QIcon@@AEBV2@PEBVQStyleOption@@@Z
 x\n?dragLeaveEvent@QListView@@MEAAXPEAVQDragLeaveEvent@@@Z
+x\tV_sind
 xdG@
 xdt,T
 xh4@
@@ -7287,7 +7288,6 @@ xpd\
 xwv/
 xxz-<Z]
 xy1@
-xz7@
 y8Ry
 yTTh%
 yU?qt_metacall@QDoubleValidator@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
@@ -7310,7 +7310,6 @@ zH._8SZ
 zIC2@
 z\f?generatedIconPixmap@QProxyStyle@@UEBA?AVQPixmap@@W4Mode@QIcon@@AEBV2@PEBVQStyleOption@@@Z
 z\n?dragLeaveEvent@QTextEdit@@MEAAXPEAVQDragLeaveEvent@@@Z
-z\tV_sind
 z\v?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
 z\v?eventFilter@QDialog@@MEAA_NPEAVQObject@@PEAVQEvent@@@Z
 zf1ZK

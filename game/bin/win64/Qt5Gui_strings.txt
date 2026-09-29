@@ -31508,6 +31508,7 @@ ZoomOut
 \n?count@QBitArray@@QEBAHXZ
 \n?count@QByteArray@@QEBAHD@Z
 \n\n?closingDown@QCoreApplication@@SA_NXZ
+\n\t\n\n\n\v\n\f\n\r\n
 \n\t\n\t\t\t\n\t\n\t\t
 \nendstream\n
 \nendstream\nendobj\n

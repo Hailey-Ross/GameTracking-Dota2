@@ -3225,6 +3225,7 @@ KSV<
 KV;-W
 KWjI
 K[C7W+
+K\tV_isstrlower_fast
 Kbf}
 Key Agreement
 Key Compromise
@@ -3315,7 +3316,7 @@ MODULE_RUN
 MS[;6
 MZL}
 M\rLAI)haL<|p\t\t
-M\tV_isstrlower_fast
+M\tV_isvalidhex
 M\vOj
 Mail
 Make a web request (disabled)
@@ -3533,7 +3534,6 @@ OPENSSL_init
 OPENSSL_malloc Error
 OTHERNAME
 O\r5x
-O\tV_isvalidhex
 O_yG|
 Oakley-EC2N-3
 Oakley-EC2N-4
@@ -7276,6 +7276,7 @@ jPH#
 jTuf
 jV*d9O
 j[6Z
+j\tV_powd
 j\vIP{s
 janetMailbox
 jb:5
@@ -7537,7 +7538,6 @@ l7@J
 lC57
 lDcW
 lM2p
-l\tV_powd
 language
 last octet invalid
 last-child

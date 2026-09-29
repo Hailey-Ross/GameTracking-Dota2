@@ -1,7 +1,6 @@
   %d: %s (%08lx :: %08lx) %s [%.1fs]\n
   Wall: surface = %s (%.2f), thickness = %.2f\n
  : %s : vol: %4.2f, sndlvl: %4.2f \n
- \tV_coshf
  changes to final result of %.2f\n
 !!SyncExtref!!%s
 !I>Ct
@@ -1380,11 +1379,11 @@ $toolgraphs
 1e<w 
 2\vpts@
 33s?
-6\tV_fread
+4\tV_fread
 8fff?fff?fff?fff?
+9\tV_fseek
 :HIO
 ;1#INF
-;\tV_fseek
 <EMPTY>
 <INVALID>
 <None>
@@ -2423,6 +2422,7 @@ X<"wP
 \tRefs %16s : Name (Locks)\n
 \tVOL: %f\n\tLVL: %f\n\tDSP: %f\n\tMUTE: %f\n\tSOLO: %f\n\n
 \tV_atanf
+\tV_coshf
 \tV_tand
 \tV_tanhf
 \t[%2d] %16.16s : %s (%d) priority: %d\n
@@ -3132,9 +3132,9 @@ invert_string_match
 is_ducked
 is_local_player_slot
 is_untimed
+j\tV_powd
 k8y<=
 key_groups
-l\tV_powd
 last_calc_time
 left_front
 left_front1
@@ -3920,6 +3920,6 @@ weights_field_name
 yaw.cos
 yaw.sin
 zG(knN
-}\tV_sinhf
+{\tV_sinhf
 ~?HLO
 ~CSosOperatorSystem: Deleting orphaned CSosOperatorStack pointer for %s via shutdown\n

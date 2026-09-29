@@ -2,7 +2,7 @@
            Found size %d!\n
   %-40s   (%s)\n
  : packoffset( c%d.%c ) 
-#\tV_exp2f
+!\tV_exp2f
 #define
 #line
 #line 1 "
@@ -663,11 +663,11 @@ Wrong number of items in value for annotation %s. Ignoring annotation.\n
 \t_V_StringAfterPrefixCaseSensitive
 \t_V_strcspn
 \tuint64_t nGlobalsBDAPerStage[ 6 ];\n};\n
+]\tV_log2f
 _BindlessIndex
 _NeverRemove
 _SrgbRead
 _UvScaleVar
-_\tV_log2f
 __Attribute__
 __Expression__
 __FeatureToBool__

@@ -34,14 +34,13 @@
  <-- Retval '%s'
  Vector b
  [*OBSERVABLE*]
- \tV_coshf
  \t\n\r@()[]{}=&,:*|;'!
+!\tV_exp2f
 "Limit Count: " + m_nLimitCount
 #################################\n
 #Angle
 #Position
 #Scale
-#\tV_exp2f
 #data
 %d CallInfos:\n
 %d Cells:\n
@@ -2132,8 +2131,8 @@
 @const char *__cdecl Reflection::Internal::GetFuncName<class IPairedSequenceComponentInstance>(void)
 @fff>fff>fff>fff>
 @ht0
+A Aq
 A string associated with this Cursor, to use later for remote Kill or Wait requests. Cursors can have any number of Tags associated with them.
-A0Aq
 AE_ACTION_ALLOW_COMBO
 AE_ACTION_PREVENT_COMBO
 AE_ALYX_EMPTOOL_ATTACHMENT
@@ -3267,27 +3266,28 @@ Zero input vector for info node!
 [NOP]
 [RETURN R%d]
 [RETURN]
-\f\tV_acosd
+\f\tV_asind
+\n\tV_acosd
 \rRESOURCE_TYPE_ANIMGRAPH
-\r\nnexttoken
-\rhCq
+\rXCq
 \t%d (%d) : %s %s %s %s\n
 \t%d:%d - %s (agrp vs agrp flag mismatch) %s:%s (promoted to match existing) %s:%s\n
 \t%d:%d - %s (match)\n
 \t%d:%d - %s (skipped)\n
 \t%d:%d - %s\n
 \tError\n
-\tV_asind
 \tV_atand
 \tV_atanf
 \tV_cosd
+\tV_coshf
 \tV_tand
 \tV_tanhf
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\n\v\n\v\n\v\n\v\n\v\n\v\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \t_FindGlobalSymbolByHash
+\v\nnexttoken
+]\tV_log2f
 _CustomCommand
 _CustomCommand%d
-_\tV_log2f
 __CursorQueue__
 __State_Child_Condition__
 __TimelineParent__
@@ -3703,10 +3703,10 @@ hsequence
 idiv
 instantly
 is_selector
+j\tV_powd
 kAnimGraphSaveRestoreVersion
 keyvalues
 kv3:ParticleParamID_t
-l\tV_powd
 length2d
 length3d
 lerp
@@ -3849,7 +3849,7 @@ very_fast
 weaponType
 whileCurrent
 worldrelative
+x\tV_sind
 zDconst char *__cdecl Reflection::Internal::GetFuncName<class CFootPinningPoseOperation>(void)
-z\tV_sind
 zero dir
-}\tV_sinhf
+{\tV_sinhf

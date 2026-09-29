@@ -288,6 +288,7 @@ $prefix_element$
 0x%llx
 16-byte data pool
 2\vpT
+2\vpX
 4-byte data pool
 5sfm_v8
 64 283 0
@@ -702,7 +703,7 @@ World Node Files
 \tV_sscanf_s
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\n\v\n\v\n\v\n\v\n\v\n\v\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \t_V_StringAfterPrefixCaseSensitive
-_\tV_log2f
+]\tV_log2f
 _light
 _linked_type_
 _name

@@ -25,13 +25,13 @@
  randseed[
  rot[
  yaw[
+!\tV_exp2f
 "Limit Count: " + m_nLimitCount
 "Position within sphere random" no longer supports the "randomly distribute to highest supplied Control Point" feature\n\t"Emit continuously" and "Emit noise" no longer support "scale emission to used control points".\n\t"Position from control points" had a max control point added to it.
 "Remap control point orientation to rotation" does something approaching sanity for the cases I looked at.  If we have cases where this isn't appropriate, we can split out the behavior.\n
 "Remap control point orientation to rotation" rewritten to make more sense.\n
 "Set control point rotation" pre-emission operator now correctly produces right-handed matrices [previously it would produce left-handed ones].
 "Twist around axis" force now rotates around the specified control point instead of control point 0.\n
-#\tV_exp2f
 $SFXDetailBlendMode
 %02x 
 %40s: Age: %6.2f, asleep: %s next sleep %6.2f NumActive: %3d, flags %d, Bounds Center: (%.2f,%.2f,%.2f) (0x%p)\n
@@ -2207,17 +2207,17 @@ Z>wg}?0
 [RETURN R%d]
 [RETURN]
 \fT>M-+?#gy?
-\f\tV_acosd
+\f\tV_asind
 \n\n----------------------------\nInstance Count:\n
+\n\tV_acosd
 \ng_flConfigMaxCoord
 \t%4d -  %s\n
-\tV_asind
 \tV_atand
 \tV_cosd
 \tV_tand
 \t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\n\v\n\v\n\v\n\v\n\v\n\v\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \vPdB>
-_\tV_log2f
+]\tV_log2f
 __CursorQueue__
 __State_Child_Condition__
 __TimelineParent__
@@ -2400,6 +2400,7 @@ non_homogenous_forward_layer_only
 not obeying particle system stencil of failure to parse stencil comparison string %s\n
 not rendering particle system because of failure ot parse stencil write string %s\n
 num_particles
+o\tV_remainderf
 o\t\raHC
 opacity
 operators
@@ -2439,7 +2440,6 @@ pulse_node_custom_attributes
 pulse_runtime_lib
 pvec_color_black
 pvec_color_white
-q\tV_remainderf
 quX?
 rad2deg
 random_position
@@ -2506,7 +2506,7 @@ vecValueB
 very_fast
 vn[90
 wH>r
+x\tV_sind
 xn>8
 y?U0
 zW>w
-z\tV_sind

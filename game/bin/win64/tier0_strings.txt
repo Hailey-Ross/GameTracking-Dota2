@@ -789,7 +789,7 @@ $xmm9
 23:10:03
 28~v
 2\fE24
-2\vpX
+2\vpH
 2aNuE
 3 FB
 3+5<t
@@ -840,7 +840,7 @@ $xmm9
 8Z~H
 8ke?;
 8powf
-8xx=1
+8xx-1
 99jd9
 9>70
 9>expf
@@ -2400,8 +2400,6 @@ $xmm9
 ?V_UnicodeLength@@YAHPEBI@Z
 ?V_UnicodeLength@@YAHPEB_W@Z
 ?V_UnicodeRepair@@YAHPEADW4EStringConvertErrorPolicy@@@Z
-?V_UnicodeRepair@@YAHPEAIW4EStringConvertErrorPolicy@@@Z
-?V_UnicodeRepair@@YAHPEA_WW4EStringConvertErrorPolicy@@@Z
 ?V_UnicodeValidate@@YA_NPEBD@Z
 ?V_UnicodeValidate@@YA_NPEBI@Z
 ?V_UnicodeValidate@@YA_NPEB_W@Z
@@ -4161,7 +4159,7 @@ Hit end of line before closing quote (%c)
 Hits/Min
 Hj`F
 HostStateMgr001
-I7P?1
+I7P/1
 I;u>A
 IAnimAction
 IAnimClipData
@@ -5296,8 +5294,8 @@ RPCRT4.dll
 RSDS
 RUSSIAN
 RVfQp
-R\fpX
-R\vpX
+R\fpH
+R\vpH
 RaiseException
 RandomFloat
 RandomFloatExp
@@ -6879,10 +6877,9 @@ ZwSetTimerResolution
 \nOS memory stats:\n
 \nThreadPoolTest: ===== RunThreadPoolPerFrame Tests =====\n
 \n\nCMiniDumpComment encountered an error while generating the comment
-\n\t\n\n\n\v\n\f\n\r\n
+\n\t\n\n\n\v\n\f\ntier0.dll
 \nh?oT
 \nk>oB
-\ntier0.dll
 \rGeneral
 \rInput contains no data
 \r\f\v\v\n\n\t\t\t\t\t
@@ -7593,7 +7590,7 @@ k>4\tF
 k>RU
 kernel32.dll
 kernelbase.dll
-kp?1
+kp/1
 l6qnk
 l<}2l
 lDa>
@@ -8468,7 +8465,7 @@ r9T6
 rNm>)
 rT+6ZNw
 r\tVr.>T
-r\vpX
+r\vpH
 radius
 radius0
 radius1

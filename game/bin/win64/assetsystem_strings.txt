@@ -167,6 +167,7 @@
 "Predictor" value %d not supported
 "Wlw
 "YEu
+"\tV_expd
 "`bB303
 "b}b*XhUu
 "channels" attribute not found in the header.
@@ -202,7 +203,6 @@ $HypYkf
 $J6"t
 $JXsZ
 $XI(6
-$\tV_expd
 $d`D-laM
 $f;Zv9l\r
 $g#8lu#
@@ -453,6 +453,7 @@ $prefix_element$
 *UlS
 *Y$ve
 *\fhsD
+*\tV_fgets
 *gFBk
 *hbJ1
 *it%2
@@ -477,7 +478,6 @@ $prefix_element$
 ,Reason=
 ,ShfPQ
 ,ZFDGn
-,\tV_fgets
 ,fQM(
 ,h11]
 ,hmQ#
@@ -5436,12 +5436,14 @@ Z~wl
 ]G\nY1
 ]MSd
 ][LK~lO
+]\tV_log2f
 ^.om5r
 ^DnJ
 ^DqPt
 ^J_spY
 ^Nij
 ^RB!r
+^\tV_logd
 _Ek6b]
 _Lx6
 _OPENSSL_isservice
@@ -5450,7 +5452,6 @@ _TIFFSetupFieldInfo
 _TIFFVGetField
 _TIFFVSetField
 _YWL
-_\tV_log2f
 __IN_MEMORY
 __injected_test_value
 _bakeresourcecache
@@ -5475,7 +5476,6 @@ _}eOk
 `H(hqA1p
 `ITS
 `VX:H
-`\tV_logd
 `fPw.\vM
 `h9T~
 `o_je
@@ -7424,6 +7424,7 @@ jOJw"
 jTuf
 jV*d9O
 j[6Z
+j\tV_powd
 j\vIP{s
 janetMailbox
 jb:5
@@ -7542,7 +7543,6 @@ l7@J
 lC57
 lDcW
 lM2p
-l\tV_powd
 language
 last octet invalid
 lastModifiedBy

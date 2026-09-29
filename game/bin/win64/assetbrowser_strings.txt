@@ -40,6 +40,7 @@
 != (Not During)
 !?triggered@QAction@@QEAAX_N@Z
 !\f?focusNextPrevChild@QScrollArea@@UEAA_N_N@Z
+!\tV_exp2f
 !root
 " ?timerEvent@QListView@@MEAAXPEAVQTimerEvent@@@Z
 ""?updateEditorGeometry@QStyledItemDelegate@@UEBAXPEAVQWidget@@AEBVQStyleOptionViewItem@@AEBVQModelIndex@@@Z
@@ -109,7 +110,6 @@
 #\f?focusNextPrevChild@QTextEdit@@MEAA_N_N@Z
 #\n?columnCount@QSortFilterProxyModel@@UEBAHAEBVQModelIndex@@@Z
 #\r?hide@QWidget@@QEAAXXZ
-#\tV_exp2f
 #have
 $#?windowIcon@QWidget@@QEBA?AVQIcon@@XZ
 $[?setRange@QDoubleValidator@@UEAAXNNH@Z
@@ -4158,6 +4158,7 @@ I[?setRgbF@QColor@@QEAAXNNNN@Z
 I\n?compare@QString@@QEBAHAEBV1@W4CaseSensitivity@Qt@@@Z
 I\r?endsWith@QString@@QEBA_NVQChar@@W4CaseSensitivity@Qt@@@Z
 I\r?hitButton@QCheckBox@@MEBA_NAEBVQPoint@@@Z
+I\tV_isinfd
 Identity
 If (R%d) Jump to Instr I%d
 If (R%d) Leap to Chunk C%d
@@ -4223,7 +4224,6 @@ Jump to Instr I%d
 K ?toggled@QAbstractButton@@QEAAX_N@Z
 KV3 Pointer
 K\r?hitButton@QRadioButton@@MEBA_NAEBVQPoint@@@Z
-K\tV_isinfd
 K\v?event@QLineEdit@@UEAA_NPEAVQEvent@@@Z
 Key Bindings
 KeyState
@@ -4301,6 +4301,7 @@ MWheelRight
 MWheelUp
 M\n?done@QDialog@@UEAAXH@Z
 M\t?canDropMimeData@QAbstractProxyModel@@UEBA_NPEBVQMimeData@@W4DropAction@Qt@@HHAEBVQModelIndex@@@Z
+M\tV_isvalidhex
 M\v?event@QListWidget@@MEAA_NPEAVQEvent@@@Z
 Make Angle
 Make Angle From Forward Vector
@@ -4480,7 +4481,6 @@ NumToggle
 OP?isNull@QIcon@@QEBA_NXZ
 OR List
 OR: This group will match if ANY of the parts match\n(Click to toggle to AND)
-O\tV_isvalidhex
 Oa?width@QImage@@QEBAHXZ
 OkClicked
 On Interval
@@ -5634,7 +5634,7 @@ ZoomOutFromMiniMap
 \f\n?cmp@QVariant@@QEBA_NAEBV1@@Z
 \f\n?deselect@QLineEdit@@QEAAXXZ
 \f\r?heightForWidth@QFormLayout@@UEBAHH@Z
-\f\tV_acosd
+\f\tV_asind
 \n-------------\n
 \n?arcTo@QPainterPath@@QEAAXAEBVQRectF@@NN@Z
 \n?bits@QImage@@QEAAPEAEXZ
@@ -5684,6 +5684,7 @@ ZoomOutFromMiniMap
 \nYou are invoking a costly operation involving %1 Assets.\nAre you sure?\n
 \nYour selection will open the %1 that may create up to %2 instances.\nAre you sure?\n
 \n\r?heightForWidth@QBoxLayout@@UEBAHH@Z
+\n\tV_acosd
 \ng_flConfigMaxCoord
 \r?darker@QColor@@QEBA?AV1@H@Z
 \r?data@QStandardItem@@UEBA?AVQVariant@@H@Z
@@ -5741,7 +5742,6 @@ ZoomOutFromMiniMap
 \t?defaultWidget@QWidgetAction@@QEBAPEAVQWidget@@XZ
 \tQToolButton { \t\tbackground-color : rgb( 100, 100, 100 ); \t\tborder: 2px solid rgb( 200, 200, 200 ); \t\tborder-radius: %2px; \t\tbackground-image: url(game:tools/images/common/tag_add.png); \t\tbackground-repeat: no-repeat; \t\tbackground-position: center center; \t\tmargin: 3px; \t} \tQToolButton:hover:!pressed { \t\tbackground-color : rgb( 0, 0, 0 ); \t\tborder-color : rgb( 255, 255, 255 ); \t} 
 \tT?parent@QWindow@@QEBAPEAV1@XZ
-\tV_asind
 \tV_atand
 \tV_cosd
 \tV_tand
@@ -5786,6 +5786,7 @@ ZoomOutFromMiniMap
 ]?staticMetaObject@QTextDocument@@2UQMetaObject@@B
 ]?staticMetaObject@QWindow@@2UQMetaObject@@B
 ]\r?horizontalOffset@QListView@@MEBAHXZ
+]\tV_log2f
 ]\v?currentDateTime@QDateTime@@SA?AV1@XZ
 ^#?([0-9A-Fa-f]{6}|[0-9A-Fa-f]{3})
 ^#?([0-9A-Fa-f]{8}|[0-9A-Fa-f]{6}|[0-9A-Fa-f]{4}|[0-9A-Fa-f]{3})$
@@ -5799,7 +5800,6 @@ _?texture@QBrush@@QEBA?AVQPixmap@@XZ
 _AssetMenuHelper
 _Q?lightness@QColor@@QEBAHXZ
 _\r?horizontalOffset@QTreeView@@MEBAHXZ
-_\tV_log2f
 _\v?event@QSlider@@UEAA_NPEAVQEvent@@@Z
 __AllKeys__
 __CursorQueue__
@@ -5887,6 +5887,7 @@ browser_views
 browser_visible
 burlywood
 cR?metaObject@QDrag@@UEBAPEBUQMetaObject@@XZ
+c\tV_modfd
 c\v?event@QSplitterHandle@@MEAA_NPEAVQEvent@@@Z
 cadetblue
 centralWidget
@@ -5963,7 +5964,6 @@ dont_remind_today_checkbox
 e"?validate@QSpinBox@@MEBA?AW4State@QValidator@@AEAVQString@@AEAH@Z
 e\f?foregroundRole@QWidget@@QEBA?AW4ColorRole@QPalette@@XZ
 e\n?dragEnterEvent@QAbstractItemView@@MEAAXPEAVQDragEnterEvent@@@Z
-e\tV_modfd
 edit_filter
 editingFinished
 element
@@ -6637,6 +6637,7 @@ windows_generic_MSG
 wrapping
 x"?valueFromText@QSpinBox@@MEBAHAEBVQString@@@Z
 x\n?dragLeaveEvent@QListView@@MEAAXPEAVQDragLeaveEvent@@@Z
+x\tV_sind
 yU?qt_metacall@QDoubleValidator@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 y\n?dragLeaveEvent@QPlainTextEdit@@MEAAXPEAVQDragLeaveEvent@@@Z
 y\v?eventFilter@QCompleter@@MEAA_NPEAVQObject@@PEAVQEvent@@@Z
@@ -6644,7 +6645,6 @@ yellow
 yellowgreen
 zU?qt_metacall@QDrag@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 z\n?dragLeaveEvent@QTextEdit@@MEAAXPEAVQDragLeaveEvent@@@Z
-z\tV_sind
 z\v?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
 z\v?eventFilter@QDialog@@MEAA_NPEAVQObject@@PEAVQEvent@@@Z
 { "%1",\t{ %2, %3 },\t\t{ %4, %5 }\t },\n

@@ -128,6 +128,7 @@
 !IsText()
 !\f?focusNextPrevChild@QScrollArea@@UEAA_N_N@Z
 !\r?end@QListData@@QEBAPEAPEAXXZ
+!\tV_exp2f
 !expected_len || s->s3->previous_client_finished_len
 !expected_len || s->s3->previous_server_finished_len
 !fUY\n
@@ -201,6 +202,7 @@
 "YEu
 "\f?focusNextPrevChild@QTextBrowser@@MEAA_N_N@Z
 "\tFileID: 
+"\tV_expd
 "`bB303
 "b}b*XhUu
 "channels" attribute not found in the header.
@@ -594,7 +596,6 @@
 #\n?columnCount@QSortFilterProxyModel@@UEBAHAEBVQModelIndex@@@Z
 #\r?hide@QWidget@@QEAAXXZ
 #\t#\v#'#)#/#3#5#E#Q#S#Y#c#k#
-#\tV_exp2f
 #\v+(bF&drJ:x#
 #a117d4
 #cf331f
@@ -620,7 +621,6 @@ $ModelPath$/transmission
 $XI(6
 $[?setRange@QDoubleValidator@@UEAAXNNH@Z
 $\f?focusNextPrevChild@QWidget@@MEAA_N_N@Z
-$\tV_expd
 $d`D-laM
 $f;Zv9l\r
 $g#8lu#
@@ -9233,6 +9233,7 @@ $prefix_element$
 4\n?doItemsLayout@QTreeView@@UEAAXXZ
 4\r54t
 4\r?hidePopup@QComboBox@@UEAAXXZ
+4\tV_fread
 4f h
 4tpD
 4zj@1;IJ
@@ -9274,7 +9275,6 @@ $prefix_element$
 6[?setRenderHint@QPainter@@QEAAXW4RenderHint@1@_N@Z
 6\f?focusOutEvent@QPlainTextEdit@@MEAAXPEAVQFocusEvent@@@Z
 6\t?bytesAvailable@QProcess@@UEBA_JXZ
-6\tV_fread
 6\v?createNode@QMapDataBase@@QEAAPEAUQMapNodeBase@@HHPEAU2@_N@Z
 6\v?event@QComboBox@@UEAA_NPEAVQEvent@@@Z
 6_wEX
@@ -9306,6 +9306,7 @@ $prefix_element$
 7\f?focusOutEvent@QPushButton@@MEAAXPEAVQFocusEvent@@@Z
 7\rayf+
 7\tFq?
+7\tV_frexpf
 7gS_
 7i@X
 7m:e
@@ -9360,7 +9361,7 @@ $prefix_element$
 9\f?focusOutEvent@QTextEdit@@MEAAXPEAVQFocusEvent@@@Z
 9\not
 9\r?endRemoveRows@QAbstractItemModel@@IEAAXXZ
-9\tV_frexpf
+9\tV_fseek
 9\tiI
 9]ZV
 9aDW
@@ -9399,7 +9400,6 @@ $prefix_element$
 ;Qo0
 ;\n?doSetTextCursor@QTextEdit@@MEAAXAEBVQTextCursor@@@Z
 ;\t?bytesToWrite@QProcess@@UEBA_JXZ
-;\tV_fseek
 ;\v?event@QDialogButtonBox@@MEAA_NPEAVQEvent@@@Z
 ;`?transientParent@QWindow@@QEBAPEAV1@XZ
 ;`Fzc
@@ -11694,6 +11694,7 @@ Av $1
 Average face normals after resetting them.
 Average vertex normals over given distance to point away from neighbors.
 Avoids normal seams on UV boundaries. Turning it off is faster and saves some GPU memory.
+B 4K
 B channel
 B channel not found!\n
 B!rA
@@ -11721,7 +11722,6 @@ B8G8R8A8_UNORM
 B8G8R8X8_UNORM
 B8Z"h
 B>J7I
-B@KK
 BAD ENUMERATED
 BAD INTEGER
 BAD RECURSION DEPTH\n
@@ -15482,6 +15482,7 @@ I\n?compare@QString@@QEBAHAEBV1@W4CaseSensitivity@Qt@@@Z
 I\r?endsWith@QString@@QEBA_NVQChar@@W4CaseSensitivity@Qt@@@Z
 I\r?hitButton@QCheckBox@@MEBA_NAEBVQPoint@@@Z
 I\tHA\t981G'dc
+I\tV_isinfd
 If (R%d) Jump to Instr I%d
 If (R%d) Leap to Chunk C%d
 If Lerp Type is Full Frame Range, this is the fixed scale value applied, the curve is used otherwise
@@ -15805,7 +15806,6 @@ KV;-W
 KWjI
 K[C7W+
 K\r?hitButton@QRadioButton@@MEBA_NAEBVQPoint@@@Z
-K\tV_isinfd
 K\v?event@QLineEdit@@UEAA_NPEAVQEvent@@@Z
 Kbf}
 Kcatmullrom_normalize_x
@@ -20124,7 +20124,7 @@ Z~wl
 \f\f?focusInEvent@QLabel@@MEAAXPEAVQFocusEvent@@@Z
 \f\n?deselect@QLineEdit@@QEAAXXZ
 \f\r?heightForWidth@QFormLayout@@UEBAHH@Z
-\f\tV_acosd
+\f\tV_asind
 \f]ne3
 \fdhWTh
 \fiaR
@@ -20185,6 +20185,7 @@ Z~wl
 \n\r?heightForWidth@QBoxLayout@@UEBAHH@Z
 \n\tIPSec/IKE/Oakley curve #3 over a 155 bit binary field.\n\tNot suitable for ECDSA.\n\tQuestionable extension field!
 \n\tIPSec/IKE/Oakley curve #4 over a 185 bit binary field.\n\tNot suitable for ECDSA.\n\tQuestionable extension field!
+\n\tV_acosd
 \ng default\n
 \ng_flConfigMaxCoord
 \ng_flToolsDefaultFarZ
@@ -20276,7 +20277,6 @@ Z~wl
 \tLa0+
 \tNAN encountered in element '%s' guid %s attribute '%s'!\n
 \tT?parent@QWindow@@QEBAPEAV1@XZ
-\tV_asind
 \tV_atan2d
 \tV_atand
 \tV_atanf
@@ -20331,6 +20331,7 @@ Z~wl
 ]MSd
 ][LK~lO
 ]\r?horizontalOffset@QListView@@MEBAHXZ
+]\tV_log2f
 ^#?([0-9A-Fa-f]{6}|[0-9A-Fa-f]{3})
 ^#?([0-9A-Fa-f]{8}|[0-9A-Fa-f]{6}|[0-9A-Fa-f]{4}|[0-9A-Fa-f]{3})$
 ^.om5r
@@ -20343,6 +20344,7 @@ Z~wl
 ^Q?lighter@QColor@@QEBA?AV1@H@Z
 ^RB!r
 ^\r?horizontalOffset@QTableView@@MEBAHXZ
+^\tV_logd
 _%s.tmp
 _CustomCommand
 _CustomCommand%d
@@ -20362,7 +20364,6 @@ _TIFFVSetField
 _Warning: %s\n
 _YWL
 _\r?horizontalOffset@QTreeView@@MEBAHXZ
-_\tV_log2f
 _\v?event@QSlider@@UEAA_NPEAVQEvent@@@Z
 __CACHED_editcontext_provider_lookup
 __CursorQueue__
@@ -20444,7 +20445,6 @@ _}eOk
 `ITS
 `Q?lightnessF@QColor@@QEBANXZ
 `VX:H
-`\tV_logd
 `\v?event@QSpinBox@@MEAA_NPEAVQEvent@@@Z
 `fPw.\vM
 `h9T~
@@ -21163,6 +21163,7 @@ cRLSign
 cRow
 c\n?dragEnabled@QAbstractItemView@@QEBA_NXZ
 c\r1m
+c\tV_modfd
 c`FE%
 ca dn length mismatch
 ca dn too long
@@ -22040,7 +22041,6 @@ eTU\n
 eXQd
 e\f?foregroundRole@QWidget@@QEBA?AW4ColorRole@QPalette@@XZ
 e\n?dragEnterEvent@QAbstractItemView@@MEAAXPEAVQDragEnterEvent@@@Z
-e\tV_modfd
 e\tcCPtH
 ease_in_key
 ease_is_duration
@@ -23537,6 +23537,7 @@ jV*d9O
 jY?setFamily@QFont@@QEAAXAEBVQString@@@Z
 jZ?setMimeData@QDrag@@QEAAXPEAVQMimeData@@@Z
 j[6Z
+j\tV_powd
 j\v?event@QTextBrowser@@MEAA_NPEAVQEvent@@@Z
 j\vIP{s
 janetMailbox
@@ -23715,7 +23716,6 @@ lDcW
 lM2p
 lR?metaObject@QIntValidator@@UEBAPEBUQMetaObject@@XZ
 l\n?dragEnterEvent@QLineEdit@@MEAAXPEAVQDragEnterEvent@@@Z
-l\tV_powd
 l\v?event@QToolBar@@MEAA_NPEAVQEvent@@@Z
 labelPos
 labelText
@@ -27393,6 +27393,7 @@ xOu\vsF
 xQfF
 xUN'
 x\n?dragLeaveEvent@QListView@@MEAAXPEAVQDragLeaveEvent@@@Z
+x\tV_sind
 x\v6V
 xddd
 xfade
@@ -27443,7 +27444,6 @@ zG2m8
 zRXU 
 zU?qt_metacall@QDrag@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 z\n?dragLeaveEvent@QTextEdit@@MEAAXPEAVQDragLeaveEvent@@@Z
-z\tV_sind
 z\v?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
 z\v?eventFilter@QDialog@@MEAA_NPEAVQObject@@PEAVQEvent@@@Z
 zero dir

@@ -238,7 +238,7 @@ $\f?focusNextPrevChild@QWidget@@MEAA_N_N@Z
 .CRT$XIAC
 .fgd
 /e,/select,"
-14:30:53
+11:11:44
 1AcceptIfItemPicked()
 1BotScriptComboBoxSelectionChanged( int )
 1BotScriptComboBoxTextChanged(QString)
@@ -1202,7 +1202,6 @@ IsPlayable
 IsTemplate
 J\r?hitButton@QPushButton@@MEBA_NAEBVQPoint@@@Z
 J\v?event@QLabel@@MEAA_NPEAVQEvent@@@Z
-Jul 30 2026
 KV3 syntax error: %s
 KV3 syntax error: %s while parsing @entitygroup %s
 KV3DefaultTestFnName

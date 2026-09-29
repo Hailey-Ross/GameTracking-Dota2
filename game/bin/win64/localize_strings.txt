@@ -281,8 +281,8 @@ gen test mod B
 gender
 instance %d:\n
 invalid plural predicate after '='
+j\tV_powd
 korean
-l\tV_powd
 localize.dll
 many
 missing required ',' after selection type

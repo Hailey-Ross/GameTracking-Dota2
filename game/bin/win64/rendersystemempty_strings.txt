@@ -30,6 +30,7 @@
 "%s": Bad mode
 "%s": Information lost writing value (%g) as (unsigned) RATIONAL
 "Predictor" value %d not supported
+"\tV_expd
 "b}b*XhUu
 "channels" attribute not found in the header.
 "compression" attribute not found in the header.
@@ -41,7 +42,6 @@
 "screenWindowWidth" attribute not found in the header.
 # of channels is zero.\n
 #CfU7
-$\tV_expd
 %-100s %-6s %-6s\n
 %.100s: Can not read TIFF directory
 %A Is
@@ -679,13 +679,13 @@ ZIPVSetField
 \tV_strtoi64
 \t\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\v\n\v\n\v\n\v\n\v\n\v\n\v\n\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\v\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\f\r\f\r\f\r\f\r\f\r\f\r\f\r\f\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r\r
 \tg_TSPointerListNodes
+^\tV_logd
 _TIFFMergeFieldInfo
 _TIFFSetupFieldInfo
 _TIFFVGetField
 _TIFFVSetField
 _tools.txt
 _wjb
-`\tV_logd
 aoB>"
 ati_compress_wrapper.dll
 bValid
@@ -733,7 +733,7 @@ immediate
 incorrect count for field "%s" (%u, expecting %u); tag ignored
 incorrect count for field "%s" (%u, expecting %u); tag trimmed
 invalid vector subscript
-l\tV_powd
+j\tV_powd
 lineOrder
 ltmX.
 makemelast

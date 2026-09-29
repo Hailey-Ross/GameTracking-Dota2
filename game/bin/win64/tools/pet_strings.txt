@@ -100,6 +100,7 @@
 !?triggered@QAction@@QEAAX_N@Z
 !?triggered@QMenu@@QEAAXPEAVQAction@@@Z
 !\f?focusNextPrevChild@QScrollArea@@UEAA_N_N@Z
+!\tV_exp2f
 !bonemerge
 !layout_root
 !owning_panel
@@ -167,6 +168,7 @@
 "Predictor" value %d not supported
 "X?setAlpha@QColor@@QEAAXH@Z
 "\f?focusNextPrevChild@QTextBrowser@@MEAA_N_N@Z
+"\tV_expd
 "b}b*XhUu
 "channels" attribute not found in the header.
 "compression" attribute not found in the header.
@@ -189,12 +191,10 @@
 #\f?focusNextPrevChild@QTextEdit@@MEAA_N_N@Z
 #\n?columnCount@QSortFilterProxyModel@@UEBAHAEBVQModelIndex@@@Z
 #\r?hide@QWidget@@QEAAXXZ
-#\tV_exp2f
 #s>pC
 $#?windowIcon@QWidget@@QEBA?AVQIcon@@XZ
 $[?setRange@QDoubleValidator@@UEAAXNNH@Z
 $\f?focusNextPrevChild@QWidget@@MEAA_N_N@Z
-$\tV_expd
 % ?timerEvent@QMenu@@MEAAXPEAVQTimerEvent@@@Z
 %.100s: Can not read TIFF directory
 %.2f %.2f %.2f 
@@ -6403,6 +6403,7 @@ I[?setRgbF@QColor@@QEAAXNNNN@Z
 I\n?compare@QString@@QEBAHAEBV1@W4CaseSensitivity@Qt@@@Z
 I\r?endsWith@QString@@QEBA_NVQChar@@W4CaseSensitivity@Qt@@@Z
 I\r?hitButton@QCheckBox@@MEBA_NAEBVQPoint@@@Z
+I\tV_isinfd
 If (R%d) Jump to Instr I%d
 If (R%d) Leap to Chunk C%d
 If any actor has a pre-idle, the scripted sequence will wait until this inflow is invoked. Note that this will start the sequence for any scripted sequence waiting on this node.
@@ -6563,7 +6564,6 @@ KV3 syntax error: %s while parsing @entitygroup %s
 KV3DefaultTestFnName
 K\r?hitButton@QRadioButton@@MEBA_NAEBVQPoint@@@Z
 K\t?canConvert@QVariant@@QEBA_NH@Z
-K\tV_isinfd
 K\v?event@QLineEdit@@UEAA_NPEAVQEvent@@@Z
 Keep Current
 Keep in same mod(s) as originals (%1)
@@ -8896,7 +8896,7 @@ ZoomForwardBack3D
 \f\f?focusInEvent@QLabel@@MEAAXPEAVQFocusEvent@@@Z
 \f\n?cmp@QVariant@@QEBA_NAEBV1@@Z
 \f\n?deselect@QLineEdit@@QEAAXXZ
-\f\tV_acosd
+\f\tV_asind
 \fp\v`t3C
 \n   Size: L: <%i, %i>   A: <%i, %i>   Scale: %0.2f\n   Geometry: %s\n   Virtual Geometry: %s\n   Available Geometry: %s\n   Orientation: %s\n
 \n(this file): %s
@@ -8944,6 +8944,7 @@ ZoomForwardBack3D
 \n?editorEvent@QStyledItemDelegate@@MEAA_NPEAVQEvent@@PEAVQAbstractItemModel@@AEBVQStyleOptionViewItem@@AEBVQModelIndex@@@Z
 \nComplete!  ----------\n
 \n\r?heightForWidth@QBoxLayout@@UEBAHH@Z
+\n\tV_acosd
 \ng_flConfigMaxCoord
 \ng_flToolsDefaultFarZ
 \r?a7L>mt
@@ -9000,7 +9001,6 @@ ZoomForwardBack3D
 \t?defaultWidget@QWidgetAction@@QEBAPEAVQWidget@@XZ
 \t@@@@@@@@@@@@@@@@{N{N{N{N{N{N{N{N
 \tT?parent@QWindow@@QEBAPEAV1@XZ
-\tV_asind
 \tV_atan2d
 \tV_atand
 \tV_atanf
@@ -9042,12 +9042,14 @@ ZoomForwardBack3D
 ]?staticMetaObject@QWindow@@2UQMetaObject@@B
 ]X?setBackgroundMode@QPainter@@QEAAXW4BGMode@Qt@@@Z
 ]\r?horizontalOffset@QListView@@MEBAHXZ
+]\tV_log2f
 ^#?([0-9A-Fa-f]{6}|[0-9A-Fa-f]{3})
 ^#?([0-9A-Fa-f]{8}|[0-9A-Fa-f]{6}|[0-9A-Fa-f]{4}|[0-9A-Fa-f]{3})$
 ^?text@QClipboard@@QEBA?AVQString@@W4Mode@1@@Z
 ^L7B
 ^Q?lighter@QColor@@QEBA?AV1@H@Z
 ^\r?horizontalOffset@QTableView@@MEBAHXZ
+^\tV_logd
 _?texture@QBrush@@QEBA?AVQPixmap@@XZ
 _CustomCommand
 _CustomCommand%d
@@ -9057,7 +9059,6 @@ _TIFFSetupFieldInfo
 _TIFFVGetField
 _TIFFVSetField
 _\r?horizontalOffset@QTreeView@@MEBAHXZ
-_\tV_log2f
 _\v?event@QSlider@@UEAA_NPEAVQEvent@@@Z
 __CACHED_editcontext_provider_lookup
 __CursorQueue__
@@ -9096,7 +9097,6 @@ _wjb
 `Q?lightnessF@QColor@@QEBANXZ
 `W?rgba@QColor@@QEBAIXZ
 `\r?entryInfoList@QDir@@QEBA?AV?$QList@VQFileInfo@@@@V?$QFlags@W4Filter@QDir@@@@V?$QFlags@W4SortFlag@QDir@@@@@Z
-`\tV_logd
 `\v?event@QSpinBox@@MEAA_NPEAVQEvent@@@Z
 `t3C
 a:fulltype
@@ -9199,6 +9199,7 @@ branch
 button_zone
 c?Q3
 cR?metaObject@QDrag@@UEBAPEBUQMetaObject@@XZ
+c\tV_modfd
 c\v?event@QSplitterHandle@@MEAA_NPEAVQEvent@@@Z
 cableclass
 cannot parse filter header
@@ -9293,7 +9294,6 @@ e ?topLevelItem@QTreeWidget@@QEBAPEAVQTreeWidgetItem@@H@Z
 e"?validate@QSpinBox@@MEBA?AW4State@QValidator@@AEAVQString@@AEAH@Z
 e\f?foregroundRole@QWidget@@QEBA?AW4ColorRole@QPalette@@XZ
 e\n?dragEnterEvent@QAbstractItemView@@MEAAXPEAVQDragEnterEvent@@@Z
-e\tV_modfd
 e\v?event@QStatusBar@@MEAA_NPEAVQEvent@@@Z
 editor_friendly_name
 editor_group_name
@@ -9678,6 +9678,7 @@ itemtest_manifest
 j?8fe?
 jY?setFamily@QFont@@QEAAXAEBVQString@@@Z
 jZ?setMimeData@QDrag@@QEAAXPEAVQMimeData@@@Z
+j\tV_powd
 j\v?event@QTextBrowser@@MEAA_NPEAVQEvent@@@Z
 k"?value@QAbstractSlider@@QEBAHXZ
 k8?B
@@ -9690,7 +9691,6 @@ kv3:ParticleParamID_t
 l"?value@QDoubleSpinBox@@QEBANXZ
 lR?metaObject@QIntValidator@@UEBAPEBUQMetaObject@@XZ
 l\n?dragEnterEvent@QLineEdit@@MEAAXPEAVQDragEnterEvent@@@Z
-l\tV_powd
 l\v?event@QToolBar@@MEAA_NPEAVQEvent@@@Z
 labelPos
 labelText
@@ -10044,6 +10044,7 @@ null VP8Io passed to VP8GetHeaders()
 o KPBf
 oY.o<
 o\n?dragEnterEvent@QWidget@@MEAAXPEAVQDragEnterEvent@@@Z
+o\tV_remainderf
 o\v?event@QTreeWidget@@MEAA_NPEAVQEvent@@@Z
 observable_listeners
 observable_scope
@@ -10166,7 +10167,6 @@ pvec_color_white
 q?lZ
 qQ?lineTo@QPainterPath@@QEAAXAEBVQPointF@@@Z
 q\n?dragLeaveEvent@QAbstractScrollArea@@MEAAXPEAVQDragLeaveEvent@@@Z
-q\tV_remainderf
 q\v?event@QWidgetAction@@MEAA_NPEAVQEvent@@@Z
 quX?
 quiet
@@ -10484,6 +10484,7 @@ wyS]
 x"?valueFromText@QSpinBox@@MEBAHAEBVQString@@@Z
 x0Ysqx
 x\n?dragLeaveEvent@QListView@@MEAAXPEAVQDragLeaveEvent@@@Z
+x\tV_sind
 xddd
 yU?qt_metacall@QDoubleValidator@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 y\v?eventFilter@QCompleter@@MEAA_NPEAVQObject@@PEAVQEvent@@@Z
@@ -10491,7 +10492,6 @@ yield_token
 z?0f
 zU?qt_metacall@QDrag@@UEAAHW4Call@QMetaObject@@HPEAPEAX@Z
 z\n?dragLeaveEvent@QTextEdit@@MEAAXPEAVQDragLeaveEvent@@@Z
-z\tV_sind
 z\v?customEvent@QObject@@MEAAXPEAVQEvent@@@Z
 z\v?eventFilter@QDialog@@MEAA_NPEAVQObject@@PEAVQEvent@@@Z
 {\n?connectNotify@QObject@@MEAAXAEBVQMetaMethod@@@Z
